@@ -1,0 +1,72 @@
+_id: e34c3dee2bd1012b
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:72
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: e34c3dee2bd1012b
+name: Ataque de Mergulho
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢</strong></p><p>A criatura mergulha contra outra criatura, percorrendo pelo menos 6 metros em
+      linha reta antes de desferir um ataque de bico ou garra. Ao atingir o alvo, causa 1 dado de dano adicional do seu
+      ataque.</p>
+    chat: ''
+  identifier: ataque-de-mergulho
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    5d3784a16ac31d1c:
+      _id: 5d3784a16ac31d1c
+      type: utility
+      name: Ataque de Mergulho
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura mergulha contra outra criatura, percorrendo pelo menos 6 metros em linha reta antes de desferir
+          um ataque de bico ou garra. Ao atingir o alvo, causa 1 dado de dano adicional do seu ataque.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/ataque-de-mergulho-e34c3dee2bd1012b.webp"
+_key: '!items!e34c3dee2bd1012b'

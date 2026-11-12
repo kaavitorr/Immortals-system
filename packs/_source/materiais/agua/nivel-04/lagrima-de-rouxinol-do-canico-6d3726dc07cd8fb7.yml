@@ -1,0 +1,53 @@
+_id: 6d3726dc07cd8fb7
+_key: '!items!6d3726dc07cd8fb7'
+name: Lágrima de Rouxinol dos Caniços de Cristal
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/6d3726dc07cd8fb7.webp
+system:
+  identifier: material-alquimia-6d3726dc07cd8fb7
+  description:
+    value: <p><strong>Elemento:</strong> Água · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Parte de animal</p><p>O rouxinol dos Caniços de Cristal canta sobre veios de Qi aquático e faz nascer prismas de água ao redor das próprias asas. Suas lágrimas raras retêm uma ressonância límpida, usada em fórmulas destinadas à voz e à dispersão de tensões antigas nas essências internas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: c67d55906ca48f23
+sort: 7600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: agua
+      elementLabel: Água
+      level: 4
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/agua.json
+        originalName: Lágrima de Rouxinol do Caniço
+        sha256: 4e0ab61ab8b4f69e0e1dd88c53ff06dabfdca351a5290537230f83680b9c27bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

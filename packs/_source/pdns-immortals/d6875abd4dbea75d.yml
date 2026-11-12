@@ -1,0 +1,44 @@
+_id: d6875abd4dbea75d
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:16
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: d6875abd4dbea75d
+name: Corpo de Catástrofe
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: >-
+      <p>Quando essa criatura é morta, ela explode, causando 1d6 vezes o ND dela em dano de Energia. Todas as criaturas
+      em uma área de 5 metros + 1 metro para cada ND dessa criatura devem realizar uma Salvaguarda de Reflexo, sofrendo
+      todo o dano se falharem ou metade se obtiverem sucesso.</p>
+    chat: ''
+  identifier: corpo-de-catastrofe
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 8
+  prerequisites:
+    items: []
+    level: 8
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/corpo-de-catastrofe-d6875abd4dbea75d.webp"
+_key: '!items!d6875abd4dbea75d'

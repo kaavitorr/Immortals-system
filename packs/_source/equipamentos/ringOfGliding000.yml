@@ -1,0 +1,127 @@
+_id: ringOfGliding000
+_key: '!items!ringOfGliding000'
+name: Anel do Planeio
+type: equipment
+img: icons/equipment/finger/ring-band-engraved-scrolls-silver.webp
+system:
+  identifier: ring-gliding
+  description:
+    value: >-
+      <blockquote><p>Uma faixa de aço azul-pálido elegante com padrão espiralado no metal, que cria a ilusão de estar
+      perpetuamente girando lentamente no dedo de quem o veste.</p></blockquote><p>Este anel encantado concede a
+      habilidade de planar lateralmente durante uma queda.</p><h3>Planeio</h3><p>Grants the <strong>Gliding</strong>
+      action, allowing the bearer to laterally glide during a fall. The gliding distance scales with the
+      <strong>Tier</strong> of this prefix.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    bd4f365683b5a180:
+      _id: bd4f365683b5a180
+      type: utility
+      name: Planar
+      img: icons/creatures/magical/spirit-undead-winged-ghost.webp
+      sort: 0
+      activation:
+        type: reaction
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        value: >-
+          <p>If used while Em queda, you may laterally move a number of spaces from your initial location as you glide.
+          The gliding distance depends on the <strong>Tier</strong> of this prefix.</p><ul><li><p><strong>Tier
+          1:</strong> <strong>1 m</strong> per 20 m of descent.</p></li><li><p><strong>Tier 2:</strong> <strong>2
+          m</strong> per 20 m of descent.</p></li><li><p><strong>Tier 3:</strong> <strong>4 m</strong> per 20 m of
+          descent.</p></li></ul><p>You take no falling damage upon landing, nor are you rendered Caído.</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: self
+        value: null
+        special: ''
+      target:
+        override: true
+        prompt: true
+        template:
+          type: ''
+          size: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: self
+          count: ''
+          choice: false
+          special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  type:
+    value: ring
+    baseItem: ''
+  armor:
+    value: 0
+    dex: null
+    ability: ''
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: dNk8eE87Ep8GtNse
+sort: 400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: ringOfGliding000
+      sourceType: accessory
+      category: jewelry
+      quality: fine
+      enchantment: minor
+      properties: []
+      weaponDamagePending: false
+      manualEffects:
+        - Planeio

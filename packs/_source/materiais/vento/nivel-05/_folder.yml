@@ -1,0 +1,13 @@
+_id: 261a1627d4bd9224
+_key: '!folders!261a1627d4bd9224'
+name: Nível 5
+type: Item
+folder: 1854b698d40f63ca
+sorting: a
+sort: 500000
+color: '#51766d'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: vento
+      level: 5

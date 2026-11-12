@@ -1,0 +1,53 @@
+_id: 483abdb72d815e11
+_key: '!items!483abdb72d815e11'
+name: Pena da Ave Jian Solitária
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/483abdb72d815e11.webp
+system:
+  identifier: material-alquimia-483abdb72d815e11
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Parte de animal</p><p>Larga e cinza-negra, caída da ave de uma asa só que procura a outra metade na noite. Atada ao braço, leva flechas e mensagens por caminhos que só o breu conhece.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 200
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: c928a293515d0c69
+sort: 15800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 8
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Pena da Ave Jian Solitária
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

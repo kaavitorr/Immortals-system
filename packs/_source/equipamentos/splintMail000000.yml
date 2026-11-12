@@ -1,0 +1,66 @@
+_id: splintMail000000
+_key: '!items!splintMail000000'
+name: Armadura de Tiras
+type: equipment
+img: systems/Immortals-system/assets/wuxia/armaduras-heroicas-pintadas-v2/armadura-de-tiras.webp
+system:
+  identifier: splint-mail
+  description:
+    value: >-
+      <p>Uma camada de tiras metálicas verticais rebitadas a uma base de couro ou malha, a armadura de tiras oferece
+      forte proteção aos membros ao custo de alguma flexibilidade.</p><p><strong>Propriedades:</strong> Volumosa.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 40
+    units: kg
+  price:
+    value: 4800
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: heavy
+    baseItem: ''
+  armor:
+    value: 16
+    dex: null
+    ability: ''
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: amO0X74IO8uQIox5
+sort: 300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: splintMail000000
+      sourceType: armor
+      category: heavy
+      quality: standard
+      enchantment: mundane
+      properties:
+        - bulky
+      weaponDamagePending: false
+      manualEffects: []

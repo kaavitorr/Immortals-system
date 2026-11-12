@@ -1,0 +1,71 @@
+_id: periaptOfDetermi
+_key: '!items!periaptOfDetermi'
+name: Periapto da Determinação
+type: equipment
+img: icons/equipment/neck/amulet-round-engraved-blue.webp
+system:
+  identifier: amulet-determination
+  description:
+    value: >-
+      <blockquote><p>Um amuleto de prata gracioso incrustado de joias azuis que inspira uma sensação de firmeza enquanto
+      você o segura, preparado para resistir a qualquer desafio.</p></blockquote><p>Este periapto encantado fornece um
+      bônus à defesa de <strong>Vontade</strong>.</p><p><strong>Propriedades:</strong>
+      Vinculação.</p><h3>Determinação</h3><p>Increase <strong>Willpower</strong> defense by 1 for each
+      <strong>Tier</strong> of this suffix.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - mgc
+  equipped: false
+  attunement: required
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: wondrous
+    baseItem: ''
+  armor:
+    value: 0
+    dex: null
+    ability: ''
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: dNk8eE87Ep8GtNse
+sort: 300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: periaptOfDetermi
+      sourceType: accessory
+      category: jewelry
+      quality: fine
+      enchantment: minor
+      properties:
+        - investment
+      weaponDamagePending: false
+      manualEffects:
+        - Determinação

@@ -1,0 +1,53 @@
+_id: 4c42f3bde0d92646
+_key: '!items!4c42f3bde0d92646'
+name: Pena de Cegonha dos Véus de Brasa
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/4c42f3bde0d92646.webp
+system:
+  identifier: material-alquimia-4c42f3bde0d92646
+  description:
+    value: <p><strong>Elemento:</strong> Fogo · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Parte de animal</p><p>A cegonha dos Véus de Brasa envolve o ninho em camadas de Qi ígneo que retêm calor sem chama e apagam vapores turbulentos. Suas penas conservam a essência de abrigo térmico, empregada em preparados que harmonizam o repouso do espírito e a recuperação de corpos exauridos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: b11cdf05c43b394b
+sort: 13600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: fogo
+      elementLabel: Fogo
+      level: 7
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/fogo.json
+        originalName: Pena de Cegonha Fumaçenta
+        sha256: ba1a23c0b606945bb3806834a346654c7369238959758f3d2c8d2c74258f92bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

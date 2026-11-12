@@ -1,0 +1,77 @@
+name: Miragem Instintiva
+type: feat
+folder: b4cdf08eea2c07d5
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢</p><p>Ao usar 1 Ponto de Ação [⬢] a criatura pode criar pequenas ilusões, como
+      ocultar suas caudas e/ou orelhas ou criar objetos, sons e pequenas criaturas. Para 2 Ranks de Cultivo, as ilusões
+      que ela pode criar aumenta em +1 categoria de tamanho. Esses tipos de miragem tem sua CD para serem descobertas
+      como falsas.</p>
+    chat: ''
+  identifier: miragem-instintiva
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    05159450b8eb0bdf:
+      _id: 05159450b8eb0bdf
+      type: utility
+      name: Miragem Instintiva
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets: []
+      description:
+        value: >-
+          <p>Ao usar 1 Ponto de Ação [⬢] a criatura pode criar pequenas ilusões, como ocultar suas caudas e/ou orelhas
+          ou criar objetos, sons e pequenas criaturas. Para 2 Ranks de Cultivo, as ilusões que ela pode criar aumenta em
+          +1 categoria de tamanho. Esses tipos de miragem tem sua CD para serem descobertas como falsas.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: d8aa268279569a8d
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/ilusao-menor-7845b27e637b3835.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:mirageminstintiva
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Raposas Celestiais
+_key: '!items!d8aa268279569a8d'

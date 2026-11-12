@@ -1,0 +1,159 @@
+_id: shortbow00000000
+_key: '!items!shortbow00000000'
+name: Arco Curto
+type: weapon
+img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/arco-curto.webp
+system:
+  identifier: shortbow
+  description:
+    value: >-
+      <p>Compacto e rápido de armar, o arco curto destaca-se em tiro rápido de curta distância e escaramuças, favorecido
+      por batedores, caçadores e invasores ágeis.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 2
+    units: kg
+  price:
+    value: 240
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - two
+    - amm
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    504e10597563bab0:
+      _id: 504e10597563bab0
+      type: attack
+      name: Ataque
+      img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/arco-curto.webp
+      sort: 0
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '3'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      attack:
+        ability: ''
+        bonus: ''
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+        critical:
+          threshold: null
+      damage:
+        includeBase: true
+        parts: []
+        critical:
+          bonus: ''
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: m
+        value: 120
+        override: true
+        special: ''
+      target:
+        override: false
+        prompt: true
+        template:
+          type: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+  type:
+    value: martialR
+    baseItem: ''
+  ammunition:
+    type: arrow
+  range:
+    units: m
+    value: 120
+    long: null
+    reach: null
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - piercing
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - piercing
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+effects: []
+folder: NNHjWBS5AM148J20
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: shortbow00000000
+      sourceType: weapon
+      category: projectile2
+      quality: despertado
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: true
+      manualEffects: []

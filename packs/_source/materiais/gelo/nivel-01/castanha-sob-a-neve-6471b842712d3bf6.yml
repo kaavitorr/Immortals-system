@@ -1,0 +1,53 @@
+_id: 6471b842712d3bf6
+_key: '!items!6471b842712d3bf6'
+name: Castanha do Sono Níveo
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/6471b842712d3bf6.webp
+system:
+  identifier: material-alquimia-6471b842712d3bf6
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Planta</p><p>A castanheira só frutifica quando suas raízes atravessam bolsões de Qi sob neve intocada. Dentro da casca, o embrião permanece suspenso num frio brando; alquimistas aproveitam essa dormência para conservar a essência dos demais ingredientes durante o refino.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 814266407798d73b
+sort: 800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 1
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Castanha Sob a Neve
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

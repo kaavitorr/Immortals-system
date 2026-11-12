@@ -1,0 +1,28 @@
+{
+  "_id": "bacc60008d7ce299",
+  "name": "Pacote de Iscas",
+  "type": "loot",
+  "img": "systems/Immortals-system/assets/wuxia/equipamentos-antecedentes-pintados-v1/isca.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-isca",
+    "description": {
+      "value": "<p>Iscas para pesca.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "gear"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "isca"
+    }
+  },
+  "_key": "!items!bacc60008d7ce299"
+}

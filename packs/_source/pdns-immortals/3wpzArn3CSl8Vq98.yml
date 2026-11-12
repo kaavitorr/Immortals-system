@@ -1,0 +1,181 @@
+name: Multimembro
+type: archetype
+folder: dcb7bdd3e7181c6f
+system:
+  description:
+    value: >-
+      <p>Usa vários membros para encadear golpes, agarrões e contra-ataques. Pressiona por diferentes ângulos e prende
+      armas ou oponentes durante a troca de ataques.</p><p><strong>Resistência por ND:</strong> Físicos +1 | Ácido
+      +1</p><p><strong>Vulnerabilidade:</strong> Psíquico −6 | Alma −6 · Mov +1 |
+      5/ND</p><p><strong>Deslocamento:</strong> +1 até um máximo de 25</p><p><strong>Armaduras:</strong> Musculatura
+      Densa (10 + Con).</p><p><strong>Perícias:</strong> Proficiências: Atletismo, Intimidação, Percepção e
+      Sobrenatural.</p><p><strong>Salvaguardas:</strong> Proficiências: Vontade e
+      Fortitude.</p><p><strong>Aspectos:</strong> Corpo Inerte, Agressivo, Fanático, Implacável, Descuidado, Corpo
+      Robusto, Reativo, Mente Inexistente, Analisar Padrões, Aura do Medo.</p><p><strong>Habilidades:</strong> Golpe
+      Duplo, Golpe Giratório, Ataque em Cadeia, Enrolar, Abraço Esmagador, Regenerar Membro, Impacto Atordoante,
+      Contra-Golpe, Agarrar Projétil, Golpe Esmagador.</p><p><strong>Reações:</strong> Golpe Adicional, Contra-Golpe,
+      Agarrar Projétil.</p>
+    chat: ''
+  identifier: multimembro
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 3
+    dex: 2
+    con: 3
+    int: 1
+    wis: 2
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: 1
+      immune: false
+    piercing:
+      value: 1
+      immune: false
+    slashing:
+      value: 1
+      immune: false
+    acid:
+      value: 1
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: -6
+      immune: false
+    soul:
+      value: -6
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ath
+      - skills.itm
+      - skills.prc
+      - skills.ani
+      - saves.con
+      - saves.cha
+      - saves.str
+      - saves.wis
+    alternative:
+      - skills.ath
+      - skills.itm
+      - skills.prc
+      - skills.ani
+      - alternativeSaves.vontade
+      - alternativeSaves.fortitude
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.69fce788d9d15b15
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9149d2bde056a98a
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5bcca07b63f166e2
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53d435a7250164af
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8f56c3eb1f2f032e
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5fcf14c399d7a217
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.14b8b3a34b1a2993
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.05d16addb258c9b6
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.b71609205af77897
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6c3e03cf4f31410e
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.1a2c7d04572fb42e
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bfd51c9ea7cf377
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9f58c17ca809238a
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.935c1c39e5333fd6
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.fef42e1c5f273c51
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.38a87b70e6f341bd
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.51ef0393adc7e89f
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53a3e58d6c265d67
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.a1113fe1c7ca7100
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.569c09e7a5aa4734
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9cb70c1a39119c13
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.39ea5af9979fe435
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000021
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000006
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: 3wpzArn3CSl8Vq98
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/multimembro.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:multimembro
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 3wpzArn3CSl8Vq98
+_key: '!items!3wpzArn3CSl8Vq98'

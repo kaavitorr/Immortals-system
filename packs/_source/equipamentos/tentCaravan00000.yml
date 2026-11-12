@@ -1,0 +1,65 @@
+_id: tentCaravan00000
+_key: '!items!tentCaravan00000'
+name: Tenda (Caravana)
+type: tool
+img: icons/environment/settlement/tent-flag.webp
+system:
+  identifier: tent-caravan
+  description:
+    value: >-
+      <p>Folha maciça dobrável ou enrolável para construir abrigo temporário adequado para até doze ocupantes. Inclui
+      cordas, estacas e seis postes dobráveis de travamento que devem ser montados antes que a folha seja esticada sobre
+      eles.</p><p><strong>Propriedades:</strong> Empilhável.</p><p><strong>Profissões e conhecimentos:</strong>
+      Sobrevivência.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 20
+    units: kg
+  price:
+    value: 180
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: ''
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: eiHFNJQiIGesLyuw
+sort: 100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: tentCaravan00000
+      sourceType: tool
+      category: implement
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

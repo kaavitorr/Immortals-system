@@ -1,0 +1,43 @@
+_id: a768d6db7abb6d1d
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:18
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: a768d6db7abb6d1d
+name: Corpo Resistente
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: >-
+      <p>Essa criatura recebe 40 Pontos de Escudo. Esses Pontos de Escudo funcionam como PV temporários e são removidos
+      antes de quaisquer outros Pontos de Vida ou PV temporários.</p>
+    chat: ''
+  identifier: corpo-resistente
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 5
+  prerequisites:
+    items: []
+    level: 5
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/corpo-resistente-a768d6db7abb6d1d.webp"
+_key: '!items!a768d6db7abb6d1d'

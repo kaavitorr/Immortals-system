@@ -1,0 +1,176 @@
+name: Enxame
+type: archetype
+folder: 26a0e683ac977c63
+system:
+  description:
+    value: >-
+      <p>Luta como uma massa de corpos que cerca e sobrecarrega a presa. Espalha-se, recompõe-se e mantém ataques
+      sucessivos por diferentes direções.</p><p><strong>Resistência por ND:</strong> Cortante +1 | Perfurante
+      +1</p><p><strong>Vulnerabilidade:</strong> Fogo −6 | Ácido −6</p><p><strong>Deslocamento:</strong> +1 até um
+      máximo de 25</p><p><strong>Armaduras:</strong> Pele Fina (6 + Agi).</p><p><strong>Perícias:</strong>
+      Proficiências: Furtividade, Percepção, Sobrevivência e Atletismo.</p><p><strong>Salvaguardas:</strong>
+      Proficiências: Reflexo e Vontade.</p><p><strong>Aspectos:</strong> Mente Singular, Corpo Inerte, Superfície
+      Adesiva, Absorção Rápida, Caminhante de Superfícies, Implacável, Tática de Bando, Morte Falsa, Silenciosa, Fome
+      Insaciável.</p><p><strong>Habilidades:</strong> Divisão, Ataque em Cadeia, Digestão Rápida, Carnívoro Voraz,
+      Regenerar Membro, Nuvem de Esporos, Enrolar, Debandada, Golpe Giratório, Fuga
+      Escorregadia.</p><p><strong>Reações:</strong> Reformar Enxame, Ataque em Cadeia, Dispersar.</p>
+    chat: ''
+  identifier: enxame
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 2
+    dex: 4
+    con: 3
+    int: 1
+    wis: 1
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: 0
+      immune: false
+    piercing:
+      value: 1
+      immune: false
+    slashing:
+      value: 1
+      immune: false
+    acid:
+      value: -6
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: -6
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 0
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ste
+      - skills.prc
+      - skills.sur
+      - skills.ath
+      - saves.dex
+      - saves.int
+      - saves.con
+      - saves.cha
+    alternative:
+      - skills.ste
+      - skills.prc
+      - skills.sur
+      - skills.ath
+      - alternativeSaves.reflexo
+      - alternativeSaves.vontade
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.bf2f75f9bcad6213
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.75f70a8b76b5721e
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.69fce788d9d15b15
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4afa4131cc85e2bd
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5bcca07b63f166e2
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5b985b137ebe3303
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.98f7ed9c8403484e
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.58a51099f9439d17
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.104c69ff0d058f8c
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bfd51c9ea7cf377
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.935c1c39e5333fd6
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7b2266d4548264e1
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.eddd01f89bf11ace
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.840a1097e5a951d4
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53a3e58d6c265d67
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.a1113fe1c7ca7100
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e7393ac9f1af7af4
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.037a7d2566a620b3
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.af12ab92161ed24d
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8727b2b7070ef7d5
+      nd: 11
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.67e813cb17e4754f
+      nd: 14
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000011
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000003
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: FGeMUe8EpfN9bEqd
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/enxame.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:enxame
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: FGeMUe8EpfN9bEqd
+_key: '!items!FGeMUe8EpfN9bEqd'

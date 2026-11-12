@@ -1,0 +1,53 @@
+_id: ec93e5535e5171f0
+_key: '!items!ec93e5535e5171f0'
+name: Bile de Peixe-Lanterna do Breu
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/ec93e5535e5171f0.webp
+system:
+  identifier: material-alquimia-ec93e5535e5171f0
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Parte de animal</p><p>O peixe-lanterna do breu caça nas nascentes subterrâneas de Qi yin, usando uma luz que só aparece dentro da sombra. Sua bile conserva o avesso dessa luminosidade e fornece aos refinadores uma essência escura capaz de amortecer o brilho de outros ingredientes.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 200
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 4e144b90025c6567
+sort: 1400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 1
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Bílis de Peixe-Lanterna
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

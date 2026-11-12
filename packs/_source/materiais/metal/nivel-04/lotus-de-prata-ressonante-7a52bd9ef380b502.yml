@@ -1,0 +1,53 @@
+_id: 7a52bd9ef380b502
+_key: '!items!7a52bd9ef380b502'
+name: Lótus de Prata Ressonante
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/7a52bd9ef380b502.webp
+system:
+  identifier: material-alquimia-7a52bd9ef380b502
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Planta</p><p>Lótus de pétalas de prata verdadeira que floresce nas fendas das montanhas ressonantes. É base de pílulas que limpam meridianos obstruídos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 7de9db68c684280d
+sort: 6200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 4
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Lótus de Prata Ressonante
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

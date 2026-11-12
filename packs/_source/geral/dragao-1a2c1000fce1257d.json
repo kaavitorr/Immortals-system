@@ -1,0 +1,27 @@
+{
+  "_id": "1a2c1000fce1257d",
+  "name": "Dragão",
+  "type": "feat",
+  "folder": "1a2c000000000003",
+  "img": "systems/Immortals-system/assets/wuxia/ancestralidades-variantes-pintadas-v1/dragao.webp",
+  "system": {
+    "identifier": "especie-ce3f723d",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>São criaturas extremamente poderosas com corpos de serpentes que tem poder sobre diversos tipos de elementos dependendo de qual dragão ele é. Um meio dragão ou uma criatura que absorveu sangue de dragão está apta a receber seus benefícios.</p><p>Raridade: Extremamente Raro.</p><p>Afinidade: Escolha um elemento inicial e um intermediário para ter Afinidade.</p><p>Característica Única: Recebe resistência 30 ao elemento vindo de criaturas de até 1 Rank acima e sua velocidade de cultivo aumenta em 10% em áreas que contém uma grande quantidade de Qi do elemento que você possua afinidade.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Dragão",
+      "speciesLineage": true,
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000fce1257d"
+}

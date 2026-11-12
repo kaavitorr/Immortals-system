@@ -1,0 +1,41 @@
+_id: cd0e609a62dfc187
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:forcadescomunal:7e25c4fd0e57
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: cd0e609a62dfc187
+name: Força Descomunal
+folder: OcVvj7CqhIYNWBst
+system:
+  description:
+    value: <p>Seu limite de Atributo de Fortitude aumenta em +3.</p>
+    chat: ''
+  identifier: forca-descomunal
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/forca-descomunal-cd0e609a62dfc187.webp"
+_key: '!items!cd0e609a62dfc187'

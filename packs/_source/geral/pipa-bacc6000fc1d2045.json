@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000fc1d2045",
+  "name": "Pipa",
+  "type": "tool",
+  "img": "icons/tools/instruments/lute-gold-brown.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-pipa",
+    "description": {
+      "value": "<p>Instrumento musical chinês de cordas.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "art"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "pipa"
+    }
+  },
+  "_key": "!items!bacc6000fc1d2045"
+}

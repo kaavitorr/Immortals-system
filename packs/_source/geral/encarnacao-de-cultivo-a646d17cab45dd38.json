@@ -1,0 +1,131 @@
+{
+  "_id": "a646d17cab45dd38",
+  "name": "Encarnação de Cultivo",
+  "type": "feat",
+  "folder": "403ee9122963e764",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/encarnacao-de-cultivo.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-encarnacao-de-cultivo",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Imortalidade. <strong>Caminho:</strong> Reino da Imortalidade.</p><h2>Encarnação de Cultivo</h2><p><strong>Requisito:</strong> Lorde Divino</p><p>Ao sacrificar 1 nível do seu Cultivo, você pode criar um avatar que pode ser da Formação de Núcleo até 2 Ranks abaixo do seu nível de Cultivo atual. O avatar possui 25 Pontos de Vida para cada Rank de cultivo que ele possuir, a quantidade de Qi referente ao Rank e pode utilizar seus Conceitos com a mesma proficiência, mas todas as outras estatísticas é a do Rank respectivo para baixo e não pode recuperar Qi de nenhuma maneira. Se o avatar não for destruído e você absorve-lo para dentro de seu corpo novamente, você recupera o nível de cultivo gasto.</p><p>Você só pode ter 3 avatares criados por vez.</p><p><strong>Resolução:</strong> Você pode manter até 3 avatares criados simultaneamente. O narrador confirma o sacrifício de um nível de cultivo, configura o avatar e restitui o nível somente ao reabsorvê-lo intacto. Nenhum ator, Qi ou progressão é alterado automaticamente.</p>"
+    },
+    "activities": {
+      "f94ba966133cf8fc": {
+        "_id": "f94ba966133cf8fc",
+        "type": "utility",
+        "name": "Encarnação de Cultivo",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Imortalidade. <strong>Caminho:</strong> Reino da Imortalidade.</p><h2>Encarnação de Cultivo</h2><p><strong>Requisito:</strong> Lorde Divino</p><p>Ao sacrificar 1 nível do seu Cultivo, você pode criar um avatar que pode ser da Formação de Núcleo até 2 Ranks abaixo do seu nível de Cultivo atual. O avatar possui 25 Pontos de Vida para cada Rank de cultivo que ele possuir, a quantidade de Qi referente ao Rank e pode utilizar seus Conceitos com a mesma proficiência, mas todas as outras estatísticas é a do Rank respectivo para baixo e não pode recuperar Qi de nenhuma maneira. Se o avatar não for destruído e você absorve-lo para dentro de seu corpo novamente, você recupera o nível de cultivo gasto.</p><p>Você só pode ter 3 avatares criados por vez.</p><p><strong>Resolução:</strong> Você pode manter até 3 avatares criados simultaneamente. O narrador confirma o sacrifício de um nível de cultivo, configura o avatar e restitui o nível somente ao reabsorvê-lo intacto. Nenhum ator, Qi ou progressão é alterado automaticamente.</p>",
+          "chatFlavor": "Encarnação de Cultivo — Encarnação de Cultivo"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "encarnacao-de-cultivo",
+              "key": "incarnate",
+              "manualResolution": true,
+              "rule": "cultivationIncarnation",
+              "manualSacrifice": {
+                "cultivationLevel": 1
+              },
+              "maximumAvatars": 3,
+              "minimumRank": 2,
+              "maximumRankBelow": 2,
+              "hitPointsPerRank": 25,
+              "cannotRecoverQi": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Encarnação de Cultivo",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/encarnacao-de-cultivo.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "encarnacao-de-cultivo",
+        "categoria": "Imortalidade",
+        "caminho": "Reino da Imortalidade",
+        "requisitos": [
+          "Lorde Divino"
+        ],
+        "requirementRules": {
+          "type": "rank",
+          "min": 6
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "Você pode manter até 3 avatares criados simultaneamente.",
+          "O narrador confirma o sacrifício de um nível de cultivo, configura o avatar e restitui o nível somente ao reabsorvê-lo intacto. Nenhum ator, Qi ou progressão é alterado automaticamente."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!a646d17cab45dd38"
+}

@@ -1,0 +1,12 @@
+_id: 8e61a385d86bbe51
+_key: '!folders!8e61a385d86bbe51'
+name: Relâmpago
+type: Item
+folder: null
+sorting: m
+sort: 600000
+color: '#8b6c36'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: relampago

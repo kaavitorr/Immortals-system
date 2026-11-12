@@ -1,0 +1,53 @@
+_id: a7b2fbb071e54fe7
+_key: '!items!a7b2fbb071e54fe7'
+name: Girassol Espiritual da Colina
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/a7b2fbb071e54fe7.webp
+system:
+  identifier: material-alquimia-a7b2fbb071e54fe7
+  description:
+    value: <p><strong>Elemento:</strong> Luz · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Planta</p><p>Este girassol enraíza em um veio de Qi luminoso e acompanha sua circulação sob a pedra, mesmo quando o sol está encoberto. O disco central reúne uma essência dourada e densa, usada para alimentar preparados de luz ao longo do refinamento.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 3000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d4884f48ce4dfd96
+sort: 4400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: luz
+      elementLabel: Luz
+      level: 3
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/luz.json
+        originalName: Girassol Espiritual da Colina
+        sha256: a65d9c475ce3e69bcab79896f06bd1f00a0fcc1e5a6329d0e4735711f2236288
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

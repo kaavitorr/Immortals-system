@@ -1,0 +1,41 @@
+_id: 6c3e03cf4f31410e
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:19
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 6c3e03cf4f31410e
+name: Corpo Robusto
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: <p>Essa criatura recebe 1 Ponto de Constituição adicional e uma vantagem em Salvaguardas de Vontade.</p>
+    chat: ''
+  identifier: corpo-robusto
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/corpo-robusto-6c3e03cf4f31410e.webp"
+_key: '!items!6c3e03cf4f31410e'

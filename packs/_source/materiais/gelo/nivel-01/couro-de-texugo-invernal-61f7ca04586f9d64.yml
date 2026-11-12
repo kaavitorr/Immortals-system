@@ -1,0 +1,53 @@
+_id: 61f7ca04586f9d64
+_key: '!items!61f7ca04586f9d64'
+name: Couro de Texugo do Sono Branco
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/61f7ca04586f9d64.webp
+system:
+  identifier: material-alquimia-61f7ca04586f9d64
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Parte de animal</p><p>Esse texugo espiritual hiberna em cavernas seladas por geada, respirando o Qi que sobe das rochas. A pele listrada continua alternando contração e repouso após a retirada, amortecendo mudanças bruscas de temperatura em pastas e núcleos de pílulas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 814266407798d73b
+sort: 1800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 1
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Couro de Texugo Invernal
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

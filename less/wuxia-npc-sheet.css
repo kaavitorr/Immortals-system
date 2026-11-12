@@ -1,0 +1,227 @@
+/* NPC-specific composition. Palette, frames, tabs and item lists live in wuxia-sheet.css. */
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura {
+  --iw-portrait-width: 156px; --iw-portrait-inset: 16px; --iw-header-column-gap: 14px;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .window-content { gap: 12px; padding: 12px; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-hero,
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-hero.jj2-npc-has-profiles {
+  grid-template-columns: calc(var(--iw-portrait-width) + 2 * var(--iw-portrait-inset)) minmax(0,1fr);
+  gap: 18px; align-items: stretch; height: auto; min-height: 214px; max-height: none;
+  padding: 16px 18px 16px 0;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-hero-art {
+  align-self: center; min-height: 164px; height: 164px;
+  width: var(--iw-portrait-width); margin-inline: var(--iw-portrait-inset); padding: 4px;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .sheet-header .jj2-portrait > :is(img,video) {
+  padding: 4px; object-fit: contain; object-position: center; filter: brightness(.9) saturate(.85);
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-hero-identity { padding: 2px 0 0; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-nameplate { padding-right: 76px; margin: 0 0 8px; min-height: 34px; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-nameplate .document-name {
+  font: 600 27px/1.2 "Segoe UI",Arial,sans-serif; height: auto; max-height: none;
+  overflow-wrap: anywhere; text-shadow: none;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-nameplate.jj2-npc-name-long .document-name { font-size: 22px; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-nameplate input.document-name { height: 36px; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-nameplate h1.document-name { display: block; -webkit-line-clamp: unset; line-clamp: unset; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-header-meta {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 6px; padding-right: 76px;
+  margin: 0 0 14px; font: 500 11px/1.4 "Segoe UI",Arial,sans-serif; letter-spacing: .03em;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-header-meta > span {
+  padding: 3px 7px; border: 1px solid var(--iw-line); background: var(--iw-deep);
+  color: var(--iw-jade); border-radius: 2px;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-header-meta .jj2-npc-category { color: var(--iw-gold); background: var(--iw-color-metal-surface); border-color: var(--iw-color-bronze-shadow); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-profile-tags { flex: 1 1 100%; flex-wrap: wrap; gap: 5px; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-profile-tag,
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-profile-tag[data-profile-type=archetype] {
+  max-width: 100%; border: 1px solid var(--iw-line); border-radius: 2px; background: var(--iw-deep);
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-profile-open { gap: 6px; padding: 5px 7px; min-height: 26px; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-profile-open small { color: var(--iw-jade); font: 500 10px/1.3 "Segoe UI",Arial,sans-serif; text-transform: none; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-profile-open b { font: 600 11px/1.3 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-profile-remove { border-color: var(--iw-line); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura :is(.jj2-profile-open,.jj2-profile-remove):hover { background: var(--iw-color-hover); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-hero-resources { display: grid; grid-template-columns: minmax(100px,1fr) 248px; align-items: center; gap: 14px; margin: 0; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-header-bars { width: 100%; max-width: none; gap: 13px; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-header-emblems {
+  position: static; inset: auto; display: grid; grid-template-columns: repeat(3,76px);
+  align-items: start; justify-content: end; gap: 10px; width: 248px; padding: 0;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-header-emblems :is(.jj2-resource-sigil,.jj2-action-ring,.jj2-shield) { width: 76px; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-resource-heading label { font-weight: 500; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-header-emblems .jj2-resource-sigil .jj2-aura-sigil { visibility: visible; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-hero-actions { position: absolute; inset: 20px 18px auto auto; padding: 0; align-items: center; gap: 9px; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-rests { position: static; gap: 6px; }
+/* Cultivation seal: a quiet bronze plaque with a clear editable numeral. */
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-level.iw-npc-level-badge {
+  position: relative; isolation: isolate; display: grid; grid-template-rows: 36px 12px;
+  place-content: center; justify-items: center; gap: 2px; box-sizing: border-box;
+  width: 64px; min-width: 64px; height: 76px; padding: 15px 8px 11px;
+  border: 0; border-radius: 0; background: none; box-shadow: none; color: var(--iw-gold);
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .iw-npc-level-badge::before,
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .iw-npc-level-badge::after { display: none; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .iw-npc-level-frame {
+  position: absolute; inset: 0; z-index: -1; display: block; width: 64px; height: 76px;
+  max-width: none; max-height: none; transform: none; color: var(--iw-gold); pointer-events: none;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .iw-npc-level-surface { fill: var(--iw-deep); stroke-width: 1.15; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .iw-npc-level-inset { stroke: var(--iw-color-bronze-shadow); stroke-width: .7; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .iw-npc-level-engraving { stroke-width: .8; stroke-opacity: .7; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .iw-npc-level-badge .jj2-level-number {
+  position: static; inset: auto; display: grid; place-items: center; width: 100%; height: 36px; padding: 0; margin: 0;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .iw-npc-level-badge .jj2-level-number :is(input,strong) {
+  position: static; display: block; box-sizing: border-box; width: 100%; min-width: 0; height: 36px;
+  margin: 0; padding: 0; border: 0; border-radius: 3px; background: transparent; transform: none;
+  color: var(--iw-text); font: 600 27px/36px "Segoe UI",Arial,sans-serif;
+  font-variant-numeric: tabular-nums; letter-spacing: 0; text-align: center; text-shadow: none;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .iw-npc-level-badge input { appearance: textfield; -moz-appearance: textfield; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .iw-npc-level-badge input::-webkit-inner-spin-button,
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .iw-npc-level-badge input::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .iw-npc-level-badge input:focus-visible {
+  outline: 1px solid var(--iw-color-accent-muted); outline-offset: 1px; background: var(--iw-color-panel); box-shadow: none;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .iw-npc-level-badge:focus-within .iw-npc-level-frame { color: var(--iw-color-bronze-light); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .iw-npc-level-badge > .iw-npc-level-caption {
+  position: static; inset: auto; display: block; box-sizing: border-box; width: auto; height: 12px;
+  padding: 0; margin: 0; border: 0; border-radius: 0; background: none; transform: none; box-shadow: none;
+  color: var(--iw-gold); font: 500 9px/12px "Segoe UI",Arial,sans-serif;
+  letter-spacing: .025em; text-align: center; text-transform: none;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .main-content {
+  --iw-attributes-height: 118px; --iw-row-gap: 12px;
+  grid-template-columns: calc(var(--iw-portrait-width) + 2 * var(--iw-portrait-inset)) minmax(0,1fr);
+  grid-template-rows: var(--iw-attributes-height) minmax(0,1fr); gap: var(--iw-row-gap) var(--iw-header-column-gap);
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura.sidebar-collapsed .main-content { grid-template-columns: 23px minmax(0,1fr); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-attributes {
+  grid-template-rows: 100px; gap: 4px; padding: 8px 6px; border-radius: 2px;
+  border-color: var(--iw-line); background: var(--iw-color-panel); box-shadow: none;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-attributes .jj2-ability-label { font-size: 10px; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-sidebar { padding: 12px 10px; border-color: var(--iw-line); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-sidebar :is(.jj2-shortcuts h2,.jj2-favorites h2) {
+  font: 600 14px/1.4 "Segoe UI",Arial,sans-serif; color: var(--iw-text);
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-ed-head strong { font: 600 11px/1.35 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-ed-dice { font: 600 23px/1.3 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-favorites-empty { color: var(--iw-secondary); font: 12px/1.6 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-shortcut .jj2-shortcut-cost { color: var(--iw-gold); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-shortcut:hover { background: var(--iw-color-hover); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-summary :is(.jj2-panel,.jj2-npc-proficiency-panel) {
+  position: relative; padding: 15px 16px; border: 1px solid var(--iw-line);
+  background: var(--iw-color-panel); box-shadow: none;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-summary .jj2-panel > h2 {
+  display: flex; align-items: center; justify-content: flex-start; gap: 8px;
+  margin: 0 0 12px; padding: 0 0 9px; border: 0; border-bottom: 1px solid var(--iw-faint);
+  background: none; color: var(--iw-text); font: 600 14px/1.4 "Segoe UI",Arial,sans-serif;
+  text-transform: none; letter-spacing: 0;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-summary .jj2-panel > h2::after { display: none; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-summary .jj2-panel > h2 .jj2-icon { width: 16px; height: 16px; color: var(--iw-gold); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-fields { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-classification > .jj2-npc-fields { grid-template-columns: repeat(2,minmax(0,1fr)); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-classification > .jj2-npc-fields > label:last-child { grid-column: 1 / -1; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura :is(.jj2-npc-fields,.jj2-npc-temp-fields) label { color: var(--iw-secondary); font: 500 11px/1.4 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura :is(.jj2-npc-fields,.jj2-npc-temp-fields) :is(input,select) {
+  height: 32px; border: 1px solid var(--iw-line); border-radius: 2px;
+  background: var(--iw-deep); color: var(--iw-text); font: 500 12px/1.3 "Segoe UI",Arial,sans-serif;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-note { color: var(--iw-secondary); font: 11px/1.6 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-note strong { color: var(--iw-text); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-native-details { border-color: var(--iw-line); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-native-details summary { color: var(--iw-jade); font: 500 12px/1.5 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-distribution { border: 1px solid var(--iw-line); background: var(--iw-deep); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-distribution header strong { color: var(--iw-gold); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-distribution header strong span { color: var(--iw-secondary); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-distribution-values > div { border-color: var(--iw-line); background: var(--iw-color-panel); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-distribution-values span { color: var(--iw-secondary); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-distribution-values strong { color: var(--iw-text); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-proficiency-panel > summary {
+  color: var(--iw-text); font: 600 13px/1.5 "Segoe UI",Arial,sans-serif; text-transform: none;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-proficiency-panel > summary span { color: var(--iw-gold); font: 500 12px/1.4 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-shield-settings { display: flex; align-items: center; justify-content: space-between; gap: 12px; color: var(--iw-secondary); font: 500 12px/1.4 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-shield-settings strong { margin-left: 6px; color: var(--iw-gold); font-weight: 600; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-shield-settings .jj2-action { display: flex; align-items: center; gap: 6px; min-height: 28px; padding: 4px 8px; font-size: 11px; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .tab[data-tab=biography] > :is(.top,.middle,.bottom),
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .tab[data-tab=specialTraits] fieldset {
+  border: 1px solid var(--iw-line); border-radius: 2px; background: var(--iw-color-panel);
+  padding: 14px; color: var(--iw-text);
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .tab:is([data-tab=biography],[data-tab=specialTraits]) :is(h3,legend) {
+  border-color: var(--iw-line); color: var(--iw-text); font: 600 14px/1.4 "Segoe UI",Arial,sans-serif;
+  text-transform: none; letter-spacing: 0; text-shadow: none;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .tab:is([data-tab=biography],[data-tab=specialTraits]) :is(.editor-content,.form-group,.pills) { font: 12px/1.6 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura.iw-no-art .iw-wuxia-landscape { display: none; }
+@container iw-sheet (max-width: 710px) {
+  .dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-hero-resources { grid-template-columns: minmax(100px,1fr) 232px; gap: 10px; }
+  .dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-header-emblems { grid-template-columns: repeat(3,72px); width: 232px; gap: 8px; }
+  .dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-header-emblems :is(.jj2-resource-sigil,.jj2-action-ring,.jj2-shield) { width: 72px; }
+  .dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .main-content { grid-template-rows: var(--iw-attributes-height) minmax(0,1fr); }
+}
+@container iw-sheet (max-width: 620px) {
+  .dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-hero, .dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-hero.jj2-npc-has-profiles { gap: 12px; }
+  .dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-hero-resources { grid-template-columns: minmax(0,1fr); gap: 4px; }
+  .dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-header-emblems { justify-self: end; }
+  .dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-energy-settings .jj2-npc-fields { grid-template-columns: minmax(0,1fr); }
+}
+
+/* Native technique cards keep their activities, preparation and item controls. */
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .tab[data-tab=spells] { color: var(--iw-text); font: 12px/1.5 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .tab[data-tab=spells] :is(.items-header,.spellcasting.card > .header) {
+  background: var(--iw-color-panel) !important; border: 0; border-bottom: 1px solid var(--iw-line);
+  border-radius: 0; box-shadow: none; clip-path: none; transform: none;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .tab[data-tab=spells] :is(.items-header,.spellcasting.card > .header)::before,
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .tab[data-tab=spells] :is(.items-header,.spellcasting.card > .header)::after { display: none; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .tab[data-tab=spells] :is(.items-header h3,.spellcasting h3) {
+  background: transparent; color: var(--iw-text); font: 600 13px/1.4 "Segoe UI",Arial,sans-serif;
+  text-transform: none; text-shadow: none; letter-spacing: 0;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .tab[data-tab=spells] .spellcasting .label { color: var(--iw-secondary); font: 11px/1.4 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .tab[data-tab=spells] .spellcasting .value { color: var(--iw-jade); font: 600 22px/1.4 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .tab[data-tab=spells] .spellcasting .subtitle { color: var(--iw-gold); font: 11px/1.4 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .tab[data-tab=spells] :is(input,select) { background: var(--iw-deep); border-color: var(--iw-line); color: var(--iw-text); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .tab-body :is(.item-detail,.item-header,.subtitle) { text-shadow: none; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-npc-distribution > p { color: var(--iw-gold); }
+
+/* NPC growth priorities use the same quiet controls as the rest of the sheet. */
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-proficiency-editor { --order-purple: var(--iw-jade); --order-gold: var(--iw-gold); color: var(--iw-text); font: 12px/1.5 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-proficiency-order > li { background: var(--iw-deep); border-color: var(--iw-line); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-proficiency-position { font: 600 18px/1.4 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-proficiency-editor :is(.jj2-proficiency-budget > span,.jj2-proficiency-label small,.jj2-proficiency-empty,.jj2-proficiency-save-note) { color: var(--iw-secondary); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-proficiency-editor .jj2-proficiency-label strong { color: var(--iw-text); font: 600 12px/1.4 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-proficiency-editor .jj2-proficiency-growth { color: var(--iw-jade); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-proficiency-editor :is(button,select) { color: var(--iw-text); background: var(--iw-deep); border-color: var(--iw-line); font: 500 12px/1.4 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-proficiency-add > button { color: var(--iw-text); background: var(--iw-color-metal-surface); border-color: var(--iw-color-bronze-shadow); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-proficiency-controls button:not(:disabled):hover { color: var(--iw-text); background: var(--iw-color-hover); border-color: var(--iw-jade); }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-proficiency-reset { color: var(--iw-jade); background: transparent; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-proficiency-unspent { color: var(--iw-gold); }
+
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .jj2-page-heading h2 { font: 600 17px/1.4 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .tab[data-tab=spells] .items-header { min-height: 38px; padding: 10px 12px; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .tab[data-tab=spells] .item-name .title { color: var(--iw-text); font: 600 13px/1.4 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .tab[data-tab=spells] .item-name .subtitle { color: var(--iw-secondary); font: 11px/1.4 "Segoe UI",Arial,sans-serif; }
+
+/* Cultivation is the NPC level: the same realms and three stages as player characters. */
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .iw-npc-cultivation-summary {
+  display: flex; flex: 1 1 100%; align-items: baseline; flex-wrap: wrap; gap: 3px 10px;
+  color: var(--iw-gold); letter-spacing: 0;
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .iw-npc-cultivation-summary strong {
+  font: 600 13px/1.35 "Segoe UI",Arial,sans-serif; color: var(--iw-paper);
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .iw-npc-cultivation-summary span {
+  font: 400 11px/1.35 "Segoe UI",Arial,sans-serif; color: var(--iw-muted);
+}
+.dnd5e2.sheet.actor.npc.iw-wuxia.jj2-npc.jj2-ruptura .iw-npc-cultivation-fields {
+  display: grid; grid-column: 1 / -1; grid-template-columns: minmax(0,1fr) minmax(92px,.35fr); gap: 10px; min-width: 0;
+}

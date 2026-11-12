@@ -1,0 +1,71 @@
+_id: 64ef3aa646c5d402
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:109
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 64ef3aa646c5d402
+name: Estilhaçar
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: Variável</strong></p><p>Você desfere um golpe poderoso contra a criatura inimiga, causando 1
+      dado de dano adicional para cada ação extra que escolher consumir nesse ataque.</p>
+    chat: ''
+  identifier: estilhacar
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    ae84de0154dc3cb9:
+      _id: ae84de0154dc3cb9
+      type: utility
+      name: Estilhaçar
+      activation:
+        type: action
+        value: 0
+        condition: 'Ações: Variável'
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Você desfere um golpe poderoso contra a criatura inimiga, causando 1 dado de dano adicional para cada ação
+          extra que escolher consumir nesse ataque.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 7
+  prerequisites:
+    items: []
+    level: 7
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/estilhacar-64ef3aa646c5d402.webp"
+_key: '!items!64ef3aa646c5d402'

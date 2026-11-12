@@ -1,0 +1,65 @@
+_id: weatherClothing0
+_key: '!items!weatherClothing0'
+name: Roupas Climáticas
+type: equipment
+img: icons/equipment/back/cloak-heavy-fur-blue.webp
+system:
+  identifier: clothing-weather
+  description:
+    value: >-
+      <p>Um conjunto de roupas projetado para proteger o portador contra clima severo como extremos de temperatura,
+      vento ou umidade.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 2
+    units: kg
+  price:
+    value: 40
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: clothing
+    baseItem: ''
+  armor:
+    value: 0
+    dex: null
+    ability: ''
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: GVbpo5LtAY44QZPD
+sort: 500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: weatherClothing0
+      sourceType: accessory
+      category: clothing
+      quality: standard
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: false
+      manualEffects: []

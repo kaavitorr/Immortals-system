@@ -1,0 +1,84 @@
+name: Extermínio do Soberano Celestial
+type: feat
+folder: b4cdf08eea2c07d5
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢⬢⬢⬢⬢⬢</p><p>O dragão reúne as duas afinidades ao redor do corpo e atravessa o campo de
+      batalha em um avanço devastador. Ao usar 6 Pontos de Ação [⬢⬢⬢⬢⬢⬢] e 20 PQ, o dragão concentra sua enorme
+      quantidade de Qi e libera um sopro em uma área de 100 km de Cone. Todas as criaturas com um Rank de Cultivo
+      inteiro inferior ao dragão são exterminadas a menos que sejam protegidas por uma criatura de mesmo rank do dragão
+      ou superior.</p>
+    chat: ''
+  identifier: exterminio-do-soberano-celestial
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    acea5915ffb818dd:
+      _id: acea5915ffb818dd
+      type: utility
+      name: Extermínio do Soberano Celestial
+      activation:
+        type: action
+        value: 6
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '20'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>O dragão reúne as duas afinidades ao redor do corpo e atravessa o campo de batalha em um avanço devastador.
+          Ao usar 6 Pontos de Ação [⬢⬢⬢⬢⬢⬢] e 20 PQ, o dragão concentra sua enorme quantidade de Qi e libera um sopro em
+          uma área de 100 km de Cone. Todas as criaturas com um Rank de Cultivo inteiro inferior ao dragão são
+          exterminadas a menos que sejam protegidas por uma criatura de mesmo rank do dragão ou superior.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 15
+  prerequisites:
+    items: []
+    level: 15
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: 02b8810bc5104e40
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/sopro-elemental-7d388ad38dc52069.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:exterminiodosoberanocelestial
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Soberano Elemental
+_key: '!items!02b8810bc5104e40'

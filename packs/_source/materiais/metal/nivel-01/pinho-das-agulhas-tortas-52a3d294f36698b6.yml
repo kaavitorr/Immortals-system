@@ -1,0 +1,53 @@
+_id: 52a3d294f36698b6
+_key: '!items!52a3d294f36698b6'
+name: Pinho das Agulhas Ressonantes
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/52a3d294f36698b6.webp
+system:
+  identifier: material-alquimia-52a3d294f36698b6
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Planta</p><p>Este pinho anão cresce sobre veios de Qi metálico e orienta suas agulhas para fontes de movimento, produzindo uma vibração aguda sem vento. O extrato das agulhas põe em circulação essências estagnadas e integra preparados destinados à recuperação da sensibilidade dos membros.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 50
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 77a144bc11e1d2d8
+sort: 1000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 1
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Pinho das Agulhas Tortas
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

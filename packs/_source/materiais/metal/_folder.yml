@@ -1,0 +1,12 @@
+_id: 1e7500f1620000ec
+_key: '!folders!1e7500f1620000ec'
+name: Metal
+type: Item
+folder: null
+sorting: m
+sort: 300000
+color: '#5f6d78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: metal

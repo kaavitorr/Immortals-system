@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000110df7b0",
+  "name": "Bugiganga de Viagem",
+  "type": "loot",
+  "img": "systems/Immortals-system/assets/wuxia/equipamentos-antecedentes-pintados-v1/bugiganga-vagabundo.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-bugiganga-vagabundo",
+    "description": {
+      "value": "<p>Bugiganga de valor máximo de 1 PO; defina com o Narrador.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "gear"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "bugiganga-vagabundo"
+    }
+  },
+  "_key": "!items!bacc6000110df7b0"
+}

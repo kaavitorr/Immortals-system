@@ -1,0 +1,53 @@
+_id: 8cbb33c57a284d7e
+_key: '!items!8cbb33c57a284d7e'
+name: Garra de Lobo Uivante
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/8cbb33c57a284d7e.webp
+system:
+  identifier: material-alquimia-8cbb33c57a284d7e
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Parte de animal</p><p>Lobos que uivam em coro com as trovoadas têm garras azuladas. Usadas em colar, essas garras aceleram os movimentos das mãos do caçador.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 455dbcc3f1c7cdfb
+sort: 7200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 4
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Garra de Lobo Uivante
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

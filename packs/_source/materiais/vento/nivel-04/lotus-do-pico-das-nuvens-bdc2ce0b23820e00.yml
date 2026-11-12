@@ -1,0 +1,53 @@
+_id: bdc2ce0b23820e00
+_key: '!items!bdc2ce0b23820e00'
+name: Lótus do Pico das Nuvens
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/vento/bdc2ce0b23820e00.webp
+system:
+  identifier: material-alquimia-bdc2ce0b23820e00
+  description:
+    value: <p><strong>Elemento:</strong> Vento · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Planta</p><p>Flutua nos lagos de cume tocados por nuvens baixas. As sementes limpam os pulmões e preparam o corpo para o ar rarefeito.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: db88c774dbdf13cf
+sort: 6100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: vento
+      elementLabel: Vento
+      level: 4
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/vento.json
+        originalName: Lótus do Pico das Nuvens
+        sha256: f5db71d3cdec5cc798ab9829fe28f461a95ad76b46b89331433a614fa8d62814
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

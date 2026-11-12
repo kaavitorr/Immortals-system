@@ -1,0 +1,116 @@
+<div class="jj2m-shell">
+  {{#unless creationMode}}<header class="jj2m-header">
+    <div class="jj2m-identity">
+      <img src="{{actor.img}}" alt="" class="jj2m-portrait">
+      <div><span class="jj2m-eyebrow">Immortals Legacy</span><h2>Árvore de talentos de Qi</h2><p>{{actor.name}}</p></div>
+    </div>
+    <div class="jj2m-budget" aria-label="Escolhas de talento de Qi" aria-live="polite">
+      <div class="iw-qi-budget-group"><output>{{escolhas.disponiveis}}</output><div><strong>escolhas disponíveis</strong><span>{{escolhas.usadas}} de {{escolhas.totais}} utilizadas{{#if escolhas.concedidas}} · {{escolhas.concedidas}} concedida(s) pelo Mestre{{/if}}</span></div></div>
+      {{#each escolhasRestritas}}
+      {{#if this.disponiveis}}<div class="iw-qi-budget-group"><output>{{this.disponiveis}}</output><div><strong>escolhas para {{this.rotulo}}</strong><span>{{this.usados}} de {{this.quantidade}} utilizados — só para {{this.rotulo}}</span></div></div>{{/if}}
+      {{/each}}
+    </div>
+    <div class="jj2m-header-actions">
+      {{#if podeEditar}}<button type="button" data-action="comprar" data-tooltip="{{compraQi.motivo}}" {{#unless compraQi.disponivel}}disabled{{/unless}}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="add"}}<span>Talento · 5 PC</span></button>{{/if}}
+      {{#if ehGM}}<button type="button" class="jj2m-adm {{#if admMode}}on{{/if}}" data-action="adm" aria-pressed="{{admMode}}">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="edit"}}<span>Requisitos</span></button>{{/if}}
+      <button type="button" class="jj2m-icon-button" data-action="fechar" aria-label="Fechar árvore">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="close"}}</button>
+    </div>
+  </header>{{/unless}}
+  <div class="jj2m-layout">
+    <nav class="jj2m-categories" aria-label="Árvores de talento de Qi">
+      <h3>Talentos de Qi</h3>
+      {{#each categorias}}
+      <button type="button" class="jj2m-category {{#if ativa}}ativa{{/if}}" data-action="categoria" data-categoria="{{nome}}" aria-pressed="{{ativa}}" style="--category-color:{{cor}}">
+        <span class="jj2m-category-art"><img src="{{icone}}" alt="" loading="lazy"></span>
+        <span class="jj2m-category-copy"><strong>{{nome}}</strong><small>{{aprendidas}} / {{total}} aprendidas</small><progress class="iw-qi-category-progress" value="{{aprendidas}}" max="{{total}}" aria-label="Talentos aprendidos de {{nome}}"></progress></span>
+      </button>
+      {{/each}}
+      <details class="jj2m-rules"><summary>Regras de aquisição</summary><div><p>Receba 1 talento por nível de cultivo. A partir da Transformação Divina, receba também 2 escolhas exclusivas da Imortalidade.</p><p>Você pode comprar 1 escolha por 5 PC uma vez por reino. A troca geral de 10 PC continua disponível.</p><p>Após um combate mortal, o mestre pode conceder Evolução na Prática uma vez por descanso longo: +5 Qi máximo, até 3 PC ou uma habilidade de Qi de até um nível de cultivo acima.</p><p>Desbloqueios automáticos das Habilidades Básicas: confirmar a distribuição com o mestre.</p></div></details>
+      <p class="jj2m-nav-note">{{#if creationMode}}Explore o caminho completo. Habilidades bloqueadas também podem ser consultadas.{{else if admMode}}Modo Mestre: selecione uma habilidade para editar seus requisitos.{{else}}Escolha um talento de Qi para explorar seus caminhos.{{/if}}</p>
+    </nav>
+    <main class="jj2m-map">
+      {{#if creationMode}}<label class="jj2c-search jj2c-tree-search">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="tree"}}<input id="{{@root.rootId}}-specialization-search" type="search" data-creation-search value="{{search}}" placeholder="Buscar habilidade neste mapa" aria-label="Buscar Talento de Qi">{{#if search}}<output aria-live="polite">{{searchMatches}} encontrada(s)</output>{{/if}}</label>{{/if}}
+      <div class="jj2m-map-heading">
+        <img src="{{categoria.icone}}" alt="">
+        <div><h3>{{categoria.nome}}</h3><p>{{categoria.aprendidas}} / {{categoria.total}} aprendidas <span>{{quantidadeCaminhos}} {{#if (eq quantidadeCaminhos 1)}}caminho{{else}}caminhos{{/if}}</span></p></div>
+      </div>
+      <div class="jj2m-map-toolbar">
+        <div class="jj2m-legend"><span class="aprendida">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="check"}}Aprendida</span><span class="disponivel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="8"/></svg>Disponível</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="1"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Bloqueada</span></div>
+        <div class="jj2m-zoom">
+          <button type="button" class="jj2m-icon-button" data-action="reduzir" aria-label="Reduzir zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14"/></svg></button>
+          <output class="jj2m-zoom-value">100%</output>
+          <button type="button" class="jj2m-icon-button" data-action="ampliar" aria-label="Ampliar zoom">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="add"}}</button>
+          <button type="button" data-action="ajustar">Ver tudo</button>
+          <button type="button" data-action="centralizar" aria-label="Restaurar zoom e posição">100%</button>
+        </div>
+      </div>
+      <div class="jj2m-viewport" aria-label="Mapa de habilidades; arraste o fundo para mover">
+        {{#if mapa.nos.length}}
+        <div class="jj2m-stage" style="width:{{mapa.largura}}px;height:{{mapa.altura}}px;">
+          <svg class="jj2m-lines" width="{{mapa.largura}}" height="{{mapa.altura}}" viewBox="0 0 {{mapa.largura}} {{mapa.altura}}" aria-hidden="true">
+            {{#each mapa.linhas}}<path class="jj2m-line {{estado}} {{#if destaque}}destaque{{/if}}" d="{{d}}" data-de="{{de}}" data-para="{{para}}"/>{{/each}}
+          </svg>
+          {{#each mapa.caminhos}}
+          <div class="jj2m-path-heading" style="top:{{y}}px;">
+            <span class="jj2m-path-symbol">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="tree"}}</span>
+            <div class="jj2m-path-title"><span>Caminho de talento de Qi · {{quantidade}} habilidades</span><h4 class="jj2m-path-label" data-tooltip="{{nome}}">{{nome}}</h4></div>
+          </div>
+          {{/each}}
+          {{#each mapa.nos}}
+          <button type="button" class="jj2m-node {{estado}} {{#if selecionado}}selecionado{{/if}} {{#if exigido}}exigido{{/if}} {{#if searchMatch}}search-match{{/if}} {{#if searchDim}}search-dim{{/if}}" data-action="selecionar" data-nome="{{nome}}" data-uuid="{{uuid}}" aria-pressed="{{selecionado}}" data-tooltip="{{dica}}" style="left:{{x}}px;top:{{y}}px;">
+            <span class="jj2m-node-main"><span class="jj2m-node-art"><img src="{{img}}" alt="" loading="lazy"></span><strong>{{#if displayName}}{{displayName}}{{else}}{{nome}}{{/if}}</strong></span>
+            <span class="jj2m-node-status">
+              {{#if (eq estado "adquirido")}}{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="check"}}{{else if (eq estado "bloqueado")}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="1"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>{{else}}{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="add"}}{{/if}}
+              <span>{{#if contagem}}{{contagem.atual}} / {{contagem.max}} habilidades{{else if livre}}{{#if (eq estado "adquirido")}}Aprendida{{else}}Sem requisitos{{/if}}{{else}}{{estadoLabel}}{{/if}}</span>
+            </span>
+          </button>
+          {{/each}}
+        </div>
+        {{else}}<div class="jj2m-empty">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="tree"}}<h3>Nenhuma habilidade nesta árvore</h3><p>Confira a pasta Talentos de Qi no compendium Geral.</p></div>{{/if}}
+      </div>
+      <footer class="jj2m-map-footer"><span>Conexões indicam dependências entre habilidades.</span><span>Arraste para mover · Roda para zoom</span></footer>
+    </main>
+    <aside class="jj2m-detail" aria-label="Detalhes da habilidade">
+      {{#if selecionado}}
+      <div class="jj2m-detail-top"><span>{{selecionado.caminho}}</span><span class="jj2m-state {{selecionado.estado}}">{{selecionado.estadoLabel}}</span></div>
+      <div class="jj2m-detail-heading"><span class="jj2m-detail-art"><img src="{{selecionado.img}}" alt=""></span><h3>{{#if selecionado.displayName}}{{selecionado.displayName}}{{else}}{{selecionado.nome}}{{/if}}</h3></div>
+      <section class="jj2m-requirements"><h4>Requisitos</h4>
+        {{#each requisitos}}
+        <div class="jj2m-requirement {{#if ok}}cumprido{{else}}pendente{{/if}}">
+          <span class="jj2m-req-mark">{{#if ok}}{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="check"}}{{else}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="1"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>{{/if}}</span>
+          <div><p>{{texto}}</p>{{#if informativo}}<small>Verificar com o Mestre</small>{{/if}}
+            {{#each contagens}}<span class="jj2m-count">{{atual}} / {{max}} desbloqueadas · {{alvo}}</span><div class="jj2m-progress" role="progressbar" aria-label="Progresso do requisito" aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{pct}}"><span style="width:{{pct}}%"></span></div>{{/each}}
+            {{#if links.length}}<div class="jj2m-required-links">{{#each links}}<button type="button" data-action="requisito" data-nome="{{nome}}">Ver {{nome}}</button>{{/each}}</div>{{/if}}
+          </div>
+        </div>
+        {{else}}<p class="jj2m-free">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="check"}}Sem requisitos de habilidade</p>{{/each}}
+      </section>
+      <div class="jj2m-actions">
+        {{#if creationMode}}
+          {{#if selecionado.picked}}<button type="button" class="jj2m-learn esquecer" data-action="esquecer" data-nome="{{selecionado.nome}}" {{#if busy}}disabled{{/if}}>Desfazer escolha</button>
+          {{else}}<button type="button" class="jj2m-learn" data-action="aprender" data-nome="{{selecionado.nome}}" {{#unless selecionado.canChoose}}disabled{{/unless}}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="add"}}Escolher habilidade</button>{{/if}}
+          {{#if selecionado.reason}}<p class="jj2c-tree-reason">{{selecionado.reason}}</p>{{/if}}
+        {{else if podeEditar}}
+          {{#if (eq selecionado.estado "adquirido")}}
+            {{#if selecionado.concedida}}
+              {{#if ehGM}}<button type="button" class="jj2m-learn esquecer" data-action="revogar" data-nome="{{selecionado.nome}}">Revogar concessão</button>
+              {{else}}<button type="button" class="jj2m-learn" disabled>Concedida pelo Mestre</button>{{/if}}
+            {{else}}<button type="button" class="jj2m-learn esquecer" data-action="esquecer" data-nome="{{selecionado.nome}}">Desfazer escolha</button>{{/if}}
+          {{else}}
+            {{#if ehGM}}<button type="button" class="jj2m-learn gm" data-action="conceder" data-nome="{{selecionado.nome}}">Conceder (Mestre) · sem custo</button>{{/if}}
+            {{#if podeAprender}}
+              {{#if (eq selecionado.estado "disponivel")}}<button type="button" class="jj2m-learn" data-action="aprender" data-nome="{{selecionado.nome}}">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="add"}}Aprender · {{#if (and (not escolhas.disponiveis) temEscolhas)}}escolha de {{slotSelecionado}}{{else}}1 escolha{{/if}}</button>
+              {{else if ehGM}}<button type="button" class="jj2m-learn gm" data-action="aprender" data-nome="{{selecionado.nome}}">Forçar (Mestre) · 1 escolha</button>
+              {{else}}<button type="button" class="jj2m-learn" disabled>Requisitos pendentes</button>{{/if}}
+            {{else if ehGM}}<button type="button" class="jj2m-learn gm" data-action="aprender" data-nome="{{selecionado.nome}}">Forçar (Mestre) · sem escolhas</button>
+            {{else}}<button type="button" class="jj2m-learn" disabled>Sem escolhas disponíveis</button>{{/if}}
+          {{/if}}
+        {{else}}<button type="button" class="jj2m-learn" disabled>Somente leitura</button>{{/if}}
+        {{#unless creationMode}}<button type="button" class="jj2m-open" data-action="abrir">Abrir habilidade no compêndio</button>{{/unless}}
+      </div>
+      {{#if selecionadoHtml}}<section class="jj2m-description"><h4>Habilidade</h4><div>{{{selecionadoHtml}}}</div></section>{{/if}}
+      {{else if styleDetail}}<div class="jj2m-detail-heading"><span class="jj2m-detail-art"><img src="{{styleDetail.img}}" alt=""></span><h3>{{styleDetail.name}}</h3></div><section class="jj2m-description"><h4>Classe</h4><div>{{{styleHTML}}}</div></section><p class="jj2c-hint">Selecione uma habilidade no mapa para consultar seus requisitos e efeitos.</p>
+      {{else}}<div class="jj2m-empty">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="tree"}}<h3>Seu próximo passo</h3><p>Selecione uma habilidade para ver sua descrição e requisitos.</p></div>{{/if}}
+    </aside>
+  </div>
+</div>

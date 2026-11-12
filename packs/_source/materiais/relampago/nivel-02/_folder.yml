@@ -1,0 +1,13 @@
+_id: 635a2a44e928b124
+_key: '!folders!635a2a44e928b124'
+name: Nível 2
+type: Item
+folder: 8e61a385d86bbe51
+sorting: a
+sort: 200000
+color: '#8b6c36'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: relampago
+      level: 2

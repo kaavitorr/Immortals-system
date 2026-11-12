@@ -1,0 +1,11 @@
+_id: f1cbc70ac6eb92d9
+name: Nível 9
+type: Item
+folder: 15c0438a058c3465
+sorting: a
+sort: 900000
+color: '#77614b'
+flags:
+  Immortals-system:
+    oreMaterialLevel: 9
+_key: '!folders!f1cbc70ac6eb92d9'

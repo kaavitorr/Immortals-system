@@ -1,0 +1,85 @@
+_id: 925efc6abfb25ae3
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:94
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 925efc6abfb25ae3
+name: Cuspir Veneno
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢</strong></p><p>A criatura dispara uma rajada de veneno contra uma criatura a até 10 metros +
+      1 metro adicional por ND, causando o mesmo dano que seu ataque padrão.</p>
+    chat: ''
+  identifier: cuspir-veneno
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    76eb31167d1598dd:
+      _id: 76eb31167d1598dd
+      type: attack
+      name: Cuspir Veneno
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura dispara uma rajada de veneno contra uma criatura a até 10 metros + 1 metro adicional por ND,
+          causando o mesmo dano que seu ataque padrão.</p>
+        chatFlavor: ''
+      range:
+        value: 10 + @legacy2.nd
+        units: m
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: creature
+          count: '1'
+        override: true
+        prompt: true
+      attack:
+        type:
+          value: ranged
+          classification: weapon
+      damage:
+        includeBase: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@npcDamageDice + @npcPrincipal'
+            types:
+              - poison
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/cuspir-veneno-925efc6abfb25ae3.webp"
+_key: '!items!925efc6abfb25ae3'

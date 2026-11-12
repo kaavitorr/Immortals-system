@@ -1,0 +1,55 @@
+{
+  "_id": "0f56d87a94bf9fbe",
+  "name": "Força Transcendente Divina",
+  "type": "feat",
+  "folder": "403ee9122963e764",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/forca-transcendente-divina.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-forca-transcendente-divina",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Imortalidade. <strong>Caminho:</strong> Reino da Imortalidade.</p><h2>Força Transcendente Divina</h2><p><strong>Requisito:</strong> Lorde Sagrado</p><p>A partir do Rank de Lorde Sagrado, os jogadores podem começar a desenvolver sua própria Força Transcendente Divina, um Manual de Combate exclusivo de Rank Supremo.</p><p>Inicialmente, ela se manifesta em sua forma elementar, com estatísticas equivalentes às de um Manual de Rank Céu. Ao alcançar o Rank de Imperador Sagrado, ela evolui um Rank, atingindo finalmente o Rank Supremo quando o personagem alcança o Rank Empírico, momento em que seu desenvolvimento chega ao limite.</p><p><strong>Resolução:</strong> Desenvolva o manual exclusivo junto ao narrador; suas estatísticas exigem as regras de Manuais de Combate.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "forca-transcendente-divina",
+        "categoria": "Imortalidade",
+        "caminho": "Reino da Imortalidade",
+        "requisitos": [
+          "Lorde Sagrado"
+        ],
+        "requirementRules": {
+          "type": "rank",
+          "min": 7
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "divineTranscendentManual",
+            "initialQuality": "heaven",
+            "advancesAtRanks": [
+              8,
+              9
+            ],
+            "maximumQuality": "supreme"
+          }
+        ],
+        "manual": [
+          "Desenvolva o manual exclusivo junto ao narrador; suas estatísticas exigem as regras de Manuais de Combate."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!0f56d87a94bf9fbe"
+}

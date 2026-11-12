@@ -1,0 +1,13 @@
+_id: 0d2643a33acfbb27
+_key: '!folders!0d2643a33acfbb27'
+name: Nível 1
+type: Item
+folder: 8ced9861fc123267
+sorting: a
+sort: 100000
+color: '#71614f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: tempo
+      level: 1

@@ -1,0 +1,78 @@
+_id: 12adfd8dc000b361
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:191
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 12adfd8dc000b361
+name: Contra-Feitiço
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Quando uma criatura tentar ativar uma técnica que tenha essa criatura
+      como alvo, ela pode gastar 6 PQ para interromper a ativação da habilidade. A criatura que está ativando a técnica
+      deve consumir 5 PQ adicionais para completar a ativação; caso contrário, ela será interrompida.</p>
+    chat: ''
+  identifier: contra-feitico
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    1c31b284b9ea52f1:
+      _id: 1c31b284b9ea52f1
+      type: utility
+      name: Contra-Feitiço
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '6'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Quando uma criatura tentar ativar uma técnica que tenha essa criatura como alvo, ela pode gastar 6 PQ para
+          interromper a ativação da habilidade. A criatura que está ativando a técnica deve consumir 5 PQ adicionais
+          para completar a ativação; caso contrário, ela será interrompida.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 7
+  prerequisites:
+    items: []
+    level: 7
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/contra-feitico-12adfd8dc000b361.webp"
+_key: '!items!12adfd8dc000b361'

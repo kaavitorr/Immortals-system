@@ -1,0 +1,138 @@
+name: Homens-fera
+type: taxonomy
+folder: qlA6E7iL8quA7vVA
+system:
+  description:
+    value: >-
+      <p>Reúne humanoides com traços animais, como homens-rato, homens-javali e figuras de feições corvídeas, que
+      combinam anatomia humana e bestial.</p><p><strong>Resistência:</strong>
+      Nenhuma</p><p><strong>Vulnerabilidade:</strong> Nenhuma</p><p><strong>Deslocamento:</strong> Caminhada: 10
+      m</p><p><strong>Armaduras:</strong> Couro Leve (6 + Agi); tanque: Couro Pesado (10 +
+      Agi).</p><p><strong>Perícias:</strong> Proficiências: Furtividade, Enganação e
+      Sobrevivência.</p><p><strong>Salvaguardas:</strong> Proficiências: Reflexo e
+      Vontade.</p><p><strong>Aspectos:</strong> Tática de Bando, Faro Aguçado.</p>
+    chat: ''
+  identifier: homens-fera
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 2
+    dex: 3
+    con: 2
+    int: 2
+    wis: 1
+    cha: 2
+  resistencias:
+    bludgeoning:
+      value: 0
+      immune: false
+    piercing:
+      value: 0
+      immune: false
+    slashing:
+      value: 0
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 0
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ste
+      - skills.dec
+      - skills.sur
+      - saves.dex
+      - saves.int
+      - saves.con
+      - saves.cha
+    alternative:
+      - skills.ste
+      - skills.dec
+      - skills.sur
+      - alternativeSaves.reflexo
+      - alternativeSaves.vontade
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.MV2sEV4QPmukzwRH
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.K2n04gRVgy7GJ2Fd
+      nd: 0
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000004
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000004
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000003
+  vidaEnergia: false
+  energiaBase: 10
+  movimento:
+    walk: 10
+    swim: 0
+    fly: 0
+    climb: 0
+    burrow: 0
+_id: s2BT9E8xjJxdz1nV
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/taxonomias/homens-fera.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:taxonomy:homensfera
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: s2BT9E8xjJxdz1nV
+_key: '!items!s2BT9E8xjJxdz1nV'

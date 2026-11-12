@@ -1,0 +1,85 @@
+{
+  "_id": "bacc1000a9f7edb0",
+  "name": "Pescador",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/pescador.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-pescador",
+    "description": {
+      "value": "<p>Um pescador é um homem simples que passou maior parte da sua vida no mar e isso lhe deu certas vantagens em relação aos outros, principalmente em sua resistência, a vida de um pescador não é fácil devido a luta constante contra o mar. Enquanto eles não são hábeis em lutas, sua capacidade de sobrevivência no mar não é nada senão impressionante.</p><h3>Equipamentos iniciais</h3><p>Uma vara de pesca profissional, um cantil e um pacote de iscas. <strong>100 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc2000a9f7edb0]{Rei da Região}</h3><p>Pescaria com certeza é uma arte antiga e honesta, mas de vez em quando coisas sobrenaturais podem acabar saindo do mar. Toda vez que você parar para pescar em um lago grande ou mar aberto, você pode rolar um Teste de Sorte CD 16. Em caso de sucesso, você consegue fazer com que um peixe gigante morda a isca. O peixe tem 18 de força e deve ser pescado através de um teste resistido. Caso você consiga puxa-lo com sucesso, você pode rolar 1d20, em caso de 20 natural, o peixe é de uma nova espécie.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc5000a9f7edb0",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 100,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc3000a9f7edb0": {
+        "_id": "bacc3000a9f7edb0",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc2000a9f7edb0",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc7000a9f7edb0": {
+        "_id": "bacc7000a9f7edb0",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.fishingPole00000",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000b6fc2af6",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc60008d7ce299",
+              "quantity": 1,
+              "optional": false
+            }
+          ],
+          "currency": {
+            "gp": 100
+          },
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "pescador",
+        "startingGold": 100,
+        "equipment": "Uma vara de pesca profissional, um cantil e um pacote de iscas."
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc1000a9f7edb0"
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "49abddc8ec5e0dba",
+  "name": "Livro de Receitas Gerais de Alquimia",
+  "type": "loot",
+  "folder": "34be9554e1bd424a",
+  "img": "systems/Immortals-system/assets/wuxia/ferramentas-pintadas-v1/livro-de-receitas-gerais-de-alquimia.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-livro-de-receitas-gerais-de-alquimia",
+    "type": {
+      "value": "gear"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p>Existem diversas receitas de pílulas no mundo, algumas são receitas originais enquanto outras são extremamente raras. Quando você se torna um alquimista, ou até antes disso, você pode gastar 500 pedras espirituais para comprar um livro de receitas gerais, que te dá acesso a algumas receitas básicas que vão de nível 1 a 10.</p><p><strong>Resolução:</strong> A posse do livro fornece a referência descrita, mas não concede automaticamente talento nem nível profissional. Ferramenta ou suprimento da profissão; não concede talento, perícia, receita ou proficiência automaticamente. A fonte não define uma receita de fabricação para este objeto.</p><p><strong>Pendente:</strong> Preço autoral de 500 pedras espirituais; moeda sem conversão definida para as moedas da ficha.</p>"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "livro-de-receitas-gerais-de-alquimia",
+        "kind": "tool",
+        "profession": "alchemy",
+        "level": null,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionProductsContentVersion": 2,
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "A posse do livro fornece a referência descrita, mas não concede automaticamente talento nem nível profissional.",
+          "Ferramenta ou suprimento da profissão; não concede talento, perícia, receita ou proficiência automaticamente. A fonte não define uma receita de fabricação para este objeto."
+        ],
+        "pending": [
+          "Preço autoral de 500 pedras espirituais; moeda sem conversão definida para as moedas da ficha."
+        ]
+      }
+    }
+  },
+  "_key": "!items!49abddc8ec5e0dba"
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "1a2c1000bcb386a6",
+  "name": "Físico Insano",
+  "type": "feat",
+  "folder": "1a2c000000000002",
+  "img": "systems/Immortals-system/assets/wuxia/caracteristicas-especie-pintadas-v1/fisico-insano.webp",
+  "system": {
+    "identifier": "especie-06e88fe6",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Físico Insano: Você recebe [-1 ações]1 de Classe de resistência; e tem resistência BÔNUS de [-1 ações]1 em dano Contundente, Cortante e Perfurante para cada Rank de cultivo que você possui.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Físico Insano",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000bcb386a6"
+}

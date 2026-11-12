@@ -1,0 +1,138 @@
+name: Primatas
+type: taxonomy
+folder: fZyeJv7PnnBRGusQ
+system:
+  description:
+    value: >-
+      <p>Reúne primatas como macacos, babuínos, chimpanzés e gorilas, além de formas gigantes ou amaldiçoadas desses
+      animais.</p><p><strong>Resistência:</strong> Cortante +3 | Contundente + 3</p><p><strong>Vulnerabilidade:</strong>
+      Psíquico – 3 | Alma -3</p><p><strong>Deslocamento:</strong> Caminhada: 9 m | Escalada: 12
+      m</p><p><strong>Armaduras:</strong> Couro Leve (6 + Agi); tanque: Couro Pesado (10 +
+      Agi).</p><p><strong>Perícias:</strong> Proficiências: Atletismo, Intimidação e
+      Percepção.</p><p><strong>Salvaguardas:</strong> Proficiências: Fortitude e
+      Vontade.</p><p><strong>Aspectos:</strong> Força Descomunal, Escalador.</p>
+    chat: ''
+  identifier: primatas
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 4
+    dex: 3
+    con: 2
+    int: 2
+    wis: 1
+    cha: 0
+  resistencias:
+    bludgeoning:
+      value: 3
+      immune: false
+    piercing:
+      value: 0
+      immune: false
+    slashing:
+      value: 3
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: -3
+      immune: false
+    soul:
+      value: -3
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ath
+      - skills.itm
+      - skills.prc
+      - saves.str
+      - saves.wis
+      - saves.con
+      - saves.cha
+    alternative:
+      - skills.ath
+      - skills.itm
+      - skills.prc
+      - alternativeSaves.fortitude
+      - alternativeSaves.vontade
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.cbe7803586c06fb2
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.K2n04gRVgy7GJ2Fd
+      nd: 0
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000004
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000006
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000003
+  vidaEnergia: false
+  energiaBase: 10
+  movimento:
+    walk: 9
+    swim: 0
+    fly: 0
+    climb: 12
+    burrow: 0
+_id: 7QqzvZU31BjUdZNp
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/taxonomias/primatas.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:taxonomy:primatas
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 7QqzvZU31BjUdZNp
+_key: '!items!7QqzvZU31BjUdZNp'

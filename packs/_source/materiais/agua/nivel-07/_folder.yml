@@ -1,0 +1,13 @@
+_id: 75d32e28a5e7b26f
+_key: '!folders!75d32e28a5e7b26f'
+name: Nível 7
+type: Item
+folder: c850a5148710bf94
+sorting: a
+sort: 700000
+color: '#365f78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: agua
+      level: 7

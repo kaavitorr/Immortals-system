@@ -1,0 +1,53 @@
+_id: a9c3310b664e1a0e
+_key: '!items!a9c3310b664e1a0e'
+name: Alga de Prata Líquida
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/a9c3310b664e1a0e.webp
+system:
+  identifier: material-alquimia-a9c3310b664e1a0e
+  description:
+    value: <p><strong>Elemento:</strong> Água · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Planta</p><p>Esta alga se forma em poças interiores alimentadas por Qi profundo e ondula com brilho de prata mesmo em água imóvel. Seu gel retém essências dispersas sem endurecê-las, constituindo uma matriz de Água para elixires destinados à reserva, recomposição e circulação do Qi.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 1000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: b0b6d3677b445c34
+sort: 4200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: agua
+      elementLabel: Água
+      level: 3
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/agua.json
+        originalName: Alga de Prata Líquida
+        sha256: 4e0ab61ab8b4f69e0e1dd88c53ff06dabfdca351a5290537230f83680b9c27bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

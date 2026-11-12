@@ -1,0 +1,279 @@
+{
+  "_id": "9d71400507c116a5",
+  "name": "Aprimorar Alcance",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/aprimorar-alcance.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-aprimorar-alcance",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Aprimorar Alcance</h2><p><strong>Requisito:</strong> Um gesto qualquer</p><p>Ao executar uma Técnica, você pode gastar 1 PA para aumentar seu alcance, sem limite para a quantidade máxima de PA que pode ser utilizada dessa forma.</p><ul><li>Linha ou Flecha: Aumenta o alcance da Técnica em 3 metros adicionais.</li><li>Cone ou Leque: Aumenta o alcance da Técnica em 2 metros adicionais.</li><li>Raio ou Emanação: Aumenta o alcance da Técnica em 1 metro adicional.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. Repita o acréscimo e seu pagamento por ação adicional, sem limite definido.</p>"
+    },
+    "activities": {
+      "a71ddb569a4cf456": {
+        "_id": "a71ddb569a4cf456",
+        "type": "utility",
+        "name": "Ampliar Linha ou Flecha",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Aprimorar Alcance</h2><p><strong>Requisito:</strong> Um gesto qualquer</p><p>Ao executar uma Técnica, você pode gastar 1 PA para aumentar seu alcance, sem limite para a quantidade máxima de PA que pode ser utilizada dessa forma.</p><ul><li>Linha ou Flecha: Aumenta o alcance da Técnica em 3 metros adicionais.</li><li>Cone ou Leque: Aumenta o alcance da Técnica em 2 metros adicionais.</li><li>Raio ou Emanação: Aumenta o alcance da Técnica em 1 metro adicional.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. Repita o acréscimo e seu pagamento por ação adicional, sem limite definido.</p>",
+          "chatFlavor": "Aprimorar Alcance — Ampliar Linha ou Flecha"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "aprimorar-alcance",
+              "key": "line-arrow",
+              "manualResolution": true,
+              "rule": "extendRange",
+              "meters": 3,
+              "modifiesExistingTechnique": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Ampliar Linha ou Flecha",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/aprimorar-alcance.webp"
+      },
+      "f1670833526fce47": {
+        "_id": "f1670833526fce47",
+        "type": "utility",
+        "name": "Ampliar Cone ou Leque",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Aprimorar Alcance</h2><p><strong>Requisito:</strong> Um gesto qualquer</p><p>Ao executar uma Técnica, você pode gastar 1 PA para aumentar seu alcance, sem limite para a quantidade máxima de PA que pode ser utilizada dessa forma.</p><ul><li>Linha ou Flecha: Aumenta o alcance da Técnica em 3 metros adicionais.</li><li>Cone ou Leque: Aumenta o alcance da Técnica em 2 metros adicionais.</li><li>Raio ou Emanação: Aumenta o alcance da Técnica em 1 metro adicional.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. Repita o acréscimo e seu pagamento por ação adicional, sem limite definido.</p>",
+          "chatFlavor": "Aprimorar Alcance — Ampliar Cone ou Leque"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "aprimorar-alcance",
+              "key": "cone-fan",
+              "manualResolution": true,
+              "rule": "extendRange",
+              "meters": 2,
+              "modifiesExistingTechnique": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Ampliar Cone ou Leque",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/aprimorar-alcance.webp"
+      },
+      "f6719485f64b2b8f": {
+        "_id": "f6719485f64b2b8f",
+        "type": "utility",
+        "name": "Ampliar Raio ou Emanação",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Aprimorar Alcance</h2><p><strong>Requisito:</strong> Um gesto qualquer</p><p>Ao executar uma Técnica, você pode gastar 1 PA para aumentar seu alcance, sem limite para a quantidade máxima de PA que pode ser utilizada dessa forma.</p><ul><li>Linha ou Flecha: Aumenta o alcance da Técnica em 3 metros adicionais.</li><li>Cone ou Leque: Aumenta o alcance da Técnica em 2 metros adicionais.</li><li>Raio ou Emanação: Aumenta o alcance da Técnica em 1 metro adicional.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. Repita o acréscimo e seu pagamento por ação adicional, sem limite definido.</p>",
+          "chatFlavor": "Aprimorar Alcance — Ampliar Raio ou Emanação"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "aprimorar-alcance",
+              "key": "radius-emanation",
+              "manualResolution": true,
+              "rule": "extendRange",
+              "meters": 1,
+              "modifiesExistingTechnique": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Ampliar Raio ou Emanação",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/aprimorar-alcance.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "aprimorar-alcance",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Controle de Qi",
+        "requisitos": [
+          "Um gesto qualquer"
+        ],
+        "requirementRules": {
+          "type": "anyGesture"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. Repita o acréscimo e seu pagamento por ação adicional, sem limite definido."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!9d71400507c116a5"
+}

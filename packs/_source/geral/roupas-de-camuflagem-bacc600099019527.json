@@ -1,0 +1,28 @@
+{
+  "_id": "bacc600099019527",
+  "name": "Roupas de Camuflagem",
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-heavy-fur-blue.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-camuflagem",
+    "description": {
+      "value": "<p>Roupas de camuflagem do soldado.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "clothing"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "camuflagem"
+    }
+  },
+  "_key": "!items!bacc600099019527"
+}

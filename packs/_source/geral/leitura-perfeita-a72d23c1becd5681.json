@@ -1,0 +1,53 @@
+{
+  "_id": "a72d23c1becd5681",
+  "name": "Leitura Perfeita",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/leitura-perfeita.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-leitura-perfeita",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo da Alma.</p><h2>Leitura Perfeita</h2><p><strong>Requisito:</strong> 2º Revolução</p><p>Você aprendeu a ler e influenciar o Qi e a Alma das criaturas inimigas por meio de sua própria intenção, transformando o combate em uma dança de pura maestria ao criar fintas tão precisas que enganam completamente o adversário.</p><p>Desde que você não esteja utilizando nenhuma armadura Média ou Pesada, você recebe um bônus em sua Classe de Resistência igual à metade do seu Atributo de Presença, arredondado para baixo. Essa característica não soma com similares (que adicionam metade do atributo a CR).</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "leitura-perfeita",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo da Alma",
+        "requisitos": [
+          "2º Revolução"
+        ],
+        "requirementRules": {
+          "type": "soul",
+          "min": 3
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "conditionalArmorClass",
+            "formula": "floor(@abilities.cha.value / 2)",
+            "noArmor": [
+              "medium",
+              "heavy"
+            ],
+            "stacksWithSimilar": false
+          }
+        ],
+        "manual": [],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!a72d23c1becd5681"
+}

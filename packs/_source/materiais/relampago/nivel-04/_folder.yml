@@ -1,0 +1,13 @@
+_id: 455dbcc3f1c7cdfb
+_key: '!folders!455dbcc3f1c7cdfb'
+name: Nível 4
+type: Item
+folder: 8e61a385d86bbe51
+sorting: a
+sort: 400000
+color: '#8b6c36'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: relampago
+      level: 4

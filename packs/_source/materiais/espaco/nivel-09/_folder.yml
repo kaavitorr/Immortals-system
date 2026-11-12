@@ -1,0 +1,13 @@
+_id: 0103596f6ed072f2
+_key: '!folders!0103596f6ed072f2'
+name: Nível 9
+type: Item
+folder: 57c7cfa4d7a2235f
+sorting: a
+sort: 900000
+color: '#445674'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: espaco
+      level: 9

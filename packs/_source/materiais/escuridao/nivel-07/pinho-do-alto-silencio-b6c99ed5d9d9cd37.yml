@@ -1,0 +1,53 @@
+_id: b6c99ed5d9d9cd37
+_key: '!items!b6c99ed5d9d9cd37'
+name: Pinho do Alto Silêncio
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/b6c99ed5d9d9cd37.webp
+system:
+  identifier: material-alquimia-b6c99ed5d9d9cd37
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Planta</p><p>Enraíza em cristas onde o Qi yin envolve as correntes de ar antes que produzam ressonância, formando agulhas negras de bordas prateadas. Sua resina preserva essa quietude em uma película resistente, empregada para fixar essências e sustentar inscrições de escuridão de alto grau.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 6d3d81d8f7f845fe
+sort: 12700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 7
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Pinho do Alto Silêncio
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

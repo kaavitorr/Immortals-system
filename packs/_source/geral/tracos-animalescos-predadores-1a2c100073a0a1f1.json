@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c100073a0a1f1",
+  "name": "Traços Animalescos — Predadores",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/mammals/wolf-shadow-black.webp",
+  "system": {
+    "identifier": "especie-2c19abb1",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Predadores. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c10000e1ba6aa": {
+        "_id": "1a2c10000e1ba6aa",
+        "type": "ItemChoice",
+        "title": "Duas características — Predadores",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.6pTyiKHQ55ernE7Y"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.K2n04gRVgy7GJ2Fd"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Predadores",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c100073a0a1f1"
+}

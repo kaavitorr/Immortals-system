@@ -1,0 +1,44 @@
+{
+  "_id": "a6f072e3932e071f",
+  "name": "Conjunto de Ferramentas de Forja",
+  "type": "tool",
+  "folder": "34be9554e1bd424a",
+  "img": "systems/Immortals-system/assets/wuxia/ferramentas-pintadas-v1/conjunto-de-ferramentas-de-forja.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-conjunto-de-ferramentas-de-forja",
+    "type": {
+      "value": "art"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p>Ferramentas de Mestre Artesão: 4 Lingotes de Ferro, 1 Livro Sobre Minerais Raros, 1 Bigorna, 1 Conjunto de Ferramentas de Forja.</p><p><strong>Resolução:</strong> Ferramenta ou suprimento da profissão; não concede talento, perícia, receita ou proficiência automaticamente. A fonte não define uma receita de fabricação para este objeto.</p>"
+    },
+    "activities": {},
+    "equipped": false,
+    "ability": "wis",
+    "proficient": null,
+    "bonus": ""
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "conjunto-de-ferramentas-de-forja",
+        "kind": "tool",
+        "profession": "artisan",
+        "level": null,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionProductsContentVersion": 2,
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Ferramenta ou suprimento da profissão; não concede talento, perícia, receita ou proficiência automaticamente. A fonte não define uma receita de fabricação para este objeto."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!a6f072e3932e071f"
+}

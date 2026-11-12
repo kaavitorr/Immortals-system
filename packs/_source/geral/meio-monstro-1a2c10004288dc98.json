@@ -1,0 +1,132 @@
+{
+  "_id": "1a2c10004288dc98",
+  "name": "Meio Monstro",
+  "type": "race",
+  "img": "systems/Immortals-system/assets/wuxia/especies-pintadas-v1/meio-monstro.webp",
+  "folder": "1a2c000000000001",
+  "system": {
+    "identifier": "especie-meio-monstro",
+    "type": {
+      "value": "humanoid"
+    },
+    "description": {
+      "value": "<p>Espécie de Immortals Legacy. 8 Pontos de Vida adicionais; caminhada 9 m e nado 1.5 m.</p><p>Características e escolhas são concedidas pela Progressão. Apenas uma espécie e uma variante/ancestralidade por personagem.</p>"
+    },
+    "movement": {
+      "units": "m",
+      "speeds": {
+        "walk": 9,
+        "swim": 1.5
+      }
+    },
+    "advancement": {
+      "1a2c1000703ce027": {
+        "_id": "1a2c1000703ce027",
+        "type": "Size",
+        "level": 0,
+        "configuration": {
+          "sizes": [
+            "sm",
+            "med",
+            "lg"
+          ]
+        },
+        "value": {}
+      },
+      "1a2c100012e7149c": {
+        "_id": "1a2c100012e7149c",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Características de Meio Monstro",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100058db6b42",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100063ed81f7",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c10000b3adca9",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "1a2c1000f5c04e89": {
+        "_id": "1a2c1000f5c04e89",
+        "type": "ItemChoice",
+        "title": "Ancestralidade",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000fce1257d"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c10001d5480fb"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100036ecd1cc"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100049f766a7"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100068603805"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c10000932125c"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c10001eca9d1a"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000b493380b"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      },
+      "1a2c10006564138c": {
+        "_id": "1a2c10006564138c",
+        "type": "ItemGrant",
+        "level": 7,
+        "title": "Transformação Divina — Núcleo Rotativo",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000a3b631cc",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "species": {
+        "key": "meio-monstro"
+      },
+      "pvAdicional": 8,
+      "speciesContentVersion": 1
+    }
+  },
+  "_key": "!items!1a2c10004288dc98"
+}

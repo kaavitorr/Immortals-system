@@ -1,0 +1,64 @@
+_id: glyphweaversTool
+_key: '!items!glyphweaversTool'
+name: Kit de Tecelão de Glifos
+type: tool
+img: icons/containers/bags/pack-engraved-leather-blue.webp
+system:
+  identifier: tool-kit-glyphweaving
+  description:
+    value: >-
+      <p>Bolsa de couro para madeira. Contém formões e furadores de gravação, martelo de lapidário, tapete decorativo de
+      couro e espaço para guardar glifos e outros materiais rituais.</p><p><strong>Propriedades:</strong>
+      Empilhável.</p><p><strong>Profissões e conhecimentos:</strong> Escrita de Glifos.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 8
+    units: kg
+  price:
+    value: 1200
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: wis
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: zKA7bUzu7rPpL2lk
+sort: 100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: glyphweaversTool
+      sourceType: tool
+      category: crafting
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

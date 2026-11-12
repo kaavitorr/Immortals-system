@@ -1,0 +1,178 @@
+name: Íncubo
+type: archetype
+folder: 29e85c5a0e7a7147
+system:
+  description:
+    value: >-
+      <p>Aproxima-se sob disfarce ou ocultação e enfraquece a vítima com medo, hipnose e contato físico. Prefere alvos
+      isolados, que possa paralisar e drenar.</p><p><strong>Resistência por ND:</strong> Psíquico
+      +2</p><p><strong>Vulnerabilidade:</strong> Alma −8 · Mov +1 | 5/ND</p><p><strong>Deslocamento:</strong> +1 até um
+      máximo de 25</p><p><strong>Armaduras:</strong> Armadura Psíquica (8 + Sab).</p><p><strong>Perícias:</strong>
+      Proficiências: Furtividade, Intimidação, Enganação e Sobrenatural.</p><p><strong>Salvaguardas:</strong>
+      Proficiências: Presença e Fortitude.</p><p><strong>Aspectos:</strong> Algoz Invisível, Aura do Medo, Hipnose
+      Passiva, Sussurro Perturbador, Criatura sem Alma, Mente Singular, Silenciosa, Presença Aterradora, Fanático,
+      Analisar Padrões.</p><p><strong>Habilidades:</strong> Medo Instilado, Beijo Tenebroso, Dreno da Alma, Hipnotizar,
+      Grito Psíquico, Ilusão Menor, Passo das Sombras, Onda de Charme, Roubo de Nome, Fingir-se de
+      Objeto.</p><p><strong>Reações:</strong> Toque Paralisante, Sussurro Reativo, Esquiva Rápida.</p>
+    chat: ''
+  identifier: incubo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 1
+    dex: 3
+    con: 2
+    int: 2
+    wis: 2
+    cha: 2
+  resistencias:
+    bludgeoning:
+      value: 0
+      immune: false
+    piercing:
+      value: 0
+      immune: false
+    slashing:
+      value: 0
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 2
+      immune: false
+    soul:
+      value: -8
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ste
+      - skills.itm
+      - skills.dec
+      - skills.ani
+      - saves.cha
+      - saves.str
+      - saves.wis
+    alternative:
+      - skills.ste
+      - skills.itm
+      - skills.dec
+      - skills.ani
+      - alternativeSaves.vontade
+      - alternativeSaves.fortitude
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9dc4b92fa53b88fc
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.25d04c9869617098
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.98f7ed9c8403484e
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7845b27e637b3835
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.96843f58553be25f
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5d85d51e1781dcb6
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.86a2bfef529caefd
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.38a87b70e6f341bd
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.51ef0393adc7e89f
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.0b500be94f084af3
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5b1140a0f034010d
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.76b427cb66539eaf
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e3954a3cc125e416
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5efee2aef46af820
+      nd: 10
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.2652f4d9a0599060
+      nd: 10
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.144bb9f8e1884516
+      nd: 10
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.0692eab7d5bf96d7
+      nd: 10
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.17a436d27f512357
+      nd: 10
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8727b2b7070ef7d5
+      nd: 11
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.b4fe7aa0f538f15e
+      nd: 11
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.549b53570842bd88
+      nd: 14
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.43ff2f3cca5fedbf
+      nd: 14
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000015
+    armas: []
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: XE4JqbjyjusncHts
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/incubo.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:incubo
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: XE4JqbjyjusncHts
+_key: '!items!XE4JqbjyjusncHts'

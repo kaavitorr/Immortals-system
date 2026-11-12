@@ -1,0 +1,53 @@
+_id: a32b99901a51f466
+_key: '!items!a32b99901a51f466'
+name: Guelras de Bagre das Barbas Argênteas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/a32b99901a51f466.webp
+system:
+  identifier: material-alquimia-a32b99901a51f466
+  description:
+    value: <p><strong>Elemento:</strong> Água · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Parte de animal</p><p>O bagre das Barbas Argênteas tateia veias de Qi nos rios fundos e mantém guelras prateadas que filtram essência mesmo em águas sem ar. Elas fornecem uma fonte concentrada de afinidade de Água e entram em matrizes alquímicas de sustentação do fôlego.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 2000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: b0b6d3677b445c34
+sort: 5700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: agua
+      elementLabel: Água
+      level: 3
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/agua.json
+        originalName: Guelras de Bagre Barbudo
+        sha256: 4e0ab61ab8b4f69e0e1dd88c53ff06dabfdca351a5290537230f83680b9c27bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,88 @@
+name: Voo de Brasas
+type: feat
+folder: b4cdf08eea2c07d5
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢⬢⬢</p><p>Durante seu deslocamento aéreo, a criatura deixa um rastro de brasas que
+      permanece por um breve período. Ao usar 3 Ponto de Ação [⬢⬢⬢] e até 30 PQ. Essa criatura avança em linha reta pelo
+      seu deslocamento disponível, empurrando todas as criaturas na linha 1 metro para os lados e deixando um rastro de
+      chamas de 3 metros de largura. Todas as criaturas dentro da área devem realizar uma Salvaguarda de Reflexo.
+      Sofrendo 1d6 de dano de Fogo por PQ gasto se falharem ou metade se obtiverem sucesso. Não é possível gastar um
+      valor de PQ maior que o ND/Nível da criatura.</p>
+    chat: ''
+  identifier: voo-de-brasas
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    9d42dfe6d01ca319:
+      _id: 9d42dfe6d01ca319
+      type: utility
+      name: Voo de Brasas
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: true
+          max: min(30, max(@legacy2.nd, @details.level, 1))
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '0'
+            scaling:
+              mode: amount
+              formula: '1'
+      description:
+        value: >-
+          <p>Durante seu deslocamento aéreo, a criatura deixa um rastro de brasas que permanece por um breve período. Ao
+          usar 3 Ponto de Ação [⬢⬢⬢] e até 30 PQ. Essa criatura avança em linha reta pelo seu deslocamento disponível,
+          empurrando todas as criaturas na linha 1 metro para os lados e deixando um rastro de chamas de 3 metros de
+          largura. Todas as criaturas dentro da área devem realizar uma Salvaguarda de Reflexo. Sofrendo 1d6 de dano de
+          Fogo por PQ gasto se falharem ou metade se obtiverem sucesso. Não é possível gastar um valor de PQ maior que o
+          ND/Nível da criatura.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 2
+  prerequisites:
+    items: []
+    level: 2
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: c01520ee7d15b053
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/investida-4e065b4c8fa19cff.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:voodebrasas
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Chama da Renovação
+_key: '!items!c01520ee7d15b053'

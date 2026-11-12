@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000f4fc1f6c",
+  "name": "Livro de Informações de Antigos Alvos",
+  "type": "loot",
+  "img": "systems/Immortals-system/assets/wuxia/equipamentos-antecedentes-pintados-v1/alvos.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-alvos",
+    "description": {
+      "value": "<p>Registros dos antigos alvos do caçador de recompensas.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "gear"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "alvos"
+    }
+  },
+  "_key": "!items!bacc6000f4fc1f6c"
+}

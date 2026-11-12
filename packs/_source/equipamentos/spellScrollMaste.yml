@@ -1,0 +1,141 @@
+_id: spellScrollMaste
+_key: '!items!spellScrollMaste'
+name: Pergaminho de Magia (Obra-Prima)
+type: consumable
+img: icons/sundries/scrolls/scroll-bound-leather-tan.webp
+system:
+  identifier: spell-scroll
+  description:
+    value: >-
+      <p>Um pergaminho de magia é uma peça especializada de veludo ou pergaminho no qual estão cuidadosamente
+      incrustados os glifos de um ou mais componentes de arte mágica. Ativar este pergaminho temporariamente imbuí seu
+      leitor com uma familiaridade profunda com esses componentes, como se os conhecesse há anos.</p><p>O número de
+      componentes que um pergaminho pode conter depende da qualidade de sua
+      confecção.</p><ul><li><p><strong>Fino</strong>: Pode conter um único
+      componente</p></li><li><p><strong>Superior</strong>: Pode conter dois
+      componentes</p></li><li><p><strong>Obra-Prima</strong>: Pode conter três componentes</p></li></ul>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 1
+    units: kg
+  price:
+    value: 50
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  activities:
+    685181d0f89efce2:
+      _id: 685181d0f89efce2
+      type: utility
+      name: Ler pergaminho
+      img: icons/sundries/scrolls/scroll-bound-leather-tan.webp
+      sort: 0
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+          - type: itemUses
+            target: ''
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        value: >-
+          <p>Read this spell scroll, temporarily gaining knowledge of its spellcraft components for 10
+          minutes.</p><p>You may only have one spell scroll effect active at a given time. Reading a different scroll
+          replaces any current effect.</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: m
+        value: null
+        special: ''
+      target:
+        override: true
+        prompt: true
+        template:
+          type: ''
+          size: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+          special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  type:
+    value: scroll
+    subtype: ''
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    replace: false
+effects: []
+folder: VvUx7vnJ4xF5nSAl
+sort: 450000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: spellScrollMaste
+      sourceType: consumable
+      category: scroll
+      quality: masterwork
+      enchantment: ''
+      properties: []
+      weaponDamagePending: false
+      manualEffects: []

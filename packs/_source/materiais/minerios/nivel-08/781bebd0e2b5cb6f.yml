@@ -1,0 +1,50 @@
+_id: 781bebd0e2b5cb6f
+name: Pedra da Estrela Polar
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-08/781bebd0e2b5cb6f.webp
+system:
+  identifier: minerio-781bebd0e2b5cb6f
+  description:
+    value: <p><strong>Nível:</strong> 8 · <strong>Categoria:</strong> Minério</p><p>Cristal branco de ponta curta assentado em uma base negra, sempre marcado por uma linha azul central. Ocorre em picos voltados ao céu do norte. Lapidadores o escolhem para referências de orientação em matrizes de observação e em instrumentos usados na navegação entre domínios.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: c68bd2db09650a50
+sort: 1000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 8
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 8
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!781bebd0e2b5cb6f'

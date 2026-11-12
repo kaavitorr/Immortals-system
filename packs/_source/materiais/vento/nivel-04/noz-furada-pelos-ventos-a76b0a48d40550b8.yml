@@ -1,0 +1,53 @@
+_id: a76b0a48d40550b8
+_key: '!items!a76b0a48d40550b8'
+name: Noz dos Ventos Perfurantes
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/vento/a76b0a48d40550b8.webp
+system:
+  identifier: material-alquimia-a76b0a48d40550b8
+  description:
+    value: <p><strong>Elemento:</strong> Vento · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Planta</p><p>A nogueira cresce sobre galerias onde correntes de Qi atravessam a rocha em filetes capazes de perfurar o fruto. Sua amêndoa permanece íntegra entre esses canais, oferecendo uma essência sensível a vibrações delicadas para preparações voltadas à nitidez da audição.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: db88c774dbdf13cf
+sort: 7000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: vento
+      elementLabel: Vento
+      level: 4
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/vento.json
+        originalName: Noz Furada pelos Ventos
+        sha256: f5db71d3cdec5cc798ab9829fe28f461a95ad76b46b89331433a614fa8d62814
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

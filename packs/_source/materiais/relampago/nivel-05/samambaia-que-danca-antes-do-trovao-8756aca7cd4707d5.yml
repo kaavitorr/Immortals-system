@@ -1,0 +1,53 @@
+_id: 8756aca7cd4707d5
+_key: '!items!8756aca7cd4707d5'
+name: Samambaia que Dança Antes do Trovão
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/8756aca7cd4707d5.webp
+system:
+  identifier: material-alquimia-8756aca7cd4707d5
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 5 · <strong>Categoria:</strong> Planta</p><p>Quando a trovoada se arma, seus esporos erguem-se e dançam no ar parado. Colhidos em plena dança, rendem poeira que torna os saltos leves.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-earth
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 12968d12e60a5af5
+sort: 8800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 5
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Samambaia que Dança Antes do Trovão
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 5
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

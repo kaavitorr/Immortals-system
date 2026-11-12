@@ -1,0 +1,53 @@
+_id: eb0040e0207cbe2d
+_key: '!items!eb0040e0207cbe2d'
+name: Casca de Ovo de Rouxinol do Canto Aéreo
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/vento/eb0040e0207cbe2d.webp
+system:
+  identifier: material-alquimia-eb0040e0207cbe2d
+  description:
+    value: <p><strong>Elemento:</strong> Vento · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Parte de animal</p><p>O rouxinol do canto aéreo nidifica em frestas onde o Qi sustenta ecos por longos instantes. A casca do ovo conserva poros dispostos como ondas, usados para distribuir vibrações de essência de vento sem desfazer a delicadeza da preparação.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 450
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 33f7c246b328acf0
+sort: 3700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: vento
+      elementLabel: Vento
+      level: 2
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/vento.json
+        originalName: Casca de Ovo do Rouxinol
+        sha256: f5db71d3cdec5cc798ab9829fe28f461a95ad76b46b89331433a614fa8d62814
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

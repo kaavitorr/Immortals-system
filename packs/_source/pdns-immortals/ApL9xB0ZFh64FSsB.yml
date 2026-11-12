@@ -1,0 +1,39 @@
+name: Força Descomunal
+type: feat
+folder: D8Yrqg8ddiUXg3Yv
+system:
+  description:
+    value: >-
+      <p><strong>Força Descomunal:</strong> A criatura recebe 1 Ponto de Atributo de Força e duas vantagens em Testes de
+      Atributo de Atletismo.</p>
+    chat: ''
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+  identifier: forca-descomunal
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+_id: ApL9xB0ZFh64FSsB
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/forca-descomunal-ApL9xB0ZFh64FSsB.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: ApL9xB0ZFh64FSsB
+_key: '!items!ApL9xB0ZFh64FSsB'

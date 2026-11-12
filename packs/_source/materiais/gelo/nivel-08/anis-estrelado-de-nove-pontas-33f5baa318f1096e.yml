@@ -1,0 +1,53 @@
+_id: 33f5baa318f1096e
+_key: '!items!33f5baa318f1096e'
+name: Anis-Estrelado de Nove Pontas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/33f5baa318f1096e.webp
+system:
+  identifier: material-alquimia-33f5baa318f1096e
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Planta</p><p>Fruto estrelado de nove pontas, que só nasce onde respira o gelo eterno. Uma ponta ao dia aclara a mente e serena o Qi aflito.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d033fae8a35cbeb7
+sort: 14800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 8
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Anis-Estrelado de Nove Pontas
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

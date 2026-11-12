@@ -1,0 +1,48 @@
+{
+  "_id": "d51d6cfb630127b7",
+  "name": "Disco de Matriz",
+  "type": "tool",
+  "folder": "34be9554e1bd424a",
+  "img": "systems/Immortals-system/assets/wuxia/ferramentas-pintadas-v1/disco-de-matriz.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-disco-de-matriz",
+    "type": {
+      "value": "art"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p>Ferramentas de Mestre de Matrizes: 2 Núcleos de Matrizes simples, 1 Disco de Matriz de 500 PO, 1 Entalhador, 1 Livro sobre Runas e Padrões.</p><p><strong>Resolução:</strong> Ferramenta ou suprimento da profissão; não concede talento, perícia, receita ou proficiência automaticamente. A fonte não define uma receita de fabricação para este objeto.</p>"
+    },
+    "activities": {},
+    "equipped": false,
+    "ability": "wis",
+    "proficient": null,
+    "bonus": "",
+    "price": {
+      "value": 500,
+      "denomination": "gp"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "disco-de-matriz",
+        "kind": "tool",
+        "profession": "matrices",
+        "level": null,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionProductsContentVersion": 2,
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Ferramenta ou suprimento da profissão; não concede talento, perícia, receita ou proficiência automaticamente. A fonte não define uma receita de fabricação para este objeto."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!d51d6cfb630127b7"
+}

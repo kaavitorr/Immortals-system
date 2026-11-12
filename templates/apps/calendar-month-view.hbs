@@ -1,0 +1,46 @@
+<div class="hxh-cal-month">
+    <header class="hxh-cal-month-header">
+        <button type="button" class="hxh-cal-month-nav" data-action="prevMonth"
+                data-tooltip="Mês anterior" aria-label="Mês anterior">
+            <svg class="cult-icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 4-8 8 8 8"/></svg>
+        </button>
+        <button type="button" class="hxh-cal-month-title unbutton" data-action="today"
+                data-tooltip="Ir para o mês atual">
+            <span class="hxh-cal-month-name">{{ monthName }}</span>
+            <span class="hxh-cal-month-year">{{ year }}</span>
+        </button>
+        <button type="button" class="hxh-cal-month-nav" data-action="nextMonth"
+                data-tooltip="Próximo mês" aria-label="Próximo mês">
+            <svg class="cult-icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 4 8 8-8 8"/></svg>
+        </button>
+    </header>
+
+    <div class="hxh-cal-month-weekdays" style="--hxh-cal-week-cols: {{ weekCols }};">
+        {{#each weekdays}}
+        <span class="hxh-cal-month-weekday">{{ this }}</span>
+        {{/each}}
+    </div>
+
+    <div class="hxh-cal-month-grid" style="--hxh-cal-week-cols: {{ weekCols }};">
+        {{#each leading}}
+        <div class="hxh-cal-month-cell is-empty"></div>
+        {{/each}}
+        {{#each days}}
+        <div class="hxh-cal-month-cell
+                    {{~#if isToday}} is-today{{/if}}
+                    {{~#if hasNote}} has-note{{/if}}
+                    {{~#if ../isGM}} is-editable{{/if}}"
+             {{~#if ../isGM}} data-action="editDay" data-day="{{ day }}" data-year="{{ @root.year }}"
+             data-month="{{ @root.monthIndex }}" role="button" tabindex="0"{{/if}}
+             {{~#if hasNote}} data-tooltip="Há uma nota do narrador para este dia"{{/if}}>
+            <span class="hxh-cal-month-daynum">{{ day }}</span>
+            {{#if moon}}
+            <span class="hxh-cal-month-moon" data-tooltip="{{ moon.label }}">{{{ moon.svg }}}</span>
+            {{else if ../isGM}}
+            <span class="hxh-cal-month-moon hxh-cal-month-moon-ghost" data-tooltip="Definir fase da lua"><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14A8 8 0 0 1 10 4a8 8 0 1 0 10 10Z"/></svg></span>
+            {{/if}}
+            {{#if hasNote}}<svg class="cult-icon hxh-cal-month-note-flag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 3h16v12l-5 6H4Z M15 21v-6h5M8 8h8M8 12h6"/></svg>{{/if}}
+        </div>
+        {{/each}}
+    </div>
+</div>

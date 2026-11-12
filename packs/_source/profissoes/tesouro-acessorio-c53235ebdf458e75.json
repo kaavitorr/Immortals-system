@@ -1,0 +1,160 @@
+{
+  "_id": "c53235ebdf458e75",
+  "name": "Tesouro — Acessório",
+  "type": "equipment",
+  "folder": "b35878af70a884e9",
+  "img": "systems/Immortals-system/assets/wuxia/tesouros-pintados-v1/tesouro-acessorio.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-tesouro-acessorio",
+    "type": {
+      "value": "wondrous"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>CRIAÇÃO DE TESOUROS</h3>\n<p>Como um mestre artesão, você tem a capacidade de criar diversos tipos de tesouros, desde armas até armaduras, assim como acessórios que contém certos tipos de habilidades em seu interior.</p>\n<p>Para criar um tesouro com sucesso, você deve realizar 3 testes de atributo distintos, sendo eles um Teste de Prestidigitação (AGI), um Teste de Criação (SAB) e um Teste de Controle de Qi (CON), onde todos possuem a mesma CD, que começa em 10 e aumenta +2 para cada nível do equipamento além do equivalente da tabela de tesouros. Ao passar com sucesso, você consegue criar o tesouro.</p>\n<p>Existem tesouros das seguintes raridades:</p>\n<h3>TABELA DE TESOUROS</h3>\n<table><tbody><tr><td>RANKS</td><td>CLASSES</td><td>NÍVEL</td><td>RANKS</td><td>CLASSES</td><td>NÍVEL</td></tr><tr><td>Humano</td><td>Inferior</td><td>1</td><td>Sagrado</td><td>Inferior</td><td>7</td></tr><tr><td></td><td>Comum</td><td>2</td><td></td><td>Comum</td><td>-</td></tr><tr><td></td><td>Superior</td><td>3</td><td></td><td>Superior</td><td>8</td></tr></tbody></table>\n<table><tbody><tr><td>Terra</td><td>Inferior</td><td>-</td><td>Divino</td><td>Única</td><td>9</td></tr><tr><td></td><td>Comum</td><td>4</td><td></td><td></td><td></td></tr><tr><td></td><td>Superior</td><td>-</td><td></td><td></td><td></td></tr></tbody></table>\n<table><tbody><tr><td>Céu</td><td>Inferior</td><td>5</td><td>Supremo</td><td>Única</td><td>10</td></tr><tr><td></td><td>Comum</td><td>-</td><td></td><td></td><td></td></tr><tr><td></td><td>Superior</td><td>6</td><td></td><td></td><td></td></tr></tbody></table>\n<h3>TIPOS DE TESOUROS</h3>\n<p>Existem diversos tipos de tesouros no mundo, mas eles não são criados a partir de um molde fixo e sim a partir dos materiais adquiridos e utilizados na sua criação. Você pode comprar um livro de forja básica que irá ajudar a criar seus primeiros tesouros por 10.000 PO.</p>\n<h3>ACESSÓRIOS</h3>\n<table><tbody><tr><td>RANK</td><td>EFEITO ADICIONAL</td></tr><tr><td>Único</td><td>Possui um efeito de limite de 4 Pontos de Qi, aumentando o limite em 1 PQ por Classe e 2 por Rank, até um máximo de 27 PQ no rank Supremo.</td></tr></tbody></table>\n<h3>ADICIONANDO EFEITOS</h3>\n<p>Quando você criar um tesouro qualquer, ele recebe um efeito baseado na raridade da arma e do ingrediente / minério usado na confecção dele. O efeito / habilidade que ele contém segue as regras iguais a do acessório, usando o ingrediente de rank mais baixo utilizado na criação como base. Caso a arma seja usando um núcleo de besta, ela irá receber uma habilidade natural da besta no lugar.</p>\n<h3>VALOR DA CRIAÇÃO</h3>\n<p>O valor de um tesouro varia bastante dependendo da raridade dos materiais utilizados, mas todos são cerca de 5.000% do valor padrão de mercado de acordo com o nível do equipamento.</p><p><strong>Resolução:</strong> Escolher forma, materiais, rank, classe e efeito do tesouro; o ingrediente de rank mais baixo define a habilidade, ou o núcleo de besta fornece uma habilidade natural. Os tipos genéricos não definem arma, armadura ou habilidade específica. Este é um molde de tesouro. Escolha o equipamento-base, os materiais, o rank e a classe com o narrador antes de definir dano, resistência, habilidade, CR ou deslocamento. As tabelas completas permanecem na descrição.</p><p><strong>Pendente:</strong> A criação custa cerca de 5.000% do valor padrão de mercado do nível do equipamento. Confirmar a relação dessa base com Receitas e Materiais antes de cobrar custos.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 550 PO. <strong>Venda por unidade:</strong> não definida pela fonte.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"tesouro-acessorio:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>corpo ou armação do acessório</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">100 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/09539c71b912fa42.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"09539c71b912fa42\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.09539c71b912fa42\">Malaquita da Nascente Esmeralda</a><small>conexão, vínculo ou foco das inscrições</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/18f857d6c39150b1.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"18f857d6c39150b1\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.18f857d6c39150b1\">Quartzo do Sino Claro</a><small>encaixe mineral para a função espiritual do acessório</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/aada69663d799e39.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"aada69663d799e39\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.aada69663d799e39\">Orvalho da Veia Clara</a><small>Reagente · veículo de extração e mistura</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>550 PO</strong></footer><p class=\"iw-recipe-note\">Esta é uma composição-base. O artesão pode ajustar os materiais ao tesouro desejado com o narrador.</p></section>"
+    },
+    "activities": {
+      "4f61680bd01ed137": {
+        "_id": "4f61680bd01ed137",
+        "type": "utility",
+        "name": "Definir equipamento-base do tesouro",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>CRIAÇÃO DE TESOUROS</h3>\n<p>Como um mestre artesão, você tem a capacidade de criar diversos tipos de tesouros, desde armas até armaduras, assim como acessórios que contém certos tipos de habilidades em seu interior.</p>\n<p>Para criar um tesouro com sucesso, você deve realizar 3 testes de atributo distintos, sendo eles um Teste de Prestidigitação (AGI), um Teste de Criação (SAB) e um Teste de Controle de Qi (CON), onde todos possuem a mesma CD, que começa em 10 e aumenta +2 para cada nível do equipamento além do equivalente da tabela de tesouros. Ao passar com sucesso, você consegue criar o tesouro.</p>\n<p>Existem tesouros das seguintes raridades:</p>\n<h3>TABELA DE TESOUROS</h3>\n<table><tbody><tr><td>RANKS</td><td>CLASSES</td><td>NÍVEL</td><td>RANKS</td><td>CLASSES</td><td>NÍVEL</td></tr><tr><td>Humano</td><td>Inferior</td><td>1</td><td>Sagrado</td><td>Inferior</td><td>7</td></tr><tr><td></td><td>Comum</td><td>2</td><td></td><td>Comum</td><td>-</td></tr><tr><td></td><td>Superior</td><td>3</td><td></td><td>Superior</td><td>8</td></tr></tbody></table>\n<table><tbody><tr><td>Terra</td><td>Inferior</td><td>-</td><td>Divino</td><td>Única</td><td>9</td></tr><tr><td></td><td>Comum</td><td>4</td><td></td><td></td><td></td></tr><tr><td></td><td>Superior</td><td>-</td><td></td><td></td><td></td></tr></tbody></table>\n<table><tbody><tr><td>Céu</td><td>Inferior</td><td>5</td><td>Supremo</td><td>Única</td><td>10</td></tr><tr><td></td><td>Comum</td><td>-</td><td></td><td></td><td></td></tr><tr><td></td><td>Superior</td><td>6</td><td></td><td></td><td></td></tr></tbody></table>\n<h3>TIPOS DE TESOUROS</h3>\n<p>Existem diversos tipos de tesouros no mundo, mas eles não são criados a partir de um molde fixo e sim a partir dos materiais adquiridos e utilizados na sua criação. Você pode comprar um livro de forja básica que irá ajudar a criar seus primeiros tesouros por 10.000 PO.</p>\n<h3>ACESSÓRIOS</h3>\n<table><tbody><tr><td>RANK</td><td>EFEITO ADICIONAL</td></tr><tr><td>Único</td><td>Possui um efeito de limite de 4 Pontos de Qi, aumentando o limite em 1 PQ por Classe e 2 por Rank, até um máximo de 27 PQ no rank Supremo.</td></tr></tbody></table>\n<h3>ADICIONANDO EFEITOS</h3>\n<p>Quando você criar um tesouro qualquer, ele recebe um efeito baseado na raridade da arma e do ingrediente / minério usado na confecção dele. O efeito / habilidade que ele contém segue as regras iguais a do acessório, usando o ingrediente de rank mais baixo utilizado na criação como base. Caso a arma seja usando um núcleo de besta, ela irá receber uma habilidade natural da besta no lugar.</p>\n<h3>VALOR DA CRIAÇÃO</h3>\n<p>O valor de um tesouro varia bastante dependendo da raridade dos materiais utilizados, mas todos são cerca de 5.000% do valor padrão de mercado de acordo com o nível do equipamento.</p><p><strong>Resolução:</strong> Escolher forma, materiais, rank, classe e efeito do tesouro; o ingrediente de rank mais baixo define a habilidade, ou o núcleo de besta fornece uma habilidade natural. Os tipos genéricos não definem arma, armadura ou habilidade específica. Este é um molde de tesouro. Escolha o equipamento-base, os materiais, o rank e a classe com o narrador antes de definir dano, resistência, habilidade, CR ou deslocamento. As tabelas completas permanecem na descrição.</p><p><strong>Pendente:</strong> A criação custa cerca de 5.000% do valor padrão de mercado do nível do equipamento. Confirmar a relação dessa base com Receitas e Materiais antes de cobrar custos.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 550 PO. <strong>Venda por unidade:</strong> não definida pela fonte.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"tesouro-acessorio:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>corpo ou armação do acessório</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">100 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/09539c71b912fa42.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"09539c71b912fa42\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.09539c71b912fa42\">Malaquita da Nascente Esmeralda</a><small>conexão, vínculo ou foco das inscrições</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/18f857d6c39150b1.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"18f857d6c39150b1\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.18f857d6c39150b1\">Quartzo do Sino Claro</a><small>encaixe mineral para a função espiritual do acessório</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/aada69663d799e39.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"aada69663d799e39\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.aada69663d799e39\">Orvalho da Veia Clara</a><small>Reagente · veículo de extração e mistura</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>550 PO</strong></footer><p class=\"iw-recipe-note\">Esta é uma composição-base. O artesão pode ajustar os materiais ao tesouro desejado com o narrador.</p></section>",
+          "chatFlavor": "Tesouro — Acessório — Definir equipamento-base do tesouro"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "tesouro-acessorio",
+              "key": "configure",
+              "level": 1,
+              "quality": null,
+              "manualResolution": true,
+              "consumeItem": false,
+              "rule": "treasureTemplate",
+              "pendingConfiguration": "Escolha e configure o equipamento-base e seus materiais com o narrador antes de usar o tesouro."
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Definir equipamento-base do tesouro",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/tesouros-pintados-v1/tesouro-acessorio.webp"
+      }
+    },
+    "equipped": false
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "tesouro-acessorio",
+        "kind": "treasure",
+        "profession": "artisan",
+        "level": 1,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 1,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 3000,
+          "materials": 500,
+          "currency": "gp",
+          "rank": null
+        },
+        "creationPercent": 5000,
+        "salePercent": null,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 550,
+          "currency": "gp",
+          "rank": null
+        },
+        "sale": null,
+        "referenceCreation": {
+          "amount": 25000,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceSale": null
+      },
+      "professionProductAutomation": {
+        "rules": [
+          {
+            "type": "treasureTemplate",
+            "level": 1,
+            "rankRules": {},
+            "requiresMaterialAndBaseItem": true
+          }
+        ],
+        "manual": [
+          "Escolher forma, materiais, rank, classe e efeito do tesouro; o ingrediente de rank mais baixo define a habilidade, ou o núcleo de besta fornece uma habilidade natural. Os tipos genéricos não definem arma, armadura ou habilidade específica.",
+          "Este é um molde de tesouro. Escolha o equipamento-base, os materiais, o rank e a classe com o narrador antes de definir dano, resistência, habilidade, CR ou deslocamento. As tabelas completas permanecem na descrição."
+        ],
+        "pending": [
+          "A criação custa cerca de 5.000% do valor padrão de mercado do nível do equipamento. Confirmar a relação dessa base com Receitas e Materiais antes de cobrar custos."
+        ]
+      }
+    }
+  },
+  "_key": "!items!c53235ebdf458e75"
+}

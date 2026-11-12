@@ -1,0 +1,57 @@
+_id: candle0000000000
+_key: '!items!candle0000000000'
+name: Vela
+type: loot
+img: icons/sundries/lights/candle-unlit-tan.webp
+system:
+  identifier: candle
+  description:
+    value: >-
+      <p>Um pequeno pilar de cera prensado em torno de um pavio central que emite luz fraca e quente quando aceso. Cada
+      vela queima por cerca de oito horas.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 1
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: gear
+effects: []
+folder: h5q90kRajvUXzsEw
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: candle0000000000
+      sourceType: loot
+      category: other
+      quality: standard
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: false
+      manualEffects: []

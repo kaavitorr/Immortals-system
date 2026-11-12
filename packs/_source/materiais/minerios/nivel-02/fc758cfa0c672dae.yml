@@ -1,0 +1,50 @@
+_id: fc758cfa0c672dae
+name: Celestita da Chuva Serena
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-02/fc758cfa0c672dae.webp
+system:
+  identifier: minerio-fc758cfa0c672dae
+  description:
+    value: <p><strong>Nível:</strong> 2 · <strong>Categoria:</strong> Minério</p><p>Pontas azul-claras nascem onde água de chuva atravessa uma veia espiritual antes de alcançar as cavernas. Cada cristal preserva um fluxo suave de Qi de Água. Suas partes mais puras são lapidadas em focos e incorporadas a recipientes de refino por imersão, mantendo a circulação do banho.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 30627f8e0aec5a76
+sort: 1000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 2
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 2
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!fc758cfa0c672dae'

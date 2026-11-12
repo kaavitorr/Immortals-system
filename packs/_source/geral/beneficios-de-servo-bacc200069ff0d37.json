@@ -1,0 +1,80 @@
+{
+  "_id": "bacc200069ff0d37",
+  "name": "Benefícios de Servo",
+  "type": "feat",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/habilidades/servo-da-familia-principal.webp",
+  "folder": "bacc000000000002",
+  "system": {
+    "identifier": "antecedente-servo-da-familia-principal",
+    "type": {
+      "value": "background"
+    },
+    "description": {
+      "value": "<p>Você recebe um manual de cultivo de rank humano e classe comum que é dado para todos os servos da família. Além disso, quando você se deparar com um membro da família a que serviu, você pode realizar um Teste de Sorte com CD definida pelo Narrador. Em caso de sucesso, um membro ou servo da família pode te dar uma ajuda que não custe nenhum dinheiro ou ponha a própria vida ou de quem serve em risco. Essa ajuda pode ser em forma de informação, abrigo ou similar.</p>"
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "activities": {
+      "bacc4000491120f2": {
+        "_id": "bacc4000491120f2",
+        "type": "check",
+        "name": "Benefícios de Servo",
+        "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/habilidades/servo-da-familia-principal.webp",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "Conforme as condições da característica."
+        },
+        "consumption": {
+          "spellSlot": false,
+          "targets": []
+        },
+        "target": {
+          "affects": {
+            "type": "self"
+          },
+          "prompt": false,
+          "template": {
+            "units": "m"
+          }
+        },
+        "range": {
+          "units": "self"
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "description": {
+          "chatFlavor": "Benefícios de Servo",
+          "value": "<p>Você recebe um manual de cultivo de rank humano e classe comum que é dado para todos os servos da família. Além disso, quando você se deparar com um membro da família a que serviu, você pode realizar um Teste de Sorte com CD definida pelo Narrador. Em caso de sucesso, um membro ou servo da família pode te dar uma ajuda que não custe nenhum dinheiro ou ponha a própria vida ou de quem serve em risco. Essa ajuda pode ser em forma de informação, abrigo ou similar.</p>"
+        },
+        "check": {
+          "ability": "",
+          "associated": [
+            "luc"
+          ],
+          "bonus": "",
+          "dc": {
+            "calculation": "",
+            "formula": ""
+          },
+          "visible": true
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundFeature": "servo-da-familia-principal",
+      "backgroundRuleVersion": 1,
+      "featureSection": "jj-origin"
+    }
+  },
+  "_key": "!items!bacc200069ff0d37"
+}

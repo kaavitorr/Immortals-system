@@ -1,0 +1,26 @@
+{
+  "_id": "1a2c1000e6ef568d",
+  "name": "Núcleo Demoníaco",
+  "type": "feat",
+  "folder": "1a2c000000000002",
+  "img": "systems/Immortals-system/assets/wuxia/caracteristicas-especie-pintadas-v1/nucleo-demoniaco.webp",
+  "system": {
+    "identifier": "especie-117c82cd",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Núcleo Demoníaco: Seu núcleo é extremamente valioso para criação de pílulas e matrizes, reduzindo a CD da criação de uma em -3 para cada Rank do seu cultivo. Devido a isso, você é caçado por todas as espécies com exceção de demônios.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Núcleo Demoníaco",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000e6ef568d"
+}

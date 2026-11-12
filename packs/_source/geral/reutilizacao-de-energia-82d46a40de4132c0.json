@@ -1,0 +1,62 @@
+{
+  "_id": "82d46a40de4132c0",
+  "name": "Reutilização de Energia",
+  "type": "feat",
+  "folder": "d2652f7aa9b40d98",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/reutilizacao-de-energia.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-reutilizacao-de-energia",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Combate Veloz.</p><h2>Reutilização de Energia</h2><p><strong>Requisito:</strong> Dispersar Força</p><p>Toda vez que você ativar o efeito do Dispersar Força com sucesso, você pode escolher receber um dos seguintes efeitos:</p><ul><li>Você impõe 2 desvantagens na próxima rolagem de acerto contra você;</li><li>Você recebe 2 vantagens na sua próxima Salvaguarda de Agilidade até o início do seu próximo turno;</li><li>Você recebe 1d4 de dano adicional na sua próxima jogada de ataque (Comum ou de Técnica).</li></ul><p><strong>Resolução:</strong> Escolha apenas um benefício após Dispersar Força bem-sucedido e aplique-o à próxima rolagem elegível.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "reutilizacao-de-energia",
+        "categoria": "Adaptação Física",
+        "caminho": "Combate Veloz",
+        "requisitos": [
+          "Dispersar Força"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "dispersar-forca"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "reusedEnergyChoice",
+            "trigger": "successfulDisperseForce",
+            "choices": [
+              {
+                "attackDisadvantages": 2
+              },
+              {
+                "dexSaveAdvantages": 2,
+                "expires": "turnStart"
+              },
+              {
+                "attackDamage": "1d4"
+              }
+            ]
+          }
+        ],
+        "manual": [
+          "Escolha apenas um benefício após Dispersar Força bem-sucedido e aplique-o à próxima rolagem elegível."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!82d46a40de4132c0"
+}

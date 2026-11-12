@@ -1,0 +1,53 @@
+_id: 38a35e708151b6bd
+_key: '!items!38a35e708151b6bd'
+name: Âmbar da Primeira Era
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/tempo/38a35e708151b6bd.webp
+system:
+  identifier: material-alquimia-38a35e708151b6bd
+  description:
+    value: <p><strong>Elemento:</strong> Tempo · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Planta</p><p>Resina primordial que guarda um inseto anterior à memória dos próprios deuses. É o ingrediente proibido das pílulas que devolvem alguém ao dia anterior.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: c271d0501f993cf0
+sort: 18200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: tempo
+      elementLabel: Tempo
+      level: 10
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/tempo.json
+        originalName: Âmbar da Primeira Era
+        sha256: 78c1decf6231b4f084096c5432683d625516dd37d65e516e424b199307cc5107
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

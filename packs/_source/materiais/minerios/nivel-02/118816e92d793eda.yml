@@ -1,0 +1,50 @@
+_id: 118816e92d793eda
+name: Enxofre da Boca Fumegante
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-02/118816e92d793eda.webp
+system:
+  identifier: minerio-118816e92d793eda
+  description:
+    value: <p><strong>Nível:</strong> 2 · <strong>Categoria:</strong> Minério</p><p>Cristais amarelos se depositam nas fendas por onde o Qi de Fogo de uma montanha alcança a superfície. Sob refino controlado, liberam uma chama curta e uniforme que desperta componentes resistentes. São empregados em misturas de ignição, tintas e preparos de oficina ligados ao Fogo.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 30627f8e0aec5a76
+sort: 600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 2
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 2
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!118816e92d793eda'

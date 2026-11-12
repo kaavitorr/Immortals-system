@@ -1,0 +1,140 @@
+{
+  "_id": "9ae1df8c56dde13a",
+  "name": "Intenção Bélica",
+  "type": "feat",
+  "folder": "403ee9122963e764",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/intencao-belica.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-intencao-belica",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Imortalidade. <strong>Caminho:</strong> Reino da Imortalidade.</p><h2>Intenção Bélica</h2><p><strong>Requisito:</strong> Transformação Divina</p><p>A intenção de uma arma é quando sua ressonância com ela se torna tão grande que seu próprio Qi recebe propriedades da arma que você utiliza. A partir desse ponto, a arma em si serve apenas para aumentar seu poder, mas se torna totalmente desnecessária, seu próprio Qi se torna tão poderoso quanto um tesouro. Você recebe as seguintes características:</p><ul><li>Seu dano é sempre igual um tesouro de qualidade referente ao seu Rank de Cultivo;</li><li>Seus ataques (Comuns) podem ser tratados como técnicas para fins de efeitos;</li><li>Você pode emitir seus ataques a até 15 metros de distância ao consumir 1 Ponto de Qi;</li><li>Usar uma arma igual da sua intenção faz com que seus ataques recebam 1 dado de dano adicional.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. A qualidade de tesouro do ataque exige a tabela correspondente e a arma da intenção.</p>"
+    },
+    "activities": {
+      "3766abf2b4926012": {
+        "_id": "3766abf2b4926012",
+        "type": "utility",
+        "name": "Projetar ataque pela Intenção Bélica",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Imortalidade. <strong>Caminho:</strong> Reino da Imortalidade.</p><h2>Intenção Bélica</h2><p><strong>Requisito:</strong> Transformação Divina</p><p>A intenção de uma arma é quando sua ressonância com ela se torna tão grande que seu próprio Qi recebe propriedades da arma que você utiliza. A partir desse ponto, a arma em si serve apenas para aumentar seu poder, mas se torna totalmente desnecessária, seu próprio Qi se torna tão poderoso quanto um tesouro. Você recebe as seguintes características:</p><ul><li>Seu dano é sempre igual um tesouro de qualidade referente ao seu Rank de Cultivo;</li><li>Seus ataques (Comuns) podem ser tratados como técnicas para fins de efeitos;</li><li>Você pode emitir seus ataques a até 15 metros de distância ao consumir 1 Ponto de Qi;</li><li>Usar uma arma igual da sua intenção faz com que seus ataques recebam 1 dado de dano adicional.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. A qualidade de tesouro do ataque exige a tabela correspondente e a arma da intenção.</p>",
+          "chatFlavor": "Intenção Bélica — Projetar ataque pela Intenção Bélica"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "15",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "intencao-belica",
+              "key": "project",
+              "manualResolution": true,
+              "rule": "projectWeaponIntent",
+              "modifiesExistingAttack": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Projetar ataque pela Intenção Bélica",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/intencao-belica.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "intencao-belica",
+        "categoria": "Imortalidade",
+        "caminho": "Reino da Imortalidade",
+        "requisitos": [
+          "Transformação Divina"
+        ],
+        "requirementRules": {
+          "type": "rank",
+          "min": 5
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "weaponIntent",
+            "damageQualityRank": "cultivationRank",
+            "commonAttacksMayCountAsTechniques": true,
+            "sameWeaponExtraDice": 1
+          }
+        ],
+        "manual": [
+          "Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. A qualidade de tesouro do ataque exige a tabela correspondente e a arma da intenção."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!9ae1df8c56dde13a"
+}

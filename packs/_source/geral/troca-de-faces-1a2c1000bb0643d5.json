@@ -1,0 +1,26 @@
+{
+  "_id": "1a2c1000bb0643d5",
+  "name": "Troca de Faces",
+  "type": "feat",
+  "folder": "1a2c000000000002",
+  "img": "systems/Immortals-system/assets/wuxia/caracteristicas-especie-pintadas-v1/troca-de-faces.webp",
+  "system": {
+    "identifier": "especie-39d7f695",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Troca de Faces: O demônio pode trocar sua aparência para uma outra qualquer, seja humana ou de meio monstro. Uma criatura de Rank de cultivo menor falha automaticamente para ver através da ilusão. Uma criatura de Rank igual deve realizar um Teste de Atributo de Percepção com CD do demônio para ver através da ilusão. Diminuindo a CD em -3 para cada Rank de cultivo acima do seu.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Troca de Faces",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000bb0643d5"
+}

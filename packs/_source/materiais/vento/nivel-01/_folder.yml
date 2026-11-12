@@ -1,0 +1,13 @@
+_id: 35edbb87ec748f73
+_key: '!folders!35edbb87ec748f73'
+name: Nível 1
+type: Item
+folder: 1854b698d40f63ca
+sorting: a
+sort: 100000
+color: '#51766d'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: vento
+      level: 1

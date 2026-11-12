@@ -1,0 +1,64 @@
+# Build Artifacts
+dnd5e.css
+dnd5e.css.map
+dnd5e-compiled*
+dnd5e.lock
+packs/*
+!packs/_source/
+dist/
+
+# IDE
+.idea/
+.nova/
+.vs/
+.vscode/
+*.code-workspace
+*.iml
+*.swp
+
+# Node Modules
+node_modules/
+
+# OS Specific
+.DS_Store
+
+# Local / Temp
+*.rar
+.tmp-merge/
+.claude/
+.zcode/
+
+# documentos de regras e macros de execucao (local apenas)
+docs/
+packs/_source/*.txt
+
+# Compêndios nativos publicados com a versão atual do Foundry
+!packs/geral/
+!packs/geral/**
+!packs/equipamentos-ascension/
+!packs/equipamentos-ascension/**
+!packs/materiais/
+!packs/materiais/**
+!packs/equipamentos-pdn/
+!packs/equipamentos-pdn/**
+!packs/pdns-immortals/
+!packs/pdns-immortals/**
+!packs/tecnicas-manipulacao/
+!packs/tecnicas-manipulacao/**
+!packs/info/
+!packs/info/**
+packs/**/LOCK
+packs/**/LOG
+packs/**/LOG.old
+
+# Backups, credenciais e arquivos temporários locais
+.superpowers/
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.p12
+__pycache__/
+tmp-audita-pack.mjs
+utils/_tmp-*

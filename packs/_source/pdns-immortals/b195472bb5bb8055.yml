@@ -1,0 +1,80 @@
+_id: b195472bb5bb8055
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:209
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: b195472bb5bb8055
+name: Enrijecer Músculos
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Quando essa criatura for alvo de um ataque corpo a corpo, ela pode
+      gastar 2 PQ para deixar o corpo rígido como aço, causando à criatura atacante dano igual ao seu Atributo de Força
+      e reduzindo o dano sofrido em 2d8.</p>
+    chat: ''
+  identifier: enrijecer-musculos
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    22a3e7420615c2a7:
+      _id: 22a3e7420615c2a7
+      type: reduction
+      name: Enrijecer Músculos
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Quando essa criatura for alvo de um ataque corpo a corpo, ela pode gastar 2 PQ para deixar o corpo rígido
+          como aço, causando à criatura atacante dano igual ao seu Atributo de Força e reduzindo o dano sofrido em
+          2d8.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+      reduction:
+        formula: 2d8
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/enrijecer-musculos-b195472bb5bb8055.webp"
+_key: '!items!b195472bb5bb8055'

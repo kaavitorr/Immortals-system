@@ -1,0 +1,53 @@
+_id: f76e0f72afdf7d51
+_key: '!items!f76e0f72afdf7d51'
+name: Sangue da Serpente-Videira
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/f76e0f72afdf7d51.webp
+system:
+  identifier: material-alquimia-f76e0f72afdf7d51
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Parte de animal</p><p>A serpente-Videira conduz Qi verde por veias semelhantes a ramos e refaz pequenas escamas perdidas com brotos flexíveis que logo endurecem. Seu sangue oferece afinidade de Madeira e princípio regenerativo às fórmulas corporais, além de alimentar tintas usadas em inscrições de restauração.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 2000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 99c7c69753e2fb5c
+sort: 5100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 3
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Sangue da Serpente-videira
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

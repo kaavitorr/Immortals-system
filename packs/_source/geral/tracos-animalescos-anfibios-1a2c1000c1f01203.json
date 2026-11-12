@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000c1f01203",
+  "name": "Traços Animalescos — Anfíbios",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/amphibians/bullfrog-glass-teal.webp",
+  "system": {
+    "identifier": "especie-aa4534c3",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Anfíbios. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c1000ea61c309": {
+        "_id": "1a2c1000ea61c309",
+        "type": "ItemChoice",
+        "title": "Duas características — Anfíbios",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.SXzgK3cSmLFXES3o"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.LANQXB2wFNWNGzfb"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Anfíbios",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000c1f01203"
+}

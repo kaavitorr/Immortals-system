@@ -1,0 +1,80 @@
+{
+  "_id": "bacc10005ae13d29",
+  "name": "Cozinheiro",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/cozinheiro.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-cozinheiro",
+    "description": {
+      "value": "<p>Um cozinheiro é aquele que passou um grande período da sua vida criando pratos deliciosos para seu público e aprendeu uma grande variedade de receitas nutritivas e saborosas para sempre manter a moral acima do normal. Ele é alguém que não pode faltar quando se trata de viagens longas onde conseguir algo decente para comer é um problema.</p><h3>Equipamentos iniciais</h3><p>Um kit de cozinha e uma roupa de cozinheiro. <strong>40 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc20005ae13d29]{Obter Alimentos}</h3><p>Você é capaz o suficiente para conseguir fazer uma bela refeição com uns poucos ingredientes à disposição. Enquanto estiver em uma cidade, floresta ou algum ambiente apropriado. Você pode realizar um Teste de Sorte CD 15. Em caso de sucesso, você consegue alimentos suficientes para preparar uma refeição para até 5 pessoas. Após utilizar essa característica, você pode utiliza-la novamente apenas após realizar um descanso longo.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc50005ae13d29",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 40,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc30005ae13d29": {
+        "_id": "bacc30005ae13d29",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc20005ae13d29",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc70005ae13d29": {
+        "_id": "bacc70005ae13d29",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.cooksToolkit0000",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.commonClothing00",
+              "quantity": 1,
+              "optional": false
+            }
+          ],
+          "currency": {
+            "gp": 40
+          },
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "cozinheiro",
+        "startingGold": 40,
+        "equipment": "Um kit de cozinha e uma roupa de cozinheiro."
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc10005ae13d29"
+}

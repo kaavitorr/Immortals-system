@@ -1,0 +1,53 @@
+_id: 65699f328ee2ef48
+_key: '!items!65699f328ee2ef48'
+name: Olho de Bai Ze Onisciente
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/65699f328ee2ef48.webp
+system:
+  identifier: material-alquimia-65699f328ee2ef48
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Parte de animal</p><p>Olho da besta que catalogou onze mil espécies de espíritos e guarda cada um de seus rostos na memória dos olhos. Conservado em âmbar, permite reconhecer o ser verdadeiro sob um disfarce.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 52aa7e1c5a172ae1
+sort: 19600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 10
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Olho de Bai Ze Onisciente
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

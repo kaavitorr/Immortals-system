@@ -1,0 +1,65 @@
+_id: enchantersPortab
+_key: '!items!enchantersPortab'
+name: Bancada Portátil de Encantador
+type: tool
+img: icons/containers/chest/chest-simple-box-blue.webp
+system:
+  identifier: workbench-enchanting
+  description:
+    value: >-
+      <p>Caixa dobrável de madeira que pode ser desdobrada em um pequeno altar decorativo. Contém tigela de oferendas de
+      pedra, tapete de couro para cobrir a superfície de trabalho e espaço para guardar varinhas de encantamento, velas
+      rituais, pacotes de incenso e ferramentas de gravação.</p><p><strong>Propriedades:</strong>
+      Empilhável.</p><p><strong>Profissões e conhecimentos:</strong> Encantamento.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 25
+    units: kg
+  price:
+    value: 3400
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: wis
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: zKA7bUzu7rPpL2lk
+sort: 1400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: enchantersPortab
+      sourceType: tool
+      category: crafting
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

@@ -1,0 +1,109 @@
+_id: jjnar00000000003
+name: Carapaça Pesada
+type: equipment
+img: systems/Immortals-system/assets/wuxia/equipamentos-pdn-pintados-v1/jjnar00000000003-carapaca-pesada.webp
+system:
+  type:
+    value: natural
+    baseItem: ''
+  identified: true
+  description:
+    value: >-
+      <p>Armadura natural. <strong>Classe de Resistência:</strong> 13 + Força, usando o valor inteiro do
+      atributo.</p><p>Ao equipar, substitui o cálculo padrão de CR; não é somada a ele.</p>
+    chat: ''
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  equipped: false
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+  identifier: carapaca-pesada
+  source:
+    revision: 1
+    rules: '2024'
+  unidentified:
+    description: ''
+  container: null
+  price:
+    value: 0
+    denomination: gp
+  rarities: []
+  attunement: ''
+  attuned: false
+  crew:
+    value: []
+  armor:
+    value: 13
+    dex: null
+    ability: str
+  proficient: null
+  properties: []
+  strength: null
+flags:
+  Immortals-system:
+    armaduraNatural: true
+    cr:
+      base: 13
+      atributo: str
+    equipmentPdn:
+      version: 1
+      source: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000003
+      previousImg: systems/Immortals-system/icons/svg/items/equipment.svg
+      descriptionHashesBefore:
+        - 1c72a77
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: equipamento-pdn
+      documentId: jjnar00000000003
+effects:
+  - _id: jjnarfx000000003
+    name: Carapaça Pesada — Classe de Resistência
+    img: systems/Immortals-system/icons/svg/items/equipment.svg
+    origin: null
+    transfer: false
+    disabled: true
+    statuses: []
+    flags:
+      Immortals-system:
+        armaduraNaturalCR:
+          base: 13
+          atributo: str
+    system:
+      changes:
+        - key: system.attributes.ac.bonus
+          value: 13 + @abilities.str.mod
+          type: add
+          phase: initial
+          _id: E78bN6NumvPRIBGE
+          conditions: '{}'
+          replacement: ''
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: null
+        message: null
+      conditions: '{}'
+      magical: false
+      rider:
+        statuses: []
+    type: base
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    showIcon: 1
+    folder: null
+    sort: 0
+    _key: '!items.effects!jjnar00000000003.jjnarfx000000003'
+folder: IMEsHfstlHxfmBqg
+sort: 0
+_key: '!items!jjnar00000000003'

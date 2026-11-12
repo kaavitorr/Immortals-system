@@ -1,0 +1,198 @@
+_id: steeljawTrap0000
+_key: '!items!steeljawTrap0000'
+name: Armadilha de Mandíbula de Aço
+type: consumable
+img: icons/environment/traps/trap-jaw-steel.webp
+system:
+  identifier: steel-jaw-trap
+  description:
+    value: >-
+      <p>Uma armadilha mecânica particularmente cruel e afiada, projetada para imobilizar e matar os desatentos. Um anel
+      de aço dentado que se fecha com estrondo quando uma criatura pisa na placa de pressão
+      central.</p><p><strong>Propriedades:</strong> Empilhável.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 20
+    units: kg
+  price:
+    value: 300
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  activities:
+    ec1951b701fef20d:
+      _id: ec1951b701fef20d
+      type: utility
+      name: Armar armadilha
+      img: icons/environment/traps/trap-jaw-steel.webp
+      sort: 0
+      activation:
+        type: action
+        value: 4
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '4'
+          - type: itemUses
+            target: ''
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        value: >-
+          <p>Setting the trap places a dangerous hazard that deals significant damage if triggered. It must be affixed
+          by heavy chain to an immobile object, such as a tree or spike driven into the ground. The area of the trap is
+          a circle with a radius of 2 m.</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: m
+        value: 4
+        special: ''
+      target:
+        override: true
+        prompt: true
+        template:
+          type: circle
+          size: '2'
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+          special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+    b2452a75fd4a20cd:
+      _id: b2452a75fd4a20cd
+      type: utility
+      name: Acionar armadilha
+      img: icons/environment/traps/trap-jaw-steel.webp
+      sort: 0
+      activation:
+        type: action
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        value: >-
+          <p>When triggered the creature that set the trap makes a <strong>Wilderness</strong> skill attack against the
+          <strong>Reflex</strong> defense of a single target which triggered the trap. If not resisted, it deals
+          piercing damage and applies the Imobilizado condition. The base damage dealt by the trap varies according to
+          the quality of the trap.</p><ul><li><p><strong>Shoddy</strong> - 1
+          damage</p></li><li><p><strong>Standard</strong> - 2 damage</p></li><li><p><strong>Fine</strong> - 4
+          damage</p></li><li><p><strong>Superior</strong> - 8 damage</p></li><li><p><strong>Masterwork</strong> - 16
+          damage</p></li></ul><p></p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: m
+        value: null
+        special: ''
+      target:
+        override: true
+        prompt: true
+        template:
+          type: ''
+          size: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+          special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  type:
+    value: trinket
+    subtype: ''
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    replace: false
+effects: []
+folder: gSADApbBEeo51EEP
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: steeljawTrap0000
+      sourceType: consumable
+      category: trap
+      quality: standard
+      enchantment: ''
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

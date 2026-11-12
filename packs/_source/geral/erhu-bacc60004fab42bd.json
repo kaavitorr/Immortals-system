@@ -1,0 +1,28 @@
+{
+  "_id": "bacc60004fab42bd",
+  "name": "Erhu",
+  "type": "tool",
+  "img": "icons/tools/instruments/lute-gold-brown.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-erhu",
+    "description": {
+      "value": "<p>Instrumento musical chinês de duas cordas.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "art"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "erhu"
+    }
+  },
+  "_key": "!items!bacc60004fab42bd"
+}

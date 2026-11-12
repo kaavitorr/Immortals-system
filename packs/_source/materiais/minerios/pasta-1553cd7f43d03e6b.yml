@@ -1,0 +1,11 @@
+_id: 1553cd7f43d03e6b
+name: Nível 3
+type: Item
+folder: 15c0438a058c3465
+sorting: a
+sort: 300000
+color: '#77614b'
+flags:
+  Immortals-system:
+    oreMaterialLevel: 3
+_key: '!folders!1553cd7f43d03e6b'

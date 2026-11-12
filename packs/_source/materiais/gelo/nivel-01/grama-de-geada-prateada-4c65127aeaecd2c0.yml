@@ -1,0 +1,53 @@
+_id: 4c65127aeaecd2c0
+_key: '!items!4c65127aeaecd2c0'
+name: Grama de Geada Prateada
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/4c65127aeaecd2c0.webp
+system:
+  identifier: material-alquimia-4c65127aeaecd2c0
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Planta</p><p>Essa grama aparece em clareiras onde o luar condensa Qi frio sobre a terra. Suas lâminas conservam uma nervura de geada prateada mesmo depois da colheita; dela se extrai uma afinidade de gelo limpa, adequada como primeira fonte em matrizes de acúmulo.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 814266407798d73b
+sort: 100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 1
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Grama de Geada Prateada
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

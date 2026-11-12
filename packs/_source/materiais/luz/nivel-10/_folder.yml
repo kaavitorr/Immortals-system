@@ -1,0 +1,13 @@
+_id: 9cd5b7565a551659
+_key: '!folders!9cd5b7565a551659'
+name: Nível 10
+type: Item
+folder: e1730b8d2dbc7697
+sorting: a
+sort: 1000000
+color: '#806d3f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: luz
+      level: 10

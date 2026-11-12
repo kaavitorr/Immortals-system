@@ -1,0 +1,13 @@
+_id: 33f7c246b328acf0
+_key: '!folders!33f7c246b328acf0'
+name: Nível 2
+type: Item
+folder: 1854b698d40f63ca
+sorting: a
+sort: 200000
+color: '#51766d'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: vento
+      level: 2

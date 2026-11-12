@@ -1,0 +1,50 @@
+_id: 8d17cdcdd6d59a4e
+name: Cristal do Silêncio Absoluto
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-10/8d17cdcdd6d59a4e.webp
+system:
+  identifier: minerio-8d17cdcdd6d59a4e
+  description:
+    value: <p><strong>Nível:</strong> 10 · <strong>Categoria:</strong> Minério</p><p>Formação azul-negra cujas faces parecem absorver o brilho ao redor, mas conservam bordas límpidas. Surge em regiões isoladas de correntes espirituais externas. É escolhida para câmaras de trabalho e divisórias de tesouros que precisam manter separados fluxos de Qi incompatíveis durante a criação.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 66f01b1432a186ba
+sort: 200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 10
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 10
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!8d17cdcdd6d59a4e'

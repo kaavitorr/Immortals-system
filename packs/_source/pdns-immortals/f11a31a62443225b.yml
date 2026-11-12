@@ -1,0 +1,78 @@
+name: Sopro Moldado
+type: feat
+folder: b4cdf08eea2c07d5
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢ [adicional]</p><p>Aprimora Sopro Elemental, permitindo moldar sua trajetória e
+      abertura. Ao realizar um ataque de Sopro Elemental, a criatura pode gastar 1 Ponto de Ação adicional [⬢], para
+      aumentar seu alcance em 10 metros e transforma-lo em até 5 flechas no lugar de um cone, mirando em até 5 criaturas
+      diferentes enquanto ignora todas as outras.</p>
+    chat: ''
+  identifier: sopro-moldado
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    40b364fbaaea575a:
+      _id: 40b364fbaaea575a
+      type: utility
+      name: Sopro Moldado
+      activation:
+        type: action
+        value: 1
+        condition: Durante um ataque ou técnica, como custo adicional.
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets: []
+      description:
+        value: >-
+          <p>Aprimora Sopro Elemental, permitindo moldar sua trajetória e abertura. Ao realizar um ataque de Sopro
+          Elemental, a criatura pode gastar 1 Ponto de Ação adicional [⬢], para aumentar seu alcance em 10 metros e
+          transforma-lo em até 5 flechas no lugar de um cone, mirando em até 5 criaturas diferentes enquanto ignora
+          todas as outras.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: f11a31a62443225b
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/sopro-elemental-7d388ad38dc52069.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:sopromoldado
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Soberano Elemental
+_key: '!items!f11a31a62443225b'

@@ -1,0 +1,13 @@
+_id: 29929e7ecd9a280c
+_key: '!folders!29929e7ecd9a280c'
+name: Nível 8
+type: Item
+folder: 1d29bf4920c1b673
+sorting: a
+sort: 800000
+color: '#85473f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: fogo
+      level: 8

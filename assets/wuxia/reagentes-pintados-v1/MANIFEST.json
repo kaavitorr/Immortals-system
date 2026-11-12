@@ -1,0 +1,576 @@
+{
+  "generator": "built-in image_gen",
+  "style": "Pintura simples Wuxia/Xianxia, alpha transparente, WebP 256x256",
+  "batches": [
+    {
+      "id": "reagentes-1",
+      "source": "C:/Users/kaa_v/.codex/generated_images/01a1854d-b4df-7103-a0d4-8d40225aaaf1/exec-f156f6bb-9afe-46f0-9d86-3c3943da407f.png",
+      "sourceSize": {
+        "width": 971,
+        "height": 1619
+      },
+      "icons": [
+        {
+          "id": "581c23844115c319",
+          "name": "Sal da Fornalha",
+          "level": 1,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/581c23844115c319.webp",
+          "cell": 0,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 48,
+            "top": 127,
+            "width": 253,
+            "height": 180
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "54d7e2f84a260af044630b99b0f181df46944ac4ea5a8f4a4108681d3a3eaa93",
+          "bytes": 15820
+        },
+        {
+          "id": "7e51f53fbae07c20",
+          "name": "Goma do Pinheiro Jovem",
+          "level": 1,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/7e51f53fbae07c20.webp",
+          "cell": 1,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 11,
+            "top": 127,
+            "width": 299,
+            "height": 167
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "7aa0298b5b7de7eaf93c7c58a753fdbd3e8456e4d3abd30ab47d0435546e0212",
+          "bytes": 16960
+        },
+        {
+          "id": "aada69663d799e39",
+          "name": "Orvalho Destilado",
+          "level": 1,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/aada69663d799e39.webp",
+          "cell": 2,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 46,
+            "top": 49,
+            "width": 212,
+            "height": 262
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "d671e02d45f4d809042a76389c69623ab6282b1b6b9c272bdb5bb8930839ba27",
+          "bytes": 20058
+        },
+        {
+          "id": "e297c2832c3f65ec",
+          "name": "Pó de Calcita Serena",
+          "level": 2,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-02/e297c2832c3f65ec.webp",
+          "cell": 3,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 44,
+            "top": 106,
+            "width": 265,
+            "height": 202
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "765d8378e618dcbca41e6aac6c10cbfd1386e684a457e4d274cfc78b6c43ebed",
+          "bytes": 19840
+        },
+        {
+          "id": "446fb8308b4274be",
+          "name": "Seiva de Cedro Purificada",
+          "level": 2,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-02/446fb8308b4274be.webp",
+          "cell": 4,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 46,
+            "top": 86,
+            "width": 232,
+            "height": 231
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "04272754ed139d53713289919eba9f860edb4b9344a60b0e4f2932b79896a231",
+          "bytes": 22674
+        },
+        {
+          "id": "e35d97556cd4ca85",
+          "name": "Água dos Três Filtros",
+          "level": 2,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-02/e35d97556cd4ca85.webp",
+          "cell": 5,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 90,
+            "top": 21,
+            "width": 124,
+            "height": 303
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "8a2a53bfeaf8298631a17a36735107339ffbe09788a7cefc8c1036c751413476",
+          "bytes": 6876,
+          "revision": {
+            "source": "C:/Users/kaa_v/.codex/generated_images/01a1854d-b4df-7103-a0d4-8d40225aaaf1/exec-d35e0843-133a-4474-80a0-532db6c32250.png",
+            "cell": 0,
+            "reason": "Frascos completos, sem invasão da célula vizinha."
+          }
+        },
+        {
+          "id": "6512f6aeba671b99",
+          "name": "Cinza do Bambu Branco",
+          "level": 3,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-03/6512f6aeba671b99.webp",
+          "cell": 6,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 41,
+            "top": 83,
+            "width": 267,
+            "height": 219
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "6239f4383cb7aff1d6bacc1ebacce567fcf5da64bdc29e70020d1e4f4107e0a4",
+          "bytes": 18582
+        },
+        {
+          "id": "25bb891378ab1e54",
+          "name": "Goma da Vinha Azul",
+          "level": 3,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-03/25bb891378ab1e54.webp",
+          "cell": 7,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 34,
+            "top": 76,
+            "width": 257,
+            "height": 219
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "1b386e86315f2a551bcfdf58a6b488d303e32acb435f381eb2e395d56f2daea5",
+          "bytes": 19904
+        },
+        {
+          "id": "db4db477b2f6e623",
+          "name": "Destilado da Névoa Doce",
+          "level": 3,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-03/db4db477b2f6e623.webp",
+          "cell": 8,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 36,
+            "top": 0,
+            "width": 231,
+            "height": 300
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "8069c9c0926a5fee86a84ffd6743dd8101cd05366aed843d42d03c8395aa478b",
+          "bytes": 14398,
+          "revision": {
+            "source": "C:/Users/kaa_v/.codex/generated_images/01a1854d-b4df-7103-a0d4-8d40225aaaf1/exec-d35e0843-133a-4474-80a0-532db6c32250.png",
+            "cell": 1,
+            "reason": "Frascos completos, sem invasão da célula vizinha."
+          }
+        },
+        {
+          "id": "71dbe71d6d5918d4",
+          "name": "Sal dos Veios Abertos",
+          "level": 4,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-04/71dbe71d6d5918d4.webp",
+          "cell": 9,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 36,
+            "top": 76,
+            "width": 279,
+            "height": 202
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "c8be0e5144f94de2383a3af250d435e12fdd8729d439f993778556a6e0ab9ade",
+          "bytes": 18506
+        },
+        {
+          "id": "b39988279e18b19b",
+          "name": "Bálsamo do Lago Quieto",
+          "level": 4,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-04/b39988279e18b19b.webp",
+          "cell": 10,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 43,
+            "top": 48,
+            "width": 239,
+            "height": 240
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "f9f301173ab862cef671dddf2365a49d70329eaecd5b10a0b7f32677741e8bcc",
+          "bytes": 21414
+        },
+        {
+          "id": "3d8e4b36cdcef373",
+          "name": "Solução de Jade Límpido",
+          "level": 4,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-04/3d8e4b36cdcef373.webp",
+          "cell": 11,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 55,
+            "top": 8,
+            "width": 189,
+            "height": 290
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "6fcb7a8672a6035576bab26e6cc218db6ffb39a266d77b21215be87126b587db",
+          "bytes": 16530
+        },
+        {
+          "id": "5e36ce7b73bb2f8f",
+          "name": "Pó do Forno sem Fumaça",
+          "level": 5,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-05/5e36ce7b73bb2f8f.webp",
+          "cell": 12,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 42,
+            "top": 55,
+            "width": 262,
+            "height": 234
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "2acb17f1e40e9790c401dc35e290ff8d8cd3c19429dfe812242db59b167cab4a",
+          "bytes": 21222
+        },
+        {
+          "id": "ebb4d477936a3bcf",
+          "name": "Resina das Raízes Entrelaçadas",
+          "level": 5,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-05/ebb4d477936a3bcf.webp",
+          "cell": 13,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 12,
+            "top": 59,
+            "width": 299,
+            "height": 198
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "6d7c9ec52c7e28d7a5c80c2ecc896858b732619158a82c8cc781572afb9e4b8d",
+          "bytes": 17510
+        },
+        {
+          "id": "6cfb0158d1e8e216",
+          "name": "Essência Aquosa do Vale Claro",
+          "level": 5,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-05/6cfb0158d1e8e216.webp",
+          "cell": 14,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 55,
+            "top": 10,
+            "width": 193,
+            "height": 283
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "72a832345c56eb31a83e34a65a587ef0ecee0391fff622c412060da57fbe0847",
+          "bytes": 15728
+        }
+      ]
+    },
+    {
+      "id": "reagentes-2",
+      "source": "C:/Users/kaa_v/.codex/generated_images/01a1854d-b4df-7103-a0d4-8d40225aaaf1/exec-ec17ddc4-d50e-42c6-acb1-7693c9bb844c.png",
+      "sourceSize": {
+        "width": 971,
+        "height": 1619
+      },
+      "icons": [
+        {
+          "id": "4238b39f659e5a41",
+          "name": "Grãos da Pedra Harmônica",
+          "level": 6,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-06/4238b39f659e5a41.webp",
+          "cell": 0,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 35,
+            "top": 127,
+            "width": 265,
+            "height": 158
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "f4b5b71b8017390aed8fac04530d03d3d71703161017d665abd58a06b3d26b9a",
+          "bytes": 13564
+        },
+        {
+          "id": "b8adaad2952a957f",
+          "name": "Geleia da Lótus Nebulosa",
+          "level": 6,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-06/b8adaad2952a957f.webp",
+          "cell": 1,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 40,
+            "top": 84,
+            "width": 240,
+            "height": 226
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "a1d8817ad72a8a5d2741518880bd4756a06689068fc576d0b3f60bc14ed1d454",
+          "bytes": 20794
+        },
+        {
+          "id": "c5dc04cde17044a2",
+          "name": "Licor da Chuva Suspensa",
+          "level": 6,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-06/c5dc04cde17044a2.webp",
+          "cell": 2,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 85,
+            "top": 43,
+            "width": 138,
+            "height": 267
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "d781a9cc633c01d16928cf44bcdb0db36608193cad23317f64e5b36ae2c6815f",
+          "bytes": 12118
+        },
+        {
+          "id": "2c672944732fa936",
+          "name": "Cinza da Chama Silenciosa",
+          "level": 7,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-07/2c672944732fa936.webp",
+          "cell": 3,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 40,
+            "top": 89,
+            "width": 260,
+            "height": 200
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "a285ff374973fb967d2bd22958cbbe69fcaf8990f96948ed8652654fa4d04eff",
+          "bytes": 15988
+        },
+        {
+          "id": "bea667322a67af62",
+          "name": "Seiva do Cedro Milenar",
+          "level": 7,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-07/bea667322a67af62.webp",
+          "cell": 4,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 39,
+            "top": 82,
+            "width": 240,
+            "height": 212
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "a6f1a42f3403ad0d5c017c815f17579b88cadbcddb5f3c017ea71ba7e699d668",
+          "bytes": 19726
+        },
+        {
+          "id": "72fe3be531eb04e8",
+          "name": "Destilado da Fonte Velada",
+          "level": 7,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-07/72fe3be531eb04e8.webp",
+          "cell": 5,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 33,
+            "top": 46,
+            "width": 244,
+            "height": 250
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "a823660ea08a0114c59d1b08b4461a41437b3a48d78fb88f0603760bfe260f1a",
+          "bytes": 18422
+        },
+        {
+          "id": "65bd2bd854b73866",
+          "name": "Sal do Equilíbrio Sagrado",
+          "level": 8,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-08/65bd2bd854b73866.webp",
+          "cell": 6,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 30,
+            "top": 60,
+            "width": 271,
+            "height": 206
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "a17fddaa93ab36ac16e16b7bb50c602da1731cbf0e060a6ca5e577f615deeae3",
+          "bytes": 15302
+        },
+        {
+          "id": "1f275e20414808e2",
+          "name": "Bálsamo dos Ramos Imortais",
+          "level": 8,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-08/1f275e20414808e2.webp",
+          "cell": 7,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 32,
+            "top": 42,
+            "width": 272,
+            "height": 244
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "b1da13033b6cde2b362ac08537f219f757c1ef09188e8de46fbb9b712c74b9c1",
+          "bytes": 17038
+        },
+        {
+          "id": "bdd8c816cc1bb308",
+          "name": "Água da Câmara Celeste",
+          "level": 8,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-08/bdd8c816cc1bb308.webp",
+          "cell": 8,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 40,
+            "top": 15,
+            "width": 231,
+            "height": 282
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "a7e8ca144352e35c1e661409b4317f71c6510c00ce8699ab4bffe4c3840cb61d",
+          "bytes": 16344
+        },
+        {
+          "id": "3c6eb9b0a118b143",
+          "name": "Pó da Origem Mineral",
+          "level": 9,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-09/3c6eb9b0a118b143.webp",
+          "cell": 9,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 27,
+            "top": 73,
+            "width": 277,
+            "height": 170
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "0ec2eb3a44544c10892e7465e0e81dd16418d82c485ef99967fd17ab8663bafc",
+          "bytes": 13814
+        },
+        {
+          "id": "3050a162b14aeaea",
+          "name": "Goma do Vínculo Perene",
+          "level": 9,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-09/3050a162b14aeaea.webp",
+          "cell": 10,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 10,
+            "top": 66,
+            "width": 297,
+            "height": 173
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "d887ae5c1cbb2dfb5162698102439d8ef81a67ffa1205ceb1fc8ba425a618412",
+          "bytes": 13642
+        },
+        {
+          "id": "d6942542bd7915db",
+          "name": "Eluente do Horizonte Puro",
+          "level": 9,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-09/d6942542bd7915db.webp",
+          "cell": 11,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 104,
+            "top": 9,
+            "width": 102,
+            "height": 281
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "34b52e8005a600741b4e7fc1b0d132891eedc65a3eb19ac69eed9df4bc7c43b7",
+          "bytes": 9944
+        },
+        {
+          "id": "29f5d2b33ec33bce",
+          "name": "Sal da Forja Primordial",
+          "level": 10,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-10/29f5d2b33ec33bce.webp",
+          "cell": 12,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 36,
+            "top": 49,
+            "width": 259,
+            "height": 218
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "b7a9022c622875c65e2b3593c909bdd70e180bbabb83f954b24da6f120eeecf7",
+          "bytes": 16178
+        },
+        {
+          "id": "13f1f2507f6cc33b",
+          "name": "Resina do Nó Eterno",
+          "level": 10,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-10/13f1f2507f6cc33b.webp",
+          "cell": 13,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 15,
+            "top": 54,
+            "width": 285,
+            "height": 199
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "47af74194f13418add2e85605e2ec1f766736730bc72043cae743244543c4bab",
+          "bytes": 15500
+        },
+        {
+          "id": "9f0e12304ebf88af",
+          "name": "Destilado da Primeira Aurora",
+          "level": 10,
+          "img": "systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-10/9f0e12304ebf88af.webp",
+          "cell": 14,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 46,
+            "top": 3,
+            "width": 215,
+            "height": 270
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "63c14762633ea6acbe4975a71bc5047a0eec01052c8778b922991cf7818f1cf0",
+          "bytes": 17744
+        }
+      ]
+    }
+  ]
+}

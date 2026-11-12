@@ -1,0 +1,73 @@
+_id: 47dd4f4fae98b06a
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:173
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 47dd4f4fae98b06a
+name: Transformação Animal
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢</strong></p><p>Essa criatura pode se transformar em outra criatura da qual tenha absorvido
+      sangue ou Qi na última hora, podendo usar todas as habilidades dela. Enquanto estiver transformada, porém, perde 2
+      Pontos de Ação máximos.</p>
+    chat: ''
+  identifier: transformacao-animal
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    36ecfc6ab9616339:
+      _id: 36ecfc6ab9616339
+      type: utility
+      name: Transformação Animal
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Essa criatura pode se transformar em outra criatura da qual tenha absorvido sangue ou Qi na última hora,
+          podendo usar todas as habilidades dela. Enquanto estiver transformada, porém, perde 2 Pontos de Ação
+          máximos.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 7
+  prerequisites:
+    items: []
+    level: 7
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/transformacao-animal-47dd4f4fae98b06a.webp"
+_key: '!items!47dd4f4fae98b06a'

@@ -1,0 +1,31 @@
+{
+  "_id": "bacc200061fd844f",
+  "name": "Rolê Errado",
+  "type": "feat",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/habilidades/servo-do-jovem-mestre.webp",
+  "folder": "bacc000000000002",
+  "system": {
+    "identifier": "antecedente-servo-do-jovem-mestre",
+    "type": {
+      "value": "background"
+    },
+    "description": {
+      "value": "<p>Você está sempre protegendo seu jovem mestre, fazendo com que ele seja invulnerável a dano enquanto você estiver vivo próximo a ele. O problema é que ele sempre está te chamando para umas confusões estranhas e é tão insistente que você não tem escolha senão obedece-lo. Uma vez por mês, seu jovem mestre irá aparecer com boatos sobre oportunidades de riqueza ou avanço de cultivo, mas sempre acabará sendo uma aventura de nível mortal para você, imagina para o jovem mestre inútil.</p><p>Você começa a aventura no 3º Nível da Condensação de Qi e seu jovem mestre compartilha 1/3 dos ganhos das confusões que ele arruma com você.</p>"
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundFeature": "servo-do-jovem-mestre",
+      "backgroundRuleVersion": 1,
+      "featureSection": "jj-origin"
+    }
+  },
+  "_key": "!items!bacc200061fd844f"
+}

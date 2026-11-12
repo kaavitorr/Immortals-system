@@ -1,0 +1,71 @@
+_id: b1c214b8f4ef1647
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:106
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: b1c214b8f4ef1647
+name: Erupção Flamejante
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢ [adicionais]</strong></p><p>Essa criatura pode concentrar Qi e dispará-lo contra uma criatura
+      em um local a até 15 metros, causando o dano do seu ataque padrão + 2 dados adicionais.</p>
+    chat: ''
+  identifier: erupcao-flamejante
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    47c95e952b6c8b86:
+      _id: 47c95e952b6c8b86
+      type: utility
+      name: Erupção Flamejante
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Essa criatura pode concentrar Qi e dispará-lo contra uma criatura em um local a até 15 metros, causando o
+          dano do seu ataque padrão + 2 dados adicionais.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/erupcao-flamejante-b1c214b8f4ef1647.webp"
+_key: '!items!b1c214b8f4ef1647'

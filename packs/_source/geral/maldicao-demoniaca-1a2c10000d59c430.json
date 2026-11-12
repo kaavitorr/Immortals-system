@@ -1,0 +1,26 @@
+{
+  "_id": "1a2c10000d59c430",
+  "name": "Maldição Demoníaca",
+  "type": "feat",
+  "folder": "1a2c000000000002",
+  "img": "systems/Immortals-system/assets/wuxia/caracteristicas-especie-pintadas-v1/maldicao-demoniaca.webp",
+  "system": {
+    "identifier": "especie-0c322270",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Maldição Demoníaca: Ao tocar o peito de uma criatura com 0 Pontos de Vida, você pode colocar uma maldição de servidão em seu coração em troca de 20 Pontos de Qi máximo, fazendo com que a criatura morra caso ela te desobedeça desde que ela seja no máximo 1 Rank de Cultivo acima do seu.</p><p>Se a criatura morrer ou a maldição for destruída, você recupera seu Qi máximo ao fim de um descanso longo.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Maldição Demoníaca",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c10000d59c430"
+}

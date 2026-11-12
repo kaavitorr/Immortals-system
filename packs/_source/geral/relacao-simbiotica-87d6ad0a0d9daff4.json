@@ -1,0 +1,124 @@
+{
+  "_id": "87d6ad0a0d9daff4",
+  "name": "Relação Simbiótica",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/relacao-simbiotica.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-relacao-simbiotica",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo da Alma.</p><h2>Relação Simbiótica</h2><p><strong>Requisito:</strong> 7º Revolução</p><p>Você se torna capaz de entrar no corpo de uma criatura voluntária ou muito mais fraca que você (2 ranks abaixo ou mais) e dividir o corpo dela. Você não tem nenhum controle sobre o corpo, mas consegue manter sua alma por tempo indefinido dessa forma até que consiga um novo corpo.</p><p><strong>Resolução:</strong> O narrador confirma a permissão ou diferença de reinos e acompanha a alma hospedada; a atividade não transfere controle de ator.</p>"
+    },
+    "activities": {
+      "c6e406ee5cadfad8": {
+        "_id": "c6e406ee5cadfad8",
+        "type": "utility",
+        "name": "Relação Simbiótica",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo da Alma.</p><h2>Relação Simbiótica</h2><p><strong>Requisito:</strong> 7º Revolução</p><p>Você se torna capaz de entrar no corpo de uma criatura voluntária ou muito mais fraca que você (2 ranks abaixo ou mais) e dividir o corpo dela. Você não tem nenhum controle sobre o corpo, mas consegue manter sua alma por tempo indefinido dessa forma até que consiga um novo corpo.</p><p><strong>Resolução:</strong> O narrador confirma a permissão ou diferença de reinos e acompanha a alma hospedada; a atividade não transfere controle de ator.</p>",
+          "chatFlavor": "Relação Simbiótica — Relação Simbiótica"
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "expiry": null,
+          "special": "Indefinida, até obter um novo corpo.",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "spec",
+          "special": "O texto não especifica alcance.",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "relacao-simbiotica",
+              "key": "share",
+              "manualResolution": true,
+              "rule": "symbioticSoul",
+              "willingOrRankDifference": 2,
+              "noBodyControl": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Relação Simbiótica",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/relacao-simbiotica.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "relacao-simbiotica",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo da Alma",
+        "requisitos": [
+          "7º Revolução"
+        ],
+        "requirementRules": {
+          "type": "soul",
+          "min": 8
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "O narrador confirma a permissão ou diferença de reinos e acompanha a alma hospedada; a atividade não transfere controle de ator."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!87d6ad0a0d9daff4"
+}

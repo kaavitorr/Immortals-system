@@ -1,0 +1,137 @@
+name: Elementais da Terra e das Plantas
+type: taxonomy
+folder: YfxOMsGVdYlZM7Eg
+system:
+  description:
+    value: >-
+      <p>Reúne manifestações vivas da terra e da vegetação, como espíritos de rocha, raízes animadas e seres de matéria
+      vegetal, como Hanami.</p><p><strong>Resistência:</strong> Ácido ∞ | Físicos +
+      5</p><p><strong>Vulnerabilidade:</strong> Frio – 6 | Psíquico – 6 | Alma -6</p><p><strong>Deslocamento:</strong>
+      Caminhada: 10 m</p><p><strong>Armaduras:</strong> Pele de Pedra (14 + Con).</p><p><strong>Perícias:</strong>
+      Proficiências: Atletismo, Sobrevivência e Sobrenatural.</p><p><strong>Salvaguardas:</strong> Proficiências:
+      Fortitude e Vontade.</p><p><strong>Aspectos:</strong> Corpo Elemental da Terra / Plantas, Um Com o Mundo.</p>
+    chat: ''
+  identifier: elementais-da-terra-e-das-plantas
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 3
+    dex: 1
+    con: 3
+    int: 2
+    wis: 2
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: 5
+      immune: false
+    piercing:
+      value: 5
+      immune: false
+    slashing:
+      value: 5
+      immune: false
+    acid:
+      value: 0
+      immune: true
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: -6
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: -6
+      immune: false
+    soul:
+      value: -6
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ath
+      - skills.sur
+      - skills.ani
+      - saves.str
+      - saves.wis
+      - saves.con
+      - saves.cha
+    alternative:
+      - skills.ath
+      - skills.sur
+      - skills.ani
+      - alternativeSaves.fortitude
+      - alternativeSaves.vontade
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.YY38HMDaZ97konil
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.l18AcRPjCqLX7vpn
+      nd: 0
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000010
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000006
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000011
+  vidaEnergia: false
+  energiaBase: 10
+  movimento:
+    walk: 10
+    swim: 0
+    fly: 0
+    climb: 0
+    burrow: 0
+_id: aBl3UBzscVoIUODB
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/taxonomias/elementais-da-terra-e-das-plantas.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:taxonomy:elementaisdaterraedasplantas
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: aBl3UBzscVoIUODB
+_key: '!items!aBl3UBzscVoIUODB'

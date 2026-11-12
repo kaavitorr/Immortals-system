@@ -1,0 +1,50 @@
+_id: c8d91b4b57745033
+name: Safira da Lei Serena
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-09/c8d91b4b57745033.webp
+system:
+  identifier: minerio-c8d91b4b57745033
+  description:
+    value: <p><strong>Nível:</strong> 9 · <strong>Categoria:</strong> Minério</p><p>Prisma azul-claro com faces lisas que contrastam com uma base áspera de pedra branca. Cresce onde o fluxo de Qi permanece regular por eras. Seu cristal é escolhido para padrões de alinhamento e peças centrais de tesouros cuja gravação exige simetria rigorosa.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f1cbc70ac6eb92d9
+sort: 900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 9
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 9
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!c8d91b4b57745033'

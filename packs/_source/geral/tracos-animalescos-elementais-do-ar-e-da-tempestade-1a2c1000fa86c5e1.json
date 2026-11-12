@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000fa86c5e1",
+  "name": "Traços Animalescos — Elementais do Ar e da Tempestade",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/magic/air/wind-tornado-cyclone-purple-blue.webp",
+  "system": {
+    "identifier": "especie-e9267221",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Elementais do Ar e da Tempestade. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c1000c453d2ee": {
+        "_id": "1a2c1000c453d2ee",
+        "type": "ItemChoice",
+        "title": "Duas características — Elementais do Ar e da Tempestade",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.xOF6s6e3m7o9mTcq"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.C52EQMgqjf8brGjx"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Elementais do Ar e da Tempestade",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000fa86c5e1"
+}

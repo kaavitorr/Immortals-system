@@ -1,0 +1,51 @@
+{
+  "_id": "97a48b2ca13010e0",
+  "name": "Corpo Fechado",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/corpo-fechado.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-corpo-fechado",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo do Corpo.</p><h2>Corpo Fechado</h2><p><strong>Requisito:</strong> 5º Portão</p><p>Você recebe Pontos de Proficiência em Salvaguardas suficientes para elevar até a progressão “Especialista” todas as Salvaguardas que estiverem abaixo desse nível. Se você já tiver no Especialista em um, você pode escolher uma única Salvaguarda para virar “Mestre”.</p><p><strong>Resolução:</strong> Distribua os Pontos de Proficiência nas salvaguardas e escolha uma única promoção para Mestre conforme o narrador.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "corpo-fechado",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo do Corpo",
+        "requisitos": [
+          "5º Portão"
+        ],
+        "requirementRules": {
+          "type": "body",
+          "min": 7
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "savingThrowProficiencyChoice",
+            "minimum": "expert",
+            "oneUpgradeIfAlreadyExpert": "master"
+          }
+        ],
+        "manual": [
+          "Distribua os Pontos de Proficiência nas salvaguardas e escolha uma única promoção para Mestre conforme o narrador."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!97a48b2ca13010e0"
+}

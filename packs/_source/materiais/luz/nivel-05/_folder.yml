@@ -1,0 +1,13 @@
+_id: cec2cb07aa6d16a8
+_key: '!folders!cec2cb07aa6d16a8'
+name: Nível 5
+type: Item
+folder: e1730b8d2dbc7697
+sorting: a
+sort: 500000
+color: '#806d3f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: luz
+      level: 5

@@ -1,0 +1,73 @@
+_id: 5f6cf4c720a404dc
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:97
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 5f6cf4c720a404dc
+name: Desarme
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢</strong></p><p>A criatura realiza um ataque contra a arma de uma criatura inimiga. Em caso de
+      acerto, o alvo deve realizar uma Salvaguarda de Fortitude para não ser desarmado. A arma cai em um local a até 5
+      metros de distância do alvo, à sua escolha.</p>
+    chat: ''
+  identifier: desarme
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    6b103bac5ab018e1:
+      _id: 6b103bac5ab018e1
+      type: utility
+      name: Desarme
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura realiza um ataque contra a arma de uma criatura inimiga. Em caso de acerto, o alvo deve realizar
+          uma Salvaguarda de Fortitude para não ser desarmado. A arma cai em um local a até 5 metros de distância do
+          alvo, à sua escolha.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/desarme-5f6cf4c720a404dc.webp"
+_key: '!items!5f6cf4c720a404dc'

@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000aba72314",
+  "name": "Traços Animalescos — Fungoides",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/magic/nature/mushroom-glow-red.webp",
+  "system": {
+    "identifier": "especie-8fb9b0d4",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Fungoides. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c1000ac6d9a37": {
+        "_id": "1a2c1000ac6d9a37",
+        "type": "ItemChoice",
+        "title": "Duas características — Fungoides",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.gPBlFccMQS8tD27B"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.Yq0BC3K4Wx8LrAd5"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Fungoides",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000aba72314"
+}

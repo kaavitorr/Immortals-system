@@ -1,0 +1,53 @@
+_id: e3284b817d3c1264
+_key: '!items!e3284b817d3c1264'
+name: Coração de Tartaruga Negra
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/e3284b817d3c1264.webp
+system:
+  identifier: material-alquimia-e3284b817d3c1264
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 9 · <strong>Categoria:</strong> Parte de animal</p><p>Bate uma vez por estação, sem pressa nenhuma desde o início da era. Assentado sobre o altar de uma seita, alonga as noites do vale em volta.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 67038bc3a72ed56a
+sort: 17200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 9
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Coração de Tartaruga Negra
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 9
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

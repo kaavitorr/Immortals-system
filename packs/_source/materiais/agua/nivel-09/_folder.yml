@@ -1,0 +1,13 @@
+_id: 0beebbd85967f3cd
+_key: '!folders!0beebbd85967f3cd'
+name: Nível 9
+type: Item
+folder: c850a5148710bf94
+sorting: a
+sort: 900000
+color: '#365f78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: agua
+      level: 9

@@ -1,0 +1,53 @@
+_id: eb0fbcbdddeadf01
+_key: '!items!eb0fbcbdddeadf01'
+name: Ramo de Ameixeira da Flor Nívea
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/eb0fbcbdddeadf01.webp
+system:
+  identifier: material-alquimia-eb0fbcbdddeadf01
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Planta</p><p>A ameixeira floresce sobre ravinas geladas apenas quando o Qi subterrâneo alcança os botões adormecidos. O ramo conserva seiva sob uma casca coberta de cristais, reunindo vigor e frio numa proporção que suaviza preparações de gelo excessivamente rígidas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 814266407798d73b
+sort: 400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 1
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Ramo de Ameixeira de Inverno
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

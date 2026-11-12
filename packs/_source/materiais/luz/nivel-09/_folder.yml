@@ -1,0 +1,13 @@
+_id: 8043ec36007e82c9
+_key: '!folders!8043ec36007e82c9'
+name: Nível 9
+type: Item
+folder: e1730b8d2dbc7697
+sorting: a
+sort: 900000
+color: '#806d3f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: luz
+      level: 9

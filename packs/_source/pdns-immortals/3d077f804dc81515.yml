@@ -1,0 +1,71 @@
+_id: 3d077f804dc81515
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:182
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 3d077f804dc81515
+name: Arrasto Reativo
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢ · Reação</strong></p><p>A criatura pode agarrar um alvo com uma jogada de ataque de
+      Atletismo, afundar 10 metros e causar metade do seu dano padrão como dano Contundente.</p>
+    chat: ''
+  identifier: arrasto-reativo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    a9e3dc5b9c1e0fdf:
+      _id: a9e3dc5b9c1e0fdf
+      type: utility
+      name: Arrasto Reativo
+      activation:
+        type: reaction
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura pode agarrar um alvo com uma jogada de ataque de Atletismo, afundar 10 metros e causar metade do
+          seu dano padrão como dano Contundente.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/arrasto-reativo-3d077f804dc81515.webp"
+_key: '!items!3d077f804dc81515'

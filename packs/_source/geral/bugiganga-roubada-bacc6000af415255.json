@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000af415255",
+  "name": "Bugiganga Roubada",
+  "type": "loot",
+  "img": "systems/Immortals-system/assets/wuxia/equipamentos-antecedentes-pintados-v1/bugiganga-orfa.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-bugiganga-orfa",
+    "description": {
+      "value": "<p>Bugiganga roubada de valor máximo de 10 PO. Defina sua aparência com o Narrador.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "gear"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "bugiganga-orfa"
+    }
+  },
+  "_key": "!items!bacc6000af415255"
+}

@@ -1,0 +1,115 @@
+_id: jjnar00000000001
+name: Armadura Elemental
+type: equipment
+img: systems/Immortals-system/assets/wuxia/equipamentos-pdn-pintados-v1/jjnar00000000001-armadura-elemental.webp
+system:
+  type:
+    value: natural
+    baseItem: ''
+  identified: true
+  description:
+    value: >-
+      <p>Armadura natural. <strong>Classe de Resistência:</strong> 10 + Intelecto, usando o valor inteiro do
+      atributo.</p><p>Ao equipar, substitui o cálculo padrão de CR; não é somada a ele.</p><p><strong>Efeito:</strong>
+      Causa dano igual ao atributo de Int à criatura atacante.</p>
+    chat: ''
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  equipped: false
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+  identifier: armadura-elemental
+  source:
+    revision: 1
+    rules: '2024'
+  unidentified:
+    description: ''
+  container: null
+  price:
+    value: 0
+    denomination: yen
+  rarities: []
+  attunement: ''
+  attuned: false
+  crew:
+    value: []
+  armor:
+    value: 10
+    dex: null
+    ability: int
+  proficient: null
+  properties: []
+  strength: null
+flags:
+  Immortals-system:
+    armaduraNatural: true
+    cr:
+      base: 10
+      atributo: int
+    efeito: Causa dano igual ao atributo de Int à criatura atacante.
+    thorns:
+      tipo: thorns-atributo
+      atributo: int
+      texto: Causa dano igual ao atributo de Int à criatura atacante.
+    equipmentPdn:
+      version: 1
+      source: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000001
+      previousImg: systems/Immortals-system/icons/svg/items/equipment.svg
+      descriptionHashesBefore:
+        - '78166135'
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: equipamento-pdn
+      documentId: jjnar00000000001
+effects:
+  - _id: jjnarfx000000001
+    name: Armadura Elemental — Classe de Resistência
+    img: systems/Immortals-system/icons/svg/items/equipment.svg
+    origin: null
+    transfer: false
+    disabled: true
+    statuses: []
+    flags:
+      Immortals-system:
+        armaduraNaturalCR:
+          base: 10
+          atributo: int
+    system:
+      changes:
+        - key: system.attributes.ac.bonus
+          value: 10 + @abilities.int.mod
+          type: add
+          phase: initial
+          _id: uiK4sxE00jdnf8Rr
+          conditions: '{}'
+          replacement: ''
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: null
+        message: null
+      conditions: '{}'
+      magical: false
+      rider:
+        statuses: []
+    type: base
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    showIcon: 1
+    folder: null
+    sort: 0
+    _key: '!items.effects!jjnar00000000001.jjnarfx000000001'
+folder: IMEsHfstlHxfmBqg
+sort: 0
+_key: '!items!jjnar00000000001'

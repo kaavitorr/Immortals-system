@@ -1,0 +1,344 @@
+{
+  "_id": "d7b10a7f5b1a358d",
+  "name": "Heavy Bash",
+  "type": "spell",
+  "folder": "9ebbf2153d478de9",
+  "sort": 200000,
+  "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/bastao-longo.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-heavy-bash",
+    "level": 2,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 3,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "",
+      "units": "inst",
+      "expiry": null,
+      "special": "",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "",
+      "units": "touch",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "",
+        "size": "",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Bastões</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Toque</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Bastão</td></tr><tr><th>Requisito do quadro</th><td>Bastão</td></tr><tr><th>Ataque Combinado</th><td>Impossível</td></tr></tbody></table><p>Você dá um giro no seu bastão antes de pular e desferir um golpe contra a cabeça do oponente. A criatura deve realizar uma Salvaguarda de Constituição para não receber a condição “Incapacitado” até o fim do próximo turno dela.</p><p>&lt;Alternativamente&gt; Você pode utilizar essa técnica em uma única criatura no seu alcance de “Toque” causando 4d8 de dano Perfurante.</p><h3>Observações</h3><p>Escolha somente uma versão do dano por ativação: 1d8 Contundente ou 4d8 Perfurante. Incapacitado dura até o fim do próximo turno do alvo se ele falhar em Constituição.</p>"
+    },
+    "activities": {
+      "143da9a4bfe33528": {
+        "_id": "143da9a4bfe33528",
+        "type": "attack",
+        "name": "Heavy Bash",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/bastao-longo.webp",
+        "activation": {
+          "type": "action",
+          "value": 3,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "4",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Bastões</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Toque</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Bastão</td></tr><tr><th>Requisito do quadro</th><td>Bastão</td></tr><tr><th>Ataque Combinado</th><td>Impossível</td></tr></tbody></table><p>Você dá um giro no seu bastão antes de pular e desferir um golpe contra a cabeça do oponente. A criatura deve realizar uma Salvaguarda de Constituição para não receber a condição “Incapacitado” até o fim do próximo turno dela.</p><p>&lt;Alternativamente&gt; Você pode utilizar essa técnica em uma única criatura no seu alcance de “Toque” causando 4d8 de dano Perfurante.</p><h3>Observações</h3><p>Escolha somente uma versão do dano por ativação: 1d8 Contundente ou 4d8 Perfurante. Incapacitado dura até o fim do próximo turno do alvo se ele falhar em Constituição.</p>",
+          "chatFlavor": "Heavy Bash"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "touch",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "heavy-bash",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "attack": {
+          "ability": "spellcasting",
+          "bonus": "",
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "spell"
+          },
+          "critical": {
+            "threshold": 20
+          }
+        },
+        "damage": {
+          "includeBase": false,
+          "critical": {
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 1,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "bludgeoning"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": [
+          {
+            "_id": "6c99d76c14c8e15a",
+            "condition": "jj-incapacitado",
+            "save": "con"
+          }
+        ]
+      },
+      "4be8baf241d8d9f6": {
+        "_id": "4be8baf241d8d9f6",
+        "type": "attack",
+        "name": "Golpe alternativo — 4d8 Perfurante",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/bastao-longo.webp",
+        "activation": {
+          "type": "action",
+          "value": 3,
+          "condition": "Escolha esta versão em lugar da ativação principal.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "4",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Bastões</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Toque</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Bastão</td></tr><tr><th>Requisito do quadro</th><td>Bastão</td></tr><tr><th>Ataque Combinado</th><td>Impossível</td></tr></tbody></table><p>Você dá um giro no seu bastão antes de pular e desferir um golpe contra a cabeça do oponente. A criatura deve realizar uma Salvaguarda de Constituição para não receber a condição “Incapacitado” até o fim do próximo turno dela.</p><p>&lt;Alternativamente&gt; Você pode utilizar essa técnica em uma única criatura no seu alcance de “Toque” causando 4d8 de dano Perfurante.</p><h3>Observações</h3><p>Escolha somente uma versão do dano por ativação: 1d8 Contundente ou 4d8 Perfurante. Incapacitado dura até o fim do próximo turno do alvo se ele falhar em Constituição.</p>",
+          "chatFlavor": "Heavy Bash"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "touch",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "heavy-bash",
+              "key": "piercing",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "attack": {
+          "ability": "spellcasting",
+          "bonus": "",
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "spell"
+          },
+          "critical": {
+            "threshold": 20
+          }
+        },
+        "damage": {
+          "includeBase": false,
+          "critical": {
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 4,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "piercing"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": [
+          {
+            "_id": "c3f3f19a41fa52c4",
+            "condition": "jj-incapacitado",
+            "save": "con"
+          }
+        ]
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "heavy-bash",
+        "category": "bastoes",
+        "grade": 2,
+        "auxiliary": false,
+        "weapon": "Bastão",
+        "qi": 4,
+        "actions": 3,
+        "reaction": false,
+        "combinedAttack": false,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Instantâneo",
+            "range": "Toque",
+            "requirements": "Bastão",
+            "damage": "1d8 de dano Contundente",
+            "combinedAttack": false
+          }
+        },
+        "manualResolution": [
+          "Escolha somente uma versão do dano por ativação: 1d8 Contundente ou 4d8 Perfurante. Incapacitado dura até o fim do próximo turno do alvo se ele falhar em Constituição."
+        ],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!d7b10a7f5b1a358d"
+}

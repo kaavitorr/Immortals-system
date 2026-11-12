@@ -1,0 +1,53 @@
+_id: ac6e4d158bd6dfb5
+_key: '!items!ac6e4d158bd6dfb5'
+name: Junco da Ilha Reencontrada
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/ac6e4d158bd6dfb5.webp
+system:
+  identifier: material-alquimia-ac6e4d158bd6dfb5
+  description:
+    value: <p><strong>Elemento:</strong> Espaço · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Planta</p><p>Este junco cresce em margens atravessadas por Qi espacial e permanece inclinado para uma ilha que muda de posição além do horizonte. Sua medula conserva a correspondência com esse ponto móvel, útil para orientar ingredientes e sustentar vínculos em preparados de conexão.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d9cd7058efa0c0df
+sort: 12900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: espaco
+      elementLabel: Espaço
+      level: 7
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/espaco.json
+        originalName: Junco que Aponta a Ilha
+        sha256: e7d0006d3bc5b8eb4685c982cf4dd46c83df9af6d2f53fcd8b56c8b83060db26
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,72 @@
+_id: 576c5020e56e2555
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:167
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 576c5020e56e2555
+name: Surto de Velocidade
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢</strong></p><p>Ao anunciar um ataque ou técnica, a criatura pode aparecer ao fim do alcance do
+      ataque ou a até 25 metros de distância + 1 metro por ND, mas deve sempre aparecer atrás do alvo do ataque ou
+      técnica.</p>
+    chat: ''
+  identifier: surto-de-velocidade
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    8fdbdec6fef37905:
+      _id: 8fdbdec6fef37905
+      type: utility
+      name: Surto de Velocidade
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Ao anunciar um ataque ou técnica, a criatura pode aparecer ao fim do alcance do ataque ou a até 25 metros
+          de distância + 1 metro por ND, mas deve sempre aparecer atrás do alvo do ataque ou técnica.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 12
+  prerequisites:
+    items: []
+    level: 12
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/surto-de-velocidade-576c5020e56e2555.webp"
+_key: '!items!576c5020e56e2555'

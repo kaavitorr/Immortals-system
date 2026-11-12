@@ -1,0 +1,13 @@
+_id: 1da2695e7fa3fc8b
+_key: '!folders!1da2695e7fa3fc8b'
+name: Nível 3
+type: Item
+folder: 25264a5c1c2a6166
+sorting: a
+sort: 300000
+color: '#795d67'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: ilusao
+      level: 3

@@ -1,0 +1,140 @@
+name: Assassino (não Humanoide)
+type: archetype
+folder: 26a0e683ac977c63
+system:
+  description:
+    value: >-
+      <p>Prepara emboscadas e concentra o ataque em uma presa vulnerável. Usa furtividade e mobilidade para desferir
+      golpes decisivos e evitar confrontos prolongados.</p><p><strong>Resistência por ND:</strong> Veneno + 2 | Elétrico
+      + 1</p><p><strong>Vulnerabilidade:</strong> Físicos - 5</p><p><strong>Deslocamento:</strong> +1 até um máximo de
+      25</p><p><strong>Armaduras:</strong> Nenhuma</p><p><strong>Perícias:</strong> Proficiências: Acrobacia,
+      Furtividade, Percepção.</p><p><strong>Salvaguardas:</strong> Proficiências: Reflexo e
+      Fortitude.</p><p><strong>Aspectos:</strong> Emboscador, Assassinar</p><p><strong>Habilidades:</strong> Golpe
+      Letal, Marca do Assassino, Apunhalar.</p><p><strong>Reações:</strong> Fuga Sorrateira, Esquiva Rápida</p>
+    chat: ''
+  identifier: assassino-nao-humanoide
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 2
+    dex: 4
+    con: 2
+    int: 3
+    wis: 0
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: -5
+      immune: false
+    piercing:
+      value: -5
+      immune: false
+    slashing:
+      value: -5
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 2
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 1
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 0
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.acr
+      - skills.ste
+      - skills.prc
+      - saves.dex
+      - saves.int
+      - saves.str
+      - saves.wis
+    alternative:
+      - skills.acr
+      - skills.ste
+      - skills.prc
+      - alternativeSaves.reflexo
+      - alternativeSaves.fortitude
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.ee5b9ae19707d11e
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e838aaba381515a1
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5da66adcc9262ed1
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.66eb715739d5b82e
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e3954a3cc125e416
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4054b676984235b9
+      nd: 9
+  equipamentos:
+    armadura: null
+    armas: []
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: Be0tylQZWmAfprzK
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/assassino-nao-humanoide.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:assassinonaohumanoide
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: Be0tylQZWmAfprzK
+_key: '!items!Be0tylQZWmAfprzK'

@@ -1,0 +1,77 @@
+_id: 4a2d0142f7c39985
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:61
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 4a2d0142f7c39985
+name: Um Com o Mundo
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢</strong></p><p>Essa criatura pode gastar 5 PQ para entrar na terra ou em uma árvore e se
+      mover 20 metros em qualquer direção ou ficar escondida, recebendo 3 vantagens no Teste de Atributo de
+      Furtividade.</p>
+    chat: ''
+  identifier: um-com-o-mundo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    8762c08e77b462fa:
+      _id: 8762c08e77b462fa
+      type: utility
+      name: Um Com o Mundo
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '5'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Essa criatura pode gastar 5 PQ para entrar na terra ou em uma árvore e se mover 20 metros em qualquer
+          direção ou ficar escondida, recebendo 3 vantagens no Teste de Atributo de Furtividade.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 10
+  prerequisites:
+    items: []
+    level: 10
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/um-com-o-mundo-4a2d0142f7c39985.webp"
+_key: '!items!4a2d0142f7c39985'

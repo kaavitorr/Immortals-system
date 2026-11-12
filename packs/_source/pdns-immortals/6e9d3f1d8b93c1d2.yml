@@ -1,0 +1,71 @@
+_id: 6e9d3f1d8b93c1d2
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:145
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 6e9d3f1d8b93c1d2
+name: Mordida Voraz
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ [adicional]</strong></p><p>Durante um ataque de mordida, essa criatura pode causar 1 dado de
+      dano adicional e aumentar sua margem de crítico excedente em 1 (10 &gt; 9).</p>
+    chat: ''
+  identifier: mordida-voraz
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    69223e7e1253a887:
+      _id: 69223e7e1253a887
+      type: utility
+      name: Mordida Voraz
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Durante um ataque de mordida, essa criatura pode causar 1 dado de dano adicional e aumentar sua margem de
+          crítico excedente em 1 (10 &gt; 9).</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/mordida-voraz-6e9d3f1d8b93c1d2.webp"
+_key: '!items!6e9d3f1d8b93c1d2'

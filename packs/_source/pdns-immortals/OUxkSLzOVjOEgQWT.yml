@@ -1,0 +1,37 @@
+name: Força Descomunal
+type: feat
+folder: OcVvj7CqhIYNWBst
+system:
+  description:
+    value: <p><strong>Força Descomunal:</strong> Seu limite de Atributo de Força aumenta em +3.</p>
+    chat: ''
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+  identifier: forca-descomunal
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+_id: OUxkSLzOVjOEgQWT
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/forca-descomunal-OUxkSLzOVjOEgQWT.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: OUxkSLzOVjOEgQWT
+_key: '!items!OUxkSLzOVjOEgQWT'

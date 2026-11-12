@@ -1,0 +1,13 @@
+_id: f7757a6cfc4fe288
+_key: '!folders!f7757a6cfc4fe288'
+name: Nível 9
+type: Item
+folder: 23310966e9c1ac2b
+sorting: a
+sort: 900000
+color: '#466b52'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: madeira
+      level: 9

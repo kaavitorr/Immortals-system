@@ -1,0 +1,53 @@
+_id: a9adabc8b60ae0c1
+_key: '!items!a9adabc8b60ae0c1'
+name: Cauda de Castor dos Diques Reverdescentes
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/a9adabc8b60ae0c1.webp
+system:
+  identifier: material-alquimia-a9adabc8b60ae0c1
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 5 · <strong>Categoria:</strong> Parte de animal</p><p>O castor dos Diques Reverdescentes imprime Qi da Madeira nos troncos com a cauda e faz brotar raízes que unem suas represas. O tecido preserva uma essência de construção contínua, usada em preparados de resistência ao esforço e sustentação dos movimentos delicados das mãos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-earth
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 062371395dde880c
+sort: 9900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 5
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Cauda de Castor da Represa
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 5
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

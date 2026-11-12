@@ -1,0 +1,53 @@
+_id: be82a8b0eaa567bf
+_key: '!items!be82a8b0eaa567bf'
+name: Tendão de Macaco das Máscaras Móveis
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/be82a8b0eaa567bf.webp
+system:
+  identifier: material-alquimia-be82a8b0eaa567bf
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Parte de animal</p><p>O macaco das máscaras móveis amadurece em ravinas de Qi ilusório, deixando suas expressões suspensas no ar quando muda o rosto. Seu tendão mantém fibras de essência maleável em cadências coordenadas, úteis para unir e sustentar as transições de aparências complexas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: fe2618f2c84e8257
+sort: 11400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 6
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Tendão de Macaco Farsante
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

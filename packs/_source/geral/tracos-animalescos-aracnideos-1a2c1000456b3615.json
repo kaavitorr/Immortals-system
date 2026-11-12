@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000456b3615",
+  "name": "Traços Animalescos — Aracnídeos",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
+  "system": {
+    "identifier": "especie-03a128d5",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Aracnídeos. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c10004df1eb99": {
+        "_id": "1a2c10004df1eb99",
+        "type": "ItemChoice",
+        "title": "Duas características — Aracnídeos",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.DifKT37Qpkb5ScFo"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.VmIB0mnuRw00Utms"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Aracnídeos",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000456b3615"
+}

@@ -1,0 +1,72 @@
+_id: db71b409eca54847
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:90
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: db71b409eca54847
+name: Corte Sangrento
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢</strong></p><p>A criatura desfere um ataque Cortante ou Perfurante contra o alvo, causando
+      1d4 de dano adicional. Em caso de acerto, o alvo deve realizar uma Salvaguarda de Vontade para não receber a
+      condição “Sangramento”.</p>
+    chat: ''
+  identifier: corte-sangrento
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    a38eb4bcbf795e3f:
+      _id: a38eb4bcbf795e3f
+      type: utility
+      name: Corte Sangrento
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura desfere um ataque Cortante ou Perfurante contra o alvo, causando 1d4 de dano adicional. Em caso
+          de acerto, o alvo deve realizar uma Salvaguarda de Vontade para não receber a condição “Sangramento”.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/corte-sangrento-db71b409eca54847.webp"
+_key: '!items!db71b409eca54847'

@@ -1,0 +1,171 @@
+{
+  "_id": "17ef83d3b29cd5f5",
+  "name": "Talismã de Aviso",
+  "type": "consumable",
+  "folder": "1a1dfff59dd402d3",
+  "img": "systems/Immortals-system/assets/wuxia/talismas-pintados-v1/talisma-de-aviso.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-talisma-de-aviso",
+    "type": {
+      "value": "scroll"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 5.</p><h3>TALISMÃ DE AVISO</h3>\n<table><tbody><tr><td>Tipo: Utilitário</td><td>Nível: 5 a 10</td><td>Classe de Dificuldade: 18</td></tr></tbody></table>\n<p>Um talismã que é vinculado a alma da criatura e quando ela morre, o talismã é destruído, enviando uma imagem de 210 metros de raio ao redor da criatura no momento da morte dela para uma criatura marcada, fazendo ela saber todas as criaturas que estavam presentes no momento da morte.</p>\n<p>O talismã pode enviar a imagem a 100.000 metros, dobrando a cada nível posterior.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>300% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Declarar ativação, alvos, área e duração conforme a descrição; resolver os efeitos táticos com o mestre. Vincule o portador e o destinatário. O talismã é destruído somente quando a morte desencadeia o envio; o vínculo não consome a unidade. O narrador resolve a imagem e o alcance.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 150 Cristais de Essência Terra Comum. <strong>Venda por unidade:</strong> 450 Cristais de Essência Terra Comum.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"talisma-de-aviso:5:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 5</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/9e65a23b4ce8db8a.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"9e65a23b4ce8db8a\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.9e65a23b4ce8db8a\">Crina de Iaque das Nascentes Entrelaçadas</a><small>fibra do suporte</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Terra Comum por unidade\">20 Cristais de Essência Terra Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/0dfb56db49446c22.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"0dfb56db49446c22\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.0dfb56db49446c22\">Junco que Assobia Vozes</a><small>transmissão do sinal</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Terra Comum por unidade\">40 Cristais de Essência Terra Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/tempo/e867ce0d65ac81b0.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"e867ce0d65ac81b0\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.e867ce0d65ac81b0\">Olho de Coruja dos Séculos</a><small>registro da imagem</small></div><span class=\"iw-recipe-price\" title=\"40 Cristais de Essência Terra Comum por unidade\">40 Cristais de Essência Terra Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-05/70c344cb03534370.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"70c344cb03534370\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.70c344cb03534370\">Jaspe do Tigre Adormecido</a><small>carga mineral da runa</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Terra Comum por unidade\">40 Cristais de Essência Terra Comum</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-05/5e36ce7b73bb2f8f.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"5e36ce7b73bb2f8f\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.5e36ce7b73bb2f8f\">Pó do Forno sem Fumaça</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"10 Cristais de Essência Terra Comum por unidade\">10 Cristais de Essência Terra Comum</span></li></ol><footer><span>Custo dos componentes</span><strong>150 Cristais de Essência Terra Comum</strong></footer></section>"
+    },
+    "activities": {
+      "d8414922bebfe2d6": {
+        "_id": "d8414922bebfe2d6",
+        "type": "utility",
+        "name": "Vincular aviso à alma (manual)",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 5.</p><h3>TALISMÃ DE AVISO</h3>\n<table><tbody><tr><td>Tipo: Utilitário</td><td>Nível: 5 a 10</td><td>Classe de Dificuldade: 18</td></tr></tbody></table>\n<p>Um talismã que é vinculado a alma da criatura e quando ela morre, o talismã é destruído, enviando uma imagem de 210 metros de raio ao redor da criatura no momento da morte dela para uma criatura marcada, fazendo ela saber todas as criaturas que estavam presentes no momento da morte.</p>\n<p>O talismã pode enviar a imagem a 100.000 metros, dobrando a cada nível posterior.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>300% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Declarar ativação, alvos, área e duração conforme a descrição; resolver os efeitos táticos com o mestre. Vincule o portador e o destinatário. O talismã é destruído somente quando a morte desencadeia o envio; o vínculo não consome a unidade. O narrador resolve a imagem e o alcance.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 150 Cristais de Essência Terra Comum. <strong>Venda por unidade:</strong> 450 Cristais de Essência Terra Comum.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"talisma-de-aviso:5:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 5</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/9e65a23b4ce8db8a.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"9e65a23b4ce8db8a\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.9e65a23b4ce8db8a\">Crina de Iaque das Nascentes Entrelaçadas</a><small>fibra do suporte</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Terra Comum por unidade\">20 Cristais de Essência Terra Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/0dfb56db49446c22.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"0dfb56db49446c22\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.0dfb56db49446c22\">Junco que Assobia Vozes</a><small>transmissão do sinal</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Terra Comum por unidade\">40 Cristais de Essência Terra Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/tempo/e867ce0d65ac81b0.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"e867ce0d65ac81b0\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.e867ce0d65ac81b0\">Olho de Coruja dos Séculos</a><small>registro da imagem</small></div><span class=\"iw-recipe-price\" title=\"40 Cristais de Essência Terra Comum por unidade\">40 Cristais de Essência Terra Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-05/70c344cb03534370.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"70c344cb03534370\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.70c344cb03534370\">Jaspe do Tigre Adormecido</a><small>carga mineral da runa</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Terra Comum por unidade\">40 Cristais de Essência Terra Comum</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-05/5e36ce7b73bb2f8f.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"5e36ce7b73bb2f8f\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.5e36ce7b73bb2f8f\">Pó do Forno sem Fumaça</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"10 Cristais de Essência Terra Comum por unidade\">10 Cristais de Essência Terra Comum</span></li></ol><footer><span>Custo dos componentes</span><strong>150 Cristais de Essência Terra Comum</strong></footer></section>",
+          "chatFlavor": "Talismã de Aviso — Vincular aviso à alma (manual)"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "100000",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "talisma-de-aviso",
+              "key": "bind",
+              "level": 5,
+              "quality": null,
+              "manualResolution": true,
+              "consumeItem": false,
+              "rule": "warningTalisman",
+              "manualSoulBinding": true,
+              "consumeOnDeath": true,
+              "imageRadiusMeters": 210,
+              "maximumRangeMeters": 100000
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Vincular aviso à alma (manual)",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talismas-pintados-v1/talisma-de-aviso.webp"
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "price": {
+      "value": 450,
+      "denomination": "essence-earth"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "talisma-de-aviso",
+        "kind": "talisman",
+        "profession": "inscriptions",
+        "level": 5,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 5,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 5000,
+          "materials": 100,
+          "currency": "spiritualCrystals",
+          "rank": "earth"
+        },
+        "creationPercent": 800,
+        "salePercent": 300,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 150,
+          "currency": "spiritualCrystals",
+          "rank": "earth"
+        },
+        "sale": {
+          "amount": 450,
+          "currency": "spiritualCrystals",
+          "rank": "earth"
+        },
+        "referenceCreation": {
+          "amount": 800,
+          "currency": "spiritualCrystals",
+          "rank": "earth"
+        },
+        "referenceSale": {
+          "amount": 2400,
+          "currency": "spiritualCrystals",
+          "rank": "earth"
+        }
+      },
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Declarar ativação, alvos, área e duração conforme a descrição; resolver os efeitos táticos com o mestre.",
+          "Vincule o portador e o destinatário. O talismã é destruído somente quando a morte desencadeia o envio; o vínculo não consome a unidade. O narrador resolve a imagem e o alcance."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!17ef83d3b29cd5f5"
+}

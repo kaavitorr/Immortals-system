@@ -1,0 +1,210 @@
+{
+  "_id": "ed34acfda3f63a3d",
+  "name": "Wok Shake",
+  "type": "spell",
+  "folder": "617a4a11446e8ceb",
+  "sort": 200000,
+  "img": "icons/tools/cooking/pot-camping-iron-black.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-wok-shake",
+    "level": 2,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 3,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "",
+      "units": "inst",
+      "expiry": null,
+      "special": "",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "",
+      "units": "self",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "sphere",
+        "size": "5",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "creature",
+        "count": "",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Wok</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Até 5 metros de raio, Esfera</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Wok</td></tr><tr><th>Requisito do quadro</th><td>Wok</td></tr><tr><th>Ataque Combinado</th><td>Impossível</td></tr></tbody></table><p>Você dá um pulo antes de cair no chão acertando seu Wok com toda força. Todas as criaturas dentro da área da técnica devem realizar uma Salvaguarda de Agilidade para não sofrerem todo dano e receberem a condição “Caído” ou metade do dano sem receber nenhuma condição.</p><h3>Observações</h3><p>Use a mesma salvaguarda de Agilidade para o dano e Caído: falha sofre o dano total e fica Caído; sucesso sofre metade e não cai. Não faça uma segunda salvaguarda para a condição.</p>"
+    },
+    "activities": {
+      "2a1bf0727cfb4fe0": {
+        "_id": "2a1bf0727cfb4fe0",
+        "type": "save",
+        "name": "Wok Shake",
+        "img": "icons/tools/cooking/pot-camping-iron-black.webp",
+        "activation": {
+          "type": "action",
+          "value": 3,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "4",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Wok</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Até 5 metros de raio, Esfera</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Wok</td></tr><tr><th>Requisito do quadro</th><td>Wok</td></tr><tr><th>Ataque Combinado</th><td>Impossível</td></tr></tbody></table><p>Você dá um pulo antes de cair no chão acertando seu Wok com toda força. Todas as criaturas dentro da área da técnica devem realizar uma Salvaguarda de Agilidade para não sofrerem todo dano e receberem a condição “Caído” ou metade do dano sem receber nenhuma condição.</p><h3>Observações</h3><p>Use a mesma salvaguarda de Agilidade para o dano e Caído: falha sofre o dano total e fica Caído; sucesso sofre metade e não cai. Não faça uma segunda salvaguarda para a condição.</p>",
+          "chatFlavor": "Wok Shake"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "sphere",
+            "size": "5",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "wok-shake",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "bonus": "",
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          },
+          "visible": true
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 2,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "bludgeoning"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": []
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "wok-shake",
+        "category": "wok",
+        "grade": 2,
+        "auxiliary": false,
+        "weapon": "Wok",
+        "qi": 4,
+        "actions": 3,
+        "reaction": false,
+        "combinedAttack": false,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Instantâneo",
+            "range": "Até 5 metros de raio, Esfera",
+            "requirements": "Wok",
+            "damage": "2d6 de dano Contundente",
+            "combinedAttack": false
+          }
+        },
+        "manualResolution": [
+          "Use a mesma salvaguarda de Agilidade para o dano e Caído: falha sofre o dano total e fica Caído; sucesso sofre metade e não cai. Não faça uma segunda salvaguarda para a condição."
+        ],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!ed34acfda3f63a3d"
+}

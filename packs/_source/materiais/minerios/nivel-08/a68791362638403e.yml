@@ -1,0 +1,50 @@
+_id: a68791362638403e
+name: Ósmio da Âncora Celeste
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-08/a68791362638403e.webp
+system:
+  identifier: minerio-a68791362638403e
+  description:
+    value: <p><strong>Nível:</strong> 8 · <strong>Categoria:</strong> Minério</p><p>Minério azul-acinzentado de brilho metálico intenso e densidade incomum. Aparece em fragmentos caídos de ilhas espirituais muito antigas. É beneficiado para contrapesos de tesouros voadores e para apoios de matrizes que precisam resistir à própria força de elevação dos componentes.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 200
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: c68bd2db09650a50
+sort: 500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 8
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 8
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!a68791362638403e'

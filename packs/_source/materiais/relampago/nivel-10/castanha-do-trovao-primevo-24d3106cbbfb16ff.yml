@@ -1,0 +1,53 @@
+_id: 24d3106cbbfb16ff
+_key: '!items!24d3106cbbfb16ff'
+name: Castanha do Trovão Primevo
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/24d3106cbbfb16ff.webp
+system:
+  identifier: material-alquimia-24d3106cbbfb16ff
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Planta</p><p>Castanha colhida da árvore tocada pelo primeiro raio do mundo, com um estrondo adormecido em seu interior. Enterrada, dá origem a uma castanheira que afasta descargas malignas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 915b74bf3408615e
+sort: 18800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 10
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Castanha do Trovão Primevo
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

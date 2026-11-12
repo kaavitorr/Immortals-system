@@ -1,0 +1,48 @@
+{
+  "_id": "89c822e8013aa7e8",
+  "name": "Ataque Potencializado",
+  "type": "feat",
+  "folder": "d2652f7aa9b40d98",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/ataque-potencializado.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-ataque-potencializado",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Corpo de Guerreiro.</p><h2>Ataque Potencializado</h2><p><strong>Requisito:</strong> Entrada Impactante</p><p>Você aprendeu a atingir os pontos fracos de seus inimigos com eficiência, aumentando o dano causado por seus ataques. Suas Rolagens de Ataque Comuns causam 1d4 de dano adicional.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "ataque-potencializado",
+        "categoria": "Adaptação Física",
+        "caminho": "Corpo de Guerreiro",
+        "requisitos": [
+          "Entrada Impactante"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "entrada-impactante"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "commonAttackDamage",
+            "formula": "1d4"
+          }
+        ],
+        "manual": [],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!89c822e8013aa7e8"
+}

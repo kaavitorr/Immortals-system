@@ -1,0 +1,159 @@
+_id: spikedKnuckles00
+_key: '!items!spikedKnuckles00'
+name: Cotucleiras Cravadas
+type: weapon
+img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/cotucleiras-cravadas.webp
+system:
+  identifier: spiked-knuckles
+  description:
+    value: >-
+      <p>Combinação brutal de arma de punho e ferramenta perfurante: as cotucleiras cravadas transformam cada soco num
+      golpe mutilador, ideais para brigões que querem que seus punhos sangrem e inflijam
+      medo.</p><p><strong>Propriedades:</strong> Intuitiva.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 2
+    units: kg
+  price:
+    value: 160
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    bead52a0d250361f:
+      _id: bead52a0d250361f
+      type: attack
+      name: Ataque
+      img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/cotucleiras-cravadas.webp
+      sort: 0
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      attack:
+        ability: ''
+        bonus: ''
+        flat: false
+        type:
+          value: melee
+          classification: unarmed
+        critical:
+          threshold: null
+      damage:
+        includeBase: true
+        parts: []
+        critical:
+          bonus: ''
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: m
+        value: 1
+        override: true
+        special: ''
+      target:
+        override: false
+        prompt: true
+        template:
+          type: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+  type:
+    value: natural
+    baseItem: ''
+  ammunition:
+    type: ''
+  range:
+    units: m
+    value: null
+    long: null
+    reach: 1
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - piercing
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - piercing
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+effects: []
+folder: lGF14ntdvbicThxI
+sort: 200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: spikedKnuckles00
+      sourceType: weapon
+      category: unarmed
+      quality: despertado
+      enchantment: mundane
+      properties:
+        - intuitive
+      weaponDamagePending: true
+      manualEffects: []

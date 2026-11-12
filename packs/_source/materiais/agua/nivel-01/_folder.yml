@@ -1,0 +1,13 @@
+_id: ed3919c745cf1398
+_key: '!folders!ed3919c745cf1398'
+name: Nível 1
+type: Item
+folder: c850a5148710bf94
+sorting: a
+sort: 100000
+color: '#365f78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: agua
+      level: 1

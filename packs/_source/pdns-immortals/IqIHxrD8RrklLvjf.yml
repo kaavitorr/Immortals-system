@@ -1,0 +1,44 @@
+name: Sussurro Perturbador
+type: feat
+folder: 6fd2469e451c2501
+system:
+  description:
+    value: >-
+      <p>Todas as criaturas a até 45 metros do prédio, casa ou cabana que essa criatura se encontra, sofre 2 Ponto de
+      Dano Psíquico por minuto, mas ela não nota o dano sendo sofrido, apenas ouvindo sussurros tenebrosos. Ao cair a 0
+      Pontos de Vida, ela passa a ser controlada pela criatura.</p>
+    chat: ''
+  identifier: sussurro-perturbador
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: IqIHxrD8RrklLvjf
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/sussurro-perturbador-IqIHxrD8RrklLvjf.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:sussurroperturbador:16ffb5694d92
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: IqIHxrD8RrklLvjf
+_key: '!items!IqIHxrD8RrklLvjf'

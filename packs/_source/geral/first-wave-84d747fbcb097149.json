@@ -1,0 +1,212 @@
+{
+  "_id": "84d747fbcb097149",
+  "name": "First Wave",
+  "type": "spell",
+  "folder": "4e1078af41ad3c81",
+  "sort": 200000,
+  "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/jian.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-first-wave",
+    "level": 2,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 3,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "",
+      "units": "inst",
+      "expiry": null,
+      "special": "",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "10",
+      "units": "m",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "line",
+        "size": "10",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Espadas</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Até 10 metros, Linha</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Espada</td></tr><tr><th>Ataque Combinado</th><td>Impossível</td></tr></tbody></table><p>Você realiza uma jogada de ataque que libera uma onda cortante de Qi da sua lâmina que tenta atingir um alvo dentro do alcance da técnica. Essa habilidade tem margem de acerto crítico 19-20.</p>"
+    },
+    "activities": {
+      "ec19d2b0a83901cc": {
+        "_id": "ec19d2b0a83901cc",
+        "type": "attack",
+        "name": "First Wave",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/jian.webp",
+        "activation": {
+          "type": "action",
+          "value": 3,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "4",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Espadas</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Até 10 metros, Linha</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Espada</td></tr><tr><th>Ataque Combinado</th><td>Impossível</td></tr></tbody></table><p>Você realiza uma jogada de ataque que libera uma onda cortante de Qi da sua lâmina que tenta atingir um alvo dentro do alcance da técnica. Essa habilidade tem margem de acerto crítico 19-20.</p>",
+          "chatFlavor": "First Wave"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "10",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "line",
+            "size": "10",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "first-wave",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": false
+            }
+          }
+        },
+        "attack": {
+          "ability": "spellcasting",
+          "bonus": "",
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": "spell"
+          },
+          "critical": {
+            "threshold": 19
+          }
+        },
+        "damage": {
+          "includeBase": false,
+          "critical": {
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 4,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "slashing"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": []
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "first-wave",
+        "category": "espadas",
+        "grade": 2,
+        "auxiliary": false,
+        "weapon": "Espada",
+        "qi": 4,
+        "actions": 3,
+        "reaction": false,
+        "combinedAttack": false,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Instantâneo",
+            "range": "Até 10 metros, Linha",
+            "requirements": "-",
+            "damage": "4d8 de dano Cortante",
+            "combinedAttack": false
+          }
+        },
+        "manualResolution": [],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!84d747fbcb097149"
+}

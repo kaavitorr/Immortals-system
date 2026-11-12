@@ -1,0 +1,53 @@
+_id: 557171a96a2d49e5
+_key: '!items!557171a96a2d49e5'
+name: Sangue de Raposa de Seis Caudas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/557171a96a2d49e5.webp
+system:
+  identifier: material-alquimia-557171a96a2d49e5
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Parte de animal</p><p>Sangue ardente da raposa espiritual de seis caudas, astuta como nenhum bicho. Uma gota em elixir desperta a intuição e sela feridas do espírito que sangram Qi.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 13b8eac8c73d7a19
+sort: 13500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 7
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Sangue de Raposa de Seis Caudas
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

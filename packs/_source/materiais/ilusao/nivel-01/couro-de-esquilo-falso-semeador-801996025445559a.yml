@@ -1,0 +1,53 @@
+_id: 801996025445559a
+_key: '!items!801996025445559a'
+name: Couro de Esquilo Semeia-Miragens
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/801996025445559a.webp
+system:
+  identifier: material-alquimia-801996025445559a
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Parte de animal</p><p>O esquilo semeia-miragens alimenta-se de frutos banhados por Qi ilusório e deixa cópias luminosas das sementes que esconde. Seu couro retém pequenas manchas de imagem entre os pelos, úteis para dar continuidade e flexibilidade a preparados destinados à projeção de aparências.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f96f1bba64ad37ff
+sort: 1600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 1
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Couro de Esquilo Falso-Semeador
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

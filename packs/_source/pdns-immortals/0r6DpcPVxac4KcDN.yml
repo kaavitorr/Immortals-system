@@ -1,0 +1,127 @@
+name: Espectros
+type: taxonomy
+folder: b9497f2183d7aec1
+system:
+  description:
+    value: >-
+      <p>Reúne criaturas incorpóreas, como fantasmas, assombrações e aparições de mortos, cuja existência não depende de
+      um corpo físico.</p><p><strong>Resistência:</strong> Físicos ∞</p><p><strong>Vulnerabilidade:</strong> Psíquico
+      −10 | Alma −10</p><p><strong>Deslocamento:</strong> Flutuação: 12 m</p><p><strong>Armaduras:</strong> Armadura
+      Psíquica (8 + Sab).</p><p><strong>Perícias:</strong> Proficiências: Nenhuma.</p><p><strong>Salvaguardas:</strong>
+      Proficiências: Sabedoria e Presença.</p><p><strong>Aspectos:</strong> Forma Espectral, Algoz Invisível.</p>
+    chat: ''
+  identifier: espectros
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 1
+    dex: 1
+    con: 1
+    int: 3
+    wis: 3
+    cha: 3
+  resistencias:
+    bludgeoning:
+      value: 0
+      immune: true
+    piercing:
+      value: 0
+      immune: true
+    slashing:
+      value: 0
+      immune: true
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: -10
+      immune: false
+    soul:
+      value: -10
+      immune: false
+  proficiencyOrder:
+    original:
+      - saves.wis
+      - saves.cha
+    alternative:
+      - alternativeSaves.fortitude
+      - alternativeSaves.vontade
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.USL78Xhz2UeT4RNx
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5d782244bee611f2
+      nd: 0
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000015
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnem00000000125
+  vidaEnergia: false
+  energiaBase: 10
+  movimento:
+    walk: 0
+    swim: 0
+    fly: 12
+    climb: 0
+    burrow: 0
+_id: 0r6DpcPVxac4KcDN
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/taxonomias/espectros.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:taxonomy:espectros
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 0r6DpcPVxac4KcDN
+_key: '!items!0r6DpcPVxac4KcDN'

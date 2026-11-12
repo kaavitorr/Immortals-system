@@ -1,0 +1,53 @@
+_id: c0bddfd7b6994b88
+_key: '!items!c0bddfd7b6994b88'
+name: Dália da Onda que não Quebra
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/c0bddfd7b6994b88.webp
+system:
+  identifier: material-alquimia-c0bddfd7b6994b88
+  description:
+    value: <p><strong>Elemento:</strong> Água · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Planta</p><p>Floresce ao lado da onda que viaja o lago inteiro sem nunca quebrar. As pétalas, batizadas na espuma, dão aos pés a leveza da água que corre.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 50
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 791a9bcfcd47d17d
+sort: 15000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: agua
+      elementLabel: Água
+      level: 8
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/agua.json
+        originalName: Dália da Onda que não Quebra
+        sha256: 4e0ab61ab8b4f69e0e1dd88c53ff06dabfdca351a5290537230f83680b9c27bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

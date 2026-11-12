@@ -1,0 +1,163 @@
+{
+  "_id": "1b8c9f51ee936bed",
+  "name": "Símbolo da Mente Sagaz",
+  "type": "equipment",
+  "folder": "0ba3fd64495066b2",
+  "img": "systems/Immortals-system/assets/wuxia/inscricoes-pintadas-v1/simbolo-da-mente-sagaz.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-simbolo-da-mente-sagaz",
+    "type": {
+      "value": "wondrous"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>SÍMBOLO DA MENTE SAGAZ</h3>\n<table><tbody><tr><td>Tipo: Alma</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 21</td></tr></tbody></table>\n<p>Um símbolo que pode ser marcado em sua testa para auxiliar seu avanço de Rank, fazendo com que sua força de Vontade se torne inesgotável por um curto período de tempo. Você deve usar um símbolo de nível equivalente ao seu Rank atual e ele desaparece após seu avanço.</p>\n<p>Enquanto estiver com esse símbolo, você diminui a dificuldade do avanço em 2.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>350% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar esta inscrição ao suporte ou criatura indicado; vincular a habilidade e suas limitações ao alvo escolhido. A inscrição só concede seu benefício depois de aplicada ao suporte indicado e confirmada pelo narrador. Possuí-la no inventário não concede bônus nem condições.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 750 PO. <strong>Venda por unidade:</strong> 2.625 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"simbolo-da-mente-sagaz:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>carga mineral da runa</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">100 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/0f9dc35c4e195a0a.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"0f9dc35c4e195a0a\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.0f9dc35c4e195a0a\">Presa de Javali do Marco Fixo</a><small>firmeza da vontade</small></div><span class=\"iw-recipe-price\" title=\"200 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/d5f47a94980d4b45.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"d5f47a94980d4b45\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.d5f47a94980d4b45\">Pena de Grou da Névoa Silenciosa</a><small>serenidade mental</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/89b95fa5a1e49a5a.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"89b95fa5a1e49a5a\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.89b95fa5a1e49a5a\">Samambaia das Imagens Enroladas</a><small>proteção espiritual</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/581c23844115c319.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"581c23844115c319\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.581c23844115c319\">Sal da Chama Mansa</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>750 PO</strong></footer></section>"
+    },
+    "activities": {
+      "9acaa1810fc421ab": {
+        "_id": "9acaa1810fc421ab",
+        "type": "utility",
+        "name": "Aplicar inscrição (resolução manual)",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>SÍMBOLO DA MENTE SAGAZ</h3>\n<table><tbody><tr><td>Tipo: Alma</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 21</td></tr></tbody></table>\n<p>Um símbolo que pode ser marcado em sua testa para auxiliar seu avanço de Rank, fazendo com que sua força de Vontade se torne inesgotável por um curto período de tempo. Você deve usar um símbolo de nível equivalente ao seu Rank atual e ele desaparece após seu avanço.</p>\n<p>Enquanto estiver com esse símbolo, você diminui a dificuldade do avanço em 2.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>350% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar esta inscrição ao suporte ou criatura indicado; vincular a habilidade e suas limitações ao alvo escolhido. A inscrição só concede seu benefício depois de aplicada ao suporte indicado e confirmada pelo narrador. Possuí-la no inventário não concede bônus nem condições.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 750 PO. <strong>Venda por unidade:</strong> 2.625 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"simbolo-da-mente-sagaz:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>carga mineral da runa</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">100 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/0f9dc35c4e195a0a.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"0f9dc35c4e195a0a\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.0f9dc35c4e195a0a\">Presa de Javali do Marco Fixo</a><small>firmeza da vontade</small></div><span class=\"iw-recipe-price\" title=\"200 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/d5f47a94980d4b45.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"d5f47a94980d4b45\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.d5f47a94980d4b45\">Pena de Grou da Névoa Silenciosa</a><small>serenidade mental</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/89b95fa5a1e49a5a.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"89b95fa5a1e49a5a\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.89b95fa5a1e49a5a\">Samambaia das Imagens Enroladas</a><small>proteção espiritual</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/581c23844115c319.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"581c23844115c319\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.581c23844115c319\">Sal da Chama Mansa</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>750 PO</strong></footer></section>",
+          "chatFlavor": "Símbolo da Mente Sagaz — Aplicar inscrição (resolução manual)"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "simbolo-da-mente-sagaz",
+              "key": "apply",
+              "level": 1,
+              "quality": null,
+              "manualResolution": true,
+              "consumeItem": false,
+              "rule": "simbolo-da-mente-sagaz",
+              "requiresAppliedInscription": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Aplicar inscrição (resolução manual)",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/inscricoes-pintadas-v1/simbolo-da-mente-sagaz.webp"
+      }
+    },
+    "equipped": false,
+    "price": {
+      "value": 2625,
+      "denomination": "gp"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "simbolo-da-mente-sagaz",
+        "kind": "inscription",
+        "profession": "inscriptions",
+        "level": 1,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 1,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 3000,
+          "materials": 500,
+          "currency": "gp",
+          "rank": null
+        },
+        "creationPercent": 1500,
+        "salePercent": 350,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 750,
+          "currency": "gp",
+          "rank": null
+        },
+        "sale": {
+          "amount": 2625,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceCreation": {
+          "amount": 7500,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceSale": {
+          "amount": 26250,
+          "currency": "gp",
+          "rank": null
+        }
+      },
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Aplicar esta inscrição ao suporte ou criatura indicado; vincular a habilidade e suas limitações ao alvo escolhido.",
+          "A inscrição só concede seu benefício depois de aplicada ao suporte indicado e confirmada pelo narrador. Possuí-la no inventário não concede bônus nem condições."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!1b8c9f51ee936bed"
+}

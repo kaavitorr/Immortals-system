@@ -1,0 +1,53 @@
+_id: 5ef9f996665887d4
+_key: '!items!5ef9f996665887d4'
+name: Escama de Pangolim das Raízes Entrelaçadas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/5ef9f996665887d4.webp
+system:
+  identifier: material-alquimia-5ef9f996665887d4
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Parte de animal</p><p>O pangolim das Raízes Entrelaçadas recebe Qi da Madeira por escamas que se abrem como folhas ao tocar árvores espirituais. Seu pó reúne uma afinidade de desagregação e renovação, empregada em preparados que dispersam endurecimentos dos tecidos e restauram sua firmeza flexível.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d553fd0a1f34557e
+sort: 11300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 6
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Escama de Pangolim Florestal
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

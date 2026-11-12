@@ -1,0 +1,65 @@
+_id: scrivenersPortab
+_key: '!items!scrivenersPortab'
+name: Bancada Portátil de Escriba
+type: tool
+img: icons/containers/chest/chest-reinforced-box-brown.webp
+system:
+  identifier: workbench-scribing
+  description:
+    value: >-
+      <p>Caixa de madeira com couro pouco maior que um livro comum. Contém pincéis caligráficos e pontas de pena, agulha
+      e linha, e espaço para guardar frascos de tinta separados do papel dobrado. Quando aberta, a caixa desdobra-se
+      para servir como superfície plana de escrita.</p><p><strong>Propriedades:</strong>
+      Empilhável.</p><p><strong>Profissões e conhecimentos:</strong> Ciência, Sociedade.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 25
+    units: kg
+  price:
+    value: 3000
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: ''
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: zKA7bUzu7rPpL2lk
+sort: 200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: scrivenersPortab
+      sourceType: tool
+      category: crafting
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

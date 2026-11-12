@@ -1,0 +1,75 @@
+{
+  "_id": "bacc10003c0e4800",
+  "name": "Vagabundo",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/vagabundo.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-vagabundo",
+    "description": {
+      "value": "<p>O Vagabundo é aquele que não fez nada de significativo na sua vida além de vadiar por aí, devido a sempre estar vagando sem realizar tanto esforço, ele aprendeu a se virar e enganar pessoas para sobreviver assim a como ver com quem não se meter.</p><h3>Equipamentos iniciais</h3><p>Uma bugiganga de até 1 PO. <strong>15 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc20003c0e4800]{Sem Tempo Ruim}</h3><p>Ficando zanzando por aí o tempo todo, você desenvolveu a habilidade de dormir bem em qualquer lugar, independentemente da situação. Quando você tiver em uma área muito ruim para descansar, você pode realizar um Teste de Sorte CD 16. Em caso de sucesso, você encontra um local seguro pra tirar um cochilo. Essa característica pode ser utilizada uma vez, recuperando seu uso após realizar um descanso longo.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc50003c0e4800",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 15,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc30003c0e4800": {
+        "_id": "bacc30003c0e4800",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc20003c0e4800",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc70003c0e4800": {
+        "_id": "bacc70003c0e4800",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000110df7b0",
+              "quantity": 1,
+              "optional": false
+            }
+          ],
+          "currency": {
+            "gp": 15
+          },
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "vagabundo",
+        "startingGold": 15,
+        "equipment": "Uma bugiganga de até 1 PO."
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc10003c0e4800"
+}

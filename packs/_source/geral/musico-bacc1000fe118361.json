@@ -1,0 +1,112 @@
+{
+  "_id": "bacc1000fe118361",
+  "name": "Músico",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/musico.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-musico",
+    "description": {
+      "value": "<p>O Músico é uma das profissões mais nobres do mundo, seu trabalho traz a felicidade e entretenimento para um grande número de pessoas com suas músicas capazes de manifestar todos os tipos de emoções nos corações das pessoas. Elas possuem tanto a capacidade de ferir quanto curar.</p><h3>Equipamentos iniciais</h3><p>Um kit de disfarce, um instrumento musical e uma roupa de gala. <strong>80 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc2000fe118361]{Apresentação}</h3><p>Durante suas viagens, é possível entrar em lugares de nobres e pessoas de influência para realizar apresentações. Ao realizar um Teste de Sorte CD 17. Em caso de sucesso, você recebe acesso a áreas restritas ou mansões de lordes e nobres para realizar suas apresentações. Após terminar todas as suas apresentações, você pode permanecer no local por até 1 hora descobrindo informações.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc5000fe118361",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 80,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc3000fe118361": {
+        "_id": "bacc3000fe118361",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc2000fe118361",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc7000fe118361": {
+        "_id": "bacc7000fe118361",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.disguiseToolkit0",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.dressClothing000",
+              "quantity": 1,
+              "optional": false
+            }
+          ],
+          "currency": {
+            "gp": 80
+          },
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc800019d5f6e4": {
+        "_id": "bacc800019d5f6e4",
+        "type": "ItemChoice",
+        "title": "Instrumento musical",
+        "hint": "Escolha um instrumento. O Narrador pode ampliar o conjunto na Progressão do antecedente.",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "allowDrops": false,
+          "type": null,
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000f111fec7"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000fc1d2045"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc60006349168f"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc60004fab42bd"
+            }
+          ],
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "musico",
+        "startingGold": 80,
+        "equipment": "Um kit de disfarce, um instrumento musical e uma roupa de gala."
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc1000fe118361"
+}

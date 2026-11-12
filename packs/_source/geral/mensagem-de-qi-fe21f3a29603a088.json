@@ -1,0 +1,215 @@
+{
+  "_id": "fe21f3a29603a088",
+  "name": "Mensagem de Qi",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/mensagem-de-qi.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-mensagem-de-qi",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Habilidades Básicas.</p><h2>Mensagem de Qi</h2><p>Você pode gastar 1 Ponto de Qi para enviar uma mensagem para uma criatura dentro do seu alcance de 10 metros + 5 metros por nível de Cultivo. A mensagem pode ter até 20 palavras e a criatura deve ter essa habilidade para que possa responde-lo.</p><p>Você também pode gastar 10 Pontos de Qi para falar à vontade com a criatura por 5 minutos.</p><p><strong>Resolução:</strong> A mensagem ou conversa é resolvida pela mesa; a resposta exige que a outra criatura possua Mensagem de Qi.</p>"
+    },
+    "activities": {
+      "5e44d6960ea7fdee": {
+        "_id": "5e44d6960ea7fdee",
+        "type": "utility",
+        "name": "Enviar mensagem de até 20 palavras",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Habilidades Básicas.</p><h2>Mensagem de Qi</h2><p>Você pode gastar 1 Ponto de Qi para enviar uma mensagem para uma criatura dentro do seu alcance de 10 metros + 5 metros por nível de Cultivo. A mensagem pode ter até 20 palavras e a criatura deve ter essa habilidade para que possa responde-lo.</p><p>Você também pode gastar 10 Pontos de Qi para falar à vontade com a criatura por 5 minutos.</p><p><strong>Resolução:</strong> A mensagem ou conversa é resolvida pela mesa; a resposta exige que a outra criatura possua Mensagem de Qi.</p>",
+          "chatFlavor": "Mensagem de Qi — Enviar mensagem de até 20 palavras"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "10 + 5 * @nivelCultivo",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "mensagem-de-qi",
+              "key": "message",
+              "manualResolution": true,
+              "rule": "qiMessage",
+              "maxWords": 20,
+              "replyRequiresTalent": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Enviar mensagem de até 20 palavras",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/mensagem-de-qi.webp"
+      },
+      "55f465f8dd8ce788": {
+        "_id": "55f465f8dd8ce788",
+        "type": "utility",
+        "name": "Conversar por Qi",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "10",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Habilidades Básicas.</p><h2>Mensagem de Qi</h2><p>Você pode gastar 1 Ponto de Qi para enviar uma mensagem para uma criatura dentro do seu alcance de 10 metros + 5 metros por nível de Cultivo. A mensagem pode ter até 20 palavras e a criatura deve ter essa habilidade para que possa responde-lo.</p><p>Você também pode gastar 10 Pontos de Qi para falar à vontade com a criatura por 5 minutos.</p><p><strong>Resolução:</strong> A mensagem ou conversa é resolvida pela mesa; a resposta exige que a outra criatura possua Mensagem de Qi.</p>",
+          "chatFlavor": "Mensagem de Qi — Conversar por Qi"
+        },
+        "duration": {
+          "value": "5",
+          "units": "minute",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "10 + 5 * @nivelCultivo",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "mensagem-de-qi",
+              "key": "conversation",
+              "manualResolution": true,
+              "rule": "qiConversation",
+              "replyRequiresTalent": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Conversar por Qi",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/mensagem-de-qi.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "mensagem-de-qi",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Habilidades Básicas",
+        "requisitos": [],
+        "basic": true
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "A mensagem ou conversa é resolvida pela mesa; a resposta exige que a outra criatura possua Mensagem de Qi."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!fe21f3a29603a088"
+}

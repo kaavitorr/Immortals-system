@@ -1,0 +1,140 @@
+{
+  "_id": "bacc20002f4fe93e",
+  "name": "Malandragem",
+  "type": "feat",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/habilidades/orfao.webp",
+  "folder": "bacc000000000002",
+  "system": {
+    "identifier": "antecedente-orfao",
+    "type": {
+      "value": "background"
+    },
+    "description": {
+      "value": "<p>Dentro de centros urbanos, desde que você seja bem sucedido em um Teste de Sorte, com a CD definida pelo Narrador, você pode reconhecer os padrões e caminhos secretos típicos, conseguindo encontrar passagens em meio ao tecido urbano que os outros jamais notariam, podendo viajar entre quaisquer dois pontos da cidade, duas vezes mais rápido do que o seu deslocamento permite. </p><p>Além disso, o mesmo teste pode ser usado para encontrar comida e água para si mesmo e para até cinco outras pessoas uma vez por dia, desde que seja possível.</p>"
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "activities": {
+      "bacc400051d05cbd": {
+        "_id": "bacc400051d05cbd",
+        "type": "check",
+        "name": "Rotas urbanas",
+        "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/habilidades/orfao.webp",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "Conforme as condições da característica."
+        },
+        "consumption": {
+          "spellSlot": false,
+          "targets": []
+        },
+        "target": {
+          "affects": {
+            "type": "self"
+          },
+          "prompt": false,
+          "template": {
+            "units": "m"
+          }
+        },
+        "range": {
+          "units": "self"
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "description": {
+          "chatFlavor": "Rotas urbanas",
+          "value": "<p>Dentro de centros urbanos, desde que você seja bem sucedido em um Teste de Sorte, com a CD definida pelo Narrador, você pode reconhecer os padrões e caminhos secretos típicos, conseguindo encontrar passagens em meio ao tecido urbano que os outros jamais notariam, podendo viajar entre quaisquer dois pontos da cidade, duas vezes mais rápido do que o seu deslocamento permite. </p><p>Além disso, o mesmo teste pode ser usado para encontrar comida e água para si mesmo e para até cinco outras pessoas uma vez por dia, desde que seja possível.</p>"
+        },
+        "check": {
+          "ability": "",
+          "associated": [
+            "luc"
+          ],
+          "bonus": "",
+          "dc": {
+            "calculation": "",
+            "formula": ""
+          },
+          "visible": true
+        }
+      },
+      "bacc4000bd2e2400": {
+        "_id": "bacc4000bd2e2400",
+        "type": "check",
+        "name": "Encontrar comida e água",
+        "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/habilidades/orfao.webp",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "Conforme as condições da característica."
+        },
+        "consumption": {
+          "spellSlot": false,
+          "targets": [
+            {
+              "type": "activityUses",
+              "target": "",
+              "value": "1"
+            }
+          ]
+        },
+        "target": {
+          "affects": {
+            "type": "self"
+          },
+          "prompt": false,
+          "template": {
+            "units": "m"
+          }
+        },
+        "range": {
+          "units": "self"
+        },
+        "uses": {
+          "spent": 0,
+          "max": "1",
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll",
+              "formula": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "Encontrar comida e água",
+          "value": "<p>Dentro de centros urbanos, desde que você seja bem sucedido em um Teste de Sorte, com a CD definida pelo Narrador, você pode reconhecer os padrões e caminhos secretos típicos, conseguindo encontrar passagens em meio ao tecido urbano que os outros jamais notariam, podendo viajar entre quaisquer dois pontos da cidade, duas vezes mais rápido do que o seu deslocamento permite. </p><p>Além disso, o mesmo teste pode ser usado para encontrar comida e água para si mesmo e para até cinco outras pessoas uma vez por dia, desde que seja possível.</p>"
+        },
+        "check": {
+          "ability": "",
+          "associated": [
+            "luc"
+          ],
+          "bonus": "",
+          "dc": {
+            "calculation": "",
+            "formula": ""
+          },
+          "visible": true
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundFeature": "orfao",
+      "backgroundRuleVersion": 1,
+      "featureSection": "jj-origin"
+    }
+  },
+  "_key": "!items!bacc20002f4fe93e"
+}

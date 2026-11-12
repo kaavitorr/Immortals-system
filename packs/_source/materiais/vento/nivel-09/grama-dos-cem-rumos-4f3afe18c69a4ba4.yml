@@ -1,0 +1,53 @@
+_id: 4f3afe18c69a4ba4
+_key: '!items!4f3afe18c69a4ba4'
+name: Grama dos Cem Rumos
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/vento/4f3afe18c69a4ba4.webp
+system:
+  identifier: material-alquimia-4f3afe18c69a4ba4
+  description:
+    value: <p><strong>Elemento:</strong> Vento · <strong>Nível:</strong> 9 · <strong>Categoria:</strong> Planta</p><p>Cada haste dobra para um rumo diferente de vento, cem ao todo. O chá concede ao corpo cem pequenos reflexos de esquiva.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f2d170093b3db548
+sort: 16400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: vento
+      elementLabel: Vento
+      level: 9
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/vento.json
+        originalName: Grama dos Cem Rumos
+        sha256: f5db71d3cdec5cc798ab9829fe28f461a95ad76b46b89331433a614fa8d62814
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 9
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,53 @@
+_id: 9de5d665128d8532
+_key: '!items!9de5d665128d8532'
+name: Pena de Grou das Nove Nuvens
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/vento/9de5d665128d8532.webp
+system:
+  identifier: material-alquimia-9de5d665128d8532
+  description:
+    value: <p><strong>Elemento:</strong> Vento · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Parte de animal</p><p>O grou das nove nuvens atravessa o céu de ponta a ponta. Sua pena paira livremente junto à mão e, em elixires, concede ao cultivador um corpo de plumagem.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 50b80c91e4bee356
+sort: 15100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: vento
+      elementLabel: Vento
+      level: 8
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/vento.json
+        originalName: Pena de Grou das Nove Nuvens
+        sha256: f5db71d3cdec5cc798ab9829fe28f461a95ad76b46b89331433a614fa8d62814
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

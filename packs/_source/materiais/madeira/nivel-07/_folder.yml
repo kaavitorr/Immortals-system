@@ -1,0 +1,13 @@
+_id: 13b8eac8c73d7a19
+_key: '!folders!13b8eac8c73d7a19'
+name: Nível 7
+type: Item
+folder: 23310966e9c1ac2b
+sorting: a
+sort: 700000
+color: '#466b52'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: madeira
+      level: 7

@@ -1,0 +1,73 @@
+_id: f35cdef068d2d3d8
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:76
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: f35cdef068d2d3d8
+name: Bote Sônico
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ [adicional]</strong></p><p>Se a criatura se mover pelo menos 5 metros em linha reta antes do
+      ataque, ela pode se jogar contra o alvo, causando 1 dado de dano adicional e impondo a condição “Caído” se ele
+      falhar em uma Salvaguarda de Fortitude.</p>
+    chat: ''
+  identifier: bote-sonico
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    de386d7809e8c862:
+      _id: de386d7809e8c862
+      type: utility
+      name: Bote Sônico
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Se a criatura se mover pelo menos 5 metros em linha reta antes do ataque, ela pode se jogar contra o alvo,
+          causando 1 dado de dano adicional e impondo a condição “Caído” se ele falhar em uma Salvaguarda de
+          Fortitude.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 1
+  prerequisites:
+    items: []
+    level: 1
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/bote-sonico-f35cdef068d2d3d8.webp"
+_key: '!items!f35cdef068d2d3d8'

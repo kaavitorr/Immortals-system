@@ -1,0 +1,179 @@
+name: Trapaceiro
+type: archetype
+folder: 26a0e683ac977c63
+system:
+  description:
+    value: >-
+      <p>Explora distrações, disfarces e truques para desequilibrar o oponente. Desarma, ataca pelas brechas e muda de
+      posição quando perde a vantagem.</p><p><strong>Resistência por ND:</strong> Físicos
+      +1</p><p><strong>Vulnerabilidade:</strong> Psíquico −6</p><p><strong>Deslocamento:</strong> +1 até um máximo de
+      25</p><p><strong>Armaduras:</strong> Nenhuma.</p><p><strong>Perícias:</strong> Proficiências: Furtividade,
+      Enganação, Coordenação e Sorte.</p><p><strong>Salvaguardas:</strong> Proficiências: Reflexo e
+      Vontade.</p><p><strong>Aspectos:</strong> Reflexos Aguçados, Camuflagem, Silenciosa, Analisar Padrões, Descuidado,
+      Algoz Invisível, Mente Singular, Fanático, Sussurro Perturbador, Audição
+      Aguçada.</p><p><strong>Habilidades:</strong> Desarme, Roubo de Nome, Ilusão Menor, Esquiva Rápida, Fuga
+      Escorregadia, Passo das Sombras, Fingir-se de Objeto, Apunhalar, Tiro de Cobertura, Imitar
+      Voz.</p><p><strong>Reações:</strong> Desarme Reativo, Reflexo, Esquiva Rápida.</p>
+    chat: ''
+  identifier: trapaceiro
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 1
+    dex: 4
+    con: 2
+    int: 2
+    wis: 1
+    cha: 2
+  resistencias:
+    bludgeoning:
+      value: 1
+      immune: false
+    piercing:
+      value: 1
+      immune: false
+    slashing:
+      value: 1
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: -6
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ste
+      - skills.dec
+      - skills.acr
+      - skills.luc
+      - saves.dex
+      - saves.int
+      - saves.con
+      - saves.cha
+    alternative:
+      - skills.ste
+      - skills.dec
+      - skills.acr
+      - skills.luc
+      - alternativeSaves.reflexo
+      - alternativeSaves.vontade
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.ec7c384c443884ea
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d7e889a4ea13732e
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.25d04c9869617098
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4afa4131cc85e2bd
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.cd071c8deb66d86d
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53d435a7250164af
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.34e2fedcea4c64ac
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.98f7ed9c8403484e
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7845b27e637b3835
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5f6cf4c720a404dc
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5d85d51e1781dcb6
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.86a2bfef529caefd
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.38a87b70e6f341bd
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5da66adcc9262ed1
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.ada66419b0076ed9
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.afd35e07d69570d7
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.76b427cb66539eaf
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.b0025217be0f5675
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e3954a3cc125e416
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.1654e78b67e0d0df
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8727b2b7070ef7d5
+      nd: 11
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.43ff2f3cca5fedbf
+      nd: 14
+  equipamentos:
+    armadura: null
+    armas: []
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: lYLihsHcUDsGd5LL
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/trapaceiro.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:trapaceiro
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: lYLihsHcUDsGd5LL
+_key: '!items!lYLihsHcUDsGd5LL'

@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000bed573df",
+  "name": "Traços Animalescos — Primatas",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
+  "system": {
+    "identifier": "especie-8c00099f",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Primatas. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c10003ec63866": {
+        "_id": "1a2c10003ec63866",
+        "type": "ItemChoice",
+        "title": "Duas características — Primatas",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.cbe7803586c06fb2"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.K2n04gRVgy7GJ2Fd"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Primatas",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000bed573df"
+}

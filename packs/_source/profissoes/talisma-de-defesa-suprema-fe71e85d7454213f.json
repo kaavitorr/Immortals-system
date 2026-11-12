@@ -1,0 +1,183 @@
+{
+  "_id": "fe71e85d7454213f",
+  "name": "Talismã de Defesa Suprema",
+  "type": "consumable",
+  "folder": "1a1dfff59dd402d3",
+  "img": "systems/Immortals-system/assets/wuxia/talismas-pintados-v1/talisma-de-defesa-suprema.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-talisma-de-defesa-suprema",
+    "type": {
+      "value": "scroll"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>TALISMÃ DE DEFESA SUPREMA</h3>\n<table><tbody><tr><td>Tipo: Defensivo</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 22</td></tr></tbody></table>\n<p>Um talismã que se ativa sozinho quando você sofre um ataque total de uma criatura 2 Ranks acima do seu ou superior, anulando totalmente o dano que você sofreria e te teletransportando 300 metros em uma direção a sua escolha para cada nível do talismã.</p>\n<p>Não pode defender de criaturas com Rank superior ao nível equivalente do talismã.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>400% do valor de criação.</td></tr><tr><td>Requisito Adicional</td><td>Conceito do Espaço – Nível 3</td></tr></tbody></table><p><strong>Resolução:</strong> Declarar ativação, alvos, área e duração conforme a descrição; resolver os efeitos táticos com o mestre. Escolher e validar o destino na direção indicada antes de mover a criatura. O narrador confirma o gatilho, anula o dano e move o usuário até 300 metros na direção escolhida.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 700 PO. <strong>Venda por unidade:</strong> 2.800 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"talisma-de-defesa-suprema:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/b05766a030fd0655.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"b05766a030fd0655\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.b05766a030fd0655\">Junco das Fibras Renascidas</a><small>fibra do suporte</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/2aed4efcbad3b917.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"2aed4efcbad3b917\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.2aed4efcbad3b917\">Escama de Carpa dos Anéis Concêntricos</a><small>dispersão de impacto</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/e9e9bfdd982a1d5a.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"e9e9bfdd982a1d5a\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.e9e9bfdd982a1d5a\">Folha que Cai Longe</a><small>afinidade de travessia</small></div><span class=\"iw-recipe-price\" title=\"200 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>carga mineral da runa</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/7e51f53fbae07c20.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7e51f53fbae07c20\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7e51f53fbae07c20\">Goma do Pinheiro de Jade</a><small>Reagente · estabilizante e ligante do preparo</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>700 PO</strong></footer><p class=\"iw-recipe-note\">Requer Conceito do Espaço de nível 3.</p></section>"
+    },
+    "activities": {
+      "baf6ebdf0538c2c1": {
+        "_id": "baf6ebdf0538c2c1",
+        "type": "utility",
+        "name": "Resolver defesa suprema",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "Ao sofrer um ataque total de criatura ao menos 2 ranks acima do seu, dentro do limite do talismã.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>TALISMÃ DE DEFESA SUPREMA</h3>\n<table><tbody><tr><td>Tipo: Defensivo</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 22</td></tr></tbody></table>\n<p>Um talismã que se ativa sozinho quando você sofre um ataque total de uma criatura 2 Ranks acima do seu ou superior, anulando totalmente o dano que você sofreria e te teletransportando 300 metros em uma direção a sua escolha para cada nível do talismã.</p>\n<p>Não pode defender de criaturas com Rank superior ao nível equivalente do talismã.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>400% do valor de criação.</td></tr><tr><td>Requisito Adicional</td><td>Conceito do Espaço – Nível 3</td></tr></tbody></table><p><strong>Resolução:</strong> Declarar ativação, alvos, área e duração conforme a descrição; resolver os efeitos táticos com o mestre. Escolher e validar o destino na direção indicada antes de mover a criatura. O narrador confirma o gatilho, anula o dano e move o usuário até 300 metros na direção escolhida.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 700 PO. <strong>Venda por unidade:</strong> 2.800 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"talisma-de-defesa-suprema:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/b05766a030fd0655.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"b05766a030fd0655\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.b05766a030fd0655\">Junco das Fibras Renascidas</a><small>fibra do suporte</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/2aed4efcbad3b917.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"2aed4efcbad3b917\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.2aed4efcbad3b917\">Escama de Carpa dos Anéis Concêntricos</a><small>dispersão de impacto</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/e9e9bfdd982a1d5a.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"e9e9bfdd982a1d5a\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.e9e9bfdd982a1d5a\">Folha que Cai Longe</a><small>afinidade de travessia</small></div><span class=\"iw-recipe-price\" title=\"200 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>carga mineral da runa</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/7e51f53fbae07c20.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7e51f53fbae07c20\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7e51f53fbae07c20\">Goma do Pinheiro de Jade</a><small>Reagente · estabilizante e ligante do preparo</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>700 PO</strong></footer><p class=\"iw-recipe-note\">Requer Conceito do Espaço de nível 3.</p></section>",
+          "chatFlavor": "Talismã de Defesa Suprema — Resolver defesa suprema"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "300",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "talisma-de-defesa-suprema",
+              "key": "defend",
+              "level": 1,
+              "quality": null,
+              "manualResolution": true,
+              "consumeItem": true,
+              "rule": "supremeDefenseTalisman",
+              "negateTriggeringDamage": true,
+              "automaticTrigger": true,
+              "maximumAttackerRank": 1,
+              "minimumAttackerRanksAboveUser": 2,
+              "manualDestination": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Resolver defesa suprema",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talismas-pintados-v1/talisma-de-defesa-suprema.webp"
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "price": {
+      "value": 2800,
+      "denomination": "gp"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "talisma-de-defesa-suprema",
+        "kind": "talisman",
+        "profession": "inscriptions",
+        "level": 1,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 1,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 3000,
+          "materials": 500,
+          "currency": "gp",
+          "rank": null
+        },
+        "creationPercent": 1000,
+        "salePercent": 400,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 700,
+          "currency": "gp",
+          "rank": null
+        },
+        "sale": {
+          "amount": 2800,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceCreation": {
+          "amount": 5000,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceSale": {
+          "amount": 20000,
+          "currency": "gp",
+          "rank": null
+        }
+      },
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Declarar ativação, alvos, área e duração conforme a descrição; resolver os efeitos táticos com o mestre.",
+          "Escolher e validar o destino na direção indicada antes de mover a criatura.",
+          "O narrador confirma o gatilho, anula o dano e move o usuário até 300 metros na direção escolhida."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!fe71e85d7454213f"
+}

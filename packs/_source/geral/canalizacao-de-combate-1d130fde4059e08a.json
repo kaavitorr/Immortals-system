@@ -1,0 +1,260 @@
+{
+  "_id": "1d130fde4059e08a",
+  "name": "Canalização de Combate",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/canalizacao-de-combate.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-canalizacao-de-combate",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Habilidades Básicas.</p><h2>Canalização de Combate</h2><p>Você recebe acesso as seguintes habilidades:</p><h3>EXPLOSÃO DE ENERGIA</h3><p>Você envolve seus membros ou arma em Qi e desfere um golpe potencializado contra a criatura inimiga, causando o dano da técnica.</p><ul><li>A partir do 5º nível de Cultivo (somado entre Ranks), você pode gastar 1 PQ para aumentar 1d8 de dano adicional, mas o número de dados de dano finais não pode ser superior ao seu nível de cultivo.</li></ul><table><tbody><tr><th>PQ</th><td>4</td></tr><tr><td>Duração</td><td>Instantâneo</td></tr><tr><td>Alcance</td><td>Pessoal</td></tr><tr><td>Requisito</td><td>Nenhum</td></tr><tr><td>Ações</td><td>açãoaçãoação</td><td>Dano</td><td>4d8 de dano Contundente, Cortante ou Perfurante</td></tr></tbody></table><h3>DEFESA SÓLIDA</h3><p>Ao ser alvo de uma jogada de ataque (Comum ou de Técnica), você pode envolver seu corpo com uma camada grossa de Qi para se proteger, reduzindo 4d8 de dano.</p><ul><li>A partir do 5º nível de Cultivo (somado entre Ranks), você pode gastar 1 PQ para aumentar 1d8 de dano adicional, mas o número de dados de redução finais, não pode ser superior ao seu nível de cultivo.</li></ul><table><tbody><tr><th>PQ</th><td>4</td></tr><tr><td>Duração</td><td>Instantâneo</td></tr><tr><td>Alcance</td><td>Pessoal</td></tr><tr><td>Ações</td><td>açãoação</td><td>Requisito</td><td>Reação</td></tr></tbody></table><p><strong>Resolução:</strong> Escolha o tipo físico do golpe. A partir do nível de cultivo 5, cada Qi adicional acrescenta 1d8, até tantos dados quanto seu nível. Defesa Sólida reduz somente o ataque que a desencadeou.</p><p><strong>Pendente:</strong> Defesa Sólida diz dano adicional no trecho que limita dados de redução; preservar o contexto de redução sem inventar regra.</p>"
+    },
+    "activities": {
+      "a7c30b4b74b511b5": {
+        "_id": "a7c30b4b74b511b5",
+        "type": "attack",
+        "name": "Explosão de Energia",
+        "activation": {
+          "type": "action",
+          "value": 3,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": true,
+            "max": "max(1, @nivelCultivo - 3)"
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "4",
+              "scaling": {
+                "mode": "amount",
+                "formula": "1"
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Habilidades Básicas.</p><h2>Canalização de Combate</h2><p>Você recebe acesso as seguintes habilidades:</p><h3>EXPLOSÃO DE ENERGIA</h3><p>Você envolve seus membros ou arma em Qi e desfere um golpe potencializado contra a criatura inimiga, causando o dano da técnica.</p><ul><li>A partir do 5º nível de Cultivo (somado entre Ranks), você pode gastar 1 PQ para aumentar 1d8 de dano adicional, mas o número de dados de dano finais não pode ser superior ao seu nível de cultivo.</li></ul><table><tbody><tr><th>PQ</th><td>4</td></tr><tr><td>Duração</td><td>Instantâneo</td></tr><tr><td>Alcance</td><td>Pessoal</td></tr><tr><td>Requisito</td><td>Nenhum</td></tr><tr><td>Ações</td><td>açãoaçãoação</td><td>Dano</td><td>4d8 de dano Contundente, Cortante ou Perfurante</td></tr></tbody></table><h3>DEFESA SÓLIDA</h3><p>Ao ser alvo de uma jogada de ataque (Comum ou de Técnica), você pode envolver seu corpo com uma camada grossa de Qi para se proteger, reduzindo 4d8 de dano.</p><ul><li>A partir do 5º nível de Cultivo (somado entre Ranks), você pode gastar 1 PQ para aumentar 1d8 de dano adicional, mas o número de dados de redução finais, não pode ser superior ao seu nível de cultivo.</li></ul><table><tbody><tr><th>PQ</th><td>4</td></tr><tr><td>Duração</td><td>Instantâneo</td></tr><tr><td>Alcance</td><td>Pessoal</td></tr><tr><td>Ações</td><td>açãoação</td><td>Requisito</td><td>Reação</td></tr></tbody></table><p><strong>Resolução:</strong> Escolha o tipo físico do golpe. A partir do nível de cultivo 5, cada Qi adicional acrescenta 1d8, até tantos dados quanto seu nível. Defesa Sólida reduz somente o ataque que a desencadeou.</p><p><strong>Pendente:</strong> Defesa Sólida diz dano adicional no trecho que limita dados de redução; preservar o contexto de redução sem inventar regra.</p>",
+          "chatFlavor": "Canalização de Combate — Explosão de Energia"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "canalizacao-de-combate",
+              "key": "burst",
+              "manualResolution": false,
+              "rule": "channelingBurst",
+              "baseDice": 4,
+              "incrementDice": 1,
+              "minScalingLevel": 5,
+              "maxDiceFormula": "@nivelCultivo"
+            }
+          }
+        },
+        "attack": {
+          "ability": "spellcasting",
+          "bonus": "",
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "spell"
+          },
+          "critical": {
+            "threshold": 20
+          }
+        },
+        "damage": {
+          "includeBase": false,
+          "critical": {
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 4,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "bludgeoning",
+                "slashing",
+                "piercing"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "whole",
+                "number": 1,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": [],
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/canalizacao-de-combate.webp"
+      },
+      "1142a2436ef7bad5": {
+        "_id": "1142a2436ef7bad5",
+        "type": "reduction",
+        "name": "Defesa Sólida",
+        "activation": {
+          "type": "reaction",
+          "value": 2,
+          "condition": "Ao ser alvo de ataque comum ou de técnica.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "4",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Habilidades Básicas.</p><h2>Canalização de Combate</h2><p>Você recebe acesso as seguintes habilidades:</p><h3>EXPLOSÃO DE ENERGIA</h3><p>Você envolve seus membros ou arma em Qi e desfere um golpe potencializado contra a criatura inimiga, causando o dano da técnica.</p><ul><li>A partir do 5º nível de Cultivo (somado entre Ranks), você pode gastar 1 PQ para aumentar 1d8 de dano adicional, mas o número de dados de dano finais não pode ser superior ao seu nível de cultivo.</li></ul><table><tbody><tr><th>PQ</th><td>4</td></tr><tr><td>Duração</td><td>Instantâneo</td></tr><tr><td>Alcance</td><td>Pessoal</td></tr><tr><td>Requisito</td><td>Nenhum</td></tr><tr><td>Ações</td><td>açãoaçãoação</td><td>Dano</td><td>4d8 de dano Contundente, Cortante ou Perfurante</td></tr></tbody></table><h3>DEFESA SÓLIDA</h3><p>Ao ser alvo de uma jogada de ataque (Comum ou de Técnica), você pode envolver seu corpo com uma camada grossa de Qi para se proteger, reduzindo 4d8 de dano.</p><ul><li>A partir do 5º nível de Cultivo (somado entre Ranks), você pode gastar 1 PQ para aumentar 1d8 de dano adicional, mas o número de dados de redução finais, não pode ser superior ao seu nível de cultivo.</li></ul><table><tbody><tr><th>PQ</th><td>4</td></tr><tr><td>Duração</td><td>Instantâneo</td></tr><tr><td>Alcance</td><td>Pessoal</td></tr><tr><td>Ações</td><td>açãoação</td><td>Requisito</td><td>Reação</td></tr></tbody></table><p><strong>Resolução:</strong> Escolha o tipo físico do golpe. A partir do nível de cultivo 5, cada Qi adicional acrescenta 1d8, até tantos dados quanto seu nível. Defesa Sólida reduz somente o ataque que a desencadeou.</p><p><strong>Pendente:</strong> Defesa Sólida diz dano adicional no trecho que limita dados de redução; preservar o contexto de redução sem inventar regra.</p>",
+          "chatFlavor": "Canalização de Combate — Defesa Sólida"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "canalizacao-de-combate",
+              "key": "solid-defense",
+              "manualResolution": false,
+              "rule": "channelingDefense",
+              "singleAttackOnly": true,
+              "baseDice": 4,
+              "incrementDice": 1,
+              "minScalingLevel": 5,
+              "maxDiceFormula": "@nivelCultivo"
+            }
+          }
+        },
+        "reduction": {
+          "formula": "4d8"
+        },
+        "jjScale": {
+          "enabled": true,
+          "formula": "1d8",
+          "cost": 1,
+          "maxPA": 0
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/canalizacao-de-combate.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "canalizacao-de-combate",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Habilidades Básicas",
+        "requisitos": [],
+        "basic": true
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "Escolha o tipo físico do golpe. A partir do nível de cultivo 5, cada Qi adicional acrescenta 1d8, até tantos dados quanto seu nível. Defesa Sólida reduz somente o ataque que a desencadeou."
+        ],
+        "pending": [
+          "Defesa Sólida diz dano adicional no trecho que limita dados de redução; preservar o contexto de redução sem inventar regra."
+        ]
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!1d130fde4059e08a"
+}

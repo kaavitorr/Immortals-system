@@ -1,0 +1,76 @@
+_id: f25c6d009d1bf844
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:159
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: f25c6d009d1bf844
+name: Recarga Relâmpago
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢</strong></p><p>A criatura pode gastar 2 PQ para recarregar rapidamente sua arma e realizar
+      duas jogadas de ataque à distância (Comuns) contra uma criatura inimiga.</p>
+    chat: ''
+  identifier: recarga-relampago
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    40cd3273d14e371e:
+      _id: 40cd3273d14e371e
+      type: utility
+      name: Recarga Relâmpago
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>A criatura pode gastar 2 PQ para recarregar rapidamente sua arma e realizar duas jogadas de ataque à
+          distância (Comuns) contra uma criatura inimiga.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/recarga-relampago-f25c6d009d1bf844.webp"
+_key: '!items!f25c6d009d1bf844'

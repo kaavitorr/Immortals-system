@@ -1,0 +1,73 @@
+_id: 98497c352e90ffde
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:204
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 98497c352e90ffde
+name: Duplicata
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢ · Reação</strong></p><p>Quando essa criatura for alvo de uma jogada de ataque ou técnica, ela
+      pode ficar “Invisível”, deixando uma ilusão de si mesma em seu lugar. A ilusão se move como a verdadeira, mas só
+      tem 1 Ponto de Vida. Essa característica só pode ser usada 3 vezes por encontro.</p>
+    chat: ''
+  identifier: duplicata
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    deb32027a90741f1:
+      _id: deb32027a90741f1
+      type: utility
+      name: Duplicata
+      activation:
+        type: reaction
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Quando essa criatura for alvo de uma jogada de ataque ou técnica, ela pode ficar “Invisível”, deixando uma
+          ilusão de si mesma em seu lugar. A ilusão se move como a verdadeira, mas só tem 1 Ponto de Vida. Essa
+          característica só pode ser usada 3 vezes por encontro.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/duplicata-98497c352e90ffde.webp"
+_key: '!items!98497c352e90ffde'

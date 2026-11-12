@@ -1,0 +1,178 @@
+name: Peçonhento (serpente)
+type: archetype
+folder: 26a0e683ac977c63
+system:
+  description:
+    value: >-
+      <p>Ataca com botes e mordidas peçonhentas, explorando brechas na defesa da presa. Usa camuflagem e esquivas para
+      evitar retaliações enquanto o veneno a enfraquece.</p><p><strong>Resistência por ND:</strong> Veneno
+      +2</p><p><strong>Vulnerabilidade:</strong> Frio −6</p><p><strong>Deslocamento:</strong> +1 até um máximo de
+      25</p><p><strong>Armaduras:</strong> Escamas Leves (10 + Con).</p><p><strong>Perícias:</strong> Proficiências:
+      Percepção, Furtividade, Sobrevivência e Atletismo.</p><p><strong>Salvaguardas:</strong> Proficiências: Vontade e
+      Reflexo.</p><p><strong>Aspectos:</strong> Ataque Surpresa, Emboscador, Mordida Infectada, Visão no Escuro, Faro
+      Aguçado, Temperamento Frio, Reflexos Aguçados, Camuflagem, Silenciosa, Salto
+      Parado.</p><p><strong>Habilidades:</strong> Cuspir Veneno, Presa Infecciosa, Mordida Infecciosa, Golpe Preciso,
+      Apunhalar, Surto de Velocidade, Bote Sônico, Fuga Escorregadia, Transferir Praga.</p><p><strong>Reações:</strong>
+      Bote Surpresa, Mordida Reativa, Esquiva Rápida.</p>
+    chat: ''
+  identifier: peconhento-serpente
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 2
+    dex: 3
+    con: 3
+    int: 1
+    wis: 2
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: 0
+      immune: false
+    piercing:
+      value: 0
+      immune: false
+    slashing:
+      value: 0
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 2
+      immune: false
+    cold:
+      value: -6
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 0
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.prc
+      - skills.ste
+      - skills.sur
+      - skills.ath
+      - saves.con
+      - saves.cha
+      - saves.dex
+      - saves.int
+    alternative:
+      - skills.prc
+      - skills.ste
+      - skills.sur
+      - skills.ath
+      - alternativeSaves.vontade
+      - alternativeSaves.reflexo
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.464d3aa8ad859a36
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.464fadb6d059e88b
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d7e889a4ea13732e
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.ee5b9ae19707d11e
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.81d26286db9ef258
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f35cdef068d2d3d8
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4afa4131cc85e2bd
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e23adbbd6878d66b
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.34e2fedcea4c64ac
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.98f7ed9c8403484e
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.925efc6abfb25ae3
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7b29cdec7754e73a
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8c0f9650d2fc8f3c
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8dff2a48dfc953a3
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f79a7fec4d3ebb67
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5fe35c33989ab996
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5da66adcc9262ed1
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e3954a3cc125e416
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5dcab7f3fdcd6d4f
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.060086db82d1cba2
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.783ac8aaca30fb71
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.576c5020e56e2555
+      nd: 12
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000006
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000024
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: RwL5kj80zMvR4XeV
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/peconhento-serpente.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:peconhentoserpente
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: RwL5kj80zMvR4XeV
+_key: '!items!RwL5kj80zMvR4XeV'

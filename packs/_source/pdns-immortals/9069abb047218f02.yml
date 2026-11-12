@@ -1,0 +1,87 @@
+name: Sonho Aprisionador
+type: feat
+folder: b4cdf08eea2c07d5
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢⬢⬢⬢⬢</p><p>A criatura envolve a percepção de um alvo em uma cena ilusória contínua,
+      construída a partir do que observa sobre ele. Ao usar 5 Pontos de Ação [⬢⬢⬢⬢⬢] e 10 PQ. A criatura pode realizar
+      um Teste de Atributo de Investigação, seguido por um de Enganação, contra o valor de Vontade do alvo. Em caso de
+      sucesso, a criatura recebe a condição &quot;Alucinado&quot; e vai ver o que o usuário quiser que ele veja, mas não
+      necessariamente irá se tornar agressivo. A criatura pode realizar uma Salvaguarda de Vontade para tentar se
+      libertar toda vez que sofrer dano.</p>
+    chat: ''
+  identifier: sonho-aprisionador
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    d99aeec75942d25c:
+      _id: d99aeec75942d25c
+      type: utility
+      name: Sonho Aprisionador
+      activation:
+        type: action
+        value: 5
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '10'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>A criatura envolve a percepção de um alvo em uma cena ilusória contínua, construída a partir do que observa
+          sobre ele. Ao usar 5 Pontos de Ação [⬢⬢⬢⬢⬢] e 10 PQ. A criatura pode realizar um Teste de Atributo de
+          Investigação, seguido por um de Enganação, contra o valor de Vontade do alvo. Em caso de sucesso, a criatura
+          recebe a condição &quot;Alucinado&quot; e vai ver o que o usuário quiser que ele veja, mas não necessariamente
+          irá se tornar agressivo. A criatura pode realizar uma Salvaguarda de Vontade para tentar se libertar toda vez
+          que sofrer dano.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 14
+  prerequisites:
+    items: []
+    level: 14
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: 9069abb047218f02
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/hipnotizar-144bb9f8e1884516.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:sonhoaprisionador
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Tecelã de Miragens
+_key: '!items!9069abb047218f02'

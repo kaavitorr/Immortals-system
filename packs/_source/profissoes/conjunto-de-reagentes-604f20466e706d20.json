@@ -1,0 +1,39 @@
+{
+  "_id": "604f20466e706d20",
+  "name": "Conjunto de Reagentes",
+  "type": "loot",
+  "folder": "34be9554e1bd424a",
+  "img": "systems/Immortals-system/assets/wuxia/ferramentas-pintadas-v1/conjunto-de-reagentes.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-conjunto-de-reagentes",
+    "type": {
+      "value": "material"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p>Ferramentas de Alquimista: 1 Livro de Técnicas de Controle do Fogo, 1 Forno de Alquimia, 1 Conjunto de Reagentes, 1 Enciclopédia de Ervas.</p><p><strong>Resolução:</strong> Ferramenta ou suprimento da profissão; não concede talento, perícia, receita ou proficiência automaticamente. A fonte não define uma receita de fabricação para este objeto.</p>"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "conjunto-de-reagentes",
+        "kind": "tool",
+        "profession": "alchemy",
+        "level": null,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionProductsContentVersion": 2,
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Ferramenta ou suprimento da profissão; não concede talento, perícia, receita ou proficiência automaticamente. A fonte não define uma receita de fabricação para este objeto."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!604f20466e706d20"
+}

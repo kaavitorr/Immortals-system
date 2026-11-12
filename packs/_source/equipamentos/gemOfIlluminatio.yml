@@ -1,0 +1,133 @@
+_id: gemOfIlluminatio
+_key: '!items!gemOfIlluminatio'
+name: Gema da Iluminação
+type: equipment
+img: icons/commodities/gems/gem-faceted-octagon-yellow.webp
+system:
+  identifier: gem-illumination
+  description:
+    value: >-
+      <blockquote><p>Esta pedra lapidada com cuidado brilha suavemente com luz quente, e é morna ao
+      toque.</p></blockquote><p>Esta gema encantada concede ao portador a ação <strong>Ativar Iluminação</strong>,
+      emanando uma luz sobrenatural em raio amplo até ser dispensada.</p><p><strong>Propriedades:</strong>
+      Vinculação.</p><h3>Luminoso</h3><p>Grants the <strong>Activate Illumination</strong> action, allowing the bearer
+      to shed an otherworldly light. The radius of light scales with the <strong>Tier</strong> of this affix.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 1
+    units: kg
+  price:
+    value: 200
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - mgc
+  equipped: false
+  attunement: required
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    37f96b2f80c48a35:
+      _id: 37f96b2f80c48a35
+      type: utility
+      name: Ativar iluminação
+      img: icons/magic/light/orb-shadow-blue.webp
+      sort: 0
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        value: >-
+          <p>You speak the command word and the item kindles into a steady otherworldly glow. The radius of bright light
+          shed depends on the <strong>Tier</strong> of this prefix, with an additional radius of dim light extending an
+          equal distance beyond.</p><ul><li><p><strong>Tier 1:</strong> 20 m of bright light, 40 m of dim
+          light.</p></li><li><p><strong>Tier 2:</strong> 40 m of bright light, 80 m of dim
+          light.</p></li><li><p><strong>Tier 3:</strong> 60 m of bright light, 120 m of dim light.</p></li></ul><p>The
+          light persists until you dismiss the effect or remove the item.</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: self
+        value: null
+        special: ''
+      target:
+        override: true
+        prompt: true
+        template:
+          type: ''
+          size: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: self
+          count: ''
+          choice: false
+          special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  type:
+    value: wondrous
+    baseItem: ''
+  armor:
+    value: 0
+    dex: null
+    ability: ''
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: 9dQstjMRdKq0a6WC
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: gemOfIlluminatio
+      sourceType: accessory
+      category: trinket
+      quality: fine
+      enchantment: minor
+      properties:
+        - investment
+      weaponDamagePending: false
+      manualEffects:
+        - Luminoso

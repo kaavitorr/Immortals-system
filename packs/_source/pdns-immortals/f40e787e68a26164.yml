@@ -1,0 +1,71 @@
+_id: f40e787e68a26164
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:34
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: f40e787e68a26164
+name: Fúria
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢</strong></p><p>Essa criatura pode entrar em Fúria, recebendo 10 Pontos de Resistência a
+      todos os danos físicos, além de causar dano adicional igual ao seu Atributo de Constituição em seus ataques.</p>
+    chat: ''
+  identifier: furia
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    474b27585c0b46a4:
+      _id: 474b27585c0b46a4
+      type: utility
+      name: Fúria
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Essa criatura pode entrar em Fúria, recebendo 10 Pontos de Resistência a todos os danos físicos, além de
+          causar dano adicional igual ao seu Atributo de Constituição em seus ataques.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 8
+  prerequisites:
+    items: []
+    level: 8
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/furia-f40e787e68a26164.webp"
+_key: '!items!f40e787e68a26164'

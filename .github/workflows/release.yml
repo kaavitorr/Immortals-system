@@ -1,0 +1,51 @@
+name: Publish Immortals Legacy
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Install dependencies without rebuilding native compendiums
+        run: npm ci --ignore-scripts
+      - name: Build styles
+        run: npm run build:css
+      - name: Run tests
+        run: npm test
+      - name: Package release
+        env:
+          RELEASE_REF_TYPE: ${{ github.ref_type }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          if [ "$RELEASE_REF_TYPE" = "tag" ]; then
+            python utils/package-release.py "$RELEASE_TAG"
+          else
+            python utils/package-release.py
+          fi
+      - name: Publish installable files
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          VERSION=$(node -p "require('./system.json').version")
+          TAG="v$VERSION"
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" --target "$GITHUB_SHA" --title "Immortals Legacy $VERSION" --notes "Sistema Immortals Legacy para Foundry VTT. Instale pela URL do manifesto disponível nos arquivos desta release."
+          fi
+          gh release upload "$TAG" dist/system.json dist/immortals-system.zip --clobber

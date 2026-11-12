@@ -1,0 +1,53 @@
+_id: 644271acabebf78c
+_key: '!items!644271acabebf78c'
+name: Pólen da Flor Cinza-Pérola
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/vento/644271acabebf78c.webp
+system:
+  identifier: material-alquimia-644271acabebf78c
+  description:
+    value: <p><strong>Elemento:</strong> Vento · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>A flor cinza-pérola abre apenas em neblinas que carregam Qi dos picos para o interior das cavernas. Seu pólen permanece suspenso numa fina aura perolada, oferecendo uma fonte vegetal de afinidade de vento concentrada sem perder a delicadeza necessária ao refino.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 33f7c246b328acf0
+sort: 2500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: vento
+      elementLabel: Vento
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/vento.json
+        originalName: Esporos da Flor Cinza-pérola
+        sha256: f5db71d3cdec5cc798ab9829fe28f461a95ad76b46b89331433a614fa8d62814
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

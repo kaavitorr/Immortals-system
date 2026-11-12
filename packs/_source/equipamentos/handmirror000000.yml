@@ -1,0 +1,64 @@
+_id: handmirror000000
+_key: '!items!handmirror000000'
+name: Espelho de Mão
+type: tool
+img: icons/sundries/survival/mirror-plain.webp
+system:
+  identifier: mirror
+  description:
+    value: >-
+      <p>Peça simples de vidro polido com fundo metálico refletivo que pode ser usada para ver o próprio
+      reflexo.</p><p><strong>Propriedades:</strong> Empilhável.</p><p><strong>Profissões e conhecimentos:</strong>
+      Sobrevivência, Sociedade.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 90
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: ''
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: 7LUkTLEZvS60KVBp
+sort: 200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: handmirror000000
+      sourceType: tool
+      category: implement
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

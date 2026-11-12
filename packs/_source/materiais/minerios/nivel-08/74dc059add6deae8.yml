@@ -1,0 +1,50 @@
+_id: 74dc059add6deae8
+name: Obsidiana do Eclipse Interior
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-08/74dc059add6deae8.webp
+system:
+  identifier: minerio-74dc059add6deae8
+  description:
+    value: <p><strong>Nível:</strong> 8 · <strong>Categoria:</strong> Minério</p><p>Vidro mineral negro com um arco dourado encerrado abaixo da superfície. Forma-se em rochas vulcânicas expostas a eclipses acompanhados por mudanças no Qi. É lapidado para focos que separam Luz e Escuridão e para divisórias de tesouros que trabalham com essas duas naturezas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: c68bd2db09650a50
+sort: 700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 8
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 8
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!74dc059add6deae8'

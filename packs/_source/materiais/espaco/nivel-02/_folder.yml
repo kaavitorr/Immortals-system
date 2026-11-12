@@ -1,0 +1,13 @@
+_id: 5aa8dae95c243523
+_key: '!folders!5aa8dae95c243523'
+name: Nível 2
+type: Item
+folder: 57c7cfa4d7a2235f
+sorting: a
+sort: 200000
+color: '#445674'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: espaco
+      level: 2

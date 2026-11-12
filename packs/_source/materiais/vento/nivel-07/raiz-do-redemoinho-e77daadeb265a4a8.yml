@@ -1,0 +1,53 @@
+_id: e77daadeb265a4a8
+_key: '!items!e77daadeb265a4a8'
+name: Raiz do Redemoinho
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/vento/e77daadeb265a4a8.webp
+system:
+  identifier: material-alquimia-e77daadeb265a4a8
+  description:
+    value: <p><strong>Elemento:</strong> Vento · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Planta</p><p>Enrola-se sobre si como um pequeno ciclone, colhida no olho das correntes. A decocção gira o Qi pelos meridianos, desfazendo nós antigos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: cb9a5e9b06f1adc2
+sort: 12200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: vento
+      elementLabel: Vento
+      level: 7
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/vento.json
+        originalName: Raiz do Redemoinho
+        sha256: f5db71d3cdec5cc798ab9829fe28f461a95ad76b46b89331433a614fa8d62814
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

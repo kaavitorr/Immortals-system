@@ -1,0 +1,124 @@
+{
+  "_id": "2fd2b05f430da883",
+  "name": "Aceleração Súbita",
+  "type": "feat",
+  "folder": "d2652f7aa9b40d98",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/aceleracao-subita.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-aceleracao-subita",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Combate Veloz.</p><h2>Aceleração Súbita</h2><p><strong>Requisito:</strong> Reflexo Aprimorado</p><p>Sempre que ativar Reutilização de Energia, você pode gastar 1 Ponto de Ação [1 ação] adicional ao realizar um ataque para se mover em alta velocidade e atingir todas as criaturas a até 5 metros do alvo inicial do ataque com o mesmo ataque.</p><p>O Ponto de Ação utilizado para ativar esta característica pode ser um dos recebidos por Recuperação de Foco.</p><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. A área é medida ao redor do alvo inicial.</p>"
+    },
+    "activities": {
+      "2033fc555505ebcb": {
+        "_id": "2033fc555505ebcb",
+        "type": "utility",
+        "name": "Expandir o ataque em alta velocidade",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "Ao ativar Reutilização de Energia e realizar um ataque.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Combate Veloz.</p><h2>Aceleração Súbita</h2><p><strong>Requisito:</strong> Reflexo Aprimorado</p><p>Sempre que ativar Reutilização de Energia, você pode gastar 1 Ponto de Ação [1 ação] adicional ao realizar um ataque para se mover em alta velocidade e atingir todas as criaturas a até 5 metros do alvo inicial do ataque com o mesmo ataque.</p><p>O Ponto de Ação utilizado para ativar esta característica pode ser um dos recebidos por Recuperação de Foco.</p><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. A área é medida ao redor do alvo inicial.</p>",
+          "chatFlavor": "Aceleração Súbita — Expandir o ataque em alta velocidade"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "5",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "radius",
+            "size": "5",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "aceleracao-subita",
+              "key": "sudden",
+              "manualResolution": true,
+              "rule": "suddenAcceleration",
+              "modifiesExistingAttack": true,
+              "center": "initialTarget"
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Expandir o ataque em alta velocidade",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/aceleracao-subita.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "aceleracao-subita",
+        "categoria": "Adaptação Física",
+        "caminho": "Combate Veloz",
+        "requisitos": [
+          "Reflexo Aprimorado"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "reflexo-aprimorado"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. A área é medida ao redor do alvo inicial."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!2fd2b05f430da883"
+}

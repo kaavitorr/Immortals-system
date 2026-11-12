@@ -1,0 +1,76 @@
+_id: 53a3e58d6c265d67
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:160
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 53a3e58d6c265d67
+name: Regenerar Membro
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p>Ao consumir 6 PQ, a criatura pode regenerar um membro perdido, mesmo que ele tenha sido totalmente
+      destruído.</p>
+    chat: ''
+  identifier: regenerar-membro
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    80d04376cfe6e858:
+      _id: 80d04376cfe6e858
+      type: utility
+      name: Regenerar Membro
+      activation:
+        type: action
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '6'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao consumir 6 PQ, a criatura pode regenerar um membro perdido, mesmo que ele tenha sido totalmente
+          destruído.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/regenerar-membro-53a3e58d6c265d67.webp"
+_key: '!items!53a3e58d6c265d67'

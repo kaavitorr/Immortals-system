@@ -1,0 +1,53 @@
+_id: dd5a3ebe4856720b
+_key: '!items!dd5a3ebe4856720b'
+name: Casco de Cavalo das Raízes Errantes
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/dd5a3ebe4856720b.webp
+system:
+  identifier: material-alquimia-dd5a3ebe4856720b
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Parte de animal</p><p>O cavalo das Raízes Errantes percorre clareiras de Qi vivo e deixa brotos efêmeros em cada pegada, mesmo sobre pedra nua. Seus cascos guardam uma estrutura flexível semelhante a fibras vegetais, empregada em pílulas que firmam os membros e sustentam sua recuperação.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 94a0d53897fd5754
+sort: 1600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 1
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Casco de Cavalo Lavrador
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

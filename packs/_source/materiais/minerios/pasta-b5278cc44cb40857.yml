@@ -1,0 +1,11 @@
+_id: b5278cc44cb40857
+name: Nível 4
+type: Item
+folder: 15c0438a058c3465
+sorting: a
+sort: 400000
+color: '#77614b'
+flags:
+  Immortals-system:
+    oreMaterialLevel: 4
+_key: '!folders!b5278cc44cb40857'

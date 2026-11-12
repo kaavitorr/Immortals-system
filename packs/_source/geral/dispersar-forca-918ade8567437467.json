@@ -1,0 +1,131 @@
+{
+  "_id": "918ade8567437467",
+  "name": "Dispersar Força",
+  "type": "feat",
+  "folder": "d2652f7aa9b40d98",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/dispersar-forca.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-dispersar-forca",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Combate Veloz.</p><h2>Dispersar Força</h2><p><strong>Requisito:</strong> Movimento Suave</p><p>Quando você for alvo de uma jogada de ataque (Comum ou de Técnica), você pode gastar 1 Ponto de Ação [1 ação] e 2 PQ balançar seus membros emitindo Qi para desviar parte do golpe, reduzindo 2d8 de dano.</p><p>Essa parte desviada pode ser enviada para uma criatura inimiga dentro do alcance do ataque do inimigo.</p><p><strong>Resolução:</strong> A redução vale para o golpe recebido. O narrador resolve se e quanto do golpe desviado alcança uma criatura dentro do alcance do ataque original, sem uma segunda fonte de dano automático.</p>"
+    },
+    "activities": {
+      "15384f4b3419c199": {
+        "_id": "15384f4b3419c199",
+        "type": "reduction",
+        "name": "Dispersar Força",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "Ao ser alvo de ataque comum ou de técnica.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Combate Veloz.</p><h2>Dispersar Força</h2><p><strong>Requisito:</strong> Movimento Suave</p><p>Quando você for alvo de uma jogada de ataque (Comum ou de Técnica), você pode gastar 1 Ponto de Ação [1 ação] e 2 PQ balançar seus membros emitindo Qi para desviar parte do golpe, reduzindo 2d8 de dano.</p><p>Essa parte desviada pode ser enviada para uma criatura inimiga dentro do alcance do ataque do inimigo.</p><p><strong>Resolução:</strong> A redução vale para o golpe recebido. O narrador resolve se e quanto do golpe desviado alcança uma criatura dentro do alcance do ataque original, sem uma segunda fonte de dano automático.</p>",
+          "chatFlavor": "Dispersar Força — Dispersar Força"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "dispersar-forca",
+              "key": "disperse",
+              "manualResolution": false,
+              "rule": "disperseForce",
+              "singleAttackOnly": true,
+              "redirectReductionWithinTriggerAttackRange": true
+            }
+          }
+        },
+        "reduction": {
+          "formula": "2d8"
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/dispersar-forca.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "dispersar-forca",
+        "categoria": "Adaptação Física",
+        "caminho": "Combate Veloz",
+        "requisitos": [
+          "Movimento Suave"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "movimento-suave"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "A redução vale para o golpe recebido. O narrador resolve se e quanto do golpe desviado alcança uma criatura dentro do alcance do ataque original, sem uma segunda fonte de dano automático."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!918ade8567437467"
+}

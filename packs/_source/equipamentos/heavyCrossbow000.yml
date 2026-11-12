@@ -1,0 +1,160 @@
+_id: heavyCrossbow000
+_key: '!items!heavyCrossbow000'
+name: Besta Pesada
+type: weapon
+img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/besta-pesada.webp
+system:
+  identifier: heavy-crossbow
+  description:
+    value: >-
+      <p>Besta poderosa de hastes de aço que exige manivela ou alavanca para armar; dispara virotes devastadores capazes
+      de atravessar armaduras ou prender inimigos em paredes.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 14
+    units: kg
+  price:
+    value: 1680
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - two
+    - amm
+    - lod
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    4e51b7f971ae2592:
+      _id: 4e51b7f971ae2592
+      type: attack
+      name: Ataque
+      img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/besta-pesada.webp
+      sort: 0
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      attack:
+        ability: ''
+        bonus: ''
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+        critical:
+          threshold: null
+      damage:
+        includeBase: true
+        parts: []
+        critical:
+          bonus: ''
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: m
+        value: 120
+        override: true
+        special: ''
+      target:
+        override: false
+        prompt: true
+        template:
+          type: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+  type:
+    value: martialR
+    baseItem: ''
+  ammunition:
+    type: crossbowBolt
+  range:
+    units: m
+    value: 120
+    long: null
+    reach: null
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - piercing
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - piercing
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+effects: []
+folder: NNHjWBS5AM148J20
+sort: 100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: heavyCrossbow000
+      sourceType: weapon
+      category: mechanical2
+      quality: despertado
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: true
+      manualEffects: []

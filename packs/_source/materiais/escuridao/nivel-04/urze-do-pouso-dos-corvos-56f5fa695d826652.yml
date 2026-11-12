@@ -1,0 +1,53 @@
+_id: 56f5fa695d826652
+_key: '!items!56f5fa695d826652'
+name: Urze dos Corvos Sem-Lua
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/56f5fa695d826652.webp
+system:
+  identifier: material-alquimia-56f5fa695d826652
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Planta</p><p>Esta urze cresce sob poleiros de corvos espirituais, enraizando nas rochas que recolhem o Qi yin deixado por suas vigílias. As pequenas flores armazenam néctar escuro e adstringente, usado para reunir essências dispersas e dar estabilidade às pastas de escuridão.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 88cd562b36a9baf1
+sort: 7000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 4
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Urze do Pouso dos Corvos
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

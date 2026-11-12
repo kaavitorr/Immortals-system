@@ -1,0 +1,28 @@
+{
+  "_id": "bacc60000d22c4b5",
+  "name": "Kit de Escalada",
+  "type": "tool",
+  "img": "icons/sundries/survival/rope-wrapped-brown.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-escalada",
+    "description": {
+      "value": "<p>Cordas, ganchos e apoio para escalada.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "art"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "escalada"
+    }
+  },
+  "_key": "!items!bacc60000d22c4b5"
+}

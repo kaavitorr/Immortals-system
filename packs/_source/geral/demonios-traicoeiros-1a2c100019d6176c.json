@@ -1,0 +1,47 @@
+{
+  "_id": "1a2c100019d6176c",
+  "name": "Demônios Traiçoeiros",
+  "type": "feat",
+  "folder": "1a2c000000000003",
+  "img": "systems/Immortals-system/assets/wuxia/ancestralidades-variantes-pintadas-v1/demonios-traicoeiros.webp",
+  "system": {
+    "identifier": "especie-105101ac",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Escolha apenas uma variante demoníaca. Suas características são recebidas pela progressão.</p>"
+    },
+    "advancement": {
+      "1a2c1000e7155a9c": {
+        "_id": "1a2c1000e7155a9c",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Demônios Traiçoeiros",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000fb2c443c",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c10000d59c430",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Demônios Traiçoeiros",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c100019d6176c"
+}

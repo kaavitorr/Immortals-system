@@ -1,0 +1,56 @@
+{
+  "_id": "7a69f64ef542c6c8",
+  "name": "Reflexo Aprimorado",
+  "type": "feat",
+  "folder": "d2652f7aa9b40d98",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/reflexo-aprimorado.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-reflexo-aprimorado",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Combate Veloz.</p><h2>Reflexo Aprimorado</h2><p><strong>Requisito:</strong> Recuperação de Foco</p><p>Desde que você não esteja utilizando uma armadura média ou pesada, você recebe um bônus de classe de Resistência igual metade do seu atributo de Intelecto, desde que ele não seja seu atributo principal.</p><p><strong>Pendente:</strong> O texto não explicita o arredondamento da metade de Intelecto; usar a regra geral somente se ela estiver estabelecida.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "reflexo-aprimorado",
+        "categoria": "Adaptação Física",
+        "caminho": "Combate Veloz",
+        "requisitos": [
+          "Recuperação de Foco"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "recuperacao-de-foco"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "conditionalArmorClass",
+            "formula": "floor(@abilities.int.value / 2)",
+            "notPrimary": "int",
+            "noArmor": [
+              "medium",
+              "heavy"
+            ],
+            "stacksWithSimilar": false
+          }
+        ],
+        "manual": [],
+        "pending": [
+          "O texto não explicita o arredondamento da metade de Intelecto; usar a regra geral somente se ela estiver estabelecida."
+        ]
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!7a69f64ef542c6c8"
+}

@@ -1,0 +1,179 @@
+{
+  "_id": "e8f658b41dcbc258",
+  "name": "Talismã de Ataque Supremo",
+  "type": "consumable",
+  "folder": "1a1dfff59dd402d3",
+  "img": "systems/Immortals-system/assets/wuxia/talismas-pintados-v1/talisma-de-ataque-supremo.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-talisma-de-ataque-supremo",
+    "type": {
+      "value": "scroll"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>TALISMÃ DE ATAQUE SUPREMO</h3>\n<table><tbody><tr><td>Tipo: Ataque</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 20</td></tr></tbody></table>\n<p>Um talismã que pode guardar o ataque de uma criatura de um Rank igual ao nível equivalente do talismã ou superior, onde a criatura consome o Qi dela para colocar o ataque dentro do talismã.</p>\n<p>A qualquer momento, uma criatura pode usar uma ação [1 ação] para liberar o ataque contido dentro do talismã contra uma criatura ou área a escolha dela dentro do alcance.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>300% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Declarar ativação, alvos, área e duração conforme a descrição; resolver os efeitos táticos com o mestre. Armazene previamente um ataque válido e registre o Qi Refinado pago pela criatura que o carregou. Ao liberar, use os dados, área e alcance desse ataque; nenhum ataque genérico é inventado.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 650 PO. <strong>Venda por unidade:</strong> 1.950 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"talisma-de-ataque-supremo:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/b05766a030fd0655.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"b05766a030fd0655\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.b05766a030fd0655\">Junco das Fibras Renascidas</a><small>fibra do suporte</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/fd0c7dff7657188d.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"fd0c7dff7657188d\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.fd0c7dff7657188d\">Baga de Faísca Branca</a><small>condução de Qi</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/d56996bdf756ac2f.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">3</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"d56996bdf756ac2f\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.d56996bdf756ac2f\">Grama da Lâmina Fina</a><small>potência do corte</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">150 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>carga mineral da runa</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/7e51f53fbae07c20.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7e51f53fbae07c20\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7e51f53fbae07c20\">Goma do Pinheiro de Jade</a><small>Reagente · estabilizante e ligante do preparo</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>650 PO</strong></footer></section>"
+    },
+    "activities": {
+      "29629699a2721deb": {
+        "_id": "29629699a2721deb",
+        "type": "utility",
+        "name": "Liberar ataque armazenado",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>TALISMÃ DE ATAQUE SUPREMO</h3>\n<table><tbody><tr><td>Tipo: Ataque</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 20</td></tr></tbody></table>\n<p>Um talismã que pode guardar o ataque de uma criatura de um Rank igual ao nível equivalente do talismã ou superior, onde a criatura consome o Qi dela para colocar o ataque dentro do talismã.</p>\n<p>A qualquer momento, uma criatura pode usar uma ação [1 ação] para liberar o ataque contido dentro do talismã contra uma criatura ou área a escolha dela dentro do alcance.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>300% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Declarar ativação, alvos, área e duração conforme a descrição; resolver os efeitos táticos com o mestre. Armazene previamente um ataque válido e registre o Qi Refinado pago pela criatura que o carregou. Ao liberar, use os dados, área e alcance desse ataque; nenhum ataque genérico é inventado.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 650 PO. <strong>Venda por unidade:</strong> 1.950 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"talisma-de-ataque-supremo:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/b05766a030fd0655.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"b05766a030fd0655\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.b05766a030fd0655\">Junco das Fibras Renascidas</a><small>fibra do suporte</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/fd0c7dff7657188d.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"fd0c7dff7657188d\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.fd0c7dff7657188d\">Baga de Faísca Branca</a><small>condução de Qi</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/d56996bdf756ac2f.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">3</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"d56996bdf756ac2f\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.d56996bdf756ac2f\">Grama da Lâmina Fina</a><small>potência do corte</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">150 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>carga mineral da runa</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/7e51f53fbae07c20.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7e51f53fbae07c20\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7e51f53fbae07c20\">Goma do Pinheiro de Jade</a><small>Reagente · estabilizante e ligante do preparo</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>650 PO</strong></footer></section>",
+          "chatFlavor": "Talismã de Ataque Supremo — Liberar ataque armazenado"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "spec",
+          "special": "Alcance não especificado na fonte; resolva com o narrador.",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "talisma-de-ataque-supremo",
+              "key": "release",
+              "level": 1,
+              "quality": null,
+              "manualResolution": true,
+              "consumeItem": true,
+              "rule": "supremeAttackTalisman",
+              "requiresStoredAttack": true,
+              "manualStoredAttack": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Liberar ataque armazenado",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talismas-pintados-v1/talisma-de-ataque-supremo.webp"
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "price": {
+      "value": 1950,
+      "denomination": "gp"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "talisma-de-ataque-supremo",
+        "kind": "talisman",
+        "profession": "inscriptions",
+        "level": 1,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 1,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 3000,
+          "materials": 500,
+          "currency": "gp",
+          "rank": null
+        },
+        "creationPercent": 1200,
+        "salePercent": 300,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 650,
+          "currency": "gp",
+          "rank": null
+        },
+        "sale": {
+          "amount": 1950,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceCreation": {
+          "amount": 6000,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceSale": {
+          "amount": 18000,
+          "currency": "gp",
+          "rank": null
+        }
+      },
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Declarar ativação, alvos, área e duração conforme a descrição; resolver os efeitos táticos com o mestre.",
+          "Armazene previamente um ataque válido e registre o Qi Refinado pago pela criatura que o carregou. Ao liberar, use os dados, área e alcance desse ataque; nenhum ataque genérico é inventado."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!e8f658b41dcbc258"
+}

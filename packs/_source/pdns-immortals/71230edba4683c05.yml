@@ -1,0 +1,78 @@
+_id: 71230edba4683c05
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:88
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 71230edba4683c05
+name: Controle de Área
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢⬢</strong></p><p>Ao gastar 5 PQ, essa criatura pode formar uma barreira esférica de até 30
+      metros de raio, em cuja área deve estar. Enquanto a barreira estiver ativa, todas as criaturas no interior sofrem
+      dano do elemento igual à metade do Atributo de Intelecto do Artilheiro no início de cada um dos turnos dele.</p>
+    chat: ''
+  identifier: controle-de-area
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    4edf7d5e91b6524c:
+      _id: 4edf7d5e91b6524c
+      type: utility
+      name: Controle de Área
+      activation:
+        type: action
+        value: 4
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '5'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 5 PQ, essa criatura pode formar uma barreira esférica de até 30 metros de raio, em cuja área deve
+          estar. Enquanto a barreira estiver ativa, todas as criaturas no interior sofrem dano do elemento igual à
+          metade do Atributo de Intelecto do Artilheiro no início de cada um dos turnos dele.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 7
+  prerequisites:
+    items: []
+    level: 7
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/controle-de-area-71230edba4683c05.webp"
+_key: '!items!71230edba4683c05'

@@ -1,0 +1,13 @@
+_id: b164ffff05579146
+_key: '!folders!b164ffff05579146'
+name: Nível 5
+type: Item
+folder: 8ced9861fc123267
+sorting: a
+sort: 500000
+color: '#71614f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: tempo
+      level: 5

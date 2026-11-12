@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000f80a9e63",
+  "name": "Traços Animalescos — Elementais do Gelo",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/magical/spirit-mischief-fire-ice-blue.webp",
+  "system": {
+    "identifier": "especie-4dd6b123",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Elementais do Gelo. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c10006add5b4f": {
+        "_id": "1a2c10006add5b4f",
+        "type": "ItemChoice",
+        "title": "Duas características — Elementais do Gelo",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.19fqsb6uRHm5JbkH"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.uqYelHHsCJtjCfLh"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Elementais do Gelo",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000f80a9e63"
+}

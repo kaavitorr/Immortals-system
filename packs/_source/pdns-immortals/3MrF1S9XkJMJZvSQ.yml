@@ -1,0 +1,179 @@
+name: Vociferador
+type: archetype
+folder: 26a0e683ac977c63
+system:
+  description:
+    value: >-
+      <p>Usa cantos, gritos e vibrações para atingir e desestabilizar inimigos. Combina ataques sonoros com medo,
+      encantamentos e apoio ao próprio grupo.</p><p><strong>Resistência por ND:</strong> Psíquico +1 | Elétrico
+      +1</p><p><strong>Vulnerabilidade:</strong> Cortante −6 | Veneno −6</p><p><strong>Deslocamento:</strong> +1 até um
+      máximo de 25</p><p><strong>Armaduras:</strong> Nenhuma.</p><p><strong>Perícias:</strong> Proficiências:
+      Intimidação, Atuação, Percepção e Sobrenatural.</p><p><strong>Salvaguardas:</strong> Proficiências: Vontade e
+      Reflexo.</p><p><strong>Aspectos:</strong> Audição Aguçada, Ecolocalização, Presença Aterradora, Sussurro
+      Perturbador, Aura do Medo, Intimidadora, Reflexos Aguçados, Analisar Padrões, Fanático, Corpo
+      Inerte.</p><p><strong>Habilidades:</strong> Grito Estridente, Grito Psíquico, Onda de Choque, Ressonância, Rugido
+      Terrível, Grito de Guerra, Baforada Elemental, Impacto Atordoante, Medo Instilado, Onda de
+      Charme.</p><p><strong>Reações:</strong> Grito Reativo, Contra-Golpe, Onda de Choque.</p>
+    chat: ''
+  identifier: vociferador
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 2
+    dex: 3
+    con: 3
+    int: 2
+    wis: 1
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: 0
+      immune: false
+    piercing:
+      value: 0
+      immune: false
+    slashing:
+      value: -6
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: -6
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 1
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 1
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.itm
+      - skills.prf
+      - skills.prc
+      - skills.ani
+      - saves.con
+      - saves.cha
+      - saves.dex
+      - saves.int
+    alternative:
+      - skills.itm
+      - skills.prf
+      - skills.prc
+      - skills.ani
+      - alternativeSaves.vontade
+      - alternativeSaves.reflexo
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.ec7c384c443884ea
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.ce683ee9c243adaa
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5bcca07b63f166e2
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.34e2fedcea4c64ac
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.85abaa55671447db
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.05d16addb258c9b6
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.51e39c28d12d4895
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.fef42e1c5f273c51
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.2618d7dba8c165ef
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.38a87b70e6f341bd
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.51ef0393adc7e89f
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.dba6e75422ac79f4
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5b1140a0f034010d
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4af56efce85f33bc
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.76b427cb66539eaf
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d3b3052e04d15f8e
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.993367be87b6d592
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.ab92f5684406bec2
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.463996b589b2dc8e
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5efee2aef46af820
+      nd: 10
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.0692eab7d5bf96d7
+      nd: 10
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.549b53570842bd88
+      nd: 14
+  equipamentos:
+    armadura: null
+    armas: []
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: 3MrF1S9XkJMJZvSQ
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/vociferador.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:vociferador
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 3MrF1S9XkJMJZvSQ
+_key: '!items!3MrF1S9XkJMJZvSQ'

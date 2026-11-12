@@ -1,0 +1,53 @@
+_id: ac08082c06c10f31
+_key: '!items!ac08082c06c10f31'
+name: Esporo da Boca do Abismo
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/ac08082c06c10f31.webp
+system:
+  identifier: material-alquimia-ac08082c06c10f31
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Planta</p><p>Poeira viva, cinza-carvão e gélida, colhida nas bordas de abismos sem fundo. Processada no alambique, rende nuvens densas que escondem uma expedição inteira sob a terra.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: fca2badbc7e83ef3
+sort: 10400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 6
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Esporo da Boca do Abismo
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

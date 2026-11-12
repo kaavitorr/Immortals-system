@@ -1,0 +1,79 @@
+_id: dfe74790f747cc82
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:245
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: dfe74790f747cc82
+name: Tiro Reativo
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢ · Reação</strong></p><p>Quando uma criatura se mover ou realizar uma rolagem de acerto
+      contra outra, essa criatura pode gastar 6 PQ para realizar um disparo contra ela, causando seu dano normal. O alvo
+      deve realizar uma Salvaguarda de Vontade para não ter seu turno encerrado imediatamente, antes que consiga
+      terminar o ataque.</p>
+    chat: ''
+  identifier: tiro-reativo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    e8e357393414cea7:
+      _id: e8e357393414cea7
+      type: utility
+      name: Tiro Reativo
+      activation:
+        type: reaction
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '6'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Quando uma criatura se mover ou realizar uma rolagem de acerto contra outra, essa criatura pode gastar 6 PQ
+          para realizar um disparo contra ela, causando seu dano normal. O alvo deve realizar uma Salvaguarda de Vontade
+          para não ter seu turno encerrado imediatamente, antes que consiga terminar o ataque.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/tiro-reativo-dfe74790f747cc82.webp"
+_key: '!items!dfe74790f747cc82'

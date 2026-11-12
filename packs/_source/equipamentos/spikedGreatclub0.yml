@@ -1,0 +1,161 @@
+_id: spikedGreatclub0
+_key: '!items!spikedGreatclub0'
+name: Clava Cravada
+type: weapon
+img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/clava-cravada.webp
+system:
+  identifier: spiked-greatclub
+  description:
+    value: >-
+      <p>O pedaço retorcido de madeira pesada foi incrustado com espinhos salientes ferozes, tornando-o ainda mais
+      formidável e selvagem nos golpes que desfere, à custa do excesso de peso.</p><p><strong>Propriedades:</strong>
+      Descomunal.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 12
+    units: kg
+  price:
+    value: 480
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - two
+    - hvy
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    f55455a880d38d97:
+      _id: f55455a880d38d97
+      type: attack
+      name: Ataque
+      img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/clava-cravada.webp
+      sort: 0
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '3'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      attack:
+        ability: ''
+        bonus: ''
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+        critical:
+          threshold: null
+      damage:
+        includeBase: true
+        parts: []
+        critical:
+          bonus: ''
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: m
+        value: 2
+        override: true
+        special: ''
+      target:
+        override: false
+        prompt: true
+        template:
+          type: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+  type:
+    value: simpleM
+    baseItem: ''
+  ammunition:
+    type: ''
+  range:
+    units: m
+    value: null
+    long: null
+    reach: 2
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+effects: []
+folder: mmJSa1xhCb4ILfT7
+sort: 100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: spikedGreatclub0
+      sourceType: weapon
+      category: simple2
+      quality: despertado
+      enchantment: mundane
+      properties:
+        - oversized
+      weaponDamagePending: true
+      manualEffects: []

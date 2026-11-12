@@ -1,0 +1,53 @@
+_id: 73e0e8dff445138f
+_key: '!items!73e0e8dff445138f'
+name: Asa da Borboleta Primordial
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/vento/73e0e8dff445138f.webp
+system:
+  identifier: material-alquimia-73e0e8dff445138f
+  description:
+    value: <p><strong>Elemento:</strong> Vento · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Parte de animal</p><p>Dizem que esta borboleta sonhou o vento antes que ele existisse. Uma asa empoeirada ainda faz o ar cantar; é o último segredo da pílula da leveza absoluta.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 3de7dcdc34909238
+sort: 19500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: vento
+      elementLabel: Vento
+      level: 10
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/vento.json
+        originalName: Asa da Borboleta Primordial
+        sha256: f5db71d3cdec5cc798ab9829fe28f461a95ad76b46b89331433a614fa8d62814
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,53 @@
+_id: efe8c92014c1264b
+_key: '!items!efe8c92014c1264b'
+name: Lágrima de Cervo Ancestral
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/tempo/efe8c92014c1264b.webp
+system:
+  identifier: material-alquimia-efe8c92014c1264b
+  description:
+    value: <p><strong>Elemento:</strong> Tempo · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Parte de animal</p><p>Lágrima cristalizada que o cervo ancestral chora uma vez a cada geração. Dissolvida em vinho, devolve a um rosto vinte invernos de juventude.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 46adc3260f55ed28
+sort: 11400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: tempo
+      elementLabel: Tempo
+      level: 6
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/tempo.json
+        originalName: Lágrima de Cervo Ancestral
+        sha256: 78c1decf6231b4f084096c5432683d625516dd37d65e516e424b199307cc5107
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

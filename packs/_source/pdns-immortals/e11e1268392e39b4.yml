@@ -1,0 +1,72 @@
+_id: e11e1268392e39b4
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:128
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: e11e1268392e39b4
+name: Imersão de Fuga
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢</strong></p><p>A criatura se mistura ao ambiente sintonizado com sua natureza (água, terra,
+      sombras etc.), entrando automaticamente em Furtividade com resultado final igual a 10 + o ND dela e apagando a
+      própria presença.</p>
+    chat: ''
+  identifier: imersao-de-fuga
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    bc4b6efd23e15ef4:
+      _id: bc4b6efd23e15ef4
+      type: utility
+      name: Imersão de Fuga
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura se mistura ao ambiente sintonizado com sua natureza (água, terra, sombras etc.), entrando
+          automaticamente em Furtividade com resultado final igual a 10 + o ND dela e apagando a própria presença.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/imersao-de-fuga-e11e1268392e39b4.webp"
+_key: '!items!e11e1268392e39b4'

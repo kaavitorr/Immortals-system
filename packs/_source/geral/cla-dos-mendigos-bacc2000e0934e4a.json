@@ -1,0 +1,86 @@
+{
+  "_id": "bacc2000e0934e4a",
+  "name": "Clã dos Mendigos",
+  "type": "feat",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/habilidades/mendigo.webp",
+  "folder": "bacc000000000002",
+  "system": {
+    "identifier": "antecedente-mendigo",
+    "type": {
+      "value": "background"
+    },
+    "description": {
+      "value": "<p>Em algum momento da sua vida miserável, você entrou no clã dos mendigos, sendo parte dessa organização gigantesca de ajuda mútua e troca de informações. Uma vez por semana, você pode escolher entrar em contato com um mendigo e realizar um Teste de Sorte com CD definida pelo Narrador. Em caso de sucesso, você recebe o último lugar que uma criatura ou objeto foi avistado ou onde um boato se iniciou.</p><p><em>Controle de uso: uma vez por semana. Reponha o uso manualmente quando esse período terminar no calendário da campanha.</em></p>"
+    },
+    "uses": {
+      "spent": 0,
+      "max": "1",
+      "recovery": []
+    },
+    "activities": {
+      "bacc4000ead4ae61": {
+        "_id": "bacc4000ead4ae61",
+        "type": "check",
+        "name": "Clã dos Mendigos",
+        "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/habilidades/mendigo.webp",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "Conforme as condições da característica."
+        },
+        "consumption": {
+          "spellSlot": false,
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1"
+            }
+          ]
+        },
+        "target": {
+          "affects": {
+            "type": "self"
+          },
+          "prompt": false,
+          "template": {
+            "units": "m"
+          }
+        },
+        "range": {
+          "units": "self"
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "description": {
+          "chatFlavor": "Clã dos Mendigos",
+          "value": "<p>Em algum momento da sua vida miserável, você entrou no clã dos mendigos, sendo parte dessa organização gigantesca de ajuda mútua e troca de informações. Uma vez por semana, você pode escolher entrar em contato com um mendigo e realizar um Teste de Sorte com CD definida pelo Narrador. Em caso de sucesso, você recebe o último lugar que uma criatura ou objeto foi avistado ou onde um boato se iniciou.</p>"
+        },
+        "check": {
+          "ability": "",
+          "associated": [
+            "luc"
+          ],
+          "bonus": "",
+          "dc": {
+            "calculation": "",
+            "formula": ""
+          },
+          "visible": true
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundFeature": "mendigo",
+      "backgroundRuleVersion": 1,
+      "featureSection": "jj-origin"
+    }
+  },
+  "_key": "!items!bacc2000e0934e4a"
+}

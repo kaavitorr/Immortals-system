@@ -1,0 +1,73 @@
+_id: f2ddb057bcdb28db
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:184
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: f2ddb057bcdb28db
+name: Atropelo Reativo
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Quando uma criatura se mover, você pode se deslocar até 5 metros na
+      direção dela, além do seu deslocamento disponível restante, e acertá-la com uma jogada de ataque. Em caso de
+      acerto, ela é atirada 10 metros em qualquer direção.</p>
+    chat: ''
+  identifier: atropelo-reativo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    fa67c9a56eb1ac8d:
+      _id: fa67c9a56eb1ac8d
+      type: utility
+      name: Atropelo Reativo
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Quando uma criatura se mover, você pode se deslocar até 5 metros na direção dela, além do seu deslocamento
+          disponível restante, e acertá-la com uma jogada de ataque. Em caso de acerto, ela é atirada 10 metros em
+          qualquer direção.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/atropelo-reativo-f2ddb057bcdb28db.webp"
+_key: '!items!f2ddb057bcdb28db'

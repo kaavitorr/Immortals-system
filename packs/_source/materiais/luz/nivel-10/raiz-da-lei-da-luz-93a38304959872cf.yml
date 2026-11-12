@@ -1,0 +1,53 @@
+_id: 93a38304959872cf
+_key: '!items!93a38304959872cf'
+name: Raiz da Lei da Luz
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/93a38304959872cf.webp
+system:
+  identifier: material-alquimia-93a38304959872cf
+  description:
+    value: <p><strong>Elemento:</strong> Luz · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Planta</p><p>Raiz crescida enrodilhada nas próprias Leis da luz, transparente como água ao meio-dia. Colhida uma vez por era, é o coração da pílula suprema que escreve a luz nos ossos do escolhido.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 9cd5b7565a551659
+sort: 18500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: luz
+      elementLabel: Luz
+      level: 10
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/luz.json
+        originalName: Raiz da Lei da Luz
+        sha256: a65d9c475ce3e69bcab79896f06bd1f00a0fcc1e5a6329d0e4735711f2236288
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

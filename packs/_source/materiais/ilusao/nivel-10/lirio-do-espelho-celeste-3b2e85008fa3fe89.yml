@@ -1,0 +1,53 @@
+_id: 3b2e85008fa3fe89
+_key: '!items!3b2e85008fa3fe89'
+name: Lírio do Espelho Celeste
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/3b2e85008fa3fe89.webp
+system:
+  identifier: material-alquimia-3b2e85008fa3fe89
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Planta</p><p>Suas pétalas são lâminas de espelho que mostram o céu de outras eras a quem nelas se mira. É o principal ingrediente das pílulas de reversão, que fazem todos confundirem a causa real de um fenômeno com sua aparência.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 52aa7e1c5a172ae1
+sort: 18400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 10
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Lírio do Espelho Celeste
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

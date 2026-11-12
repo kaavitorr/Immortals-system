@@ -1,0 +1,159 @@
+_id: pistol0000000000
+_key: '!items!pistol0000000000'
+name: Pistola
+type: weapon
+img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/pistola.webp
+system:
+  identifier: pistol
+  description:
+    value: >-
+      <p>Arma de fogo de pólvora negra com um único disparo trovejante: a pistola de pederneira é a arma do apostador —
+      letal num relance, mas lenta para recarregar no caos da batalha.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 4
+    units: kg
+  price:
+    value: 640
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - amm
+    - lod
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    31179804dfac90d2:
+      _id: 31179804dfac90d2
+      type: attack
+      name: Ataque
+      img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/pistola.webp
+      sort: 0
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      attack:
+        ability: ''
+        bonus: ''
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+        critical:
+          threshold: null
+      damage:
+        includeBase: true
+        parts: []
+        critical:
+          bonus: ''
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: m
+        value: 60
+        override: true
+        special: ''
+      target:
+        override: false
+        prompt: true
+        template:
+          type: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+  type:
+    value: martialR
+    baseItem: ''
+  ammunition:
+    type: firearmBullet
+  range:
+    units: m
+    value: 60
+    long: null
+    reach: null
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+effects: []
+folder: NNHjWBS5AM148J20
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: pistol0000000000
+      sourceType: weapon
+      category: mechanical1
+      quality: standard
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: true
+      manualEffects: []

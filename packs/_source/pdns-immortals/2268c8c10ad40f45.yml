@@ -1,0 +1,73 @@
+_id: 2268c8c10ad40f45
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:200
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 2268c8c10ad40f45
+name: Disparo
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>A criatura realiza um disparo contra um inimigo que venha em sua
+      direção. O alvo deve realizar uma Salvaguarda de Reflexo para não sofrer dano igual ao Atributo de Intelecto da
+      criatura atacante e perder 5 metros de deslocamento.</p>
+    chat: ''
+  identifier: disparo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    8b6655ae8bacccef:
+      _id: 8b6655ae8bacccef
+      type: utility
+      name: Disparo
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura realiza um disparo contra um inimigo que venha em sua direção. O alvo deve realizar uma
+          Salvaguarda de Reflexo para não sofrer dano igual ao Atributo de Intelecto da criatura atacante e perder 5
+          metros de deslocamento.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/disparo-2268c8c10ad40f45.webp"
+_key: '!items!2268c8c10ad40f45'

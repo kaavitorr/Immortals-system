@@ -1,0 +1,180 @@
+name: Agarrador
+type: archetype
+folder: 26a0e683ac977c63
+system:
+  description:
+    value: >-
+      <p>Prende a presa com garras, tentáculos ou mandíbulas e restringe seus movimentos. Mantém o alvo ao alcance para
+      golpeá-lo ou expô-lo aos ataques de aliados.</p><p><strong>Resistência por ND:</strong> Perfurante
+      +1</p><p><strong>Vulnerabilidade:</strong> Cortante −8</p><p><strong>Deslocamento:</strong> +1 até um máximo de
+      25</p><p><strong>Armaduras:</strong> Musculatura Densa (10 + Con).</p><p><strong>Perícias:</strong> Proficiências:
+      Atletismo, Furtividade, Percepção e Intimidação.</p><p><strong>Salvaguardas:</strong> Proficiências: Fortitude e
+      Vontade.</p><p><strong>Aspectos:</strong> Agarrador, Superfície Adesiva, Implacável, Corpo Inerte, Sentidos
+      Aguçados, Algoz Invisível, Caminhante de Superfícies, Agressivo, Mente
+      Inexistente.</p><p><strong>Habilidades:</strong> Enrolar, Abraço Esmagador, Investida Derrubadora, Disparo de
+      Teia, Imersão de Fuga, Emersão Explosiva, Golpe de Cauda, Chicote de Hifas, Fuga
+      Escorregadia.</p><p><strong>Reações:</strong> Contra-Aperto, Agarrar Projétil, Reflexo. e Vontade.</p>
+    chat: ''
+  identifier: agarrador
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 4
+    dex: 2
+    con: 3
+    int: 1
+    wis: 1
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: 0
+      immune: false
+    piercing:
+      value: 1
+      immune: false
+    slashing:
+      value: -8
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 0
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ath
+      - skills.ste
+      - skills.prc
+      - skills.itm
+      - saves.str
+      - saves.wis
+      - saves.con
+      - saves.cha
+    alternative:
+      - skills.ath
+      - skills.ste
+      - skills.prc
+      - skills.itm
+      - alternativeSaves.fortitude
+      - alternativeSaves.vontade
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.bf2f75f9bcad6213
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.3b271f34907100a4
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9ab24ff5f376e4d3
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.3b95ed6ea8adbc81
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.75f70a8b76b5721e
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f35cdef068d2d3d8
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4c9dd19ca2562a14
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.69fce788d9d15b15
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4afa4131cc85e2bd
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9149d2bde056a98a
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5bcca07b63f166e2
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8f56c3eb1f2f032e
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.325e12eb1ac5a88d
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5fcf14c399d7a217
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.c49736b487655dbe
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.df29c624c51c64cf
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.b754f3f772990d0d
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e11e1268392e39b4
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5d85d51e1781dcb6
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bfd51c9ea7cf377
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4f437ab048addfe1
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.afd35e07d69570d7
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9cb70c1a39119c13
+      nd: 9
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000021
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000006
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: v3uD80RZA7c3wCn8
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/agarrador.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:agarrador
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: v3uD80RZA7c3wCn8
+_key: '!items!v3uD80RZA7c3wCn8'

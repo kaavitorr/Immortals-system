@@ -1,0 +1,175 @@
+name: Corpo-de-cabra
+type: archetype
+folder: dcb7bdd3e7181c6f
+system:
+  description:
+    value: >-
+      <p>Avança com chifradas e investidas que exploram o peso do corpo. Mantém o equilíbrio sob pressão e reforça a
+      própria resistência antes de contra-atacar.</p><p><strong>Resistência por ND:</strong> Contundente
+      +2</p><p><strong>Vulnerabilidade:</strong> Psíquico −6 · Mov +1 | 5/ND</p><p><strong>Deslocamento:</strong> +1 até
+      um máximo de 25</p><p><strong>Armaduras:</strong> Musculatura Densa (10 + Con).</p><p><strong>Perícias:</strong>
+      Proficiências: Atletismo, Sobrevivência, Intimidação e Percepção.</p><p><strong>Salvaguardas:</strong>
+      Proficiências: Fortitude e Vontade.</p><p><strong>Aspectos:</strong> Estabilidade, Força Descomunal, Vigoroso,
+      Implacável, Fanático, Descuidado, Reativo, Corpo Robusto, Temperamento Frio,
+      Agressivo.</p><p><strong>Habilidades:</strong> Investida, Investida Derrubadora, Ataque de Chifre, Golpe
+      Aterrador, Onda de Choque, Manter Firme, Enrijecer Músculos, Contra-Golpe, Debandada, Salto
+      Mortal.</p><p><strong>Reações:</strong> Chifrada Reativa, Endurecer, Ataque Reativo.</p>
+    chat: ''
+  identifier: corpo-de-cabra
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 4
+    dex: 2
+    con: 3
+    int: 1
+    wis: 2
+    cha: 0
+  resistencias:
+    bludgeoning:
+      value: 2
+      immune: false
+    piercing:
+      value: 0
+      immune: false
+    slashing:
+      value: 0
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: -6
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ath
+      - skills.sur
+      - skills.itm
+      - skills.prc
+      - saves.str
+      - saves.wis
+      - saves.con
+      - saves.cha
+    alternative:
+      - skills.ath
+      - skills.sur
+      - skills.itm
+      - skills.prc
+      - alternativeSaves.fortitude
+      - alternativeSaves.vontade
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8a0ca76215e75f50
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4e065b4c8fa19cff
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9149d2bde056a98a
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53d435a7250164af
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.325e12eb1ac5a88d
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.71f999e7e919a534
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7b0bc0a12fe44448
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6c3e03cf4f31410e
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.104c69ff0d058f8c
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bfd51c9ea7cf377
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9f58c17ca809238a
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6bd7d97c6b3853b2
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7603853cf6050958
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d3b3052e04d15f8e
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.060086db82d1cba2
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.39ea5af9979fe435
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.3f9435196036804c
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.255cd26bc92d3768
+      nd: 10
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7c4887f815cc4103
+      nd: 13
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000021
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000007
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000008
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: laUyFhbXBNvp2wzB
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/corpo-de-cabra.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:corpodecabra
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: laUyFhbXBNvp2wzB
+_key: '!items!laUyFhbXBNvp2wzB'

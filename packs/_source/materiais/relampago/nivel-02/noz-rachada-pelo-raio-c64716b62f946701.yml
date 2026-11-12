@@ -1,0 +1,53 @@
+_id: c64716b62f946701
+_key: '!items!c64716b62f946701'
+name: Noz da Fenda Fulgurante
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/c64716b62f946701.webp
+system:
+  identifier: material-alquimia-c64716b62f946701
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>O fruto amadurece dentro de uma fissura natural na casca, aberta pelo Qi elétrico absorvido pela árvore. A amêndoa mantém duas cargas em equilíbrio, propriedade usada para reunir ingredientes fulmíneos que se repelem durante as primeiras etapas do refino.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 635a2a44e928b124
+sort: 2800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Noz Rachada pelo Raio
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,140 @@
+_id: KdlUUFhAnpv6YIHT
+_key: '!items!KdlUUFhAnpv6YIHT'
+name: Frasco Explosivo
+type: consumable
+img: icons/weapons/thrown/bomb-fuse-red-black.webp
+system:
+  identifier: blast-flask
+  description:
+    value: >-
+      <p>Um frasco cheio de líquido avermelhado que explode ao se quebrar, criando um pequeno fogo explosivo que se
+      dissipa rapidamente.</p><p><strong>Propriedades:</strong> Empilhável, Arremesso.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 1
+    units: kg
+  price:
+    value: 250
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  activities:
+    177e14d48cfea6ec:
+      _id: 177e14d48cfea6ec
+      type: utility
+      name: Arremessar frasco explosivo
+      img: icons/weapons/thrown/bomb-fuse-red-black.webp
+      sort: 0
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+          - type: itemUses
+            target: ''
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        value: >-
+          <p>You light and throw the Frasco Explosivo, dealing <strong>Fire </strong>damage to all enemies in the radius
+          of the explosion who fail to avoid the attack. The radius of the <strong>Blast</strong> depends on the quality
+          of the bomb:</p><ul><li><p><strong>Shoddy</strong> - 3 m</p></li><li><p><strong>Standard</strong> - 4
+          m</p></li><li><p><strong>Fine</strong> - 6 m</p></li><li><p><strong>Superior</strong> - 8
+          m</p></li><li><p><strong>Masterwork</strong> - 10 m</p></li></ul>
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: m
+        value: 20
+        special: ''
+      target:
+        override: true
+        prompt: true
+        template:
+          type: circle
+          size: '4'
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+          special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  type:
+    value: trinket
+    subtype: ''
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    replace: false
+effects: []
+folder: 9u3lR2Lbhj3cdjQk
+sort: 600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: KdlUUFhAnpv6YIHT
+      sourceType: consumable
+      category: bomb
+      quality: standard
+      enchantment: ''
+      properties:
+        - stackable
+        - thrown
+      weaponDamagePending: false
+      manualEffects: []

@@ -1,0 +1,43 @@
+name: Implacável
+type: feat
+folder: 4858be5c4feed237
+system:
+  description:
+    value: >-
+      <p>Essa criatura irá atacar um mesmo alvo dentro do seu alcance até que ele morra, desde que ela consiga chegar
+      até ele com seu deslocamento e habilidades disponíveis.</p>
+    chat: ''
+  identifier: implacavel
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: 1QnPYO2PtKxvofsi
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/implacavel-1QnPYO2PtKxvofsi.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:implacavel:24c0c7985c6f
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 1QnPYO2PtKxvofsi
+_key: '!items!1QnPYO2PtKxvofsi'

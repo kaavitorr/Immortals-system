@@ -1,0 +1,53 @@
+_id: 6d0e073e5228f545
+_key: '!items!6d0e073e5228f545'
+name: Folha de Ginkgo Prateada
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/tempo/6d0e073e5228f545.webp
+system:
+  identifier: material-alquimia-6d0e073e5228f545
+  description:
+    value: <p><strong>Elemento:</strong> Tempo · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Planta</p><p>Folhas de um ginkgo tocado pelo Qi, prateadas mesmo no auge do verão. Seu chá torna nítidas lembranças antigas há muito esquecidas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 1dc0a03c43eaccbe
+sort: 6500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: tempo
+      elementLabel: Tempo
+      level: 4
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/tempo.json
+        originalName: Folha de Ginkgo Prateada
+        sha256: 78c1decf6231b4f084096c5432683d625516dd37d65e516e424b199307cc5107
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

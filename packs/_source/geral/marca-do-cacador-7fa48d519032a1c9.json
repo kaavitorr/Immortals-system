@@ -1,0 +1,260 @@
+{
+  "_id": "7fa48d519032a1c9",
+  "name": "Marca do Caçador",
+  "type": "spell",
+  "folder": "0e2549dbc7bb590b",
+  "sort": 200000,
+  "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/arco-longo.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-marca-do-cacador",
+    "level": 2,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 3,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute",
+      "expiry": null,
+      "special": "Até 1 minuto, Concentração",
+      "concentration": true,
+      "override": true
+    },
+    "range": {
+      "value": "12",
+      "units": "m",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "",
+        "size": "",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Arco</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Até 15 metros, Linha</td></tr><tr><th>Duração</th><td>Até 1 minuto, Concentração</td></tr><tr><th>Arma</th><td>Arco</td></tr><tr><th>Requisito do quadro</th><td>Arco</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você pode marcar uma criatura a até 12 metros de distância para ser o alvo de seus ataques enquanto você foca grande parte da sua atenção nessa criatura. Enquanto essa habilidade estiver ativa, você recebe 3 de dano adicional em todas as jogadas de ataque a distância contra o alvo marcado.</p><p>Caso a criatura seja morta ou caia inconsciente com 0 Pontos de Vida e a habilidade ainda possua tempo restante, você pode usar uma ação para mover a marca para uma outra criatura dentro de um alcance de 21 metros.</p><h3>Observações</h3><p>A descrição limita a marca inicial a 12 metros e o quadro indica 15. Foi usado o alcance de 12 metros da descrição; a transferência conserva os 21 metros explícitos.</p><p>Registre uma única criatura marcada e acrescente 3 de dano somente aos seus ataques à distância contra ela. A transferência conserva a duração restante da marca; não paga Qi novamente e não inicia um novo minuto. A concentração e o alvo são acompanhados pela mesa.</p>"
+    },
+    "activities": {
+      "c6d52b9a6ad27674": {
+        "_id": "c6d52b9a6ad27674",
+        "type": "utility",
+        "name": "Marca do Caçador",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/arco-longo.webp",
+        "activation": {
+          "type": "action",
+          "value": 3,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "4",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Arco</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Até 15 metros, Linha</td></tr><tr><th>Duração</th><td>Até 1 minuto, Concentração</td></tr><tr><th>Arma</th><td>Arco</td></tr><tr><th>Requisito do quadro</th><td>Arco</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você pode marcar uma criatura a até 12 metros de distância para ser o alvo de seus ataques enquanto você foca grande parte da sua atenção nessa criatura. Enquanto essa habilidade estiver ativa, você recebe 3 de dano adicional em todas as jogadas de ataque a distância contra o alvo marcado.</p><p>Caso a criatura seja morta ou caia inconsciente com 0 Pontos de Vida e a habilidade ainda possua tempo restante, você pode usar uma ação para mover a marca para uma outra criatura dentro de um alcance de 21 metros.</p><h3>Observações</h3><p>A descrição limita a marca inicial a 12 metros e o quadro indica 15. Foi usado o alcance de 12 metros da descrição; a transferência conserva os 21 metros explícitos.</p><p>Registre uma única criatura marcada e acrescente 3 de dano somente aos seus ataques à distância contra ela. A transferência conserva a duração restante da marca; não paga Qi novamente e não inicia um novo minuto. A concentração e o alvo são acompanhados pela mesa.</p>",
+          "chatFlavor": "Marca do Caçador"
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute",
+          "expiry": null,
+          "special": "Até 1 minuto, Concentração",
+          "concentration": true,
+          "override": true
+        },
+        "range": {
+          "value": "12",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "marca-do-cacador",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Marca do Caçador",
+          "visible": false,
+          "prompt": false
+        }
+      },
+      "bcd6a250c8d9d850": {
+        "_id": "bcd6a250c8d9d850",
+        "type": "utility",
+        "name": "Transferir marca já ativa",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/arco-longo.webp",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "Somente se o alvo anterior morrer ou ficar inconsciente com 0 PV e a marca ainda estiver ativa.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Arco</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Até 15 metros, Linha</td></tr><tr><th>Duração</th><td>Até 1 minuto, Concentração</td></tr><tr><th>Arma</th><td>Arco</td></tr><tr><th>Requisito do quadro</th><td>Arco</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você pode marcar uma criatura a até 12 metros de distância para ser o alvo de seus ataques enquanto você foca grande parte da sua atenção nessa criatura. Enquanto essa habilidade estiver ativa, você recebe 3 de dano adicional em todas as jogadas de ataque a distância contra o alvo marcado.</p><p>Caso a criatura seja morta ou caia inconsciente com 0 Pontos de Vida e a habilidade ainda possua tempo restante, você pode usar uma ação para mover a marca para uma outra criatura dentro de um alcance de 21 metros.</p><h3>Observações</h3><p>A descrição limita a marca inicial a 12 metros e o quadro indica 15. Foi usado o alcance de 12 metros da descrição; a transferência conserva os 21 metros explícitos.</p><p>Registre uma única criatura marcada e acrescente 3 de dano somente aos seus ataques à distância contra ela. A transferência conserva a duração restante da marca; não paga Qi novamente e não inicia um novo minuto. A concentração e o alvo são acompanhados pela mesa.</p>",
+          "chatFlavor": "Marca do Caçador"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "Até 1 minuto, Concentração",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "21",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "marca-do-cacador",
+              "key": "transfer",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Transferir marca já ativa",
+          "visible": false,
+          "prompt": false
+        }
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "marca-do-cacador",
+        "category": "arco",
+        "grade": 2,
+        "auxiliary": false,
+        "weapon": "Arco",
+        "qi": 4,
+        "actions": 3,
+        "reaction": false,
+        "combinedAttack": true,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Até 1 minuto, Concentração",
+            "range": "Até 15 metros, Linha",
+            "requirements": "Arco",
+            "damage": "Nenhum",
+            "combinedAttack": true
+          }
+        },
+        "manualResolution": [
+          "Registre uma única criatura marcada e acrescente 3 de dano somente aos seus ataques à distância contra ela. A transferência conserva a duração restante da marca; não paga Qi novamente e não inicia um novo minuto. A concentração e o alvo são acompanhados pela mesa."
+        ],
+        "sourceCorrections": [
+          "A descrição limita a marca inicial a 12 metros e o quadro indica 15. Foi usado o alcance de 12 metros da descrição; a transferência conserva os 21 metros explícitos."
+        ]
+      }
+    }
+  },
+  "_key": "!items!7fa48d519032a1c9"
+}

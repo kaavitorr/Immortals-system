@@ -1,0 +1,57 @@
+_id: incense000000000
+_key: '!items!incense000000000'
+name: Incenso
+type: loot
+img: icons/commodities/wood/kindling-sticks-brown.webp
+system:
+  identifier: incense
+  description:
+    value: >-
+      <p>Bastões ou cones de resina, madeira em pó e óleos florais, projetados para emitir fumaça de cheiro doce quando
+      queimados. Cada pacote contém 12 peças individuais.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 1
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: material
+effects: []
+folder: enNNOtkze4LoJXgw
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: incense000000000
+      sourceType: loot
+      category: ingredient
+      quality: standard
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: false
+      manualEffects: []

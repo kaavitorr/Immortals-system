@@ -1,0 +1,68 @@
+_id: expandedToolbelt
+_key: '!items!expandedToolbelt'
+name: Cinto de Ferramentas Expandido
+type: equipment
+img: icons/containers/ammunition/bullets-belt.webp
+system:
+  identifier: expanded-toolbelt
+  description:
+    value: >-
+      <p>Um cinto de ferramentas expandido na forma de cinto utilitário, bandoleira ou uma série de bolsos costurados ao
+      seu equipamento.</p><p>Este item fornece slots adicionais de Cinturão conforme sua camada de
+      qualidade:</p><ul><li><p><strong>Padrão</strong>: +1 slot de Cinturão</p></li><li><p><strong>Fino</strong>: +2
+      slots de Cinturão</p></li><li><p><strong>Superior</strong>: +3 slots de
+      Cinturão</p></li><li><p><strong>Obra-Prima</strong>: +4 slots de Cinturão</p></li></ul>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 3
+    units: kg
+  price:
+    value: 100
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: clothing
+    baseItem: ''
+  armor:
+    value: 0
+    dex: null
+    ability: ''
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: GVbpo5LtAY44QZPD
+sort: 300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: expandedToolbelt
+      sourceType: accessory
+      category: clothing
+      quality: standard
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: false
+      manualEffects: []

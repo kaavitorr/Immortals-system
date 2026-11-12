@@ -1,0 +1,65 @@
+_id: tailorsPortableW
+_key: '!items!tailorsPortableW'
+name: Bancada Portátil de Alfaiate
+type: tool
+img: icons/containers/boxes/crate-worn-brown.webp
+system:
+  identifier: workbench-tailoring
+  description:
+    value: >-
+      <p>Caixa rasa de madeira com couro, contendo carretéis de linha, agulhas e alfinetes apropriados, faca de
+      tosquiar, faca em gancho, sovas, furadores e marcas apropriados para trabalhar com pano e couro durante viagens.
+      Quando solta, pode ser recolhida numa superfície plana de trabalho.</p><p><strong>Propriedades:</strong>
+      Empilhável.</p><p><strong>Profissões e conhecimentos:</strong> Alfaiataria.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 20
+    units: kg
+  price:
+    value: 3000
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: wis
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: zKA7bUzu7rPpL2lk
+sort: 400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: tailorsPortableW
+      sourceType: tool
+      category: crafting
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

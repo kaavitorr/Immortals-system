@@ -1,0 +1,129 @@
+{
+  "_id": "a9b822c8eb0acf76",
+  "name": "Detonação da Alma",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/detonacao-da-alma.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-detonacao-da-alma",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo da Alma.</p><h2>Detonação da Alma</h2><p><strong>Requisito:</strong> 8º Revolução</p><p>Sua alma se tornou tão poderosa que ela carrega uma quantidade assustadora de energia, fazendo com que a detonar desencadeie uma força catastrófica. Ao usar 4 Pontos de Ação [4 ações], você pode explodir sua alma, causando seu valor de Ferida -1 como dano de Energia em todas as criaturas a 30 metros de distância + 5 metros para cada Rank de cultivo seu. Todas elas devem realizar uma Salvaguarda de Reflexo, sofrendo todo dano se falharem ou metade se obtiverem sucesso.</p><p>Após isso, como consequência pelas suas feridas, seu valor de vida se torna 1.</p><p><strong>Resolução:</strong> A vida se torna 1 após a detonação; resolva também as consequências das Feridas com o Narrador. O narrador confirma a detonação, resolve a salvaguarda de Reflexo e aplica o resultado como dano de Energia; depois registra sua Vida em 1. A atividade não reduz sua Vida nem aplica dano em alvos automaticamente.</p><p><strong>Pendente:</strong> A expressão valor de Ferida -1 não identifica se usa Feridas atuais ou um máximo; confirmar antes de calcular automaticamente.</p>"
+    },
+    "activities": {
+      "2b3596e9e7458ec3": {
+        "_id": "2b3596e9e7458ec3",
+        "type": "utility",
+        "name": "Detonação da Alma",
+        "activation": {
+          "type": "action",
+          "value": 4,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo da Alma.</p><h2>Detonação da Alma</h2><p><strong>Requisito:</strong> 8º Revolução</p><p>Sua alma se tornou tão poderosa que ela carrega uma quantidade assustadora de energia, fazendo com que a detonar desencadeie uma força catastrófica. Ao usar 4 Pontos de Ação [4 ações], você pode explodir sua alma, causando seu valor de Ferida -1 como dano de Energia em todas as criaturas a 30 metros de distância + 5 metros para cada Rank de cultivo seu. Todas elas devem realizar uma Salvaguarda de Reflexo, sofrendo todo dano se falharem ou metade se obtiverem sucesso.</p><p>Após isso, como consequência pelas suas feridas, seu valor de vida se torna 1.</p><p><strong>Resolução:</strong> A vida se torna 1 após a detonação; resolva também as consequências das Feridas com o Narrador. O narrador confirma a detonação, resolve a salvaguarda de Reflexo e aplica o resultado como dano de Energia; depois registra sua Vida em 1. A atividade não reduz sua Vida nem aplica dano em alvos automaticamente.</p><p><strong>Pendente:</strong> A expressão valor de Ferida -1 não identifica se usa Feridas atuais ou um máximo; confirmar antes de calcular automaticamente.</p>",
+          "chatFlavor": "Detonação da Alma — Detonação da Alma"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "30 + 5 * @cultivation.rank",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "radius",
+            "size": "30 + 5 * @cultivation.rank",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "detonacao-da-alma",
+              "key": "detonate",
+              "manualResolution": true,
+              "rule": "soulDetonation",
+              "damageType": "radiant",
+              "save": "dex",
+              "onSave": "half",
+              "manualSetHitPoints": 1
+            }
+          }
+        },
+        "roll": {
+          "formula": "max(0, @legacy2.wounds.value - 1)",
+          "name": "Detonação da Alma",
+          "visible": true,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/detonacao-da-alma.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "detonacao-da-alma",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo da Alma",
+        "requisitos": [
+          "8º Revolução"
+        ],
+        "requirementRules": {
+          "type": "soul",
+          "min": 9
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "A vida se torna 1 após a detonação; resolva também as consequências das Feridas com o Narrador.",
+          "O narrador confirma a detonação, resolve a salvaguarda de Reflexo e aplica o resultado como dano de Energia; depois registra sua Vida em 1. A atividade não reduz sua Vida nem aplica dano em alvos automaticamente."
+        ],
+        "pending": [
+          "A expressão valor de Ferida -1 não identifica se usa Feridas atuais ou um máximo; confirmar antes de calcular automaticamente."
+        ]
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!a9b822c8eb0acf76"
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "1a2c1000bfa9373d",
+  "name": "Afinidade Neutra",
+  "type": "feat",
+  "folder": "1a2c000000000002",
+  "img": "systems/Immortals-system/assets/wuxia/caracteristicas-especie-pintadas-v1/afinidade-neutra.webp",
+  "system": {
+    "identifier": "especie-f37e397d",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Afinidade Neutra: Um humano não tem afinidade com nada, mas isso torna ele bem eficiente em todos os meios. Ele recebe 10% de velocidade de cultivo adicional em qualquer meio, com exceção de Qi demoníaco, e pode avançar seu cultivo em qualquer tipo de Qi, o transformando em neutro após absorve-lo.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Afinidade Neutra",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000bfa9373d"
+}

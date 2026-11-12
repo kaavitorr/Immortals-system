@@ -1,0 +1,53 @@
+_id: e8a027e8992ee36a
+_key: '!items!e8a027e8992ee36a'
+name: Orquídea da Longa Noite
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/e8a027e8992ee36a.webp
+system:
+  identifier: material-alquimia-e8a027e8992ee36a
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Planta</p><p>Desabrocha somente na noite polar que dura um mês, no fim do mundo. Colhida em silêncio, rende o elixir que preserva memórias por gerações inteiras.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f3259bbba607e561
+sort: 18400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 10
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Orquídea da Longa Noite
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

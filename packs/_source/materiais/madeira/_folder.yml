@@ -1,0 +1,12 @@
+_id: 23310966e9c1ac2b
+_key: '!folders!23310966e9c1ac2b'
+name: Madeira
+type: Item
+folder: null
+sorting: m
+sort: 200000
+color: '#466b52'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: madeira

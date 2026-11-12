@@ -1,0 +1,31 @@
+{
+  "_id": "bacc200043230d60",
+  "name": "Recursos Roubados",
+  "type": "feat",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/habilidades/cultivador-demoniaco.webp",
+  "folder": "bacc000000000002",
+  "system": {
+    "identifier": "antecedente-cultivador-demoniaco",
+    "type": {
+      "value": "background"
+    },
+    "description": {
+      "value": "<p>Você possui um Manual de Cultivo de Rank Sagrado pertencente ao caminho demoníaco, que conseguiu roubar antes da destruição de sua seita. Entretanto, sua natureza maligna exige o sacrifício de uma vida inocente por semana para permanecer saciada.</p><p>Ao integrar esse manual ao seu Manual Divino, você libera uma poderosa onda de energia negativa que se espalha por centenas de quilômetros, alertando todos na região sobre sua localização e sua natureza como cultivador demoníaco.</p><p>Esse fenômeno se repete sempre que você deixar de realizar o sacrifício semanal exigido pelo manual, revelando novamente sua presença e localização.</p>"
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundFeature": "cultivador-demoniaco",
+      "backgroundRuleVersion": 1,
+      "featureSection": "jj-origin"
+    }
+  },
+  "_key": "!items!bacc200043230d60"
+}

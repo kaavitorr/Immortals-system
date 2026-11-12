@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000a3b4d1cc",
+  "name": "Lembrança do Último Trabalho",
+  "type": "loot",
+  "img": "icons/equipment/neck/amulet-carved-stone-hammer.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-lembranca-trabalho",
+    "description": {
+      "value": "<p>Bugiganga recebida no último trabalho como matador de aluguel.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "gear"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "lembranca-trabalho"
+    }
+  },
+  "_key": "!items!bacc6000a3b4d1cc"
+}

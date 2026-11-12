@@ -1,0 +1,53 @@
+_id: bea582ed0d530020
+_key: '!items!bea582ed0d530020'
+name: Tendão de Gafanhoto do Salto de Jade
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/bea582ed0d530020.webp
+system:
+  identifier: material-alquimia-bea582ed0d530020
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Parte de animal</p><p>O gafanhoto do Salto de Jade possui pernas translúcidas atravessadas por Qi vegetal e alcança brotos suspensos muito acima das copas jovens. Seus tendões oferecem elasticidade à matriz de pastas restauradoras e permitem que ingredientes de recuperação muscular permaneçam unidos sem se tornarem rígidos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 94a0d53897fd5754
+sort: 1200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 1
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Tendão de Gafanhoto Saltitante
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

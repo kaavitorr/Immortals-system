@@ -1,0 +1,14 @@
+<fieldset>
+    <legend>{{ localize "DND5E.ADVANCEMENT.ItemGrant.Details" }}</legend>
+    {{ formGroup configuration.fields.optional name="configuration.optional" value=configuration.data.optional
+                 input=inputs.createCheckboxInput rootId=partId }}
+</fieldset>
+
+<fieldset><legend>Moedas recebidas</legend>
+ <div class="iw-advancement-money-fields">
+  <label>PO <input type="number" name="configuration.currency.gp" value="{{ configuration.data.currency.gp }}" min="0" step="1"></label>
+  <label>PS <input type="number" name="configuration.currency.sp" value="{{ configuration.data.currency.sp }}" min="0" step="1"></label>
+  <label>PC <input type="number" name="configuration.currency.cp" value="{{ configuration.data.currency.cp }}" min="0" step="1"></label>
+ </div>
+ <p class="hint">Entregues uma vez ao concluir a progressão.</p>
+</fieldset>

@@ -1,0 +1,73 @@
+_id: a290291cba56fed5
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:147
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: a290291cba56fed5
+name: Nuvem de Morcegos
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢</strong></p><p>A criatura pode se dividir em uma nuvem de morcegos. Enquanto estiver nessa
+      forma, ataques de alvo único têm 3 desvantagens para atingi-la, e ela recebe vantagem ao atacar criaturas dentro
+      da área de seu corpo, que é de 3 metros + 1 metro por ND.</p>
+    chat: ''
+  identifier: nuvem-de-morcegos
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    85321992a0dbb9ab:
+      _id: 85321992a0dbb9ab
+      type: utility
+      name: Nuvem de Morcegos
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura pode se dividir em uma nuvem de morcegos. Enquanto estiver nessa forma, ataques de alvo único
+          têm 3 desvantagens para atingi-la, e ela recebe vantagem ao atacar criaturas dentro da área de seu corpo, que
+          é de 3 metros + 1 metro por ND.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 8
+  prerequisites:
+    items: []
+    level: 8
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/nuvem-de-morcegos-a290291cba56fed5.webp"
+_key: '!items!a290291cba56fed5'

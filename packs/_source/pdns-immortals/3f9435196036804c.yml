@@ -1,0 +1,82 @@
+_id: 3f9435196036804c
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:165
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 3f9435196036804c
+name: Salto Mortal
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ [adicional]</strong></p><p>Ao gastar 2 PQ ao anunciar um ataque ou técnica, a criatura se
+      atira em direção a um alvo a até 10 metros sem consumir deslocamento. Se o alvo for atingido, deve realizar uma
+      Salvaguarda de Fortitude para não ser atirado contra o chão e receber a condição “Caído”, sofrendo 1 dado de dano
+      adicional no processo. O alvo fica impedido de se levantar até o fim do próximo turno dele enquanto a criatura que
+      o derrubou estiver a 1 metro de distância.</p>
+    chat: ''
+  identifier: salto-mortal
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    a26f231b5feaa0a5:
+      _id: a26f231b5feaa0a5
+      type: utility
+      name: Salto Mortal
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 2 PQ ao anunciar um ataque ou técnica, a criatura se atira em direção a um alvo a até 10 metros
+          sem consumir deslocamento. Se o alvo for atingido, deve realizar uma Salvaguarda de Fortitude para não ser
+          atirado contra o chão e receber a condição “Caído”, sofrendo 1 dado de dano adicional no processo. O alvo fica
+          impedido de se levantar até o fim do próximo turno dele enquanto a criatura que o derrubou estiver a 1 metro
+          de distância.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 9
+  prerequisites:
+    items: []
+    level: 9
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/salto-mortal-3f9435196036804c.webp"
+_key: '!items!3f9435196036804c'

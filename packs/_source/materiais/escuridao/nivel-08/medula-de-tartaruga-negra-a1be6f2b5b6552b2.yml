@@ -1,0 +1,53 @@
+_id: a1be6f2b5b6552b2
+_key: '!items!a1be6f2b5b6552b2'
+name: Medula de Tartaruga Negra
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/a1be6f2b5b6552b2.webp
+system:
+  identifier: material-alquimia-a1be6f2b5b6552b2
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Parte de animal</p><p>A tartaruga negra amadurece nas marés profundas de Qi yin, preservando no interior dos ossos a essência acumulada durante longos ciclos de repouso. Sua medula reúne escuridão densa e cadência quase imóvel, empregada para assentar e sustentar preparados de grau elevado.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 200
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: c928a293515d0c69
+sort: 15500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 8
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Medula de Tartaruga Negra
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

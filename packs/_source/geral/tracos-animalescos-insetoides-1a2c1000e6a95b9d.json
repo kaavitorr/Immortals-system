@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000e6a95b9d",
+  "name": "Traços Animalescos — Insetoides",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/invertebrates/beetle-stag-tan-brown.webp",
+  "system": {
+    "identifier": "especie-756b105d",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Insetoides. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c1000f8ef9cef": {
+        "_id": "1a2c1000f8ef9cef",
+        "type": "ItemChoice",
+        "title": "Duas características — Insetoides",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.ivTP789owbssg3oe"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.QpM3Ctotwa61YGHQ"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Insetoides",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000e6a95b9d"
+}

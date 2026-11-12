@@ -1,0 +1,71 @@
+_id: bf2eeb7e3b4b7322
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:225
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: bf2eeb7e3b4b7322
+name: Imersão de Fuga
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Você cava rapidamente para debaixo da terra, fugindo de uma jogada de
+      ataque e podendo usar a ação “Esconder”, com uma vantagem em Furtividade.</p>
+    chat: ''
+  identifier: imersao-de-fuga
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    49224ad3f4069437:
+      _id: 49224ad3f4069437
+      type: utility
+      name: Imersão de Fuga
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Você cava rapidamente para debaixo da terra, fugindo de uma jogada de ataque e podendo usar a ação
+          “Esconder”, com uma vantagem em Furtividade.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 5
+  prerequisites:
+    items: []
+    level: 5
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/imersao-de-fuga-bf2eeb7e3b4b7322.webp"
+_key: '!items!bf2eeb7e3b4b7322'

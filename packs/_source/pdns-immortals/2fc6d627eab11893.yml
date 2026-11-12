@@ -1,0 +1,83 @@
+name: Mandato Elemental
+type: feat
+folder: 38877a6e275e7204
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢ · Reação</p><p>Ao perceber uma manifestação de um de seus elementos, a criatura
+      disputa o controle sobre ela. Quando uma criatura utilizar um elemento que o dragão controla, ele pode usar 1
+      Ponto de Ação [⬢] e 2 PQ para tomar controle sobre o ataque ou habilidade, transformando em uma esfera em sua mão.
+      Seu próximo ataque comum pode ser usado para liberar aquela esfera como a mesma técnica ou ataque original.</p>
+    chat: ''
+  identifier: mandato-elemental
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    ded8e24c8f1da6b0:
+      _id: ded8e24c8f1da6b0
+      type: utility
+      name: Mandato Elemental
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao perceber uma manifestação de um de seus elementos, a criatura disputa o controle sobre ela. Quando uma
+          criatura utilizar um elemento que o dragão controla, ele pode usar 1 Ponto de Ação [⬢] e 2 PQ para tomar
+          controle sobre o ataque ou habilidade, transformando em uma esfera em sua mão. Seu próximo ataque comum pode
+          ser usado para liberar aquela esfera como a mesma técnica ou ataque original.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 14
+  prerequisites:
+    items: []
+    level: 14
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: 2fc6d627eab11893
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/absorcao-reativa-18ba90de638cd682.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:mandatoelemental
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Soberano Elemental
+_key: '!items!2fc6d627eab11893'

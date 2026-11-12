@@ -1,0 +1,71 @@
+_id: 9149d2bde056a98a
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:3
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 9149d2bde056a98a
+name: Agressivo
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢</strong></p><p>Essa criatura se move 5 metros na direção de uma criatura inimiga e recebe uma
+      vantagem no próximo ataque que realizar contra esse alvo.</p>
+    chat: ''
+  identifier: agressivo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    2553caa5d5ad08fd:
+      _id: 2553caa5d5ad08fd
+      type: utility
+      name: Agressivo
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Essa criatura se move 5 metros na direção de uma criatura inimiga e recebe uma vantagem no próximo ataque
+          que realizar contra esse alvo.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 2
+  prerequisites:
+    items: []
+    level: 2
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/agressivo-9149d2bde056a98a.webp"
+_key: '!items!9149d2bde056a98a'

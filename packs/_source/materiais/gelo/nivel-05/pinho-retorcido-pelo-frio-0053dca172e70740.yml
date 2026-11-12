@@ -1,0 +1,53 @@
+_id: 0053dca172e70740
+_key: '!items!0053dca172e70740'
+name: Pinho Retorcido pelo Frio
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/0053dca172e70740.webp
+system:
+  identifier: material-alquimia-0053dca172e70740
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 5 · <strong>Categoria:</strong> Planta</p><p>Enraíza em veios de Qi glacial que mudam de direção a cada avanço da geleira sobre a montanha. O tronco acompanha essas curvas sem romper a seiva, oferecendo resina cuja essência preserva flexibilidade e vigor sob a pressão do frio.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-earth
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 656876fcbc75d196
+sort: 8900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 5
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Pinho Retorcido pelo Frio
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 5
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

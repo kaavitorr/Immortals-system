@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c10002cade8c5",
+  "name": "Traços Animalescos — Cristalinos",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/magic/water/ice-crystal-white.webp",
+  "system": {
+    "identifier": "especie-e4870285",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Cristalinos. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c1000e2e76f36": {
+        "_id": "1a2c1000e2e76f36",
+        "type": "ItemChoice",
+        "title": "Duas características — Cristalinos",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.CWcLbF1ejFjQp4dg"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.1QnPYO2PtKxvofsi"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Cristalinos",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c10002cade8c5"
+}

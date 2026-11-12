@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000a7878d5d",
+  "name": "Traços Animalescos — Policéfalos",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/abilities/wolf-heads-swirl-purple.webp",
+  "system": {
+    "identifier": "especie-a2212b1d",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Policéfalos. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c10002ba793bd": {
+        "_id": "1a2c10002ba793bd",
+        "type": "ItemChoice",
+        "title": "Duas características — Policéfalos",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.C7d0XwOq73nELs9r"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.1QnPYO2PtKxvofsi"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Policéfalos",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000a7878d5d"
+}

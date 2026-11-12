@@ -1,0 +1,73 @@
+name: Analisar Padrões
+type: feat
+folder: 4ebc699aaef381f9
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢</strong></p><p>Ao usar 1 Ponto de Ação [⬢], você pode realizar um Teste de Atributo de
+      Sabedoria para entender tudo relacionado a uma criatura com CD igual a 10 + nível dela. Em caso de sucesso, a
+      criatura não pode mais ter vantagens contra você.</p>
+    chat: ''
+  identifier: analisar-padroes
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    550f0db637a4e34e:
+      _id: 550f0db637a4e34e
+      type: utility
+      name: Analisar Padrões
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Ao usar 1 Ponto de Ação [⬢], você pode realizar um Teste de Atributo de Sabedoria para entender tudo
+          relacionado a uma criatura com CD igual a 10 + nível dela. Em caso de sucesso, a criatura não pode mais ter
+          vantagens contra você.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: uxPgQFGbcmBtidbo
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/analisar-padroes-uxPgQFGbcmBtidbo.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:analisarpadroes:5633ed0b7a8b
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: uxPgQFGbcmBtidbo
+_key: '!items!uxPgQFGbcmBtidbo'

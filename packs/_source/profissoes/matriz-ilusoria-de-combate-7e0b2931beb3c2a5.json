@@ -1,0 +1,161 @@
+{
+  "_id": "7e0b2931beb3c2a5",
+  "name": "Matriz Ilusória de Combate",
+  "type": "equipment",
+  "folder": "ded1c1d760625589",
+  "img": "systems/Immortals-system/assets/wuxia/matrizes-pintadas-v1/matriz-ilusoria-de-combate.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-matriz-ilusoria-de-combate",
+    "type": {
+      "value": "vehicle"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 3.</p><h3>MATRIZ ILUSÓRIA DE COMBATE</h3>\n<table><tbody><tr><td>Pontos de Vida: 100 PV / nível</td><td>Nível: 3 a 10</td><td>Classe de Dificuldade: 18</td></tr></tbody></table>\n<p>Uma matriz que permite que as criaturas lutem com criaturas e bestas de acordo com o rank e nível de cultivo delas, onde a dificuldade vai aumentando dentro da ilusão conforme o tempo passa.</p>\n<p>Uma criatura com acesso a uma dessas leva metade do tempo para treinar seu Manual de Cultivo e Manuais de Combate.</p>\n<p>Se uma criatura sofrer dano fatal dentro da ilusão, sua mente é expulsa da ilusão ao invés dela sofrer dano.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Ponto Fraco</td><td>Sofre 3 vezes o dano padrão se for atacada no seu núcleo.</td></tr></tbody></table><p><strong>Resolução:</strong> O mestre posiciona a área e o núcleo, acompanha o combustível de PEQ, as criaturas afetadas e o ponto fraco conforme a descrição. Instale e delimite a matriz junto ao narrador. Registre operadores, alvos, recursos externos e manutenção conforme a descrição; nenhum ator, cristal ou local é alterado automaticamente.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 10.000 PO. <strong>Venda por unidade:</strong> não definida pela fonte.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"matriz-ilusoria-de-combate:3:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 3</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-03/8b62e4fe6ac26c54.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"8b62e4fe6ac26c54\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.8b62e4fe6ac26c54\">Rodonita do Laço Silencioso</a><small>suporte de ligação harmoniosa dos componentes</small></div><span class=\"iw-recipe-price\" title=\"2.000 PO por unidade\">2.000 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/0ed886d6c9c30c13.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"0ed886d6c9c30c13\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.0ed886d6c9c30c13\">Flor do Disfarce Perfeito</a><small>foco de imagens para os oponentes e cenários simulados</small></div><span class=\"iw-recipe-price\" title=\"2.000 PO por unidade\">4.000 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/dcfb9e28f36e74fb.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"dcfb9e28f36e74fb\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.dcfb9e28f36e74fb\">Baga Âmbar da Aurora</a><small>apoio da lucidez, restauração ou proteção espiritual do participante</small></div><span class=\"iw-recipe-price\" title=\"3.000 PO por unidade\">3.000 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-03/db4db477b2f6e623.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"db4db477b2f6e623\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.db4db477b2f6e623\">Destilado da Névoa Doce</a><small>Reagente · veículo de extração e mistura</small></div><span class=\"iw-recipe-price\" title=\"1.000 PO por unidade\">1.000 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>10.000 PO</strong></footer></section>"
+    },
+    "activities": {
+      "e6fa4c45edb9ef07": {
+        "_id": "e6fa4c45edb9ef07",
+        "type": "utility",
+        "name": "Operar matriz (resolução manual)",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 3.</p><h3>MATRIZ ILUSÓRIA DE COMBATE</h3>\n<table><tbody><tr><td>Pontos de Vida: 100 PV / nível</td><td>Nível: 3 a 10</td><td>Classe de Dificuldade: 18</td></tr></tbody></table>\n<p>Uma matriz que permite que as criaturas lutem com criaturas e bestas de acordo com o rank e nível de cultivo delas, onde a dificuldade vai aumentando dentro da ilusão conforme o tempo passa.</p>\n<p>Uma criatura com acesso a uma dessas leva metade do tempo para treinar seu Manual de Cultivo e Manuais de Combate.</p>\n<p>Se uma criatura sofrer dano fatal dentro da ilusão, sua mente é expulsa da ilusão ao invés dela sofrer dano.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Ponto Fraco</td><td>Sofre 3 vezes o dano padrão se for atacada no seu núcleo.</td></tr></tbody></table><p><strong>Resolução:</strong> O mestre posiciona a área e o núcleo, acompanha o combustível de PEQ, as criaturas afetadas e o ponto fraco conforme a descrição. Instale e delimite a matriz junto ao narrador. Registre operadores, alvos, recursos externos e manutenção conforme a descrição; nenhum ator, cristal ou local é alterado automaticamente.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 10.000 PO. <strong>Venda por unidade:</strong> não definida pela fonte.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"matriz-ilusoria-de-combate:3:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 3</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-03/8b62e4fe6ac26c54.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"8b62e4fe6ac26c54\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.8b62e4fe6ac26c54\">Rodonita do Laço Silencioso</a><small>suporte de ligação harmoniosa dos componentes</small></div><span class=\"iw-recipe-price\" title=\"2.000 PO por unidade\">2.000 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/0ed886d6c9c30c13.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"0ed886d6c9c30c13\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.0ed886d6c9c30c13\">Flor do Disfarce Perfeito</a><small>foco de imagens para os oponentes e cenários simulados</small></div><span class=\"iw-recipe-price\" title=\"2.000 PO por unidade\">4.000 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/dcfb9e28f36e74fb.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"dcfb9e28f36e74fb\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.dcfb9e28f36e74fb\">Baga Âmbar da Aurora</a><small>apoio da lucidez, restauração ou proteção espiritual do participante</small></div><span class=\"iw-recipe-price\" title=\"3.000 PO por unidade\">3.000 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-03/db4db477b2f6e623.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"db4db477b2f6e623\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.db4db477b2f6e623\">Destilado da Névoa Doce</a><small>Reagente · veículo de extração e mistura</small></div><span class=\"iw-recipe-price\" title=\"1.000 PO por unidade\">1.000 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>10.000 PO</strong></footer></section>",
+          "chatFlavor": "Matriz Ilusória de Combate — Operar matriz (resolução manual)"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "matriz-ilusoria-de-combate",
+              "key": "operate",
+              "level": 3,
+              "quality": null,
+              "manualResolution": true,
+              "consumeItem": false,
+              "rule": "matriz-ilusoria-de-combate",
+              "manualInstallation": true,
+              "manualGeometry": true,
+              "matrixHitPoints": 300
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Operar matriz (resolução manual)",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/matrizes-pintadas-v1/matriz-ilusoria-de-combate.webp"
+      }
+    },
+    "equipped": false,
+    "hp": {
+      "value": 300,
+      "max": 300,
+      "dt": 0,
+      "conditions": "Sofre 3 vezes o dano padrão se for atacada no seu núcleo."
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "matriz-ilusoria-de-combate",
+        "kind": "matrix",
+        "profession": "matrices",
+        "level": 3,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 3,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 100000,
+          "materials": 10000,
+          "currency": "gp",
+          "rank": null
+        },
+        "creationPercent": 1500,
+        "salePercent": null,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 10000,
+          "currency": "gp",
+          "rank": null
+        },
+        "sale": null,
+        "referenceCreation": {
+          "amount": 150000,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceSale": null
+      },
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "O mestre posiciona a área e o núcleo, acompanha o combustível de PEQ, as criaturas afetadas e o ponto fraco conforme a descrição.",
+          "Instale e delimite a matriz junto ao narrador. Registre operadores, alvos, recursos externos e manutenção conforme a descrição; nenhum ator, cristal ou local é alterado automaticamente."
+        ],
+        "pending": [],
+        "weakPoint": "Sofre 3 vezes o dano padrão se for atacada no seu núcleo.",
+        "hpPerLevel": 100
+      }
+    }
+  },
+  "_key": "!items!7e0b2931beb3c2a5"
+}

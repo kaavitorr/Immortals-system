@@ -1,0 +1,11 @@
+{
+  "_id": "iwChineseArms001",
+  "_key": "!folders!iwChineseArms001",
+  "name": "Armas Chinesas",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "color": "#9d8764",
+  "sort": 0,
+  "flags": {}
+}

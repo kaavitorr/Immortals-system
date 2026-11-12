@@ -1,0 +1,53 @@
+_id: d49f4a693b41a2d7
+_key: '!items!d49f4a693b41a2d7'
+name: Peônia Negra das Ruínas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/d49f4a693b41a2d7.webp
+system:
+  identifier: material-alquimia-d49f4a693b41a2d7
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Planta</p><p>Floresce apenas onde as fundações de antigas formações recolhem Qi yin das camadas profundas da terra, formando pétalas negras de borda prateada. O néctar conserva a essência sem reflexos residuais, útil para compor preparados de ocultação e dar continuidade à escuridão refinada.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 88cd562b36a9baf1
+sort: 6300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 4
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Peônia Negra das Ruínas
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

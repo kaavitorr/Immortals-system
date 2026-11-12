@@ -1,0 +1,83 @@
+name: Fogo Purificador
+type: feat
+folder: b4cdf08eea2c07d5
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢⬢</p><p>A criatura conduz suas chamas através de uma impureza que afeta o corpo ou o
+      fluxo de Qi de um alvo. Ao usar 2 Pontos de Ação [⬢⬢] e 3 PQ. A criatura pode escolher um alvo a até 15 metros de
+      distância e remover uma condição qualquer afetando o corpo dela. Esse efeito funciona com doenças.</p>
+    chat: ''
+  identifier: fogo-purificador
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    41d66211ed4fbfff:
+      _id: 41d66211ed4fbfff
+      type: utility
+      name: Fogo Purificador
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '3'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>A criatura conduz suas chamas através de uma impureza que afeta o corpo ou o fluxo de Qi de um alvo. Ao
+          usar 2 Pontos de Ação [⬢⬢] e 3 PQ. A criatura pode escolher um alvo a até 15 metros de distância e remover uma
+          condição qualquer afetando o corpo dela. Esse efeito funciona com doenças.</p>
+        chatFlavor: ''
+      range:
+        value: 15
+        units: m
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: creature
+          count: '1'
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: b3e7d54c076c04ca
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/corpo-elemental-das-chamas-egViUG8j3R9RmJkO.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:fogopurificador
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Chama da Renovação
+_key: '!items!b3e7d54c076c04ca'

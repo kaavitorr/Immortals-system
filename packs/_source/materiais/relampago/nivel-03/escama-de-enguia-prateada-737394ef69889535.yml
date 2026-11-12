@@ -1,0 +1,53 @@
+_id: 737394ef69889535
+_key: '!items!737394ef69889535'
+name: Escama de Enguia de Prata Fulgurante
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/737394ef69889535.webp
+system:
+  identifier: material-alquimia-737394ef69889535
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Parte de animal</p><p>Essa enguia espiritual procura bolsões de Qi elétrico em rios de leito metálico. Suas escamas prateadas se sobrepõem sem interromper a condução, permitindo que a essência de relâmpago atravesse superfícies densas e mantenha continuidade durante a formação da pílula.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 3000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 5a881dec6f2d2f9c
+sort: 5200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 3
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Escama de Enguia Prateada
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

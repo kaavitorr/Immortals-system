@@ -1,0 +1,53 @@
+_id: f63aefc03bda75b4
+_key: '!items!f63aefc03bda75b4'
+name: Flor de Meia-Noite
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/f63aefc03bda75b4.webp
+system:
+  identifier: material-alquimia-f63aefc03bda75b4
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Planta</p><p>Suas pétalas abrem somente quando o Qi da noite se concentra nas depressões de bosques antigos, fechando ao primeiro sinal de aurora. Colhida nesse intervalo, guarda uma essência escura definida, usada como fonte de afinidade em matrizes que reúnem e acumulam escuridão.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 4e144b90025c6567
+sort: 300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 1
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Flor de Meia-Noite
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

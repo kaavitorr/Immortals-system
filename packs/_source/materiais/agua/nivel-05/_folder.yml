@@ -1,0 +1,13 @@
+_id: 3a9741da2b2fe879
+_key: '!folders!3a9741da2b2fe879'
+name: Nível 5
+type: Item
+folder: c850a5148710bf94
+sorting: a
+sort: 500000
+color: '#365f78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: agua
+      level: 5

@@ -1,0 +1,53 @@
+_id: d843b352db0b24fc
+_key: '!items!d843b352db0b24fc'
+name: Jujuba de Casca Dourada
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/d843b352db0b24fc.webp
+system:
+  identifier: material-alquimia-d843b352db0b24fc
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Planta</p><p>Casca dourada que soa como pequeno sino oco quando o fruto é chacoalhado. Suas sementes moídas estabilizam o Qi nas mudanças de estação.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f38290d78ecbccdc
+sort: 13000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 7
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Jujuba de Casca Dourada
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,624 @@
+{
+  "source": "Foundry VTT core icons",
+  "notes": [
+    "67 talentos cobertos, com 67 caminhos distintos do catálogo pintado/ilustrado do Foundry core. Todos os arquivos foram confirmados no disco e os candidatos foram inspecionados visualmente em galerias em memória.",
+    "Os caminhos são relativos a public/icons, sem prefixo icons/. Não há imagens geradas, tecnologia, armas de fogo, runas nórdicas ou símbolos cristãos selecionados.",
+    "O catálogo core mistura pintura ilustrativa e glifos estilizados. Alguns movimentos usam vento, rastros de Qi e calçados alados como metáforas; não representam concessão de equipamento.",
+    "Criação de Corpo Físico usa escultura em pedra como metáfora de formar um corpo; Encarnação de Cultivo usa três aparições como metáfora dos avatares; Força Transcendente Divina usa os elementos reunidos.",
+    "A seleção prioriza azuis acinzentados, branco, dourado e tons naturais. Vermelho é concentrado em sangue, crueldade e cultivo demoníaco; verde e violeta aparecem apenas em detalhes ou em poucos fundos inevitáveis do acervo."
+  ],
+  "icons": [
+    {
+      "kind": "talent",
+      "id": "aceleracao-marcial",
+      "name": "Aceleração Marcial",
+      "category": "Habilidades de Qi",
+      "path": "Habilidades Básicas",
+      "source": "creatures/magical/humanoid-silhouette-dashing-blue.webp",
+      "relative": "talentos-qi-pintados-v1/aceleracao-marcial.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "aceleracao-arriscada",
+      "name": "Aceleração Arriscada",
+      "category": "Habilidades de Qi",
+      "path": "Habilidades Básicas",
+      "source": "skills/wounds/injury-pain-body-orange.webp",
+      "relative": "talentos-qi-pintados-v1/aceleracao-arriscada.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "canalizacao-amplificadora",
+      "name": "Canalização Amplificadora",
+      "category": "Habilidades de Qi",
+      "path": "Habilidades Básicas",
+      "source": "skills/movement/feet-winged-sandals-tan.webp",
+      "relative": "talentos-qi-pintados-v1/canalizacao-amplificadora.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "canalizacao-de-combate",
+      "name": "Canalização de Combate",
+      "category": "Habilidades de Qi",
+      "path": "Habilidades Básicas",
+      "source": "magic/lightning/fist-unarmed-strike-blue.webp",
+      "relative": "talentos-qi-pintados-v1/canalizacao-de-combate.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "mensagem-de-qi",
+      "name": "Mensagem de Qi",
+      "category": "Habilidades de Qi",
+      "path": "Habilidades Básicas",
+      "source": "skills/trades/music-singing-voice-blue.webp",
+      "relative": "talentos-qi-pintados-v1/mensagem-de-qi.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "levitacao-de-qi",
+      "name": "Levitação de Qi",
+      "category": "Habilidades de Qi",
+      "path": "Habilidades Básicas",
+      "source": "magic/control/debuff-energy-hold-levitate-yellow.webp",
+      "relative": "talentos-qi-pintados-v1/levitacao-de-qi.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "sentido-divino",
+      "name": "Sentido Divino",
+      "category": "Habilidades de Qi",
+      "path": "Habilidades Básicas",
+      "source": "magic/perception/third-eye-blue-red.webp",
+      "relative": "talentos-qi-pintados-v1/sentido-divino.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "pressao-de-cultivo",
+      "name": "Pressão de Cultivo",
+      "category": "Habilidades de Qi",
+      "path": "Habilidades Básicas",
+      "source": "skills/social/intimidation-impressing.webp",
+      "relative": "talentos-qi-pintados-v1/pressao-de-cultivo.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "manipulacao-precisa",
+      "name": "Manipulação Precisa",
+      "category": "Habilidades de Qi",
+      "path": "Habilidades Básicas",
+      "source": "magic/light/orbs-firefly-hand-yellow.webp",
+      "relative": "talentos-qi-pintados-v1/manipulacao-precisa.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "voo-estavel",
+      "name": "Voo Estável",
+      "category": "Habilidades de Qi",
+      "path": "Habilidades Básicas",
+      "source": "magic/control/buff-flight-wings-blue.webp",
+      "relative": "talentos-qi-pintados-v1/voo-estavel.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "gestos-flecha-e-linha",
+      "name": "Gestos: Flecha e Linha",
+      "category": "Habilidades de Qi",
+      "path": "Controle de Qi",
+      "source": "skills/social/peace-luck-insult.webp",
+      "relative": "talentos-qi-pintados-v1/gestos-flecha-e-linha.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "escudo-de-qi",
+      "name": "Escudo de Qi",
+      "category": "Habilidades de Qi",
+      "path": "Controle de Qi",
+      "source": "magic/air/air-pressure-shield-blue.webp",
+      "relative": "talentos-qi-pintados-v1/escudo-de-qi.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "manipulacao-eficiente",
+      "name": "Manipulação Eficiente",
+      "category": "Habilidades de Qi",
+      "path": "Controle de Qi",
+      "source": "magic/light/hand-sparks-glow-yellow.webp",
+      "relative": "talentos-qi-pintados-v1/manipulacao-eficiente.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "foco-multiplo",
+      "name": "Foco Múltiplo",
+      "category": "Habilidades de Qi",
+      "path": "Controle de Qi",
+      "source": "magic/light/orb-hands-humanoid-yellow.webp",
+      "relative": "talentos-qi-pintados-v1/foco-multiplo.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "gestos-cone-e-leque",
+      "name": "Gestos: Cone e Leque",
+      "category": "Habilidades de Qi",
+      "path": "Controle de Qi",
+      "source": "skills/social/wave-halt-stop.webp",
+      "relative": "talentos-qi-pintados-v1/gestos-cone-e-leque.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "gestos-raio-e-emanacao",
+      "name": "Gestos: Raio e Emanação",
+      "category": "Habilidades de Qi",
+      "path": "Controle de Qi",
+      "source": "magic/sonic/explosion-impact-shock-wave.webp",
+      "relative": "talentos-qi-pintados-v1/gestos-raio-e-emanacao.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "aprimorar-alcance",
+      "name": "Aprimorar Alcance",
+      "category": "Habilidades de Qi",
+      "path": "Controle de Qi",
+      "source": "magic/light/projectile-smoke-blue-white.webp",
+      "relative": "talentos-qi-pintados-v1/aprimorar-alcance.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "manipulacao-rapida",
+      "name": "Manipulação Rápida",
+      "category": "Habilidades de Qi",
+      "path": "Controle de Qi",
+      "source": "magic/light/hand-sparks-smoke-teal.webp",
+      "relative": "talentos-qi-pintados-v1/manipulacao-rapida.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "corrupcao",
+      "name": "Corrupção",
+      "category": "Habilidades de Qi",
+      "path": "Cultivo Demoníaco",
+      "source": "magic/death/hand-withered-gray.webp",
+      "relative": "talentos-qi-pintados-v1/corrupcao.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "qi-demoniaco",
+      "name": "Qi Demoníaco",
+      "category": "Habilidades de Qi",
+      "path": "Cultivo Demoníaco",
+      "source": "magic/unholy/hand-claw-glow-orange.webp",
+      "relative": "talentos-qi-pintados-v1/qi-demoniaco.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "estimulo-de-sangue",
+      "name": "Estímulo de Sangue",
+      "category": "Habilidades de Qi",
+      "path": "Cultivo Demoníaco",
+      "source": "skills/wounds/blood-cells-vessel-red-orange.webp",
+      "relative": "talentos-qi-pintados-v1/estimulo-de-sangue.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "devorador-demoniaco",
+      "name": "Devorador Demoníaco",
+      "category": "Habilidades de Qi",
+      "path": "Cultivo Demoníaco",
+      "source": "magic/death/mouth-bite-fangs-vampire.webp",
+      "relative": "talentos-qi-pintados-v1/devorador-demoniaco.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "refinar-constituicao",
+      "name": "Refinar Constituição",
+      "category": "Habilidades de Qi",
+      "path": "Cultivo Demoníaco",
+      "source": "skills/wounds/anatomy-organ-heart-red.webp",
+      "relative": "talentos-qi-pintados-v1/refinar-constituicao.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "lorde-demoniaco",
+      "name": "Lorde Demoníaco",
+      "category": "Habilidades de Qi",
+      "path": "Cultivo Demoníaco",
+      "source": "creatures/unholy/demon-horned-black-yellow.webp",
+      "relative": "talentos-qi-pintados-v1/lorde-demoniaco.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "passo-esguio",
+      "name": "Passo Esguio",
+      "category": "Adaptação Física",
+      "path": "Corpo de Guerreiro",
+      "source": "magic/air/wind-stream-blue-gray.webp",
+      "relative": "talentos-qi-pintados-v1/passo-esguio.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "punho-devastador",
+      "name": "Punho Devastador",
+      "category": "Adaptação Física",
+      "path": "Corpo de Guerreiro",
+      "source": "skills/melee/unarmed-punch-fist-white.webp",
+      "relative": "talentos-qi-pintados-v1/punho-devastador.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "entrada-impactante",
+      "name": "Entrada Impactante",
+      "category": "Adaptação Física",
+      "path": "Corpo de Guerreiro",
+      "source": "magic/movement/trail-streak-impact-blue.webp",
+      "relative": "talentos-qi-pintados-v1/entrada-impactante.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "punho-de-aco",
+      "name": "Punho de Aço",
+      "category": "Adaptação Física",
+      "path": "Corpo de Guerreiro",
+      "source": "magic/earth/strike-fist-stone-light.webp",
+      "relative": "talentos-qi-pintados-v1/punho-de-aco.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "ataque-potencializado",
+      "name": "Ataque Potencializado",
+      "category": "Adaptação Física",
+      "path": "Corpo de Guerreiro",
+      "source": "skills/melee/unarmed-punch-fist-yellow-red.webp",
+      "relative": "talentos-qi-pintados-v1/ataque-potencializado.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "ira-do-berserker",
+      "name": "Ira do Berserker",
+      "category": "Adaptação Física",
+      "path": "Corpo de Guerreiro",
+      "source": "magic/fire/flame-burning-fist-strike.webp",
+      "relative": "talentos-qi-pintados-v1/ira-do-berserker.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "potencializacao-extrema",
+      "name": "Potencialização Extrema",
+      "category": "Adaptação Física",
+      "path": "Corpo de Guerreiro",
+      "source": "magic/control/buff-strength-muscle-damage-orange.webp",
+      "relative": "talentos-qi-pintados-v1/potencializacao-extrema.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "corpo-indestrutivel",
+      "name": "Corpo Indestrutível",
+      "category": "Adaptação Física",
+      "path": "Corpo de Guerreiro",
+      "source": "magic/defensive/armor-stone-skin.webp",
+      "relative": "talentos-qi-pintados-v1/corpo-indestrutivel.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "ataque-cruel",
+      "name": "Ataque Cruel",
+      "category": "Adaptação Física",
+      "path": "Corpo de Guerreiro",
+      "source": "skills/melee/blood-slash-foam-red.webp",
+      "relative": "talentos-qi-pintados-v1/ataque-cruel.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "movimento-instantaneo",
+      "name": "Movimento Instantâneo",
+      "category": "Adaptação Física",
+      "path": "Corpo de Guerreiro",
+      "source": "magic/movement/trail-streak-zigzag-yellow.webp",
+      "relative": "talentos-qi-pintados-v1/movimento-instantaneo.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "movimento-suave",
+      "name": "Movimento Suave",
+      "category": "Adaptação Física",
+      "path": "Combate Veloz",
+      "source": "magic/air/wind-swirl-gray-blue.webp",
+      "relative": "talentos-qi-pintados-v1/movimento-suave.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "dispersar-forca",
+      "name": "Dispersar Força",
+      "category": "Adaptação Física",
+      "path": "Combate Veloz",
+      "source": "magic/light/beam-deflect-path-yellow.webp",
+      "relative": "talentos-qi-pintados-v1/dispersar-forca.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "evasao-de-contra-ataque",
+      "name": "Evasão de Contra-Ataque",
+      "category": "Adaptação Física",
+      "path": "Combate Veloz",
+      "source": "skills/melee/swords-parry-block-blue.webp",
+      "relative": "talentos-qi-pintados-v1/evasao-de-contra-ataque.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "ataque-cadenciado",
+      "name": "Ataque Cadenciado",
+      "category": "Adaptação Física",
+      "path": "Combate Veloz",
+      "source": "skills/melee/strikes-sword-triple-gray.webp",
+      "relative": "talentos-qi-pintados-v1/ataque-cadenciado.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "reutilizacao-de-energia",
+      "name": "Reutilização de Energia",
+      "category": "Adaptação Física",
+      "path": "Combate Veloz",
+      "source": "magic/control/energy-stream-link-spiral-white.webp",
+      "relative": "talentos-qi-pintados-v1/reutilizacao-de-energia.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "recuperacao-de-foco",
+      "name": "Recuperação de Foco",
+      "category": "Adaptação Física",
+      "path": "Combate Veloz",
+      "source": "magic/holy/meditation-chi-focus-blue.webp",
+      "relative": "talentos-qi-pintados-v1/recuperacao-de-foco.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "reflexo-aprimorado",
+      "name": "Reflexo Aprimorado",
+      "category": "Adaptação Física",
+      "path": "Combate Veloz",
+      "source": "creatures/eyes/human-single-brown.webp",
+      "relative": "talentos-qi-pintados-v1/reflexo-aprimorado.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "aceleracao-subita",
+      "name": "Aceleração Súbita",
+      "category": "Adaptação Física",
+      "path": "Combate Veloz",
+      "source": "magic/fire/explosion-embers-evade-silhouette.webp",
+      "relative": "talentos-qi-pintados-v1/aceleracao-subita.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "reativo",
+      "name": "Reativo",
+      "category": "Adaptação Física",
+      "path": "Combate Veloz",
+      "source": "magic/defensive/shield-barrier-deflect-gold.webp",
+      "relative": "talentos-qi-pintados-v1/reativo.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "velocidade-anormal",
+      "name": "Velocidade Anormal",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo do Corpo",
+      "source": "skills/movement/feet-winged-boots-brown.webp",
+      "relative": "talentos-qi-pintados-v1/velocidade-anormal.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "lanca-destruidora",
+      "name": "Lança Destruidora",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo do Corpo",
+      "source": "skills/melee/strike-spear-red.webp",
+      "relative": "talentos-qi-pintados-v1/lanca-destruidora.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "corpo-endurecido",
+      "name": "Corpo Endurecido",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo do Corpo",
+      "source": "magic/defensive/armor-shield-barrier-steel.webp",
+      "relative": "talentos-qi-pintados-v1/corpo-endurecido.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "destruidor-de-exercitos",
+      "name": "Destruidor de Exércitos",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo do Corpo",
+      "source": "magic/sonic/explosion-shock-wave-teal.webp",
+      "relative": "talentos-qi-pintados-v1/destruidor-de-exercitos.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "velocidade-descomunal",
+      "name": "Velocidade Descomunal",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo do Corpo",
+      "source": "magic/air/air-burst-spiral-blue-gray.webp",
+      "relative": "talentos-qi-pintados-v1/velocidade-descomunal.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "defesa-absoluta",
+      "name": "Defesa Absoluta",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo do Corpo",
+      "source": "magic/defensive/barrier-shield-dome-deflect-blue.webp",
+      "relative": "talentos-qi-pintados-v1/defesa-absoluta.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "corpo-fechado",
+      "name": "Corpo Fechado",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo do Corpo",
+      "source": "magic/holy/prayer-hands-glowing-yellow.webp",
+      "relative": "talentos-qi-pintados-v1/corpo-fechado.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "resistencia-superior",
+      "name": "Resistência Superior",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo do Corpo",
+      "source": "magic/defensive/shield-barrier-blue.webp",
+      "relative": "talentos-qi-pintados-v1/resistencia-superior.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "regeneracao-acelerada",
+      "name": "Regeneração Acelerada",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo do Corpo",
+      "source": "magic/life/heart-shadow-red.webp",
+      "relative": "talentos-qi-pintados-v1/regeneracao-acelerada.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "corpo-perfeito",
+      "name": "Corpo Perfeito",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo do Corpo",
+      "source": "magic/control/buff-strength-muscle-damage.webp",
+      "relative": "talentos-qi-pintados-v1/corpo-perfeito.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "protecao-da-alma",
+      "name": "Proteção da Alma",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo da Alma",
+      "source": "magic/control/silhouette-hold-change-blue.webp",
+      "relative": "talentos-qi-pintados-v1/protecao-da-alma.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "fonte-de-poder",
+      "name": "Fonte de Poder",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo da Alma",
+      "source": "magic/light/orb-shadow-blue.webp",
+      "relative": "talentos-qi-pintados-v1/fonte-de-poder.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "leitura-perfeita",
+      "name": "Leitura Perfeita",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo da Alma",
+      "source": "magic/perception/hand-eye-fire-blue.webp",
+      "relative": "talentos-qi-pintados-v1/leitura-perfeita.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "clone-elemental",
+      "name": "Clone Elemental",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo da Alma",
+      "source": "magic/fire/elemental-fire-humanoid.webp",
+      "relative": "talentos-qi-pintados-v1/clone-elemental.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "analise-constante",
+      "name": "Análise Constante",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo da Alma",
+      "source": "magic/perception/orb-crystal-ball-scrying-blue.webp",
+      "relative": "talentos-qi-pintados-v1/analise-constante.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "pressao-espiritual",
+      "name": "Pressão Espiritual",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo da Alma",
+      "source": "magic/unholy/silhouette-light-fire-blue.webp",
+      "relative": "talentos-qi-pintados-v1/pressao-espiritual.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "agressao-da-alma",
+      "name": "Agressão da Alma",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo da Alma",
+      "source": "magic/unholy/strike-beam-blood-small-red-gray.webp",
+      "relative": "talentos-qi-pintados-v1/agressao-da-alma.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "relacao-simbiotica",
+      "name": "Relação Simbiótica",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo da Alma",
+      "source": "magic/control/energy-stream-link-white.webp",
+      "relative": "talentos-qi-pintados-v1/relacao-simbiotica.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "detonacao-da-alma",
+      "name": "Detonação da Alma",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo da Alma",
+      "source": "magic/light/explosion-beam-impact-silhouette.webp",
+      "relative": "talentos-qi-pintados-v1/detonacao-da-alma.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "criacao-de-corpo-fisico",
+      "name": "Criação de Corpo Físico",
+      "category": "Habilidades Especiais",
+      "path": "Cultivo da Alma",
+      "source": "skills/trades/construction-mason-stonecutter-sculpture.webp",
+      "relative": "talentos-qi-pintados-v1/criacao-de-corpo-fisico.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "intencao-belica",
+      "name": "Intenção Bélica",
+      "category": "Imortalidade",
+      "path": "Reino da Imortalidade",
+      "source": "magic/light/swords-light-glowing-white.webp",
+      "relative": "talentos-qi-pintados-v1/intencao-belica.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "encarnacao-de-cultivo",
+      "name": "Encarnação de Cultivo",
+      "category": "Imortalidade",
+      "path": "Reino da Imortalidade",
+      "source": "magic/death/undead-ghosts-trio-blue.webp",
+      "relative": "talentos-qi-pintados-v1/encarnacao-de-cultivo.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "forca-transcendente-divina",
+      "name": "Força Transcendente Divina",
+      "category": "Imortalidade",
+      "path": "Reino da Imortalidade",
+      "source": "magic/symbols/elements-air-earth-fire-water.webp",
+      "relative": "talentos-qi-pintados-v1/forca-transcendente-divina.webp"
+    },
+    {
+      "kind": "talent",
+      "id": "criacao-da-lei",
+      "name": "Criação da Lei",
+      "category": "Imortalidade",
+      "path": "Reino da Imortalidade",
+      "source": "magic/holy/yin-yang-balance-symbol.webp",
+      "relative": "talentos-qi-pintados-v1/criacao-da-lei.webp"
+    }
+  ],
+  "imageProcessing": {
+    "date": "2026-11-01",
+    "operation": "resize",
+    "maximumWidth": 256,
+    "maximumHeight": 256,
+    "fit": "inside",
+    "withoutEnlargement": true,
+    "originalPromptsPreserved": true
+  }
+}

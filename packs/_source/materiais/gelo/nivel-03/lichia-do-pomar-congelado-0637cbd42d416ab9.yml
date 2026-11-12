@@ -1,0 +1,53 @@
+_id: 0637cbd42d416ab9
+_key: '!items!0637cbd42d416ab9'
+name: Lichia do Cálice de Gelo
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/0637cbd42d416ab9.webp
+system:
+  identifier: material-alquimia-0637cbd42d416ab9
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Planta</p><p>Essa lichieira lança raízes em saliências de gelo alimentadas por Qi de nascentes suspensas. Cada fruto amadurece dentro de um cálice cristalino, e sua polpa conserva pequenas correntes frias que ajudam a unir ingredientes gelados sem apagar suas propriedades distintas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 2000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d1519af315652f3b
+sort: 4800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 3
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Lichia do Pomar Congelado
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

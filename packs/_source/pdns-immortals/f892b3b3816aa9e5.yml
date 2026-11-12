@@ -1,0 +1,44 @@
+name: Nutrição Ígnea
+type: feat
+folder: 4dfde1eecff468d4
+system:
+  description:
+    value: >-
+      <p><strong>Tipo:</strong> Passiva</p><p>A criatura absorve calor e Qi de Fogo de fontes compatíveis para sustentar
+      sua vitalidade. Ao sofrer dano de Fogo de 2 Ranks acima do seu ou inferior, ela recupera Pontos de Vida ao invés
+      de perde-los.</p>
+    chat: ''
+  identifier: nutricao-ignea
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: f892b3b3816aa9e5
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/absorcao-rapida-FcjCzLhHSeozdaqf.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:nutricaoignea
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Aves do Renascimento
+_key: '!items!f892b3b3816aa9e5'

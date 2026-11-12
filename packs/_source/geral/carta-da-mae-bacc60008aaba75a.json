@@ -1,0 +1,28 @@
+{
+  "_id": "bacc60008aaba75a",
+  "name": "Carta da Mãe",
+  "type": "loot",
+  "img": "icons/sundries/scrolls/scroll-bound-sealed-red-green.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-carta-mae",
+    "description": {
+      "value": "<p>Carta que acompanha o manual do bastardo.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "gear"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "carta-mae"
+    }
+  },
+  "_key": "!items!bacc60008aaba75a"
+}

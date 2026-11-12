@@ -1,0 +1,53 @@
+_id: 9ac4ed6216d1c665
+_key: '!items!9ac4ed6216d1c665'
+name: Espinho de Ouriço Âmbar
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/9ac4ed6216d1c665.webp
+system:
+  identifier: material-alquimia-9ac4ed6216d1c665
+  description:
+    value: <p><strong>Elemento:</strong> Luz · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Parte de animal</p><p>Este ouriço espiritual se abriga em rochas banhadas por Qi luminoso, e seus espinhos guardam um brilho dourado no núcleo translúcido. O material conduz pequenas correntes de luz sem perdê-las pela superfície, oferecendo precisão a inscrições e preparados de baixa concentração.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 200
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f0081ecc5ab75e71
+sort: 2000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: luz
+      elementLabel: Luz
+      level: 1
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/luz.json
+        originalName: Espinho de Ouriço Âmbar
+        sha256: a65d9c475ce3e69bcab79896f06bd1f00a0fcc1e5a6329d0e4735711f2236288
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

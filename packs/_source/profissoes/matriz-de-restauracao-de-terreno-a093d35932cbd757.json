@@ -1,0 +1,161 @@
+{
+  "_id": "a093d35932cbd757",
+  "name": "Matriz de Restauração de Terreno",
+  "type": "equipment",
+  "folder": "ded1c1d760625589",
+  "img": "systems/Immortals-system/assets/wuxia/matrizes-pintadas-v1/matriz-de-restauracao-de-terreno.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-matriz-de-restauracao-de-terreno",
+    "type": {
+      "value": "vehicle"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>MATRIZ DE RESTAURAÇÃO DE TERRENO</h3>\n<table><tbody><tr><td>Pontos de Vida: 100 PV / nível</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 18</td></tr></tbody></table>\n<p>Uma matriz que mantém o estado perfeito dos prédios e região dentro dela, consertando qualquer dano causado em até 24 horas. O tamanho dessa matriz começa em 120 metros de raio e dobra a cada nível adicional dela.</p>\n<p>A partir do 5º nível, a duração para reparo é reduzida para 12 horas e reduzida novamente pela metade no 7º nível.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Ponto Fraco</td><td>Ao chegar ao núcleo, é possível desativa-la imediatamente.</td></tr></tbody></table><p><strong>Resolução:</strong> O mestre posiciona a área e o núcleo, acompanha o combustível de PEQ, as criaturas afetadas e o ponto fraco conforme a descrição. Instale e delimite a matriz junto ao narrador. Registre operadores, alvos, recursos externos e manutenção conforme a descrição; nenhum ator, cristal ou local é alterado automaticamente.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 500 PO. <strong>Venda por unidade:</strong> não definida pela fonte.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"matriz-de-restauracao-de-terreno:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>placa polida para os traços da matriz</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">100 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/09539c71b912fa42.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"09539c71b912fa42\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.09539c71b912fa42\">Malaquita da Nascente Esmeralda</a><small>cobre dos fios e fechos do circuito</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/18aa53c3340bb103.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">3</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"18aa53c3340bb103\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.18aa53c3340bb103\">Grama do Orvalho Esmeralda</a><small>afinidade regenerativa para alimentar as inscrições de restauração</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">150 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/581c23844115c319.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"581c23844115c319\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.581c23844115c319\">Sal da Chama Mansa</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>500 PO</strong></footer></section>"
+    },
+    "activities": {
+      "f06db519350c8395": {
+        "_id": "f06db519350c8395",
+        "type": "utility",
+        "name": "Operar matriz (resolução manual)",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>MATRIZ DE RESTAURAÇÃO DE TERRENO</h3>\n<table><tbody><tr><td>Pontos de Vida: 100 PV / nível</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 18</td></tr></tbody></table>\n<p>Uma matriz que mantém o estado perfeito dos prédios e região dentro dela, consertando qualquer dano causado em até 24 horas. O tamanho dessa matriz começa em 120 metros de raio e dobra a cada nível adicional dela.</p>\n<p>A partir do 5º nível, a duração para reparo é reduzida para 12 horas e reduzida novamente pela metade no 7º nível.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Ponto Fraco</td><td>Ao chegar ao núcleo, é possível desativa-la imediatamente.</td></tr></tbody></table><p><strong>Resolução:</strong> O mestre posiciona a área e o núcleo, acompanha o combustível de PEQ, as criaturas afetadas e o ponto fraco conforme a descrição. Instale e delimite a matriz junto ao narrador. Registre operadores, alvos, recursos externos e manutenção conforme a descrição; nenhum ator, cristal ou local é alterado automaticamente.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 500 PO. <strong>Venda por unidade:</strong> não definida pela fonte.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"matriz-de-restauracao-de-terreno:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>placa polida para os traços da matriz</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">100 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/09539c71b912fa42.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"09539c71b912fa42\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.09539c71b912fa42\">Malaquita da Nascente Esmeralda</a><small>cobre dos fios e fechos do circuito</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/18aa53c3340bb103.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">3</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"18aa53c3340bb103\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.18aa53c3340bb103\">Grama do Orvalho Esmeralda</a><small>afinidade regenerativa para alimentar as inscrições de restauração</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">150 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/581c23844115c319.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"581c23844115c319\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.581c23844115c319\">Sal da Chama Mansa</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>500 PO</strong></footer></section>",
+          "chatFlavor": "Matriz de Restauração de Terreno — Operar matriz (resolução manual)"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "matriz-de-restauracao-de-terreno",
+              "key": "operate",
+              "level": 1,
+              "quality": null,
+              "manualResolution": true,
+              "consumeItem": false,
+              "rule": "matriz-de-restauracao-de-terreno",
+              "manualInstallation": true,
+              "manualGeometry": true,
+              "matrixHitPoints": 100
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Operar matriz (resolução manual)",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/matrizes-pintadas-v1/matriz-de-restauracao-de-terreno.webp"
+      }
+    },
+    "equipped": false,
+    "hp": {
+      "value": 100,
+      "max": 100,
+      "dt": 0,
+      "conditions": "Ao chegar ao núcleo, é possível desativa-la imediatamente."
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "matriz-de-restauracao-de-terreno",
+        "kind": "matrix",
+        "profession": "matrices",
+        "level": 1,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 1,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 3000,
+          "materials": 500,
+          "currency": "gp",
+          "rank": null
+        },
+        "creationPercent": 8000,
+        "salePercent": null,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 500,
+          "currency": "gp",
+          "rank": null
+        },
+        "sale": null,
+        "referenceCreation": {
+          "amount": 40000,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceSale": null
+      },
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "O mestre posiciona a área e o núcleo, acompanha o combustível de PEQ, as criaturas afetadas e o ponto fraco conforme a descrição.",
+          "Instale e delimite a matriz junto ao narrador. Registre operadores, alvos, recursos externos e manutenção conforme a descrição; nenhum ator, cristal ou local é alterado automaticamente."
+        ],
+        "pending": [],
+        "weakPoint": "Ao chegar ao núcleo, é possível desativa-la imediatamente.",
+        "hpPerLevel": 100
+      }
+    }
+  },
+  "_key": "!items!a093d35932cbd757"
+}

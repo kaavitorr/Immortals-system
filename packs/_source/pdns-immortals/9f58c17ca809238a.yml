@@ -1,0 +1,73 @@
+_id: 9f58c17ca809238a
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:87
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 9f58c17ca809238a
+name: Contra-Golpe
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢</strong></p><p>A criatura reserva a mão secundária ou um membro em preparação. Até o início do
+      próximo turno dela, o próximo ataque corpo a corpo que receber pode ser respondido com um ataque devastador que
+      causa o dano padrão + 1 dado de dano adicional.</p>
+    chat: ''
+  identifier: contra-golpe
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    b16a30c5e75b5954:
+      _id: b16a30c5e75b5954
+      type: utility
+      name: Contra-Golpe
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura reserva a mão secundária ou um membro em preparação. Até o início do próximo turno dela, o
+          próximo ataque corpo a corpo que receber pode ser respondido com um ataque devastador que causa o dano padrão
+          + 1 dado de dano adicional.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 5
+  prerequisites:
+    items: []
+    level: 5
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/contra-golpe-9f58c17ca809238a.webp"
+_key: '!items!9f58c17ca809238a'

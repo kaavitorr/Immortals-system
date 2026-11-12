@@ -1,0 +1,53 @@
+_id: c2158f3f7a3d7d10
+_key: '!items!c2158f3f7a3d7d10'
+name: Jujuba dos Sabores Velados
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/c2158f3f7a3d7d10.webp
+system:
+  identifier: material-alquimia-c2158f3f7a3d7d10
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Planta</p><p>Esta jujuba amadurece onde o Qi ilusório se acumula no nevoeiro, adquirindo aromas que mudam sem alterar a polpa. O sumo conserva estímulos sobrepostos e bem delimitados, empregado para integrar impressões sensoriais diferentes em preparados de ilusão sem turvar sua essência.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 2000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 1da2695e7fa3fc8b
+sort: 4800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 3
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Jujuba que Sabe a Outra
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

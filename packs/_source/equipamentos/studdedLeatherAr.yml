@@ -1,0 +1,65 @@
+_id: studdedLeatherAr
+_key: '!items!studdedLeatherAr'
+name: Armadura de Couro Batido
+type: equipment
+img: systems/Immortals-system/assets/wuxia/armaduras-heroicas-pintadas-v2/armadura-couro-batido.webp
+system:
+  identifier: studded-leather-armor
+  description:
+    value: >-
+      <p>Base de couro reforçada com pequenos rebites ou placas metálicas rebitadas, esta armadura equilibra mobilidade
+      e proteção modesta contra cortes.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 16
+    units: kg
+  price:
+    value: 640
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: light
+    baseItem: ''
+  armor:
+    value: 8
+    dex: null
+    ability: dex
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: fLJrHfDuvr4Z8bXK
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: studdedLeatherAr
+      sourceType: armor
+      category: light
+      quality: standard
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: false
+      manualEffects: []

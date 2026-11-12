@@ -1,0 +1,13 @@
+_id: 9f6fb71207910da6
+_key: '!folders!9f6fb71207910da6'
+name: Nível 8
+type: Item
+folder: 57c7cfa4d7a2235f
+sorting: a
+sort: 800000
+color: '#445674'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: espaco
+      level: 8

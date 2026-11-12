@@ -1,0 +1,13 @@
+_id: e7c04cfbe4a5d156
+_key: '!folders!e7c04cfbe4a5d156'
+name: Nível 4
+type: Item
+folder: e13aab1d64a4c089
+sorting: a
+sort: 400000
+color: '#4e7c89'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: gelo
+      level: 4

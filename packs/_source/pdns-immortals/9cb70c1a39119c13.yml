@@ -1,0 +1,41 @@
+_id: 9cb70c1a39119c13
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:40
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 9cb70c1a39119c13
+name: Mente Inexistente
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: <p>Essa criatura é imune a condições mentais e a dano Psíquico.</p>
+    chat: ''
+  identifier: mente-inexistente
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 9
+  prerequisites:
+    items: []
+    level: 9
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/mente-inexistente-9cb70c1a39119c13.webp"
+_key: '!items!9cb70c1a39119c13'

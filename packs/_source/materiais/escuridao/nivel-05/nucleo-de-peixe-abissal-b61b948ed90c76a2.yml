@@ -1,0 +1,53 @@
+_id: b61b948ed90c76a2
+_key: '!items!b61b948ed90c76a2'
+name: Núcleo de Peixe Abissal
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/b61b948ed90c76a2.webp
+system:
+  identifier: material-alquimia-b61b948ed90c76a2
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 5 · <strong>Categoria:</strong> Parte de animal</p><p>Pedra úmida de roxo-escuro profundo, tirada da cabeça da fêmea gigante dos mares sem luz. É base das pílulas que afiam todos os sentidos no fundo escuro.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-earth
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 0b7ed1e747ea86fb
+sort: 9100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 5
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Núcleo de Peixe Abissal
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 5
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

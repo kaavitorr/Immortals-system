@@ -1,0 +1,56 @@
+{
+  "_id": "7010685cbac8d016",
+  "name": "Corrupção",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/corrupcao.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-corrupcao",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Cultivo Demoníaco.</p><h2>Corrupção</h2><p>Ao cultivar um manual demoníaco, o cultivador pode escolher entre duas opções igualmente perversas:</p><ul><li>Caminho do Devorador: O cultivador demoníaco refina o corpo de inocentes e de seus inimigos para devora-los, seja através de um banquete ou transformando em pílulas. Um cultivador demoníaco nesse caminho recebe 4 Pontos de Qi Base adicional.</li><li>Caminho do Abate: O cultivador demoníaco precisa matar o maior número de pessoas possíveis para formar sua base de cultivo. Um cultivador demoníaco nesse caminho é tomado por uma sede de sangue e sempre irá matar seus inimigos. Seus Pontos de Vida Base aumentam em +2.</li></ul><p><strong>Resolução:</strong> Exige seguir o cultivo demoníaco e cultivar um manual demoníaco. Escolha um dos dois caminhos; não aplique ambos os bônus. Registre o caminho demoníaco escolhido com o narrador.</p><p><strong>Pendente:</strong> A definição de Qi Base/PV Base exige confirmação antes de alterar máximos.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "corrupcao",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Cultivo Demoníaco",
+        "requisitos": [],
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "demonicPathChoice",
+            "choices": [
+              {
+                "path": "devourer",
+                "baseQi": 4
+              },
+              {
+                "path": "slaughter",
+                "baseHitPoints": 2
+              }
+            ]
+          }
+        ],
+        "manual": [
+          "Exige seguir o cultivo demoníaco e cultivar um manual demoníaco. Escolha um dos dois caminhos; não aplique ambos os bônus.",
+          "Registre o caminho demoníaco escolhido com o narrador."
+        ],
+        "pending": [
+          "A definição de Qi Base/PV Base exige confirmação antes de alterar máximos."
+        ]
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!7010685cbac8d016"
+}

@@ -1,0 +1,53 @@
+{
+  "_id": "90c957f4c323af56",
+  "name": "Ira do Berserker",
+  "type": "feat",
+  "folder": "d2652f7aa9b40d98",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/ira-do-berserker.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-ira-do-berserker",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Corpo de Guerreiro.</p><h2>Ira do Berserker</h2><p><strong>Requisito:</strong> Ataque Potencializado</p><p>A cada 25 Pontos de Vida perdidos, você recebe +1 de dano adicional em suas Rolagens de Ataque, sejam Comuns ou de Técnica, até um bônus máximo igual ao seu Atributo Principal.</p><p>Esse bônus é reduzido na mesma proporção conforme você recupera Pontos de Vida.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "ira-do-berserker",
+        "categoria": "Adaptação Física",
+        "caminho": "Corpo de Guerreiro",
+        "requisitos": [
+          "Ataque Potencializado"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "ataque-potencializado"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "missingHitPointDamage",
+            "perMissingHitPoints": 25,
+            "maximumFormula": "@elemental.primary",
+            "attacks": [
+              "common",
+              "technique"
+            ]
+          }
+        ],
+        "manual": [],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!90c957f4c323af56"
+}

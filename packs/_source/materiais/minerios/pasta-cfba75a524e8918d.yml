@@ -1,0 +1,11 @@
+_id: cfba75a524e8918d
+name: Nível 1
+type: Item
+folder: 15c0438a058c3465
+sorting: a
+sort: 100000
+color: '#77614b'
+flags:
+  Immortals-system:
+    oreMaterialLevel: 1
+_key: '!folders!cfba75a524e8918d'

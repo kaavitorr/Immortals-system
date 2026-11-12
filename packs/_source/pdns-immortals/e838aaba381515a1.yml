@@ -1,0 +1,43 @@
+_id: e838aaba381515a1
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:7
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: e838aaba381515a1
+name: Assassinar
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: >-
+      <p>Você avança até 5 metros antes de desferir um golpe contra uma criatura, causando dano extra igual ao seu ND.
+      Se o alvo estiver com a condição “Desatento”, o ataque é considerado um crítico.</p>
+    chat: ''
+  identifier: assassinar
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 2
+  prerequisites:
+    items: []
+    level: 2
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/assassinar-e838aaba381515a1.webp"
+_key: '!items!e838aaba381515a1'

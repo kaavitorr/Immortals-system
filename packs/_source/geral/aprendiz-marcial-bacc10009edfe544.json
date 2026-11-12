@@ -1,0 +1,176 @@
+{
+  "_id": "bacc10009edfe544",
+  "name": "Aprendiz Marcial",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/aprendiz-marcial.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-aprendiz-marcial",
+    "description": {
+      "value": "<p>Um aprendiz marcial é uma pessoa que teve iniciação em estilos de luta em algum dojo e aprendeu a se defender habilmente, ele conhece um número decente de técnicas básicas que ajudam a manter sua estamina. Os aprendizes marciais são muito capazes em combate de curta distância, permitindo que eles tenham confiança quando se trata de batalhas, desde que seja entre pessoas comuns.</p><h3>Equipamentos iniciais</h3><p>Uma arma marcial à sua escolha. <strong>30 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc20009edfe544]{Desafiar Seita}</h3><p>Sua honra como um artista marcial faz com que você seja aceito em seu meio com facilidade, podendo até desafiar membros de outras seitas em busca de demonstrar sua força ou pedir refúgio. Você pode realizar um Teste de Sorte CD 15. Em caso de sucesso, você consegue encontrar uma seita nobre (se possível) que irá acolhê-lo e até 4 criaturas amigáveis, mas os mantém na parte externa. Caso você desafie um dos membros mais fortes e vença, eles irão te dar um local de cultivo decente dentro da seita por até 10 dias. Essa habilidade pode ser usada uma vez por mês.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc50009edfe544",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 30,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc30009edfe544": {
+        "_id": "bacc30009edfe544",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc20009edfe544",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc70009edfe544": {
+        "_id": "bacc70009edfe544",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [],
+          "currency": {
+            "gp": 30
+          },
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc8000d38b3a08": {
+        "_id": "bacc8000d38b3a08",
+        "type": "ItemChoice",
+        "title": "Arma marcial",
+        "hint": "",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "allowDrops": false,
+          "type": null,
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.73becd0c57f0787a"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.794a52cd148cbccb"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.8aec730c7777981f"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.bastardSword0000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.battleAxe0000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.beedd8a495bcc6fe"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.boStaff000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.chainHook0000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.dartGun000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.glaive0000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.greatHammer00000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.greatsword000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.halberd000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.handAxe000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.handCrossbow0000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.heavyCrossbow000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.jjarm00000000001"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.jjarm00000000005"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.jjarm00000000007"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.jjarm00000000014"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.longbow000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.longsword0000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.pistol0000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.quarterstaff0000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.scimitar00000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.shortbow00000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.shortsword000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.sling00000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.warLance00000000"
+            }
+          ],
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "aprendiz-marcial",
+        "startingGold": 30,
+        "equipment": "Uma arma marcial à sua escolha."
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc10009edfe544"
+}

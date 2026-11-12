@@ -1,0 +1,53 @@
+_id: d04d6acbda52bd82
+_key: '!items!d04d6acbda52bd82'
+name: Noz dos Três Estrondos
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/d04d6acbda52bd82.webp
+system:
+  identifier: material-alquimia-d04d6acbda52bd82
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 9 · <strong>Categoria:</strong> Planta</p><p>Nogueira de três troncos, cada um marcado por um raio; as nozes guardam três amêndoas. Comidas, permitem ouvir três vozes distantes ao mesmo tempo.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: e6eb103ba14ea702
+sort: 16700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 9
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Noz dos Três Estrondos
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 9
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

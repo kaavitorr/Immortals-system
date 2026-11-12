@@ -1,0 +1,72 @@
+_id: b0025217be0f5675
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:108
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: b0025217be0f5675
+name: Esquiva Rápida
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Você pode escolher sofrer metade do dano ao falhar em uma Salvaguarda
+      de Reflexo ou nenhum dano se passar. Se usar essa habilidade contra um ataque (Comum), deve consumir 2 Pontos de
+      Ação em vez de 1.</p>
+    chat: ''
+  identifier: esquiva-rapida
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    e151a0bcf829ad6b:
+      _id: e151a0bcf829ad6b
+      type: utility
+      name: Esquiva Rápida
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Você pode escolher sofrer metade do dano ao falhar em uma Salvaguarda de Reflexo ou nenhum dano se passar.
+          Se usar essa habilidade contra um ataque (Comum), deve consumir 2 Pontos de Ação em vez de 1.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 7
+  prerequisites:
+    items: []
+    level: 7
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/esquiva-rapida-b0025217be0f5675.webp"
+_key: '!items!b0025217be0f5675'

@@ -1,0 +1,43 @@
+name: Asas Incandescentes
+type: feat
+folder: 4dfde1eecff468d4
+system:
+  description:
+    value: >-
+      <p><strong>Tipo:</strong> Passiva</p><p>A criatura voa sustentada por asas de fogo que iluminam o ambiente e
+      deixam um rastro de brasas. A criatura recebe deslocamento de voo de 12 metros sem consumir Qi.</p>
+    chat: ''
+  identifier: asas-incandescentes
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: 7ecdb81e132a7408
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/voo-superior-a2bef16f773de0b2.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:asasincandescentes
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Aves do Renascimento
+_key: '!items!7ecdb81e132a7408'

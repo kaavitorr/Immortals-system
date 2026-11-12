@@ -1,0 +1,53 @@
+_id: f9a7213602034ee3
+_key: '!items!f9a7213602034ee3'
+name: Camélia que Cai Duas Vezes
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/f9a7213602034ee3.webp
+system:
+  identifier: material-alquimia-f9a7213602034ee3
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>Esta camélia floresce sobre veios de Qi ilusório e deixa uma segunda queda visível depois que cada pétala alcança o chão. Sua essência preserva imagens sobrepostas, fornecendo afinidade às matrizes de acúmulo e sustentação às projeções de criaturas e estímulos perceptivos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 91b9ed675b46d50c
+sort: 2700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Camélia que Cai Duas Vezes
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

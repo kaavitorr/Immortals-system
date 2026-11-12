@@ -1,0 +1,31 @@
+{
+  "_id": "bacc2000ea48629d",
+  "name": "Me Vingue!",
+  "type": "feat",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/habilidades/jovem-mestre.webp",
+  "folder": "bacc000000000002",
+  "system": {
+    "identifier": "antecedente-jovem-mestre",
+    "type": {
+      "value": "background"
+    },
+    "description": {
+      "value": "<p>Toda vez que você perder uma batalha, você pode expressar sua indignação para um membro da família, desde que ele seja o próximo mais forte após você. Se esse membro perder, ele mesmo ativa essa característica e vai reclamar com o próximo mais forte que ele.</p><p>Se você ativar essa característica contra uma criatura muito forte, você pode acabar perdendo alguns membros antes que seu pai, tio ou alguém de poder venha te espancar por ser um inútil.</p>"
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundFeature": "jovem-mestre",
+      "backgroundRuleVersion": 1,
+      "featureSection": "jj-origin"
+    }
+  },
+  "_key": "!items!bacc2000ea48629d"
+}

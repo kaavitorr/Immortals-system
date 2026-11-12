@@ -1,0 +1,13 @@
+_id: f96f1bba64ad37ff
+_key: '!folders!f96f1bba64ad37ff'
+name: Nível 1
+type: Item
+folder: 25264a5c1c2a6166
+sorting: a
+sort: 100000
+color: '#795d67'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: ilusao
+      level: 1

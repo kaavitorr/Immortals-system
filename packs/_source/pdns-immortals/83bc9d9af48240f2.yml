@@ -1,0 +1,94 @@
+_id: 83bc9d9af48240f2
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:136
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 83bc9d9af48240f2
+name: Lançar Rocha
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢</strong></p><p>Ao gastar 2 PQ, a criatura agarra um pedaço do cenário ou do próprio chão,
+      envolvendo-o em Qi antes de atirá-lo contra um alvo a até 10 metros + 1 metro para cada ND dela, causando 5d6 +
+      1d6 para cada 4 NDs. A criatura pode pegar objetos de tamanho até igual ao dela, e o dano do objeto aumenta em 1
+      passo para cada Categoria de Tamanho superior a Médio.</p>
+    chat: ''
+  identifier: lancar-rocha
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    8e32f7d352a4f479:
+      _id: 8e32f7d352a4f479
+      type: attack
+      name: Lançar Rocha
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 2 PQ, a criatura agarra um pedaço do cenário ou do próprio chão, envolvendo-o em Qi antes de
+          atirá-lo contra um alvo a até 10 metros + 1 metro para cada ND dela, causando 5d6 + 1d6 para cada 4 NDs. A
+          criatura pode pegar objetos de tamanho até igual ao dela, e o dano do objeto aumenta em 1 passo para cada
+          Categoria de Tamanho superior a Médio.</p>
+        chatFlavor: ''
+      range:
+        value: 10 + @legacy2.nd
+        units: m
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: creature
+          count: '1'
+        override: true
+        prompt: true
+      attack:
+        type:
+          value: ranged
+          classification: weapon
+      damage:
+        includeBase: false
+        parts:
+          - custom:
+              enabled: true
+              formula: (5 + floor(@legacy2.nd / 4))d6
+            types:
+              - bludgeoning
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/lancar-rocha-83bc9d9af48240f2.webp"
+_key: '!items!83bc9d9af48240f2'

@@ -1,0 +1,41 @@
+name: Anfíbio
+type: feat
+folder: 8TgJv4dNiP315mTe
+system:
+  description:
+    value: <p>A criatura pode respirar ar e água.</p>
+    chat: ''
+  identifier: anfibio
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: LANQXB2wFNWNGzfb
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/anfibio-LANQXB2wFNWNGzfb.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:anfibio:6090ac8ad02a
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: LANQXB2wFNWNGzfb
+_key: '!items!LANQXB2wFNWNGzfb'

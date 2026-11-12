@@ -1,0 +1,157 @@
+{
+  "_id": "bacc10005fb99a01",
+  "name": "Caçador de Recompensas",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/cacador-de-recompensas.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-cacador-de-recompensas",
+    "description": {
+      "value": "<p>Um caçador de recompensas é um profissional que se dedica a rastrear e capturar criminosos comuns procurados em troca de recompensas financeiras. Esses caçadores são muito habilidosos em combate e possuem técnicas específicas para rastrear e capturar seus alvos. A profissão de caçador de recompensas requer coragem, habilidades físicas e mentais, além de uma vontade inabalável de cumprir a missão. Ser um caçador de recompensas é um trabalho perigoso, mas pode ser lucrativo para aqueles que estão dispostos a correr riscos.</p><h3>Equipamentos iniciais</h3><p>Um livro com informações de alvos antigos, um kit de escalada, uma arma simples em que possua proficiência e um cantil. <strong>60 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc20005fb99a01]{Lista de Procurados}</h3><p>Seu antigo trabalho como caçador de recompensas fez com que você tivesse que lidar com diversos inimigos estranhos e peculiares, mas também te deixou sabendo sobre diversos criminosos famosos com boatos estranhos os circundando. Quando você ouvir o nome de uma criatura, você pode realizar um Teste de Sorte CD 15. Em caso de sucesso, você recebe uma informação aleatória à escolha do Narrador sobre aquela criatura.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc50005fb99a01",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 60,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc30005fb99a01": {
+        "_id": "bacc30005fb99a01",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc20005fb99a01",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc70005fb99a01": {
+        "_id": "bacc70005fb99a01",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000f4fc1f6c",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc60000d22c4b5",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000b6fc2af6",
+              "quantity": 1,
+              "optional": false
+            }
+          ],
+          "currency": {
+            "gp": 60
+          },
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc8000150d89bd": {
+        "_id": "bacc8000150d89bd",
+        "type": "ItemChoice",
+        "title": "Arma simples com proficiência",
+        "hint": "Escolha uma arma na qual o personagem possua proficiência.",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "allowDrops": false,
+          "type": null,
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.287cfd274553dbb4"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.30f554ce1bf92d40"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.65f2e842ded9ca8b"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.97bf7c2bd49b47c2"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.clawHammer000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.dagger0000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.eb574f8c2097f5b9"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.f85714e20057dc2e"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.greatclub0000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.javelin000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.jjarm00000000025"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.mace000000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.pickaxe000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.rapier0000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.sai0000000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.spikedGreatclub0"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.stiletto00000000"
+            }
+          ],
+          "restriction": {},
+          "requiresProficiency": true
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "cacador-de-recompensas",
+        "startingGold": 60,
+        "equipment": "Um livro com informações de alvos antigos, um kit de escalada, uma arma simples em que possua proficiência e um cantil."
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc10005fb99a01"
+}

@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c10001f5e6c79",
+  "name": "Traços Animalescos — Quirópteros",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
+  "system": {
+    "identifier": "especie-36f52439",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Quirópteros. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c1000e019b3ab": {
+        "_id": "1a2c1000e019b3ab",
+        "type": "ItemChoice",
+        "title": "Duas características — Quirópteros",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.C2CnxNpwmX61E0BO"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.hJx6VYBKWPvVWrIt"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Quirópteros",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c10001f5e6c79"
+}

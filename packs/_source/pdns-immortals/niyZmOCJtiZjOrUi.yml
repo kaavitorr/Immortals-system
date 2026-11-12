@@ -1,0 +1,179 @@
+name: Assassino
+type: archetype
+folder: 53154a640414559d
+system:
+  description:
+    value: >-
+      <p>Isola um alvo e prepara um golpe preciso a partir da furtividade. Usa marcas, disfarces e mobilidade para
+      explorar vulnerabilidades e escapar após o ataque.</p><p><strong>Resistência por ND:</strong> Físicos
+      +1</p><p><strong>Vulnerabilidade:</strong> Psíquico −6</p><p><strong>Deslocamento:</strong> Caminhada: 10 m
+      (fixo)</p><p><strong>Armaduras:</strong> Nenhuma.</p><p><strong>Perícias:</strong> Proficiências: Furtividade,
+      Enganação, Percepção e Atletismo.</p><p><strong>Salvaguardas:</strong> Proficiências: Reflexo e
+      Vontade.</p><p><strong>Aspectos:</strong> Assassinar, Emboscador, Ataque Surpresa, Silenciosa, Golpe Preciso,
+      Reflexos Aguçados, Algoz Invisível, Analisar Padrões, Camuflagem, Fanático.</p><p><strong>Habilidades:</strong>
+      Golpe Letal, Apunhalar, Marca do Assassino, Passo das Sombras, Esquiva Rápida, Tiro Preciso, Fuga Escorregadia,
+      Bote Sônico, Ilusão Menor, Desarme.</p><p><strong>Reações:</strong> Golpe nas Sombras, Esquiva Rápida, Fuga
+      Silenciosa.</p>
+    chat: ''
+  identifier: assassino
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 2
+    dex: 4
+    con: 2
+    int: 2
+    wis: 1
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: 1
+      immune: false
+    piercing:
+      value: 1
+      immune: false
+    slashing:
+      value: 1
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: -6
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ste
+      - skills.dec
+      - skills.prc
+      - skills.ath
+      - saves.dex
+      - saves.int
+      - saves.con
+      - saves.cha
+    alternative:
+      - skills.ste
+      - skills.dec
+      - skills.prc
+      - skills.ath
+      - alternativeSaves.reflexo
+      - alternativeSaves.vontade
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d7e889a4ea13732e
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.ee5b9ae19707d11e
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f35cdef068d2d3d8
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4afa4131cc85e2bd
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e838aaba381515a1
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.34e2fedcea4c64ac
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f7771b337157f26e
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.98f7ed9c8403484e
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7845b27e637b3835
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.b71609205af77897
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7b29cdec7754e73a
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5f6cf4c720a404dc
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5d85d51e1781dcb6
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.86a2bfef529caefd
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.38a87b70e6f341bd
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5da66adcc9262ed1
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.b0025217be0f5675
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.66eb715739d5b82e
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e3954a3cc125e416
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.b3f1cb5e6320a231
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4054b676984235b9
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.700302ad6db3f4ec
+      nd: 10
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+  equipamentos:
+    armadura: null
+    armas: []
+  movimento:
+    ganho: 0
+    intervalo: 1
+    maximo: null
+_id: niyZmOCJtiZjOrUi
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/assassino.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:assassino
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: niyZmOCJtiZjOrUi
+_key: '!items!niyZmOCJtiZjOrUi'

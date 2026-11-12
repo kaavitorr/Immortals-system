@@ -1,0 +1,193 @@
+{
+  "_id": "a9b0c51d3fb9b16d",
+  "name": "Pílula do Milagre Azul",
+  "type": "consumable",
+  "folder": "3ec1f795631fd283",
+  "img": "systems/Immortals-system/assets/wuxia/pilulas-pintadas-v1/pilula-do-milagre-azul.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-pilula-do-milagre-azul",
+    "type": {
+      "value": "potion"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 3. <strong>Qualidade:</strong> Inferior.</p><h3>PÍLULA DO MILAGRE AZUL</h3>\n<table><tbody><tr><td>Multiplicador de Toxina: x 2</td><td>Nível: 3 a 10</td><td>Classe de Dificuldade: 16</td></tr></tbody></table>\n<p>Uma pílula que expande sua mente temporariamente e permite que você aumente suas chances de perceber segredos do que vê ao seu redor. Você dobra a quantidade de Pontos de Iluminação que você receber da próxima vez. Esse efeito se encerra caso você suba de Rank, ganhe Pontos de Iluminação ou 10 dias se passem.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>300% do valor de criação / cada</td></tr><tr><td>Quantidade</td><td>A cada refinamento, você consegue gerar uma pílula, não importa a qualidade.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar o efeito descrito no uso da pílula e conferir Rank, duração e restrições com o mestre. A posse da pílula não ativa seus efeitos. A qualidade da pílula é determinada somente pela margem do teste de Criação; os testes exigidos ainda precisam passar. O consumo usa uma unidade da pilha e registra as toxinas. Resolva o efeito descrito com o narrador, incluindo requisitos, duração e eventuais benefícios ou consequências permanentes. Possuir a pílula não concede seus efeitos.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 12.000 PO. <strong>Venda por unidade:</strong> 36.000 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"pilula-do-milagre-azul:3:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 3</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/3efc8a63e33d6801.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"3efc8a63e33d6801\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.3efc8a63e33d6801\">Pena de Faisão do Sol Nascente</a><small>princípio ativo de percepção e discernimento</small></div><span class=\"iw-recipe-price\" title=\"4.000 PO por unidade\">4.000 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/02162712bdf9e56e.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"02162712bdf9e56e\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.02162712bdf9e56e\">Erva de Mil Agulhas</a><small>clareza e proteção da mente</small></div><span class=\"iw-recipe-price\" title=\"2.000 PO por unidade\">4.000 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/740a6a19d3edcaac.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">3</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"740a6a19d3edcaac\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.740a6a19d3edcaac\">Jujuba das Chuvas de Outono</a><small>suporte e integridade do espírito</small></div><span class=\"iw-recipe-price\" title=\"1.000 PO por unidade\">3.000 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-03/6512f6aeba671b99.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"6512f6aeba671b99\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.6512f6aeba671b99\">Cinza do Bambu Branco</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"1.000 PO por unidade\">1.000 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>12.000 PO</strong></footer></section>"
+    },
+    "activities": {
+      "05f6e63345550edf": {
+        "_id": "05f6e63345550edf",
+        "type": "utility",
+        "name": "Consumir pílula (resolver efeito)",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 3. <strong>Qualidade:</strong> Inferior.</p><h3>PÍLULA DO MILAGRE AZUL</h3>\n<table><tbody><tr><td>Multiplicador de Toxina: x 2</td><td>Nível: 3 a 10</td><td>Classe de Dificuldade: 16</td></tr></tbody></table>\n<p>Uma pílula que expande sua mente temporariamente e permite que você aumente suas chances de perceber segredos do que vê ao seu redor. Você dobra a quantidade de Pontos de Iluminação que você receber da próxima vez. Esse efeito se encerra caso você suba de Rank, ganhe Pontos de Iluminação ou 10 dias se passem.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>300% do valor de criação / cada</td></tr><tr><td>Quantidade</td><td>A cada refinamento, você consegue gerar uma pílula, não importa a qualidade.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar o efeito descrito no uso da pílula e conferir Rank, duração e restrições com o mestre. A posse da pílula não ativa seus efeitos. A qualidade da pílula é determinada somente pela margem do teste de Criação; os testes exigidos ainda precisam passar. O consumo usa uma unidade da pilha e registra as toxinas. Resolva o efeito descrito com o narrador, incluindo requisitos, duração e eventuais benefícios ou consequências permanentes. Possuir a pílula não concede seus efeitos.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 12.000 PO. <strong>Venda por unidade:</strong> 36.000 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"pilula-do-milagre-azul:3:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 3</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/3efc8a63e33d6801.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"3efc8a63e33d6801\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.3efc8a63e33d6801\">Pena de Faisão do Sol Nascente</a><small>princípio ativo de percepção e discernimento</small></div><span class=\"iw-recipe-price\" title=\"4.000 PO por unidade\">4.000 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/02162712bdf9e56e.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"02162712bdf9e56e\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.02162712bdf9e56e\">Erva de Mil Agulhas</a><small>clareza e proteção da mente</small></div><span class=\"iw-recipe-price\" title=\"2.000 PO por unidade\">4.000 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/740a6a19d3edcaac.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">3</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"740a6a19d3edcaac\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.740a6a19d3edcaac\">Jujuba das Chuvas de Outono</a><small>suporte e integridade do espírito</small></div><span class=\"iw-recipe-price\" title=\"1.000 PO por unidade\">3.000 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-03/6512f6aeba671b99.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"6512f6aeba671b99\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.6512f6aeba671b99\">Cinza do Bambu Branco</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"1.000 PO por unidade\">1.000 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>12.000 PO</strong></footer></section>",
+          "chatFlavor": "Pílula do Milagre Azul — Consumir pílula (resolver efeito)"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "pilula-do-milagre-azul",
+              "key": "consume",
+              "level": 3,
+              "quality": "inferior",
+              "manualResolution": true,
+              "consumeItem": true,
+              "rule": "pilula-do-milagre-azul",
+              "poison": 40,
+              "nextIlluminationMultiplier": 2,
+              "expiresOn": [
+                "rankAdvance",
+                "illuminationGain"
+              ],
+              "maximumDays": 10
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Consumir pílula (resolver efeito)",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/pilulas-pintadas-v1/pilula-do-milagre-azul.webp"
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "price": {
+      "value": 36000,
+      "denomination": "gp"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "pilula-do-milagre-azul",
+        "kind": "pill",
+        "profession": "alchemy",
+        "level": 3,
+        "quality": "inferior"
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 3,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 100000,
+          "materials": 10000,
+          "currency": "gp",
+          "rank": null
+        },
+        "creationPercent": 400,
+        "salePercent": 300,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 12000,
+          "currency": "gp",
+          "rank": null
+        },
+        "sale": {
+          "amount": 36000,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceCreation": {
+          "amount": 40000,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceSale": {
+          "amount": 120000,
+          "currency": "gp",
+          "rank": null
+        }
+      },
+      "professionProductAutomation": {
+        "rules": [
+          {
+            "type": "pillToxins",
+            "quality": "inferior",
+            "base": 20,
+            "multiplier": 2,
+            "value": 40
+          }
+        ],
+        "manual": [
+          "Aplicar o efeito descrito no uso da pílula e conferir Rank, duração e restrições com o mestre. A posse da pílula não ativa seus efeitos.",
+          "A qualidade da pílula é determinada somente pela margem do teste de Criação; os testes exigidos ainda precisam passar.",
+          "O consumo usa uma unidade da pilha e registra as toxinas. Resolva o efeito descrito com o narrador, incluindo requisitos, duração e eventuais benefícios ou consequências permanentes. Possuir a pílula não concede seus efeitos."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!a9b0c51d3fb9b16d"
+}

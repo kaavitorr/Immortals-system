@@ -1,0 +1,40 @@
+{
+  "generationTool": "built-in image_gen",
+  "style": "pintura simples, sem fundo",
+  "images": [
+    {
+      "source": "C:\\Users\\kaa_v\\.codex\\generated_images\\01a1854d-b4df-7103-a0d4-8d40225aaaf1\\exec-2ed8f5a5-1051-438e-b518-42dd97badec0.png",
+      "prompt": "Create a single transparent game inventory icon of ONE ancient Chinese fantasy GOLD COIN for Immortals Legacy. A thick round coin with a square hole in the center, almost frontal with a very slight three-quarter angle so the lower-right edge thickness is visible. The coin itself is the whole object, no extra badge or background disc. Restrained antique gold metal with broad warm honey-gold painted highlights and dark bronze recesses, a simple raised circular rim and four shallow curved cloud motifs around the square hole. No Chinese text or letters, no numbers. Simple hand-painted gouache fantasy item art with broad clean brushwork, few details and a strong legible silhouette at 20 pixels; match a restrained painted Wuxia RPG inventory set. Not photorealistic, not a 3D render, no glitter, no glow, no particles, no scene or ground shadow, no piles or extra coins, no pouch, no person, no hands. Genuinely transparent alpha background. Center the full coin with generous transparent margins, square canvas, calm readable lighting.",
+      "method": "built-in image_gen",
+      "id": "ouro",
+      "output": "C:/Users/kaa_v/Documents/FoundryVTT/Data/systems/Immortals-system/assets/wuxia/moedas-pintadas-v1/peca-ouro.webp"
+    },
+    {
+      "id": "prata",
+      "material": "SILVER",
+      "look": "cool, softly polished silver metal, pewter-gray recesses and restrained pale silver brush highlights. Keep it clearly silver rather than white or gold.",
+      "source": "C:\\Users\\kaa_v\\.codex\\generated_images\\01a1854d-b4df-7103-a0d4-8d40225aaaf1\\exec-1ab3f3dd-4dfa-4c2e-a44e-93a34672b1e5.png",
+      "prompt": "Edit the reference GOLD COIN into the SILVER COIN of the same Immortals Legacy currency set. Reference is the exact coin design and painting style. Preserve its round silhouette, square central hole, thick edge, four raised shallow cloud motifs, composition, angle and proportions. Change only the material and the painterly shading to cool, softly polished silver metal, pewter-gray recesses and restrained pale silver brush highlights. Keep it clearly silver rather than white or gold. Match the simple hand-painted gouache fantasy style with broad quiet strokes and limited readable detail. One complete coin only. No photorealism, no 3D, no text, no numbers, no aura, no sparkles, no extra objects, no background disc or frame. Maintain genuinely transparent alpha both outside the coin and through its central square hole. Full object centered with comfortable transparent margins. Make a matched cohesive set with the reference.",
+      "method": "built-in image_gen",
+      "output": "C:/Users/kaa_v/Documents/FoundryVTT/Data/systems/Immortals-system/assets/wuxia/moedas-pintadas-v1/peca-prata.webp"
+    },
+    {
+      "id": "bronze",
+      "material": "BRONZE",
+      "look": "warm aged bronze metal, muted copper-brown broad highlights, deep brown recesses and only a tiny trace of dark green patina. It should clearly read as bronze, not gold.",
+      "source": "C:\\Users\\kaa_v\\.codex\\generated_images\\01a1854d-b4df-7103-a0d4-8d40225aaaf1\\exec-227d9336-d3a4-4cfa-92b1-9cff41781de9.png",
+      "prompt": "Edit the reference GOLD COIN into the BRONZE COIN of the same Immortals Legacy currency set. Reference is the exact coin design and painting style. Preserve its round silhouette, square central hole, thick edge, four raised shallow cloud motifs, composition, angle and proportions. Change only the material and the painterly shading to warm aged bronze metal, muted copper-brown broad highlights, deep brown recesses and only a tiny trace of dark green patina. It should clearly read as bronze, not gold. Match the simple hand-painted gouache fantasy style with broad quiet strokes and limited readable detail. One complete coin only. No photorealism, no 3D, no text, no numbers, no aura, no sparkles, no extra objects, no background disc or frame. Maintain genuinely transparent alpha both outside the coin and through its central square hole. Full object centered with comfortable transparent margins. Make a matched cohesive set with the reference.",
+      "method": "built-in image_gen",
+      "output": "C:/Users/kaa_v/Documents/FoundryVTT/Data/systems/Immortals-system/assets/wuxia/moedas-pintadas-v1/peca-bronze.webp"
+    }
+  ],
+  "imageProcessing": {
+    "date": "2026-11-01",
+    "operation": "resize",
+    "maximumWidth": 256,
+    "maximumHeight": 256,
+    "fit": "inside",
+    "withoutEnlargement": true,
+    "originalPromptsPreserved": true
+  }
+}

@@ -1,0 +1,13 @@
+_id: 4d8c101e00971f88
+_key: '!folders!4d8c101e00971f88'
+name: Nível 4
+type: Item
+folder: 1d29bf4920c1b673
+sorting: a
+sort: 400000
+color: '#85473f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: fogo
+      level: 4

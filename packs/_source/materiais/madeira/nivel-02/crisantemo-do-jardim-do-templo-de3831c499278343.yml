@@ -1,0 +1,53 @@
+_id: de3831c499278343
+_key: '!items!de3831c499278343'
+name: Crisântemo do Círculo Guardião
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/de3831c499278343.webp
+system:
+  identifier: material-alquimia-de3831c499278343
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>Este crisântemo cresce onde raízes antigas formam um círculo de Qi ao redor de clareiras isoladas, orientando suas pétalas douradas para o centro. Seu extrato oferece afinidade de Madeira às fórmulas que nutrem a defesa corporal e sustentam a estabilidade durante práticas contemplativas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 00224d1b64407566
+sort: 2200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Crisântemo do Jardim do Templo
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c100017a444d2",
+  "name": "Traços Animalescos — Sáurios",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+  "system": {
+    "identifier": "especie-db665d92",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Sáurios. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c10005ebde6b6": {
+        "_id": "1a2c10005ebde6b6",
+        "type": "ItemChoice",
+        "title": "Duas características — Sáurios",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.2xAyYTuanXlssP7y"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.we8Kh3bpSM6QbWVk"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Sáurios",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c100017a444d2"
+}

@@ -1,0 +1,15 @@
+{
+  "_id": "c16983361c76c762",
+  "name": "Manuais de Combate",
+  "type": "Item",
+  "folder": null,
+  "sorting": "m",
+  "color": "#b79a71",
+  "flags": {
+    "Immortals-system": {
+      "combatManualFolder": "root",
+      "combatManualContentVersion": 1
+    }
+  },
+  "_key": "!folders!c16983361c76c762"
+}

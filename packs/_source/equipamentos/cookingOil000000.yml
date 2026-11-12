@@ -1,0 +1,55 @@
+_id: cookingOil000000
+_key: '!items!cookingOil000000'
+name: Óleo de Cozinha
+type: loot
+img: icons/consumables/potions/bottle-conical-corked-yellow.webp
+system:
+  identifier: ingredient-cooking-oil
+  description:
+    value: <p>Um frasco de vidro ou barro envolto em couro, contendo óleo vegetal adequado para uso na cozinha.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 1
+    units: kg
+  price:
+    value: 4
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: material
+effects: []
+folder: enNNOtkze4LoJXgw
+sort: 100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: cookingOil000000
+      sourceType: loot
+      category: ingredient
+      quality: standard
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: false
+      manualEffects: []

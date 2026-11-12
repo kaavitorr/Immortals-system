@@ -1,0 +1,75 @@
+_id: e88fb722022f2b00
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:166
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: e88fb722022f2b00
+name: Semear Filhotes
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p>A criatura cria uma “invocação” a cada dia. Essa invocação é sempre uma versão menor de si mesma ou de outra
+      criatura da mesma taxonomia, mas de arquétipo diferente. Ela começa no ND 0 e sobe 1 ND por dia até chegar à
+      metade do ND da criatura que a criou. Não existe limite para o número de criaturas que podem ser criadas dessa
+      forma.</p>
+    chat: ''
+  identifier: semear-filhotes
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    b6d3228cfc4e1ef6:
+      _id: b6d3228cfc4e1ef6
+      type: utility
+      name: Semear Filhotes
+      activation:
+        type: action
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura cria uma “invocação” a cada dia. Essa invocação é sempre uma versão menor de si mesma ou de
+          outra criatura da mesma taxonomia, mas de arquétipo diferente. Ela começa no ND 0 e sobe 1 ND por dia até
+          chegar à metade do ND da criatura que a criou. Não existe limite para o número de criaturas que podem ser
+          criadas dessa forma.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 12
+  prerequisites:
+    items: []
+    level: 12
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/semear-filhotes-e88fb722022f2b00.webp"
+_key: '!items!e88fb722022f2b00'

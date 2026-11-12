@@ -1,0 +1,41 @@
+_id: 8727b2b7070ef7d5
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:41
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 8727b2b7070ef7d5
+name: Mente Singular
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: <p>Essa criatura é imune a condições adquiridas ao falhar em Salvaguardas de Reflexo e Sabedoria.</p>
+    chat: ''
+  identifier: mente-singular
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 11
+  prerequisites:
+    items: []
+    level: 11
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/mente-singular-8727b2b7070ef7d5.webp"
+_key: '!items!8727b2b7070ef7d5'

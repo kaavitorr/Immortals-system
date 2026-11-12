@@ -1,0 +1,90 @@
+{
+  "_id": "bacc100054d075e4",
+  "name": "Membro de Seita",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/membro-de-seita.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-membro-de-seita",
+    "description": {
+      "value": "<p>Você foi aceito por uma seita, seja por um favor aos seus pais ou parentes ou porque um ancião bondoso da seita viu sua determinação em mudar seu destino. Você carrega as vestes e símbolos da seita e deve lutar para manter a honra da mesma e não importa seu nível de força, você nunca irá esquecer suas origens devido a gratidão que você sente.</p><h3>Equipamentos iniciais</h3><p>Vestes da seita, símbolo da seita e um anel espacial de nível inferior. <strong>30 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc200054d075e4]{Membro Inferior}</h3><p>Você está ligado a uma seita de renome aceitável, mesmo não tendo força suficiente para ser um membro dela. Você recebe um manual de Rank Terra e começa a aventura, no mínimo, um nível acima do membro de nível mais baixo do grupo.</p><p>Devido ao seu senso de gratidão a seita, você sempre deve voltar para protege-la de todas as ameaças e deve compartilhar metade de seus ganhos com o ancião que te deu a chance de mudar seu destino.</p><p>Seu anel espacial deve ser utilizado para armazenar metade de seus ganhos que irão para o ancião.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc500054d075e4",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 30,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc300054d075e4": {
+        "_id": "bacc300054d075e4",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc200054d075e4",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc700054d075e4": {
+        "_id": "bacc700054d075e4",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000d6540f92",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000692a1963",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000fe4de1b8",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000225ee624",
+              "quantity": 1,
+              "optional": false
+            }
+          ],
+          "currency": {
+            "gp": 30
+          },
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "membro-de-seita",
+        "startingGold": 30,
+        "equipment": "Vestes da seita, símbolo da seita e um anel espacial de nível inferior."
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc100054d075e4"
+}

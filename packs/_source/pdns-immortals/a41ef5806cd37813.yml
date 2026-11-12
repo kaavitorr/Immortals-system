@@ -1,0 +1,75 @@
+_id: a41ef5806cd37813
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:89
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: a41ef5806cd37813
+name: Controle Natural
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p>Enquanto estiver em uma área sintonizada com sua natureza, a criatura pode atacar através do elemento ou das
+      partes com que tem afinidade dentro do alcance, como se estivesse nesses locais. Por exemplo: um artilheiro de
+      fogo pode atacar e liberar técnicas a partir de qualquer fonte de fogo, enquanto fungos podem atacar a partir de
+      qualquer parte de sua colônia que tenha se espalhado.</p>
+    chat: ''
+  identifier: controle-natural
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    29c5a57a78d9e212:
+      _id: 29c5a57a78d9e212
+      type: utility
+      name: Controle Natural
+      activation:
+        type: action
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Enquanto estiver em uma área sintonizada com sua natureza, a criatura pode atacar através do elemento ou
+          das partes com que tem afinidade dentro do alcance, como se estivesse nesses locais. Por exemplo: um
+          artilheiro de fogo pode atacar e liberar técnicas a partir de qualquer fonte de fogo, enquanto fungos podem
+          atacar a partir de qualquer parte de sua colônia que tenha se espalhado.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 5
+  prerequisites:
+    items: []
+    level: 5
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/controle-natural-a41ef5806cd37813.webp"
+_key: '!items!a41ef5806cd37813'

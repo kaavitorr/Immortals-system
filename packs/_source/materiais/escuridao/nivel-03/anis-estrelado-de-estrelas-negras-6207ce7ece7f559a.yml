@@ -1,0 +1,53 @@
+_id: 6207ce7ece7f559a
+_key: '!items!6207ce7ece7f559a'
+name: Anis das Estrelas Negras
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/6207ce7ece7f559a.webp
+system:
+  identifier: material-alquimia-6207ce7ece7f559a
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Planta</p><p>Seus frutos amadurecem quando veios de Qi yin respondem a constelações ocultas pelas nuvens, formando pontas negras em torno de um centro vazio. O óleo aromático ajuda a integrar a escuridão ao restante da mistura, como matriz complementar em pílulas elementais.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 3000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 59ff80df0ece44e5
+sort: 4800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 3
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Anis-Estrelado de Estrelas Negras
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

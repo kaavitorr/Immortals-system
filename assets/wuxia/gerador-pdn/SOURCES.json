@@ -1,0 +1,33 @@
+{
+  "copiedAt": "2026-11-04T15:39:13.578Z",
+  "entries": [
+    {
+      "file": "lacaio.webp",
+      "source": "systems/jujutsu-system/assets/gerador-pdn-pintado-v1/lacaio.webp",
+      "width": 256,
+      "height": 256,
+      "format": "webp"
+    },
+    {
+      "file": "normal.webp",
+      "source": "systems/jujutsu-system/assets/gerador-pdn-pintado-v1/normal.webp",
+      "width": 256,
+      "height": 256,
+      "format": "webp"
+    },
+    {
+      "file": "elite.webp",
+      "source": "systems/jujutsu-system/assets/gerador-pdn-pintado-v1/elite.webp",
+      "width": 256,
+      "height": 256,
+      "format": "webp"
+    },
+    {
+      "file": "chefe.webp",
+      "source": "systems/jujutsu-system/assets/gerador-pdn-pintado-v1/chefe.webp",
+      "width": 256,
+      "height": 256,
+      "format": "webp"
+    }
+  ]
+}

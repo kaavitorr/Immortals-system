@@ -1,0 +1,199 @@
+{
+  "_id": "1a2c100058db6b42",
+  "name": "Traços Animalescos",
+  "type": "feat",
+  "folder": "1a2c000000000002",
+  "img": "systems/Immortals-system/assets/wuxia/caracteristicas-especie-pintadas-v1/tracos-animalescos.webp",
+  "system": {
+    "identifier": "especie-83106682",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Traços Animalescos: Você recebe 2 características da Taxonomia da sua Besta Divina.</p>"
+    },
+    "advancement": {
+      "1a2c1000d31fbd7f": {
+        "_id": "1a2c1000d31fbd7f",
+        "type": "ItemChoice",
+        "title": "Taxonomia da Besta Divina",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c10007172cd86"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000bc083153"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100068ae36f4"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100095c4a19a"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c10001f5e6c79"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000365b5011"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000456b3615"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000bed573df"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c10006487fa13"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000c1f01203"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c10003085b69c"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100087ea45d0"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000fa86c5e1"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100086e3cee8"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100081c2fee2"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100029854f2e"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100018823079"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000e0ac0ea5"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000b66c67f7"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100082a628b7"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000cfbece74"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000d3a6a369"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000f80a9e63"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100017a444d2"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000752a8021"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000a4503e0f"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c10007ccf2271"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c10002cade8c5"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000e6ee8d95"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000a7878d5d"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000c34169bb"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c10007da62308"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c10007ef25b8f"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000d20aea28"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000099f89f5"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c10001a2aaa76"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000e6a95b9d"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100057e1a985"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000eb61fbec"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c10009c68776c"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100073a0a1f1"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000fa2e6cad"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000aba176c3"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000bd21105c"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100086776a36"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000d965a503"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c10002483c852"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100036cf8d82"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000ace82347"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c10001c5e9fda"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000aba72314"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c100058db6b42"
+}

@@ -1,0 +1,50 @@
+_id: c8e81c6eef5f9896
+name: Mica do Véu Fino
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-02/c8e81c6eef5f9896.webp
+system:
+  identifier: minerio-c8e81c6eef5f9896
+  description:
+    value: <p><strong>Nível:</strong> 2 · <strong>Categoria:</strong> Minério</p><p>Lâminas quase transparentes se formam onde correntes de Qi de Vento atravessam a montanha sem encontrar saída. Suas folhas separam fluxos de energia sem interromper a passagem de calor controlado. Artesãos as sobrepõem em divisórias de fornos e camadas de isolamento de instrumentos espirituais delicados.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 30627f8e0aec5a76
+sort: 700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 2
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 2
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!c8e81c6eef5f9896'

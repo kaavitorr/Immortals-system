@@ -1,0 +1,27 @@
+{
+  "_id": "1a2c100036ecd1cc",
+  "name": "Phoenix",
+  "type": "feat",
+  "folder": "1a2c000000000003",
+  "img": "systems/Immortals-system/assets/wuxia/ancestralidades-variantes-pintadas-v1/phoenix.webp",
+  "system": {
+    "identifier": "especie-e2215c8c",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>São criaturas feitas de puras chamas e não místicas quanto o próprio mundo em que vivem. Elas têm uma afinidade enorme com o fogo e o renascimento.</p><p>Raridade: Extremamente Raro.</p><p>Afinidade: Fogo.</p><p>Característica Única: Recebe resistência 30 a dano de Fogo vindo de criaturas até 1 Rank acima. Adicionalmente, uma vez a cada 30 dias, ao morrer, você recupera todos os seus Pontos de Vida, renascendo a partir das chamas. Além disso, sua velocidade de cultivo aumenta em 50% em áreas que contém uma grande quantidade de Qi de Fogo.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Phoenix",
+      "speciesLineage": true,
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c100036ecd1cc"
+}

@@ -1,0 +1,77 @@
+_id: 139c3f652dc40e9b
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:142
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 139c3f652dc40e9b
+name: Mordida de Zumbi
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p>Toda vez que essa criatura realizar um ataque de mordida contra outra criatura, o dano é causado tanto nos
+      Pontos de Vida quanto nos Pontos de Ferida do alvo. Quando os Pontos de Ferida acumularem 1/4 do valor total, o
+      alvo é infectado, fazendo seu corpo se deformar lentamente e aumentando os custos de suas técnicas em +1 PQ. Ao
+      acumular metade do valor de Feridas por meio das mordidas, ele se torna completamente infectado, transformando-se
+      em uma maldição e em um lacaio do Necrófago.</p>
+    chat: ''
+  identifier: mordida-de-zumbi
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    2a60383fd1bfbcf0:
+      _id: 2a60383fd1bfbcf0
+      type: utility
+      name: Mordida de Zumbi
+      activation:
+        type: action
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Toda vez que essa criatura realizar um ataque de mordida contra outra criatura, o dano é causado tanto nos
+          Pontos de Vida quanto nos Pontos de Ferida do alvo. Quando os Pontos de Ferida acumularem 1/4 do valor total,
+          o alvo é infectado, fazendo seu corpo se deformar lentamente e aumentando os custos de suas técnicas em +1 PQ.
+          Ao acumular metade do valor de Feridas por meio das mordidas, ele se torna completamente infectado,
+          transformando-se em uma maldição e em um lacaio do Necrófago.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/mordida-de-zumbi-139c3f652dc40e9b.webp"
+_key: '!items!139c3f652dc40e9b'

@@ -1,0 +1,13 @@
+_id: db88c774dbdf13cf
+_key: '!folders!db88c774dbdf13cf'
+name: Nível 4
+type: Item
+folder: 1854b698d40f63ca
+sorting: a
+sort: 400000
+color: '#51766d'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: vento
+      level: 4

@@ -1,0 +1,80 @@
+{
+  "_id": "bacc2000e881fab9",
+  "name": "Estabilizar",
+  "type": "feat",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/habilidades/iniciado-em-medicina.webp",
+  "folder": "bacc000000000002",
+  "system": {
+    "identifier": "antecedente-iniciado-em-medicina",
+    "type": {
+      "value": "background"
+    },
+    "description": {
+      "value": "<p>Com seu profundo conhecimento da medicina, você é capaz de realizar tratamentos rápidos em uma criatura para evitar males que a estejam afetando. Caso você encontre uma criatura com uma doença ou ferida que ameaça a vida dela. Você pode realizar um Teste de Sorte com CD definida pelo Narrador. Em caso de sucesso, você estabiliza a criatura e anula os efeitos negativos da doença ou para seu sangramento. Esse efeito é anulado caso ela realize qualquer ação que não seja andar com metade do seu deslocamento ou receba qualquer valor em dano.</p>"
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "activities": {
+      "bacc4000ff896574": {
+        "_id": "bacc4000ff896574",
+        "type": "check",
+        "name": "Estabilizar",
+        "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/habilidades/iniciado-em-medicina.webp",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "Conforme as condições da característica."
+        },
+        "consumption": {
+          "spellSlot": false,
+          "targets": []
+        },
+        "target": {
+          "affects": {
+            "type": "self"
+          },
+          "prompt": false,
+          "template": {
+            "units": "m"
+          }
+        },
+        "range": {
+          "units": "self"
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "description": {
+          "chatFlavor": "Estabilizar",
+          "value": "<p>Com seu profundo conhecimento da medicina, você é capaz de realizar tratamentos rápidos em uma criatura para evitar males que a estejam afetando. Caso você encontre uma criatura com uma doença ou ferida que ameaça a vida dela. Você pode realizar um Teste de Sorte com CD definida pelo Narrador. Em caso de sucesso, você estabiliza a criatura e anula os efeitos negativos da doença ou para seu sangramento. Esse efeito é anulado caso ela realize qualquer ação que não seja andar com metade do seu deslocamento ou receba qualquer valor em dano.</p>"
+        },
+        "check": {
+          "ability": "",
+          "associated": [
+            "luc"
+          ],
+          "bonus": "",
+          "dc": {
+            "calculation": "",
+            "formula": ""
+          },
+          "visible": true
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundFeature": "iniciado-em-medicina",
+      "backgroundRuleVersion": 1,
+      "featureSection": "jj-origin"
+    }
+  },
+  "_key": "!items!bacc2000e881fab9"
+}

@@ -1,0 +1,53 @@
+_id: 03e9acb0c49473c9
+_key: '!items!03e9acb0c49473c9'
+name: Salgueiro Chorão do Vale Sumido
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/03e9acb0c49473c9.webp
+system:
+  identifier: material-alquimia-03e9acb0c49473c9
+  description:
+    value: <p><strong>Elemento:</strong> Água · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Planta</p><p>Os galhos mergulham no lago onde afundou um vale inteiro numa só noite. A seiva, colhida ao amanhecer, devolve à mente as memórias que a água apagou de alguém.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f433b84f9652e889
+sort: 19000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: agua
+      elementLabel: Água
+      level: 10
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/agua.json
+        originalName: Salgueiro Chorão do Vale Sumido
+        sha256: 4e0ab61ab8b4f69e0e1dd88c53ff06dabfdca351a5290537230f83680b9c27bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

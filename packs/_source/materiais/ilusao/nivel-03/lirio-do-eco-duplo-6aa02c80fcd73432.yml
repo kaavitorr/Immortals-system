@@ -1,0 +1,53 @@
+_id: 6aa02c80fcd73432
+_key: '!items!6aa02c80fcd73432'
+name: Lírio do Eco Duplo
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/6aa02c80fcd73432.webp
+system:
+  identifier: material-alquimia-6aa02c80fcd73432
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Planta</p><p>Floresce onde duas correntes de Qi ilusório devolvem ecos de timbres diferentes à mesma voz, formando pétalas claras de bordas duplicadas. Seu néctar conserva a distinção entre ressonâncias e fornece o princípio ativo às pílulas que refinam a afinidade com a ilusão.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 2000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 1da2695e7fa3fc8b
+sort: 4100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 3
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Lírio do Eco Duplo
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

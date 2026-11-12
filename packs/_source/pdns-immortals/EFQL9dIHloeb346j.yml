@@ -1,0 +1,182 @@
+name: Infiltrador
+type: archetype
+folder: 53154a640414559d
+system:
+  description:
+    value: >-
+      <p>Aproxima-se sem ser percebido e explora disfarces, sombras e distrações. Ataca por brechas na vigilância
+      inimiga e usa rotas de fuga para evitar o cerco.</p><p><strong>Resistência por ND:</strong> Físicos
+      +1</p><p><strong>Vulnerabilidade:</strong> Psíquico −6</p><p><strong>Deslocamento:</strong> Caminhada: 10 m
+      (fixo)</p><p><strong>Armaduras:</strong> Pele Fina (6 + Agi).</p><p><strong>Perícias:</strong> Proficiências:
+      Furtividade, Investigação, Enganação e Percepção.</p><p><strong>Salvaguardas:</strong> Proficiências: Reflexo,
+      Vontade e Fortitude</p><p><strong>Aspectos:</strong> Silenciosa, Camuflagem, Algoz Invisível, Reflexos Aguçados,
+      Analisar Padrões, Emboscador, Ataque Surpresa, Visão no Escuro, Descuidado,
+      Fanático.</p><p><strong>Habilidades:</strong> Passo das Sombras, Fuga Escorregadia, Apunhalar, Ilusão Menor,
+      Imitar Voz, Desarme, Esquiva Rápida, Roubo de Nome, Golpe Letal, Fingir-se de
+      Objeto.</p><p><strong>Reações:</strong> Sombra Reativa, Esquiva Rápida, Fuga Silenciosa.</p>
+    chat: ''
+  identifier: infiltrador
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 1
+    dex: 4
+    con: 2
+    int: 2
+    wis: 2
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: 1
+      immune: false
+    piercing:
+      value: 1
+      immune: false
+    slashing:
+      value: 1
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: -6
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ste
+      - skills.inv
+      - skills.dec
+      - skills.prc
+      - saves.dex
+      - saves.int
+      - saves.con
+      - saves.cha
+      - saves.str
+      - saves.wis
+    alternative:
+      - skills.ste
+      - skills.inv
+      - skills.dec
+      - skills.prc
+      - alternativeSaves.reflexo
+      - alternativeSaves.vontade
+      - alternativeSaves.fortitude
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.464fadb6d059e88b
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d7e889a4ea13732e
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.ee5b9ae19707d11e
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.25d04c9869617098
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4afa4131cc85e2bd
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.cd071c8deb66d86d
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53d435a7250164af
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.34e2fedcea4c64ac
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f7771b337157f26e
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.98f7ed9c8403484e
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7845b27e637b3835
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7b29cdec7754e73a
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5f6cf4c720a404dc
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.a866dd64efedcd26
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5d85d51e1781dcb6
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.86a2bfef529caefd
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.38a87b70e6f341bd
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5da66adcc9262ed1
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.b0025217be0f5675
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e3954a3cc125e416
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4054b676984235b9
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.43ff2f3cca5fedbf
+      nd: 14
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000011
+    armas: []
+  movimento:
+    ganho: 0
+    intervalo: 1
+    maximo: null
+_id: EFQL9dIHloeb346j
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/infiltrador.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:infiltrador
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: EFQL9dIHloeb346j
+_key: '!items!EFQL9dIHloeb346j'

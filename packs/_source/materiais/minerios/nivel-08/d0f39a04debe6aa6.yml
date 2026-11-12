@@ -1,0 +1,50 @@
+_id: d0f39a04debe6aa6
+name: Jade do Mar Espiritual
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-08/d0f39a04debe6aa6.webp
+system:
+  identifier: minerio-d0f39a04debe6aa6
+  description:
+    value: <p><strong>Nível:</strong> 8 · <strong>Categoria:</strong> Minério</p><p>Pedra verde profunda com nuvens brancas suspensas no interior. Forma-se onde veias minerais recebem o Qi de santuários dedicados à Alma. É esculpida em suportes de focos espirituais e em recipientes de trabalho destinados a conservar materiais que carregam uma presença residual.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 200
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: c68bd2db09650a50
+sort: 400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 8
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 8
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!d0f39a04debe6aa6'

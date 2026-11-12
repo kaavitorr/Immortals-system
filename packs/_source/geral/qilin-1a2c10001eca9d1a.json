@@ -1,0 +1,27 @@
+{
+  "_id": "1a2c10001eca9d1a",
+  "name": "Qilin",
+  "type": "feat",
+  "folder": "1a2c000000000003",
+  "img": "systems/Immortals-system/assets/wuxia/ancestralidades-variantes-pintadas-v1/qilin.webp",
+  "system": {
+    "identifier": "especie-458c9ada",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Uma criatura quimérica possuindo a cabeça de um dragão, cascos de cavalo, corpo de cervo, cauda de touro e um dorso de penugem colorida. Ele é uma das 4 criaturas benevolentes.</p><p>Raridade: Muito Raro.</p><p>Afinidade: Fogo (Inicial) e Eletricidade (Intermediário).</p><p>Característica Única: Recebe resistência 10 aos danos de sua afinidade (não pode ser ignorada) para criaturas até 2 Ranks acima do seu e pode aprimorar seus elementos que possui afinidade com metade dos Pontos de Cultivo e duração (arredondado para baixo). Adicionalmente, você não possui penalidade ao utilizar Eletricidade, podendo trata-lo como um elemento inicial.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Qilin",
+      "speciesLineage": true,
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c10001eca9d1a"
+}

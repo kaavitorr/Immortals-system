@@ -1,0 +1,162 @@
+_id: handAxe000000000
+_key: '!items!handAxe000000000'
+name: Machadinha
+type: weapon
+img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/machadinha.webp
+system:
+  identifier: hand-axe
+  description:
+    value: >-
+      <p>Compacta e letal, a machadinha é uma picadora de uma mão com cabo curto e lâmina afiada, ideal para arremesso
+      ou golpes de curta distância onde velocidade supera alcance.</p><p><strong>Propriedades:</strong> Intuitiva,
+      Arremesso.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 2
+    units: kg
+  price:
+    value: 160
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - thr
+    - fin
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    97c576cfca4e86fd:
+      _id: 97c576cfca4e86fd
+      type: attack
+      name: Ataque
+      img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/machadinha.webp
+      sort: 0
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      attack:
+        ability: ''
+        bonus: ''
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+        critical:
+          threshold: null
+      damage:
+        includeBase: true
+        parts: []
+        critical:
+          bonus: ''
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: m
+        value: 2
+        override: true
+        special: ''
+      target:
+        override: false
+        prompt: true
+        template:
+          type: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+  type:
+    value: martialM
+    baseItem: ''
+  ammunition:
+    type: ''
+  range:
+    units: m
+    value: 30
+    long: null
+    reach: 2
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - slashing
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - slashing
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+effects: []
+folder: 3BDkyJ5nPk8nVa81
+sort: 400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: handAxe000000000
+      sourceType: weapon
+      category: balanced1
+      quality: dormente
+      enchantment: mundane
+      properties:
+        - intuitive
+        - thrown
+      weaponDamagePending: true
+      manualEffects: []

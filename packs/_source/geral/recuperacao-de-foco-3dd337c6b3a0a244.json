@@ -1,0 +1,51 @@
+{
+  "_id": "3dd337c6b3a0a244",
+  "name": "Recuperação de Foco",
+  "type": "feat",
+  "folder": "d2652f7aa9b40d98",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/recuperacao-de-foco.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-recuperacao-de-foco",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Combate Veloz.</p><h2>Recuperação de Foco</h2><p><strong>Requisito:</strong> Reutilização de Energia</p><p>Toda vez que você tiver um resultado de 20 natural em uma rolagem de ataque, você recupera 2 Pontos de Ação [2 ações] no fim do seu turno. Esse efeito não se soma.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "recuperacao-de-foco",
+        "categoria": "Adaptação Física",
+        "caminho": "Combate Veloz",
+        "requisitos": [
+          "Reutilização de Energia"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "reutilizacao-de-energia"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "focusRecovery",
+            "trigger": "natural20Attack",
+            "actions": 2,
+            "at": "turnEnd",
+            "stacks": false
+          }
+        ],
+        "manual": [],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!3dd337c6b3a0a244"
+}

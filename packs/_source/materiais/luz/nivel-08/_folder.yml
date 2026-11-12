@@ -1,0 +1,13 @@
+_id: 379e506c257149a2
+_key: '!folders!379e506c257149a2'
+name: Nível 8
+type: Item
+folder: e1730b8d2dbc7697
+sorting: a
+sort: 800000
+color: '#806d3f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: luz
+      level: 8

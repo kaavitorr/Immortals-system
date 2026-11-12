@@ -1,0 +1,136 @@
+{
+  "_id": "45c4b6c5bff9c9e7",
+  "name": "Clone Elemental",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/clone-elemental.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-clone-elemental",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo da Alma.</p><h2>Clone Elemental</h2><p><strong>Requisito:</strong> 3º Revolução</p><p>Você pode gastar 6 Pontos de Ação [6 ações] e 20 PQ para colocar seu Avatar dentro de um corpo feito de Qi Elemental. Dessa forma, você ganha um corpo elemental perfeito para lutar ao seu lado, mas ele não pode recuperar vida e tem uma quantidade de Qi igual ao que você escolher passar para ele.</p><p>O Corpo Elemental causa os tipos de dano que puderem ser causados com seu corpo elemental e todas as técnicas marciais tem seu dano alterado para o do corpo elemental.</p><p><strong>Resolução:</strong> As estatísticas do clone e a quantidade de Qi transferida exigem resolução com o Narrador. O narrador cria e configura o corpo elemental do Avatar, os PV, as estatísticas e o Qi transferido. Esta atividade paga somente os 20 Qi e 6 ações explícitos; não duplica atores nem transfere Qi automaticamente.</p>"
+    },
+    "activities": {
+      "dd2c5431e8418519": {
+        "_id": "dd2c5431e8418519",
+        "type": "utility",
+        "name": "Criar Clone Elemental",
+        "activation": {
+          "type": "action",
+          "value": 6,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "20",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo da Alma.</p><h2>Clone Elemental</h2><p><strong>Requisito:</strong> 3º Revolução</p><p>Você pode gastar 6 Pontos de Ação [6 ações] e 20 PQ para colocar seu Avatar dentro de um corpo feito de Qi Elemental. Dessa forma, você ganha um corpo elemental perfeito para lutar ao seu lado, mas ele não pode recuperar vida e tem uma quantidade de Qi igual ao que você escolher passar para ele.</p><p>O Corpo Elemental causa os tipos de dano que puderem ser causados com seu corpo elemental e todas as técnicas marciais tem seu dano alterado para o do corpo elemental.</p><p><strong>Resolução:</strong> As estatísticas do clone e a quantidade de Qi transferida exigem resolução com o Narrador. O narrador cria e configura o corpo elemental do Avatar, os PV, as estatísticas e o Qi transferido. Esta atividade paga somente os 20 Qi e 6 ações explícitos; não duplica atores nem transfere Qi automaticamente.</p>",
+          "chatFlavor": "Clone Elemental — Criar Clone Elemental"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "clone-elemental",
+              "key": "clone",
+              "manualResolution": true,
+              "rule": "elementalClone",
+              "cannotHeal": true,
+              "transferredQi": "manual",
+              "damageType": "chosenElement"
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Criar Clone Elemental",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/clone-elemental.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "clone-elemental",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo da Alma",
+        "requisitos": [
+          "3º Revolução"
+        ],
+        "requirementRules": {
+          "type": "soul",
+          "min": 4
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "As estatísticas do clone e a quantidade de Qi transferida exigem resolução com o Narrador.",
+          "O narrador cria e configura o corpo elemental do Avatar, os PV, as estatísticas e o Qi transferido. Esta atividade paga somente os 20 Qi e 6 ações explícitos; não duplica atores nem transfere Qi automaticamente."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!45c4b6c5bff9c9e7"
+}

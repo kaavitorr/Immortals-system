@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000b08cc8b6",
+  "name": "Manual de Cultivo — Humano Comum",
+  "type": "loot",
+  "img": "systems/Immortals-system/assets/wuxia/equipamentos-antecedentes-pintados-v1/manual-humano-comum.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-manual-humano-comum",
+    "description": {
+      "value": "<p>Manual recebido pelo servo da família principal.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "gear"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "manual-humano-comum"
+    }
+  },
+  "_key": "!items!bacc6000b08cc8b6"
+}

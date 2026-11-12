@@ -1,0 +1,140 @@
+_id: rallyingTonic000
+_key: '!items!rallyingTonic000'
+name: Tônico de Ânimo
+type: consumable
+img: icons/consumables/potions/bottle-conical-corked-purple.webp
+system:
+  identifier: rallying-tonic
+  description:
+    value: >-
+      <p>Esta poção contém uma fórmula alquímica especializada para fortalecer gradualmente a psique e melhorar a
+      moral.</p><p><strong>Propriedades:</strong> Empilhável.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 600
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  activities:
+    190dee6310cf669f:
+      _id: 190dee6310cf669f
+      type: utility
+      name: Beber tônico de ânimo
+      img: icons/consumables/potions/bottle-conical-corked-purple.webp
+      sort: 0
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+          - type: itemUses
+            target: ''
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        value: >-
+          <p>Immediately, and at the beginning of each of the next 5 <strong>Rounds</strong>, recover an amount of
+          <strong>Morale</strong> dependent on the quality of the tonic.</p><ul><li><p><strong>Shoddy</strong> - Heals 2
+          <strong>Morale</strong> each Round</p></li><li><p><strong>Standard</strong> - Heals 4 <strong>Morale</strong>
+          each Round</p></li><li><p><strong>Fine </strong>- Heals 8 <strong>Morale </strong>each
+          Round</p></li><li><p><strong>Superior</strong> - Heals 16 <strong>Morale</strong> each
+          Round</p></li><li><p><strong>Masterwork</strong> - Heals 32 <strong>Morale</strong> each Round</p></li></ul>
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: m
+        value: 1
+        special: ''
+      target:
+        override: true
+        prompt: true
+        template:
+          type: ''
+          size: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+          special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  type:
+    value: potion
+    subtype: ''
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    replace: false
+effects: []
+folder: WqUGvC0ubhjrpvz9
+sort: 500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: rallyingTonic000
+      sourceType: consumable
+      category: flask
+      quality: standard
+      enchantment: ''
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

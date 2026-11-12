@@ -1,0 +1,53 @@
+_id: 7bcbe1a177a10304
+_key: '!items!7bcbe1a177a10304'
+name: Casco de Javali dos Sulcos Férreos
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/7bcbe1a177a10304.webp
+system:
+  identifier: material-alquimia-7bcbe1a177a10304
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Parte de animal</p><p>O javali dos Sulcos Férreos abre canais em rochas impregnadas de Qi metálico com cascos que alinham o minério em lâminas paralelas. Seu pó depurado reúne firmeza e capacidade de desagregação, usado em preparados destinados à recuperação de superfícies endurecidas e mobilidade das articulações.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 7de9db68c684280d
+sort: 7700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 4
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Casco do Javali Arador
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

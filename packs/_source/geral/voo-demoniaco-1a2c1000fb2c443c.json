@@ -1,0 +1,26 @@
+{
+  "_id": "1a2c1000fb2c443c",
+  "name": "Voo Demoníaco",
+  "type": "feat",
+  "folder": "1a2c000000000002",
+  "img": "systems/Immortals-system/assets/wuxia/caracteristicas-especie-pintadas-v1/voo-demoniaco.webp",
+  "system": {
+    "identifier": "especie-6067db7c",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Voo Demoníaco: Ao usar uma ação [[-1 ações]], esse demônio pode tomar voo, recebendo deslocamento de voo igual seu deslocamento padrão. A partir do Rank de Formação de Núcleo, ele pode esconder as próprias asas dentro do corpo.</p><p>Quando um demônio traiçoeiro chega no Rank que um cultivador adquire voo, ele recebe 6 metros de deslocamento adicionais durante um combate e pode dobrar seu deslocamento de voo fora dele.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Voo Demoníaco",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000fb2c443c"
+}

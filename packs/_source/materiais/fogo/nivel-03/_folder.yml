@@ -1,0 +1,13 @@
+_id: e94d1872852c0748
+_key: '!folders!e94d1872852c0748'
+name: Nível 3
+type: Item
+folder: 1d29bf4920c1b673
+sorting: a
+sort: 300000
+color: '#85473f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: fogo
+      level: 3

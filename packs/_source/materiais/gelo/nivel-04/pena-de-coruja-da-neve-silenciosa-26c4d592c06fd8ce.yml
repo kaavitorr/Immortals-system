@@ -1,0 +1,53 @@
+_id: 26c4d592c06fd8ce
+_key: '!items!26c4d592c06fd8ce'
+name: Pena de Coruja da Neve Silenciosa
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/26c4d592c06fd8ce.webp
+system:
+  identifier: material-alquimia-26c4d592c06fd8ce
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Parte de animal</p><p>A coruja da neve silenciosa caça nas correntes de Qi que atravessam noites polares sem produzir vento. Suas penas mantêm uma camada de frio imóvel entre as barbas, usada para suavizar perturbações do movimento e preservar a quietude de preparados delicados.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: e7c04cfbe4a5d156
+sort: 7500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 4
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Pena de Coruja da Neve Silenciosa
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

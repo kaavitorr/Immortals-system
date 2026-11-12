@@ -1,0 +1,35 @@
+# Profissões — ícones pintados
+
+Gerados com a ferramenta integrada de imagens, no estilo da coleção de conceitos elementais. Cinco arquivos WebP de 256 × 256, com transparência exterior, usados nos seletores e no destaque de cada ofício. Os originais WebP estão preservados em `originais/`.
+
+## Arquivos
+
+- **Criador de Bestas — Qilin**: [beasts.webp](beasts.webp) · [Original WebP](originais/beasts.webp)
+- **Mestre Artesão**: [artisan.webp](artisan.webp) · [Original WebP](originais/artisan.webp)
+- **Mestre de Inscrições**: [inscriptions.webp](inscriptions.webp) · [Original WebP](originais/inscriptions.webp)
+- **Mestre de Matrizes**: [matrices.webp](matrices.webp) · [Original WebP](originais/matrices.webp)
+- **Alquimista**: [alchemy.webp](alchemy.webp) · [Original WebP](originais/alchemy.webp)
+
+[Prévia do conjunto](colecao.webp)
+
+## Prompts finais
+
+### Criador de Bestas — Qilin
+
+Use case: precise-object-edit. Edit the attached round painted RPG icon. Replace the TIGER completely with a Chinese QILIN (qilin/kirin), while preserving the rough circular charcoal ink disc, genuine transparency outside the circle, matte broad-brush painting style, muted antique bronze/stone/slate/sage palette and square composition. The Qilin must read as an auspicious mythical creature rather than a big cat: a graceful elongated deer-like face with a slightly dragon-like muzzle, two short branching bronze antlers, long pointed deer ears, a flowing charcoal and ivory mane, a short neck with a few LARGE muted slate-jade scales, and a small wispy beard. Calm noble expression, closed mouth. HEAD AND SHORT NECK ONLY, slightly three-quarter view so its long muzzle and horns are clear, centered within the disc with all antlers fully inside the circle. Low detail and bold simple painterly shapes, readable as a tiny game icon, restrained natural painted highlights. No tiger stripes, round feline ears or cat face; no armor, ornaments, body or scenery. No text, letters, runes, numbers, neon, glowing eyes, aura, fire, particles, extra rings or special effects. Keep the rest of the badge unchanged. Transparent background outside the circular painted ink disc.
+
+### Mestre Artesão
+
+Create ONE single circular hand-painted Wuxia RPG profession icon on a square canvas. Genuine transparent background OUTSIDE the circular badge. A rough nearly black charcoal ink disk fills 86% of the square width with a hand-brushed irregular circumference. Center the subject inside it, filling about 65% of the disk. Simple matte fantasy inventory painting, broad confident visible gouache-like brush strokes, chunky low-detail shapes, easy to read at 48 pixels. Restrained antique bronze, umber, warm stone grey, muted sage and slate, with a few broad pale painted edges. Naturally colored painted subject against charcoal. Make it match round elemental icons painted on dark ink discs. No text, labels, writing, numbers, watermark, square backdrop, ornate rim, metal UI border, vector line art, 3D render, photorealism, tiny detail, glossy gradients, magical effects, particles, sparks, neon or glow. Subject: A simple dark steel ANVIL with a short wooden-handled HAMMER resting diagonally over it. Restrained steel grey with a single broad pale edge and dark umber wooden handle. Only these two bold silhouettes, no workshop scenery or sparks.
+
+### Mestre de Inscrições
+
+Create ONE single circular hand-painted Wuxia RPG profession icon on a square canvas. Genuine transparent background OUTSIDE the circular badge. A rough nearly black charcoal ink disk fills 86% of the square width with a hand-brushed irregular circumference. Center the subject inside it, filling about 65% of the disk. Simple matte fantasy inventory painting, broad confident visible gouache-like brush strokes, chunky low-detail shapes, easy to read at 48 pixels. Restrained antique bronze, umber, warm stone grey, muted sage and slate, with a few broad pale painted edges. Naturally colored painted subject against charcoal. Make it match round elemental icons painted on dark ink discs. No text, labels, writing, numbers, watermark, square backdrop, ornate rim, metal UI border, vector line art, 3D render, photorealism, tiny detail, glossy gradients, magical effects, particles, sparks, neon or glow. Subject: A small hanging ochre paper TALISMAN with a pointed lower end beside a dark brown CALLIGRAPHY BRUSH lying diagonally. The paper has only ONE simple abstract dark ink stroke, absolutely no readable writing. Matte old parchment, brown wood, muted sage-grey binding cord. Only these simple bold shapes.
+
+### Mestre de Matrizes
+
+Create ONE single circular hand-painted Wuxia RPG profession icon on a square canvas. Genuine transparent background OUTSIDE the circular badge. A rough nearly black charcoal ink disk fills 86% of the square width with a hand-brushed irregular circumference. Center the subject inside it, filling about 65% of the disk. Simple matte fantasy inventory painting, broad confident visible gouache-like brush strokes, chunky low-detail shapes, easy to read at 48 pixels. Restrained antique bronze, umber, warm stone grey, muted sage and slate, with a few broad pale painted edges. Naturally colored painted subject against charcoal. Make it match round elemental icons painted on dark ink discs. No text, labels, writing, numbers, watermark, square backdrop, ornate rim, metal UI border, vector line art, 3D render, photorealism, tiny detail, glossy gradients, magical effects, particles, sparks, neon or glow. Subject: An ancient circular FORMATION DIAGRAM painted in muted antique bronze on a slate stone disc: one wide circular ring, a diamond enclosing a small central round stone, four broad simple nodes at cardinal points. Face-on view. Sparse brush-painted geometry, very few big clear shapes, no runes or tiny patterns. An iconic formation seal, not a technical blueprint.
+
+### Alquimista
+
+Create ONE single circular hand-painted Wuxia RPG profession icon on a square canvas. Genuine transparent background OUTSIDE the circular badge. A rough nearly black charcoal ink disk fills 86% of the square width with a hand-brushed irregular circumference. Center the subject inside it, filling about 65% of the disk. Simple matte fantasy inventory painting, broad confident visible gouache-like brush strokes, chunky low-detail shapes, easy to read at 48 pixels. Restrained antique bronze, umber, warm stone grey, muted sage and slate, with a few broad pale painted edges. Naturally colored painted subject against charcoal. Make it match round elemental icons painted on dark ink discs. No text, labels, writing, numbers, watermark, square backdrop, ornate rim, metal UI border, vector line art, 3D render, photorealism, tiny detail, glossy gradients, magical effects, particles, sparks, neon or glow. Subject: A squat antique bronze Chinese three-legged DING CAULDRON with two small side handles and a small low lid. ONE ochre round pill beside its base. Broad bronze and umber painted forms with a few muted sage patina strokes. Matte pot, no fire, steam, magic or glow. Only the pot and pill.

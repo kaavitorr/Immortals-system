@@ -1,0 +1,80 @@
+{
+  "_id": "bacc2000159dee51",
+  "name": "Rastro Fantasma",
+  "type": "feat",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/habilidades/ladrao-de-rua.webp",
+  "folder": "bacc000000000002",
+  "system": {
+    "identifier": "antecedente-ladrao-de-rua",
+    "type": {
+      "value": "background"
+    },
+    "description": {
+      "value": "<p>Você consegue sentir o cheiro de dinheiro, quando você detecta um objeto valioso e sabe informações suficientes sobre ele e seu dono, você é capaz de acha-lo como se existisse um rastro luminoso levando até seu alvo. Quando você invadir um lugar que contém um item específico que você busca. Você pode realizar um Teste de Sorte com CD definida pelo Narrador. Em caso de sucesso, você irá deduzir com sucesso onde o item se encontra na estrutura. Se você conseguirá rouba-lo é outra história.</p>"
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "activities": {
+      "bacc40008060428c": {
+        "_id": "bacc40008060428c",
+        "type": "check",
+        "name": "Rastro Fantasma",
+        "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/habilidades/ladrao-de-rua.webp",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "Conforme as condições da característica."
+        },
+        "consumption": {
+          "spellSlot": false,
+          "targets": []
+        },
+        "target": {
+          "affects": {
+            "type": "self"
+          },
+          "prompt": false,
+          "template": {
+            "units": "m"
+          }
+        },
+        "range": {
+          "units": "self"
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "description": {
+          "chatFlavor": "Rastro Fantasma",
+          "value": "<p>Você consegue sentir o cheiro de dinheiro, quando você detecta um objeto valioso e sabe informações suficientes sobre ele e seu dono, você é capaz de acha-lo como se existisse um rastro luminoso levando até seu alvo. Quando você invadir um lugar que contém um item específico que você busca. Você pode realizar um Teste de Sorte com CD definida pelo Narrador. Em caso de sucesso, você irá deduzir com sucesso onde o item se encontra na estrutura. Se você conseguirá rouba-lo é outra história.</p>"
+        },
+        "check": {
+          "ability": "",
+          "associated": [
+            "luc"
+          ],
+          "bonus": "",
+          "dc": {
+            "calculation": "",
+            "formula": ""
+          },
+          "visible": true
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundFeature": "ladrao-de-rua",
+      "backgroundRuleVersion": 1,
+      "featureSection": "jj-origin"
+    }
+  },
+  "_key": "!items!bacc2000159dee51"
+}

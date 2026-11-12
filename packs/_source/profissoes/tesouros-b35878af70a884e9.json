@@ -1,0 +1,15 @@
+{
+  "_id": "b35878af70a884e9",
+  "name": "Tesouros",
+  "type": "Item",
+  "folder": "881fadce1bce968c",
+  "sorting": "a",
+  "color": "#aa9566",
+  "flags": {
+    "Immortals-system": {
+      "professionProductsFolder": "treasure",
+      "professionProductsContentVersion": 2
+    }
+  },
+  "_key": "!folders!b35878af70a884e9"
+}

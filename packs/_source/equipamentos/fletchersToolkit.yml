@@ -1,0 +1,65 @@
+_id: fletchersToolkit
+_key: '!items!fletchersToolkit'
+name: Kit de Arqueiro
+type: tool
+img: icons/containers/ammunition/quiver-simple-brown.webp
+system:
+  identifier: tool-kit-fletching
+  description:
+    value: >-
+      <p>Aljava de couro com tampa selável, contendo torno montável, plaina, pincéis e um pequeno girador para enrolar
+      fio trançado. Se aberta, desdobra-se num tapete que serve como superfície plana de
+      trabalho.</p><p><strong>Propriedades:</strong> Empilhável.</p><p><strong>Profissões e conhecimentos:</strong>
+      Fabricação de Arcos.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 6
+    units: kg
+  price:
+    value: 1600
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: wis
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: zKA7bUzu7rPpL2lk
+sort: 1700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: fletchersToolkit
+      sourceType: tool
+      category: crafting
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

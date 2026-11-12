@@ -1,0 +1,15 @@
+{
+  "_id": "6ee7893fafdbf9cf",
+  "name": "Habilidades Especiais",
+  "type": "Item",
+  "folder": "1ac79c99963d80c7",
+  "sorting": "a",
+  "color": "#6f8793",
+  "flags": {
+    "Immortals-system": {
+      "qiTalentsFolder": "Habilidades Especiais",
+      "qiTalentsContentVersion": 1
+    }
+  },
+  "_key": "!folders!6ee7893fafdbf9cf"
+}

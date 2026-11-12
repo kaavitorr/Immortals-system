@@ -1,0 +1,46 @@
+_id: c5dc04cde17044a2
+name: Licor da Chuva Suspensa
+type: loot
+img: systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-06/c5dc04cde17044a2.webp
+folder: 39cb672eadd6fa61
+sort: 300000
+system:
+  identifier: reagente-c5dc04cde17044a2
+  type:
+    value: material
+    subtype: ''
+  description:
+    value: <p><strong>Nível:</strong> 6 · <strong>Categoria:</strong> Reagente · <strong>Função:</strong> Veículo</p><p>Líquido prateado muito claro, condensado de chuva espiritual e purificado até ficar uniforme. Atua como veículo de mistura para ingredientes do sexto nível. Permite trabalhar extratos, pós de minério e pigmentos preparados antes da etapa em que o artesão fixa a forma do produto.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  source:
+    custom: Immortals Legacy — Reagentes de Preparo
+effects: []
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    reagentMaterial:
+      level: 6
+      role: veiculo
+      category: reagente
+    materialEconomy:
+      version: 2
+      level: 6
+      category: reagente
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!c5dc04cde17044a2'

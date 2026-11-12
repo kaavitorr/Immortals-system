@@ -1,0 +1,53 @@
+_id: be7967383baca302
+_key: '!items!be7967383baca302'
+name: Carapaça de Tartaruga Negra do Norte
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/be7967383baca302.webp
+system:
+  identifier: material-alquimia-be7967383baca302
+  description:
+    value: <p><strong>Elemento:</strong> Espaço · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Parte de animal</p><p>Placa da Tartaruga Negra, sentinela da constelação do norte. Fragmentos polidos protegem expedições inteiras de serem tragadas por fendas súbitas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 200
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 9f6fb71207910da6
+sort: 15400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: espaco
+      elementLabel: Espaço
+      level: 8
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/espaco.json
+        originalName: Carapaça de Tartaruga Negra do Norte
+        sha256: e7d0006d3bc5b8eb4685c982cf4dd46c83df9af6d2f53fcd8b56c8b83060db26
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

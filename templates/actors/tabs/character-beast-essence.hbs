@@ -1,0 +1,97 @@
+<section class="tab {{tab.cssClass}} jj2-page iw-beast-essence" data-tab="{{tab.id}}" data-group="{{tab.group}}">
+  {{#unless beastEssence.hidden}}
+  <header class="iw-tab-heading iw-essence-heading">
+    <h2>{{#with jj2.tabImages.beastEssence as |image|}}<img class="iw-tab-heading-art" src="{{image}}" alt="" aria-hidden="true" width="28" height="28" draggable="false">{{else}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7 8-3-5 5 2 3-3 3 3 5-2-3 5 2 4-3 7-4 3-4-3-3-7 2-4Z"/><path d="m7 10 3 2m7-2-3 2m-4 5 2 1 2-1M12 18v4"/></svg>{{/with}}Essência de Besta</h2>
+    {{#if beastEssence.hasEssence}}<span class="iw-essence-status {{#if beastEssence.active}}is-active{{/if}} {{#if beastEssence.dormant}}is-dormant{{/if}}"><span class="iw-essence-status-mark" aria-hidden="true"></span>{{beastEssence.activeLabel}}</span>{{/if}}
+  </header>
+
+  {{#if beastEssence.hasEssence}}
+  <article class="iw-essence-integrated">
+    <div class="iw-essence-portrait"><img src="{{beastEssence.img}}" alt="{{beastEssence.name}}" width="136" height="160"></div>
+    <div class="iw-essence-identity">
+      <div class="iw-essence-title"><h3>{{beastEssence.name}}</h3><span class="iw-essence-growth">Crescimento {{beastEssence.growthLabel}}</span></div>
+      <p class="iw-essence-origin">Origem: {{beastEssence.sourceRankLabel}}</p>
+      <dl class="iw-essence-progression">
+        <div><dt>Seu cultivo</dt><dd>{{beastEssence.rankLabel}}</dd></div>
+        <div><dt>Limite de crescimento</dt><dd>{{beastEssence.limitRankLabel}}</dd></div>
+        <div><dt>Forma disponível</dt><dd>{{beastEssence.modeLabel}}</dd></div>
+        <div><dt>Cultivo da essência</dt><dd>{{beastEssence.effectiveCultivationLabel}}</dd></div>
+      </dl>
+      <div class="iw-essence-controls">
+        {{#if beastEssence.canActivate}}<button type="button" class="iw-essence-button iw-essence-primary" data-action="beastEssenceActivate"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 8 5v8l-8 5-8-5V8l8-5Z"/><path d="m9 8 6 4-6 4V8Z"/></svg>Iniciar transformação</button>{{/if}}
+        {{#if beastEssence.canDeactivate}}<button type="button" class="iw-essence-button iw-essence-primary" data-action="beastEssenceDeactivate"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 7a8 8 0 1 1-1 8M5 3v5h5"/></svg>Encerrar transformação</button>{{/if}}
+        {{#unless beastEssence.dormant}}<span class="iw-essence-upkeep">1 ação para transformar · {{beastEssence.upkeepQiLabel}} Qi Refinado na ativação e por turno</span>{{/unless}}
+      </div>
+    </div>
+  </article>
+  <section class="iw-essence-growth-panel" aria-label="Crescimento da essência">
+    <header><h3>Crescimento da essência</h3><span>{{beastEssence.growthReceiptLabel}}</span></header>
+    <ol class="iw-essence-growth-stages">{{#each beastEssence.growthStages}}<li class="{{#if current}}is-current{{/if}}" {{#if current}}aria-current="step"{{/if}}><span class="iw-essence-growth-mark" aria-hidden="true"></span><div><strong>{{label}}</strong><span>{{realm}}</span></div></li>{{/each}}</ol>
+  </section>
+  {{#if beastEssence.dormant}}<p class="iw-essence-notice"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5m0 3h.01"/></svg>{{beastEssence.dormantDescription}}</p>{{/if}}
+
+  <section class="iw-essence-benefits" aria-label="Benefícios da essência integrada">
+    <div class="iw-essence-benefit"><span>Qi máximo</span><strong>{{#unless beastEssence.qiBonusPending}}+{{/unless}}{{beastEssence.qiBonusLabel}}</strong><small>{{#if beastEssence.dormant}}Benefício suspenso{{else}}{{#if beastEssence.qiBonusPending}}Benefício aguardando definição{{else}}Da essência integrada{{/if}}{{/if}}</small></div>
+    <div class="iw-essence-benefit"><span>{{beastEssence.abilityLabel}}</span><strong>+{{beastEssence.abilityBonusLabel}}{{#unless beastEssence.dormant}} <small>até {{beastEssence.abilityCapLabel}}</small>{{/unless}}</strong><small>{{#if beastEssence.dormant}}Benefício suspenso{{else}}Durante a transformação{{/if}}</small></div>
+    <div class="iw-essence-benefit iw-essence-affinities"><span>Afinidades elementais</span><div>{{#each beastEssence.elements}}<span class="iw-essence-element">{{label}}</span>{{else}}<span class="iw-essence-no-elements">Nenhum elemento registrado</span>{{/each}}</div><small>{{#if beastEssence.dormant}}Afinidades suspensas{{else}}{{#if beastEssence.affinityPending}}Desconto de afinidade em definição{{else}}Aprendizado com afinidade até o nível {{beastEssence.affinityLevelLabel}}{{/if}}{{/if}}</small></div>
+  </section>
+
+  <div class="iw-essence-workspace">
+    <div class="iw-essence-capabilities">
+      <section class="iw-essence-panel iw-essence-weapons">
+        <header><h3>Armas naturais</h3><span>Durante a transformação</span></header>
+        <ul class="iw-essence-weapon-list">{{#each beastEssence.naturalWeapons}}<li>{{#if img}}<img src="{{img}}" alt="" width="28" height="28" loading="lazy">{{/if}}<span>{{name}}</span></li>{{else}}<li class="iw-essence-empty-line">Esta essência não possui armas naturais.</li>{{/each}}</ul>
+      </section>
+      <div class="iw-essence-form-grid" aria-label="Características e ataques por forma">
+        {{#each beastEssence.forms}}
+        <section class="iw-essence-panel iw-essence-form {{#if current}}is-current{{/if}}">
+          <header><h3>{{label}}</h3>{{#if current}}<span class="iw-essence-current-label">Disponível agora</span>{{/if}}</header>
+          {{#each lineages}}<div class="iw-essence-lineage"><strong>{{name}}</strong>{{#if summary}}<p>{{summary}}</p>{{/if}}</div>{{/each}}
+          <h4>Características e habilidades</h4>
+          <ul class="iw-essence-trait-list">{{#each traits}}<li class="{{#if locked}}is-locked{{/if}}">{{name}}{{#if locked}} <small>· Nível efetivo {{level}}</small>{{/if}}</li>{{else}}<li class="iw-essence-empty-line">Nenhuma característica selecionada.</li>{{/each}}</ul>
+          <h4>Ataques especiais</h4>
+          <ul class="iw-essence-attack-list">{{#each attacks}}<li><strong>{{name}}</strong><div><span>{{actionsLabel}} {{actionsNoun}}</span><span>{{areaLabel}}</span></div><small>{{damageLabel}} {{damageNoun}} de dano · Efeitos: {{effectQiLabel}} Qi{{#if costPending}} · Custo em definição{{/if}}</small></li>{{else}}<li class="iw-essence-empty-line">Nenhum ataque especial selecionado.</li>{{/each}}</ul>
+        </section>
+        {{/each}}
+      </div>
+      <p class="iw-essence-caption">As listas mostram as opções da essência. Use os itens concedidos abaixo para consultar e realizar suas atividades.</p>
+    </div>
+
+    <aside class="iw-essence-panel iw-essence-token">
+      <header><h3>Token da transformação</h3></header>
+      <div class="iw-essence-token-preview"><img src="{{beastEssence.tokenPreview}}" alt="Imagem do token da transformação" width="104" height="104" loading="lazy"></div>
+      <p>A imagem será aplicada durante a transformação.</p>
+      {{#if beastEssence.editable}}
+      <label class="iw-essence-token-field"><span>Caminho da imagem</span><input type="text" value="{{beastEssence.tokenTexture}}" data-beast-essence-token placeholder="Caminho ou URL da imagem" aria-label="Caminho da imagem do token da transformação" autocomplete="off"></label>
+      <div class="iw-essence-token-actions"><button type="button" class="iw-essence-button" data-action="beastEssencePickToken"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h7l2 2h9v11H3V7Zm0 0V4h7l2 3"/></svg>Escolher imagem</button><button type="button" class="iw-essence-button" data-action="beastEssenceSaveToken">Salvar caminho</button></div>
+      <small>Deixe o campo vazio para usar a imagem padrão da essência.</small>
+      {{/if}}
+    </aside>
+  </div>
+
+  <section class="iw-essence-panel iw-essence-grants">
+    <header><h3>Concessões temporárias</h3><span>{{#if beastEssence.hasGrantedItems}}Presentes na ficha{{else}}Nenhum item concedido{{/if}}</span></header>
+    {{#if beastEssence.hasGrantedItems}}<ul class="iw-essence-grant-list">{{#each beastEssence.grantedItems}}<li>{{#if img}}<img src="{{img}}" alt="" width="32" height="32" loading="lazy">{{/if}}<div><button type="button" class="iw-essence-item-link always-interactive" data-action="beastEssenceOpenItem" data-item-id="{{id}}">{{name}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14M10 3H3v18h18v-7"/></svg></button><span>{{type}}</span></div></li>{{/each}}</ul>{{else}}<p class="iw-essence-empty-line">Inicie a transformação para receber as armas e habilidades desta essência.</p>{{/if}}
+  </section>
+  {{else}}
+  <article class="iw-essence-empty-hero">
+    <img src="{{beastEssence.img}}" alt="" width="156" height="156">
+    <div><h3>Sua próxima forma começa com uma essência</h3><p>Integre a essência de uma besta para receber afinidades e assumir parte de sua forma.</p><p>Tenha uma essência no inventário, prepare a integração e conclua a tentativa ao fim de um descanso longo.</p></div>
+  </article>
+  {{/if}}
+
+  <details class="iw-essence-growth-guide">
+    <summary>Ranks de crescimento · 1d100</summary>
+    <p>A essência começa em Condensação de Qi e acompanha seu cultivo até o limite abaixo. No reino seguinte, fica enfraquecida. Dois reinos acima do limite, fica inativa.</p>
+    <table><thead><tr><th>Resultado</th><th>Rank</th><th>Limite de crescimento</th></tr></thead><tbody>{{#each beastEssence.growthTable}}<tr class="{{#if selected}}is-selected{{/if}}"><td>{{range}}</td><td>{{label}}</td><td>{{limit}}</td></tr>{{/each}}</tbody></table>
+  </details>
+
+  <section class="iw-essence-inventory" data-beast-essence-drop aria-label="Essências no inventário">
+    <header><div><h3>Essências no inventário</h3><p>Escolha qual essência preparar para o próximo descanso longo.</p></div></header>
+    {{#if beastEssence.pendingEssence}}<p class="iw-essence-pending"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 15.5A8 8 0 0 1 8.5 4a8 8 0 1 0 11.5 11.5Z"/></svg><span><strong>{{beastEssence.pendingEssence.name}}</strong> preparada. A tentativa será realizada ao fim do próximo descanso longo.{{#if beastEssence.hasEssence}} O sucesso substituirá sua essência atual.{{/if}}</span></p>{{/if}}
+    {{#if beastEssence.pendingMissing}}<p class="iw-essence-notice">A essência preparada não está mais no inventário. Prepare outra essência para o descanso longo.</p>{{/if}}
+    <ul class="iw-essence-owned-list">{{#each beastEssence.ownedEssences}}<li class="{{#if pending}}is-pending{{/if}}"><img src="{{img}}" alt="" width="46" height="46" loading="lazy"><div class="iw-essence-owned-copy"><button type="button" class="iw-essence-item-link always-interactive" data-action="beastEssenceOpenItem" data-item-id="{{id}}">{{name}}</button><span>Crescimento {{growthLabel}} · Limite: {{limitRankLabel}}</span><small>{{growthReceiptLabel}} · Antes de integrar: Condensação de Qi</small></div>{{#if pending}}<span class="iw-essence-pending-label">Preparada</span>{{else}}{{#if @root.beastEssence.editable}}<button type="button" class="iw-essence-button" data-action="beastEssencePrepareIntegration" data-item-id="{{id}}">Preparar integração</button>{{/if}}{{/if}}</li>{{else}}<li class="iw-essence-drop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M4 16v5h16v-5"/></svg><div><strong>Nenhuma essência no inventário</strong><p>Arraste para a ficha um item de essência recebido do Narrador. Se ele estiver em um compêndio, importe o item e adicione-o ao inventário.</p></div></li>{{/each}}</ul>
+  </section>
+  {{#if beastEssence.hasEssence}}{{#if beastEssence.editable}}<footer class="iw-essence-footer"><p>A integração bem-sucedida de outra essência substituirá a atual.</p><button type="button" class="iw-essence-button iw-essence-remove" data-action="beastEssenceRemove"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18M8 6V3h8v3M5 6l1 15h12l1-15M10 10v7m4-7v7"/></svg>Remover essência</button></footer>{{/if}}{{/if}}
+  {{/unless}}
+</section>

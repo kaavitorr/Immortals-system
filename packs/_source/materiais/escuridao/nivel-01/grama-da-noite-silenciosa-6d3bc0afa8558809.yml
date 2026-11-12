@@ -1,0 +1,53 @@
+_id: 6d3bc0afa8558809
+_key: '!items!6d3bc0afa8558809'
+name: Grama da Noite Silenciosa
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/6d3bc0afa8558809.webp
+system:
+  identifier: material-alquimia-6d3bc0afa8558809
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Planta</p><p>Suas hastes brotam onde o orvalho noturno recebe Qi yin sem ser tocado pelo nascer do sol. O extrato acomoda correntes espirituais de naturezas diferentes, servindo tanto de princípio de escuridão quanto de regulador que suaviza oscilações durante o refinamento de pílulas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 4e144b90025c6567
+sort: 100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 1
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Grama da Noite Silenciosa
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

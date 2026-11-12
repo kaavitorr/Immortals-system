@@ -1,0 +1,18 @@
+import assert from'node:assert/strict';import{test}from'node:test';import{elementalFeatureDocument}from'../module/systems/elemental-content.mjs';let api={};try{api=await import('../module/systems/elemental-capabilities.mjs');}catch(e){if(e.code!=='ERR_MODULE_NOT_FOUND')throw e;}
+const S='Immortals-system';function fixture(element,id,tier){const actor={uuid:'Actor.a',type:'character',isOwner:true,system:{elementAbilities:{[element]:{[id]:tier}},energy:{generated:20,total:150},legacy2:{actions:{value:6}}},flags:{[S]:{}}};const doc=elementalFeatureDocument(element,id,tier);const activities=Object.values(doc.system.activities).map(a=>({...a,id:a._id,actor,item:{id:'i',actor,isOwner:true,isEmbedded:true}}));return{actor,activities,doc};}
+test('readiness shows exact scalable Qi range and respects available balances',()=>{assert.equal(typeof api.elementalCapabilityState,'function');const f=fixture('luz','toqueCurativo',3),r=api.elementalCapabilityState(f.actor,'luz','toqueCurativo',{activity:f.activities[0]});assert.deepEqual(r.costRange,{min:1,max:30,pool:'generated'});assert.equal(r.canUse,true);f.actor.system.energy.generated=0;assert.equal(api.elementalCapabilityState(f.actor,'luz','toqueCurativo',{activity:f.activities[0]}).canUse,false);});
+test('perfect Electric Qi includes the confirmed learned Punishment retaliation',()=>{assert.equal(typeof api.elementalCapabilityState,'function');const f=fixture('relampago','qiEletrico',3),r=api.elementalCapabilityState(f.actor,'relampago','qiEletrico');assert.equal(r.fullyAutomatic,true);assert(r.clauses.every(c=>c.status==='automatic'));assert(r.clauses.some(c=>/Punição do Trovão/.test(c.label)));});
+test('known integrated passives include approved Cultivador and NPC HP',()=>{assert.equal(typeof api.elementalCapabilityState,'function');const f=fixture('terra','qiImutavel',2);assert.equal(api.elementalCapabilityState(f.actor,'terra','qiImutavel').fullyAutomatic,true);const wood=fixture('madeira','qiDenso',1);assert.equal(api.elementalCapabilityState(wood.actor,'madeira','qiDenso').fullyAutomatic,true);wood.actor.type='npc';assert.equal(api.elementalCapabilityState(wood.actor,'madeira','qiDenso').fullyAutomatic,true);});
+test('cooldown, unavailable parent step and item-use inventory disable only correct activity',()=>{assert.equal(typeof api.elementalCapabilityState,'function');const f=fixture('escuridao','absorcao',2),heal=f.activities.find(a=>a.flags[S].elementalActivity.key==='heal');assert.equal(api.elementalCapabilityState(f.actor,'escuridao','absorcao',{activity:heal,worldTime:0}).canUse,false);const rewind=fixture('tempo','rewind',1);rewind.actor.flags[S].elementalState={cooldowns:{'tempo:rewind:rewind':{availableAt:100}}};assert.equal(api.elementalCapabilityState(rewind.actor,'tempo','rewind',{activity:rewind.activities[0],worldTime:0}).canUse,false);});
+test('Self Haste has a confirmed one-use-per-turn rule even after all granted actions were spent',()=>{
+ for(let tier=1;tier<=3;tier++){
+  const f=fixture('tempo','selfHaste',tier),turn='Combat.confirmed:1:self';
+  const ready=api.elementalCapabilityState(f.actor,'tempo','selfHaste',{activity:f.activities[0],turn});
+  assert.equal(ready.fullyAutomatic,true);assert.equal(ready.canUse,true);
+  assert(!ready.clauses.some(clause=>clause.status==='rulePending'));
+  f.actor.flags[S].elementalState={haste:{turn,remaining:0}};
+  const used=api.elementalCapabilityState(f.actor,'tempo','selfHaste',{activity:f.activities[0],turn});
+  assert.equal(used.canUse,false);assert.match(used.reason,/uma vez por turno/);
+  assert.equal(api.elementalCapabilityState(f.actor,'tempo','selfHaste',{activity:f.activities[0],turn:'Combat.confirmed:2:self'}).canUse,true);
+ }
+});

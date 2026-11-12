@@ -1,0 +1,78 @@
+_id: 7508997d453c8dfe
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:212
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 7508997d453c8dfe
+name: Esquiva Elegante
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Quando essa criatura for alvo de uma rolagem de ataque (Comum), ela
+      pode gastar 2 PQ para dar um passo para o lado, esquivando-se totalmente do ataque. Ela pode fazer o mesmo contra
+      uma técnica, consumindo 2 Pontos de Ação [⬢⬢] e 6 PQ.</p>
+    chat: ''
+  identifier: esquiva-elegante
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    5e7acf2b0f915461:
+      _id: 5e7acf2b0f915461
+      type: utility
+      name: Esquiva Elegante
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Quando essa criatura for alvo de uma rolagem de ataque (Comum), ela pode gastar 2 PQ para dar um passo para
+          o lado, esquivando-se totalmente do ataque. Ela pode fazer o mesmo contra uma técnica, consumindo 2 Pontos de
+          Ação [⬢⬢] e 6 PQ.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/esquiva-elegante-7508997d453c8dfe.webp"
+_key: '!items!7508997d453c8dfe'

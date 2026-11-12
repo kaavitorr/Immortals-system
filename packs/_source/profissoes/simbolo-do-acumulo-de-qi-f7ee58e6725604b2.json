@@ -1,0 +1,163 @@
+{
+  "_id": "f7ee58e6725604b2",
+  "name": "Símbolo do Acúmulo de Qi",
+  "type": "equipment",
+  "folder": "0ba3fd64495066b2",
+  "img": "systems/Immortals-system/assets/wuxia/inscricoes-pintadas-v1/simbolo-do-acumulo-de-qi.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-simbolo-do-acumulo-de-qi",
+    "type": {
+      "value": "wondrous"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>SÍMBOLO DO ACÚMULO DE QI</h3>\n<table><tbody><tr><td>Tipo: Corpo</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 18</td></tr></tbody></table>\n<p>Um símbolo que aumenta o fluxo de circulação de Qi no corpo, permitindo que você cultive com uma maior velocidade.</p>\n<p>Você aumenta seu acúmulo de PEQ por dia em 5% e gera 1 Ponto de Qi adicionais no início de cada um de seus turnos para cada nível desse símbolo.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>250% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar esta inscrição ao suporte ou criatura indicado; vincular a habilidade e suas limitações ao alvo escolhido. A inscrição só concede seu benefício depois de aplicada ao suporte indicado e confirmada pelo narrador. Possuí-la no inventário não concede bônus nem condições.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 350 PO. <strong>Venda por unidade:</strong> 875 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"simbolo-do-acumulo-de-qi:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>carga mineral da runa</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">100 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/fd0c7dff7657188d.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"fd0c7dff7657188d\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.fd0c7dff7657188d\">Baga de Faísca Branca</a><small>condução de Qi</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/581c23844115c319.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"581c23844115c319\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.581c23844115c319\">Sal da Chama Mansa</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>350 PO</strong></footer></section>"
+    },
+    "activities": {
+      "be6a23067894fa7c": {
+        "_id": "be6a23067894fa7c",
+        "type": "utility",
+        "name": "Aplicar inscrição (resolução manual)",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>SÍMBOLO DO ACÚMULO DE QI</h3>\n<table><tbody><tr><td>Tipo: Corpo</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 18</td></tr></tbody></table>\n<p>Um símbolo que aumenta o fluxo de circulação de Qi no corpo, permitindo que você cultive com uma maior velocidade.</p>\n<p>Você aumenta seu acúmulo de PEQ por dia em 5% e gera 1 Ponto de Qi adicionais no início de cada um de seus turnos para cada nível desse símbolo.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>250% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar esta inscrição ao suporte ou criatura indicado; vincular a habilidade e suas limitações ao alvo escolhido. A inscrição só concede seu benefício depois de aplicada ao suporte indicado e confirmada pelo narrador. Possuí-la no inventário não concede bônus nem condições.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 350 PO. <strong>Venda por unidade:</strong> 875 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"simbolo-do-acumulo-de-qi:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>carga mineral da runa</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">100 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/fd0c7dff7657188d.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"fd0c7dff7657188d\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.fd0c7dff7657188d\">Baga de Faísca Branca</a><small>condução de Qi</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/581c23844115c319.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"581c23844115c319\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.581c23844115c319\">Sal da Chama Mansa</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>350 PO</strong></footer></section>",
+          "chatFlavor": "Símbolo do Acúmulo de Qi — Aplicar inscrição (resolução manual)"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "simbolo-do-acumulo-de-qi",
+              "key": "apply",
+              "level": 1,
+              "quality": null,
+              "manualResolution": true,
+              "consumeItem": false,
+              "rule": "simbolo-do-acumulo-de-qi",
+              "requiresAppliedInscription": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Aplicar inscrição (resolução manual)",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/inscricoes-pintadas-v1/simbolo-do-acumulo-de-qi.webp"
+      }
+    },
+    "equipped": false,
+    "price": {
+      "value": 875,
+      "denomination": "gp"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "simbolo-do-acumulo-de-qi",
+        "kind": "inscription",
+        "profession": "inscriptions",
+        "level": 1,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 1,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 3000,
+          "materials": 500,
+          "currency": "gp",
+          "rank": null
+        },
+        "creationPercent": 400,
+        "salePercent": 250,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 350,
+          "currency": "gp",
+          "rank": null
+        },
+        "sale": {
+          "amount": 875,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceCreation": {
+          "amount": 2000,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceSale": {
+          "amount": 5000,
+          "currency": "gp",
+          "rank": null
+        }
+      },
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Aplicar esta inscrição ao suporte ou criatura indicado; vincular a habilidade e suas limitações ao alvo escolhido.",
+          "A inscrição só concede seu benefício depois de aplicada ao suporte indicado e confirmada pelo narrador. Possuí-la no inventário não concede bônus nem condições."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!f7ee58e6725604b2"
+}

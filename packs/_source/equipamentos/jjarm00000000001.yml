@@ -1,0 +1,159 @@
+_id: jjarm00000000001
+_key: '!items!jjarm00000000001'
+name: Machado Grande
+type: weapon
+img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/machado-grande.webp
+system:
+  identifier: greataxe
+  description:
+    value: >-
+      <p>Arma imponente de cabeça larga, frequentemente de dois gumes; o machado grande é feito para golpes
+      devastadores, ceifando homens e feras com força terrível.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 8
+    units: kg
+  price:
+    value: 640
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - two
+    - hvy
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    34354a7ec9a4bf7a:
+      _id: 34354a7ec9a4bf7a
+      type: attack
+      name: Ataque
+      img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/machado-grande.webp
+      sort: 0
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '3'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      attack:
+        ability: ''
+        bonus: ''
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+        critical:
+          threshold: null
+      damage:
+        includeBase: true
+        parts: []
+        critical:
+          bonus: ''
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: m
+        value: 3
+        override: true
+        special: ''
+      target:
+        override: false
+        prompt: true
+        template:
+          type: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+  type:
+    value: martialM
+    baseItem: ''
+  ammunition:
+    type: ''
+  range:
+    units: m
+    value: null
+    long: null
+    reach: 3
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - slashing
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - slashing
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+effects: []
+folder: mmJSa1xhCb4ILfT7
+sort: 900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: greataxe00000000
+      sourceType: weapon
+      category: heavy2
+      quality: despertado
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: true
+      manualEffects: []

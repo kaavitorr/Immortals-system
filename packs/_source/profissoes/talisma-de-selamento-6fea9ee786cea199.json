@@ -1,0 +1,181 @@
+{
+  "_id": "6fea9ee786cea199",
+  "name": "Talismã de Selamento",
+  "type": "consumable",
+  "folder": "1a1dfff59dd402d3",
+  "img": "systems/Immortals-system/assets/wuxia/talismas-pintados-v1/talisma-de-selamento.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-talisma-de-selamento",
+    "type": {
+      "value": "scroll"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>TALISMÃ DE SELAMENTO</h3>\n<table><tbody><tr><td>Tipo: Utilitário</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 21</td></tr></tbody></table>\n<p>Um talismã que quando ativado com uma ação [1 ação], cria uma barreira de 30 metros de raio ao seu redor que bloqueia a passagem de todas as criaturas de rank igual ao nível equivalente ao símbolo ou menor.</p>\n<p>A barreira possui 150 Pontos de Vida por nível e recebe dano apenas de criaturas com Rank superior ao nível do símbolo.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>200% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Declarar ativação, alvos, área e duração conforme a descrição; resolver os efeitos táticos com o mestre. Desenhe a barreira de raio de 30 metros e acompanhe seus 150 PV. O narrador aplica os limites de rank; nenhum muro ou ator é criado automaticamente.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 700 PO. <strong>Venda por unidade:</strong> 1.400 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"talisma-de-selamento:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/b05766a030fd0655.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"b05766a030fd0655\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.b05766a030fd0655\">Junco das Fibras Renascidas</a><small>fibra do suporte</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>carga mineral da runa</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/4f0692301cd32d5f.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"4f0692301cd32d5f\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.4f0692301cd32d5f\">Galena da Gruta Surda</a><small>âncora de densidade</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/2aed4efcbad3b917.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"2aed4efcbad3b917\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.2aed4efcbad3b917\">Escama de Carpa dos Anéis Concêntricos</a><small>dispersão de impacto</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/7e51f53fbae07c20.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7e51f53fbae07c20\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7e51f53fbae07c20\">Goma do Pinheiro de Jade</a><small>Reagente · estabilizante e ligante do preparo</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>700 PO</strong></footer></section>"
+    },
+    "activities": {
+      "06823248212c4538": {
+        "_id": "06823248212c4538",
+        "type": "utility",
+        "name": "Criar barreira de selamento",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>TALISMÃ DE SELAMENTO</h3>\n<table><tbody><tr><td>Tipo: Utilitário</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 21</td></tr></tbody></table>\n<p>Um talismã que quando ativado com uma ação [1 ação], cria uma barreira de 30 metros de raio ao seu redor que bloqueia a passagem de todas as criaturas de rank igual ao nível equivalente ao símbolo ou menor.</p>\n<p>A barreira possui 150 Pontos de Vida por nível e recebe dano apenas de criaturas com Rank superior ao nível do símbolo.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>200% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Declarar ativação, alvos, área e duração conforme a descrição; resolver os efeitos táticos com o mestre. Desenhe a barreira de raio de 30 metros e acompanhe seus 150 PV. O narrador aplica os limites de rank; nenhum muro ou ator é criado automaticamente.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 700 PO. <strong>Venda por unidade:</strong> 1.400 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"talisma-de-selamento:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/b05766a030fd0655.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"b05766a030fd0655\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.b05766a030fd0655\">Junco das Fibras Renascidas</a><small>fibra do suporte</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>carga mineral da runa</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/4f0692301cd32d5f.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"4f0692301cd32d5f\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.4f0692301cd32d5f\">Galena da Gruta Surda</a><small>âncora de densidade</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/2aed4efcbad3b917.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"2aed4efcbad3b917\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.2aed4efcbad3b917\">Escama de Carpa dos Anéis Concêntricos</a><small>dispersão de impacto</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/7e51f53fbae07c20.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7e51f53fbae07c20\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7e51f53fbae07c20\">Goma do Pinheiro de Jade</a><small>Reagente · estabilizante e ligante do preparo</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>700 PO</strong></footer></section>",
+          "chatFlavor": "Talismã de Selamento — Criar barreira de selamento"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "spec",
+          "special": "Alcance não especificado na fonte; resolva com o narrador.",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "radius",
+            "size": "30",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "talisma-de-selamento",
+              "key": "seal",
+              "level": 1,
+              "quality": null,
+              "manualResolution": true,
+              "consumeItem": true,
+              "rule": "sealingTalisman",
+              "barrierHitPoints": 150,
+              "blocksRanksAtMost": 1,
+              "damagedOnlyByHigherRank": true,
+              "manualGeometry": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Criar barreira de selamento",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talismas-pintados-v1/talisma-de-selamento.webp"
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "price": {
+      "value": 1400,
+      "denomination": "gp"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "talisma-de-selamento",
+        "kind": "talisman",
+        "profession": "inscriptions",
+        "level": 1,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 1,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 3000,
+          "materials": 500,
+          "currency": "gp",
+          "rank": null
+        },
+        "creationPercent": 300,
+        "salePercent": 200,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 700,
+          "currency": "gp",
+          "rank": null
+        },
+        "sale": {
+          "amount": 1400,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceCreation": {
+          "amount": 1500,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceSale": {
+          "amount": 3000,
+          "currency": "gp",
+          "rank": null
+        }
+      },
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Declarar ativação, alvos, área e duração conforme a descrição; resolver os efeitos táticos com o mestre.",
+          "Desenhe a barreira de raio de 30 metros e acompanhe seus 150 PV. O narrador aplica os limites de rank; nenhum muro ou ator é criado automaticamente."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!6fea9ee786cea199"
+}

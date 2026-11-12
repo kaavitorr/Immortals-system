@@ -1,0 +1,13 @@
+_id: 791a9bcfcd47d17d
+_key: '!folders!791a9bcfcd47d17d'
+name: Nível 8
+type: Item
+folder: c850a5148710bf94
+sorting: a
+sort: 800000
+color: '#365f78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: agua
+      level: 8

@@ -1,0 +1,79 @@
+_id: 993367be87b6d592
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:164
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 993367be87b6d592
+name: Rugido Terrível
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢</strong></p><p>Ao gastar 6 PQ, a criatura emite um grito ou rugido extremamente alto,
+      potencializado pelo seu Qi. Toda criatura a 10 metros + 1 metro por ND recebe a condição “Estremecido” ao falhar
+      em uma Salvaguarda de Vontade, devendo repetir a Salvaguarda no fim de cada um dos turnos dela para tentar se
+      libertar do efeito.</p>
+    chat: ''
+  identifier: rugido-terrivel
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    d4d560cd2df7d1da:
+      _id: d4d560cd2df7d1da
+      type: utility
+      name: Rugido Terrível
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '6'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 6 PQ, a criatura emite um grito ou rugido extremamente alto, potencializado pelo seu Qi. Toda
+          criatura a 10 metros + 1 metro por ND recebe a condição “Estremecido” ao falhar em uma Salvaguarda de Vontade,
+          devendo repetir a Salvaguarda no fim de cada um dos turnos dela para tentar se libertar do efeito.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 7
+  prerequisites:
+    items: []
+    level: 7
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/rugido-terrivel-993367be87b6d592.webp"
+_key: '!items!993367be87b6d592'

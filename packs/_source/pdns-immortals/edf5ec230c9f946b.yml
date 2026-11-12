@@ -1,0 +1,85 @@
+name: Cortejo Ilusório
+type: feat
+folder: b4cdf08eea2c07d5
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢</p><p>A criatura manifesta diversas cópias de si e as coordena para cercar ou
+      dispersar a atenção de seus adversários. Cada cópia conta como 1 nível de engajamento ao se aproximar de uma
+      criatura e o usuário pode gastar 1 Ponto de Ação [⬢] e 2 PQ para trocar entre as cópias. Elas não podem se afastar
+      mais de 20 metros.</p>
+    chat: ''
+  identifier: cortejo-ilusorio
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    1953105082034c65:
+      _id: 1953105082034c65
+      type: utility
+      name: Cortejo Ilusório
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>A criatura manifesta diversas cópias de si e as coordena para cercar ou dispersar a atenção de seus
+          adversários. Cada cópia conta como 1 nível de engajamento ao se aproximar de uma criatura e o usuário pode
+          gastar 1 Ponto de Ação [⬢] e 2 PQ para trocar entre as cópias. Elas não podem se afastar mais de 20
+          metros.</p>
+        chatFlavor: ''
+      range:
+        value: 20
+        units: m
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: creature
+          count: '1'
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 12
+  prerequisites:
+    items: []
+    level: 12
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: edf5ec230c9f946b
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/criar-duplicata-a1c02db26d2bf55c.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:cortejoilusorio
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Tecelã de Miragens
+_key: '!items!edf5ec230c9f946b'

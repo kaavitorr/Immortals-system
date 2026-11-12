@@ -1,0 +1,53 @@
+_id: 8b0d37d23ff2c237
+_key: '!items!8b0d37d23ff2c237'
+name: Taboa de Espiga de Estanho
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/8b0d37d23ff2c237.webp
+system:
+  identifier: material-alquimia-8b0d37d23ff2c237
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Planta</p><p>Esta taboa nasce em brejos atravessados por veios de Qi metálico e forma espigas que endurecem em camadas finas sem perder o interior fibroso. Sua cinza purificada absorve umidade residual e fornece uma fração adstringente a preparados de recuperação dos tecidos superficiais.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 50
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 77a144bc11e1d2d8
+sort: 800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 1
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Taboa de Espiga de Estanho
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

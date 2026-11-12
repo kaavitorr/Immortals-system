@@ -1,0 +1,43 @@
+_id: 4af56efce85f33bc
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:39
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 4af56efce85f33bc
+name: Intimidadora
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: >-
+      <p>Essa criatura recebe vantagem em Testes de Atributo de Intimidação. Uma criatura intimidada por ela recebe
+      desvantagem ao atacá-la até o fim do próximo turno dessa criatura.</p>
+    chat: ''
+  identifier: intimidadora
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 7
+  prerequisites:
+    items: []
+    level: 7
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/intimidadora-4af56efce85f33bc.webp"
+_key: '!items!4af56efce85f33bc'

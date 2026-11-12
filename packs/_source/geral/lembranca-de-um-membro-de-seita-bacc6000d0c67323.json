@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000d0c67323",
+  "name": "Lembrança de um Membro de Seita",
+  "type": "loot",
+  "img": "icons/equipment/neck/amulet-carved-stone-hammer.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-lembranca-seita",
+    "description": {
+      "value": "<p>Bugiganga de um membro de seita morto pelo personagem; defina a aparência com o Narrador.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "gear"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "lembranca-seita"
+    }
+  },
+  "_key": "!items!bacc6000d0c67323"
+}

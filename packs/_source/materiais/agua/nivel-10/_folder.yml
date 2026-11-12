@@ -1,0 +1,13 @@
+_id: f433b84f9652e889
+_key: '!folders!f433b84f9652e889'
+name: Nível 10
+type: Item
+folder: c850a5148710bf94
+sorting: a
+sort: 1000000
+color: '#365f78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: agua
+      level: 10

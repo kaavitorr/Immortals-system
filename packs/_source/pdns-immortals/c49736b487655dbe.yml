@@ -1,0 +1,73 @@
+_id: c49736b487655dbe
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:82
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: c49736b487655dbe
+name: Chicote de Hifas
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢</strong></p><p>A criatura lança seus fios na direção de uma criatura a até 10 metros + 1 metro
+      por ND e, ao acertar o ataque, começa a sugar os nutrientes e o Qi do corpo do alvo. O alvo deve realizar uma
+      Salvaguarda de Vontade para não receber a condição “Letárgico” até o fim do próximo turno dele.</p>
+    chat: ''
+  identifier: chicote-de-hifas
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    df59cb8aed659509:
+      _id: df59cb8aed659509
+      type: utility
+      name: Chicote de Hifas
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura lança seus fios na direção de uma criatura a até 10 metros + 1 metro por ND e, ao acertar o
+          ataque, começa a sugar os nutrientes e o Qi do corpo do alvo. O alvo deve realizar uma Salvaguarda de Vontade
+          para não receber a condição “Letárgico” até o fim do próximo turno dele.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/chicote-de-hifas-c49736b487655dbe.webp"
+_key: '!items!c49736b487655dbe'

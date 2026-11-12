@@ -1,0 +1,46 @@
+_id: 6cfb0158d1e8e216
+name: Essência Aquosa do Vale Claro
+type: loot
+img: systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-05/6cfb0158d1e8e216.webp
+folder: 6ca40e0818256ef2
+sort: 300000
+system:
+  identifier: reagente-6cfb0158d1e8e216
+  type:
+    value: material
+    subtype: ''
+  description:
+    value: '<p><strong>Nível:</strong> 5 · <strong>Categoria:</strong> Reagente · <strong>Função:</strong> Veículo</p><p>Líquido azul muito pálido obtido por destilações sucessivas de água de nascente espiritual. É um veículo para misturas do quinto nível: dissolve extratos e distribui partículas sem substituir suas propriedades. Seu uso em alquimia, têmpera ou gravação é determinado pelo modo de preparo da receita.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>'
+    chat: ''
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-earth
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  source:
+    custom: Immortals Legacy — Reagentes de Preparo
+effects: []
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    reagentMaterial:
+      level: 5
+      role: veiculo
+      category: reagente
+    materialEconomy:
+      version: 2
+      level: 5
+      category: reagente
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!6cfb0158d1e8e216'

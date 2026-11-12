@@ -1,0 +1,50 @@
+_id: 18f857d6c39150b1
+name: Quartzo do Sino Claro
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/18f857d6c39150b1.webp
+system:
+  identifier: minerio-18f857d6c39150b1
+  description:
+    value: <p><strong>Nível:</strong> 1 · <strong>Categoria:</strong> Minério</p><p>Cresce sob santuários erguidos sobre veias espirituais, absorvendo a ressonância dos sinos usados na meditação. Suas pontas translúcidas devolvem um som limpo quando recebem Qi. Lapidado em focos ou contas, ajuda o artesão a manter uma cadência estável durante o refino e a inscrição.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: cfba75a524e8918d
+sort: 600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 1
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 1
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!18f857d6c39150b1'

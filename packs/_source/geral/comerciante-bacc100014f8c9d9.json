@@ -1,0 +1,75 @@
+{
+  "_id": "bacc100014f8c9d9",
+  "name": "Comerciante",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/comerciante.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-comerciante",
+    "description": {
+      "value": "<p>Um comerciante passou grande parte da sua vida lidando com negócios médios ou pequenos, lidando com logísticas e buscando preços favoráveis de fornecedores, assim como vendendo ou treinando profissionais em venda e em como tirar o máximo de lucro possível nas transações.</p><h3>Equipamentos iniciais</h3><p>Um kit de avaliação. <strong>120 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc200014f8c9d9]{Negociação}</h3><p>Você pode ter até abandonado a vida de comerciante, mas os costumes estão gravados em seus ossos, não deixando você ter prejuízo em nenhuma transação. Quando você estiver negociando um preço de venda de um item, você pode realizar um Teste de Sorte CD 15. Em caso de sucesso, você consegue um preço justo e um bônus de 3d10 x 10 PO. Se falhar, você não recebe nenhum bônus, mas o valor não pode cair mais de 10% do valor padrão. Você recupera essa característica ao fim de um descanso longo.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc500014f8c9d9",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 120,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc300014f8c9d9": {
+        "_id": "bacc300014f8c9d9",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc200014f8c9d9",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc700014f8c9d9": {
+        "_id": "bacc700014f8c9d9",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000dd735e9a",
+              "quantity": 1,
+              "optional": false
+            }
+          ],
+          "currency": {
+            "gp": 120
+          },
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "comerciante",
+        "startingGold": 120,
+        "equipment": "Um kit de avaliação."
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc100014f8c9d9"
+}

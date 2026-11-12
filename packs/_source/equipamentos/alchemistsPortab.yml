@@ -1,0 +1,66 @@
+_id: alchemistsPortab
+_key: '!items!alchemistsPortab'
+name: Bancada Portátil de Alquimista
+type: tool
+img: icons/tools/laboratory/vials-blue-pink.webp
+system:
+  identifier: workbench-alchemy
+  description:
+    value: >-
+      <p>Um destilador de cobre portátil favorecido por alquimistas sem acesso a uma oficina pessoal, devido à sua
+      natureza dobrável. Muitos de seus encaixes podem ser desaparafusados e guardados dentro do corpo do alambique para
+      viagem. Embora este item leve tempo para montar e desmontar, pode substituir um laboratório mais permanente para
+      quem viaja.</p><p><strong>Propriedades:</strong> Empilhável.</p><p><strong>Profissões e conhecimentos:</strong>
+      Alquimia.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 25
+    units: kg
+  price:
+    value: 3200
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: wis
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: zKA7bUzu7rPpL2lk
+sort: 1800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: alchemistsPortab
+      sourceType: tool
+      category: crafting
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

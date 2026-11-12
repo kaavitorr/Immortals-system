@@ -1,0 +1,46 @@
+name: Aura do Medo
+type: feat
+folder: 4858be5c4feed237
+system:
+  description:
+    value: >-
+      <p>No início de cada turno da criatura, todas as criaturas dentro de um raio de 10 metros + 1 metro para cada ND
+      que ela possuir, e que tenham um atributo de Presença inferior ao dela, devem realizar uma Salvaguarda de Vontade
+      com CD igual a 10 + o Atributo Principal da criatura. Em caso de falha, recebem a condição “Amedrontado” por 1
+      minuto ou até sofrer dano.</p><p>Uma criatura afetada fica imune a essa característica por um número de rodadas
+      igual ao tempo que ficou afetada.</p>
+    chat: ''
+  identifier: aura-do-medo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: Aukvw64u1rmEU69Z
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/aura-do-medo-Aukvw64u1rmEU69Z.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:auradomedo:52f4dd5d74ec
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: Aukvw64u1rmEU69Z
+_key: '!items!Aukvw64u1rmEU69Z'

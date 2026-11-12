@@ -1,0 +1,158 @@
+_id: greatclub0000000
+_key: '!items!greatclub0000000'
+name: Clava Grande
+type: weapon
+img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/clava-grande.webp
+system:
+  identifier: greatclub
+  description:
+    value: >-
+      <p>Um pedaço retorcido de madeira pesada, às vezes cravejado de ferro; a clava grande é uma arma tosca mas
+      temível, perigosa mesmo em mãos destreinadas.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 8
+    units: kg
+  price:
+    value: 320
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - two
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    fd83928cecfd2a1f:
+      _id: fd83928cecfd2a1f
+      type: attack
+      name: Ataque
+      img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/clava-grande.webp
+      sort: 0
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '3'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      attack:
+        ability: ''
+        bonus: ''
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+        critical:
+          threshold: null
+      damage:
+        includeBase: true
+        parts: []
+        critical:
+          bonus: ''
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: m
+        value: 2
+        override: true
+        special: ''
+      target:
+        override: false
+        prompt: true
+        template:
+          type: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+  type:
+    value: simpleM
+    baseItem: ''
+  ammunition:
+    type: ''
+  range:
+    units: m
+    value: null
+    long: null
+    reach: 2
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+effects: []
+folder: mmJSa1xhCb4ILfT7
+sort: 800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: greatclub0000000
+      sourceType: weapon
+      category: simple2
+      quality: despertado
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: true
+      manualEffects: []

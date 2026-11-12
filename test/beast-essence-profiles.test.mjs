@@ -1,0 +1,10 @@
+import assert from "node:assert/strict"; import {test} from "node:test"; let prepare; try {({prepareBeastEssenceProfiles: prepare}=await import("../module/systems/beast-essence-profiles.mjs"));} catch (e) {if (e.code!=="ERR_MODULE_NOT_FOUND") throw e;}
+/**
+ *
+ * @param mode
+ */
+function actor(mode="normal") {return {type: "character", flags: {"Immortals-system": {beastEssence: {integrated: {version: 1, id: "e", growth: "human", ability: "str", elements: [], taxonomy: {resistances: {fire: {value: 2}, cold: {value: -1}}, movement: {walk: 6, fly: 4}}, archetype: {resistances: {fire: {value: 2}, cold: {immune: true}}, movement: {ganho: 1, intervalo: 2, maximo: 20}}}, transformation: {active: mode!=="inactive", integrationId: "e"}}}}, system: {cultivation: {rank: mode==="weakened"?3:2, stage: 3}, legacy2: {resistances: {fire: {value: 1, immune: false}, cold: {value: 0, immune: false}}}, attributes: {movement: {units: "m", speeds: {walk: 10, fly: 0}}, senses: {units: "m", ranges: {}}}}};}
+test("native profile resistance scales with the cultivator, capped by essence growth", () => {assert.equal(typeof prepare, "function"); const a=actor(); prepare(a, v => v); assert.equal(a.system.legacy2.resistances.fire.value, 15); assert.equal(a.system.legacy2.resistances.cold.value, -1); assert.equal(a.system.legacy2.resistances.cold.immune, true);});
+test("weakened essence retains taxonomy without archetype statistics", () => {const a=actor("weakened"); prepare(a, v => v); assert.equal(a.system.legacy2.resistances.fire.value, 3); assert.equal(a.system.legacy2.resistances.cold.immune, false);});
+test("profile movement never overwrites a faster existing mode or permanent source", () => {const a=actor(); a.system._source=structuredClone(a.system); const before=structuredClone(a.system._source); prepare(a, v => v); assert.equal(a.system.attributes.movement.speeds.walk, 10); assert.equal(a.system.attributes.movement.speeds.fly, 7); assert.deepEqual(a.system._source, before);});
+test("inactive essences contribute no profile statistics", () => {const a=actor("inactive"); const before=structuredClone(a); prepare(a, v => v); assert.deepEqual(a, before);});

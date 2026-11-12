@@ -1,0 +1,135 @@
+{
+  "_id": "87afa170bccd15bc",
+  "name": "Corpo Perfeito",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/corpo-perfeito.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-corpo-perfeito",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo do Corpo.</p><h2>Corpo Perfeito</h2><p><strong>Requisito:</strong> 8º Portão</p><p>Todos os seus ataques (Comuns) passam a causar 2d8 de dano no lugar do original, independente da arma. Você também recebe as seguintes características adicionais:</p><ul><li>Você pode usar qualquer técnica ou ataque (Comum) como Reação ao consumir um Ponto de Ação [1 ação] adicional;</li><li>Enquanto dentro de combate, você pode gastar 6 Pontos de Ação na ativação e 2 PE no início de cada um de seus turnos para receber a condição “Acelerado” por quanto tempo desejar.</li></ul><p><strong>Pendente:</strong> A manutenção de Acelerado usa 2 PE por turno, sigla ainda não esclarecida. Confirme a reserva de 2 PE para manter Acelerado.</p>"
+    },
+    "activities": {
+      "e62938807656154a": {
+        "_id": "e62938807656154a",
+        "type": "utility",
+        "name": "Manter Corpo Perfeito Acelerado",
+        "activation": {
+          "type": "action",
+          "value": 6,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo do Corpo.</p><h2>Corpo Perfeito</h2><p><strong>Requisito:</strong> 8º Portão</p><p>Todos os seus ataques (Comuns) passam a causar 2d8 de dano no lugar do original, independente da arma. Você também recebe as seguintes características adicionais:</p><ul><li>Você pode usar qualquer técnica ou ataque (Comum) como Reação ao consumir um Ponto de Ação [1 ação] adicional;</li><li>Enquanto dentro de combate, você pode gastar 6 Pontos de Ação na ativação e 2 PE no início de cada um de seus turnos para receber a condição “Acelerado” por quanto tempo desejar.</li></ul><p><strong>Pendente:</strong> A manutenção de Acelerado usa 2 PE por turno, sigla ainda não esclarecida. Confirme a reserva de 2 PE para manter Acelerado.</p><p><strong>Custo pendente — uso bloqueado:</strong> A manutenção de 2 PE ainda não tem reserva confirmada.</p>",
+          "chatFlavor": "Corpo Perfeito — Manter Corpo Perfeito Acelerado"
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "expiry": null,
+          "special": "Em combate; manutenção de 2 PE no início de cada turno.",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "corpo-perfeito",
+              "key": "haste",
+              "manualResolution": true,
+              "rule": "perfectBodyHaste",
+              "condition": "acelerado",
+              "pendingCost": "A manutenção de 2 PE ainda não tem reserva confirmada."
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Manter Corpo Perfeito Acelerado",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/corpo-perfeito.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "corpo-perfeito",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo do Corpo",
+        "requisitos": [
+          "8º Portão"
+        ],
+        "requirementRules": {
+          "type": "body",
+          "min": 10
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "commonAttackBaseDamage",
+            "formula": "2d8",
+            "allWeapons": true
+          },
+          {
+            "type": "techniqueOrCommonAttackAsReaction",
+            "additionalActions": 1
+          }
+        ],
+        "manual": [],
+        "pending": [
+          "A manutenção de Acelerado usa 2 PE por turno, sigla ainda não esclarecida.",
+          "Confirme a reserva de 2 PE para manter Acelerado."
+        ]
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!87afa170bccd15bc"
+}

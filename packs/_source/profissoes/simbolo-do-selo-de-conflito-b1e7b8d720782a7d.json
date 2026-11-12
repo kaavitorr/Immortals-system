@@ -1,0 +1,179 @@
+{
+  "_id": "b1e7b8d720782a7d",
+  "name": "Símbolo do Selo de Conflito",
+  "type": "equipment",
+  "folder": "0ba3fd64495066b2",
+  "img": "systems/Immortals-system/assets/wuxia/inscricoes-pintadas-v1/simbolo-do-selo-de-conflito.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-simbolo-do-selo-de-conflito",
+    "type": {
+      "value": "wondrous"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>SÍMBOLO DO SELO DE CONFLITO</h3>\n<table><tbody><tr><td>Tipo: Corpo</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 17</td></tr></tbody></table>\n<p>Um símbolo que aumenta os aspectos físicos da criatura que receber o símbolo em seu corpo, mas ela deve pagar um preço por ele.</p>\n<p>Ao usar uma ação [1 ação], você pode gastar 10 Pontos de Qi do seu Qi Total para receber 2 Pontos de Atributo de Força, Agilidade e Constituição por 1 rodada. Você reduz o custo de ativação em 1 PQ e aumenta o benefício em 1 rodada para cada nível acima do primeiro.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>200% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar esta inscrição ao suporte ou criatura indicado; vincular a habilidade e suas limitações ao alvo escolhido. Confirme que a inscrição foi aplicada ao corpo. Registre +2 em Força, Agilidade e Constituição durante 1 rodadas e remova o benefício ao terminar; nenhum atributo é alterado automaticamente.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 550 PO. <strong>Venda por unidade:</strong> 1.100 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"simbolo-do-selo-de-conflito:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>carga mineral da runa</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">100 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/4407eaca47338381.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"4407eaca47338381\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.4407eaca47338381\">Presa de Javali da Brasa Rubra</a><small>vigor do golpe</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/fd0c7dff7657188d.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"fd0c7dff7657188d\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.fd0c7dff7657188d\">Baga de Faísca Branca</a><small>condução de Qi</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/581c23844115c319.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"581c23844115c319\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.581c23844115c319\">Sal da Chama Mansa</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>550 PO</strong></footer></section>"
+    },
+    "activities": {
+      "84884c44b0420392": {
+        "_id": "84884c44b0420392",
+        "type": "utility",
+        "name": "Ativar Selo de Conflito",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.total",
+              "value": "10",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>SÍMBOLO DO SELO DE CONFLITO</h3>\n<table><tbody><tr><td>Tipo: Corpo</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 17</td></tr></tbody></table>\n<p>Um símbolo que aumenta os aspectos físicos da criatura que receber o símbolo em seu corpo, mas ela deve pagar um preço por ele.</p>\n<p>Ao usar uma ação [1 ação], você pode gastar 10 Pontos de Qi do seu Qi Total para receber 2 Pontos de Atributo de Força, Agilidade e Constituição por 1 rodada. Você reduz o custo de ativação em 1 PQ e aumenta o benefício em 1 rodada para cada nível acima do primeiro.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>200% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar esta inscrição ao suporte ou criatura indicado; vincular a habilidade e suas limitações ao alvo escolhido. Confirme que a inscrição foi aplicada ao corpo. Registre +2 em Força, Agilidade e Constituição durante 1 rodadas e remova o benefício ao terminar; nenhum atributo é alterado automaticamente.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 550 PO. <strong>Venda por unidade:</strong> 1.100 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"simbolo-do-selo-de-conflito:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>carga mineral da runa</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">100 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/4407eaca47338381.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"4407eaca47338381\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.4407eaca47338381\">Presa de Javali da Brasa Rubra</a><small>vigor do golpe</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/fd0c7dff7657188d.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"fd0c7dff7657188d\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.fd0c7dff7657188d\">Baga de Faísca Branca</a><small>condução de Qi</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/581c23844115c319.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"581c23844115c319\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.581c23844115c319\">Sal da Chama Mansa</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>550 PO</strong></footer></section>",
+          "chatFlavor": "Símbolo do Selo de Conflito — Ativar Selo de Conflito"
+        },
+        "duration": {
+          "value": "1",
+          "units": "round",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "simbolo-do-selo-de-conflito",
+              "key": "activate",
+              "level": 1,
+              "quality": null,
+              "manualResolution": true,
+              "consumeItem": false,
+              "rule": "conflictSeal",
+              "attributeBonus": 2,
+              "attributes": [
+                "str",
+                "dex",
+                "con"
+              ],
+              "manualAppliedInscription": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Ativar Selo de Conflito",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/inscricoes-pintadas-v1/simbolo-do-selo-de-conflito.webp"
+      }
+    },
+    "equipped": false,
+    "price": {
+      "value": 1100,
+      "denomination": "gp"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "simbolo-do-selo-de-conflito",
+        "kind": "inscription",
+        "profession": "inscriptions",
+        "level": 1,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 1,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 3000,
+          "materials": 500,
+          "currency": "gp",
+          "rank": null
+        },
+        "creationPercent": 150,
+        "salePercent": 200,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 550,
+          "currency": "gp",
+          "rank": null
+        },
+        "sale": {
+          "amount": 1100,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceCreation": {
+          "amount": 750,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceSale": {
+          "amount": 1500,
+          "currency": "gp",
+          "rank": null
+        }
+      },
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Aplicar esta inscrição ao suporte ou criatura indicado; vincular a habilidade e suas limitações ao alvo escolhido.",
+          "Confirme que a inscrição foi aplicada ao corpo. Registre +2 em Força, Agilidade e Constituição durante 1 rodadas e remova o benefício ao terminar; nenhum atributo é alterado automaticamente."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!b1e7b8d720782a7d"
+}

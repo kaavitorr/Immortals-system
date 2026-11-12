@@ -1,0 +1,135 @@
+_id: net0000000000000
+_key: '!items!net0000000000000'
+name: Rede
+type: consumable
+img: icons/tools/fishing/net-simple-tan.webp
+system:
+  identifier: net
+  description:
+    value: >-
+      <p>Estas fibras densamente tecidas são reforçadas para uso em combate, prendendo e enredando até os adversários
+      mais perigosos, deixando-os vulneráveis.</p><p><strong>Propriedades:</strong> Empilhável, Arremesso.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 0
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  activities:
+    861ba22f306b6802:
+      _id: 861ba22f306b6802
+      type: utility
+      name: Arremessar rede
+      img: icons/tools/fishing/net-simple-tan.webp
+      sort: 0
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '3'
+          - type: itemUses
+            target: ''
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        value: <p>The target captured by the thrown net is Imobilizado until they can get free.</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: m
+        value: 20
+        special: ''
+      target:
+        override: true
+        prompt: true
+        template:
+          type: ''
+          size: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+          special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  type:
+    value: trinket
+    subtype: ''
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    replace: false
+effects: []
+folder: gSADApbBEeo51EEP
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: net0000000000000
+      sourceType: consumable
+      category: trap
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+        - thrown
+      weaponDamagePending: false
+      manualEffects: []

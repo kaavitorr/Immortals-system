@@ -1,0 +1,46 @@
+_id: aada69663d799e39
+name: Orvalho da Veia Clara
+type: loot
+img: systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/aada69663d799e39.webp
+folder: 392050e27983b981
+sort: 300000
+system:
+  identifier: reagente-aada69663d799e39
+  type:
+    value: material
+    subtype: ''
+  description:
+    value: <p><strong>Nível:</strong> 1 · <strong>Categoria:</strong> Reagente · <strong>Função:</strong> Veículo</p><p>Condensa sobre raízes de pedra nos pontos em que uma veia espiritual aflora antes do amanhecer. Destilado em jade, conserva um Qi suave que permite dispersar extratos e pós sem impor uma afinidade dominante. Serve de veículo para reunir ingredientes espirituais durante o preparo de pílulas e outros produtos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 50
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  source:
+    custom: Immortals Legacy — Reagentes de Preparo
+effects: []
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    reagentMaterial:
+      level: 1
+      role: veiculo
+      category: reagente
+    materialEconomy:
+      version: 2
+      level: 1
+      category: reagente
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!aada69663d799e39'

@@ -1,0 +1,108 @@
+/**
+ * jj/features.mjs
+ * Seções customizadas da aba de Características (Features, Inventory, Spells).
+ */
+
+export function setupFeatureSectionCollapse(element) {
+  ["features", "inventory", "spells"].forEach(tabId => {
+    const tab = element.querySelector(`.tab[data-tab="${tabId}"]`);
+    if ( !tab ) return;
+    tab.querySelectorAll(".items-section > header, .items-section > .items-header").forEach(header => {
+      if ( header.dataset.jjCollapseBound ) return;
+      header.dataset.jjCollapseBound = "1";
+      header.style.cursor = "pointer";
+      header.style.userSelect = "none";
+      if ( !header.querySelector(".jj-collapse-icon") ) {
+        const icon = document.createElement("i");
+        icon.className = "fas fa-chevron-down jj-collapse-icon";
+        icon.style.cssText = "margin-left: auto; font-size: 10px; opacity: 0.4; transition: transform 200ms ease; flex-shrink: 0;";
+        header.appendChild(icon);
+      }
+      header.addEventListener("click", e => {
+        if ( e.target.closest("button, a, input, [data-action]") ) return;
+        const section = header.closest(".items-section");
+        if ( !section ) return;
+        const isCollapsed = section.classList.toggle("jj-collapsed");
+        const icon = header.querySelector(".jj-collapse-icon");
+        section.querySelectorAll(":scope > *:not(header):not(.items-header)").forEach(el => {
+          el.style.display = isCollapsed ? "none" : "";
+        });
+        if ( icon ) icon.style.transform = isCollapsed ? "rotate(-90deg)" : "";
+      });
+    });
+  });
+}
+
+export function unhideFeatureSections(element) {
+  const featuresTab = element.querySelector('.tab[data-tab="features"]');
+  if ( !featuresTab ) return;
+  ["jj-origin", "jj-combat", "jj-talents", "jj-flaws", "jj-benefits", "jj-curses"].forEach(id => {
+    const section = featuresTab.querySelector(`[data-group-origin="${id}"]`);
+    if ( section ) section.removeAttribute("hidden");
+  });
+}
+
+export const JJ_FEATURE_SECTIONS = new Set(["jj-origin", "jj-combat", "jj-talents", "jj-flaws", "jj-benefits", "jj-curses"]);
+
+export function setupFeatureSectionDrops(element, actor) {
+  const featuresTab = element.querySelector('.tab[data-tab="features"]');
+  if ( !featuresTab ) return;
+
+  JJ_FEATURE_SECTIONS.forEach(sectionId => {
+    const section = featuresTab.querySelector(`[data-group-origin="${sectionId}"]`);
+    if ( !section ) return;
+
+    section.addEventListener("dragover", e => {
+      e.preventDefault();
+      section.classList.add("jj-drag-over");
+    });
+
+    section.addEventListener("dragleave", () => {
+      section.classList.remove("jj-drag-over");
+    });
+
+    section.addEventListener("drop", async e => {
+      section.classList.remove("jj-drag-over");
+      let dragData;
+      try { dragData = JSON.parse(e.dataTransfer.getData("text/plain")); }
+      catch(err) { return; }
+      if ( dragData?.type !== "Item" ) return;
+      const item = dragData.uuid ? await fromUuid(dragData.uuid) : actor.items.get(dragData.id);
+      if ( !item || item.type !== "feat" ) return;
+      // Pequeno delay para o nativo processar primeiro
+      setTimeout(async () => {
+        // Item já pertence ao ator: marca direto
+        if ( item.parent === actor ) {
+          await item.setFlag("Immortals-system", "featureSection", sectionId);
+          return;
+        }
+        // Item de compendium: localiza a cópia criada pelo drop nativo (sourceId/nome) e marca
+        const source = dragData.uuid;
+        const candidates = Array.from(actor.items).filter(i => i.type === "feat"
+          && (i.getFlag("core", "sourceId") === source
+            || i._stats?.compendiumSource === source
+            || i._source?._stats?.compendiumSource === source
+            || i.name === item.name));
+        const created = candidates.filter(i => !i.getFlag("Immortals-system", "featureSection")).at(-1)
+          ?? candidates.at(-1);
+        if ( created ) await created.setFlag("Immortals-system", "featureSection", sectionId);
+      }, 50);
+    });
+  });
+
+  // Seções nativas — limpar flag quando item volta
+  const nativeSections = featuresTab.querySelectorAll("[data-group-origin]:not([data-group-origin^='jj-'])");
+  nativeSections.forEach(section => {
+    section.addEventListener("drop", async e => {
+      let dragData;
+      try { dragData = JSON.parse(e.dataTransfer.getData("text/plain")); }
+      catch(err) { return; }
+      if ( dragData?.type !== "Item" ) return;
+      const item = dragData.uuid ? await fromUuid(dragData.uuid) : actor.items.get(dragData.id);
+      if ( !item || item.parent !== actor ) return;
+      const hasFlag = item.getFlag("Immortals-system", "featureSection");
+      if ( hasFlag ) await item.unsetFlag("Immortals-system", "featureSection");
+    });
+  });
+}
+

@@ -1,0 +1,163 @@
+{
+  "_id": "80e3027dcc4d3811",
+  "name": "Símbolo do Fio Incomparável",
+  "type": "equipment",
+  "folder": "0ba3fd64495066b2",
+  "img": "systems/Immortals-system/assets/wuxia/inscricoes-pintadas-v1/simbolo-do-fio-incomparavel.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-simbolo-do-fio-incomparavel",
+    "type": {
+      "value": "wondrous"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>SÍMBOLO DO FIO INCOMPARÁVEL</h3>\n<table><tbody><tr><td>Tipo: Arma</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 18</td></tr></tbody></table>\n<p>Um símbolo que, ao colocado em uma arma, faz com que você possa causar dano sem sofrer reduções de Rank em criaturas um Rank acima ao do símbolo para baixo.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>300% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar esta inscrição ao suporte ou criatura indicado; vincular a habilidade e suas limitações ao alvo escolhido. A inscrição só concede seu benefício depois de aplicada ao suporte indicado e confirmada pelo narrador. Possuí-la no inventário não concede bônus nem condições.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 300 PO. <strong>Venda por unidade:</strong> 900 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"simbolo-do-fio-incomparavel:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>carga mineral da runa</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">100 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/d56996bdf756ac2f.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">3</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"d56996bdf756ac2f\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.d56996bdf756ac2f\">Grama da Lâmina Fina</a><small>potência do corte</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">150 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/581c23844115c319.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"581c23844115c319\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.581c23844115c319\">Sal da Chama Mansa</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>300 PO</strong></footer></section>"
+    },
+    "activities": {
+      "a3943e81d2d63067": {
+        "_id": "a3943e81d2d63067",
+        "type": "utility",
+        "name": "Aplicar inscrição (resolução manual)",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>SÍMBOLO DO FIO INCOMPARÁVEL</h3>\n<table><tbody><tr><td>Tipo: Arma</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 18</td></tr></tbody></table>\n<p>Um símbolo que, ao colocado em uma arma, faz com que você possa causar dano sem sofrer reduções de Rank em criaturas um Rank acima ao do símbolo para baixo.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>300% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar esta inscrição ao suporte ou criatura indicado; vincular a habilidade e suas limitações ao alvo escolhido. A inscrição só concede seu benefício depois de aplicada ao suporte indicado e confirmada pelo narrador. Possuí-la no inventário não concede bônus nem condições.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 300 PO. <strong>Venda por unidade:</strong> 900 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"simbolo-do-fio-incomparavel:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>carga mineral da runa</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">100 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/d56996bdf756ac2f.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">3</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"d56996bdf756ac2f\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.d56996bdf756ac2f\">Grama da Lâmina Fina</a><small>potência do corte</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">150 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/581c23844115c319.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"581c23844115c319\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.581c23844115c319\">Sal da Chama Mansa</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>300 PO</strong></footer></section>",
+          "chatFlavor": "Símbolo do Fio Incomparável — Aplicar inscrição (resolução manual)"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "simbolo-do-fio-incomparavel",
+              "key": "apply",
+              "level": 1,
+              "quality": null,
+              "manualResolution": true,
+              "consumeItem": false,
+              "rule": "simbolo-do-fio-incomparavel",
+              "requiresAppliedInscription": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Aplicar inscrição (resolução manual)",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/inscricoes-pintadas-v1/simbolo-do-fio-incomparavel.webp"
+      }
+    },
+    "equipped": false,
+    "price": {
+      "value": 900,
+      "denomination": "gp"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "simbolo-do-fio-incomparavel",
+        "kind": "inscription",
+        "profession": "inscriptions",
+        "level": 1,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 1,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 3000,
+          "materials": 500,
+          "currency": "gp",
+          "rank": null
+        },
+        "creationPercent": 750,
+        "salePercent": 300,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 300,
+          "currency": "gp",
+          "rank": null
+        },
+        "sale": {
+          "amount": 900,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceCreation": {
+          "amount": 3750,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceSale": {
+          "amount": 11250,
+          "currency": "gp",
+          "rank": null
+        }
+      },
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Aplicar esta inscrição ao suporte ou criatura indicado; vincular a habilidade e suas limitações ao alvo escolhido.",
+          "A inscrição só concede seu benefício depois de aplicada ao suporte indicado e confirmada pelo narrador. Possuí-la no inventário não concede bônus nem condições."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!80e3027dcc4d3811"
+}

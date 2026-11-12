@@ -1,0 +1,13 @@
+_id: b784b8a87da448db
+_key: '!folders!b784b8a87da448db'
+name: Nível 5
+type: Item
+folder: 1e7500f1620000ec
+sorting: a
+sort: 500000
+color: '#5f6d78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: metal
+      level: 5

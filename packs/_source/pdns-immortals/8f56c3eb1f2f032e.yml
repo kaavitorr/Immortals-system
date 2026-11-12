@@ -1,0 +1,72 @@
+_id: 8f56c3eb1f2f032e
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:66
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 8f56c3eb1f2f032e
+name: Abraço Esmagador
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢</strong></p><p>Essa criatura pode realizar uma jogada de ataque de Atletismo com CD igual à
+      Classe de Resistência do alvo. Em caso de acerto, ela causa dano igual ao seu atributo de Força e prende o
+      alvo.</p>
+    chat: ''
+  identifier: abraco-esmagador
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    c262a24234e7a2a1:
+      _id: c262a24234e7a2a1
+      type: utility
+      name: Abraço Esmagador
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Essa criatura pode realizar uma jogada de ataque de Atletismo com CD igual à Classe de Resistência do alvo.
+          Em caso de acerto, ela causa dano igual ao seu atributo de Força e prende o alvo.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 2
+  prerequisites:
+    items: []
+    level: 2
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/abraco-esmagador-8f56c3eb1f2f032e.webp"
+_key: '!items!8f56c3eb1f2f032e'

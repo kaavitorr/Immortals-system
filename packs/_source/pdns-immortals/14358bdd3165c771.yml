@@ -1,0 +1,83 @@
+name: Marcas do Domínio
+type: feat
+folder: b4cdf08eea2c07d5
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢⬢⬢⬢⬢</p><p>O dragão impregna partes do terreno com seu Qi elemental. Ao gastar 5
+      Pontos de Ação [⬢⬢⬢⬢⬢] e 8 PQ, o dragão forma um mar elemental ao seu redor em uma área de 100 metros, mas
+      mantendo uma área de 6 metros no centro livre. Todas as criaturas que iniciarem o turno dentro do mar elemental ou
+      se moverem 2 metros dentro dele, sofrem 1d4 de dano do mesmo tipo do mar.</p>
+    chat: ''
+  identifier: marcas-do-dominio
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    2c848ede8a2f643d:
+      _id: 2c848ede8a2f643d
+      type: utility
+      name: Marcas do Domínio
+      activation:
+        type: action
+        value: 5
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '8'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>O dragão impregna partes do terreno com seu Qi elemental. Ao gastar 5 Pontos de Ação [⬢⬢⬢⬢⬢] e 8 PQ, o
+          dragão forma um mar elemental ao seu redor em uma área de 100 metros, mas mantendo uma área de 6 metros no
+          centro livre. Todas as criaturas que iniciarem o turno dentro do mar elemental ou se moverem 2 metros dentro
+          dele, sofrem 1d4 de dano do mesmo tipo do mar.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 10
+  prerequisites:
+    items: []
+    level: 10
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: 14358bdd3165c771
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/onda-de-choque-51e39c28d12d4895.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:marcasdodominio
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Soberano Elemental
+_key: '!items!14358bdd3165c771'

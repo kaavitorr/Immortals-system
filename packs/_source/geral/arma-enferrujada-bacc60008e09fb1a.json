@@ -1,0 +1,36 @@
+{
+  "_id": "bacc60008e09fb1a",
+  "name": "Arma Enferrujada",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-guard-brown.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-arma-enferrujada",
+    "description": {
+      "value": "<p>Arma enferrujada do mendigo; dano base 1d4.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "simpleM"
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "bonus": "",
+        "types": []
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "arma-enferrujada"
+    }
+  },
+  "_key": "!items!bacc60008e09fb1a"
+}

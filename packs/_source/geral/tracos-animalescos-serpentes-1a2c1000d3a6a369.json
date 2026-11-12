@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000d3a6a369",
+  "name": "Traços Animalescos — Serpentes",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/reptiles/snake-poised-white.webp",
+  "system": {
+    "identifier": "especie-dd64e829",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Serpentes. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c1000a71f057b": {
+        "_id": "1a2c1000a71f057b",
+        "type": "ItemChoice",
+        "title": "Duas características — Serpentes",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.tDx6xp86t21cf7vx"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.LCi3OtRhtVyLQ8iX"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Serpentes",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000d3a6a369"
+}

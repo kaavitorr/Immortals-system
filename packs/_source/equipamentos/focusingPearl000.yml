@@ -1,0 +1,132 @@
+_id: focusingPearl000
+_key: '!items!focusingPearl000'
+name: Pérola Focalizante
+type: equipment
+img: icons/commodities/gems/pearl-blue-gold.webp
+system:
+  identifier: focusing-pearl
+  description:
+    value: >-
+      <blockquote><p>Uma pequena pérola azul vibrante que se mantém refrescantemente fria ao toque, independentemente da
+      temperatura ambiente.</p></blockquote><p>Esta pérola encantada concede ao portador a ação <strong>Repor
+      Essência</strong>, proporcionando uma reserva adicional de <strong>Essência</strong> que pode ser utilizada em
+      momentos de aflição.</p><p><strong>Propriedades:</strong> Vinculação.</p><h3>Focalizante</h3><p>Grants the
+      <strong>Replenish Qi</strong> action, allowing the bearer to restore <strong>Qi</strong> in moments of duress. The
+      amount restored scales with the <strong>Tier</strong> of this affix.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - mgc
+  equipped: false
+  attunement: required
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    e53c341093d6811c:
+      _id: e53c341093d6811c
+      type: utility
+      name: Recuperar Qi
+      img: icons/magic/control/orb-web-hold.webp
+      sort: 0
+      activation:
+        type: action
+        value: 2
+        condition: 'Custo especial da origem: 1 de Heroísmo; o mestre define o recurso equivalente.'
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        value: >-
+          <p>In moments of duress you can withdraw an additional reserve of <strong>Qi</strong> from this item. The
+          amount of Qi restored depends on the <strong>Tier</strong> of this prefix.</p><ul><li><p><strong>Tier
+          1:</strong> <strong>4 Qi</strong></p></li><li><p><strong>Tier 2:</strong> <strong>6
+          Qi</strong></p></li><li><p><strong>Tier 3:</strong> <strong>8 Qi</strong></p></li></ul>
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: self
+        value: null
+        special: ''
+      target:
+        override: true
+        prompt: true
+        template:
+          type: ''
+          size: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: self
+          count: ''
+          choice: false
+          special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  type:
+    value: wondrous
+    baseItem: ''
+  armor:
+    value: 0
+    dex: null
+    ability: ''
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: 9dQstjMRdKq0a6WC
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: focusingPearl000
+      sourceType: accessory
+      category: trinket
+      quality: fine
+      enchantment: minor
+      properties:
+        - investment
+      weaponDamagePending: false
+      manualEffects:
+        - Focalizante

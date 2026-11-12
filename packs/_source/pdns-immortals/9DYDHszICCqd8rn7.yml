@@ -1,0 +1,140 @@
+name: Anfíbios
+type: taxonomy
+folder: UKAqYZXsjHSdQ5aw
+system:
+  description:
+    value: >-
+      <p>Reúne criaturas de traços anfíbios, como sapos, rãs, pererecas e salamandras, adaptadas à água e a ambientes
+      terrestres úmidos.</p><p><strong>Resistência:</strong> Contundente +3 | Frio
+      +3</p><p><strong>Vulnerabilidade:</strong> Elétrico -3 | Fogo -3</p><p><strong>Deslocamento:</strong> Caminhada: 6
+      m | Natação: 10</p><p><strong>Armaduras:</strong> Pele Grossa (10 + Reflexo); ou Tanque com Escamas Pesadas (14 +
+      Con).</p><p><strong>Perícias:</strong> Proficiências: Coordenação, Sobrenatural, Percepção,
+      Sobrevivência.</p><p><strong>Salvaguardas:</strong> Proficiências: Reflexo e
+      Vontade.</p><p><strong>Aspectos:</strong> Salto Parado, Anfíbio.</p>
+    chat: ''
+  identifier: anfibios
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 1
+    dex: 3
+    con: 3
+    int: 1
+    wis: 3
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: 3
+      immune: false
+    piercing:
+      value: 0
+      immune: false
+    slashing:
+      value: 0
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 3
+      immune: false
+    fire:
+      value: -3
+      immune: false
+    lightning:
+      value: -3
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 0
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.acr
+      - skills.ani
+      - skills.prc
+      - skills.sur
+      - saves.dex
+      - saves.int
+      - saves.con
+      - saves.cha
+    alternative:
+      - skills.acr
+      - skills.ani
+      - skills.prc
+      - skills.sur
+      - alternativeSaves.reflexo
+      - alternativeSaves.vontade
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.SXzgK3cSmLFXES3o
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.LANQXB2wFNWNGzfb
+      nd: 0
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000012
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000003
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000009
+  vidaEnergia: false
+  energiaBase: 10
+  movimento:
+    walk: 6
+    swim: 10
+    fly: 0
+    climb: 0
+    burrow: 0
+_id: 9DYDHszICCqd8rn7
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/taxonomias/anfibios.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:taxonomy:anfibios
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 9DYDHszICCqd8rn7
+_key: '!items!9DYDHszICCqd8rn7'

@@ -1,0 +1,336 @@
+{
+  "source": "Foundry VTT core icons",
+  "icons": [
+    {
+      "kind": "background",
+      "id": "acompanhante",
+      "name": "Acompanhante",
+      "source": "sundries/survival/mirror-plain.webp",
+      "relative": "antecedentes-pintados-v1/acompanhante.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "acompanhante",
+      "name": "Amigos Influentes",
+      "source": "sundries/documents/document-sealed-brown-red.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/acompanhante.webp"
+    },
+    {
+      "kind": "background",
+      "id": "aprendiz-marcial",
+      "name": "Aprendiz Marcial",
+      "source": "skills/melee/hand-grip-staff-blue.webp",
+      "relative": "antecedentes-pintados-v1/aprendiz-marcial.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "aprendiz-marcial",
+      "name": "Desafiar Seita",
+      "source": "skills/melee/weapons-crossed-swords-black-gray.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/aprendiz-marcial.webp"
+    },
+    {
+      "kind": "background",
+      "id": "ator",
+      "name": "Ator",
+      "source": "commodities/treasure/mask-wood-tan.webp",
+      "relative": "antecedentes-pintados-v1/ator.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "ator",
+      "name": "Atuação Estupenda",
+      "source": "skills/social/intimidation-impressing.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/ator.webp"
+    },
+    {
+      "kind": "background",
+      "id": "bastardo",
+      "name": "Bastardo",
+      "source": "sundries/documents/envelope-sealed-red-brown.webp",
+      "relative": "antecedentes-pintados-v1/bastardo.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "bastardo",
+      "name": "Herança Roubada",
+      "source": "sundries/scrolls/scroll-bound-sealed-gold-red.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/bastardo.webp"
+    },
+    {
+      "kind": "background",
+      "id": "cacador-de-recompensas",
+      "name": "Caçador de Recompensas",
+      "source": "sundries/survival/cuffs-shackles-steel.webp",
+      "relative": "antecedentes-pintados-v1/cacador-de-recompensas.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "cacador-de-recompensas",
+      "name": "Lista de Procurados",
+      "source": "sundries/documents/document-symbol-person-brown.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/cacador-de-recompensas.webp"
+    },
+    {
+      "kind": "background",
+      "id": "comerciante",
+      "name": "Comerciante",
+      "source": "commodities/currency/coins-engraved-hole-gold.webp",
+      "relative": "antecedentes-pintados-v1/comerciante.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "comerciante",
+      "name": "Negociação",
+      "source": "skills/social/trading-justice-scale-gold.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/comerciante.webp"
+    },
+    {
+      "kind": "background",
+      "id": "cozinheiro",
+      "name": "Cozinheiro",
+      "source": "tools/cooking/knife-cleaver-steel-grey.webp",
+      "relative": "antecedentes-pintados-v1/cozinheiro.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "cozinheiro",
+      "name": "Obter Alimentos",
+      "source": "consumables/food/bowl-stew-tofu-potato-brown.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/cozinheiro.webp"
+    },
+    {
+      "kind": "background",
+      "id": "cultivador-demoniaco",
+      "name": "Cultivador Demoníaco",
+      "source": "sundries/books/book-face-black.webp",
+      "relative": "antecedentes-pintados-v1/cultivador-demoniaco.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "cultivador-demoniaco",
+      "name": "Recursos Roubados",
+      "source": "sundries/scrolls/scroll-bound-skull-brown.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/cultivador-demoniaco.webp"
+    },
+    {
+      "kind": "background",
+      "id": "estudioso",
+      "name": "Estudioso",
+      "source": "sundries/scrolls/scroll-writing-brown.webp",
+      "relative": "antecedentes-pintados-v1/estudioso.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "estudioso",
+      "name": "Biblioteca Mental",
+      "source": "sundries/books/book-open-brown.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/estudioso.webp"
+    },
+    {
+      "kind": "background",
+      "id": "iniciado-em-medicina",
+      "name": "Iniciado em Medicina",
+      "source": "tools/cooking/mortar-herbs-yellow.webp",
+      "relative": "antecedentes-pintados-v1/iniciado-em-medicina.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "iniciado-em-medicina",
+      "name": "Estabilizar",
+      "source": "tools/medical/bandages-gauze-rough.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/iniciado-em-medicina.webp"
+    },
+    {
+      "kind": "background",
+      "id": "jovem-mestre",
+      "name": "Jovem Mestre",
+      "source": "equipment/chest/robe-layered-red.webp",
+      "relative": "antecedentes-pintados-v1/jovem-mestre.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "jovem-mestre",
+      "name": "Me Vingue!",
+      "source": "skills/melee/unarmed-punch-fist.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/jovem-mestre.webp"
+    },
+    {
+      "kind": "background",
+      "id": "ladrao-de-rua",
+      "name": "Ladrão de Rua",
+      "source": "skills/social/theft-pickpocket-bribery-brown.webp",
+      "relative": "antecedentes-pintados-v1/ladrao-de-rua.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "ladrao-de-rua",
+      "name": "Rastro Fantasma",
+      "source": "tools/navigation/map-marked-gold.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/ladrao-de-rua.webp"
+    },
+    {
+      "kind": "background",
+      "id": "matador-de-aluguel",
+      "name": "Matador de Aluguel",
+      "source": "weapons/daggers/dagger-curved-black.webp",
+      "relative": "antecedentes-pintados-v1/matador-de-aluguel.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "matador-de-aluguel",
+      "name": "Análise Profissional",
+      "source": "sundries/scrolls/scroll-symbol-eye-brown.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/matador-de-aluguel.webp"
+    },
+    {
+      "kind": "background",
+      "id": "membro-de-seita",
+      "name": "Membro de Seita",
+      "source": "equipment/chest/robe-layered-blue.webp",
+      "relative": "antecedentes-pintados-v1/membro-de-seita.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "membro-de-seita",
+      "name": "Membro Inferior",
+      "source": "sundries/scrolls/scroll-bound-brown-tan.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/membro-de-seita.webp"
+    },
+    {
+      "kind": "background",
+      "id": "mendigo",
+      "name": "Mendigo",
+      "source": "equipment/head/hat-straw-cloth-mask.webp",
+      "relative": "antecedentes-pintados-v1/mendigo.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "mendigo",
+      "name": "Clã dos Mendigos",
+      "source": "skills/social/diplomacy-handshake-blue.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/mendigo.webp"
+    },
+    {
+      "kind": "background",
+      "id": "monge",
+      "name": "Monge",
+      "source": "commodities/flowers/lotus-white.webp",
+      "relative": "antecedentes-pintados-v1/monge.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "monge",
+      "name": "Companheiro Taoista",
+      "source": "commodities/currency/coin-yingyang.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/monge.webp"
+    },
+    {
+      "kind": "background",
+      "id": "musico",
+      "name": "Músico",
+      "source": "tools/instruments/flute-simple-wood.webp",
+      "relative": "antecedentes-pintados-v1/musico.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "musico",
+      "name": "Apresentação",
+      "source": "skills/trades/music-notes-sound-blue.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/musico.webp"
+    },
+    {
+      "kind": "background",
+      "id": "orfao",
+      "name": "Órfão",
+      "source": "equipment/chest/shirt-simple-tattered-grey.webp",
+      "relative": "antecedentes-pintados-v1/orfao.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "orfao",
+      "name": "Malandragem",
+      "source": "tools/navigation/map-marked-brown.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/orfao.webp"
+    },
+    {
+      "kind": "background",
+      "id": "pescador",
+      "name": "Pescador",
+      "source": "tools/fishing/rod-simple-bamboo.webp",
+      "relative": "antecedentes-pintados-v1/pescador.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "pescador",
+      "name": "Rei da Região",
+      "source": "creatures/fish/fish-grouper-tan.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/pescador.webp"
+    },
+    {
+      "kind": "background",
+      "id": "servo-do-jovem-mestre",
+      "name": "Servo do Jovem Mestre",
+      "source": "equipment/shield/buckler-wooden-boss-brown.webp",
+      "relative": "antecedentes-pintados-v1/servo-do-jovem-mestre.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "servo-do-jovem-mestre",
+      "name": "Rolê Errado",
+      "source": "skills/melee/shield-block-gray-yellow.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/servo-do-jovem-mestre.webp"
+    },
+    {
+      "kind": "background",
+      "id": "servo-da-familia-principal",
+      "name": "Servo da Família Principal",
+      "source": "equipment/chest/shirt-collared-brown.webp",
+      "relative": "antecedentes-pintados-v1/servo-da-familia-principal.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "servo-da-familia-principal",
+      "name": "Benefícios de Servo",
+      "source": "sundries/documents/document-letter-formal-tan.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/servo-da-familia-principal.webp"
+    },
+    {
+      "kind": "background",
+      "id": "soldado",
+      "name": "Soldado",
+      "source": "weapons/polearms/spear-flared-gray.webp",
+      "relative": "antecedentes-pintados-v1/soldado.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "soldado",
+      "name": "Conhecimento da Guerra",
+      "source": "sundries/scrolls/scroll-writing-tan-grey.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/soldado.webp"
+    },
+    {
+      "kind": "background",
+      "id": "vagabundo",
+      "name": "Vagabundo",
+      "source": "sundries/survival/bedroll-worn-tan.webp",
+      "relative": "antecedentes-pintados-v1/vagabundo.webp"
+    },
+    {
+      "kind": "feature",
+      "id": "vagabundo",
+      "name": "Sem Tempo Ruim",
+      "source": "sundries/survival/shelter-tent-small.webp",
+      "relative": "antecedentes-pintados-v1/habilidades/vagabundo.webp"
+    }
+  ],
+  "imageProcessing": {
+    "date": "2026-11-01",
+    "operation": "resize",
+    "maximumWidth": 256,
+    "maximumHeight": 256,
+    "fit": "inside",
+    "withoutEnlargement": true,
+    "originalPromptsPreserved": true
+  }
+}

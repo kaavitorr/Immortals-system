@@ -1,0 +1,155 @@
+_id: jjnat00000000014
+name: Unhas
+type: weapon
+img: systems/Immortals-system/assets/wuxia/equipamentos-pdn-pintados-v1/jjnat00000000014-unhas.webp
+system:
+  type:
+    value: natural
+    baseItem: ''
+  identified: true
+  description:
+    value: >-
+      <p>Ataque natural corpo a corpo. Dano Cortante conforme a Escala de Dano do ND, somado ao valor inteiro do
+      atributo usado no ataque.</p><p><strong>Custo:</strong> 2 Pontos de Ação. Não consome Energia Gerada; gastos
+      opcionais de energia são configurados no uso.</p>
+    chat: ''
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  equipped: false
+  activities:
+    jjnat00000000014:
+      _id: jjnat00000000014
+      type: attack
+      name: Ataque
+      sort: 0
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: '@escala + @mod'
+            types:
+              - slashing
+            modifiers: []
+            scaling:
+              number: 1
+        critical: {}
+        includeBase: false
+      attack:
+        ability: ''
+        bonus: ''
+        flat: false
+        type:
+          value: melee
+          classification: ''
+        critical: {}
+      img: systems/Immortals-system/assets/wuxia/equipamentos-pdn-pintados-v1/jjnat00000000014-unhas.webp
+      activation:
+        type: action
+        override: true
+        value: 2
+      behaviors: []
+      description:
+        value: ''
+      jjScale:
+        enabled: false
+        cost: 1
+        maxPA: 0
+      constantCost:
+        enabled: false
+        pool: generated
+        concentration: false
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: m
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      modifiers: []
+      scaling:
+        number: 1
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      modifiers: []
+      scaling:
+        number: 1
+  uses:
+    spent: 0
+    recovery: []
+  identifier: unhas
+  source:
+    revision: 1
+    rules: '2024'
+  unidentified:
+    description: ''
+  container: null
+  price:
+    value: 0
+    denomination: yen
+  rarities: []
+  attunement: ''
+  attuned: false
+  crew:
+    value: []
+  ammunition: {}
+  armor: {}
+  properties: []
+  proficient: null
+  range:
+    units: m
+flags:
+  Immortals-system:
+    ataqueNatural: true
+    danoExtraPorNd: false
+    custoPA: 2
+    modificador: Cortante
+    equipmentPdn:
+      version: 1
+      source: Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000014
+      previousImg: systems/Immortals-system/icons/svg/items/weapon.svg
+      descriptionHashesBefore:
+        - 83002a3e
+        - f2236c0e
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: equipamento-pdn
+      documentId: jjnat00000000014
+effects: []
+folder: zjWjPaRw4wPnXD1B
+sort: 0
+_key: '!items!jjnat00000000014'

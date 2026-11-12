@@ -1,0 +1,13 @@
+_id: b11cdf05c43b394b
+_key: '!folders!b11cdf05c43b394b'
+name: Nível 7
+type: Item
+folder: 1d29bf4920c1b673
+sorting: a
+sort: 700000
+color: '#85473f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: fogo
+      level: 7

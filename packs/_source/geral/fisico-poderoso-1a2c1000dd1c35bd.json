@@ -1,0 +1,26 @@
+{
+  "_id": "1a2c1000dd1c35bd",
+  "name": "Físico Poderoso",
+  "type": "feat",
+  "folder": "1a2c000000000002",
+  "img": "systems/Immortals-system/assets/wuxia/caracteristicas-especie-pintadas-v1/fisico-poderoso.webp",
+  "system": {
+    "identifier": "especie-7b23bdfd",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Físico Poderoso: Recebe automaticamente a abertura do primeiro portão e consome 2 Pontos de Cultivo a menos para treinar qualquer método de cultivo do corpo.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Físico Poderoso",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000dd1c35bd"
+}

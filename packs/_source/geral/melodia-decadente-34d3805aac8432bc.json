@@ -1,0 +1,208 @@
+{
+  "_id": "34d3805aac8432bc",
+  "name": "Melodia Decadente",
+  "type": "spell",
+  "folder": "d15ebb74f3191760",
+  "sort": 100000,
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/musico.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-melodia-decadente",
+    "level": 1,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 3,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "",
+      "units": "inst",
+      "expiry": null,
+      "special": "",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "15",
+      "units": "m",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "line",
+        "size": "15",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Cítara</td></tr><tr><th>Técnica</th><td>1º Grau</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Até 15 metros, Linha</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Cítara</td></tr><tr><th>Requisito do quadro</th><td>Citara</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você libera uma nota da sua citara que envia uma onda sonora carregada de Qi na direção da criatura inimiga, explodindo em seu corpo ao atingir. A criatura deve realizar uma Salvaguarda de Constituição. Sofrendo todo dano se falhar ou metade se obtiver sucesso.</p>"
+    },
+    "activities": {
+      "79892def540d2a6d": {
+        "_id": "79892def540d2a6d",
+        "type": "save",
+        "name": "Melodia Decadente",
+        "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/musico.webp",
+        "activation": {
+          "type": "action",
+          "value": 3,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Cítara</td></tr><tr><th>Técnica</th><td>1º Grau</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Até 15 metros, Linha</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Cítara</td></tr><tr><th>Requisito do quadro</th><td>Citara</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você libera uma nota da sua citara que envia uma onda sonora carregada de Qi na direção da criatura inimiga, explodindo em seu corpo ao atingir. A criatura deve realizar uma Salvaguarda de Constituição. Sofrendo todo dano se falhar ou metade se obtiver sucesso.</p>",
+          "chatFlavor": "Melodia Decadente"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "15",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "line",
+            "size": "15",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "melodia-decadente",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": false
+            }
+          }
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "bonus": "",
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          },
+          "visible": true
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 1,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "thunder"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": []
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "melodia-decadente",
+        "category": "citara",
+        "grade": 1,
+        "auxiliary": false,
+        "weapon": "Cítara",
+        "qi": 2,
+        "actions": 3,
+        "reaction": false,
+        "combinedAttack": true,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Instantâneo",
+            "range": "Até 15 metros, Linha",
+            "requirements": "Citara",
+            "damage": "1d8 de dano Trovejante",
+            "combinedAttack": true
+          }
+        },
+        "manualResolution": [],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!34d3805aac8432bc"
+}

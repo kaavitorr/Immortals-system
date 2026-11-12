@@ -1,0 +1,43 @@
+_id: 0ed691df48afe037
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:30
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 0ed691df48afe037
+name: Ferimento Enfurecedor
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: >-
+      <p>Essa criatura recebe duas vantagens contra criaturas que causaram dano a ela desde o início do último turno
+      dela.</p>
+    chat: ''
+  identifier: ferimento-enfurecedor
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/ferimento-enfurecedor-0ed691df48afe037.webp"
+_key: '!items!0ed691df48afe037'

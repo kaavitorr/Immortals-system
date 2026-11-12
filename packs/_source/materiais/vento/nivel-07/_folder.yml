@@ -1,0 +1,13 @@
+_id: cb9a5e9b06f1adc2
+_key: '!folders!cb9a5e9b06f1adc2'
+name: Nível 7
+type: Item
+folder: 1854b698d40f63ca
+sorting: a
+sort: 700000
+color: '#51766d'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: vento
+      level: 7

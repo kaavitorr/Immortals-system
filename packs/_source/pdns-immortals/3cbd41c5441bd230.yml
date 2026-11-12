@@ -1,0 +1,79 @@
+_id: 3cbd41c5441bd230
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:244
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 3cbd41c5441bd230
+name: Teia Reativa
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Quando uma criatura a até 10 metros + 1 metro por ND dessa criatura
+      realizar uma jogada de acerto contra outra, essa criatura pode gastar 2 PQ para disparar teias ou fios contra os
+      membros da atacante. A criatura atacante deve consumir 1 Ponto de Ação [⬢] adicional no ataque; caso contrário,
+      ele falha.</p>
+    chat: ''
+  identifier: teia-reativa
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    c5d3cc7b11ef852e:
+      _id: c5d3cc7b11ef852e
+      type: utility
+      name: Teia Reativa
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Quando uma criatura a até 10 metros + 1 metro por ND dessa criatura realizar uma jogada de acerto contra
+          outra, essa criatura pode gastar 2 PQ para disparar teias ou fios contra os membros da atacante. A criatura
+          atacante deve consumir 1 Ponto de Ação [⬢] adicional no ataque; caso contrário, ele falha.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/teia-reativa-3cbd41c5441bd230.webp"
+_key: '!items!3cbd41c5441bd230'

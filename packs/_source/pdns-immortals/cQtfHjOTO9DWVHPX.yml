@@ -1,0 +1,138 @@
+name: Crustáceos
+type: taxonomy
+folder: UKAqYZXsjHSdQ5aw
+system:
+  description:
+    value: >-
+      <p>Reúne criaturas de carapaça rígida e membros articulados, como caranguejos, lagostas e camarões, incluindo
+      formas gigantes ou amaldiçoadas.</p><p><strong>Resistência:</strong> Cortante +5 | Perfurante
+      +5</p><p><strong>Vulnerabilidade:</strong> Contundente -5 | Elétrico -5</p><p><strong>Deslocamento:</strong>
+      Natação: 9 m | Caminhada: 6 m</p><p><strong>Armaduras:</strong> Exoesqueleto Fundido (16 +
+      Con).</p><p><strong>Perícias:</strong> Proficiências: Atletismo, Percepção e
+      Sobrevivência.</p><p><strong>Salvaguardas:</strong> Proficiências: Fortitude e
+      Vontade.</p><p><strong>Aspectos:</strong> Carapaça Endurecida, Estabilidade.</p>
+    chat: ''
+  identifier: crustaceos
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 4
+    dex: 1
+    con: 4
+    int: 0
+    wis: 2
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: -5
+      immune: false
+    piercing:
+      value: 5
+      immune: false
+    slashing:
+      value: 5
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: -5
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 0
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ath
+      - skills.prc
+      - skills.sur
+      - saves.str
+      - saves.wis
+      - saves.con
+      - saves.cha
+    alternative:
+      - skills.ath
+      - skills.prc
+      - skills.sur
+      - alternativeSaves.fortitude
+      - alternativeSaves.vontade
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8jEDxqcuagoAUO20
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.YskTRhMdFFBABgAn
+      nd: 0
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000009
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000010
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000003
+  vidaEnergia: false
+  energiaBase: 10
+  movimento:
+    walk: 6
+    swim: 9
+    fly: 0
+    climb: 0
+    burrow: 0
+_id: cQtfHjOTO9DWVHPX
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/taxonomias/crustaceos.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:taxonomy:crustaceos
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: cQtfHjOTO9DWVHPX
+_key: '!items!cQtfHjOTO9DWVHPX'

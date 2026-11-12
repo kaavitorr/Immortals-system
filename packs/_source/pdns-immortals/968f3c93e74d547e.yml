@@ -1,0 +1,81 @@
+_id: 968f3c93e74d547e
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:153
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 968f3c93e74d547e
+name: Pilar de Chamas
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢</strong></p><p>A criatura pode gastar 5 PQ para escolher um lugar ao alcance de até 10
+      metros + 2 metros por ND dela e liberar nesse local um pilar de chamas com raio de 3 metros + 1 metro por ND,
+      causando metade do ND da criatura em d6, arredondada para cima. Todas as criaturas dentro da área da técnica devem
+      realizar uma Salvaguarda de Reflexo, sofrendo todo o dano como dano de Fogo se falharem ou metade se obtiverem
+      sucesso.</p>
+    chat: ''
+  identifier: pilar-de-chamas
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    59333b368608a1c6:
+      _id: 59333b368608a1c6
+      type: utility
+      name: Pilar de Chamas
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '5'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>A criatura pode gastar 5 PQ para escolher um lugar ao alcance de até 10 metros + 2 metros por ND dela e
+          liberar nesse local um pilar de chamas com raio de 3 metros + 1 metro por ND, causando metade do ND da
+          criatura em d6, arredondada para cima. Todas as criaturas dentro da área da técnica devem realizar uma
+          Salvaguarda de Reflexo, sofrendo todo o dano como dano de Fogo se falharem ou metade se obtiverem sucesso.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 8
+  prerequisites:
+    items: []
+    level: 8
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/pilar-de-chamas-968f3c93e74d547e.webp"
+_key: '!items!968f3c93e74d547e'

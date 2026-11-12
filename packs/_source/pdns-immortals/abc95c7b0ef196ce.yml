@@ -1,0 +1,83 @@
+_id: abc95c7b0ef196ce
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:134
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: abc95c7b0ef196ce
+name: Invocar Crias
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: Todas disponíveis</strong></p><p>Ao gastar 4 PQ para cada invocação, a criatura forma versões
+      menores de si mesma ou de criaturas de natureza similar, com metade do ND dela, arredondada para baixo. Ela forma
+      1 criatura a cada 2 ações consumidas e não pode ter um número de criaturas invocadas maior que o próprio ND.</p>
+    chat: ''
+  identifier: invocar-crias
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    a8c315dd9c3abe86:
+      _id: a8c315dd9c3abe86
+      type: utility
+      name: Invocar Crias
+      activation:
+        type: action
+        value: 0
+        condition: 'Ações: Todas disponíveis'
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '4'
+            scaling:
+              mode: ''
+          - type: attribute
+            target: legacy2.actions.value
+            value: '@legacy2.actions.value'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 4 PQ para cada invocação, a criatura forma versões menores de si mesma ou de criaturas de
+          natureza similar, com metade do ND dela, arredondada para baixo. Ela forma 1 criatura a cada 2 ações
+          consumidas e não pode ter um número de criaturas invocadas maior que o próprio ND.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 5
+  prerequisites:
+    items: []
+    level: 5
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/invocar-crias-abc95c7b0ef196ce.webp"
+_key: '!items!abc95c7b0ef196ce'

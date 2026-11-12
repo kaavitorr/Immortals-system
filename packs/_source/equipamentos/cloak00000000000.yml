@@ -1,0 +1,63 @@
+_id: cloak00000000000
+_key: '!items!cloak00000000000'
+name: Capa
+type: equipment
+img: icons/equipment/back/cloak-brown-collared-fur-white-tied.webp
+system:
+  identifier: cloak
+  description:
+    value: <p>Uma capa de viagem simples de lã sem tingir.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 1
+    units: kg
+  price:
+    value: 50
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: clothing
+    baseItem: ''
+  armor:
+    value: 0
+    dex: null
+    ability: ''
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: GVbpo5LtAY44QZPD
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: cloak00000000000
+      sourceType: accessory
+      category: clothing
+      quality: standard
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: false
+      manualEffects: []

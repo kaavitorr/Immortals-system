@@ -1,0 +1,65 @@
+_id: lockpicks0000000
+_key: '!items!lockpicks0000000'
+name: Gazua
+type: tool
+img: icons/tools/hand/lockpicks-steel-grey.webp
+system:
+  identifier: lockpicks
+  description:
+    value: >-
+      <p>Conjunto de pinos longos e finos de metal com pontas levemente curvas, projetados para manipular os mecanismos
+      internos de fechaduras, e uma barra metálica para aplicar torção. Nas mãos certas, podem abrir fechaduras tão bem
+      quanto qualquer chave.</p><p><strong>Propriedades:</strong> Empilhável.</p><p><strong>Profissões e
+      conhecimentos:</strong> Furtividade.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 1
+    units: kg
+  price:
+    value: 100
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: ''
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: 7LUkTLEZvS60KVBp
+sort: 1500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: lockpicks0000000
+      sourceType: tool
+      category: implement
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

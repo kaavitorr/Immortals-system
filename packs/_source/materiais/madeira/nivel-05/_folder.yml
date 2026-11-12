@@ -1,0 +1,13 @@
+_id: 062371395dde880c
+_key: '!folders!062371395dde880c'
+name: Nível 5
+type: Item
+folder: 23310966e9c1ac2b
+sorting: a
+sort: 500000
+color: '#466b52'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: madeira
+      level: 5

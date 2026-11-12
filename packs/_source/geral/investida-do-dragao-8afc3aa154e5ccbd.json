@@ -1,0 +1,328 @@
+{
+  "_id": "8afc3aa154e5ccbd",
+  "name": "Investida do Dragão",
+  "type": "spell",
+  "folder": "c0d481d1026ee51d",
+  "sort": 200000,
+  "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/qiang.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-investida-do-dragao",
+    "level": 2,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 3,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "",
+      "units": "inst",
+      "expiry": null,
+      "special": "",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "10",
+      "units": "m",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "line",
+        "size": "10",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "creature",
+        "count": "",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Lança</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Até 10 metros, Linha</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Lança</td></tr><tr><th>Requisito do quadro</th><td>Lança</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Uma estocada que é feita com tanta força que envia uma onda perfurante em linha reta. Todas as criaturas na linha da técnica devem realizar um Salvaguarda de Agilidade. Sofrendo todo dano se falharem ou metade se obtiverem sucesso.</p><p>O alcance dessa técnica não pode ser aumentado de nenhuma forma.</p><p>&lt;Alternativamente&gt; Você pode utilizar essa técnica em uma única criatura no seu alcance de “Toque” causando 24 de dano Perfurante.</p><h3>Observações</h3><p>Escolha a linha de 10 metros ou a estocada a toque; cada atividade representa uma ativação completa, não um dano adicional. O alcance desta técnica não pode ser ampliado.</p>"
+    },
+    "activities": {
+      "08d172fed35c1bd0": {
+        "_id": "08d172fed35c1bd0",
+        "type": "save",
+        "name": "Investida do Dragão",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/qiang.webp",
+        "activation": {
+          "type": "action",
+          "value": 3,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "4",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Lança</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Até 10 metros, Linha</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Lança</td></tr><tr><th>Requisito do quadro</th><td>Lança</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Uma estocada que é feita com tanta força que envia uma onda perfurante em linha reta. Todas as criaturas na linha da técnica devem realizar um Salvaguarda de Agilidade. Sofrendo todo dano se falharem ou metade se obtiverem sucesso.</p><p>O alcance dessa técnica não pode ser aumentado de nenhuma forma.</p><p>&lt;Alternativamente&gt; Você pode utilizar essa técnica em uma única criatura no seu alcance de “Toque” causando 24 de dano Perfurante.</p><h3>Observações</h3><p>Escolha a linha de 10 metros ou a estocada a toque; cada atividade representa uma ativação completa, não um dano adicional. O alcance desta técnica não pode ser ampliado.</p>",
+          "chatFlavor": "Investida do Dragão"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "10",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "line",
+            "size": "10",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "investida-do-dragao",
+              "key": "main",
+              "rangeLocked": true,
+              "manualResolution": true
+            }
+          }
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "bonus": "",
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          },
+          "visible": true
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 4,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "piercing"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": []
+      },
+      "29f342c612e71f1a": {
+        "_id": "29f342c612e71f1a",
+        "type": "attack",
+        "name": "Estocada a toque — 24 de dano",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/qiang.webp",
+        "activation": {
+          "type": "action",
+          "value": 3,
+          "condition": "Escolha esta versão em lugar da ativação principal.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "4",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Lança</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Até 10 metros, Linha</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Lança</td></tr><tr><th>Requisito do quadro</th><td>Lança</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Uma estocada que é feita com tanta força que envia uma onda perfurante em linha reta. Todas as criaturas na linha da técnica devem realizar um Salvaguarda de Agilidade. Sofrendo todo dano se falharem ou metade se obtiverem sucesso.</p><p>O alcance dessa técnica não pode ser aumentado de nenhuma forma.</p><p>&lt;Alternativamente&gt; Você pode utilizar essa técnica em uma única criatura no seu alcance de “Toque” causando 24 de dano Perfurante.</p><h3>Observações</h3><p>Escolha a linha de 10 metros ou a estocada a toque; cada atividade representa uma ativação completa, não um dano adicional. O alcance desta técnica não pode ser ampliado.</p>",
+          "chatFlavor": "Investida do Dragão"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "units": "touch",
+          "value": "",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "investida-do-dragao",
+              "key": "touch",
+              "rangeLocked": true,
+              "manualResolution": true
+            }
+          }
+        },
+        "attack": {
+          "ability": "spellcasting",
+          "bonus": "",
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "spell"
+          },
+          "critical": {
+            "threshold": 20
+          }
+        },
+        "damage": {
+          "includeBase": false,
+          "critical": {
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "types": [
+                "piercing"
+              ],
+              "custom": {
+                "enabled": true,
+                "formula": "24"
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": []
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "investida-do-dragao",
+        "category": "lanca",
+        "grade": 2,
+        "auxiliary": false,
+        "weapon": "Lança",
+        "qi": 4,
+        "actions": 3,
+        "reaction": false,
+        "combinedAttack": true,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Instantâneo",
+            "range": "Até 10 metros, Linha",
+            "requirements": "Lança",
+            "damage": "4d6 de dano Perfurante",
+            "combinedAttack": true
+          }
+        },
+        "manualResolution": [
+          "Escolha a linha de 10 metros ou a estocada a toque; cada atividade representa uma ativação completa, não um dano adicional. O alcance desta técnica não pode ser ampliado."
+        ],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!8afc3aa154e5ccbd"
+}

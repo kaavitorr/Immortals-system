@@ -1,0 +1,300 @@
+{
+  "_id": "8d1c3c2b26cd6389",
+  "name": "Chest Blow",
+  "type": "spell",
+  "folder": "9ebbf2153d478de9",
+  "sort": 100000,
+  "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/bastao-longo.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-chest-blow",
+    "level": 1,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 2,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "",
+      "units": "inst",
+      "expiry": null,
+      "special": "",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "",
+      "units": "touch",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "",
+        "size": "",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Bastões</td></tr><tr><th>Técnica</th><td>1º Grau</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>2</td></tr><tr><th>Alcance</th><td>Toque</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Bastão</td></tr><tr><th>Requisito do quadro</th><td>Bastão</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você desfere um golpe com a ponta do cajado contra o peito do alvo com grande força. A criatura deve realizar uma Salvaguarda de Força para não ser empurrada por 6 metros.</p><p>Se a criatura colidir com um objeto ou estrutura de 1,5 metros ou maior, ela recebe 10 de dano Contundente adicional.</p><h3>Observações</h3><p>Depois de acertar, resolva Força sem nova ativação. Na falha, mova a criatura 6 metros. A colisão descrita causa 10 de dano Contundente extra, aplicado após confirmação do narrador.</p>"
+    },
+    "activities": {
+      "b3e044582dd34f3c": {
+        "_id": "b3e044582dd34f3c",
+        "type": "attack",
+        "name": "Chest Blow",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/bastao-longo.webp",
+        "activation": {
+          "type": "action",
+          "value": 2,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Bastões</td></tr><tr><th>Técnica</th><td>1º Grau</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>2</td></tr><tr><th>Alcance</th><td>Toque</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Bastão</td></tr><tr><th>Requisito do quadro</th><td>Bastão</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você desfere um golpe com a ponta do cajado contra o peito do alvo com grande força. A criatura deve realizar uma Salvaguarda de Força para não ser empurrada por 6 metros.</p><p>Se a criatura colidir com um objeto ou estrutura de 1,5 metros ou maior, ela recebe 10 de dano Contundente adicional.</p><h3>Observações</h3><p>Depois de acertar, resolva Força sem nova ativação. Na falha, mova a criatura 6 metros. A colisão descrita causa 10 de dano Contundente extra, aplicado após confirmação do narrador.</p>",
+          "chatFlavor": "Chest Blow"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "touch",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "chest-blow",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "attack": {
+          "ability": "spellcasting",
+          "bonus": "",
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "spell"
+          },
+          "critical": {
+            "threshold": 20
+          }
+        },
+        "damage": {
+          "includeBase": false,
+          "critical": {
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 1,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "bludgeoning"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": []
+      },
+      "b78ad91dc1859e75": {
+        "_id": "b78ad91dc1859e75",
+        "type": "save",
+        "name": "Resistir ao empurrão após o acerto",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/bastao-longo.webp",
+        "activation": {
+          "type": "action",
+          "value": 0,
+          "condition": "Somente após acertar a técnica; não é uma nova ativação.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Bastões</td></tr><tr><th>Técnica</th><td>1º Grau</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>2</td></tr><tr><th>Alcance</th><td>Toque</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Bastão</td></tr><tr><th>Requisito do quadro</th><td>Bastão</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você desfere um golpe com a ponta do cajado contra o peito do alvo com grande força. A criatura deve realizar uma Salvaguarda de Força para não ser empurrada por 6 metros.</p><p>Se a criatura colidir com um objeto ou estrutura de 1,5 metros ou maior, ela recebe 10 de dano Contundente adicional.</p><h3>Observações</h3><p>Depois de acertar, resolva Força sem nova ativação. Na falha, mova a criatura 6 metros. A colisão descrita causa 10 de dano Contundente extra, aplicado após confirmação do narrador.</p>",
+          "chatFlavor": "Chest Blow"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "touch",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "chest-blow",
+              "key": "push-save",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "bonus": "",
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          },
+          "visible": true
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        },
+        "conditions": []
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "chest-blow",
+        "category": "bastoes",
+        "grade": 1,
+        "auxiliary": false,
+        "weapon": "Bastão",
+        "qi": 2,
+        "actions": 2,
+        "reaction": false,
+        "combinedAttack": true,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Instantâneo",
+            "range": "Toque",
+            "requirements": "Bastão",
+            "damage": "1d8 de dano Contundente",
+            "combinedAttack": true
+          }
+        },
+        "manualResolution": [
+          "Depois de acertar, resolva Força sem nova ativação. Na falha, mova a criatura 6 metros. A colisão descrita causa 10 de dano Contundente extra, aplicado após confirmação do narrador."
+        ],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!8d1c3c2b26cd6389"
+}

@@ -1,0 +1,160 @@
+/* Profession products extend the approved ink/slate/bronze sheet. */
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-professions-heading { align-items:center; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-global-state { display:flex; align-items:center; justify-content:flex-end; flex-wrap:wrap; gap:8px 16px; color:var(--iw-color-muted); font-size:11px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-global-state > span strong { color:var(--iw-color-bronze); font-weight:600; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-global-state .iw-profession-catalog-action strong { color:var(--iw-color-bronze-light); margin-left:3px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-hero { grid-template-columns:minmax(0,1fr) 116px; min-height:148px; gap:18px; margin-bottom:10px; padding:16px 18px; background:var(--iw-color-panel); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-hero-art { width:116px; height:116px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-title-line { display:flex; align-items:center; gap:12px; margin-bottom:10px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-title-line h2 { margin:0 0 2px; font-size:20px; line-height:1.3; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-title-line .iw-profession-rank-label { color:var(--iw-profession-accent); font-size:11px; line-height:1.4; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-level-medallion { display:flex; flex:none; flex-direction:column; align-items:center; justify-content:center; width:49px; height:49px; border:1px solid var(--iw-color-bronze-shadow); border-radius:50%; color:var(--iw-color-bronze-light); background:var(--iw-color-recess); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-level-medallion span { font-size:9px; line-height:1.2; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-level-medallion strong { font-size:21px; font-weight:600; line-height:1.15; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-hero-copy > p { max-width:67ch; font-size:11px; line-height:1.6; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-hero-actions { display:flex; align-items:center; flex-wrap:wrap; gap:6px; margin-top:12px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-catalog-action { display:inline-flex; align-items:center; justify-content:center; flex:none; gap:5px; width:auto; height:auto; min-height:27px; padding:4px 8px; border:1px solid var(--iw-color-line); border-radius:2px; background:var(--iw-color-recess); color:var(--iw-color-accent); font:500 11px/1.4 "Segoe UI",Arial,sans-serif; white-space:nowrap; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-catalog-action:hover { border-color:var(--iw-color-accent); background:var(--iw-color-hover); color:var(--iw-color-text); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-catalog-action svg { width:14px; height:14px; flex:none; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-level-gallery { display:grid; grid-template-columns:repeat(10,minmax(0,1fr)); gap:4px; list-style:none; margin:0 0 10px; padding:0; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-level-gallery li { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:1px; min-width:0; padding:5px 2px 3px; border:1px solid var(--iw-color-line-faint); background:var(--iw-color-recess); color:var(--iw-color-subtle); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-level-gallery strong { font-size:13px; font-weight:600; line-height:1.3; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-level-gallery span { font-size:8px; line-height:1.3; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-level-gallery .attained { color:var(--iw-color-accent-muted); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-level-gallery .current { border-color:var(--iw-color-bronze-shadow); color:var(--iw-color-bronze-light); background:var(--iw-color-metal-surface); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-level-gallery .next { color:var(--iw-color-muted); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-study-line { display:flex; align-items:center; flex-wrap:wrap; gap:5px 18px; padding:0 2px 9px; color:var(--iw-color-muted); font-size:11px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-study-line strong { color:var(--iw-color-text); font-weight:500; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-kit { margin:0 0 14px; border:1px solid var(--iw-color-line-faint); background:var(--iw-color-recess); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-kit summary { display:list-item; padding:8px 12px; cursor:pointer; color:var(--iw-color-text); font-size:11px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-kit summary > span { float:right; margin-left:8px; color:var(--iw-color-subtle); font-size:10px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-kit summary:focus-visible { outline:2px solid var(--iw-color-accent); outline-offset:2px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-kit-content { display:grid; grid-template-columns:1fr 1fr; gap:20px; padding:12px 14px 14px; border-top:1px solid var(--iw-color-line-faint); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-kit-content h3 { margin:0 0 7px; color:var(--iw-color-accent); font-size:12px; font-weight:500; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-kit-content ul { margin:0; padding-left:15px; color:var(--iw-color-muted); font-size:10px; line-height:1.65; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-kit-content li { margin:0 0 4px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-kit-content p { margin-top:7px; color:var(--iw-color-subtle); font-size:10px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-kit-content .iw-profession-tool-list { list-style:none; padding:0; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-tool-list li { display:flex; align-items:baseline; gap:7px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-tool-quantity { flex:none; min-width:35px; color:var(--iw-color-subtle); font-size:10px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-tool-list button { display:block; width:auto; height:auto; padding:0; border:0; background:transparent; color:var(--iw-color-text); font:400 10px/1.65 "Segoe UI",Arial,sans-serif; text-align:left; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-tool-list button:hover { color:var(--iw-color-accent); text-decoration:underline; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-toxicity { padding:11px 13px; margin:0 0 16px; border:1px solid var(--iw-color-line-faint); background:var(--iw-color-panel); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-toxicity-title { display:flex; align-items:baseline; gap:7px 13px; flex-wrap:wrap; margin-bottom:8px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-toxicity-title h3 { font-size:12px; font-weight:600; color:var(--iw-color-text); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-toxicity-title > strong { margin-left:auto; color:var(--iw-color-bronze-light); font-size:14px; font-weight:600; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-toxicity-title > strong > span { color:var(--iw-color-subtle); font-size:10px; font-weight:400; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-toxicity-status { color:var(--iw-color-muted); font-size:10px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-toxicity-status.blocked { color:var(--iw-color-danger-light); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-toxin-meter { display:block; width:100%; height:4px; background:var(--iw-color-recess); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-toxin-meter > span { display:block; height:100%; background:var(--iw-color-bronze-shadow); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-toxicity-details { display:flex; align-items:center; flex-wrap:wrap; gap:4px 15px; margin-top:7px; color:var(--iw-color-subtle); font-size:10px; line-height:1.6; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-beast-work { display:flex; align-items:center; justify-content:space-between; gap:12px; margin:0 0 18px; padding:13px 14px; border:1px solid var(--iw-color-line-faint); background:var(--iw-color-panel); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-beast-work > div { display:flex; align-items:center; gap:12px; min-width:0; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-beast-work .iw-profession-icon { width:28px; height:28px; color:var(--iw-profession-accent); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-beast-work h3 { color:var(--iw-color-text); font-size:12px; font-weight:600; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-beast-work p { margin-top:3px; color:var(--iw-color-muted); font-size:11px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-catalog { min-width:0; margin-bottom:23px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-catalog-heading { display:flex; align-items:flex-end; justify-content:space-between; flex-wrap:wrap; gap:10px 20px; padding:0 0 11px; border-bottom:1px solid var(--iw-color-line); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-catalog-heading > div { display:flex; align-items:baseline; gap:10px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-catalog-heading h3 { color:var(--iw-color-text); font-size:14px; font-weight:600; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-catalog-heading [data-profession-filter-count] { color:var(--iw-color-subtle); font-size:10px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-search { display:block; flex:0 1 220px; min-width:140px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-search-label { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-search input { min-height:29px; padding:5px 9px; border-color:var(--iw-color-line); font-size:11px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product-group { margin-top:12px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product-group > header { display:flex; align-items:baseline; justify-content:space-between; gap:8px; margin-bottom:1px; color:var(--iw-color-subtle); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product-group > header h4 { margin:0; color:var(--iw-color-accent-muted); font:500 12px/1.5 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product-group > header > span { font-size:10px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 22px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product { display:grid; grid-template-columns:52px minmax(0,1fr); align-items:start; gap:10px; min-width:0; padding:13px 0; border-bottom:1px solid var(--iw-color-line-faint); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product-art { display:block; width:52px; height:52px; margin-top:1px; border:0; border-radius:0; object-fit:contain; background:transparent; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product-copy { min-width:0; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product-copy h4 { margin:0 0 4px; color:var(--iw-color-text); font:600 12px/1.35 "Segoe UI",Arial,sans-serif; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product-meta { display:flex; flex-wrap:wrap; gap:2px 8px; color:var(--iw-color-subtle); font-size:9px; line-height:1.5; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product-meta span:first-child { color:var(--iw-color-accent-muted); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product-copy > p { display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; min-height:32px; margin:5px 0 7px; color:var(--iw-color-muted); font-size:10px; line-height:1.6; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product-actions { display:flex; align-items:center; flex-wrap:wrap; gap:5px; min-height:25px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product-actions .iw-profession-catalog-action { min-height:24px; padding:3px 7px; font-size:10px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product-actions .iw-profession-produce { color:var(--iw-color-bronze-light); border-color:var(--iw-color-bronze-shadow); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product-actions svg { width:12px; height:12px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product-availability { color:var(--iw-color-subtle); font-size:9px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-search-empty { padding:22px 0; color:var(--iw-color-muted); font-size:12px; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content :is([data-profession-product],[data-profession-product-group],[data-profession-search-empty])[hidden] { display:none !important; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-ledger-label { display:flex; align-items:baseline; justify-content:space-between; gap:10px; margin:3px 0 10px; padding-top:12px; border-top:1px solid var(--iw-color-line); }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-ledger-label h3 { color:var(--iw-color-text); font-size:13px; font-weight:600; }
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-ledger-label > span { color:var(--iw-color-subtle); font-size:10px; }
+@container iw-professions (max-width:620px) {
+  .dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-hero { grid-template-columns:minmax(0,1fr) 94px; padding:15px; min-height:140px; }
+  .dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-hero-art { width:94px; height:104px; }
+  .dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product-grid { grid-template-columns:minmax(0,1fr); }
+  .dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product { grid-template-columns:54px minmax(0,1fr); }
+  .dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-product-copy > p { min-height:0; -webkit-line-clamp:2; }
+}
+@container iw-professions (max-width:430px) {
+  .dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-global-state { justify-content:flex-start; gap:6px 12px; }
+  .dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-global-state .iw-profession-catalog-action { font-size:10px; }
+  .dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-hero { display:grid; grid-template-columns:minmax(0,1fr); min-height:0; }
+  .dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-hero-art { display:none; }
+  .dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-title-line h2 { font-size:18px; }
+  .dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-level-gallery { grid-template-columns:repeat(5,minmax(0,1fr)); }
+  .dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-kit-content { grid-template-columns:minmax(0,1fr); gap:14px; }
+  .dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-catalog-heading { align-items:stretch; }
+  .dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-search { flex:1 1 100%; }
+  .dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-beast-work { flex-wrap:wrap; }
+  .dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-profession-ledger-label { flex-wrap:wrap; gap:3px 10px; }
+}
+
+
+/* The owned-product control lives in the native item sheet frame. */
+.application.dnd5e2.item .window-header button.iw-profession-product-config {
+  display:inline-flex; align-items:center; gap:4px; width:auto; height:24px; min-height:24px; padding:2px 6px;
+  border:1px solid var(--iw-color-line); border-radius:2px; background:var(--iw-color-recess); color:var(--iw-color-accent);
+  font:500 10px/1.3 "Segoe UI",Arial,sans-serif; white-space:nowrap; box-shadow:none; text-shadow:none;
+}
+.application.dnd5e2.item .window-header button.iw-profession-product-config svg { flex:none; width:13px; height:13px; }
+.application.dnd5e2.item .window-header button.iw-profession-product-config:hover { color:var(--iw-color-text); border-color:var(--iw-color-accent); background:var(--iw-color-hover); }
+.application.dnd5e2.item .window-header button.iw-profession-product-config:focus-visible { outline:2px solid var(--iw-color-accent); outline-offset:2px; }
+
+/* Artisan reference: compact tables with the shared refinement rules. */
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-refinement-reference {margin:14px 0; padding:12px 14px; border:1px solid var(--iw-color-line); border-top-color:var(--iw-color-bronze-shadow); background:var(--iw-color-panel);}
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-refinement-reference > header {display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px 14px;margin-bottom:10px;}
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-refinement-reference h3 {border:0;text-transform:none;letter-spacing:0;display:flex;align-items:center;gap:8px;margin:0;font:600 14px/1.4 "Segoe UI",Arial,sans-serif;color:var(--iw-color-text);}
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-refinement-reference header > span,.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-refinement-reference summary > span {font:400 11px/1.4 "Segoe UI",Arial,sans-serif;color:var(--iw-color-muted);}
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-refinement-reference details {border-top:1px solid var(--iw-color-line);padding-top:8px;margin-top:8px;}
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-refinement-reference summary {font:600 12px/1.5 "Segoe UI",Arial,sans-serif;color:var(--iw-color-bronze-light);cursor:pointer;}
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-refinement-reference summary > span {margin-left:10px;}
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-refinement-reference table {width:100%;margin:8px 0 0;border-collapse:collapse;table-layout:fixed;background:none;font:400 12px/1.45 "Segoe UI",Arial,sans-serif;}
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-refinement-reference :is(th,td) {font-family:"Segoe UI",Arial,sans-serif;padding:6px 8px;text-align:left;vertical-align:middle;border:0;border-bottom:1px solid var(--iw-color-line);overflow-wrap:break-word;}
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-refinement-reference thead {background:var(--iw-color-metal-surface);color:var(--iw-color-muted);}
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-refinement-reference thead th {font-size:11px;font-weight:500;}
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-refinement-reference th:first-child {width:22%;}
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-refinement-reference th:nth-child(2) {width:25%;}
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-refinement-reference tbody th {font-weight:600;color:var(--iw-color-text);}
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-refinement-reference tr {background:none;}
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-refined-numeric {color:var(--iw-color-bronze-light);font-variant-numeric:tabular-nums;}
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-refinement-reference p {font-size:11px;color:var(--iw-color-muted);margin:10px 0 0;}
+
+.dnd5e2.sheet.actor:is(.character.iw-wuxia,.npc).jj2-ruptura .tab-body .iw-professions.iw-professions-content .iw-refinement-reference h3 .jj2-icon {width:17px;height:17px;flex:0 0 17px;color:var(--iw-color-bronze);}
+
+/* Compact recipe ledger: the existing painted material portraits carry the visual identity. */
+.iw-material-recipe { margin:12px 0; padding:12px 14px; border:1px solid var(--iw-color-line,#485865); border-top-color:var(--iw-color-bronze,#9f8964); background:var(--iw-color-recess,#181f25); color:var(--iw-color-text,#d1d0c7); font:400 12px/1.45 "Segoe UI",Arial,sans-serif; text-align:left; }
+.iw-material-recipe > header { display:flex; align-items:center; justify-content:space-between; gap:12px; margin:0 0 6px; padding:0; border:0; background:none; }
+.iw-material-recipe > header strong { font-size:13px; font-weight:600; color:var(--iw-color-text,#d1d0c7); }
+.iw-material-recipe > header > span { flex:none; color:var(--iw-color-accent,#9fb4c2); font-size:11px; }
+.iw-material-recipe .iw-recipe-basis { margin:0 0 9px; color:var(--iw-color-muted,#a4adb1); font-size:10px; }
+.iw-material-recipe ol { list-style:none; margin:0; padding:0; }
+.iw-material-recipe li { display:grid; grid-template-columns:32px 28px minmax(0,1fr) minmax(70px,125px); align-items:center; gap:8px; margin:0; padding:9px 0; border-top:1px solid var(--iw-color-line-faint,#34414a); background:none; }
+.iw-material-recipe li > img { display:block; width:32px; height:32px; margin:0; border:0; border-radius:0; background:transparent; object-fit:contain; }
+.iw-material-recipe .iw-recipe-quantity { text-align:center; font-size:14px; font-weight:600; color:var(--iw-color-bronze-light,#c4ad86); font-variant-numeric:tabular-nums; }
+.iw-material-recipe .iw-recipe-identity { min-width:0; }
+.iw-material-recipe .iw-recipe-identity a { display:inline; padding:0; border:0; border-radius:0; background:none; color:var(--iw-color-text,#d1d0c7); font-weight:500; text-decoration:none; overflow-wrap:anywhere; }
+.iw-material-recipe .iw-recipe-identity a:hover { color:var(--iw-color-accent,#9fb4c2); text-decoration:underline; text-shadow:none; }
+.iw-material-recipe .iw-recipe-identity a:focus-visible { outline:1px solid var(--iw-color-accent,#9fb4c2); outline-offset:3px; }
+.iw-material-recipe small { display:block; margin-top:2px; color:var(--iw-color-muted,#a4adb1); font-size:10px; line-height:1.4; }
+.iw-material-recipe .is-reagent small { color:var(--iw-color-bronze-light,#c4ad86); }
+.iw-material-recipe .iw-recipe-price { justify-self:end; text-align:right; font-size:10px; color:var(--iw-color-muted,#a4adb1); font-variant-numeric:tabular-nums; overflow-wrap:anywhere; }
+.iw-material-recipe > footer { display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:6px 12px; margin-top:8px; padding-top:10px; border-top:1px solid var(--iw-color-line,#485865); background:none; font-size:11px; }
+.iw-material-recipe > footer strong { color:var(--iw-color-bronze-light,#c4ad86); font-weight:600; text-align:right; }
+.iw-material-recipe .iw-recipe-note { margin:10px 0 0; padding:8px 0 0; border-top:1px solid var(--iw-color-line-faint,#34414a); color:var(--iw-color-muted,#a4adb1); font-size:10px; line-height:1.55; }
+@media(max-width:500px) { .iw-material-recipe { padding:10px; } .iw-material-recipe li { grid-template-columns:28px 24px minmax(0,1fr); gap:6px; } .iw-material-recipe li > img { width:28px; height:28px; } .iw-material-recipe .iw-recipe-price { grid-column:3; justify-self:start; text-align:left; margin-top:-5px; } }

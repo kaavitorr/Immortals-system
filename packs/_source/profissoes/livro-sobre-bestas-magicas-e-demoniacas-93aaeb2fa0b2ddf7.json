@@ -1,0 +1,39 @@
+{
+  "_id": "93aaeb2fa0b2ddf7",
+  "name": "Livro Sobre Bestas Mágicas e Demoníacas",
+  "type": "loot",
+  "folder": "34be9554e1bd424a",
+  "img": "systems/Immortals-system/assets/wuxia/ferramentas-pintadas-v1/livro-sobre-bestas-magicas-e-demoniacas.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-livro-sobre-bestas-magicas-e-demoniacas",
+    "type": {
+      "value": "gear"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p>Ferramentas de Mestre de Bestas: 3 Kits de Primeiros Socorros, 1 Livro Sobre Bestas Mágicas e Demoníacas, 10 pacotes de ração para bestas e 1 Livro sobre Biomas.</p><p><strong>Resolução:</strong> Ferramenta ou suprimento da profissão; não concede talento, perícia, receita ou proficiência automaticamente. A fonte não define uma receita de fabricação para este objeto.</p>"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "livro-sobre-bestas-magicas-e-demoniacas",
+        "kind": "tool",
+        "profession": "beasts",
+        "level": null,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionProductsContentVersion": 2,
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Ferramenta ou suprimento da profissão; não concede talento, perícia, receita ou proficiência automaticamente. A fonte não define uma receita de fabricação para este objeto."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!93aaeb2fa0b2ddf7"
+}

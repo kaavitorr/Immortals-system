@@ -1,0 +1,53 @@
+_id: cd97a234a553a9bd
+_key: '!items!cd97a234a553a9bd'
+name: Medula de Bai Ze Sábio
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/cd97a234a553a9bd.webp
+system:
+  identifier: material-alquimia-cd97a234a553a9bd
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Parte de animal</p><p>Bai Ze que atravessa o mundo catalogando todas as criaturas, com medula clara como leite. Uma pitada traz de volta memórias adormecidas e o conhecimento de línguas antigas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d9686cfc2e8326ac
+sort: 15900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 8
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Medula de Bai Ze Sábio
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

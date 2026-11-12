@@ -1,0 +1,53 @@
+_id: 1c6a9599ba79653c
+_key: '!items!1c6a9599ba79653c'
+name: Cedro que Vive em Dois Bosques
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/1c6a9599ba79653c.webp
+system:
+  identifier: material-alquimia-1c6a9599ba79653c
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Planta</p><p>Cedro de madeira nobre cujo exemplar conhecido aparece simultaneamente em dois bosques distantes, sem que se saiba qual é o verdadeiro. Sua serragem, queimada como incenso, permite parecer estar em dois lugares aos olhos dos outros.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: e3d2cfec08742040
+sort: 6900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 4
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Cedro que Vive em Dois Bosques
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

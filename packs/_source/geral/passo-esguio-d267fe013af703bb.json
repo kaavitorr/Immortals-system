@@ -1,0 +1,128 @@
+{
+  "_id": "d267fe013af703bb",
+  "name": "Passo Esguio",
+  "type": "feat",
+  "folder": "d2652f7aa9b40d98",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/passo-esguio.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-passo-esguio",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Corpo de Guerreiro.</p><h2>Passo Esguio</h2><p>Como uma Reação a uma Ação que tenha você como alvo, você pode gastar 1 Ponto de Ação [1 ação] e 2 Pontos de Qi para se mover até metade do seu Deslocamento.</p><p>Caso esse movimento faça com que você saia do alcance da Ação, ela é cancelada sem consumir nada.</p><p><strong>Resolução:</strong> Escolha e mova até metade do deslocamento. Se sair do alcance da ação desencadeadora, o narrador cancela essa ação sem cobrá-la; este custo de reação permanece pago.</p>"
+    },
+    "activities": {
+      "1446acd6442019d8": {
+        "_id": "1446acd6442019d8",
+        "type": "utility",
+        "name": "Passo Esguio",
+        "activation": {
+          "type": "reaction",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Corpo de Guerreiro.</p><h2>Passo Esguio</h2><p>Como uma Reação a uma Ação que tenha você como alvo, você pode gastar 1 Ponto de Ação [1 ação] e 2 Pontos de Qi para se mover até metade do seu Deslocamento.</p><p>Caso esse movimento faça com que você saia do alcance da Ação, ela é cancelada sem consumir nada.</p><p><strong>Resolução:</strong> Escolha e mova até metade do deslocamento. Se sair do alcance da ação desencadeadora, o narrador cancela essa ação sem cobrá-la; este custo de reação permanece pago.</p>",
+          "chatFlavor": "Passo Esguio — Passo Esguio"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "passo-esguio",
+              "key": "step",
+              "manualResolution": true,
+              "rule": "slenderStep",
+              "movementFraction": 0.5,
+              "cancelTriggerOnlyIfOutOfRange": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "@attributes.movement.speeds.walk / 2",
+          "name": "Passo Esguio",
+          "visible": true,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/passo-esguio.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "passo-esguio",
+        "categoria": "Adaptação Física",
+        "caminho": "Corpo de Guerreiro",
+        "requisitos": [],
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "Escolha e mova até metade do deslocamento. Se sair do alcance da ação desencadeadora, o narrador cancela essa ação sem cobrá-la; este custo de reação permanece pago."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!d267fe013af703bb"
+}

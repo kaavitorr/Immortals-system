@@ -1,0 +1,6 @@
+/** Narrative grants are separate from the normal talent and training budgets. */
+const S='Immortals-system';
+export function practiceEvolutionState(actor){const saved=actor?.flags?.[S]?.practiceEvolution??{},grants=Object.values(saved.grants??{}).filter(g=>g&&typeof g==='object'),pending=grants.filter(g=>g.status==='pending'),cycle=Number.isSafeInteger(saved.cycle)&&saved.cycle>=0?saved.cycle:0;return{cycle,usedInCycle:saved.usedInCycle===true,canGrant:saved.usedInCycle!==true,pending,claimed:grants.filter(g=>g.status==='claimed'),qiBonus:grants.filter(g=>g.status==='claimed'&&g.benefit==='qi').length*5};}
+export function practiceEvolutionTalents(actor){return practiceEvolutionState(actor).claimed.filter(g=>g.benefit==='talent'&&g.talentName).map(g=>g.talentName);}
+export function practiceEvolutionCultivationAwarded(actor){return practiceEvolutionState(actor).claimed.filter(g=>g.benefit==='cultivation').reduce((sum,g)=>sum+(Number(g.amount)||0),0);}
+export function practiceEvolutionRestUpdates(actor,type){if(type!=='long'||actor.type!=='character')return{};const state=practiceEvolutionState(actor);return{...(!actor.flags?.[S]?.practiceEvolution?{['flags.'+S+'.practiceEvolution.version']:1,['flags.'+S+'.practiceEvolution.grants']:{}}:{}),['flags.'+S+'.practiceEvolution.cycle']:state.cycle+1,['flags.'+S+'.practiceEvolution.usedInCycle']:false};}

@@ -1,0 +1,179 @@
+name: Brutamontes
+type: archetype
+folder: 1bnnSCjbnPuunvFI
+system:
+  description:
+    value: >-
+      <p>Pressiona o oponente com força física, investidas e golpes pesados. Responde a ataques com pancadas e
+      contragolpes, usando o rugido para intimidar.</p><p><strong>Resistência por ND:</strong> Físicos
+      +2</p><p><strong>Vulnerabilidade:</strong> Psíquico −6 · Mov +1 | 5/ND</p><p><strong>Deslocamento:</strong> +1 até
+      um máximo de 25</p><p><strong>Armaduras:</strong> Musculatura Densa (10 + Con).</p><p><strong>Perícias:</strong>
+      Proficiências: Atletismo, Intimidação, Percepção e Sobrevivência.</p><p><strong>Salvaguardas:</strong>
+      Proficiências: Fortitude e Vontade.</p><p><strong>Aspectos:</strong> Força Descomunal, Intimidadora, Agressivo,
+      Corpo Robusto, Ferimento Enfurecedor, Fanático, Descuidado, Vigoroso, Implacável,
+      Reativo.</p><p><strong>Habilidades:</strong> Golpe Esmagador, Golpe Giratório, Impacto Atordoante, Investida
+      Derrubadora, Rugido Terrível, Lançar Rocha, Enrijecer Músculos, Golpe Duplo, Contra-Golpe, Grito de
+      Guerra.</p><p><strong>Reações:</strong> Contra-Golpe, Pancada Reativa, Rugido Terrível.</p>
+    chat: ''
+  identifier: brutamontes
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 4
+    dex: 3
+    con: 3
+    int: 1
+    wis: 1
+    cha: 0
+  resistencias:
+    bludgeoning:
+      value: 2
+      immune: false
+    piercing:
+      value: 2
+      immune: false
+    slashing:
+      value: 2
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: -6
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ath
+      - skills.itm
+      - skills.prc
+      - skills.sur
+      - saves.str
+      - saves.wis
+      - saves.con
+      - saves.cha
+    alternative:
+      - skills.ath
+      - skills.itm
+      - skills.prc
+      - skills.sur
+      - alternativeSaves.fortitude
+      - alternativeSaves.vontade
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8a0ca76215e75f50
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9149d2bde056a98a
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53d435a7250164af
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.325e12eb1ac5a88d
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.83bc9d9af48240f2
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.05d16addb258c9b6
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6c3e03cf4f31410e
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.1a2c7d04572fb42e
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.819c1c822966e57b
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bfd51c9ea7cf377
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9f58c17ca809238a
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.935c1c39e5333fd6
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.fef42e1c5f273c51
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.0ed691df48afe037
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6bd7d97c6b3853b2
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.dba6e75422ac79f4
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7603853cf6050958
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4af56efce85f33bc
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.569c09e7a5aa4734
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.993367be87b6d592
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.419f1d8ca8137ef4
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.39ea5af9979fe435
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000021
+    armas: []
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: yqd1M6yTOJm2MzX9
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/brutamontes.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:brutamontes
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: yqd1M6yTOJm2MzX9
+_key: '!items!yqd1M6yTOJm2MzX9'

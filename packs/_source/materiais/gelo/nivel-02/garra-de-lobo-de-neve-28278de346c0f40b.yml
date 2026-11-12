@@ -1,0 +1,53 @@
+_id: 28278de346c0f40b
+_key: '!items!28278de346c0f40b'
+name: Garra de Lobo de Crista Nívea
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/28278de346c0f40b.webp
+system:
+  identifier: material-alquimia-28278de346c0f40b
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Parte de animal</p><p>O lobo de crista nívea usa as garras para alcançar veios de Qi sob a neve compacta. A ponta curva preserva estrias de gelo vivo, capazes de reunir partículas dispersas de essência fria e conduzi-las para o centro da preparação.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 450
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 01a43186322c8bd2
+sort: 3300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 2
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Garra de Lobo de Neve
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

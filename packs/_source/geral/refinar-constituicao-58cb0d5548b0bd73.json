@@ -1,0 +1,124 @@
+{
+  "_id": "58cb0d5548b0bd73",
+  "name": "Refinar Constituição",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/refinar-constituicao.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-refinar-constituicao",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Cultivo Demoníaco.</p><h2>Refinar Constituição</h2><p><strong>Requisito:</strong> Devorador Demoníaco</p><p>O caminho demoníaco é repleto de artes tentadoras. Entre elas, você possui a capacidade de refinar a constituição de outras criaturas, um processo que exige uma determinada quantidade de tempo. O tempo é definido pelo Rank da Constituição, demorando 1 ano para uma constituição de um Rank acima, multiplicando o tempo por 10 para cada Rank de diferença além disso.</p><p>Ao refinar a constituição de uma criatura cujo Rank de Constituição seja superior ao seu, você pode elevar o nível da sua própria Constituição, ignorando todos os demais requisitos normalmente necessários para sua evolução.</p><p><strong>Resolução:</strong> A Constituição descrita possui Rank próprio; confirme com o Narrador qual Constituição será refinada. O narrador confirma o alvo, o rank da Constituição, o tempo e a evolução excepcional. Nenhum atributo é alterado automaticamente.</p>"
+    },
+    "activities": {
+      "94ee4e81147b0b5d": {
+        "_id": "94ee4e81147b0b5d",
+        "type": "utility",
+        "name": "Refinar Constituição",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Cultivo Demoníaco.</p><h2>Refinar Constituição</h2><p><strong>Requisito:</strong> Devorador Demoníaco</p><p>O caminho demoníaco é repleto de artes tentadoras. Entre elas, você possui a capacidade de refinar a constituição de outras criaturas, um processo que exige uma determinada quantidade de tempo. O tempo é definido pelo Rank da Constituição, demorando 1 ano para uma constituição de um Rank acima, multiplicando o tempo por 10 para cada Rank de diferença além disso.</p><p>Ao refinar a constituição de uma criatura cujo Rank de Constituição seja superior ao seu, você pode elevar o nível da sua própria Constituição, ignorando todos os demais requisitos normalmente necessários para sua evolução.</p><p><strong>Resolução:</strong> A Constituição descrita possui Rank próprio; confirme com o Narrador qual Constituição será refinada. O narrador confirma o alvo, o rank da Constituição, o tempo e a evolução excepcional. Nenhum atributo é alterado automaticamente.</p>",
+          "chatFlavor": "Refinar Constituição — Refinar Constituição"
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "expiry": null,
+          "special": "1 ano para constituição de um rank acima; multiplique por 10 por rank adicional.",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "refinar-constituicao",
+              "key": "refine",
+              "manualResolution": true,
+              "rule": "refineConstitution",
+              "manual": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Refinar Constituição",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/refinar-constituicao.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "refinar-constituicao",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Cultivo Demoníaco",
+        "requisitos": [
+          "Devorador Demoníaco"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "devorador-demoniaco"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "A Constituição descrita possui Rank próprio; confirme com o Narrador qual Constituição será refinada.",
+          "O narrador confirma o alvo, o rank da Constituição, o tempo e a evolução excepcional. Nenhum atributo é alterado automaticamente."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!58cb0d5548b0bd73"
+}

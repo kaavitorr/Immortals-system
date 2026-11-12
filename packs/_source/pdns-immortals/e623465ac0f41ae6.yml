@@ -1,0 +1,73 @@
+_id: e623465ac0f41ae6
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:162
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: e623465ac0f41ae6
+name: Retirada Rápida
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢</strong></p><p>A criatura se move de forma extremamente veloz, afastando-se de uma criatura
+      que esteja a 1,5 metros dela. Ela recebe 5 metros de deslocamento adicional e ignora qualquer Ataque Reativo
+      gerado pelo seu deslocamento.</p>
+    chat: ''
+  identifier: retirada-rapida
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    2c3b2318a4b232ed:
+      _id: 2c3b2318a4b232ed
+      type: utility
+      name: Retirada Rápida
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura se move de forma extremamente veloz, afastando-se de uma criatura que esteja a 1,5 metros dela.
+          Ela recebe 5 metros de deslocamento adicional e ignora qualquer Ataque Reativo gerado pelo seu
+          deslocamento.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 5
+  prerequisites:
+    items: []
+    level: 5
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/retirada-rapida-e623465ac0f41ae6.webp"
+_key: '!items!e623465ac0f41ae6'

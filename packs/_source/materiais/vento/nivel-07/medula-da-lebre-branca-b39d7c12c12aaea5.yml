@@ -1,0 +1,53 @@
+_id: b39d7c12c12aaea5
+_key: '!items!b39d7c12c12aaea5'
+name: Medula da Lebre Branca
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/vento/b39d7c12c12aaea5.webp
+system:
+  identifier: material-alquimia-b39d7c12c12aaea5
+  description:
+    value: <p><strong>Elemento:</strong> Vento · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Parte de animal</p><p>A lebre branca dos cumes dorme na crista dos ventos. A medula, em pomada, solda ossos quebrados na mesma noite.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: cb9a5e9b06f1adc2
+sort: 13200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: vento
+      elementLabel: Vento
+      level: 7
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/vento.json
+        originalName: Medula da Lebre Branca
+        sha256: f5db71d3cdec5cc798ab9829fe28f461a95ad76b46b89331433a614fa8d62814
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

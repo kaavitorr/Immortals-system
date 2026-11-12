@@ -1,0 +1,65 @@
+_id: chirurgeonsToolk
+_key: '!items!chirurgeonsToolk'
+name: Kit de Cirurgião
+type: tool
+img: icons/containers/bags/pack-leather-stitched-tan.webp
+system:
+  identifier: tool-kit-chirurgy
+  description:
+    value: >-
+      <p>Uma bolsa de couro para madeira. Contém lâmina de barbear, serrote, alicates, ataduras, frasco de álcool
+      alquímico, agulha e linha, e um galho de madeira de 10 cm envolto em couro. Tudo que se pode precisar para
+      realizar amputações ou excisões.</p><p><strong>Propriedades:</strong> Empilhável.</p><p><strong>Profissões e
+      conhecimentos:</strong> Medicina.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 10
+    units: kg
+  price:
+    value: 1500
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: ''
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: zKA7bUzu7rPpL2lk
+sort: 1900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: chirurgeonsToolk
+      sourceType: tool
+      category: crafting
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

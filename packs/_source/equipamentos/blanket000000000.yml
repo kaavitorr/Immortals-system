@@ -1,0 +1,55 @@
+_id: blanket000000000
+_key: '!items!blanket000000000'
+name: Manta
+type: loot
+img: icons/sundries/survival/bedroll-tan.webp
+system:
+  identifier: blanket
+  description:
+    value: <p>Um tecido grosso de lã fiada ou fibra, com inúmeras utilidades.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 4
+    units: kg
+  price:
+    value: 60
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: gear
+effects: []
+folder: eiHFNJQiIGesLyuw
+sort: 400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: blanket000000000
+      sourceType: loot
+      category: other
+      quality: standard
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: false
+      manualEffects: []

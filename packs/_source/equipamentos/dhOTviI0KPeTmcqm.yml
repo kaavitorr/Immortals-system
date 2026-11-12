@@ -1,0 +1,72 @@
+_id: dhOTviI0KPeTmcqm
+_key: '!items!dhOTviI0KPeTmcqm'
+name: Ponta Explosiva
+type: consumable
+img: icons/weapons/ammunition/arrow-head-war-flight.webp
+system:
+  identifier: incendiaria
+  description:
+    value: ''
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 0
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  activities: {}
+  type:
+    value: ammo
+    subtype: ''
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    replace: false
+effects: []
+folder: o6CKhFNyEWcs8EwR
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: dhOTviI0KPeTmcqm
+      sourceType: consumable
+      category: flask
+      quality: despertado
+      enchantment: ''
+      properties: []
+      weaponDamagePending: false
+      manualEffects: []

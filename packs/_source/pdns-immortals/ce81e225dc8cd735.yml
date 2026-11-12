@@ -1,0 +1,71 @@
+_id: ce81e225dc8cd735
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:96
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: ce81e225dc8cd735
+name: Defesa Robusta
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢</strong></p><p>Essa criatura reduz todo o seu deslocamento a 0 e aumenta sua CR em +3 até o
+      início do próximo turno dela. Caso tenha se movido mais de 2 metros, não pode usar essa habilidade.</p>
+    chat: ''
+  identifier: defesa-robusta
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    4f10d8efe254038b:
+      _id: 4f10d8efe254038b
+      type: utility
+      name: Defesa Robusta
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Essa criatura reduz todo o seu deslocamento a 0 e aumenta sua CR em +3 até o início do próximo turno dela.
+          Caso tenha se movido mais de 2 metros, não pode usar essa habilidade.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/defesa-robusta-ce81e225dc8cd735.webp"
+_key: '!items!ce81e225dc8cd735'

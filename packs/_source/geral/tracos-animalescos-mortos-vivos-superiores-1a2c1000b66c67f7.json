@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000b66c67f7",
+  "name": "Traços Animalescos — Mortos-vivos Superiores",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/magic/death/undead-skeleton-lich-armor.webp",
+  "system": {
+    "identifier": "especie-ee32a5b7",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Mortos-vivos Superiores. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c1000efe6b66e": {
+        "_id": "1a2c1000efe6b66e",
+        "type": "ItemChoice",
+        "title": "Duas características — Mortos-vivos Superiores",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.Ra0jNW6dFlSdNxiU"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.UgCtr2oTG6Er7Fd7"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Mortos-vivos Superiores",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000b66c67f7"
+}

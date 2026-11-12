@@ -1,0 +1,53 @@
+_id: 9e1699c805d4699f
+_key: '!items!9e1699c805d4699f'
+name: Ovo de Pelicano dos Anéis de Ressaca
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/9e1699c805d4699f.webp
+system:
+  identifier: material-alquimia-9e1699c805d4699f
+  description:
+    value: <p><strong>Elemento:</strong> Água · <strong>Nível:</strong> 5 · <strong>Categoria:</strong> Parte de animal</p><p>O pelicano dos Anéis de Ressaca envolve o ninho em círculos de Qi oceânico, mantendo os ovos imóveis entre rochas golpeadas por ondas espirituais. A gema prateada fornece nutrição e ritmo contínuo a elixires de recuperação após esforços prolongados de circulação aquática.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-earth
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 3a9741da2b2fe879
+sort: 9900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: agua
+      elementLabel: Água
+      level: 5
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/agua.json
+        originalName: Ovo de Pelicano da Ressaca
+        sha256: 4e0ab61ab8b4f69e0e1dd88c53ff06dabfdca351a5290537230f83680b9c27bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 5
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

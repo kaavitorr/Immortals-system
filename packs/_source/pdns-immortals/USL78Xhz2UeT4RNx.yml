@@ -1,0 +1,76 @@
+name: Forma Espectral
+type: feat
+folder: d9a33aaa60a052d4
+system:
+  description:
+    value: <p>Essa criatura é totalmente imune a danos físicos, mesmo os imbuídos com Qi.</p>
+    chat: ''
+  identifier: forma-espectral
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: USL78Xhz2UeT4RNx
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/forma-espectral-USL78Xhz2UeT4RNx.webp"
+effects:
+  - _id: d0110e2ed36a2c7b
+    name: Forma Espectral
+    transfer: true
+    disabled: false
+    system:
+      changes:
+        - key: system.legacy2.resistances.bludgeoning.immune
+          value: true
+          priority: 20
+          type: override
+        - key: system.legacy2.resistances.slashing.immune
+          value: true
+          priority: 20
+          type: override
+        - key: system.legacy2.resistances.piercing.immune
+          value: true
+          priority: 20
+          type: override
+    img: icons/svg/aura.svg
+    type: base
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _key: '!items.effects!USL78Xhz2UeT4RNx.d0110e2ed36a2c7b'
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:formaespectral:4f8dfa52c493
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: USL78Xhz2UeT4RNx
+_key: '!items!USL78Xhz2UeT4RNx'

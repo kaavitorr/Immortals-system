@@ -1,0 +1,71 @@
+_id: luminaryBand0000
+_key: '!items!luminaryBand0000'
+name: Anel Luminário
+type: equipment
+img: icons/equipment/finger/ring-cabochon-gold-orange.webp
+system:
+  identifier: ring-luminary
+  description:
+    value: >-
+      <blockquote><p>Um anel de ouro intrincadamente gravado que envolve uma gemma elíptica alaranjada
+      cintilante.</p></blockquote><p>Este anel encantado fornece Boons a ações <strong>Compostas</strong> que incluam
+      uma <strong>Inflexão</strong>.</p><p><strong>Propriedades:</strong> Vinculação.</p><h3>Luminário</h3><p>Gain boons
+      to <strong>Composed</strong> actions that include an <strong>Inflection</strong>. The number of boons gained
+      equals the <strong>Tier</strong> of this prefix.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - mgc
+  equipped: false
+  attunement: required
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: ring
+    baseItem: ''
+  armor:
+    value: 0
+    dex: null
+    ability: ''
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: dNk8eE87Ep8GtNse
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: luminaryBand0000
+      sourceType: accessory
+      category: jewelry
+      quality: fine
+      enchantment: minor
+      properties:
+        - investment
+      weaponDamagePending: false
+      manualEffects:
+        - Luminário

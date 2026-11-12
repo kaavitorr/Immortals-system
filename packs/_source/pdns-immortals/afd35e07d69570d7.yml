@@ -1,0 +1,78 @@
+_id: afd35e07d69570d7
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:236
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: afd35e07d69570d7
+name: Reflexo
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢ · Reação</strong></p><p>Ao sofrer uma jogada de acerto corpo a corpo, essa criatura pode
+      gastar 6 PQ para se mover até 2 metros e desferir um golpe contra a criatura inimiga, causando o dano padrão e
+      impondo a condição “Atordoado” se ela não passar em uma Salvaguarda de Vontade.</p>
+    chat: ''
+  identifier: reflexo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    18cede2f4505e25d:
+      _id: 18cede2f4505e25d
+      type: utility
+      name: Reflexo
+      activation:
+        type: reaction
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '6'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao sofrer uma jogada de acerto corpo a corpo, essa criatura pode gastar 6 PQ para se mover até 2 metros e
+          desferir um golpe contra a criatura inimiga, causando o dano padrão e impondo a condição “Atordoado” se ela
+          não passar em uma Salvaguarda de Vontade.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/reflexo-afd35e07d69570d7.webp"
+_key: '!items!afd35e07d69570d7'

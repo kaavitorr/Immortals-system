@@ -1,0 +1,53 @@
+_id: 116ab3060145e413
+_key: '!items!116ab3060145e413'
+name: Longan dos Sonhos Trovejantes
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/116ab3060145e413.webp
+system:
+  identifier: material-alquimia-116ab3060145e413
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 9 · <strong>Categoria:</strong> Planta</p><p>Sob a árvore milenar, os frutos parecem olhos que seguem o caminhante. Quem come a polpa lembra ao acordar cada sonho trovejante que teve.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: e6eb103ba14ea702
+sort: 16900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 9
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Longan dos Sonhos Trovejantes
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 9
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

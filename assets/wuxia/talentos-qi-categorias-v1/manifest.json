@@ -1,0 +1,43 @@
+{
+  "method": "Built-in image_gen",
+  "style": "Pintura simples em tons discretos; fundo transparente",
+  "images": [
+    {
+      "id": "habilidades-de-qi",
+      "prompt": "Use case: stylized-concept. Asset type: one small inventory/category icon for the dark Wuxia RPG Immortals Legacy. Original artwork. Style: simple hand-painted gouache and ink, broad visible brush shapes, few details, softly modeled forms with crisp readable silhouette, traditional Chinese fantasy. Very restrained palette of warm bone ivory, charcoal, desaturated slate blue and a little aged bronze; emphasize shape over color. Square composition, one centered isolated subject occupying about 80% of the canvas, generous transparent margin, clearly readable at 48 pixels. True transparent alpha background. No scene, no circular disk or backdrop, no border, no lettering, no numbers, no UI, no watermark. No photorealism, glossy 3D rendering, neon, complex filigree, smoke cloud background, rays or sparkles. Subject: an elegant ancient Chinese cultivator's open cupped hand emerging from a short cloth cuff, holding one small pale Qi pearl. A single thick curved ribbon of Qi curls around the pearl and hand, creating a compact distinctive rounded silhouette. Hands anatomically coherent, only one hand, no person or face.",
+      "sourcePath": "C:\\Users\\kaa_v\\.codex\\generated_images\\01a1854d-b4df-7103-a0d4-8d40225aaaf1\\exec-4dca59cd-687c-4d48-ac1f-6dbfbb8bb3b0.png",
+      "file": "habilidades-de-qi.webp",
+      "outputPath": "C:/Users/kaa_v/Documents/FoundryVTT/Data/systems/Immortals-system/assets/wuxia/talentos-qi-categorias-v1/habilidades-de-qi.webp"
+    },
+    {
+      "id": "adaptacao-fisica",
+      "prompt": "Use case: stylized-concept. Asset type: one small inventory/category icon for the dark Wuxia RPG Immortals Legacy. Original artwork. Style: simple hand-painted gouache and ink, broad visible brush shapes, few details, softly modeled forms with crisp readable silhouette, traditional Chinese fantasy. Very restrained palette of warm bone ivory, charcoal, desaturated slate blue and a little aged bronze; emphasize shape over color. Square composition, one centered isolated subject occupying about 80% of the canvas, generous transparent margin, clearly readable at 48 pixels. True transparent alpha background. No scene, no circular disk or backdrop, no border, no lettering, no numbers, no UI, no watermark. No photorealism, glossy 3D rendering, neon, complex filigree, smoke cloud background, rays or sparkles. Subject: a strong raised closed fist and short forearm, the wrist wrapped in simple old cloth training bandages with a small aged-bronze wrist guard. A clean muscular gesture suggesting tempered body and physical discipline. One fist only, compact upright silhouette, no person, no weapon, no extra fingers.",
+      "sourcePath": "C:\\Users\\kaa_v\\.codex\\generated_images\\01a1854d-b4df-7103-a0d4-8d40225aaaf1\\exec-f2bf377d-9e12-4e7b-ade6-4764e8e09fb8.png",
+      "file": "adaptacao-fisica.webp",
+      "outputPath": "C:/Users/kaa_v/Documents/FoundryVTT/Data/systems/Immortals-system/assets/wuxia/talentos-qi-categorias-v1/adaptacao-fisica.webp"
+    },
+    {
+      "id": "habilidades-especiais",
+      "prompt": "Use case: stylized-concept. Asset type: one small inventory/category icon for the dark Wuxia RPG Immortals Legacy. Original artwork. Style: simple hand-painted gouache and ink, broad visible brush shapes, few details, softly modeled forms with crisp readable silhouette, traditional Chinese fantasy. Very restrained palette of warm bone ivory, charcoal, desaturated slate blue and a little aged bronze; emphasize shape over color. Square composition, one centered isolated subject occupying about 80% of the canvas, generous transparent margin, clearly readable at 48 pixels. True transparent alpha background. No scene, no circular disk or backdrop, no border, no lettering, no numbers, no UI, no watermark. No photorealism, glossy 3D rendering, neon, complex filigree, smoke cloud background, rays or sparkles. Subject: a single ancient bronze ritual seal, a small diamond-shaped carved jade-and-bronze charm with one bold ivory abstract three-point inner motif, suspended above two short loose cloth ribbons. Magical technique and singular powers suggested by its unusual angular silhouette. No readable characters, no tiny ornament, no weapon or hand.",
+      "sourcePath": "C:\\Users\\kaa_v\\.codex\\generated_images\\01a1854d-b4df-7103-a0d4-8d40225aaaf1\\exec-25c9c13f-a229-47eb-9a58-1a03dd75fd75.png",
+      "file": "habilidades-especiais.webp",
+      "outputPath": "C:/Users/kaa_v/Documents/FoundryVTT/Data/systems/Immortals-system/assets/wuxia/talentos-qi-categorias-v1/habilidades-especiais.webp"
+    },
+    {
+      "id": "imortalidade",
+      "prompt": "Use case: stylized-concept. Asset type: one small inventory/category icon for the dark Wuxia RPG Immortals Legacy. Original artwork. Style: simple hand-painted gouache and ink, broad visible brush shapes, few details, softly modeled forms with crisp readable silhouette, traditional Chinese fantasy. Very restrained palette of warm bone ivory, charcoal, desaturated slate blue and a little aged bronze; emphasize shape over color. Square composition, one centered isolated subject occupying about 80% of the canvas, generous transparent margin, clearly readable at 48 pixels. True transparent alpha background. No scene, no circular disk or backdrop, no border, no lettering, no numbers, no UI, no watermark. No photorealism, glossy 3D rendering, neon, complex filigree, smoke cloud background, rays or sparkles. Subject: an elegant ivory Chinese immortal crane in profile with long curved neck and wings gently raised in a crescent shape, charcoal flight feathers and a tiny muted bronze crest. The bird itself is the icon, resting posture with feet tucked close, compact balanced silhouette; evokes longevity and transcendence. No landscape, no pedestal, no moon disk, no cloud base.",
+      "sourcePath": "C:\\Users\\kaa_v\\.codex\\generated_images\\01a1854d-b4df-7103-a0d4-8d40225aaaf1\\exec-2c5995bd-b5aa-4bea-b02d-09e654f30180.png",
+      "file": "imortalidade.webp",
+      "outputPath": "C:/Users/kaa_v/Documents/FoundryVTT/Data/systems/Immortals-system/assets/wuxia/talentos-qi-categorias-v1/imortalidade.webp"
+    }
+  ],
+  "imageProcessing": {
+    "date": "2026-11-01",
+    "operation": "resize",
+    "maximumWidth": 256,
+    "maximumHeight": 256,
+    "fit": "inside",
+    "withoutEnlargement": true,
+    "originalPromptsPreserved": true
+  }
+}

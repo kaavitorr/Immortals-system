@@ -1,0 +1,162 @@
+{
+  "_id": "e885ab274fa8e6e1",
+  "name": "Agressão da Alma",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/agressao-da-alma.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-agressao-da-alma",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo da Alma.</p><h2>Agressão da Alma</h2><p><strong>Requisito:</strong> 6º Revolução</p><p>Você pode comprimi toda sua força da alma em um único ponto antes de disparar contra a criatura inimiga. Ao usar 3 Pontos de Ação [3 ações] e 4 PA, você realiza um ataque contra uma criatura a até 20 metros de distância, causando 5d8 de dano diretamente no valor de Ferida do alvo. Se a criatura estiver abaixo de você na iniciativa, você recebe 4 vantagens contra ela.</p><p>Essa característica é considerada uma técnica e pode receber todos os benefícios e ser afetada por características que afetaria uma.</p><p><strong>Resolução:</strong> O dano é aplicado diretamente em Feridas, exigindo a resolução específica desse recurso. Este dano deve atingir diretamente Feridas, sem passar pelos PV. O narrador confirma a iniciativa e a aplicação; não aplique este cartão como dano normal de PV.</p><p><strong>Pendente:</strong> O custo diz 3 Pontos de Ação e 4 PA; confirmar a sigla/unidade da segunda parcela antes de automatizar. Confirme se 4 PA espirituais significam Qi Refinado.</p>"
+    },
+    "activities": {
+      "273e181e9b8d4d72": {
+        "_id": "273e181e9b8d4d72",
+        "type": "attack",
+        "name": "Agressão da Alma",
+        "activation": {
+          "type": "action",
+          "value": 3,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo da Alma.</p><h2>Agressão da Alma</h2><p><strong>Requisito:</strong> 6º Revolução</p><p>Você pode comprimi toda sua força da alma em um único ponto antes de disparar contra a criatura inimiga. Ao usar 3 Pontos de Ação [3 ações] e 4 PA, você realiza um ataque contra uma criatura a até 20 metros de distância, causando 5d8 de dano diretamente no valor de Ferida do alvo. Se a criatura estiver abaixo de você na iniciativa, você recebe 4 vantagens contra ela.</p><p>Essa característica é considerada uma técnica e pode receber todos os benefícios e ser afetada por características que afetaria uma.</p><p><strong>Resolução:</strong> O dano é aplicado diretamente em Feridas, exigindo a resolução específica desse recurso. Este dano deve atingir diretamente Feridas, sem passar pelos PV. O narrador confirma a iniciativa e a aplicação; não aplique este cartão como dano normal de PV.</p><p><strong>Pendente:</strong> O custo diz 3 Pontos de Ação e 4 PA; confirmar a sigla/unidade da segunda parcela antes de automatizar. Confirme se 4 PA espirituais significam Qi Refinado.</p><p><strong>Custo pendente — uso bloqueado:</strong> O custo adicional de 4 PA espirituais precisa de reserva confirmada.</p>",
+          "chatFlavor": "Agressão da Alma — Agressão da Alma"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "20",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "agressao-da-alma",
+              "key": "aggression",
+              "manualResolution": false,
+              "rule": "soulAggression",
+              "pendingCost": "O custo adicional de 4 PA espirituais precisa de reserva confirmada.",
+              "directWounds": true,
+              "advantagesIfTargetBelowInitiative": 4,
+              "countsAsTechnique": true
+            }
+          }
+        },
+        "attack": {
+          "ability": "spellcasting",
+          "bonus": "",
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": "spell"
+          },
+          "critical": {
+            "threshold": 20
+          }
+        },
+        "damage": {
+          "includeBase": false,
+          "critical": {
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 5,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "soul"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": [],
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/agressao-da-alma.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "agressao-da-alma",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo da Alma",
+        "requisitos": [
+          "6º Revolução"
+        ],
+        "requirementRules": {
+          "type": "soul",
+          "min": 7
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "O dano é aplicado diretamente em Feridas, exigindo a resolução específica desse recurso.",
+          "Este dano deve atingir diretamente Feridas, sem passar pelos PV. O narrador confirma a iniciativa e a aplicação; não aplique este cartão como dano normal de PV."
+        ],
+        "pending": [
+          "O custo diz 3 Pontos de Ação e 4 PA; confirmar a sigla/unidade da segunda parcela antes de automatizar.",
+          "Confirme se 4 PA espirituais significam Qi Refinado."
+        ]
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!e885ab274fa8e6e1"
+}

@@ -1,0 +1,50 @@
+_id: ce082ae12c55a2b4
+name: Rocha do Dragão que Sustenta o Mundo
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-09/ce082ae12c55a2b4.webp
+system:
+  identifier: minerio-ce082ae12c55a2b4
+  description:
+    value: <p><strong>Nível:</strong> 9 · <strong>Categoria:</strong> Minério</p><p>Pedra verde-acinzentada com nervuras douradas espessas que lembram vértebras. É extraída de cordilheiras espirituais consideradas pilares de um domínio. Artesãos a usam em bases de grandes matrizes e em estruturas de tesouros de Terra, respeitando a direção das nervuras durante o corte.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f1cbc70ac6eb92d9
+sort: 1000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 9
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 9
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!ce082ae12c55a2b4'

@@ -1,0 +1,53 @@
+_id: 46fd51a097832a8c
+_key: '!items!46fd51a097832a8c'
+name: Ganoderma da Lei do Metal
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/46fd51a097832a8c.webp
+system:
+  identifier: material-alquimia-46fd51a097832a8c
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Planta</p><p>Cresce onde a Lei do metal se mostra nua, em grutas que se cortam a si mesmas em ângulos impossíveis. Um único broto fundamenta pílulas que fundem corpo e lâmina.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 4c8cabc1aacf16c8
+sort: 18300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 10
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Ganoderma da Lei do Metal
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

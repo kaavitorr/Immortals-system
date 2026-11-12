@@ -1,0 +1,15 @@
+{
+  "_id": "ded1c1d760625589",
+  "name": "Matrizes",
+  "type": "Item",
+  "folder": "881fadce1bce968c",
+  "sorting": "a",
+  "color": "#708d9a",
+  "flags": {
+    "Immortals-system": {
+      "professionProductsFolder": "matrix",
+      "professionProductsContentVersion": 2
+    }
+  },
+  "_key": "!folders!ded1c1d760625589"
+}

@@ -1,0 +1,53 @@
+_id: bb890582be25a528
+_key: '!items!bb890582be25a528'
+name: Urze do Atalho Sem Tocha
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/bb890582be25a528.webp
+system:
+  identifier: material-alquimia-bb890582be25a528
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Planta</p><p>A urze floresce em passagens montanhosas que recebem Qi escuro das profundezas, envolvendo as flores em pequenas auréolas de penumbra. Sua resina conserva a essência entre as pétalas secas e ajuda a prolongar a estabilidade de tintas e pastas de ocultação.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 4e144b90025c6567
+sort: 1000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 1
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Urze do Atalho Sem Tocha
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

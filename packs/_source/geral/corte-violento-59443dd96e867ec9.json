@@ -1,0 +1,212 @@
+{
+  "_id": "59443dd96e867ec9",
+  "name": "Corte Violento",
+  "type": "spell",
+  "folder": "4e1078af41ad3c81",
+  "sort": 100000,
+  "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/jian.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-corte-violento",
+    "level": 1,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 3,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "",
+      "units": "inst",
+      "expiry": null,
+      "special": "",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "",
+      "units": "touch",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "",
+        "size": "",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Espadas</td></tr><tr><th>Técnica</th><td>1º Grau</td></tr><tr><th>Custo</th><td>1 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Toque</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Espada</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você desfere um poderoso golpe com sua espada potencializado pelo seu Qi nos músculos onde você exerce sua força para o corte.</p>"
+    },
+    "activities": {
+      "77f6ad3a0f9def64": {
+        "_id": "77f6ad3a0f9def64",
+        "type": "attack",
+        "name": "Corte Violento",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/jian.webp",
+        "activation": {
+          "type": "action",
+          "value": 3,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Espadas</td></tr><tr><th>Técnica</th><td>1º Grau</td></tr><tr><th>Custo</th><td>1 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Toque</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Espada</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você desfere um poderoso golpe com sua espada potencializado pelo seu Qi nos músculos onde você exerce sua força para o corte.</p>",
+          "chatFlavor": "Corte Violento"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "touch",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "corte-violento",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": false
+            }
+          }
+        },
+        "attack": {
+          "ability": "spellcasting",
+          "bonus": "",
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "spell"
+          },
+          "critical": {
+            "threshold": 20
+          }
+        },
+        "damage": {
+          "includeBase": false,
+          "critical": {
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 2,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "slashing"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": []
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "corte-violento",
+        "category": "espadas",
+        "grade": 1,
+        "auxiliary": false,
+        "weapon": "Espada",
+        "qi": 1,
+        "actions": 3,
+        "reaction": false,
+        "combinedAttack": true,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Instantâneo",
+            "range": "Toque",
+            "requirements": "-",
+            "damage": "2d8 de dano Cortante",
+            "combinedAttack": true
+          }
+        },
+        "manualResolution": [],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!59443dd96e867ec9"
+}

@@ -1,0 +1,41 @@
+name: Corpo Inerte
+type: feat
+folder: 8TgJv4dNiP315mTe
+system:
+  description:
+    value: <p>Ao ter que fazer uma Salvaguarda para não ser empurrado, a criatura recebe duas vantagens na jogada.</p>
+    chat: ''
+  identifier: corpo-inerte
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: CWcLbF1ejFjQp4dg
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/corpo-inerte-CWcLbF1ejFjQp4dg.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:corpoinerte:add3c2e12f1d
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: CWcLbF1ejFjQp4dg
+_key: '!items!CWcLbF1ejFjQp4dg'

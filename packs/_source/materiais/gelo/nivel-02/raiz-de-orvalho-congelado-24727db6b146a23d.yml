@@ -1,0 +1,53 @@
+_id: 24727db6b146a23d
+_key: '!items!24727db6b146a23d'
+name: Raiz de Orvalho Congelado
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/24727db6b146a23d.webp
+system:
+  identifier: material-alquimia-24727db6b146a23d
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>Suas folhas recolhem orvalho de Qi nas noites em que o céu permanece sem nuvens sobre a neve. A raiz converte cada gota em um nódulo translúcido, guardando uma essência fria concentrada que se dissolve de maneira gradual na preparação.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 01a43186322c8bd2
+sort: 2300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Raiz de Orvalho Congelado
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

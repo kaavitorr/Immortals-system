@@ -1,0 +1,53 @@
+_id: d0b99f777637c603
+_key: '!items!d0b99f777637c603'
+name: Sangue de Texugo do Fole Rubro
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/d0b99f777637c603.webp
+system:
+  identifier: material-alquimia-d0b99f777637c603
+  description:
+    value: <p><strong>Elemento:</strong> Fogo · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Parte de animal</p><p>O texugo do Fole Rubro escava passagens em veias de Qi e expande o peito para armazenar ar incandescente sem chama. Seu sangue espesso distribui esse calor pela matriz de preparados restauradores, auxiliando a expulsão de resíduos frios e a recuperação da vitalidade.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 85025b79f667906f
+sort: 3600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: fogo
+      elementLabel: Fogo
+      level: 2
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/fogo.json
+        originalName: Sangue de Texugo da Cova Morna
+        sha256: ba1a23c0b606945bb3806834a346654c7369238959758f3d2c8d2c74258f92bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

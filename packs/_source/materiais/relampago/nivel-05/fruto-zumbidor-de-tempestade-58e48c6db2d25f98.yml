@@ -1,0 +1,53 @@
+_id: 58e48c6db2d25f98
+_key: '!items!58e48c6db2d25f98'
+name: Fruto Zumbidor de Tempestade
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/58e48c6db2d25f98.webp
+system:
+  identifier: material-alquimia-58e48c6db2d25f98
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 5 · <strong>Categoria:</strong> Planta</p><p>Amadurece em árvores que conduzem o Qi das nuvens para câmaras ocas no interior dos frutos. As sementes mantêm um zumbido regular mesmo após a colheita, oferecendo uma matriz complementar que organiza impulsos fulmíneos e suaviza sua agitação durante o refino.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-earth
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 12968d12e60a5af5
+sort: 8300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 5
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Fruto Zumbidor de Tempestade
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 5
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

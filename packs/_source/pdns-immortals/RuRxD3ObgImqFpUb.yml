@@ -1,0 +1,177 @@
+name: Semeador (invocador)
+type: archetype
+folder: 26a0e683ac977c63
+system:
+  description:
+    value: >-
+      <p>Produz crias, cópias e outras criaturas para lutar em seu lugar. Mantém a pressão por meio delas e as utiliza
+      para atacar, bloquear passagens ou receber golpes.</p><p><strong>Resistência por ND:</strong> Psíquico +1 | Veneno
+      +1</p><p><strong>Vulnerabilidade:</strong> Alma −10 | Fogo −6</p><p><strong>Deslocamento:</strong> +1 até um
+      máximo de 25</p><p><strong>Armaduras:</strong> Armadura Psíquica (8 + Sab).</p><p><strong>Perícias:</strong>
+      Proficiências: Feitiçaria, Sobrenatural, Intimidação e Sobrevivência.</p><p><strong>Salvaguardas:</strong>
+      Proficiências: Reflexo e Fortitude.</p><p><strong>Aspectos:</strong> Mente Singular, Implacável, Fanático,
+      Autossuficiente, Corpo Inerte, Tática de Bando, Analisar Padrões, Mente Inexistente, Vigoroso,
+      Silenciosa.</p><p><strong>Habilidades:</strong> Invocar Crias, Semear Filhotes, Divisão, Nuvem de Esporos,
+      Transferir Praga, Criar Duplicata, Disparo de Teia, Armadilha de Pólen, Regenerar Membro, Onda de
+      Choque.</p><p><strong>Reações:</strong> Cria Reativa, Esporos Reativos, Ataque Reativo.</p>
+    chat: ''
+  identifier: semeador-invocador
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 2
+    dex: 2
+    con: 3
+    int: 2
+    wis: 2
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: 0
+      immune: false
+    piercing:
+      value: 0
+      immune: false
+    slashing:
+      value: 0
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 1
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: -6
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 1
+      immune: false
+    soul:
+      value: -10
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.arc
+      - skills.ani
+      - skills.itm
+      - skills.sur
+      - saves.dex
+      - saves.int
+      - saves.str
+      - saves.wis
+    alternative:
+      - skills.arc
+      - skills.ani
+      - skills.itm
+      - skills.sur
+      - alternativeSaves.reflexo
+      - alternativeSaves.fortitude
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d9d85d54b27f9468
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8a0ca76215e75f50
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4c9dd19ca2562a14
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5bcca07b63f166e2
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5b985b137ebe3303
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.ba3792eb58bb31d5
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.98f7ed9c8403484e
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.58a51099f9439d17
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bfd51c9ea7cf377
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.abc95c7b0ef196ce
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7b2266d4548264e1
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.38a87b70e6f341bd
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53a3e58d6c265d67
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d3b3052e04d15f8e
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e26cd9f3bac30eb9
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.783ac8aaca30fb71
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.3372d172f4e7fb11
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9cb70c1a39119c13
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.a1c02db26d2bf55c
+      nd: 10
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8727b2b7070ef7d5
+      nd: 11
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e88fb722022f2b00
+      nd: 12
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000015
+    armas: []
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: RuRxD3ObgImqFpUb
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/semeador-invocador.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:semeadorinvocador
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: RuRxD3ObgImqFpUb
+_key: '!items!RuRxD3ObgImqFpUb'

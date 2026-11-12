@@ -1,0 +1,83 @@
+<section class="tab {{ tab.cssClass }} jj2-page jj2-summary" data-tab="{{ tab.id }}" data-group="{{ tab.group }}">
+  <section class="iw-martial-overview" aria-label="Indicadores de combate">
+    <div class="jj2-combat-metrics">
+    <div class="jj2-metric jj2-metric-resistance">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="con" }}<strong>{{ system.attributes.ac.value }}</strong><span class="jj2-metric-label">Classe de Resistência</span>{{#if editable}}<button type="button" class="jj2-config" data-action="showConfiguration" data-config="armorClass" aria-label="Configurar Classe de Resistência">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="config" }}</button>{{/if}}</div>
+    <div class="jj2-metric jj2-metric-movement">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="dex" }}<strong>{{ jj2.movement.value }} <small>{{ localize jj2.movement.unit }}</small></strong><span class="jj2-metric-label">{{#if jj2.movement.voando}}Voo{{else}}Movimento{{/if}}</span>{{#if editable}}<button type="button" class="jj2-config" data-action="showConfiguration" data-config="movement" aria-label="Configurar Movimento">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="config" }}</button>{{/if}}</div>
+    <button type="button" class="jj2-metric jj2-metric-initiative {{ rollableClass }} {{#if owner}}always-interactive{{/if}}" data-action="roll" data-type="initiative" aria-label="Rolar Iniciativa" {{ disabled (not owner) }}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="energy" }}<strong>{{ dnd5e-formatModifier system.attributes.init.total }}</strong><span class="jj2-metric-label">Iniciativa</span></button>
+    <div class="jj2-metric jj2-engagement">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="cha" }}{{#if editable}}<input type="number" name="system.legacy2.engagement" value="{{ jj2.engagementBase }}" min="0" step="1" data-dtype="Number" aria-label="Engajamento base">{{else}}<strong>{{ jj2.engagement }}</strong>{{/if}}<span class="jj2-metric-label">Engajamento</span></div>
+    <div class="jj2-metric jj2-metric-technique-dc" data-tooltip="{{ jj2.techniqueDC.tooltip }}" aria-label="CD das técnicas">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="fulgor" }}<strong>{{ jj2.techniqueDC.value }}</strong><span class="jj2-metric-label">CD das Técnicas</span></div>
+    </div>
+  </section>
+  <div class="jj2-panel jj2-saves"><div class="jj2-saves-heading"><h2>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="con" }}Salvaguardas</h2></div>{{#if jj2.alternativeSaves}}{{> "systems/Immortals-system/templates/actors/parts/jj2-alternative-saves.hbs" }}{{else}}<ul>
+    {{#each jj2.saves}}<li class="jj2-rank-row" data-key="{{ key }}" data-ability="{{ key }}"><div class="jj2-rank-name">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key=key }}<a class="saving-throw {{ @root.rollableClass }}" data-action="roll" data-type="ability">{{ label }}</a></div><div class="jj2-rank-line">{{> "systems/Immortals-system/templates/actors/parts/jj2-ranks.hbs" ctx="saves" }}<strong>{{ dnd5e-formatModifier total }}</strong></div><small>{{ rankLabel }}</small></li>{{/each}}
+  </ul>{{/if}}<div class="jj2-proficiency-points"><output aria-label="Pontos de Proficiência restantes"><svg class="iw-proficiency-seal" viewBox="0 0 48 48" preserveAspectRatio="none" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="miter" aria-hidden="true"><path class="iw-proficiency-seal-outer" d="M10 2h28l8 8v28l-8 8H10l-8-8V10Z"/><path d="M12 6h24l6 6v24l-6 6H12l-6-6V12Z" opacity=".45"/></svg><span class="iw-proficiency-value">{{ jj2.pontos.available }}</span></output><span class="iw-proficiency-caption"><span>Pontos de Proficiência</span><small>disponíveis</small></span></div></div>
+  <div class="jj2-identity-grid">
+    {{#if jj2.estiloItem}}
+    <section class="classes pills-lg jj2-main-style {{#if editable}}editing{{/if}}" aria-label="Classe Cultivador">
+      {{#with jj2.estiloItem as |cls|}}
+      <div class="class pill-lg" data-item-id="{{ cls.id }}">
+        <div class="icons">
+          <button type="button" class="jj2-identity-icon item-tooltip always-interactive" data-action="showDocument" data-uuid="{{ cls.uuid }}" data-item-id="{{ cls.id }}" aria-label="Abrir classe {{ cls.name }}">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="cultivation" }}</button>
+        </div>
+        <div class="name-stacked"><div class="title">{{ cls.name }}</div>
+          {{#if @root.jj2.escolhivel}}{{#if @root.editable}}<select name="system.legacy2.principalEscolhido" aria-label="Atributo principal">{{ selectOptions @root.jj2.principais selected=@root.jj2.principalEscolhido labelAttr="label" }}</select>{{else}}<small>{{ @root.jj2.principalLabel }}</small>{{/if}}{{/if}}
+        </div>
+        <button type="button" class="jj2-config {{#if @root.owner}}always-interactive{{/if}}" data-action="jj2SkillTree" aria-label="Abrir mapa de características" {{ disabled (not @root.owner) }}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="tree" }}</button>
+      </div>
+      {{/with}}
+    </section>
+    {{else}}<div class="jj2-identity-card jj2-identity-style"><span class="jj2-identity-icon">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="str" }}</span><div><strong>Cultivador</strong></div><button type="button" class="jj2-config {{#if owner}}always-interactive{{/if}}" data-action="jj2SkillTree" aria-label="Abrir mapa de características" {{ disabled (not owner) }}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="tree" }}</button></div>{{/if}}
+    {{#if jj2.background}}
+    <div class="jj2-origin-entry" data-item-id="{{ jj2.background.id }}">
+      <button type="button" class="jj2-identity-card jj2-origin-card draggable item-tooltip always-interactive" data-action="showDocument" data-item-id="{{ jj2.background.id }}" data-uuid="{{ jj2.background.uuid }}" aria-label="Abrir Antecedente: {{ jj2.background.name }}"><span class="jj2-identity-icon">{{#if jj2.background.img}}<img src="{{ jj2.background.img }}" alt="">{{else}}{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="cha" }}{{/if}}</span><span class="jj2-origin-content"><strong>{{ jj2.background.name }}</strong></span><span class="jj2-identity-open">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="collapse" }}</span></button>
+      {{#if editable}}<button type="button" class="jj2-origin-remove deletion-control item-control item-action" data-action="deleteDocument" data-item-id="{{ jj2.background.id }}" data-uuid="{{ jj2.background.uuid }}" data-tooltip="Remover Antecedente" aria-label="Remover Antecedente: {{ jj2.background.name }}">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="close" }}</button>{{/if}}
+    </div>
+    {{else}}
+    <button type="button" class="jj2-identity-card jj2-origin-card {{#if owner}}always-interactive{{/if}}" data-action="findItem" data-item-type="background" aria-label="Adicionar Antecedente" {{ disabled (not owner) }}><span class="jj2-identity-icon">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="cha" }}</span><span class="jj2-origin-content"><strong>Adicionar Antecedente</strong></span></button>
+    {{/if}}
+    {{#if jj2.species}}
+    <div class="jj2-origin-entry iw-species-entry" data-item-id="{{ jj2.species.id }}">
+      <button type="button" class="jj2-identity-card jj2-origin-card item-tooltip always-interactive" data-action="showDocument" data-item-id="{{ jj2.species.id }}" data-uuid="{{ jj2.species.uuid }}" aria-label="Abrir Espécie: {{ jj2.species.name }}"><span class="jj2-identity-icon">{{#if jj2.species.img}}<img src="{{ jj2.species.img }}" alt="">{{else}}{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="cha" }}{{/if}}</span><span class="jj2-origin-content"><strong>{{ jj2.species.name }}</strong></span><span class="jj2-identity-open">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="collapse" }}</span></button>
+      {{#if editable}}<button type="button" class="jj2-origin-remove deletion-control item-control item-action" data-action="deleteDocument" data-item-id="{{ jj2.species.id }}" data-uuid="{{ jj2.species.uuid }}" data-tooltip="Remover Espécie" aria-label="Remover Espécie: {{ jj2.species.name }}">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="close" }}</button>{{/if}}
+    </div>
+    {{else}}
+    <button type="button" class="jj2-identity-card jj2-origin-card iw-species-entry {{#if owner}}always-interactive{{/if}}" data-action="findItem" data-item-type="race" aria-label="Adicionar Espécie" {{ disabled (not owner) }}><span class="jj2-identity-icon">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="cha" }}</span><span class="jj2-origin-content"><strong>Adicionar Espécie</strong></span></button>
+    {{/if}}
+  </div>
+  {{#if (and editable jj2.backgroundBenefits.pending)}}
+  <aside class="iw-background-benefits" aria-label="Benefícios pendentes do antecedente">
+    <div><strong>Benefícios de {{ jj2.background.name }}</strong><span>Conclua a entrega dos equipamentos, moedas e escolhas do seu antecedente.</span></div>
+    <button type="button" class="jj2-action" data-action="backgroundReceiveBenefits" data-item-id="{{ jj2.background.id }}">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="inventory" }}Concluir benefícios</button>
+  </aside>
+  {{/if}}
+  {{> "systems/Immortals-system/templates/actors/parts/jj2-resistances.hbs" }}
+  <section class="jj2-extra-resources" aria-label="Recursos Extras">
+    <header class="jj2-page-heading jj2-manga-heading jj2-extras-heading iw-tab-heading"><h2>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="energy" }}Recursos Extras</h2>{{#if owner}}<button type="button" class="jj2-action always-interactive" data-action="jj2ResourceConfig" aria-label="Adicionar recurso">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="add" }}Adicionar</button>{{/if}}</header>
+    <div class="jj2-extra-resource-grid">
+      {{#each jj2.extraResources}}{{#unless (eq id "reverseEnergy")}}
+      <article class="jj2-extra-card" data-resource-id="{{ id }}">
+        <header><span class="jj2-extra-card-icon">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key=icon }}</span><h3>{{ label }}</h3>{{#if @root.owner}}<button type="button" class="jj2-config always-interactive" data-action="jj2ResourceConfig" data-resource-id="{{ id }}" aria-label="Configurar {{ label }}">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="config" }}</button>{{/if}}</header>
+        <div class="jj2-extra-counter"><label for="{{ @root.rootId }}-extra-{{ id }}">{{ unit }}</label><div><input id="{{ @root.rootId }}-extra-{{ id }}" name="{{ path }}" type="number" value="{{ value }}" min="0" max="{{ max }}" step="1" data-dtype="Number" aria-label="{{ label }} atual" class="{{#if @root.owner}}always-interactive{{/if}}" {{ disabled (not @root.owner) }}><span>/ {{ max }}</span></div></div>
+        <div class="jj2-extra-meter" role="meter" aria-label="{{ label }}" aria-valuemin="0" aria-valuenow="{{ value }}" aria-valuemax="{{ max }}"><span style="width:{{ pct }}%"></span></div>
+        <p class="jj2-extra-activity" title="{{ activityLabel }}">{{ activityLabel }}</p>
+        <footer><button type="button" class="jj2-action {{#if @root.owner}}always-interactive{{/if}}" data-action="jj2ResourceUse" data-resource-id="{{ id }}" {{ disabled (not (and @root.owner canUse)) }}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="energy" }}Ativar</button>{{#if (and @root.owner custom)}}<button type="button" class="jj2-config always-interactive" data-action="jj2ResourceDelete" data-resource-id="{{ id }}" aria-label="Remover {{ label }}">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="close" }}</button>{{/if}}</footer>
+      </article>
+      {{/unless}}{{/each}}
+      {{#if jj2.seisOlhos.tem}}
+      <article class="jj2-extra-card jj2-special-resource jj2-seis-olhos {{#if jj2.seisOlhos.modo}}active{{/if}}" data-mode="{{ jj2.seisOlhos.modo }}">
+        <header><span class="jj2-extra-card-icon">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="olhos" }}</span><h3 data-tooltip-direction="UP" data-tooltip-html="{{ jj2.seisOlhos.tooltip }}">Seis Olhos</h3></header>
+        <div class="jj2-seis-state"><div><strong>{{ jj2.seisOlhos.rotulo }}</strong><span>1 ação por transição</span></div><span class="jj2-seis-emblem" aria-hidden="true">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="olhos" }}</span></div>
+        <dl class="jj2-seis-bonuses"><div><dt>Resistência</dt><dd>+{{ jj2.seisOlhos.cr }}<small>CR</small></dd></div><div><dt>Acerto</dt><dd>+{{ jj2.seisOlhos.acerto }}</dd></div><div><dt>Custo</dt><dd>−{{ jj2.seisOlhos.custo }}<small>PA</small></dd></div></dl>
+        <div class="jj2-seis-modes" role="group" aria-label="Estado dos Seis Olhos">
+          <button type="button" class="jj2-special-btn {{#if owner}}always-interactive{{/if}}" data-action="jj2SeisOlhos" data-modo="sealed" aria-pressed="{{#if (eq jj2.seisOlhos.modo 'sealed')}}true{{else}}false{{/if}}" {{ disabled (or (not owner) (eq jj2.seisOlhos.modo 'sealed') (lt system.legacy2.actions.value 1)) }}><span>Vendado</span></button>
+          <button type="button" class="jj2-special-btn {{#if owner}}always-interactive{{/if}}" data-action="jj2SeisOlhos" data-modo="full" aria-pressed="{{#if (eq jj2.seisOlhos.modo 'full')}}true{{else}}false{{/if}}" {{ disabled (or (not owner) (eq jj2.seisOlhos.modo 'full') (lt system.legacy2.actions.value 1)) }}><span>Completo</span></button>
+        </div>
+        <footer class="jj2-special-footer jj2-seis-tools">
+          {{#if (eq jj2.seisOlhos.modo "full")}}<button type="button" class="jj2-special-btn {{#if owner}}always-interactive{{/if}}" data-action="jj2AnalisarFluxo" {{ disabled (or (not owner) (lt system.legacy2.actions.value 1)) }}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="olhos" }}<span>Analisar fluxo</span><b>1 ação</b></button>{{else}}<span class="jj2-special-hint">Desvende para analisar o fluxo.</span>{{/if}}
+        </footer>
+        {{#if jj2.seisOlhos.leitura}}<small class="jj2-seis-reading">Leitura Completa ativa</small>{{/if}}
+      </article>
+      {{/if}}
+    </div>
+  </section>
+</section>

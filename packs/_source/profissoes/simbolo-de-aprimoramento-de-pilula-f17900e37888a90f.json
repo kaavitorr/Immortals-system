@@ -1,0 +1,163 @@
+{
+  "_id": "f17900e37888a90f",
+  "name": "Símbolo de Aprimoramento de Pílula",
+  "type": "equipment",
+  "folder": "0ba3fd64495066b2",
+  "img": "systems/Immortals-system/assets/wuxia/inscricoes-pintadas-v1/simbolo-de-aprimoramento-de-pilula.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-simbolo-de-aprimoramento-de-pilula",
+    "type": {
+      "value": "wondrous"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 4.</p><h3>SÍMBOLO DE APRIMORAMENTO DE PÍLULA</h3>\n<table><tbody><tr><td>Tipo: Pílula</td><td>Nível: 4 a 10</td><td>Classe de Dificuldade: 20</td></tr></tbody></table>\n<p>Um símbolo que aprimora tremendamente os efeitos de uma pílula, permitindo que seus efeitos afetem criaturas de rank superior. Ao colocar um símbolo de nível superior a uma pílula, ela passa a ser considerada uma pílula de mesmo nível do símbolo. Uma pílula não pode ser aprimorada mais de 1 nível acima do original dela.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>300% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar esta inscrição ao suporte ou criatura indicado; vincular a habilidade e suas limitações ao alvo escolhido. A inscrição só concede seu benefício depois de aplicada ao suporte indicado e confirmada pelo narrador. Possuí-la no inventário não concede bônus nem condições.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 90 Cristais de Essência Humano Comum. <strong>Venda por unidade:</strong> 270 Cristais de Essência Humano Comum.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"simbolo-de-aprimoramento-de-pilula:4:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 4</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/0cf158d2a495047b.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"0cf158d2a495047b\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.0cf158d2a495047b\">Romã de Sementes de Chumbo</a><small>potência medicinal</small></div><span class=\"iw-recipe-price\" title=\"10 Cristais de Essência Humano Comum por unidade\">10 Cristais de Essência Humano Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/7151f84a1f0c8472.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">3</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7151f84a1f0c8472\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7151f84a1f0c8472\">Grama do Lago Santuário</a><small>condução de Qi</small></div><span class=\"iw-recipe-price\" title=\"10 Cristais de Essência Humano Comum por unidade\">30 Cristais de Essência Humano Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/cd3768ac77ea2e2a.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"cd3768ac77ea2e2a\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.cd3768ac77ea2e2a\">Raiz de Cristal de Frio</a><small>retenção da essência</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Humano Comum por unidade\">40 Cristais de Essência Humano Comum</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-04/3d8e4b36cdcef373.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"3d8e4b36cdcef373\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.3d8e4b36cdcef373\">Solução de Jade Límpido</a><small>Reagente · veículo de extração e mistura</small></div><span class=\"iw-recipe-price\" title=\"10 Cristais de Essência Humano Comum por unidade\">10 Cristais de Essência Humano Comum</span></li></ol><footer><span>Custo dos componentes</span><strong>90 Cristais de Essência Humano Comum</strong></footer><p class=\"iw-recipe-note\">Prepare os componentes como tinta para revestir a pílula.</p></section>"
+    },
+    "activities": {
+      "069b074ba85ae559": {
+        "_id": "069b074ba85ae559",
+        "type": "utility",
+        "name": "Aplicar inscrição (resolução manual)",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 4.</p><h3>SÍMBOLO DE APRIMORAMENTO DE PÍLULA</h3>\n<table><tbody><tr><td>Tipo: Pílula</td><td>Nível: 4 a 10</td><td>Classe de Dificuldade: 20</td></tr></tbody></table>\n<p>Um símbolo que aprimora tremendamente os efeitos de uma pílula, permitindo que seus efeitos afetem criaturas de rank superior. Ao colocar um símbolo de nível superior a uma pílula, ela passa a ser considerada uma pílula de mesmo nível do símbolo. Uma pílula não pode ser aprimorada mais de 1 nível acima do original dela.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>300% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar esta inscrição ao suporte ou criatura indicado; vincular a habilidade e suas limitações ao alvo escolhido. A inscrição só concede seu benefício depois de aplicada ao suporte indicado e confirmada pelo narrador. Possuí-la no inventário não concede bônus nem condições.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 90 Cristais de Essência Humano Comum. <strong>Venda por unidade:</strong> 270 Cristais de Essência Humano Comum.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"simbolo-de-aprimoramento-de-pilula:4:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 4</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/0cf158d2a495047b.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"0cf158d2a495047b\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.0cf158d2a495047b\">Romã de Sementes de Chumbo</a><small>potência medicinal</small></div><span class=\"iw-recipe-price\" title=\"10 Cristais de Essência Humano Comum por unidade\">10 Cristais de Essência Humano Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/7151f84a1f0c8472.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">3</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7151f84a1f0c8472\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7151f84a1f0c8472\">Grama do Lago Santuário</a><small>condução de Qi</small></div><span class=\"iw-recipe-price\" title=\"10 Cristais de Essência Humano Comum por unidade\">30 Cristais de Essência Humano Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/cd3768ac77ea2e2a.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"cd3768ac77ea2e2a\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.cd3768ac77ea2e2a\">Raiz de Cristal de Frio</a><small>retenção da essência</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Humano Comum por unidade\">40 Cristais de Essência Humano Comum</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-04/3d8e4b36cdcef373.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"3d8e4b36cdcef373\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.3d8e4b36cdcef373\">Solução de Jade Límpido</a><small>Reagente · veículo de extração e mistura</small></div><span class=\"iw-recipe-price\" title=\"10 Cristais de Essência Humano Comum por unidade\">10 Cristais de Essência Humano Comum</span></li></ol><footer><span>Custo dos componentes</span><strong>90 Cristais de Essência Humano Comum</strong></footer><p class=\"iw-recipe-note\">Prepare os componentes como tinta para revestir a pílula.</p></section>",
+          "chatFlavor": "Símbolo de Aprimoramento de Pílula — Aplicar inscrição (resolução manual)"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "simbolo-de-aprimoramento-de-pilula",
+              "key": "apply",
+              "level": 4,
+              "quality": null,
+              "manualResolution": true,
+              "consumeItem": false,
+              "rule": "simbolo-de-aprimoramento-de-pilula",
+              "requiresAppliedInscription": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Aplicar inscrição (resolução manual)",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/inscricoes-pintadas-v1/simbolo-de-aprimoramento-de-pilula.webp"
+      }
+    },
+    "equipped": false,
+    "price": {
+      "value": 270,
+      "denomination": "essence-human"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "simbolo-de-aprimoramento-de-pilula",
+        "kind": "inscription",
+        "profession": "inscriptions",
+        "level": 4,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 4,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 5000,
+          "materials": 100,
+          "currency": "spiritualCrystals",
+          "rank": "human"
+        },
+        "creationPercent": 500,
+        "salePercent": 300,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 90,
+          "currency": "spiritualCrystals",
+          "rank": "human"
+        },
+        "sale": {
+          "amount": 270,
+          "currency": "spiritualCrystals",
+          "rank": "human"
+        },
+        "referenceCreation": {
+          "amount": 500,
+          "currency": "spiritualCrystals",
+          "rank": "human"
+        },
+        "referenceSale": {
+          "amount": 1500,
+          "currency": "spiritualCrystals",
+          "rank": "human"
+        }
+      },
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Aplicar esta inscrição ao suporte ou criatura indicado; vincular a habilidade e suas limitações ao alvo escolhido.",
+          "A inscrição só concede seu benefício depois de aplicada ao suporte indicado e confirmada pelo narrador. Possuí-la no inventário não concede bônus nem condições."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!f17900e37888a90f"
+}

@@ -1,0 +1,63 @@
+_id: hacksaw000000000
+_key: '!items!hacksaw000000000'
+name: Serra de Metal
+type: tool
+img: icons/tools/hand/saw-hacksaw-brass-grey.webp
+system:
+  identifier: tool-hacksaw
+  description:
+    value: >-
+      <p>Ferramenta manual comum usada para cortar metal.</p><p><strong>Propriedades:</strong>
+      Empilhável.</p><p><strong>Profissões e conhecimentos:</strong> Ferraria.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 1
+    units: kg
+  price:
+    value: 80
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: wis
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: 7LUkTLEZvS60KVBp
+sort: 1000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: hacksaw000000000
+      sourceType: tool
+      category: implement
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

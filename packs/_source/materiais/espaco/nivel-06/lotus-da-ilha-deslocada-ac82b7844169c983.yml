@@ -1,0 +1,53 @@
+_id: ac82b7844169c983
+_key: '!items!ac82b7844169c983'
+name: Lótus da Ilha Deslocada
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/ac82b7844169c983.webp
+system:
+  identifier: material-alquimia-ac82b7844169c983
+  description:
+    value: <p><strong>Elemento:</strong> Espaço · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Planta</p><p>Lótus azul-índigo que floresce em ilhas que trocam de lugar no lago a cada lua. Suas pétalas entram em pílulas que desenlaçam o corpo de cordas e apertos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: c3a2c8406ce8b9a0
+sort: 10100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: espaco
+      elementLabel: Espaço
+      level: 6
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/espaco.json
+        originalName: Lótus da Ilha Deslocada
+        sha256: e7d0006d3bc5b8eb4685c982cf4dd46c83df9af6d2f53fcd8b56c8b83060db26
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

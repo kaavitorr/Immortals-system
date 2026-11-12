@@ -1,0 +1,53 @@
+_id: 4cd499fc03e0a2ab
+_key: '!items!4cd499fc03e0a2ab'
+name: Gengibre do Talude de Lava
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/4cd499fc03e0a2ab.webp
+system:
+  identifier: material-alquimia-4cd499fc03e0a2ab
+  description:
+    value: <p><strong>Elemento:</strong> Fogo · <strong>Nível:</strong> 5 · <strong>Categoria:</strong> Planta</p><p>Raiz nodosa cravada no talude onde a lava esfriou há cem anos, sempre morna. Fatias em caldo afastam o tremor das manhãs frias.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-earth
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: bfca41f95e6894ff
+sort: 8700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: fogo
+      elementLabel: Fogo
+      level: 5
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/fogo.json
+        originalName: Gengibre do Talude de Lava
+        sha256: ba1a23c0b606945bb3806834a346654c7369238959758f3d2c8d2c74258f92bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 5
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

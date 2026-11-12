@@ -1,0 +1,53 @@
+_id: 73deb73e951fa441
+_key: '!items!73deb73e951fa441'
+name: Ganoderma da Longevidade
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/73deb73e951fa441.webp
+system:
+  identifier: material-alquimia-73deb73e951fa441
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 9 · <strong>Categoria:</strong> Planta</p><p>Ganoderma de chapéu roxo-âmbar que respira devagar como um ser vivo. Consumido em jejum ritual, concede ao mortal uma vida longa e ao cultivador décadas de cultivo.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f7757a6cfc4fe288
+sort: 16400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 9
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Ganoderma da Longevidade
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 9
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

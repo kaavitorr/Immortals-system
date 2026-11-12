@@ -1,0 +1,137 @@
+_id: cloakOfKindlyVis
+_key: '!items!cloakOfKindlyVis'
+name: Capa do Rosto Amigável
+type: equipment
+img: icons/equipment/back/cloak-collared-grey.webp
+system:
+  identifier: cloak-kindly-visage
+  description:
+    value: >-
+      <blockquote><p>Uma capa preta discreta que parece combinar com quase qualquer traje.</p></blockquote><p>Esta capa
+      encantada fornece um bônus de encantamento a testes da perícia <strong>Diplomacia</strong> e concede a habilidade
+      de assumir um <strong>Disfarce</strong> ilusório.</p><p><strong>Propriedades:</strong>
+      Vinculação.</p><h3>Disfarce</h3><p>Grants the <strong>Disguise</strong> action, allowing the bearer to assume an
+      illusory appearance once per rest.</p><h3>Diplomacia</h3><p>Increase the <strong>Enchantment Bonus</strong> for
+      <strong>Diplomacy</strong> skill checks by 1 for each <strong>Tier</strong> of this prefix.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 50
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - mgc
+  equipped: false
+  attunement: required
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    7f1980e98877890f:
+      _id: 7f1980e98877890f
+      type: utility
+      name: Assumir disfarce
+      img: icons/equipment/head/mask-carved-bird-grey-pink.webp
+      sort: 0
+      activation:
+        type: action
+        value: 6
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '6'
+          - type: attribute
+            target: energy.total
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        value: >-
+          <p>You assume an illusory appearance once per rest which alters your appearance as well as your attire. The
+          illusion cannot alter your ancestry, but can change other aspects of your anatomy including your apparent
+          gender. The item itself does not change in appearance and remains visible.</p><p>The illusion persists
+          indefinitely and can be dismissed at-will. Once activated, this item cannot produce another illusion in this
+          way until 24 hours have passed.</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: self
+        value: null
+        special: ''
+      target:
+        override: true
+        prompt: true
+        template:
+          type: ''
+          size: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: self
+          count: ''
+          choice: false
+          special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  type:
+    value: clothing
+    baseItem: ''
+  armor:
+    value: 0
+    dex: null
+    ability: ''
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: GVbpo5LtAY44QZPD
+sort: 400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: cloakOfKindlyVis
+      sourceType: accessory
+      category: clothing
+      quality: fine
+      enchantment: minor
+      properties:
+        - investment
+      weaponDamagePending: false
+      manualEffects:
+        - Disfarce
+        - Diplomacia

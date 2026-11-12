@@ -1,0 +1,15 @@
+{
+  "_id": "34be9554e1bd424a",
+  "name": "Ferramentas",
+  "type": "Item",
+  "folder": "881fadce1bce968c",
+  "sorting": "a",
+  "color": "#95846b",
+  "flags": {
+    "Immortals-system": {
+      "professionProductsFolder": "tool",
+      "professionProductsContentVersion": 2
+    }
+  },
+  "_key": "!folders!34be9554e1bd424a"
+}

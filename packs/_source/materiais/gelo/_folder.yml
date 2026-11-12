@@ -1,0 +1,12 @@
+_id: e13aab1d64a4c089
+_key: '!folders!e13aab1d64a4c089'
+name: Gelo
+type: Item
+folder: null
+sorting: m
+sort: 800000
+color: '#4e7c89'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: gelo

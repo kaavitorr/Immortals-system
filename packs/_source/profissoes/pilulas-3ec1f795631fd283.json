@@ -1,0 +1,15 @@
+{
+  "_id": "3ec1f795631fd283",
+  "name": "Pílulas",
+  "type": "Item",
+  "folder": "881fadce1bce968c",
+  "sorting": "a",
+  "color": "#7d8861",
+  "flags": {
+    "Immortals-system": {
+      "professionProductsFolder": "pill",
+      "professionProductsContentVersion": 2
+    }
+  },
+  "_key": "!folders!3ec1f795631fd283"
+}

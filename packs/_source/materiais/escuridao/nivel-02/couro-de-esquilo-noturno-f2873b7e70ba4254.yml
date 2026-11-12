@@ -1,0 +1,53 @@
+_id: f2873b7e70ba4254
+_key: '!items!f2873b7e70ba4254'
+name: Couro de Esquilo da Sombra Móvel
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/f2873b7e70ba4254.webp
+system:
+  identifier: material-alquimia-f2873b7e70ba4254
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Parte de animal</p><p>O esquilo da sombra móvel salta entre árvores alimentadas por Qi yin, deixando a própria sombra chegar antes do corpo. Seu couro conserva uma fina camada de essência escura sob os pelos, útil em membranas e preparados que abafam a exposição da aura.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 600
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d4840a148e9cd19b
+sort: 4000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 2
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Couro de Esquilo Noturno
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

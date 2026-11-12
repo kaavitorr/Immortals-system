@@ -1,0 +1,53 @@
+_id: f61197873683079d
+_key: '!items!f61197873683079d'
+name: Camélia da Aurora Longa
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/f61197873683079d.webp
+system:
+  identifier: material-alquimia-f61197873683079d
+  description:
+    value: <p><strong>Elemento:</strong> Luz · <strong>Nível:</strong> 5 · <strong>Categoria:</strong> Planta</p><p>Camélia que floresce apenas nos vales onde a aurora se demora horas, encharcada de manhã clara. Suas pétalas, em pílulas de grau médio, protegem a mente contra fadigas espirituais.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-earth
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: cec2cb07aa6d16a8
+sort: 8600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: luz
+      elementLabel: Luz
+      level: 5
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/luz.json
+        originalName: Camélia da Aurora Longa
+        sha256: a65d9c475ce3e69bcab79896f06bd1f00a0fcc1e5a6329d0e4735711f2236288
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 5
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,47 @@
+{
+  "_id": "1a2c1000e0b73a08",
+  "name": "Demônios da Brutalidade",
+  "type": "feat",
+  "folder": "1a2c000000000003",
+  "img": "systems/Immortals-system/assets/wuxia/ancestralidades-variantes-pintadas-v1/demonios-da-brutalidade.webp",
+  "system": {
+    "identifier": "especie-c8dcc4c8",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Escolha apenas uma variante demoníaca. Suas características são recebidas pela progressão.</p>"
+    },
+    "advancement": {
+      "1a2c100090e5efb8": {
+        "_id": "1a2c100090e5efb8",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Demônios da Brutalidade",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000dd1c35bd",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000bcb386a6",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Demônios da Brutalidade",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000e0b73a08"
+}

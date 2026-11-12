@@ -1,0 +1,84 @@
+name: Escamas Vibrantes
+type: feat
+folder: 38877a6e275e7204
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢ · Reação</p><p>Quando é atingida, a criatura faz suas escamas vibrarem com Qi para
+      dissipar parte do impacto. Ao sofrer dano, essa criatura pode gastar 1 Ponto de Ação [⬢] para reduzir 4d8 Pontos
+      de Dano sofridos. Ela pode gastar 1 PQ para aumentar a redução em 1d8, desde que o número de dados totais não
+      fiquem acima do nível do personagem, por causa do aumento.</p>
+    chat: ''
+  identifier: escamas-vibrantes
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    77ab046c1371ff89:
+      _id: 77ab046c1371ff89
+      type: utility
+      name: Escamas Vibrantes
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: true
+          max: max(0, max(@legacy2.nd, @details.level, 1) - 4)
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '0'
+            scaling:
+              mode: amount
+              formula: '1'
+      description:
+        value: >-
+          <p>Quando é atingida, a criatura faz suas escamas vibrarem com Qi para dissipar parte do impacto. Ao sofrer
+          dano, essa criatura pode gastar 1 Ponto de Ação [⬢] para reduzir 4d8 Pontos de Dano sofridos. Ela pode gastar
+          1 PQ para aumentar a redução em 1d8, desde que o número de dados totais não fiquem acima do nível do
+          personagem, por causa do aumento.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 5
+  prerequisites:
+    items: []
+    level: 5
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: 2bb177affccf790d
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/escamas-de-aco-cb965228fde86258.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:escamasvibrantes
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Soberano Elemental
+_key: '!items!2bb177affccf790d'

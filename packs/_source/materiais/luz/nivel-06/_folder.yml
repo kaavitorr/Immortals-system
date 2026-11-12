@@ -1,0 +1,13 @@
+_id: 9114f97750cdb56e
+_key: '!folders!9114f97750cdb56e'
+name: Nível 6
+type: Item
+folder: e1730b8d2dbc7697
+sorting: a
+sort: 600000
+color: '#806d3f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: luz
+      level: 6

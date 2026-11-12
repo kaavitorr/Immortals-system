@@ -1,0 +1,13 @@
+_id: a46d461e535a5491
+_key: '!folders!a46d461e535a5491'
+name: Nível 6
+type: Item
+folder: 1e7500f1620000ec
+sorting: a
+sort: 600000
+color: '#5f6d78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: metal
+      level: 6

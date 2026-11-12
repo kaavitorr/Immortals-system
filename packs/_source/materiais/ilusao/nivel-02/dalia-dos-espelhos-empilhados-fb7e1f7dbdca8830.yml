@@ -1,0 +1,53 @@
+_id: fb7e1f7dbdca8830
+_key: '!items!fb7e1f7dbdca8830'
+name: Dália dos Espelhos Empilhados
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/fb7e1f7dbdca8830.webp
+system:
+  identifier: material-alquimia-fb7e1f7dbdca8830
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>Floresce em depressões de Qi ilusório, formando pétalas que refletem imagens sucessivas até um centro sem brilho. O néctar conserva a ordem entre essas camadas e fornece o princípio ativo de ilusão a pílulas que exigem controle da percepção e da aparência.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 91b9ed675b46d50c
+sort: 2600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Dália dos Espelhos Empilhados
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

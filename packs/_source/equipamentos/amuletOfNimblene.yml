@@ -1,0 +1,71 @@
+_id: amuletOfNimblene
+_key: '!items!amuletOfNimblene'
+name: Amuleto da Agilidade
+type: equipment
+img: icons/equipment/neck/necklace-runed-sowelu-teal.webp
+system:
+  identifier: amulet-nimbleness
+  description:
+    value: >-
+      <blockquote><p>Este colar vivamente colorido guarda um amuleto de pedra que brilha com uma runa crepitando
+      suavemente com ressonância elétrica. Ao segurá-lo, você tem a sensação surreal de que o mundo ao seu redor
+      desacelera levemente.</p></blockquote><p>Este amuleto encantado fornece um bônus à defesa de
+      <strong>Reflexos</strong>.</p><p><strong>Propriedades:</strong> Vinculação.</p><h3>Agilidade</h3><p>Increase
+      <strong>Reflex</strong> defense by 1 for each <strong>Tier</strong> of this suffix.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - mgc
+  equipped: false
+  attunement: required
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: wondrous
+    baseItem: ''
+  armor:
+    value: 0
+    dex: null
+    ability: ''
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: dNk8eE87Ep8GtNse
+sort: 100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: amuletOfNimblene
+      sourceType: accessory
+      category: jewelry
+      quality: fine
+      enchantment: minor
+      properties:
+        - investment
+      weaponDamagePending: false
+      manualEffects:
+        - Agilidade

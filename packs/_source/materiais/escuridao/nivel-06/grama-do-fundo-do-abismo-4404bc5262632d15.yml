@@ -1,0 +1,53 @@
+_id: 4404bc5262632d15
+_key: '!items!4404bc5262632d15'
+name: Grama do Fundo do Abismo
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/4404bc5262632d15.webp
+system:
+  identifier: material-alquimia-4404bc5262632d15
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Planta</p><p>Fina e de um negro profundo, cresce em fendas do fundo do abismo, onde o Qi denso escorre da rocha. Trançada em coroa, mantém a mente desperta por nove vigílias.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: fca2badbc7e83ef3
+sort: 10100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 6
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Grama do Fundo do Abismo
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

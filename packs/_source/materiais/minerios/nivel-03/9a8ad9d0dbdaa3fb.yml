@@ -1,0 +1,50 @@
+_id: 9a8ad9d0dbdaa3fb
+name: Ocre das Muralhas Antigas
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-03/9a8ad9d0dbdaa3fb.webp
+system:
+  identifier: minerio-9a8ad9d0dbdaa3fb
+  description:
+    value: <p><strong>Nível:</strong> 3 · <strong>Categoria:</strong> Minério</p><p>Rocha amarela compacta, marcada por pequenas linhas retas de tom castanho. Forma-se junto a fundações muito antigas impregnadas de Qi de Terra. Seu pó preparado entra em tintas de inscrição, e as placas inteiras servem de base para selos de contenção.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 2000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 1553cd7f43d03e6b
+sort: 600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 3
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 3
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!9a8ad9d0dbdaa3fb'

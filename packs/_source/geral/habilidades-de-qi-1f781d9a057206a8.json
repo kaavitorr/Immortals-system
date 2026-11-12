@@ -1,0 +1,15 @@
+{
+  "_id": "1f781d9a057206a8",
+  "name": "Habilidades de Qi",
+  "type": "Item",
+  "folder": "1ac79c99963d80c7",
+  "sorting": "a",
+  "color": "#4e8f9f",
+  "flags": {
+    "Immortals-system": {
+      "qiTalentsFolder": "Habilidades de Qi",
+      "qiTalentsContentVersion": 1
+    }
+  },
+  "_key": "!folders!1f781d9a057206a8"
+}

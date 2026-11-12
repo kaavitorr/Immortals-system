@@ -1,0 +1,50 @@
+_id: 5690e4a004ba523a
+name: Prata das Almas Pacificadas
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-09/5690e4a004ba523a.webp
+system:
+  identifier: minerio-5690e4a004ba523a
+  description:
+    value: <p><strong>Nível:</strong> 9 · <strong>Categoria:</strong> Minério</p><p>Ramos prateados se abrem sobre uma rocha de cor azul noturno. Os depósitos surgem perto de necrópoles espirituais cujas presenças residuais encontraram repouso. Artesãos da Alma aproveitam seus ramos para suportes delicados e canais de focos que não devem reter ecos de trabalhos anteriores.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f1cbc70ac6eb92d9
+sort: 600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 9
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 9
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!5690e4a004ba523a'

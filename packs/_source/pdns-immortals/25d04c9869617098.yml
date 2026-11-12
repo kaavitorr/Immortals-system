@@ -1,0 +1,71 @@
+_id: 25d04c9869617098
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:112
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 25d04c9869617098
+name: Fingir-se de Objeto
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢</strong></p><p>Você pode realizar um Teste de Furtividade com uma vantagem adicional ao mudar
+      de forma ou apenas ficar imóvel, fingindo ser a forma que já assume naturalmente.</p>
+    chat: ''
+  identifier: fingir-se-de-objeto
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    30fc3e2e605ba205:
+      _id: 30fc3e2e605ba205
+      type: utility
+      name: Fingir-se de Objeto
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Você pode realizar um Teste de Furtividade com uma vantagem adicional ao mudar de forma ou apenas ficar
+          imóvel, fingindo ser a forma que já assume naturalmente.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 1
+  prerequisites:
+    items: []
+    level: 1
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/fingir-se-de-objeto-25d04c9869617098.webp"
+_key: '!items!25d04c9869617098'

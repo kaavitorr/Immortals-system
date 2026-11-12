@@ -1,0 +1,66 @@
+_id: heavyHides000000
+_key: '!items!heavyHides000000'
+name: Peles Pesadas
+type: equipment
+img: systems/Immortals-system/assets/wuxia/armaduras-heroicas-pintadas-v2/peles-pesadas.webp
+system:
+  identifier: heavy-hides
+  description:
+    value: >-
+      <p>Pele endurecida de grandes feras ou monstros, estas armaduras rústicas são usadas por caçadores e povos
+      selvagens, oferecendo defesa durável — embora tosca — em campo.</p><p><strong>Propriedades:</strong> Volumosa.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 20
+    units: kg
+  price:
+    value: 400
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: medium
+    baseItem: ''
+  armor:
+    value: 9
+    dex: null
+    ability: dex
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: gQTZ7J9hqDpVTtPb
+sort: 100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: heavyHides000000
+      sourceType: armor
+      category: medium
+      quality: standard
+      enchantment: mundane
+      properties:
+        - bulky
+      weaponDamagePending: false
+      manualEffects: []

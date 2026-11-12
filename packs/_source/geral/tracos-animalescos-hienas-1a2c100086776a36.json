@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c100086776a36",
+  "name": "Traços Animalescos — Hienas",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/abilities/mouth-teeth-rows-white.webp",
+  "system": {
+    "identifier": "especie-41d77ef6",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Hienas. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c10005ea2fdb7": {
+        "_id": "1a2c10005ea2fdb7",
+        "type": "ItemChoice",
+        "title": "Duas características — Hienas",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.MV2sEV4QPmukzwRH"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.K2n04gRVgy7GJ2Fd"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Hienas",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c100086776a36"
+}

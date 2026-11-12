@@ -1,0 +1,53 @@
+_id: cf1b203b223455b2
+_key: '!items!cf1b203b223455b2'
+name: Lótus do Mar de Tempestade
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/cf1b203b223455b2.webp
+system:
+  identifier: material-alquimia-cf1b203b223455b2
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Planta</p><p>Lótus que floresce em recifes de mares de tempestade, abrindo uma pétala para cada trovão que cai. Cada pétala aumenta a velocidade dos reflexos por um dia.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 26db1de00fdce891
+sort: 12100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 7
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Lótus do Mar de Tempestade
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,13 @@
+_id: 2a998700f944fbd5
+_key: '!folders!2a998700f944fbd5'
+name: Nível 8
+type: Item
+folder: 25264a5c1c2a6166
+sorting: a
+sort: 800000
+color: '#795d67'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: ilusao
+      level: 8

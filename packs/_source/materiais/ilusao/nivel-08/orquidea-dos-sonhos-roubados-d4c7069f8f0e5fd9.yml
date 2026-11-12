@@ -1,0 +1,53 @@
+_id: d4c7069f8f0e5fd9
+_key: '!items!d4c7069f8f0e5fd9'
+name: Orquídea dos Sonhos Roubados
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/d4c7069f8f0e5fd9.webp
+system:
+  identifier: material-alquimia-d4c7069f8f0e5fd9
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Planta</p><p>Floresce apenas onde alguém perdeu um sonho precioso e carrega no labelo um retrato borrado do que foi perdido. Sublimada com prata, compõe poções que devolvem sonhos perdidos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 2a998700f944fbd5
+sort: 14300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 8
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Orquídea dos Sonhos Roubados
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

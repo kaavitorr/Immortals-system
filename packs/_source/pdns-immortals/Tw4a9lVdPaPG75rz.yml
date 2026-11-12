@@ -1,0 +1,43 @@
+name: Escamas de Aço
+type: feat
+folder: 4a01769271d28d18
+system:
+  description:
+    value: >-
+      <p>Essa criatura ignora qualquer dano físico inferior a 10 + 5 para cada Categoria de tamanho acima de Pequeno,
+      mas qualquer dano superior causa o dano total.</p>
+    chat: ''
+  identifier: escamas-de-aco
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: Tw4a9lVdPaPG75rz
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/escamas-de-aco-Tw4a9lVdPaPG75rz.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:escamasdeaco:51afdaf69ff4
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: Tw4a9lVdPaPG75rz
+_key: '!items!Tw4a9lVdPaPG75rz'

@@ -1,0 +1,73 @@
+_id: e26cd9f3bac30eb9
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:195
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: e26cd9f3bac30eb9
+name: Cria Reativa
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Quando uma criatura realizar um ataque contra essa criatura, ela pode
+      puxar uma criatura que controla e que esteja a até 5 metros para receber o ataque em seu lugar, ou gastar 2 Pontos
+      de Ação [⬢⬢] para criar uma na hora.</p>
+    chat: ''
+  identifier: cria-reativa
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    e8e1771ed72a5f2e:
+      _id: e8e1771ed72a5f2e
+      type: utility
+      name: Cria Reativa
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Quando uma criatura realizar um ataque contra essa criatura, ela pode puxar uma criatura que controla e que
+          esteja a até 5 metros para receber o ataque em seu lugar, ou gastar 2 Pontos de Ação [⬢⬢] para criar uma na
+          hora.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 7
+  prerequisites:
+    items: []
+    level: 7
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/cria-reativa-e26cd9f3bac30eb9.webp"
+_key: '!items!e26cd9f3bac30eb9'

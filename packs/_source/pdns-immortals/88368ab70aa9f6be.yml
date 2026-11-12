@@ -1,0 +1,78 @@
+_id: 88368ab70aa9f6be
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:176
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 88368ab70aa9f6be
+name: Zelo do Protetor
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢</strong></p><p>Ao gastar 8 PQ, essa criatura pode trocar sua Classe de Resistência com a de
+      uma criatura aliada que tenha CR inferior à dela e aumentar a própria em +2 após a troca. Esse efeito dura por 1
+      minuto ou até a criatura cancelar a habilidade.</p>
+    chat: ''
+  identifier: zelo-do-protetor
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    473ea1d69ba9e05d:
+      _id: 473ea1d69ba9e05d
+      type: utility
+      name: Zelo do Protetor
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '8'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 8 PQ, essa criatura pode trocar sua Classe de Resistência com a de uma criatura aliada que tenha
+          CR inferior à dela e aumentar a própria em +2 após a troca. Esse efeito dura por 1 minuto ou até a criatura
+          cancelar a habilidade.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 12
+  prerequisites:
+    items: []
+    level: 12
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/zelo-do-protetor-88368ab70aa9f6be.webp"
+_key: '!items!88368ab70aa9f6be'

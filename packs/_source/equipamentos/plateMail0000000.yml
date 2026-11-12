@@ -1,0 +1,69 @@
+_id: plateMail0000000
+_key: '!items!plateMail0000000'
+name: Armadura de Placas
+type: equipment
+img: systems/Immortals-system/assets/wuxia/armaduras-heroicas-pintadas-v2/armadura-de-placas.webp
+system:
+  identifier: plate-mail
+  description:
+    value: >-
+      <p>O pináculo da proteção pessoal, a armadura de placas envolve o corpo em placas de aço cuidadosamente ajustadas,
+      oferecendo proteção quase completa enquanto permite mobilidade impressionante para um portador
+      treinado.</p><p><strong>Propriedades:</strong> Volumosa, Ruidosa.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 60
+    units: kg
+  price:
+    value: 7200
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - stealthDisadvantage
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: heavy
+    baseItem: ''
+  armor:
+    value: 14
+    dex: null
+    ability: ''
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: amO0X74IO8uQIox5
+sort: 200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: plateMail0000000
+      sourceType: armor
+      category: heavy
+      quality: standard
+      enchantment: mundane
+      properties:
+        - bulky
+        - noisy
+      weaponDamagePending: false
+      manualEffects: []

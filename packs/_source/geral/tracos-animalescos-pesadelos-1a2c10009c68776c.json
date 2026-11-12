@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c10009c68776c",
+  "name": "Traços Animalescos — Pesadelos",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/magic/control/fear-fright-shadow-monster-purple.webp",
+  "system": {
+    "identifier": "especie-e316482c",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Pesadelos. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c10002632003e": {
+        "_id": "1a2c10002632003e",
+        "type": "ItemChoice",
+        "title": "Duas características — Pesadelos",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.v7uQXWjnePWUBrFs"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.2x9KI1EsQ8AK0fW6"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Pesadelos",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c10009c68776c"
+}

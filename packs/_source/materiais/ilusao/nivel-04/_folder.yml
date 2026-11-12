@@ -1,0 +1,13 @@
+_id: e3d2cfec08742040
+_key: '!folders!e3d2cfec08742040'
+name: Nível 4
+type: Item
+folder: 25264a5c1c2a6166
+sorting: a
+sort: 400000
+color: '#795d67'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: ilusao
+      level: 4

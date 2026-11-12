@@ -1,0 +1,75 @@
+_id: 2603da2054ea95bd
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:113
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 2603da2054ea95bd
+name: Floresta de Pedra
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢⬢⬢</strong></p><p>Você pode criar diversos pilares de pedra de diferentes tamanhos em uma
+      área de 10 metros de raio + 2 metros por ND. Enquanto estiverem dentro dessa área, todos podem realizar 1 Teste de
+      Furtividade no início de cada rodada. Todas as criaturas recebem uma vantagem em rolagens de d20 de natureza
+      física (incluindo ataques) contra criaturas com resultado de Furtividade menor que o delas.</p>
+    chat: ''
+  identifier: floresta-de-pedra
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    4729b8606bb3a2cf:
+      _id: 4729b8606bb3a2cf
+      type: utility
+      name: Floresta de Pedra
+      activation:
+        type: action
+        value: 5
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Você pode criar diversos pilares de pedra de diferentes tamanhos em uma área de 10 metros de raio + 2
+          metros por ND. Enquanto estiverem dentro dessa área, todos podem realizar 1 Teste de Furtividade no início de
+          cada rodada. Todas as criaturas recebem uma vantagem em rolagens de d20 de natureza física (incluindo ataques)
+          contra criaturas com resultado de Furtividade menor que o delas.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 5
+  prerequisites:
+    items: []
+    level: 5
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/floresta-de-pedra-2603da2054ea95bd.webp"
+_key: '!items!2603da2054ea95bd'

@@ -1,0 +1,13 @@
+_id: c67d55906ca48f23
+_key: '!folders!c67d55906ca48f23'
+name: Nível 4
+type: Item
+folder: c850a5148710bf94
+sorting: a
+sort: 400000
+color: '#365f78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: agua
+      level: 4

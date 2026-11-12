@@ -1,0 +1,133 @@
+{
+  "_id": "ff96290c2ce6988a",
+  "name": "Corpo Indestrutível",
+  "type": "feat",
+  "folder": "d2652f7aa9b40d98",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/corpo-indestrutivel.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-corpo-indestrutivel",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Corpo de Guerreiro.</p><h2>Corpo Indestrutível</h2><p><strong>Requisito:</strong> Potencialização Extrema</p><p>Uma vez por Descanso Longo, você pode negar o dano que sofreria, reduzindo-o a 0. Caso o dano seja superior a 160, você reduz esse dano em 160 e sofre normalmente apenas o valor excedente.</p>"
+    },
+    "activities": {
+      "e8fad0177a9b0ca3": {
+        "_id": "e8fad0177a9b0ca3",
+        "type": "reduction",
+        "name": "Negar até 160 de dano",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "Ao sofrer dano; o excedente de 160 é sofrido normalmente.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "activityUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Corpo de Guerreiro.</p><h2>Corpo Indestrutível</h2><p><strong>Requisito:</strong> Potencialização Extrema</p><p>Uma vez por Descanso Longo, você pode negar o dano que sofreria, reduzindo-o a 0. Caso o dano seja superior a 160, você reduz esse dano em 160 e sofre normalmente apenas o valor excedente.</p>",
+          "chatFlavor": "Corpo Indestrutível — Negar até 160 de dano"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "corpo-indestrutivel",
+              "key": "negate",
+              "manualResolution": false,
+              "rule": "indestructibleBody",
+              "singleAttackOnly": true
+            }
+          }
+        },
+        "reduction": {
+          "formula": "160"
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/corpo-indestrutivel.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "corpo-indestrutivel",
+        "categoria": "Adaptação Física",
+        "caminho": "Corpo de Guerreiro",
+        "requisitos": [
+          "Potencialização Extrema"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "potencializacao-extrema"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!ff96290c2ce6988a"
+}

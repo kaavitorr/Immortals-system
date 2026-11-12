@@ -1,0 +1,130 @@
+{
+  "_id": "c711e2f29971e3e8",
+  "name": "Estímulo de Sangue",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/estimulo-de-sangue.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-estimulo-de-sangue",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Cultivo Demoníaco.</p><h2>Estímulo de Sangue</h2><p><strong>Requisito:</strong> Qi Demoníaco</p><p>Você pode queimar sua vitalidade em troca de uma grande quantidade de poder por um curto período de tempo. Ao consumir 1 Ponto de Constituição, você aumenta o dano final de suas técnicas em 50% e reduz o custo de ação de todas elas em 1 Ponto de Ação [1 ação], até o mínimo de 1 pelos próximos 10 minutos.</p><ul><li>Você deve manter seu cultivo demoníaco do Caminho do Devorador ou Abate por 1 ano para recuperar o Ponto de Constituição consumido.</li></ul><p><strong>Resolução:</strong> O consumo de Constituição é recuperado após um ano mantendo o caminho demoníaco indicado. O sacrifício de Constituição e a recuperação após um ano de cultivo demoníaco são confirmados e registrados pelo narrador. A atividade não remove atributo nem altera outras técnicas automaticamente.</p>"
+    },
+    "activities": {
+      "9af6dd716c272083": {
+        "_id": "9af6dd716c272083",
+        "type": "utility",
+        "name": "Estímulo de Sangue",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Cultivo Demoníaco.</p><h2>Estímulo de Sangue</h2><p><strong>Requisito:</strong> Qi Demoníaco</p><p>Você pode queimar sua vitalidade em troca de uma grande quantidade de poder por um curto período de tempo. Ao consumir 1 Ponto de Constituição, você aumenta o dano final de suas técnicas em 50% e reduz o custo de ação de todas elas em 1 Ponto de Ação [1 ação], até o mínimo de 1 pelos próximos 10 minutos.</p><ul><li>Você deve manter seu cultivo demoníaco do Caminho do Devorador ou Abate por 1 ano para recuperar o Ponto de Constituição consumido.</li></ul><p><strong>Resolução:</strong> O consumo de Constituição é recuperado após um ano mantendo o caminho demoníaco indicado. O sacrifício de Constituição e a recuperação após um ano de cultivo demoníaco são confirmados e registrados pelo narrador. A atividade não remove atributo nem altera outras técnicas automaticamente.</p>",
+          "chatFlavor": "Estímulo de Sangue — Estímulo de Sangue"
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "estimulo-de-sangue",
+              "key": "stimulate",
+              "manualResolution": true,
+              "rule": "bloodStimulus",
+              "manualSacrifice": {
+                "constitution": 1,
+                "recoveryYears": 1
+              },
+              "finalTechniqueDamageMultiplier": 1.5,
+              "techniqueActionReduction": 1,
+              "minimumActions": 1
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Estímulo de Sangue",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/estimulo-de-sangue.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "estimulo-de-sangue",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Cultivo Demoníaco",
+        "requisitos": [
+          "Qi Demoníaco"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "qi-demoniaco"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "O consumo de Constituição é recuperado após um ano mantendo o caminho demoníaco indicado.",
+          "O sacrifício de Constituição e a recuperação após um ano de cultivo demoníaco são confirmados e registrados pelo narrador. A atividade não remove atributo nem altera outras técnicas automaticamente."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!c711e2f29971e3e8"
+}

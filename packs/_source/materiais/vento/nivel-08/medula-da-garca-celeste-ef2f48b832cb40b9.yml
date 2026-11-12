@@ -1,0 +1,53 @@
+_id: ef2f48b832cb40b9
+_key: '!items!ef2f48b832cb40b9'
+name: Medula da Garça Celeste
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/vento/ef2f48b832cb40b9.webp
+system:
+  identifier: material-alquimia-ef2f48b832cb40b9
+  description:
+    value: <p><strong>Elemento:</strong> Vento · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Parte de animal</p><p>A garça celeste vive onde só os ciclones chegam. A medula prateada, em óleo sagrado, unge as pernas para saltos de cem zhang.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 50b80c91e4bee356
+sort: 15400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: vento
+      elementLabel: Vento
+      level: 8
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/vento.json
+        originalName: Medula da Garça Celeste
+        sha256: f5db71d3cdec5cc798ab9829fe28f461a95ad76b46b89331433a614fa8d62814
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

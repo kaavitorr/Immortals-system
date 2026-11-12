@@ -1,0 +1,37 @@
+name: Constituição Metálica
+type: feat
+folder: a391f09491150bfa
+system:
+  description:
+    value: <p><strong>Constituição Metálica:</strong> Essa criatura é imune a todos os tipos de condições mentais.</p>
+    chat: ''
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+  identifier: constituicao-metalica
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+_id: gi6GaRduVsulLQFk
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/constituicao-metalica-gi6GaRduVsulLQFk.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: gi6GaRduVsulLQFk
+_key: '!items!gi6GaRduVsulLQFk'

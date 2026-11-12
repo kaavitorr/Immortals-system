@@ -1,0 +1,71 @@
+_id: a1113fe1c7ca7100
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:73
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: a1113fe1c7ca7100
+name: Ataque em Cadeia
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢⬢⬢⬢</strong></p><p>Você entra em um frenesi de batalha e ataca todas as criaturas a até 3
+      metros, podendo atacar cada uma até duas vezes com seu ataque padrão.</p>
+    chat: ''
+  identifier: ataque-em-cadeia
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    fb9789e1a1051308:
+      _id: fb9789e1a1051308
+      type: utility
+      name: Ataque em Cadeia
+      activation:
+        type: action
+        value: 6
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Você entra em um frenesi de batalha e ataca todas as criaturas a até 3 metros, podendo atacar cada uma até
+          duas vezes com seu ataque padrão.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 7
+  prerequisites:
+    items: []
+    level: 7
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/ataque-em-cadeia-a1113fe1c7ca7100.webp"
+_key: '!items!a1113fe1c7ca7100'

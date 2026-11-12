@@ -1,0 +1,12 @@
+_id: 25264a5c1c2a6166
+_key: '!folders!25264a5c1c2a6166'
+name: Ilusão
+type: Item
+folder: null
+sorting: m
+sort: 700000
+color: '#795d67'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: ilusao

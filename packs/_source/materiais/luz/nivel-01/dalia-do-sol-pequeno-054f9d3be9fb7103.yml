@@ -1,0 +1,53 @@
+_id: 054f9d3be9fb7103
+_key: '!items!054f9d3be9fb7103'
+name: Dália do Sol Pequeno
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/054f9d3be9fb7103.webp
+system:
+  identifier: material-alquimia-054f9d3be9fb7103
+  description:
+    value: <p><strong>Elemento:</strong> Luz · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Planta</p><p>Esta dália amadurece em clareiras onde o Qi luminoso se reúne em pequenas esferas de orvalho sobre o solo. Sua corola retém esse brilho entre camadas de pétalas, oferecendo uma reserva gradual de essência para preparados delicados de afinidade com a luz.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f0081ecc5ab75e71
+sort: 900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: luz
+      elementLabel: Luz
+      level: 1
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/luz.json
+        originalName: Dália do Sol Pequeno
+        sha256: a65d9c475ce3e69bcab79896f06bd1f00a0fcc1e5a6329d0e4735711f2236288
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

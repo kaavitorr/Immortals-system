@@ -1,0 +1,117 @@
+<div class="iw-essence-capture">
+  <header class="iw-capture-heading">
+    {{#if img}}<img src="{{img}}" alt="" width="74" height="74">{{/if}}
+    <div><h2>{{name}}</h2><p>{{#if core}}{{#if essenceEnabled}}A criatura morreu. O Narrador pode gerar um núcleo físico, formar uma essência ou escolher ambos. Cada opção é independente.{{else}}O núcleo desta criatura é garantido. Revise seu elemento e reino antes de gerar o material.{{/if}}{{else}}Esta criatura chegou ao fim de sua vida. Deseja formar uma essência? Revise o crescimento e as características que ela concederá.{{/if}}</p></div>
+  </header>
+  {{#if error}}<p class="iw-capture-error" role="alert">{{error}}</p>{{/if}}
+  {{#if recipients}}
+  <fieldset class="iw-capture-delivery">
+    <legend>Destino dos materiais</legend>
+    <label>Salvar em<select name="recipient">{{#each recipients}}<option value="{{value}}" {{#if selected}}selected{{/if}}>{{label}}</option>{{/each}}</select></label>
+    <p class="iw-capture-hint">Guarde na criatura para recolher depois ou escolha um personagem para receber diretamente no inventário. Cada material gerado ocupa uma unidade.</p>
+  </fieldset>
+  {{/if}}
+  {{#if core}}
+  <fieldset class="iw-capture-core">
+    <legend>Núcleo de Besta · material</legend>
+    {{#if core.created}}
+      <div class="iw-capture-core-saved"><img src="{{core.img}}" alt="" width="52" height="52"><div><strong>Núcleo gerado</strong><p>{{core.name}}</p><span>Disponível em {{core.destination}}.</span></div></div>
+    {{else}}
+      <div class="iw-capture-fields"><label>Elemento do núcleo<select name="coreElement">{{#each core.elements}}<option value="{{value}}" {{#if selected}}selected{{/if}}>{{label}}</option>{{/each}}</select></label><label>Reino do núcleo<select name="coreRank">{{#each core.realms}}<option value="{{value}}" {{#if selected}}selected{{/if}}>{{label}}</option>{{/each}}</select></label></div>
+      <p class="iw-capture-hint">Uma esfera de cristal da cor do elemento. Neutro não possui afinidade elemental. O reino começa igual ao da criatura; o Narrador pode ajustá-lo. Use Gerar núcleo para criar uma unidade, sem rolagem de descoberta ou crescimento.</p>
+    {{/if}}
+  </fieldset>
+  {{/if}}
+  {{#if essenceEnabled}}
+  <fieldset>
+    <legend>Descoberta e origem</legend>
+    <div class="iw-capture-fields">
+      {{#if guaranteed}}<input type="hidden" name="mode" value="manual">{{else}}
+      <label>Forma de criação
+        <select name="mode"><option value="chance" {{#if chance}}selected{{/if}}>Verificar a chance do livro</option><option value="manual" {{#if manual}}selected{{/if}}>Criação manual do Narrador</option></select>
+      </label>{{/if}}
+      <label>Reino da criatura
+        {{#if knownSourceRealm}}<input type="hidden" name="sourceRealm" value="{{sourceRealm}}">{{/if}}
+        <select {{#if knownSourceRealm}}disabled{{else}}name="sourceRealm"{{/if}}>
+          <option value="">Escolha o reino conhecido</option>
+          {{#each realms}}<option value="{{value}}" {{#if selected}}selected{{/if}}>{{label}}</option>{{/each}}
+        </select>
+      </label>
+      {{#unless guaranteed}}<label>Cultivador de referência
+        <select name="referenceId"><option value="">Escolha para verificar a chance</option>{{#each references}}<option value="{{id}}" {{#if selected}}selected{{/if}}>{{name}}</option>{{/each}}</select>
+      </label>{{/unless}}
+    </div>
+    {{#if divineBeastLocked}}{{#if divineBeast}}<input type="hidden" name="divineBeast" value="on">{{/if}}{{/if}}
+    <label class="iw-capture-checkbox"><input type="checkbox" {{#if divineBeastLocked}}disabled{{else}}name="divineBeast"{{/if}} {{#if divineBeast}}checked{{/if}}> Esta é uma Besta Divina: 50% de chance e crescimento sempre Supremo.</label>
+    <label>Linhagem da criatura, se identificada<select name="lineageId"><option value="">Não identificada</option>{{#each lineageOptions}}<option value="{{value}}" {{#if selected}}selected{{/if}}>{{label}}</option>{{/each}}</select></label><p class="iw-capture-hint">O narrador identifica a criatura para verificar compatibilidade com Linhagem Divina. O nome do token não determina a linhagem.</p>
+    <div class="iw-capture-result" aria-live="polite"><p>{{discovery}}</p></div>
+    {{#unless guaranteed}}<p class="iw-capture-hint">Abates de um rank inferior são contados para este cultivador em grupos de dez. A verificação não pode ser rolada novamente. Use criação manual para formar uma essência por decisão do Narrador.</p>{{/unless}}
+  </fieldset>
+  <fieldset class="iw-capture-growth">
+    <legend>Nível de crescimento</legend>
+    <div class="iw-capture-growth-selection">
+      <label>Rank da essência
+        {{#if growthLocked}}<input type="hidden" name="growth" value="{{growth}}">{{/if}}
+        <select {{#if growthLocked}}disabled{{else}}name="growth"{{/if}}>{{#each growths}}<option value="{{value}}" {{#if selected}}selected{{/if}}>{{label}} · até {{limit}}</option>{{/each}}</select>
+      </label>
+      <p>{{#if growthResult}}<strong>{{growthResult}}</strong>{{else}}Use <strong>Rolar crescimento · 1d100</strong> para sortear o rank. Na criação manual, você também pode escolher o rank.{{/if}}</p>
+    </div>
+    <p class="iw-capture-hint">Antes da integração: Condensação de Qi. Depois, acompanha o cultivo do usuário até seu limite. Um reino acima, a forma fica enfraquecida; dois reinos acima, todos os benefícios cessam.</p>
+    <details class="iw-capture-growth-table"><summary>Tabela de crescimento · 1d100</summary><table><thead><tr><th>Resultado</th><th>Rank</th><th>Limite de crescimento</th></tr></thead><tbody>{{#each growths}}<tr><td>{{range}}</td><td>{{label}}</td><td>{{limit}}</td></tr>{{/each}}</tbody></table></details>
+    <p class="iw-capture-hint">A rolagem fica registrada e não pode ser repetida ou substituída nesta essência. Bestas Divinas têm crescimento Supremo.</p>
+  </fieldset>
+  <div class="iw-capture-lineages">
+    {{#each profiles}}
+    <section class="iw-capture-profile">
+      <h3>{{#if img}}<img src="{{img}}" alt="" width="28" height="28">{{/if}}{{name}}</h3>
+      {{#if summary}}<p>{{summary}}</p>{{/if}}
+      <ul>{{#each features}}<li>{{name}} <span>a partir do nível de cultivo {{level}}</span></li>{{else}}<li class="iw-capture-empty">Sem características passivas vinculadas.</li>{{/each}}</ul>
+    </section>
+    {{/each}}
+  </div>
+  <section class="iw-capture-weapons">
+    <h3>Armas naturais</h3>
+    <ul>{{#each naturalWeapons}}<li>{{#if img}}<img src="{{img}}" alt="" width="24" height="24">{{/if}}{{name}}</li>{{else}}<li class="iw-capture-empty">Nenhuma arma natural identificada.</li>{{/each}}</ul>
+    <p class="iw-capture-hint">Entram separadamente dos ataques especiais na forma normal.</p>
+  </section>
+  <fieldset>
+    <legend>Atributo e afinidades</legend>
+    <div class="iw-capture-fields">
+      <label>Maior atributo da criatura<select name="ability">{{#each abilities}}<option value="{{value}}" {{#if selected}}selected{{/if}}>{{label}}</option>{{/each}}</select></label>
+      <label>Imagem do token da transformação<input type="text" name="tokenTexture" value="{{tokenTexture}}" placeholder="Caminho de imagem da criatura"></label>
+    </div>
+    <div class="iw-capture-elements" role="group" aria-label="Escolha até dois elementos">
+      {{#each elements}}<label class="iw-capture-checkbox"><input type="checkbox" name="elements" value="{{value}}" {{#if selected}}checked{{/if}}>{{label}}</label>{{else}}<span class="iw-capture-empty">Sem elementos conhecidos na criatura.</span>{{/each}}
+    </div>
+    <p class="iw-capture-hint">Escolha até dois elementos. Quando os maiores atributos empatam, escolha um deles.</p>
+  </fieldset>
+  <section>
+    <h3>Características e habilidades adicionais</h3>
+    <p class="iw-capture-hint">Forma normal: até duas. Forma enfraquecida: até uma. Os ataques ofensivos foram separados abaixo.</p>
+    <div class="iw-capture-choice-table" role="group" aria-label="Características adicionais">
+      <div class="iw-capture-choice-head"><span>Característica</span><span>Normal</span><span>Enfraquecida</span></div>
+      {{#each features}}<div class="iw-capture-choice-row">
+        <span>{{#if img}}<img src="{{img}}" alt="" width="26" height="26">{{/if}}{{name}}</span>
+        <label><input type="checkbox" name="normalFeatures" value="{{key}}" aria-label="{{name}} na forma normal" {{#if normal}}checked{{/if}}></label>
+        <label><input type="checkbox" name="weakenedFeatures" value="{{key}}" aria-label="{{name}} na forma enfraquecida" {{#if weakened}}checked{{/if}}></label>
+      </div>{{else}}<p class="iw-capture-empty">Sem características adicionais disponíveis.</p>{{/each}}
+    </div>
+  </section>
+  <section>
+    <h3>Ataques especiais</h3>
+    <p class="iw-capture-hint">Normal: até dois ataques de 1 a 3 ações. Enfraquecida: até um de 1 a 6 ações. Cada escolha conserva somente a atividade indicada.</p>
+    {{#each attacks}}<article class="iw-capture-attack">
+      <div class="iw-capture-attack-heading">{{#if img}}<img src="{{img}}" alt="" width="32" height="32">{{/if}}<div><strong>{{name}}</strong><span>{{actionsLabel}}; {{area}}</span></div></div>
+      <div class="iw-capture-attack-options">
+        <label class="iw-capture-checkbox"><input type="checkbox" name="normalAttacks" value="{{key}}" {{#unless normalEligible}}disabled{{/unless}} {{#if normal}}checked{{/if}}> Normal</label>
+        <label class="iw-capture-checkbox"><input type="checkbox" name="weakenedAttacks" value="{{key}}" {{#if weakened}}checked{{/if}}> Enfraquecida</label>
+        <label>Instâncias de dano<input type="number" name="damage-{{index}}" value="{{damageInstances}}" min="0" step="1"></label>
+        <label>Qi dos efeitos<input type="number" name="effect-{{index}}" value="{{effectQi}}" min="0" step="1" placeholder="A definir"></label>
+      </div>
+    </article>{{else}}<p class="iw-capture-empty">Sem ataques especiais com custo de ações elegível.</p>{{/each}}
+    <p class="iw-capture-hint">Confira as instâncias de dano e os efeitos de cada ataque. A cobrança de Qi por dano e área depende da regra confirmada pelo autor.</p>
+  </section>
+  {{#if warnings}}<details class="iw-capture-warnings"><summary>Ataques que exigem revisão</summary><ul>{{#each warnings}}<li>{{this}}</li>{{/each}}</ul></details>{{/if}}
+  {{/if}}
+  <p class="iw-capture-footer">{{#if core.created}}O núcleo já foi entregue e permanece disponível ao encerrar a revisão. {{/if}}Os materiais são salvos no destino escolhido.{{#if essenceEnabled}} Receber a essência no inventário não inicia sua integração.{{/if}}</p>
+</div>

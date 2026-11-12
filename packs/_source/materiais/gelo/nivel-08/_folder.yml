@@ -1,0 +1,13 @@
+_id: d033fae8a35cbeb7
+_key: '!folders!d033fae8a35cbeb7'
+name: Nível 8
+type: Item
+folder: e13aab1d64a4c089
+sorting: a
+sort: 800000
+color: '#4e7c89'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: gelo
+      level: 8

@@ -1,0 +1,53 @@
+_id: 3efc8a63e33d6801
+_key: '!items!3efc8a63e33d6801'
+name: Pena de Faisão do Sol Nascente
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/3efc8a63e33d6801.webp
+system:
+  identifier: material-alquimia-3efc8a63e33d6801
+  description:
+    value: <p><strong>Elemento:</strong> Luz · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Parte de animal</p><p>Este faisão espiritual habita nascentes de Qi luminoso, e os desenhos de suas penas permanecem nítidos quando vistos através da névoa. A essência recolhida nas barbas separa gradações de brilho, sendo refinada como princípio ativo de percepção e discernimento em pílulas especializadas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 4000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d4884f48ce4dfd96
+sort: 5100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: luz
+      elementLabel: Luz
+      level: 3
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/luz.json
+        originalName: Pena de Faisão do Sol Nascente
+        sha256: a65d9c475ce3e69bcab79896f06bd1f00a0fcc1e5a6329d0e4735711f2236288
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

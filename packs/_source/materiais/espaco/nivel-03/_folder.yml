@@ -1,0 +1,13 @@
+_id: 46d03499f99dbd13
+_key: '!folders!46d03499f99dbd13'
+name: Nível 3
+type: Item
+folder: 57c7cfa4d7a2235f
+sorting: a
+sort: 300000
+color: '#445674'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: espaco
+      level: 3

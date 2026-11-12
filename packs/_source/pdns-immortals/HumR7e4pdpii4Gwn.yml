@@ -1,0 +1,41 @@
+name: Sobrevoo
+type: feat
+folder: D8Yrqg8ddiUXg3Yv
+system:
+  description:
+    value: <p>Essa criatura é imune a “Ataque Reativo” desencadeado pelo deslocamento dela.</p>
+    chat: ''
+  identifier: sobrevoo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: HumR7e4pdpii4Gwn
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/sobrevoo-HumR7e4pdpii4Gwn.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:sobrevoo:112a53e99a1b
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: HumR7e4pdpii4Gwn
+_key: '!items!HumR7e4pdpii4Gwn'

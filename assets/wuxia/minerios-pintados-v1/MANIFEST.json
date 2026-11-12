@@ -1,0 +1,1856 @@
+{
+  "generator": "built-in image_gen",
+  "style": "Pintura simples Wuxia/Xianxia, alpha transparente, WebP 256x256",
+  "batches": [
+    {
+      "id": "minerios-01",
+      "source": "C:/Users/kaa_v/.codex/generated_images/01a1854d-b4df-7103-a0d4-8d40225aaaf1/exec-67ee76b3-cced-4ea5-bede-eb551fbdd4f5.png",
+      "sourceSize": {
+        "width": 1122,
+        "height": 1402
+      },
+      "icons": [
+        {
+          "id": "6428f06fd210af2d",
+          "name": "Hematita do Barranco Vermelho",
+          "level": 1,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/6428f06fd210af2d.webp",
+          "cell": 0,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 20,
+            "top": 63,
+            "width": 250,
+            "height": 203
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "d511654b41dc4add6cb724981a00c2ed47268258518833efbb562960f31e4f15",
+          "bytes": 20454
+        },
+        {
+          "id": "09539c71b912fa42",
+          "name": "Malaquita das Nascentes",
+          "level": 1,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/09539c71b912fa42.webp",
+          "cell": 1,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 17,
+            "top": 32,
+            "width": 251,
+            "height": 237
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "a0fd5b3574900f431f6d389bbdcf74d1b9acb136d83635b1d953b1acb72c6ae5",
+          "bytes": 24944
+        },
+        {
+          "id": "a458135f12e32a30",
+          "name": "Cassiterita do Leito Seco",
+          "level": 1,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/a458135f12e32a30.webp",
+          "cell": 2,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 11,
+            "top": 40,
+            "width": 250,
+            "height": 225
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "e0418f4d83cdf95463d938576c3f103cff10b70dac6679a973727dcecfdde79e",
+          "bytes": 23110
+        },
+        {
+          "id": "4f0692301cd32d5f",
+          "name": "Galena da Gruta Surda",
+          "level": 1,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/4f0692301cd32d5f.webp",
+          "cell": 3,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 5,
+            "top": 32,
+            "width": 254,
+            "height": 232
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "8340a44d237053d80513d7f91b2554377f0bb4b72d5f2a693565a8a58dd50f0e",
+          "bytes": 20896
+        },
+        {
+          "id": "0c44bee589b71286",
+          "name": "Magnetita da Agulha Errante",
+          "level": 1,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/0c44bee589b71286.webp",
+          "cell": 4,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 26,
+            "top": 41,
+            "width": 243,
+            "height": 218
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "3b3b5aefe4a5bdd29369c7fa37122ce8618a869f7d8a694047bd076140540c09",
+          "bytes": 21818
+        },
+        {
+          "id": "18f857d6c39150b1",
+          "name": "Quartzo do Sino Claro",
+          "level": 1,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/18f857d6c39150b1.webp",
+          "cell": 5,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 15,
+            "top": 27,
+            "width": 240,
+            "height": 238
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "a69816306f97457fe921c5f10535eb4b516ec7521821d96e4b45aa8cc3d44ed3",
+          "bytes": 24362
+        },
+        {
+          "id": "7715d948683061e3",
+          "name": "Nefrita do Vale do Bambu",
+          "level": 1,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp",
+          "cell": 6,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 6,
+            "top": 33,
+            "width": 241,
+            "height": 232
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "d0ce34295e536e1dc39db436103982ea39ba98659b39eaf8536b1c632702b54f",
+          "bytes": 21616
+        },
+        {
+          "id": "320f95ac127f575d",
+          "name": "Pirita do Campo Dourado",
+          "level": 1,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/320f95ac127f575d.webp",
+          "cell": 7,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 0,
+            "top": 32,
+            "width": 262,
+            "height": 237
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "ea59b451b73ba29f78511c24f7a7bd745b766442af434bf4a59e74b209206e75",
+          "bytes": 21354
+        },
+        {
+          "id": "f74d28a9ca697d45",
+          "name": "Fluorita do Orvalho Violeta",
+          "level": 1,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/f74d28a9ca697d45.webp",
+          "cell": 8,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 19,
+            "top": 24,
+            "width": 251,
+            "height": 237
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "51dbd76076f8657834b27addb924bb96d32dc387a891cc594d4eb528876b685e",
+          "bytes": 25746
+        },
+        {
+          "id": "606515a667f69ff4",
+          "name": "Cinábrio da Lâmpada Antiga",
+          "level": 1,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/606515a667f69ff4.webp",
+          "cell": 9,
+          "cleanedFragments": 1,
+          "sourceBounds": {
+            "left": 15,
+            "top": 25,
+            "width": 252,
+            "height": 232
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "dc2a9e500a0b2dd15e78e9a2b3c62637c950c622c0dd907204ec26a33f272de8",
+          "bytes": 26302
+        },
+        {
+          "id": "f2d9dc4043a50b54",
+          "name": "Ferro Frio de Luz Azul",
+          "level": 2,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-02/f2d9dc4043a50b54.webp",
+          "cell": 10,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 0,
+            "top": 27,
+            "width": 262,
+            "height": 238
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "bf2c1f4e0d6366dcb7f5acce12312e6c5b0d7955517b5738a918d553fc694f68",
+          "bytes": 22568
+        },
+        {
+          "id": "1d1f42f9866cec7d",
+          "name": "Cobre da Brasa Mansa",
+          "level": 2,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-02/1d1f42f9866cec7d.webp",
+          "cell": 11,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 1,
+            "top": 31,
+            "width": 258,
+            "height": 222
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "9588d6a42f3b2534ce3d2cdd97cbeb2177bfb85d07229db6fbeec57ac169dfff",
+          "bytes": 22352
+        },
+        {
+          "id": "dc134186bd76c5f3",
+          "name": "Prata do Rastro Lunar",
+          "level": 2,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-02/dc134186bd76c5f3.webp",
+          "cell": 12,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 38,
+            "top": 12,
+            "width": 201,
+            "height": 248
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "69698c9ec819eafc0208719a9e9322dc8806dfa7b97721220c6ef640a6050d8a",
+          "bytes": 19174
+        },
+        {
+          "id": "cec26b12fcf9993c",
+          "name": "Jade da Raiz Funda",
+          "level": 2,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-02/cec26b12fcf9993c.webp",
+          "cell": 13,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 13,
+            "top": 18,
+            "width": 253,
+            "height": 235
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "79ce6ae91812e3139075938803937ab22214fb6419347bb1bca8a33d49d003d1",
+          "bytes": 22350
+        },
+        {
+          "id": "591166f636683f6a",
+          "name": "Obsidiana do Espelho Turvo",
+          "level": 2,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-02/591166f636683f6a.webp",
+          "cell": 14,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 1,
+            "top": 28,
+            "width": 262,
+            "height": 221
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "a0991bd9c818ed5ee2e8b42d10102886e846799b13f242700699be9418cf8117",
+          "bytes": 18624
+        },
+        {
+          "id": "118816e92d793eda",
+          "name": "Enxofre da Boca Fumegante",
+          "level": 2,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-02/118816e92d793eda.webp",
+          "cell": 15,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 0,
+            "top": 20,
+            "width": 255,
+            "height": 236
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "5f20e94d7d314be99b6557508f8ca8856276384db2e1735969b7df2ae1278a79",
+          "bytes": 24170
+        },
+        {
+          "id": "c8e81c6eef5f9896",
+          "name": "Mica do Véu Fino",
+          "level": 2,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-02/c8e81c6eef5f9896.webp",
+          "cell": 16,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 11,
+            "top": 12,
+            "width": 256,
+            "height": 239
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "286ce92e92e06725461269bf2c8ec8c33b5f14bd54e06aa97f21a718712773f2",
+          "bytes": 27104
+        },
+        {
+          "id": "78828e2e02e075f3",
+          "name": "Granada do Pulso Rubro",
+          "level": 2,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-02/78828e2e02e075f3.webp",
+          "cell": 17,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 7,
+            "top": 17,
+            "width": 261,
+            "height": 232
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "552e7e74ba5b07916c72c80b0274acc3ce284bd43e3714b7a9e34d43751f3aaf",
+          "bytes": 23100
+        },
+        {
+          "id": "7fca292d83a552ac",
+          "name": "Barita da Pétala Pálida",
+          "level": 2,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-02/7fca292d83a552ac.webp",
+          "cell": 18,
+          "cleanedFragments": 1,
+          "sourceBounds": {
+            "left": 3,
+            "top": 14,
+            "width": 278,
+            "height": 235
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "86ee3f9bb00ed7551430413126f8dd597afeab07000d79491aa80e2661295cac",
+          "bytes": 25346
+        },
+        {
+          "id": "fc758cfa0c672dae",
+          "name": "Celestita da Chuva Serena",
+          "level": 2,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-02/fc758cfa0c672dae.webp",
+          "cell": 19,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 0,
+            "top": 6,
+            "width": 262,
+            "height": 246
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "251470922df0a2bdffef7a9aa8c69b48b92ad5a1788fbbd7eefd54919ae26c9a",
+          "bytes": 24912
+        }
+      ]
+    },
+    {
+      "id": "minerios-02",
+      "source": "C:/Users/kaa_v/.codex/generated_images/01a1854d-b4df-7103-a0d4-8d40225aaaf1/exec-b3a1d19f-e52d-4b85-b00b-a6dd16ab957d.png",
+      "sourceSize": {
+        "width": 1122,
+        "height": 1402
+      },
+      "icons": [
+        {
+          "id": "b3a475200e6829a9",
+          "name": "Ferro Negro do Abismo",
+          "level": 3,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-03/b3a475200e6829a9.webp",
+          "cell": 0,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 17,
+            "top": 23,
+            "width": 254,
+            "height": 241
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "bbc36140fe72cec5a736e281404733500ca40c02bee5bf00883039bcc55f5d5b",
+          "bytes": 18982
+        },
+        {
+          "id": "4ef5f4738f6f0c58",
+          "name": "Cobre da Nuvem Púrpura",
+          "level": 3,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-03/4ef5f4738f6f0c58.webp",
+          "cell": 1,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 15,
+            "top": 24,
+            "width": 248,
+            "height": 244
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "51349a63a87ce7601a9ed63e6bbaf48b9419837397b8fc2a4c577134df879ed6",
+          "bytes": 23452
+        },
+        {
+          "id": "06d32a669bb15130",
+          "name": "Argentita do Eco Longínquo",
+          "level": 3,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-03/06d32a669bb15130.webp",
+          "cell": 2,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 12,
+            "top": 24,
+            "width": 253,
+            "height": 244
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "dea0c902c8651095cdc562942322b1c1b47f24fd171eda9a5f579ec2c8835757",
+          "bytes": 22542
+        },
+        {
+          "id": "19efd80ad129d609",
+          "name": "Cristal da Maré Presa",
+          "level": 3,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-03/19efd80ad129d609.webp",
+          "cell": 3,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 6,
+            "top": 25,
+            "width": 257,
+            "height": 240
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "074ccbae6afe3f52d02400604c99591d73200143850a78263b273b899e683ac7",
+          "bytes": 22676
+        },
+        {
+          "id": "d6a7d862a76fdde5",
+          "name": "Turmalina do Raio Seco",
+          "level": 3,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-03/d6a7d862a76fdde5.webp",
+          "cell": 4,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 16,
+            "top": 15,
+            "width": 255,
+            "height": 253
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "5428ce9589f8c1873f2473b44436bb0c5cbd5c1bb045a12b6906ff0d37e3b52b",
+          "bytes": 24928
+        },
+        {
+          "id": "9a8ad9d0dbdaa3fb",
+          "name": "Ocre das Muralhas Antigas",
+          "level": 3,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-03/9a8ad9d0dbdaa3fb.webp",
+          "cell": 5,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 8,
+            "top": 18,
+            "width": 250,
+            "height": 244
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "363e5623a27de653c378f1db620c34eef6da1950a4a8c86975dfbf2f17f6fa57",
+          "bytes": 25430
+        },
+        {
+          "id": "3b2376e2eb15c5ac",
+          "name": "Calcedônia do Suspiro",
+          "level": 3,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-03/3b2376e2eb15c5ac.webp",
+          "cell": 6,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 4,
+            "top": 22,
+            "width": 263,
+            "height": 234
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "9bc342513643a805a6006c0468c3a370522a901f99b66143cbffede73c931e67",
+          "bytes": 21680
+        },
+        {
+          "id": "3f8f11eb4965940e",
+          "name": "Espinélio da Fornalha Oca",
+          "level": 3,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-03/3f8f11eb4965940e.webp",
+          "cell": 7,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 6,
+            "top": 15,
+            "width": 259,
+            "height": 248
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "42c2f1328ba1b42bc60f8d35a1238af594f1f4ea865e769acb3b492f359a2b57",
+          "bytes": 22258
+        },
+        {
+          "id": "8b62e4fe6ac26c54",
+          "name": "Rodonita do Laço Silencioso",
+          "level": 3,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-03/8b62e4fe6ac26c54.webp",
+          "cell": 8,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 14,
+            "top": 18,
+            "width": 257,
+            "height": 239
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "521644ddd493a7077c5c53157802546cfac580497c62a9ee77045e9bc93a995a",
+          "bytes": 24258
+        },
+        {
+          "id": "d695a18e51a4e73c",
+          "name": "Apatita da Folha Vítrea",
+          "level": 3,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-03/d695a18e51a4e73c.webp",
+          "cell": 9,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 9,
+            "top": 18,
+            "width": 260,
+            "height": 241
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "11053ed9923d4e4c08997e6b980a8417b1d2bcf9378dbae1ce23382b8cb1525c",
+          "bytes": 23858
+        },
+        {
+          "id": "47a08a592edf7db6",
+          "name": "Prata Estelar",
+          "level": 4,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-04/47a08a592edf7db6.webp",
+          "cell": 10,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 6,
+            "top": 14,
+            "width": 259,
+            "height": 238
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "1f46f3b6c9a99aa0fc0236eb1bc885c514a816d6c123fcf8337f892170cb730f",
+          "bytes": 23378
+        },
+        {
+          "id": "050e102c81c00829",
+          "name": "Jade do Dragão Submerso",
+          "level": 4,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-04/050e102c81c00829.webp",
+          "cell": 11,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 2,
+            "top": 14,
+            "width": 264,
+            "height": 244
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "63366a6fa4c638910c10b55bfd1388ec1b37158f0c723fbce218c1521f7107f5",
+          "bytes": 22608
+        },
+        {
+          "id": "c618848de95f5470",
+          "name": "Tungstênio da Montanha Inclinada",
+          "level": 4,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-04/c618848de95f5470.webp",
+          "cell": 12,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 19,
+            "top": 13,
+            "width": 251,
+            "height": 237
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "90d64f334dac93b63bee97ece9838c8ff23d1855627c184da15c549ed19fd8f6",
+          "bytes": 21926
+        },
+        {
+          "id": "bd6c6f79b7b7a41e",
+          "name": "Ametista do Sonho Lúcido",
+          "level": 4,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-04/bd6c6f79b7b7a41e.webp",
+          "cell": 13,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 8,
+            "top": 7,
+            "width": 251,
+            "height": 248
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "71f93309e7a5f98421125283fbb75125195d5525b4b91d384cc84b27a17072d2",
+          "bytes": 25670
+        },
+        {
+          "id": "f172a92b42f4aa80",
+          "name": "Selenita da Ponte Branca",
+          "level": 4,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-04/f172a92b42f4aa80.webp",
+          "cell": 14,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 7,
+            "top": 17,
+            "width": 257,
+            "height": 224
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "e2ba85bc299d60ff346e75a224e3dc9694eda4ccf7f6f8cde4cc33b16eeb9f31",
+          "bytes": 24008
+        },
+        {
+          "id": "d7db6f8c46429ead",
+          "name": "Esmeril do Gume Paciente",
+          "level": 4,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-04/d7db6f8c46429ead.webp",
+          "cell": 15,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 3,
+            "top": 11,
+            "width": 259,
+            "height": 242
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "1b63ac6228b977d9df10b4eb1010921c73a2d0787f65bef557ccbeb5212b98b8",
+          "bytes": 21568
+        },
+        {
+          "id": "a684483cb363b2ff",
+          "name": "Azurita do Poço Profundo",
+          "level": 4,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-04/a684483cb363b2ff.webp",
+          "cell": 16,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 14,
+            "top": 5,
+            "width": 254,
+            "height": 247
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "384a72d98a14aef2e3ab6e75e1fbfeeda1e00d88473b5bfc73abacdd01ad414c",
+          "bytes": 27196
+        },
+        {
+          "id": "8e5d12fa15350942",
+          "name": "Bismuto da Escada Iridescente",
+          "level": 4,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-04/8e5d12fa15350942.webp",
+          "cell": 17,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 8,
+            "top": 16,
+            "width": 260,
+            "height": 238
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "44073e3d76b3c8dcb5b33c741ccb9995e8067a1091d05d32e7aaa871aee35d09",
+          "bytes": 24864
+        },
+        {
+          "id": "790367ab2867abeb",
+          "name": "Âmbar Mineral da Resina Seca",
+          "level": 4,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-04/790367ab2867abeb.webp",
+          "cell": 18,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 4,
+            "top": 10,
+            "width": 249,
+            "height": 243
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "d4062d0b04c2989eb45b1359d0395b8cdce31d38b4162f74beda778dd85130e2",
+          "bytes": 27520
+        },
+        {
+          "id": "3e20505c4f17567c",
+          "name": "Berilo do Jardim Suspenso",
+          "level": 4,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-04/3e20505c4f17567c.webp",
+          "cell": 19,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 1,
+            "top": 5,
+            "width": 264,
+            "height": 243
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "bfb29ccd685054ade7c1410c2d656348d2ffa101fb988bc87649ea5fbe1a453a",
+          "bytes": 24778
+        }
+      ]
+    },
+    {
+      "id": "minerios-03",
+      "source": "C:/Users/kaa_v/.codex/generated_images/01a1854d-b4df-7103-a0d4-8d40225aaaf1/exec-11343364-7cae-4198-8863-44bd60bab97c.png",
+      "sourceSize": {
+        "width": 1122,
+        "height": 1402
+      },
+      "icons": [
+        {
+          "id": "1b615a8822f11b36",
+          "name": "Ouro do Corvo Solar",
+          "level": 5,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-05/1b615a8822f11b36.webp",
+          "cell": 0,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 14,
+            "top": 48,
+            "width": 260,
+            "height": 228
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "c0dd552aa5754bf1476710fcf5753b554f807fece9bebf867dc4363b5189007f",
+          "bytes": 23974
+        },
+        {
+          "id": "b07471bb1369d35e",
+          "name": "Ferro das Profundezas Marinhas",
+          "level": 5,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-05/b07471bb1369d35e.webp",
+          "cell": 1,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 9,
+            "top": 39,
+            "width": 264,
+            "height": 235
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "49da2da37d5b444f9fce853ba3e9a9ae72c586f5faf726dd615f1cf2e9d0a3be",
+          "bytes": 24940
+        },
+        {
+          "id": "70c344cb03534370",
+          "name": "Jaspe do Tigre Adormecido",
+          "level": 5,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-05/70c344cb03534370.webp",
+          "cell": 2,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 4,
+            "top": 43,
+            "width": 263,
+            "height": 229
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "72af550fb54097839d6e122653c639580af63a52ae61c516a58a42388a8e648f",
+          "bytes": 22956
+        },
+        {
+          "id": "f2d05e2670d2103e",
+          "name": "Safira da Geada Interior",
+          "level": 5,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-05/f2d05e2670d2103e.webp",
+          "cell": 3,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 15,
+            "top": 38,
+            "width": 235,
+            "height": 241
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "1aa2c410af92f8fa33c20edf2bb32ab6880542054c89b9261225db4a2bed7038",
+          "bytes": 27576
+        },
+        {
+          "id": "bbade4167ba6679c",
+          "name": "Níquel do Sino de Tempestade",
+          "level": 5,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-05/bbade4167ba6679c.webp",
+          "cell": 4,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 12,
+            "top": 34,
+            "width": 252,
+            "height": 230
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "6a02190942300d2375765267ab7bb111c99eeb3a8c152c53d9e4786fda99514c",
+          "bytes": 24820
+        },
+        {
+          "id": "b6be1ef681f28882",
+          "name": "Opala da Miragem Errante",
+          "level": 5,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-05/b6be1ef681f28882.webp",
+          "cell": 5,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 8,
+            "top": 31,
+            "width": 261,
+            "height": 232
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "9ba081c9f150e3b46b61b671a326fe4a7f6ad50275530d0e5af68939fdc1f744",
+          "bytes": 23850
+        },
+        {
+          "id": "cc7bb9bf32e3c188",
+          "name": "Coríndon do Punho da Serra",
+          "level": 5,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-05/cc7bb9bf32e3c188.webp",
+          "cell": 6,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 11,
+            "top": 31,
+            "width": 247,
+            "height": 236
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "b764a78506e01a4fbb7e5d8c47a6fa7a3af42ab69fb221f96d19d2469d4eb7e4",
+          "bytes": 25862
+        },
+        {
+          "id": "e0bf8f6a5a382626",
+          "name": "Lápis-Lazúli da Abóbada Azul",
+          "level": 5,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-05/e0bf8f6a5a382626.webp",
+          "cell": 7,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 5,
+            "top": 37,
+            "width": 259,
+            "height": 226
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "2946a85aa8e111e8231f3673ffc782a592d6a9401d53208d89afc74f082ca0f8",
+          "bytes": 25840
+        },
+        {
+          "id": "ec77ec81732d30d4",
+          "name": "Antimônio da Pena Metálica",
+          "level": 5,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-05/ec77ec81732d30d4.webp",
+          "cell": 8,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 12,
+            "top": 17,
+            "width": 261,
+            "height": 235
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "5ef05877050af9fa65b28e160e4a613d6346921faf158dc3813ff592c5629a7f",
+          "bytes": 25068
+        },
+        {
+          "id": "3235134e9ab58218",
+          "name": "Turquesa do Oásis Oculto",
+          "level": 5,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-05/3235134e9ab58218.webp",
+          "cell": 9,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 10,
+            "top": 17,
+            "width": 257,
+            "height": 240
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "87c4431dac7c7d82060c8169b9fb5d34a76d73494149cd6a9f2ce904943d4d6b",
+          "bytes": 24282
+        },
+        {
+          "id": "5d8c105a06e58cea",
+          "name": "Ouro Geng da Estrela Vespertina",
+          "level": 6,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-06/5d8c105a06e58cea.webp",
+          "cell": 10,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 3,
+            "top": 15,
+            "width": 260,
+            "height": 237
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "cb764ff01bdcf782aea5f10c9f588eaef6c182bab52a81db031b46d38aabfc7c",
+          "bytes": 25804
+        },
+        {
+          "id": "3d06861c51438dd3",
+          "name": "Platina do Lótus de Pedra",
+          "level": 6,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-06/3d06861c51438dd3.webp",
+          "cell": 11,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 0,
+            "top": 14,
+            "width": 265,
+            "height": 240
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "9e6252637002f0402e82fd9a8e00569afc1657f11e67decaf903020560ea402f",
+          "bytes": 25714
+        },
+        {
+          "id": "3fa6441554e34b1d",
+          "name": "Diamante da Pressão Serena",
+          "level": 6,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-06/3fa6441554e34b1d.webp",
+          "cell": 12,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 11,
+            "top": 4,
+            "width": 262,
+            "height": 243
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "c97c405da528b9bd7e886012e543f7f77c94fac4743131ab7ba5b6768ec7a7d4",
+          "bytes": 23674
+        },
+        {
+          "id": "bb5d1d195ca3e1f8",
+          "name": "Rutilo da Aurora Partida",
+          "level": 6,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-06/bb5d1d195ca3e1f8.webp",
+          "cell": 13,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 9,
+            "top": 7,
+            "width": 254,
+            "height": 235
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "647115cc40a4061697ed2972b4cc5003482968ee44755b556a217fb239fdf3a5",
+          "bytes": 27336
+        },
+        {
+          "id": "b366e80f91b7a653",
+          "name": "Cromita da Carapaça Ancestral",
+          "level": 6,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-06/b366e80f91b7a653.webp",
+          "cell": 14,
+          "cleanedFragments": 1,
+          "sourceBounds": {
+            "left": 4,
+            "top": 11,
+            "width": 260,
+            "height": 227
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "9a85e619efab16ddac76b8c714c83087884f52226f646be0401a659fdd6eb5f3",
+          "bytes": 22788
+        },
+        {
+          "id": "dfb977c3203dd0ff",
+          "name": "Heliodoro do Pavilhão Sem Sombra",
+          "level": 6,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-06/dfb977c3203dd0ff.webp",
+          "cell": 15,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 0,
+            "top": 11,
+            "width": 261,
+            "height": 238
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "d16cb24a2ad36ae1efa24f9f48723563d84a583fcc4dabb144ac2bbd03b1d7f7",
+          "bytes": 27292
+        },
+        {
+          "id": "04e52fd9d5a03965",
+          "name": "Molibdenita do Traço Flexível",
+          "level": 6,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-06/04e52fd9d5a03965.webp",
+          "cell": 16,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 11,
+            "top": 8,
+            "width": 265,
+            "height": 230
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "f28df9c8b2d5a6d653ed877af9f1b88490d01a9873f7d3d0b82c04e5aec6d59c",
+          "bytes": 24064
+        },
+        {
+          "id": "29df2165334a5c61",
+          "name": "Larimar da Nuvem Afogada",
+          "level": 6,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-06/29df2165334a5c61.webp",
+          "cell": 17,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 2,
+            "top": 2,
+            "width": 265,
+            "height": 235
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "0e03aea5ca6c197f890319fb578e2cacafb62d330fa435b16b40f48d9081a875",
+          "bytes": 23762
+        },
+        {
+          "id": "355f2f273c91273b",
+          "name": "Zircão da Memória Ígnea",
+          "level": 6,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-06/355f2f273c91273b.webp",
+          "cell": 18,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 0,
+            "top": 0,
+            "width": 260,
+            "height": 238
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "ce8fdf72b18a6a367e87d8159b4b0aae202ab9399b867c317600c85078db2bd9",
+          "bytes": 22310
+        },
+        {
+          "id": "60db3e01899697a4",
+          "name": "Amazonita da Voz do Rio",
+          "level": 6,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-06/60db3e01899697a4.webp",
+          "cell": 19,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 0,
+            "top": 3,
+            "width": 266,
+            "height": 227
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "6b346a761a71634ee4ed3b887d4de87995f96194eab9415bff060cde188acde8",
+          "bytes": 25078
+        }
+      ]
+    },
+    {
+      "id": "minerios-04",
+      "source": "C:/Users/kaa_v/.codex/generated_images/01a1854d-b4df-7103-a0d4-8d40225aaaf1/exec-5ec2ebcd-2546-46c5-852a-bd135fe6b427.png",
+      "sourceSize": {
+        "width": 1122,
+        "height": 1402
+      },
+      "icons": [
+        {
+          "id": "d549140b9352ae03",
+          "name": "Metal da Coluna Oculta",
+          "level": 7,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-07/d549140b9352ae03.webp",
+          "cell": 0,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 12,
+            "top": 15,
+            "width": 260,
+            "height": 259
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "76fa54159d2e8679ceb61c894824b5ffdb690ca0ba02ef66e7e75434dedbbe83",
+          "bytes": 27424
+        },
+        {
+          "id": "bdeb8d28965eb89d",
+          "name": "Jade do Céu Invernal",
+          "level": 7,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-07/bdeb8d28965eb89d.webp",
+          "cell": 1,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 10,
+            "top": 18,
+            "width": 260,
+            "height": 250
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "61fb8573d2b5293ca997182e66dfccd162f8037df9165a625981895214c3f77d",
+          "bytes": 24154
+        },
+        {
+          "id": "96a38cae64f13ca2",
+          "name": "Ouro Púrpura da Coroa Vazia",
+          "level": 7,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-07/96a38cae64f13ca2.webp",
+          "cell": 2,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 11,
+            "top": 21,
+            "width": 258,
+            "height": 250
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "77f22138827ccb812a50b0d6ea0af34c19a6883a977389750e258aa7de19b217",
+          "bytes": 25846
+        },
+        {
+          "id": "1ffe71da8b776db1",
+          "name": "Antracita da Chama Azul",
+          "level": 7,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-07/1ffe71da8b776db1.webp",
+          "cell": 3,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 9,
+            "top": 33,
+            "width": 256,
+            "height": 228
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "7d0166fb7f7e2e915d87cacc165274f19b39fddcc00c921243256960b0dff4f2",
+          "bytes": 19306
+        },
+        {
+          "id": "58caf88a8cf1f138",
+          "name": "Safirina do Horizonte Imóvel",
+          "level": 7,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-07/58caf88a8cf1f138.webp",
+          "cell": 4,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 12,
+            "top": 24,
+            "width": 258,
+            "height": 236
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "d8de8a14ead1cce830479421f43fb73d20589e081b61d53661af941626caeab3",
+          "bytes": 23148
+        },
+        {
+          "id": "aa3bd4249169a34b",
+          "name": "Irídio da Chuva de Meteoros",
+          "level": 7,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-07/aa3bd4249169a34b.webp",
+          "cell": 5,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 10,
+            "top": 14,
+            "width": 251,
+            "height": 255
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "c81d79da456da7a0f82ef10d3b9709977f9edaf75ae1e888c3acea0ab7620da5",
+          "bytes": 25086
+        },
+        {
+          "id": "d7022a0a17ccfc88",
+          "name": "Pedra do Trovão Sepultado",
+          "level": 7,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-07/d7022a0a17ccfc88.webp",
+          "cell": 6,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 8,
+            "top": 21,
+            "width": 255,
+            "height": 248
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "50f144b92e577aaec7b9b2659394d7e002833c52ff5e7f4b64666438bb75ee98",
+          "bytes": 24906
+        },
+        {
+          "id": "88cced151316a4d4",
+          "name": "Cristal do Espelho Sem Rosto",
+          "level": 7,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-07/88cced151316a4d4.webp",
+          "cell": 7,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 7,
+            "top": 16,
+            "width": 258,
+            "height": 256
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "d19da5c1671baf9d881bc6cd2b7da649c54fd685f55d05dc6cd72df809d66a35",
+          "bytes": 22798
+        },
+        {
+          "id": "a432c4f3c38ee06c",
+          "name": "Nióbio do Arco Ascendente",
+          "level": 7,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-07/a432c4f3c38ee06c.webp",
+          "cell": 8,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 17,
+            "top": 13,
+            "width": 253,
+            "height": 251
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "9c0fbcf2b656d4794d5f95abb65c531282e0e890be99d87857280fc7b29f7d39",
+          "bytes": 23508
+        },
+        {
+          "id": "27600f35d93503f8",
+          "name": "Morganita do Voto Preservado",
+          "level": 7,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-07/27600f35d93503f8.webp",
+          "cell": 9,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 11,
+            "top": 11,
+            "width": 255,
+            "height": 255
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "8d38bc0c09225b7b9b11179478989b8918e72bd6e14ce777ab6b2ffb8ffe798f",
+          "bytes": 27826
+        },
+        {
+          "id": "10468f0a8f34d891",
+          "name": "Ferro do Firmamento Rachado",
+          "level": 8,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-08/10468f0a8f34d891.webp",
+          "cell": 10,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 7,
+            "top": 19,
+            "width": 260,
+            "height": 242
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "84f57b93e9212cc24606952d70ab754e214cedfde1b480243f2198a37fd3d8b4",
+          "bytes": 21838
+        },
+        {
+          "id": "12e92933b82799ed",
+          "name": "Prata do Fio do Destino",
+          "level": 8,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-08/12e92933b82799ed.webp",
+          "cell": 11,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 1,
+            "top": 16,
+            "width": 262,
+            "height": 244
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "20fb2bfaae2cc9d27d1d87dc72306aa68d49fae239451094a2c60dadfdc1d490",
+          "bytes": 22746
+        },
+        {
+          "id": "d143ec0e67bc167c",
+          "name": "Rubi da Fênix Renascente",
+          "level": 8,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-08/d143ec0e67bc167c.webp",
+          "cell": 12,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 13,
+            "top": 10,
+            "width": 254,
+            "height": 256
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "749502cf042e88d1ba8219508ee815115ea92e5a46ceb7aa8b419d7e63242c75",
+          "bytes": 26142
+        },
+        {
+          "id": "d0f39a04debe6aa6",
+          "name": "Jade do Mar Espiritual",
+          "level": 8,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-08/d0f39a04debe6aa6.webp",
+          "cell": 13,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 6,
+            "top": 9,
+            "width": 261,
+            "height": 258
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "db1281fe8daba4a5bc2b6562a2f3c7f78cc2ee2649c443080cce26daf3139f31",
+          "bytes": 24968
+        },
+        {
+          "id": "a68791362638403e",
+          "name": "Ósmio da Âncora Celeste",
+          "level": 8,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-08/a68791362638403e.webp",
+          "cell": 14,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 6,
+            "top": 20,
+            "width": 255,
+            "height": 236
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "6b136846470aa7823e5c28dba9fb696a49d95eae1c05e6075f4ae280c7a56f65",
+          "bytes": 22332
+        },
+        {
+          "id": "891902ddcad3e958",
+          "name": "Cristal do Intervalo Quieto",
+          "level": 8,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-08/891902ddcad3e958.webp",
+          "cell": 15,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 3,
+            "top": 10,
+            "width": 265,
+            "height": 255
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "f94bb3e20a24fd1009f6dde12e6cec7fea25769df5c9766efda79405599167a0",
+          "bytes": 26736
+        },
+        {
+          "id": "74dc059add6deae8",
+          "name": "Obsidiana do Eclipse Interior",
+          "level": 8,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-08/74dc059add6deae8.webp",
+          "cell": 16,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 14,
+            "top": 5,
+            "width": 253,
+            "height": 253
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "f0aaed8d4c625e0897f5314044338821614826bd5e4fea066efa4d6bc08c39f2",
+          "bytes": 21944
+        },
+        {
+          "id": "78cedacebae2c6ea",
+          "name": "Paládio da Harmonia dos Cinco",
+          "level": 8,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-08/78cedacebae2c6ea.webp",
+          "cell": 17,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 7,
+            "top": 8,
+            "width": 260,
+            "height": 248
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "18b9a86037052fda8aa4624d5a5b9c0a5d566b8b0a34050942afde50c6ddb206",
+          "bytes": 26590
+        },
+        {
+          "id": "83a4dd94303e0d5c",
+          "name": "Sangue Mineral do Qilin",
+          "level": 8,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-08/83a4dd94303e0d5c.webp",
+          "cell": 18,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 7,
+            "top": 6,
+            "width": 261,
+            "height": 247
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "1d99add6283e8a83166cca67cedb1b862e3a0b338dea70fbd878c675558278d7",
+          "bytes": 26452
+        },
+        {
+          "id": "781bebd0e2b5cb6f",
+          "name": "Pedra da Estrela Polar",
+          "level": 8,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-08/781bebd0e2b5cb6f.webp",
+          "cell": 19,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 8,
+            "top": 3,
+            "width": 247,
+            "height": 258
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "853b61c3135c50c14a965de55f6ca5c6431238512c3497f965ac03d7d242d44d",
+          "bytes": 20928
+        }
+      ]
+    },
+    {
+      "id": "minerios-05",
+      "source": "C:/Users/kaa_v/.codex/generated_images/01a1854d-b4df-7103-a0d4-8d40225aaaf1/exec-74593f02-23b6-421a-bf7c-d86869043189.png",
+      "sourceSize": {
+        "width": 1122,
+        "height": 1402
+      },
+      "icons": [
+        {
+          "id": "afe10e4afab70105",
+          "name": "Metal da Origem Indivisa",
+          "level": 9,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-09/afe10e4afab70105.webp",
+          "cell": 0,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 16,
+            "top": 33,
+            "width": 248,
+            "height": 228
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "c3cbceec124e6c1810b92252277a26f29a00594dd966341ab91683287857014a",
+          "bytes": 21698
+        },
+        {
+          "id": "a514fbdc5af54c28",
+          "name": "Ouro da Essência Solar",
+          "level": 9,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-09/a514fbdc5af54c28.webp",
+          "cell": 1,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 20,
+            "top": 33,
+            "width": 236,
+            "height": 230
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "c5245be90a4164ab4285ef6b52cffcd3ccc821fecba89284478947c59ef309e9",
+          "bytes": 22962
+        },
+        {
+          "id": "ad8c03f0b8e9ca0f",
+          "name": "Jade do Trono Imortal",
+          "level": 9,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-09/ad8c03f0b8e9ca0f.webp",
+          "cell": 2,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 12,
+            "top": 32,
+            "width": 248,
+            "height": 231
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "589e714248f3dad396bd227e41b810dd574e9d0ef43957bf612a00e46fc6738a",
+          "bytes": 20340
+        },
+        {
+          "id": "abf7bf86b65b700d",
+          "name": "Cristal da Fronteira do Vazio",
+          "level": 9,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-09/abf7bf86b65b700d.webp",
+          "cell": 3,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 16,
+            "top": 21,
+            "width": 250,
+            "height": 242
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "10dbb362023d3c17c4887ab8179480ab85a4ba4cf269e9370add8cd1f18e9b5f",
+          "bytes": 23424
+        },
+        {
+          "id": "c7e8cb6ebe99d839",
+          "name": "Ferro do Juramento Inquebrável",
+          "level": 9,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-09/c7e8cb6ebe99d839.webp",
+          "cell": 4,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 13,
+            "top": 21,
+            "width": 260,
+            "height": 243
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "311ba1a2605898fb6e3189cf769ea763c013988f20a7ee053f055b09a0bc7917",
+          "bytes": 18552
+        },
+        {
+          "id": "5690e4a004ba523a",
+          "name": "Prata das Almas Pacificadas",
+          "level": 9,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-09/5690e4a004ba523a.webp",
+          "cell": 5,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 13,
+            "top": 22,
+            "width": 253,
+            "height": 238
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "5d602ceccff2c077cb79c94c0ad521ee6d9a398a886e25bae6ce81c32de460ae",
+          "bytes": 20126
+        },
+        {
+          "id": "39252f2510bfd4cd",
+          "name": "Pedra do Primeiro Relâmpago",
+          "level": 9,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-09/39252f2510bfd4cd.webp",
+          "cell": 6,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 8,
+            "top": 19,
+            "width": 255,
+            "height": 244
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "0da9a6be9880d0712937648d28c6814a317d79f7823f03e3d987b55e31ce66b2",
+          "bytes": 22038
+        },
+        {
+          "id": "2c6fbf922ca7f384",
+          "name": "Coríndon da Roda das Eras",
+          "level": 9,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-09/2c6fbf922ca7f384.webp",
+          "cell": 7,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 11,
+            "top": 20,
+            "width": 251,
+            "height": 244
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "685db6e76951378bd0bfdea3214d50d1698bda11aabb33dbd8508d3f4737e636",
+          "bytes": 22142
+        },
+        {
+          "id": "c8d91b4b57745033",
+          "name": "Safira da Lei Serena",
+          "level": 9,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-09/c8d91b4b57745033.webp",
+          "cell": 8,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 20,
+            "top": 12,
+            "width": 245,
+            "height": 247
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "6dcde4cb9ffa144efe830191bf86db79337bc6bf6a99b2fd82b0750858e2763a",
+          "bytes": 22132
+        },
+        {
+          "id": "ce082ae12c55a2b4",
+          "name": "Rocha do Dragão que Sustenta o Mundo",
+          "level": 9,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-09/ce082ae12c55a2b4.webp",
+          "cell": 9,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 3,
+            "top": 56,
+            "width": 272,
+            "height": 162
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "b5afc3d18dabe9d18ea7b5badcfd726a825f7ead3627f5e327e781f33c68e2ec",
+          "bytes": 15368
+        },
+        {
+          "id": "34973f3753cdab41",
+          "name": "Adamante do Pilar Primordial",
+          "level": 10,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-10/34973f3753cdab41.webp",
+          "cell": 10,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 7,
+            "top": 17,
+            "width": 261,
+            "height": 241
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "b38f18fc13b7665a25b897b99bb3e1fafde46ba9d552bcd3ec0f08c753fc8780",
+          "bytes": 21878
+        },
+        {
+          "id": "8d17cdcdd6d59a4e",
+          "name": "Cristal do Silêncio Absoluto",
+          "level": 10,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-10/8d17cdcdd6d59a4e.webp",
+          "cell": 11,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 13,
+            "top": 11,
+            "width": 252,
+            "height": 247
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "ac3b35b4215cbc6672608adbbcbee75c1ada31d7bc8b7656d036a73ac7f88367",
+          "bytes": 20588
+        },
+        {
+          "id": "dc33aa40a0a5eeda",
+          "name": "Ouro do Sol Não Nascido",
+          "level": 10,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-10/dc33aa40a0a5eeda.webp",
+          "cell": 12,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 14,
+            "top": 13,
+            "width": 260,
+            "height": 233
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "3c00dddbd982afee841497ee149b4250c01b4b6d0a6a5584dd5fdf65360d0aa3",
+          "bytes": 21810
+        },
+        {
+          "id": "c767d01c6eef681c",
+          "name": "Jade do Nome Verdadeiro",
+          "level": 10,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-10/c767d01c6eef681c.webp",
+          "cell": 13,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 15,
+            "top": 10,
+            "width": 247,
+            "height": 239
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "53e1aaef3e72d6e9f6e38f9722ea0bd8c62fb63b591a928a9216a1e3764d9d57",
+          "bytes": 22064
+        },
+        {
+          "id": "e7475d4df2d2ebc3",
+          "name": "Metal do Limite dos Céus",
+          "level": 10,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-10/e7475d4df2d2ebc3.webp",
+          "cell": 14,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 3,
+            "top": 15,
+            "width": 260,
+            "height": 230
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "d25f7a634490f450d36886c2e28649ec035f060e0fcf6f0359bf21b7494b8ee7",
+          "bytes": 19162
+        },
+        {
+          "id": "32c24fccda07412b",
+          "name": "Prata do Último Crepúsculo",
+          "level": 10,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-10/32c24fccda07412b.webp",
+          "cell": 15,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 4,
+            "top": 15,
+            "width": 265,
+            "height": 230
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "b76dbe8a1311d69489186612ae78fe11b4a0c46bce366d2554ddbd218098195a",
+          "bytes": 18070
+        },
+        {
+          "id": "b35ea1349c0c1348",
+          "name": "Pedra do Rio Sem Margens",
+          "level": 10,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-10/b35ea1349c0c1348.webp",
+          "cell": 16,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 11,
+            "top": 10,
+            "width": 262,
+            "height": 240
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "e725fd6395412ef22e4a336c440e6009dd9b4789f0778e8a2fd8745a29148439",
+          "bytes": 22088
+        },
+        {
+          "id": "73eaaa01d2a2fb3b",
+          "name": "Diamante da Semente do Mundo",
+          "level": 10,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-10/73eaaa01d2a2fb3b.webp",
+          "cell": 17,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 18,
+            "top": 0,
+            "width": 248,
+            "height": 255
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "c2c596802900245cd3386ca3afcbeb400bf73da058198b1d99b4d5c8060d4eb9",
+          "bytes": 21096
+        },
+        {
+          "id": "66539b2d19b34f08",
+          "name": "Obsidiana da Noite Anterior",
+          "level": 10,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-10/66539b2d19b34f08.webp",
+          "cell": 18,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 10,
+            "top": 5,
+            "width": 248,
+            "height": 246
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "d93ddf978f473a1f8bf11bd0f3f34d7ea60f68962f99c69f18698324fa9bd763",
+          "bytes": 17612
+        },
+        {
+          "id": "a0211d7626b8f280",
+          "name": "Minério do Dao Sem Forma",
+          "level": 10,
+          "img": "systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-10/a0211d7626b8f280.webp",
+          "cell": 19,
+          "cleanedFragments": 0,
+          "sourceBounds": {
+            "left": 5,
+            "top": 7,
+            "width": 261,
+            "height": 237
+          },
+          "width": 256,
+          "height": 256,
+          "sha256": "3c1c69daa25cbb2b15511a4b7f9e0ef961930ee2bd7d8e67e9e23d228be702af",
+          "bytes": 23496
+        }
+      ]
+    }
+  ]
+}

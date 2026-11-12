@@ -1,0 +1,182 @@
+{
+  "_id": "1e5795575f64ebd7",
+  "name": "Wok Throw",
+  "type": "spell",
+  "folder": "617a4a11446e8ceb",
+  "sort": 300000,
+  "img": "icons/tools/cooking/pot-camping-iron-black.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-wok-throw",
+    "level": 0,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "reaction",
+      "value": 2,
+      "condition": "Use somente quando ocorrer o gatilho descrito na técnica.",
+      "override": true
+    },
+    "duration": {
+      "value": "",
+      "units": "inst",
+      "expiry": null,
+      "special": "",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "15",
+      "units": "m",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "line",
+        "size": "15",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Wok</td></tr><tr><th>Técnica</th><td>Auxiliar</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>2 · Reação</td></tr><tr><th>Alcance</th><td>Até 15 metros, Linha</td></tr><tr><th>Duração</th><td>Instantâneo.</td></tr><tr><th>Arma</th><td>Wok</td></tr><tr><th>Requisito do quadro</th><td>Wok, Reação</td></tr></tbody></table><p>Quando você ou uma criatura aliada for alvo de uma jogada de ataque (Comum ou de Técnica) ou tiver que realizar uma Salvaguarda de Força ou Agilidade para sofrer todo ou metade do dano, você pode atirar seu Wok como um frisbee que para na frente da criatura aliada girando com uma grande quantidade de Qi e reduzindo 3d8 de dano.</p><p>A criatura aliada protegida é atirada para trás 3 metros para cada 6 de dano que o ataque causaria ou causou nela, mínimo de 3 metros.</p><h3>Observações</h3><p>Escolha você ou o aliado protegido e use o resultado de 3d8 para reduzir somente o dano desencadeador. O narrador aplica a redução na criatura escolhida, sem conceder um escudo ao usuário por engano. Resolva o recuo do aliado: 3 metros por 6 de dano do ataque, mínimo de 3 metros.</p>"
+    },
+    "activities": {
+      "1061fb9485aa3dd2": {
+        "_id": "1061fb9485aa3dd2",
+        "type": "utility",
+        "name": "Wok Throw",
+        "img": "icons/tools/cooking/pot-camping-iron-black.webp",
+        "activation": {
+          "type": "reaction",
+          "value": 2,
+          "condition": "Use somente quando ocorrer o gatilho descrito na técnica.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Wok</td></tr><tr><th>Técnica</th><td>Auxiliar</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>2 · Reação</td></tr><tr><th>Alcance</th><td>Até 15 metros, Linha</td></tr><tr><th>Duração</th><td>Instantâneo.</td></tr><tr><th>Arma</th><td>Wok</td></tr><tr><th>Requisito do quadro</th><td>Wok, Reação</td></tr></tbody></table><p>Quando você ou uma criatura aliada for alvo de uma jogada de ataque (Comum ou de Técnica) ou tiver que realizar uma Salvaguarda de Força ou Agilidade para sofrer todo ou metade do dano, você pode atirar seu Wok como um frisbee que para na frente da criatura aliada girando com uma grande quantidade de Qi e reduzindo 3d8 de dano.</p><p>A criatura aliada protegida é atirada para trás 3 metros para cada 6 de dano que o ataque causaria ou causou nela, mínimo de 3 metros.</p><h3>Observações</h3><p>Escolha você ou o aliado protegido e use o resultado de 3d8 para reduzir somente o dano desencadeador. O narrador aplica a redução na criatura escolhida, sem conceder um escudo ao usuário por engano. Resolva o recuo do aliado: 3 metros por 6 de dano do ataque, mínimo de 3 metros.</p>",
+          "chatFlavor": "Wok Throw"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "15",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "line",
+            "size": "15",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "wok-throw",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "3d8",
+          "name": "Wok Throw",
+          "visible": true,
+          "prompt": false
+        }
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "wok-throw",
+        "category": "wok",
+        "grade": null,
+        "auxiliary": true,
+        "weapon": "Wok",
+        "qi": 2,
+        "actions": 2,
+        "reaction": true,
+        "combinedAttack": null,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Instantâneo.",
+            "range": "Até 15 metros, Linha",
+            "requirements": "Wok, Reação",
+            "damage": "Nenhum",
+            "combinedAttack": null
+          }
+        },
+        "manualResolution": [
+          "Escolha você ou o aliado protegido e use o resultado de 3d8 para reduzir somente o dano desencadeador. O narrador aplica a redução na criatura escolhida, sem conceder um escudo ao usuário por engano. Resolva o recuo do aliado: 3 metros por 6 de dano do ataque, mínimo de 3 metros."
+        ],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!1e5795575f64ebd7"
+}

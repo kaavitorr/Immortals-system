@@ -1,0 +1,71 @@
+_id: 4d81b08c9223b830
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:86
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 4d81b08c9223b830
+name: Contenção de Pinças
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ [adicional]</strong></p><p>Ao realizar um ataque com a pinça, essa criatura pode agarrar o
+      alvo de forma garantida. Enquanto ele estiver agarrado, os ataques dela acertam automaticamente.</p>
+    chat: ''
+  identifier: contencao-de-pincas
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    d4697bef96db9961:
+      _id: d4697bef96db9961
+      type: utility
+      name: Contenção de Pinças
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Ao realizar um ataque com a pinça, essa criatura pode agarrar o alvo de forma garantida. Enquanto ele
+          estiver agarrado, os ataques dela acertam automaticamente.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 1
+  prerequisites:
+    items: []
+    level: 1
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/contencao-de-pincas-4d81b08c9223b830.webp"
+_key: '!items!4d81b08c9223b830'

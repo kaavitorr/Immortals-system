@@ -1,0 +1,53 @@
+_id: b137cea88bc6afa4
+_key: '!items!b137cea88bc6afa4'
+name: Peônia do Espelho de Névoa
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/b137cea88bc6afa4.webp
+system:
+  identifier: material-alquimia-b137cea88bc6afa4
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Planta</p><p>Suas pétalas formam uma superfície leitosa que reflete não o corpo, mas a intenção de quem se curva sobre ela. Alquimistas a fundem em espelhos rituais que revelam o íntimo de quem os encara.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: fe2618f2c84e8257
+sort: 10300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 6
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Peônia do Espelho de Névoa
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

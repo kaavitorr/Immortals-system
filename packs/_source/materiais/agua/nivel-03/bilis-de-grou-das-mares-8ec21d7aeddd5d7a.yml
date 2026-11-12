@@ -1,0 +1,53 @@
+_id: 8ec21d7aeddd5d7a
+_key: '!items!8ec21d7aeddd5d7a'
+name: Bile de Grou das Marés de Névoa
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/8ec21d7aeddd5d7a.webp
+system:
+  identifier: material-alquimia-8ec21d7aeddd5d7a
+  description:
+    value: <p><strong>Elemento:</strong> Água · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Parte de animal</p><p>O grou das Marés de Névoa abre asas riscadas de luz quando o Qi oceânico sobe pelos estuários, distinguindo presas através do vapor. Sua bile depurada desfaz películas opacas em tinturas de percepção e ajuda a separar impurezas salobras de essências aquáticas delicadas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 2000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: b0b6d3677b445c34
+sort: 5400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: agua
+      elementLabel: Água
+      level: 3
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/agua.json
+        originalName: Bílis de Grou das Marés
+        sha256: 4e0ab61ab8b4f69e0e1dd88c53ff06dabfdca351a5290537230f83680b9c27bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

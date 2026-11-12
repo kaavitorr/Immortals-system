@@ -1,0 +1,7 @@
+import {immortalsRestRecovery} from '../../../systems/rest-recovery.mjs';
+/** Dialog labels use the same plan committed by Actor._rest; opening the modal never recovers anything. */
+export function longRestPreview(actor,config){
+ const recovery=immortalsRestRecovery(actor,config);
+ return {exhaustionApplicable:recovery.exhaustion.remaining>0||recovery.exhaustion.recovered>0,exhaustionGain:String(recovery.exhaustion.recovered),exhaustionRemaining:String(recovery.exhaustion.remaining),exhaustionHours:String(recovery.exhaustion.minimumMinutes/60),constitutionApplicable:recovery.constitution.recovered>0||recovery.constitution.remaining>0,constitutionGain:'+'+recovery.constitution.recovered,constitutionRemaining:String(recovery.constitution.remaining),woundsApplicable:recovery.wounds.applicable,woundsAmount:String(recovery.wounds.recovered),woundsRate:recovery.wounds.percent+'%',woundsBefore:String(recovery.wounds.current),woundsAfter:String(recovery.wounds.remaining),lifeFinal:recovery.life.value+' / '+recovery.life.maximum,lifeBefore:String(recovery.life.current),lifeGain:'+'+recovery.life.gained,qiFinal:recovery.qi.value+' / '+recovery.qi.maximum,qiBefore:String(recovery.qi.current),qiGain:'+'+recovery.qi.gained};
+}
+export function patchLongRestPreview(element,preview){for(const node of element?.querySelectorAll?.('[data-rest-preview]')??[]){const key=node.dataset.restPreview;if(Object.hasOwn(preview,key))node.textContent=preview[key];}}

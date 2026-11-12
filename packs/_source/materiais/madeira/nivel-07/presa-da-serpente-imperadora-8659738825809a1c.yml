@@ -1,0 +1,53 @@
+_id: 8659738825809a1c
+_key: '!items!8659738825809a1c'
+name: Presa da Serpente Imperadora
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/8659738825809a1c.webp
+system:
+  identifier: material-alquimia-8659738825809a1c
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Parte de animal</p><p>Presa recurvada arrancada da serpente que reina sobre os bosques do sul. Ralada em vinho, reacende o Qi da espinha e reergue doentes que já não andavam.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 13b8eac8c73d7a19
+sort: 13100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 7
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Presa da Serpente Imperadora
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

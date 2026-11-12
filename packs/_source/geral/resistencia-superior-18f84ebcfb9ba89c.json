@@ -1,0 +1,51 @@
+{
+  "_id": "18f84ebcfb9ba89c",
+  "name": "Resistência Superior",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/resistencia-superior.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-resistencia-superior",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo do Corpo.</p><h2>Resistência Superior</h2><p><strong>Requisito:</strong> 6º Portão</p><p>Você recebe 2 Pontos de Resistência a todos os tipos de dano. No início de cada um de seus turnos, você recebe 2 Pontos de Resistência adicionais até um máximo igual seu nível de personagem.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "resistencia-superior",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo do Corpo",
+        "requisitos": [
+          "6º Portão"
+        ],
+        "requirementRules": {
+          "type": "body",
+          "min": 8
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "growingResistance",
+            "initial": 2,
+            "perOwnTurn": 2,
+            "maximumFormula": "@nivelCultivo",
+            "damageTypes": "all"
+          }
+        ],
+        "manual": [],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!18f84ebcfb9ba89c"
+}

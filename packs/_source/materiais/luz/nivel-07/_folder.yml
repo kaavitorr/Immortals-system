@@ -1,0 +1,13 @@
+_id: 6a93c09682637efb
+_key: '!folders!6a93c09682637efb'
+name: Nível 7
+type: Item
+folder: e1730b8d2dbc7697
+sorting: a
+sort: 700000
+color: '#806d3f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: luz
+      level: 7

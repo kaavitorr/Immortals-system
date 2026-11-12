@@ -1,0 +1,83 @@
+name: Fascínio da Raposa
+type: feat
+folder: b4cdf08eea2c07d5
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢⬢</p><p>A criatura prende a atenção de um alvo com sua voz, seu olhar ou seus
+      movimentos. Ao usar 2 Pontos de Ação [⬢⬢] e 2 PQ, a criatura pode escolher um alvo a até 20 metros de distância.
+      Ele deve realizar uma Salvaguarda de Vontade para não receber a condição &quot;Enfeitiçado&quot;.</p>
+    chat: ''
+  identifier: fascinio-da-raposa
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    9e223cecb15df592:
+      _id: 9e223cecb15df592
+      type: utility
+      name: Fascínio da Raposa
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>A criatura prende a atenção de um alvo com sua voz, seu olhar ou seus movimentos. Ao usar 2 Pontos de Ação
+          [⬢⬢] e 2 PQ, a criatura pode escolher um alvo a até 20 metros de distância. Ele deve realizar uma Salvaguarda
+          de Vontade para não receber a condição &quot;Enfeitiçado&quot;.</p>
+        chatFlavor: ''
+      range:
+        value: 20
+        units: m
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: creature
+          count: '1'
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 1
+  prerequisites:
+    items: []
+    level: 1
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: 70fca744418ffd25
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/onda-de-charme-0692eab7d5bf96d7.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:fasciniodaraposa
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Tecelã de Miragens
+_key: '!items!70fca744418ffd25'

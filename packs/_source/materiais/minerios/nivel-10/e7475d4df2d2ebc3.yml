@@ -1,0 +1,50 @@
+_id: e7475d4df2d2ebc3
+name: Metal do Limite dos Céus
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-10/e7475d4df2d2ebc3.webp
+system:
+  identifier: minerio-e7475d4df2d2ebc3
+  description:
+    value: <p><strong>Nível:</strong> 10 · <strong>Categoria:</strong> Minério</p><p>Placas cinza-escuras se sobrepõem com bordas prateadas muito nítidas. O minério se forma na crosta que separa antigos domínios celestes do vazio. Após o refino, compõe armações e junções de tesouros de Espaço que precisam manter uma fronteira contínua entre suas partes.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 66f01b1432a186ba
+sort: 500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 10
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 10
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!e7475d4df2d2ebc3'

@@ -1,0 +1,80 @@
+_id: a32f17295a81bc75
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:156
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: a32f17295a81bc75
+name: Raízes Prendedoras
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢</strong></p><p>Ao gastar 4 PQ, essa criatura envia fios, raízes ou cipós na direção do alvo.
+      Eles mudam de forma até ficarem extremamente afiados, tentando cortar a criatura em diversos pedaços enquanto
+      prendem seu corpo. Você causa seu dano padrão como dano Cortante ao atingir, e o alvo deve realizar uma
+      Salvaguarda de Fortitude para não receber a condição “Impedido” até se libertar.</p>
+    chat: ''
+  identifier: raizes-prendedoras
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    73bbf5fee55e5c22:
+      _id: 73bbf5fee55e5c22
+      type: utility
+      name: Raízes Prendedoras
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '4'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 4 PQ, essa criatura envia fios, raízes ou cipós na direção do alvo. Eles mudam de forma até
+          ficarem extremamente afiados, tentando cortar a criatura em diversos pedaços enquanto prendem seu corpo. Você
+          causa seu dano padrão como dano Cortante ao atingir, e o alvo deve realizar uma Salvaguarda de Fortitude para
+          não receber a condição “Impedido” até se libertar.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/raizes-prendedoras-a32f17295a81bc75.webp"
+_key: '!items!a32f17295a81bc75'

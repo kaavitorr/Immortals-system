@@ -1,0 +1,65 @@
+_id: firestarter00000
+_key: '!items!firestarter00000'
+name: Acendedor
+type: tool
+img: icons/containers/bags/case-simple-leather-brown.webp
+system:
+  identifier: tool-kit-fire
+  description:
+    value: >-
+      <p>Bolsa pequena de couro encerado contendo fibra vegetal seca triturada e lascas de madeira, com um pequeno fecho
+      interno para prender uma peça de sílex e um anel de aço para gerar faíscas, com o propósito de acender
+      fogueiras.</p><p><strong>Propriedades:</strong> Empilhável.</p><p><strong>Profissões e conhecimentos:</strong>
+      Sobrevivência.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 1
+    units: kg
+  price:
+    value: 165
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: ''
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: eiHFNJQiIGesLyuw
+sort: 600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: firestarter00000
+      sourceType: tool
+      category: implement
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

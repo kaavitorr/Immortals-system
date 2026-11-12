@@ -1,0 +1,178 @@
+name: Montaria de Guerra
+type: archetype
+folder: 1bnnSCjbnPuunvFI
+system:
+  description:
+    value: >-
+      <p>Rompe formações com investidas, atropelamentos e golpes do próprio corpo. Atua com ou sem cavaleiro e reage com
+      coices e contragolpes a quem se aproxima.</p><p><strong>Resistência por ND:</strong> Contundente
+      +2</p><p><strong>Vulnerabilidade:</strong> Fogo −6 · Mov +1 | 5/ND</p><p><strong>Deslocamento:</strong> +1 até um
+      máximo de 25</p><p><strong>Armaduras:</strong> Musculatura Densa (10 + Con).</p><p><strong>Perícias:</strong>
+      Proficiências: Atletismo, Intimidação, Percepção e Sobrevivência.</p><p><strong>Salvaguardas:</strong>
+      Proficiências: Fortitude e Reflexo.</p><p><strong>Aspectos:</strong> Força Descomunal, Vigoroso, Corpo Robusto,
+      Agressivo, Implacável, Estabilidade, Ferimento Enfurecedor, Fanático, Descuidado,
+      Reativo.</p><p><strong>Habilidades:</strong> Investida, Investida Derrubadora, Golpe Esmagador, Debandada, Onda de
+      Choque, Impacto Atordoante, Grito de Guerra, Manter Firme, Contra-Golpe, Enrijecer
+      Músculos.</p><p><strong>Reações:</strong> Coice Reativo, Atropelo Reativo, Contra-Golpe.</p>
+    chat: ''
+  identifier: montaria-de-guerra
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 4
+    dex: 3
+    con: 3
+    int: 1
+    wis: 1
+    cha: 0
+  resistencias:
+    bludgeoning:
+      value: 2
+      immune: false
+    piercing:
+      value: 0
+      immune: false
+    slashing:
+      value: 0
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: -6
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 0
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ath
+      - skills.itm
+      - skills.prc
+      - skills.sur
+      - saves.str
+      - saves.wis
+      - saves.dex
+      - saves.int
+    alternative:
+      - skills.ath
+      - skills.itm
+      - skills.prc
+      - skills.sur
+      - alternativeSaves.fortitude
+      - alternativeSaves.reflexo
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8a0ca76215e75f50
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4e065b4c8fa19cff
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9149d2bde056a98a
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53d435a7250164af
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.325e12eb1ac5a88d
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.71f999e7e919a534
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7b0bc0a12fe44448
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f2ddb057bcdb28db
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.05d16addb258c9b6
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6c3e03cf4f31410e
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.104c69ff0d058f8c
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.1a2c7d04572fb42e
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bfd51c9ea7cf377
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9f58c17ca809238a
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.fef42e1c5f273c51
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.0ed691df48afe037
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6bd7d97c6b3853b2
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.dba6e75422ac79f4
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7603853cf6050958
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d3b3052e04d15f8e
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.39ea5af9979fe435
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000021
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000007
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: LD4LIdGoUeWqmuvq
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/montaria-de-guerra.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:montariadeguerra
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: LD4LIdGoUeWqmuvq
+_key: '!items!LD4LIdGoUeWqmuvq'

@@ -1,0 +1,71 @@
+name: Agressivo
+type: feat
+folder: D8Yrqg8ddiUXg3Yv
+system:
+  description:
+    value: >-
+      <p>Ao usar um Ponto de Ação [⬢], essa criatura se move 5 metros na direção de uma criatura inimiga e o próximo
+      ataque que ela realizar contra ela recebe uma vantagem.</p>
+    chat: ''
+  identifier: agressivo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    82776a29ee392982:
+      _id: 82776a29ee392982
+      type: utility
+      name: Agressivo
+      activation:
+        type: action
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Ao usar um Ponto de Ação [⬢], essa criatura se move 5 metros na direção de uma criatura inimiga e o próximo
+          ataque que ela realizar contra ela recebe uma vantagem.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: XB7WxHIls7svWhT6
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/agressivo-XB7WxHIls7svWhT6.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:agressivo:67de1a7029bb
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: XB7WxHIls7svWhT6
+_key: '!items!XB7WxHIls7svWhT6'

@@ -1,0 +1,73 @@
+_id: 43ff2f3cca5fedbf
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:163
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 43ff2f3cca5fedbf
+name: Roubo de Nome
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢⬢⬢⬢</strong></p><p>A criatura rouba o nome de uma criatura cujo nome tenha ouvido e à qual
+      tenha causado dano. Com isso, assume a forma do alvo e pode utilizar os efeitos do Feitiço dele. Se a habilidade
+      for usada por um Ladrão de Nomes, ele também recebe o último ano de memórias do alvo.</p>
+    chat: ''
+  identifier: roubo-de-nome
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    151446184bae96f2:
+      _id: 151446184bae96f2
+      type: utility
+      name: Roubo de Nome
+      activation:
+        type: action
+        value: 6
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura rouba o nome de uma criatura cujo nome tenha ouvido e à qual tenha causado dano. Com isso,
+          assume a forma do alvo e pode utilizar os efeitos do Feitiço dele. Se a habilidade for usada por um Ladrão de
+          Nomes, ele também recebe o último ano de memórias do alvo.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 14
+  prerequisites:
+    items: []
+    level: 14
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/roubo-de-nome-43ff2f3cca5fedbf.webp"
+_key: '!items!43ff2f3cca5fedbf'

@@ -1,0 +1,82 @@
+_id: 463996b589b2dc8e
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:161
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 463996b589b2dc8e
+name: Ressonância
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢ / rodada</strong></p><p>Ao gastar 5 PQ por rodada, essa criatura entra em ressonância com
+      todas as criaturas da mesma taxonomia a até 20 metros + 1 metro por ND. Enquanto a habilidade estiver ativa, seu
+      valor de Engajamento aumenta pelo número de criaturas afetadas, e todas compartilham seus sentidos. Os valores de
+      Intelecto e Sabedoria são somados entre elas, até um máximo de 12 em cada atributo, permitindo que superem seu
+      limite natural e se tornem inteligentes.</p>
+    chat: ''
+  identifier: ressonancia
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    d58d2e402c2f71f8:
+      _id: d58d2e402c2f71f8
+      type: utility
+      name: Ressonância
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '5'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 5 PQ por rodada, essa criatura entra em ressonância com todas as criaturas da mesma taxonomia a
+          até 20 metros + 1 metro por ND. Enquanto a habilidade estiver ativa, seu valor de Engajamento aumenta pelo
+          número de criaturas afetadas, e todas compartilham seus sentidos. Os valores de Intelecto e Sabedoria são
+          somados entre elas, até um máximo de 12 em cada atributo, permitindo que superem seu limite natural e se
+          tornem inteligentes.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 8
+  prerequisites:
+    items: []
+    level: 8
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/ressonancia-463996b589b2dc8e.webp"
+_key: '!items!463996b589b2dc8e'

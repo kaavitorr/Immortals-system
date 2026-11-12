@@ -1,0 +1,65 @@
+_id: disarmingToolkit
+_key: '!items!disarmingToolkit'
+name: Kit de Desarmar
+type: tool
+img: icons/containers/bags/satchel-leather-grey.webp
+system:
+  identifier: tool-kit-disarming
+  description:
+    value: >-
+      <p>Bolsa pequena de couro contendo um conjunto de alicates, cortadores, furadores e um conjunto de hastes
+      metálicas dobráveis que podem ser rosqueadas. Projetado para desarmar ou disparar armadilhas de laço, fios de
+      tropeço, placas de pressão e outras armadilhas comuns.</p><p><strong>Propriedades:</strong>
+      Empilhável.</p><p><strong>Profissões e conhecimentos:</strong> Furtividade.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 6
+    units: kg
+  price:
+    value: 1200
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: ''
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: zKA7bUzu7rPpL2lk
+sort: 1300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: disarmingToolkit
+      sourceType: tool
+      category: crafting
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

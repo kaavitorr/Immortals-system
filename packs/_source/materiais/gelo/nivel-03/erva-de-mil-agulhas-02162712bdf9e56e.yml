@@ -1,0 +1,53 @@
+_id: 02162712bdf9e56e
+_key: '!items!02162712bdf9e56e'
+name: Erva de Mil Agulhas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/02162712bdf9e56e.webp
+system:
+  identifier: material-alquimia-02162712bdf9e56e
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Planta</p><p>Brota em ninhos de cristais formados pelo encontro do Qi glacial com o luar. As folhas finíssimas emitem uma sensação fria e precisa quando refinadas, dissipando a névoa da consciência e protegendo a clareza mental durante práticas que exigem atenção contínua.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 2000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d1519af315652f3b
+sort: 4200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 3
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Erva de Mil Agulhas
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

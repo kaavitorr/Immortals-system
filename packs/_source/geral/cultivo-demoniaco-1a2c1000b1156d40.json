@@ -1,0 +1,26 @@
+{
+  "_id": "1a2c1000b1156d40",
+  "name": "Cultivo Demoníaco",
+  "type": "feat",
+  "folder": "1a2c000000000002",
+  "img": "systems/Immortals-system/assets/wuxia/caracteristicas-especie-pintadas-v1/cultivo-demoniaco.webp",
+  "system": {
+    "identifier": "especie-6b335680",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Cultivo Demoníaco: Você aprende a cultivar um manual que está impregnado em sua linhagem, ligado à sua natureza como demônio do charme. Após despertar essa linhagem, você é obrigado é absorver o Yin das mulheres através do ato sexual se for do gênero masculino ou absorver o Yang dos homens através do ato sexual se for do gênero feminino.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Cultivo Demoníaco",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000b1156d40"
+}

@@ -1,0 +1,54 @@
+{
+  "_id": "41720d52c66ab0f2",
+  "name": "Lança Destruidora",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/lanca-destruidora.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-lanca-destruidora",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo do Corpo.</p><h2>Lança Destruidora</h2><p><strong>Requisito:</strong> Temperando a Medula</p><p>Ao término do cálculo de dano causado por uma Rolagem de Ataque ou Técnica sua, caso uma ou mais criaturas permaneçam com uma quantidade de Pontos de Vida igual ou inferior ao seu Nível de Personagem, elas sofrem o dano necessário para terem seus Pontos de Vida reduzidos a 0.</p><p>Sempre que uma criatura for derrotada por esta característica, o limite utilizado para reduzir os Pontos de Vida a 0 aumenta em +5, até um máximo de +20. Esse bônus permanece ativo até o fim do encontro.</p><p><strong>Resolução:</strong> Depois de resolver o dano do ataque ou técnica, o narrador confirma os PV remanescentes e a derrota. Nenhum alvo é reduzido a 0 PV automaticamente.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "lanca-destruidora",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo do Corpo",
+        "requisitos": [
+          "Temperando a Medula"
+        ],
+        "requirementRules": {
+          "type": "body",
+          "min": 2
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "executeAtHitPointThreshold",
+            "baseFormula": "@nivelCultivo",
+            "incrementPerDefeat": 5,
+            "maxBonus": 20,
+            "expires": "encounterEnd",
+            "afterDamage": true
+          }
+        ],
+        "manual": [
+          "Depois de resolver o dano do ataque ou técnica, o narrador confirma os PV remanescentes e a derrota. Nenhum alvo é reduzido a 0 PV automaticamente."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!41720d52c66ab0f2"
+}

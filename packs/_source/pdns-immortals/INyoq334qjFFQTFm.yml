@@ -1,0 +1,180 @@
+name: Estridente
+type: archetype
+folder: 1bnnSCjbnPuunvFI
+system:
+  description:
+    value: >-
+      <p>Combina voo e ataques físicos com gritos que perturbam os inimigos. Usa a ecolocalização para localizar a presa
+      e responde à aproximação com ecos e esquivas.</p><p><strong>Resistência por ND:</strong> Psíquico +1 | Elétrico
+      +1</p><p><strong>Vulnerabilidade:</strong> Contundente −6 | Cortante −6 · Mov +1 |
+      5/ND</p><p><strong>Deslocamento:</strong> +1 até um máximo de 25</p><p><strong>Armaduras:</strong>
+      Nenhuma.</p><p><strong>Perícias:</strong> Proficiências: Percepção, Intimidação, Sobrenatural e
+      Furtividade.</p><p><strong>Salvaguardas:</strong> Proficiências: Reflexo e
+      Vontade.</p><p><strong>Aspectos:</strong> Ecolocalização, Audição Aguçada, Voo Superior, Sobrevoo, Visão no
+      Escuro, Agarrador, Reflexos Aguçados, Tática de Bando, Silenciosa, Sede de
+      Sangue.</p><p><strong>Habilidades:</strong> Grito Estridente, Grito Psíquico, Onda de Choque, Ataque de Mergulho,
+      Drenagem de Sangue, Nuvem de Morcegos, Mordida Voraz, Esquiva Rápida, Ressonância.</p><p><strong>Reações:</strong>
+      Grito Reativo, Eco Desorientador, Esquiva Rápida.</p>
+    chat: ''
+  identifier: estridente
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 2
+    dex: 4
+    con: 2
+    int: 1
+    wis: 3
+    cha: 0
+  resistencias:
+    bludgeoning:
+      value: -6
+      immune: false
+    piercing:
+      value: 0
+      immune: false
+    slashing:
+      value: -6
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 1
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 1
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.prc
+      - skills.itm
+      - skills.ani
+      - skills.ste
+      - saves.dex
+      - saves.int
+      - saves.con
+      - saves.cha
+    alternative:
+      - skills.prc
+      - skills.itm
+      - skills.ani
+      - skills.ste
+      - alternativeSaves.reflexo
+      - alternativeSaves.vontade
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.ec7c384c443884ea
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.ce683ee9c243adaa
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.464fadb6d059e88b
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9ab24ff5f376e4d3
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.1cf422fe3a1c85ba
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f35cdef068d2d3d8
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.34e2fedcea4c64ac
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5b985b137ebe3303
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.a2bef16f773de0b2
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.98f7ed9c8403484e
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.85abaa55671447db
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bd5ffa57c1f404a
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e34c3dee2bd1012b
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6e9d3f1d8b93c1d2
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.2618d7dba8c165ef
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5b1140a0f034010d
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.fa62f7a0c1925c9f
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.b0025217be0f5675
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d3b3052e04d15f8e
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e3954a3cc125e416
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.a290291cba56fed5
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.463996b589b2dc8e
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.1920d6f994515587
+      nd: 10
+  equipamentos:
+    armadura: null
+    armas: []
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: INyoq334qjFFQTFm
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/estridente.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:estridente
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: INyoq334qjFFQTFm
+_key: '!items!INyoq334qjFFQTFm'

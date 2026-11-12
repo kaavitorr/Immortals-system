@@ -1,0 +1,125 @@
+name: Mortos-vivos Superiores
+type: taxonomy
+folder: b9497f2183d7aec1
+system:
+  description:
+    value: >-
+      <p>Reúne mortos-vivos que preservam inteligência e vontade própria, como vampiros, revenantes e cadáveres
+      conscientes de forma humanoide.</p><p><strong>Resistência:</strong> Alma ∞ | Físicos
+      +6</p><p><strong>Vulnerabilidade:</strong> Fogo −6 | Ácido −6 | Frio −6</p><p><strong>Deslocamento:</strong>
+      Caminhada: 12 m</p><p><strong>Armaduras:</strong> Couro Pesado (10 + Agi).</p><p><strong>Perícias:</strong>
+      Proficiências: 3 entre todas as Perícias.</p><p><strong>Salvaguardas:</strong> Proficiências: 2 entre todas as
+      Salvaguardas.</p><p><strong>Aspectos:</strong> Vontade Imortal, Criatura sem Alma.</p>
+    chat: ''
+  identifier: mortos-vivos-superiores
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 2
+    dex: 2
+    con: 2
+    int: 2
+    wis: 2
+    cha: 2
+  resistencias:
+    bludgeoning:
+      value: 6
+      immune: false
+    piercing:
+      value: 6
+      immune: false
+    slashing:
+      value: 6
+      immune: false
+    acid:
+      value: -6
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: -6
+      immune: false
+    fire:
+      value: -6
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 0
+      immune: false
+    soul:
+      value: 0
+      immune: true
+  proficiencyOrder:
+    original: []
+    alternative: []
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.Ra0jNW6dFlSdNxiU
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.UgCtr2oTG6Er7Fd7
+      nd: 0
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000005
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000003
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000004
+  vidaEnergia: false
+  energiaBase: 10
+  movimento:
+    walk: 12
+    swim: 0
+    fly: 0
+    climb: 0
+    burrow: 0
+_id: FapD6tOu3l7Dts92
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/taxonomias/mortos-vivos-superiores.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:taxonomy:mortosvivossuperiores
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: FapD6tOu3l7Dts92
+_key: '!items!FapD6tOu3l7Dts92'

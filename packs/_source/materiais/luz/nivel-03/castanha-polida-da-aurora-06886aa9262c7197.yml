@@ -1,0 +1,53 @@
+_id: 06886aa9262c7197
+_key: '!items!06886aa9262c7197'
+name: Castanha Polida da Aurora
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/06886aa9262c7197.webp
+system:
+  identifier: material-alquimia-06886aa9262c7197
+  description:
+    value: <p><strong>Elemento:</strong> Luz · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Planta</p><p>Esta castanha amadurece em bosques de Qi luminoso e desenvolve uma casca lisa que guarda brilho mesmo depois de enterrada. O miolo concentra uma essência dourada em camadas compactas, oferecendo reserva e continuidade a preparados luminosos de maturação prolongada.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 3000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d4884f48ce4dfd96
+sort: 4800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: luz
+      elementLabel: Luz
+      level: 3
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/luz.json
+        originalName: Castanha Polida da Aurora
+        sha256: a65d9c475ce3e69bcab79896f06bd1f00a0fcc1e5a6329d0e4735711f2236288
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

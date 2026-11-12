@@ -1,0 +1,13 @@
+_id: fe10aa70afe7cf4c
+_key: '!folders!fe10aa70afe7cf4c'
+name: Nível 8
+type: Item
+folder: 23310966e9c1ac2b
+sorting: a
+sort: 800000
+color: '#466b52'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: madeira
+      level: 8

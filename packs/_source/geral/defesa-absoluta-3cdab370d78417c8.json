@@ -1,0 +1,48 @@
+{
+  "_id": "3cdab370d78417c8",
+  "name": "Defesa Absoluta",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/defesa-absoluta.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-defesa-absoluta",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo do Corpo.</p><h2>Defesa Absoluta</h2><p><strong>Requisito:</strong> 4º Portão</p><p>Você recebe imunidade a dano de criaturas com Rank de Cultivo de 2 ou mais abaixo do seu.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "defesa-absoluta",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo do Corpo",
+        "requisitos": [
+          "4º Portão"
+        ],
+        "requirementRules": {
+          "type": "body",
+          "min": 6
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "rankGatedDamageImmunity",
+            "minimumRankDifference": 2
+          }
+        ],
+        "manual": [],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!3cdab370d78417c8"
+}

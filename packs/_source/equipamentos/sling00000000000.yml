@@ -1,0 +1,160 @@
+_id: sling00000000000
+_key: '!items!sling00000000000'
+name: Estilingue
+type: weapon
+img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/estilingue.webp
+system:
+  identifier: sling
+  description:
+    value: >-
+      <p>Comprimento enganosamente simples de corda ou couro usado para arremessar pedras em alta velocidade; a funda é
+      uma das armas mais antigas da história — exige perícia, mas é letal em mãos
+      treinadas.</p><p><strong>Propriedades:</strong> Intuitiva.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 1
+    units: kg
+  price:
+    value: 80
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - amm
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    f7cd4971fa93e33b:
+      _id: f7cd4971fa93e33b
+      type: attack
+      name: Ataque
+      img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/estilingue.webp
+      sort: 0
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      attack:
+        ability: ''
+        bonus: ''
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+        critical:
+          threshold: null
+      damage:
+        includeBase: true
+        parts: []
+        critical:
+          bonus: ''
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: m
+        value: 60
+        override: true
+        special: ''
+      target:
+        override: false
+        prompt: true
+        template:
+          type: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+  type:
+    value: martialR
+    baseItem: ''
+  ammunition:
+    type: slingBullet
+  range:
+    units: m
+    value: 60
+    long: null
+    reach: null
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+effects: []
+folder: NNHjWBS5AM148J20
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: sling00000000000
+      sourceType: weapon
+      category: projectile1
+      quality: despertado
+      enchantment: mundane
+      properties:
+        - intuitive
+      weaponDamagePending: true
+      manualEffects: []

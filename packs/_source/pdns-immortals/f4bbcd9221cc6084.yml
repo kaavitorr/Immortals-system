@@ -1,0 +1,80 @@
+name: Duplicata Errante
+type: feat
+folder: b4cdf08eea2c07d5
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢</p><p>A criatura cria uma cópia ilusória que reproduz seus movimentos ou segue um
+      percurso simples. Ao usar 1 Ponto de Ação [⬢] e 2 PQ, a criatura pode formar a duplicada, mas ela não pode
+      interagir com nada físico.</p>
+    chat: ''
+  identifier: duplicata-errante
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    df7f9a5e57fda9e5:
+      _id: df7f9a5e57fda9e5
+      type: utility
+      name: Duplicata Errante
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>A criatura cria uma cópia ilusória que reproduz seus movimentos ou segue um percurso simples. Ao usar 1
+          Ponto de Ação [⬢] e 2 PQ, a criatura pode formar a duplicada, mas ela não pode interagir com nada físico.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 2
+  prerequisites:
+    items: []
+    level: 2
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: f4bbcd9221cc6084
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/criar-duplicata-a1c02db26d2bf55c.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:duplicataerrante
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Tecelã de Miragens
+_key: '!items!f4bbcd9221cc6084'

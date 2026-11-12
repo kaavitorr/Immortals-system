@@ -1,0 +1,13 @@
+_id: d553fd0a1f34557e
+_key: '!folders!d553fd0a1f34557e'
+name: Nível 6
+type: Item
+folder: 23310966e9c1ac2b
+sorting: a
+sort: 600000
+color: '#466b52'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: madeira
+      level: 6

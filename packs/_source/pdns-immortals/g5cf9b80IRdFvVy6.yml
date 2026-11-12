@@ -1,0 +1,43 @@
+name: Mimetismo
+type: feat
+folder: 8TgJv4dNiP315mTe
+system:
+  description:
+    value: >-
+      <p>A criatura consegue tomar as cores do ambiente para se camuflar, recebendo 2 vantagens em Testes de Atributo de
+      Furtividade.</p>
+    chat: ''
+  identifier: mimetismo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: g5cf9b80IRdFvVy6
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/mimetismo-g5cf9b80IRdFvVy6.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:mimetismo:357e6ac0a980
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: g5cf9b80IRdFvVy6
+_key: '!items!g5cf9b80IRdFvVy6'

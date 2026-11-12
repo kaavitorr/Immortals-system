@@ -1,0 +1,71 @@
+_id: 5fe35c33989ab996
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:154
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 5fe35c33989ab996
+name: Presa Infecciosa
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ [adicional]</strong></p><p>Durante um ataque de mordida ou presa, a criatura injeta toxina no
+      corpo do alvo, impondo a condição “Letárgico” se ele falhar em uma Salvaguarda de Vontade.</p>
+    chat: ''
+  identifier: presa-infecciosa
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    0c13d725fee259b0:
+      _id: 0c13d725fee259b0
+      type: utility
+      name: Presa Infecciosa
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Durante um ataque de mordida ou presa, a criatura injeta toxina no corpo do alvo, impondo a condição
+          “Letárgico” se ele falhar em uma Salvaguarda de Vontade.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 5
+  prerequisites:
+    items: []
+    level: 5
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/presa-infecciosa-5fe35c33989ab996.webp"
+_key: '!items!5fe35c33989ab996'

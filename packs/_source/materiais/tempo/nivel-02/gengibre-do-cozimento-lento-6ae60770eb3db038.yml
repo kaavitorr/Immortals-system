@@ -1,0 +1,53 @@
+_id: 6ae60770eb3db038
+_key: '!items!6ae60770eb3db038'
+name: Gengibre dos Nós Demorados
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/tempo/6ae60770eb3db038.webp
+system:
+  identifier: material-alquimia-6ae60770eb3db038
+  description:
+    value: <p><strong>Elemento:</strong> Tempo · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>O rizoma se forma em solo permeado por Qi temporal, acrescentando um novo nó apenas quando o anterior amadurece. Sua seiva libera vigor em fases bem separadas, permitindo nutrir o desenvolvimento da preparação sem antecipar as transformações ainda incompletas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 600
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 75d8f2969c78c857
+sort: 2800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: tempo
+      elementLabel: Tempo
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/tempo.json
+        originalName: Gengibre do Cozimento Lento
+        sha256: 78c1decf6231b4f084096c5432683d625516dd37d65e516e424b199307cc5107
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

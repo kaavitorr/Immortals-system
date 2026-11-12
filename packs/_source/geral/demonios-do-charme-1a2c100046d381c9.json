@@ -1,0 +1,47 @@
+{
+  "_id": "1a2c100046d381c9",
+  "name": "Demônios do Charme",
+  "type": "feat",
+  "folder": "1a2c000000000003",
+  "img": "systems/Immortals-system/assets/wuxia/ancestralidades-variantes-pintadas-v1/demonios-do-charme.webp",
+  "system": {
+    "identifier": "especie-35ad0589",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Escolha apenas uma variante demoníaca. Suas características são recebidas pela progressão.</p>"
+    },
+    "advancement": {
+      "1a2c1000d354d099": {
+        "_id": "1a2c1000d354d099",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Demônios do Charme",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000b1156d40",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000bb0643d5",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Demônios do Charme",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c100046d381c9"
+}

@@ -1,0 +1,13 @@
+_id: 86cc70826d40dc34
+_key: '!folders!86cc70826d40dc34'
+name: Nível 8
+type: Item
+folder: 1e7500f1620000ec
+sorting: a
+sort: 800000
+color: '#5f6d78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: metal
+      level: 8

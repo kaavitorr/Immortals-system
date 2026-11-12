@@ -1,0 +1,50 @@
+_id: 591166f636683f6a
+name: Obsidiana do Espelho Turvo
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-02/591166f636683f6a.webp
+system:
+  identifier: minerio-591166f636683f6a
+  description:
+    value: <p><strong>Nível:</strong> 2 · <strong>Categoria:</strong> Minério</p><p>Lava atravessada por Qi de Ilusão esfria em lâminas negras nas quais os reflexos parecem chegar atrasados. Suas placas conservam essa irregularidade mesmo depois de polidas. São usadas em suportes de experimentos ilusórios e em ferramentas de gravação que conduzem o traço de selos de ocultação.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 30627f8e0aec5a76
+sort: 500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 2
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 2
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!591166f636683f6a'

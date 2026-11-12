@@ -1,0 +1,117 @@
+<fieldset>
+    <legend>{{ localize "DND5E.ItemEquipmentDetails" }}</legend>
+
+    {{!-- Identifier --}}
+    {{ formField fields.identifier value=source.identifier placeholder=item.identifier hint="DND5E.IdentifierError"
+                 localize=true rootId=partId }}
+
+    {{!-- Equipment Type --}}
+    {{ formField fields.type.fields.value value=source.type.value label="DND5E.ItemEquipmentType" blank=""
+                 localize=true options=equipmentTypeOptions rootId=partId }}
+
+    {{!-- Equipment Base --}}
+    {{#if baseItemOptions.length}}
+    {{ formField fields.type.fields.baseItem value=source.type.baseItem label="DND5E.ItemEquipmentBase" blank=""
+                 localize=true options=baseItemOptions rootId=partId }}
+    {{/if}}
+
+    {{!-- Armor --}}
+    {{#if system.isArmor}}
+    {{#if armor2}}
+    <div class="jj2-armor-settings">
+      <div class="iw-armor-rarity">
+        <div class="form-group label-top"><label for="{{partId}}-armor-rarity">Raridade da armadura</label><div class="form-fields"><select id="{{partId}}-armor-rarity" name="system.armor.rarityLevel" data-dtype="Number">{{selectOptions armor2.rarities selected=armor2.rarityLevel valueAttr="value" labelAttr="label"}}</select></div></div>
+        <output class="iw-armor-rarity-bonus" aria-label="Bônus de raridade à Classe de Resistência">+{{armor2.rarityBonus}}<small>CR</small></output>
+      </div>
+      {{formField fields.armor.fields.value value=armor2.base step=1 label=(ifThen armor2.shield "Bônus de CR" "CR base") classes="label-top" rootId=partId}}
+      {{#unless armor2.shield}}
+      {{formField fields.armor.fields.ability value=armor2.ability options=armor2.choices valueAttr="value" labelAttr="label" label="Atributo somado" classes="label-top" rootId=partId}}
+      {{formField fields.armor.fields.dex value=armor2.limit label="Limite do atributo" placeholder="∞" classes="label-top" rootId=partId}}
+      {{formField fields.strength value=source.strength label="Força mínima" placeholder="—" classes="label-top" rootId=partId}}
+      {{/unless}}
+    </div>
+    {{#unless armor2.shield}}{{#if armor2.refinedProfile}}<div class="iw-refined-benefits iw-refined-armor-benefits"><span>Resistência a todos <strong>{{armor2.refinedProfile.armor.resistanceAll}}</strong></span>{{#if armor2.refinedProfile.armor.ignoresCultivationRankAtMost}}<span>{{armor2.protectionLabel}}</span>{{/if}}</div>{{/if}}{{/unless}}
+    <p class="jj2-armor-formula">{{#if armor2.shield}}Escudo: +{{armor2.preparedBase}} CR{{else}}CR = {{armor2.formula}}{{/if}}</p>
+    {{#unless armor2.shield}}<p class="jj2-armor-hint">Cada nível de raridade acrescenta +1 à CR base. Ao equipar, esta fórmula substitui a defesa padrão. Soma o valor inteiro do atributo. Deixe o limite vazio para somar todo o atributo.</p>{{/unless}}
+    {{else}}
+    <div class="form-group split-group">
+        <label>{{ localize "DND5E.Armor" }}</label>
+        <div class="form-fields">
+
+            {{!-- Value --}}
+            {{ formField fields.armor.fields.value value=source.armor.value step=1 label="DND5E.AC" localize=true
+                         classes="label-top" rootId=partId }}
+
+            {{!-- Max Dex --}}
+            {{#if hasDexModifier}}
+            {{ formField fields.armor.fields.dex value=source.armor.dex label="DND5E.ItemEquipmentDexModAbbr"
+                         placeholder="∞" localize=true classes="label-top" rootId=partId }}
+            {{/if}}
+
+            {{!-- Strength Requirement --}}
+            {{#if system.isArmor}}
+            {{ formField fields.strength value=source.strength label="DND5E.AbilityStr" placeholder="—" localize=true
+                         classes="label-top" rootId=partId }}
+            {{/if}}
+        </div>
+    </div>
+    {{/if}}
+    {{/if}}
+
+    {{!-- Properties --}}
+    {{#unless armor2}}
+    {{ formField fields.properties options=properties.options label="DND5E.ItemEquipmentProperties" localize=true
+                 input=inputs.createMultiCheckboxInput stacked=true classes="checkbox-grid checkbox-grid-3" }}
+    {{/unless}}
+
+    {{!-- Magical Properties --}}
+    {{#if properties.object.mgc}}
+    <div class="form-group split-group">
+        <label>{{ localize "DND5E.ITEM.Property.Magical" }}</label>
+        <div class="form-fields">
+
+            {{!-- Attunement --}}
+            {{#unless system.isMountable}}
+            <div class="form-group label-top">
+                <label>{{ localize "DND5E.Attunement" }}</label>
+                <div class="form-fields">
+
+                    {{!-- Attuned --}}
+                    {{#if source.attunement}}
+                    {{ formInput fields.attuned value=source.attuned input=inputs.createCheckboxInput
+                                 ariaLabel=(localize "DND5E.Attuned") dataset=(dnd5e-object tooltip="DND5E.Attuned") }}
+                    {{/if}}
+
+                    {{!-- Attunement --}}
+                    {{ formInput fields.attunement value=source.attunement choices=CONFIG.attunementTypes
+                                 blank="DND5E.AttunementNone" localize=true }}
+                </div>
+            </div>
+            {{/unless}}
+
+            {{!-- Magical Bonus --}}
+            {{ formField fields.armor.fields.magicalBonus value=source.armor.magicalBonus step=1 placeholder="0"
+                         label="DND5E.Bonus" localize=true classes="label-top" rootId=partId }}
+        </div>
+    </div>
+    {{/if}}
+</fieldset>
+
+{{#if system.isMountable}}
+    {{> "dnd5e.details-mountable" }}
+{{/if}}
+
+{{#if essenceCrystal}}
+<fieldset class="iw-crystal-settings">
+  <legend>Cristal de Essência</legend>
+  <label class="iw-crystal-toggle"><input type="checkbox" name="flags.Immortals-system.essenceCrystal.enabled" {{checked essenceCrystal.enabled}}> Usar como Cristal de Essência</label>
+  {{#if essenceCrystal.enabled}}
+  <div class="iw-crystal-reserve">
+    <label for="{{partId}}-crystal-capacity">Capacidade total <span>PEQ</span><input id="{{partId}}-crystal-capacity" type="number" name="flags.Immortals-system.essenceCrystal.capacity" data-dtype="Number" value="{{essenceCrystal.capacity}}" min="0" step="1"></label>
+    <label for="{{partId}}-crystal-remaining">Essência restante <span>PEQ</span><input id="{{partId}}-crystal-remaining" type="number" name="flags.Immortals-system.essenceCrystal.remaining" data-dtype="Number" value="{{essenceCrystal.remaining}}" min="0" max="{{essenceCrystal.capacity}}" step="1"></label>
+  </div>
+  <p class="hint">Equipe o cristal no inventário para auxiliar o cultivo. O calendário consome somente a Essência extra concedida, até esgotar a reserva. A capacidade total precisa atingir metade da absorção efetiva: o menor limite entre o mantra e a região.</p>
+  <p class="hint">Configure uma reserva por item. Cristais com saldos diferentes devem ficar em itens separados; a quantidade do item não multiplica esta reserva.</p>
+  {{/if}}
+</fieldset>
+{{/if}}

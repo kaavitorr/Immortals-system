@@ -1,0 +1,65 @@
+_id: scrivenersToolki
+_key: '!items!scrivenersToolki'
+name: Kit de Escriba
+type: tool
+img: icons/containers/bags/pack-leather-embossed-brown.webp
+system:
+  identifier: tool-kit-scribing
+  description:
+    value: >-
+      <p>Bolsa de couro para madeira. Contém porta-documentos encerado para manter papéis secos, pacote de cera de
+      selar, várias penas e tintas, e uma prancheta de madeira para usar como superfície de
+      escrita.</p><p><strong>Propriedades:</strong> Empilhável.</p><p><strong>Profissões e conhecimentos:</strong>
+      Ciência, Sociedade.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 8
+    units: kg
+  price:
+    value: 1000
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: ''
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: zKA7bUzu7rPpL2lk
+sort: 300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: scrivenersToolki
+      sourceType: tool
+      category: crafting
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

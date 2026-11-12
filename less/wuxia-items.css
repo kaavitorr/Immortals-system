@@ -1,0 +1,254 @@
+/* Immortals Legacy — native item and activity editors. Colors live in wuxia-sheet.css. */
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) {
+  --profile-purple:var(--iw-color-accent); --profile-gold:var(--iw-color-bronze); --profile-ink:var(--iw-color-ink);
+  --jj2-ink:var(--iw-color-ink); --jj2-paper:var(--iw-color-text); --jj2-purple:var(--iw-color-accent);
+  --jj2-gold:var(--iw-color-bronze); --jj2-muted:var(--iw-color-muted);
+  --color-text-primary:var(--iw-color-text); --color-text-secondary:var(--iw-color-muted); --color-text-tertiary:var(--iw-color-accent);
+  --color-text-dark-primary:var(--iw-color-text); --color-text-dark-secondary:var(--iw-color-muted);
+  --color-text-emphatic:var(--iw-color-text); --color-text-light-highlight:var(--iw-color-text);
+  --color-border-light-primary:var(--iw-color-line); --color-border-light-secondary:var(--iw-color-line-faint);
+  --color-border-dark:var(--iw-color-line); --color-border-highlight:var(--iw-color-bronze);
+  --color-bg-input:var(--iw-color-recess); --color-bg-option:var(--iw-color-panel);
+  --dnd5e-color-gold:var(--iw-color-bronze); --dnd5e-color-card:var(--iw-color-panel);
+  --dnd5e-inventory-border:1px solid var(--iw-color-line); --item-control-color:var(--iw-color-muted);
+  --item-control-interactive-color:var(--iw-color-text); --item-control-active-color:var(--iw-color-bronze);
+  --form-field-height:32px;
+  color-scheme:dark; container:iw-item / inline-size; color:var(--iw-color-text); background:var(--iw-color-ink);
+  border:1px solid var(--iw-color-bronze-shadow); border-radius:4px;
+  box-shadow:0 12px 32px color-mix(in srgb,var(--iw-color-shadow) 50%,transparent);
+  font:400 13px/1.5 "Segoe UI",Arial,sans-serif; max-width:calc(100vw - 24px);
+}
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) *, .application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) *::before, .application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) *::after { transition:none; animation:none; scroll-behavior:auto; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) > .window-header { min-height:36px; padding:6px 10px; margin-bottom:0; background:var(--iw-color-deep); border-bottom:1px solid var(--iw-color-line); color:var(--iw-color-text); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .window-header :is(.window-title,.window-subtitle) { color:var(--iw-color-muted); font:500 12px/1.4 "Segoe UI",Arial,sans-serif; font-style:normal; text-transform:none; letter-spacing:0; text-shadow:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .window-header .header-control { color:var(--iw-color-muted); border:0; border-radius:2px; background:transparent; box-shadow:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .window-header .header-control:hover { color:var(--iw-color-bronze); background:var(--iw-color-hover); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet):not(.minimized) > .window-content { box-sizing:border-box; min-width:0; min-height:0; margin:0; padding:12px; gap:12px; color:var(--iw-color-text); background:var(--iw-color-ink); font-family:"Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .window-content::before { display:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(.window-content,.tab) { scrollbar-width:thin; scrollbar-color:var(--iw-color-line-strong) transparent; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(h1,h2,h3,h4,legend,label,.label) { color:var(--iw-color-text); font-family:"Segoe UI",Arial,sans-serif; font-style:normal; text-transform:none; letter-spacing:0; text-shadow:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(.hint,.notes) { color:var(--iw-color-muted); font:400 12px/1.55 "Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .form-group > label { font:500 12px/1.5 "Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(.form-fields,.form-group) .label { color:var(--iw-color-muted); font:400 11px/1.4 "Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(input,select,textarea):where(:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"])) {
+  min-width:0; min-height:30px; padding:4px 7px; color:var(--iw-color-text); background:var(--iw-color-recess);
+  border:1px solid var(--iw-color-line); border-radius:3px; box-shadow:none; font:400 13px/1.4 "Segoe UI",Arial,sans-serif;
+}
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) select option { background:var(--iw-color-panel); color:var(--iw-color-text); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(input,textarea)::placeholder { color:var(--iw-color-subtle); opacity:1; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(input[type="checkbox"],input[type="radio"]) { accent-color:var(--iw-color-accent); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(input,select,textarea):focus { outline:1px solid var(--iw-color-accent); border-color:var(--iw-color-accent); box-shadow:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(a,button,input,select,textarea):focus-visible { outline:2px solid var(--iw-color-accent); outline-offset:2px; box-shadow:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) button { color:var(--iw-color-text); background:var(--iw-color-raised); border:1px solid var(--iw-color-line); border-radius:3px; font:500 12px/1.4 "Segoe UI",Arial,sans-serif; text-transform:none; text-shadow:none; box-shadow:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) button:not(:disabled):hover { color:var(--iw-color-text); background:var(--iw-color-hover); border-color:var(--iw-color-bronze-shadow); filter:none; text-shadow:none; box-shadow:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(.control-button,.config-button) { color:var(--iw-color-accent); background:transparent; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) a { text-shadow:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) a:hover { color:var(--iw-color-bronze-light); text-shadow:none; }
+
+/* Labels grow with their text; native formula controls share the input height. */
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .form-group.label-top { --label-height:auto; gap:5px; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .form-group.label-top > label { height:auto; min-height:18px; line-height:1.5; flex:0 0 auto; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .form-group.label-top > label > p.hint { height:auto; line-height:inherit; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .split-group > .form-fields:not(.field-groups) { align-items:flex-end; gap:8px; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(formula-input,file-picker,color-picker) {
+  --input-height:var(--form-field-height); box-sizing:border-box;
+  height:var(--form-field-height); min-height:var(--form-field-height);
+  color:var(--iw-color-text); background:var(--iw-color-recess);
+  border:1px solid var(--iw-color-line); border-radius:3px; box-shadow:none;
+}
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(formula-input,file-picker,color-picker) > input { box-sizing:border-box; height:100%; min-height:0; border:0; border-radius:0; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(formula-input,file-picker,color-picker) > button { height:100%; min-height:0; margin:0; padding:3px 5px; border:0; border-left:1px solid var(--iw-color-line); border-radius:0; }
+
+/* Portrait and name share the first row; quantity, weight and price form a separate ledger. */
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .sheet-header {
+  position:relative; flex:0 0 auto; display:grid; grid-template-columns:72px minmax(0,1fr) 164px; align-items:center;
+  gap:12px; min-height:124px; margin:0; padding:15px; border:1px solid var(--iw-color-bronze-shadow);
+  border-radius:2px; background:var(--iw-color-panel); --dnd5e-document-image-size:72px;
+}
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .sheet-header::before { content:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .sheet-header::after { content:""; position:absolute; inset:3px; border:17px solid transparent; background:var(--iw-color-bronze-shadow); -webkit-mask-box-image:url("../assets/wuxia/frames/lattice-border-mask.svg") 24 / 17px / 0 stretch; pointer-events:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .sheet-header > .left { display:grid; place-items:center; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .sheet-header .document-image { display:block; box-sizing:border-box; width:72px; height:78px; padding:3px; border:1px solid var(--iw-color-bronze-shadow); border-radius:2px; background:var(--iw-color-recess); object-fit:contain; clip-path:none; box-shadow:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .sheet-header > .middle { display:flex; flex-direction:column; align-items:stretch; justify-content:center; gap:8px; width:100%; min-width:0; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .sheet-header .document-name { box-sizing:border-box; width:100%; min-width:0; margin:0; padding:0; border:0; background:transparent; color:var(--iw-color-text-warm); font:600 20px/1.3 "Segoe UI",Arial,sans-serif; text-align:left; text-transform:none; letter-spacing:0; text-shadow:none; overflow-wrap:anywhere; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .sheet-header input.document-name { height:34px; min-height:34px; padding:2px 0; border:0; border-bottom:1px solid var(--iw-color-line); border-radius:0; background:transparent; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .sheet-header .subtitles { display:flex; flex-wrap:wrap; justify-content:flex-start; align-items:center; height:auto; margin:0; padding:0; gap:5px; color:var(--iw-color-muted); font:400 11px/1.5 "Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .sheet-header .subtitles :is(input,select) { width:auto; max-width:100%; height:28px; min-height:28px; padding:3px 6px; color:var(--iw-color-accent); font-size:11px; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .sheet-header .common-fields { min-width:0; flex-basis:auto; color:var(--iw-color-muted); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .sheet-header .common-fields.physical { grid-column:1 / -1; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); align-items:start; gap:12px; padding:12px 0 0; border-top:1px solid var(--iw-color-line); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .common-fields.physical > :is(.quantity,.weight,.price) { display:grid; grid-template-columns:minmax(0,1fr) 52px; align-items:center; gap:5px; width:100%; min-width:0; margin:0; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .common-fields.physical .iw-item-field-label { grid-column:1 / -1; color:var(--iw-color-muted); font:400 11px/1.4 "Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .common-fields.physical .quantity > .separator { display:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .common-fields.physical :is(input,select) { box-sizing:border-box; width:100%; height:28px; min-height:28px; padding:3px 4px; font-size:12px; text-align:center; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .common-fields.physical .quantity > :is(input,.value) { grid-column:1 / -1; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .common-fields.physical .value { min-height:28px; display:flex; align-items:center; color:var(--iw-color-text); font:600 17px/1.4 "Segoe UI",Arial,sans-serif; text-align:left; overflow-wrap:anywhere; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .sheet-header .level-badge { color:var(--iw-color-bronze-light); border-color:var(--iw-color-bronze-shadow); background:var(--iw-color-recess); }
+
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .sheet-header:not(:has(.common-fields > *)) { grid-template-columns:72px minmax(0,1fr); }
+
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .sheet-header:has(> .common-fields.physical) { grid-template-columns:72px minmax(0,1fr); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .common-fields.physical > :is(.quantity,.weight,.price):has(.value) { grid-template-columns:max-content minmax(0,1fr); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .common-fields.physical .iw-item-unit { min-width:0; color:var(--iw-color-accent); font:500 12px/1.4 "Segoe UI",Arial,sans-serif; text-align:left; }
+
+/* Native navigation, editing and collapse actions retain their targets. */
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) nav.tabs { display:flex; flex:0 0 auto; flex-wrap:wrap; justify-content:stretch; gap:4px; margin:0; padding:0 0 8px; border:0; border-bottom:1px solid var(--iw-color-line); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) nav.tabs .item { display:flex; align-items:center; justify-content:center; flex:1 1 auto; min-height:32px; margin:0; padding:7px 8px; border:1px solid transparent; border-radius:3px; background:transparent; color:var(--iw-color-muted); font:500 12px/1.3 "Segoe UI",Arial,sans-serif; text-transform:none; letter-spacing:0; clip-path:none; text-shadow:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) nav.tabs .item > span { border:0; padding:0; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) nav.tabs .item.active { color:var(--iw-color-text-warm); background:var(--iw-color-metal-surface); border-color:var(--iw-color-bronze-shadow); box-shadow:inset 0 -2px 0 var(--iw-color-bronze); clip-path:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) nav.tabs .item:not(.active):hover { color:var(--iw-color-text); background:var(--iw-color-hover); border-color:var(--iw-color-line); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .item-descriptions { display:flex; flex-direction:column; gap:10px; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .item-descriptions .description.card { margin:0; padding:0; border:1px solid var(--iw-color-line); border-radius:3px; background:var(--iw-color-panel); box-shadow:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .item-descriptions .description > .header { display:flex; align-items:center; gap:9px; min-height:40px; padding:8px 11px; border:0; border-bottom:1px solid var(--iw-color-line-faint); background:var(--iw-color-raised); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .item-descriptions .description.collapsed > .header { border-bottom-color:transparent; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .item-descriptions .description > .header > span { color:var(--iw-color-text); font:600 13px/1.45 "Segoe UI",Arial,sans-serif; text-align:left; text-transform:none; letter-spacing:0; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .item-descriptions .description > .header .control-button { margin-left:auto; width:26px; height:26px; min-height:26px; padding:4px; border:1px solid transparent; color:var(--iw-color-muted); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .jj2-description-chevron { width:14px; height:14px; color:var(--iw-color-bronze); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(prose-mirror,.editor-content) { color:var(--iw-color-text); background:transparent; font:400 13px/1.65 "Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .item-descriptions .description:not(.collapsed) .editor { padding:11px 13px; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .editor-content :is(h1,h2,h3,h4) { color:var(--iw-color-text-warm); font-family:"Segoe UI",Arial,sans-serif; font-weight:600; font-style:normal; text-transform:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .editor-content h2 { font-size:18px; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .editor-content h3 { font-size:15px; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .editor-content p { margin:0 0 .75em; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .editor-content p:last-child { margin-bottom:0; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(.editor-content,prose-mirror) :is(a.content-link,a.inline-roll) { color:var(--iw-color-accent-bright); background:var(--iw-color-recess); border:1px solid var(--iw-color-line); border-radius:2px; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) prose-mirror { border-color:var(--iw-color-line); --color-bg-button:var(--iw-color-panel); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(.editor-menu,.prosemirror.menu) { color:var(--iw-color-text); background:var(--iw-color-panel); border-color:var(--iw-color-line); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .pills { gap:5px; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .pills .pill { color:var(--iw-color-muted); padding:3px 6px; border:1px solid var(--iw-color-line); border-radius:3px; background:var(--iw-color-recess); font:400 11px/1.3 "Segoe UI",Arial,sans-serif; }
+
+/* Details, activity configuration, effects, and advancement use the same materials. */
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) fieldset { min-width:0; margin:4px 0 12px; padding:13px; border:1px solid var(--iw-color-line); border-top-color:var(--iw-color-bronze-shadow); border-radius:3px; background:var(--iw-color-panel); box-shadow:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) fieldset > legend { padding:3px 7px; color:var(--iw-color-bronze-light); background:var(--iw-color-ink); font:600 13px/1.5 "Segoe UI",Arial,sans-serif; letter-spacing:0; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(.spell-block,.info-block,.jj2-armor-settings) { border:1px solid var(--iw-color-line); border-radius:3px; background:var(--iw-color-recess); color:var(--iw-color-text); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .spell-block :is(h3,.label) { color:var(--iw-color-accent); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .jj2-armor-formula { color:var(--iw-color-bronze-light); border-color:var(--iw-color-line); font:600 13px/1.5 "Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .jj2-armor-hint { color:var(--iw-color-muted); font:400 12px/1.5 "Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .items-section { border:1px solid var(--iw-color-line); border-radius:3px; background:var(--iw-color-panel); box-shadow:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .items-section > .items-header { min-height:40px; padding:8px 11px; background:var(--iw-color-raised) !important; border-bottom:1px solid var(--iw-color-line) !important; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .items-header > h3 { color:var(--iw-color-text) !important; font:600 13px/1.5 "Segoe UI",Arial,sans-serif !important; text-transform:none; letter-spacing:0; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .items-header .item-header { color:var(--iw-color-muted) !important; font-family:"Segoe UI",Arial,sans-serif !important; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .activities-element .item-list > .activity { margin:6px; border:1px solid var(--iw-color-line-faint); border-left-color:var(--iw-color-accent-muted); border-radius:2px; background:var(--iw-color-ink); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .activities-element .item-list > .activity:first-child { border-left-color:var(--iw-color-bronze-shadow); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .activities-element .activity-name .title { color:var(--iw-color-text); font:600 13px/1.4 "Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .activities-element .activity-name .subtitle { color:var(--iw-color-muted); font:400 11px/1.4 "Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .activities-element .item-image { color:var(--iw-color-accent); border-color:var(--iw-color-line); border-radius:2px; background:var(--iw-color-recess); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .activities-element .activity-controls > button { color:var(--iw-color-accent); border:1px solid var(--iw-color-line); border-radius:2px; background:var(--iw-color-panel); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .activities-element .item-row > :is(.jj-pa-cost-field,.jj-resource-cost-field) { border-color:var(--iw-color-line-faint); border-radius:2px; background:var(--iw-color-recess); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .activities-element :is(.jj-pa-cost-field,.jj-resource-cost-field)::before { color:var(--iw-color-muted); font:500 10px/1.3 "Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .activities-element :is(.jj-pa-amount,.jj-res-amount,.jj-res-select,.jj-pa-pool) { border-color:var(--iw-color-line); color:var(--iw-color-text); font-family:"Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .activities-element .jj-pa-pool { color:transparent; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .create-child { color:var(--iw-color-text); border:1px solid var(--iw-color-bronze-shadow); border-radius:3px; background:var(--iw-color-metal-raised); box-shadow:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(.effect,.advancement-list > .advancement) { color:var(--iw-color-text); border-color:var(--iw-color-line-faint); background:transparent; font-family:"Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) footer.form-footer { border-top:1px solid var(--iw-color-line); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) footer.form-footer button { min-height:34px; border-color:var(--iw-color-bronze-shadow); color:var(--iw-color-text); background:var(--iw-color-metal-surface); font:600 12px/1.4 "Segoe UI",Arial,sans-serif; box-shadow:none; }
+
+@container iw-item (max-width:450px) {
+  .application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .sheet-header { grid-template-columns:64px minmax(0,1fr); min-height:0; padding:13px; }
+  .application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .sheet-header .document-image { width:64px; height:70px; }
+  .application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .sheet-header .common-fields.physical { grid-column:1 / -1; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; padding-top:10px; border-top:1px solid var(--iw-color-line); }
+  .application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .common-fields.physical > :is(.quantity,.weight,.price) { grid-template-columns:minmax(0,1fr) minmax(30px,.8fr); gap:4px; }
+  .application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .common-fields.physical .iw-item-field-label { grid-column:1 / -1; }
+  .application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .common-fields.physical > :is(.weight,.price):has(select) { grid-template-columns:minmax(0,1fr); }
+  .application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .common-fields.physical .quantity > :is(input,.value) { grid-column:1 / -1; }
+  .application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .sheet-header .document-name { font-size:19px; }
+  .application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) nav.tabs { gap:3px; }
+  .application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) nav.tabs .item { flex-basis:28%; padding:6px 4px; min-height:30px; font-size:11px; }
+  .application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .form-group { flex-direction:column; align-items:stretch; flex-wrap:nowrap; gap:5px; }
+  .application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .form-group > label { flex:0 0 auto; }
+  .application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .form-group > .form-fields { flex:0 1 auto; width:100%; }
+}
+
+/* Native lists and specialized PdN authoring keep their structure and share the palette. */
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .window-header .source-book { color:var(--iw-color-muted); font:400 11px/1.4 "Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .item-list .name :is(.title,.summary), .application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .effect .name { color:var(--iw-color-text); font:500 13px/1.45 "Segoe UI",Arial,sans-serif; text-transform:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .item-list .name .summary { color:var(--iw-color-muted); font-size:12px; font-weight:400; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .input-element-tags .tag { border-color:var(--iw-color-line); background:var(--iw-color-recess); color:var(--iw-color-accent); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .jj2-npc-scale, .application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .jj2-npc-equipment, .application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .jj2-npc-proficiencias { --profile-purple:var(--iw-color-accent); --profile-gold:var(--iw-color-bronze); --profile-ink:var(--iw-color-ink); background:var(--iw-color-ink); color:var(--iw-color-text); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .jj2-scale-heading { padding:12px; border:1px solid var(--iw-color-line); border-left:2px solid var(--iw-color-bronze); border-radius:3px; background:var(--iw-color-panel); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .jj2-scale-heading h2 { color:var(--iw-color-text); font:600 19px/1.4 "Segoe UI",Arial,sans-serif; text-transform:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .jj2-scale-heading small { color:var(--iw-color-accent); font:500 11px/1.4 "Segoe UI",Arial,sans-serif; letter-spacing:0; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .jj2-scale-heading > strong { background:var(--iw-color-recess); color:var(--iw-color-bronze-light); border-color:var(--iw-color-bronze-shadow); font-size:18px; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(.jj2-scale-intro,.jj2-scale-copy-note,.jj2-gear-empty,.jj2-gear-drop,.jj2-habilidade-nd,.jj2-habilidade-vazia,.jj2-npc-res-immune) { color:var(--iw-color-muted); font-family:"Segoe UI",Arial,sans-serif; text-transform:none; letter-spacing:0; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(.jj2-scale-attribute,.jj2-scale-preview,.jj2-scale-energy,.jj2-profile-gear-slot,.jj2-profile-proficiency-group,.jj2-npc-res-row,.jj2-habilidades-lista li,.jj2-movement-grid > label,.jj2-movement-growth > label) { background:var(--iw-color-panel); border-color:var(--iw-color-line); border-radius:3px; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(.jj2-scale-attribute > strong,.jj2-scale-preview-values > div,.jj2-profile-gear-row) { background:var(--iw-color-recess); border-color:var(--iw-color-line); color:var(--iw-color-text); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .jj2-scale-attribute > :is(input,strong) { color:var(--iw-color-text); border-color:var(--iw-color-line); background:var(--iw-color-recess); font:600 23px/1.4 "Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(.jj2-scale-attribute > span,.jj2-profile-gear-row .jj2-gear-name,.jj2-habilidade-nome,.jj2-npc-res-name) { color:var(--iw-color-text); font:600 12px/1.45 "Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(.jj2-scale-preview-values span,.jj2-scale-preview p,.jj2-scale-preview header > span,.jj2-scale-preview header > label,.jj2-movement-grid label > span,.jj2-movement-growth label > span) { color:var(--iw-color-muted); font-family:"Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .jj2-profile-section { border-color:var(--iw-color-line); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(.jj2-profile-section-title h3,.jj2-profile-proficiency-group h3) { color:var(--iw-color-text); border-color:var(--iw-color-bronze-shadow); font:600 14px/1.45 "Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(.jj2-profile-gear-row img,.jj2-habilidades-lista img,.jj2-gear-empty,.jj2-gear-drop) { border-color:var(--iw-color-line); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) :is(.jj2-gear-remove,.jj2-habilidade-remover) { background:var(--iw-color-recess); color:var(--iw-color-accent); border-color:var(--iw-color-line); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .jj2-scale-footer { border-color:var(--iw-color-line); background:var(--iw-color-ink); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .jj2-scale-footer button { color:var(--iw-color-text); background:var(--iw-color-metal-surface); border-color:var(--iw-color-bronze-shadow); font:600 13px/1.4 "Segoe UI",Arial,sans-serif; text-transform:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .invalid-scale :is(.jj2-scale-status,.jj2-scale-heading > strong) { color:var(--iw-color-danger-light); border-color:var(--iw-color-danger-line); }
+
+/* Armor treasure rarity uses one saved level and the exact rank/quality table. */
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .jj2-armor-settings > .iw-armor-rarity { grid-column:1 / -1; display:grid; grid-template-columns:minmax(0,1fr) 58px; align-items:end; gap:10px; padding:0 0 12px; margin:0 0 2px; border-bottom:1px solid var(--iw-color-line); }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .iw-armor-rarity .form-group { margin:0; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .iw-armor-rarity select { width:100%; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .iw-armor-rarity-bonus { display:flex; align-items:baseline; justify-content:center; gap:4px; height:32px; padding:4px; color:var(--iw-color-bronze-light); border:1px solid var(--iw-color-bronze-shadow); border-radius:3px; background:var(--iw-color-metal-surface); font:600 17px/22px "Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .iw-armor-rarity-bonus small { font:500 10px/1 "Segoe UI",Arial,sans-serif; }
+
+/* Essence crystals use the shared dark item palette. */
+.jj2-item-sheet .iw-crystal-settings .iw-crystal-toggle { display:flex; align-items:center; gap:8px; height:auto; min-height:24px; }
+.jj2-item-sheet .iw-crystal-reserve { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin-top:12px; }
+.jj2-item-sheet .iw-crystal-reserve > label { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:5px 8px; height:auto; line-height:1.5; }
+.jj2-item-sheet .iw-crystal-reserve > label > span { color:var(--iw-color-muted); font-size:10px; }
+.jj2-item-sheet .iw-crystal-reserve input { grid-column:1/-1; width:100%; }
+
+.jj2-item-sheet .iw-crystal-native-stats { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin-bottom:13px; }
+.jj2-item-sheet .iw-crystal-native-stats > div { display:flex; flex-direction:column; gap:4px; padding:10px 12px; border:1px solid var(--iw-color-line); background:var(--iw-color-recess); min-width:0; }
+.jj2-item-sheet .iw-crystal-native-stats span { color:var(--iw-color-muted); font-size:11px; }
+.jj2-item-sheet .iw-crystal-native-stats strong { color:var(--iw-color-bronze-light); font:600 22px/1.3 "Segoe UI",Arial,sans-serif; overflow-wrap:anywhere; }
+.jj2-item-sheet .iw-crystal-native-stats small { color:var(--iw-color-muted); font:400 10px/1.5 "Segoe UI",Arial,sans-serif; }
+.jj2-item-sheet .iw-crystal-native-spent { display:flex; align-items:center; justify-content:space-between; gap:10px; height:auto; }
+.jj2-item-sheet .iw-crystal-native-spent .form-fields { display:flex; align-items:center; gap:7px; max-width:150px; }
+.jj2-item-sheet .iw-crystal-native-settings .iw-crystal-toggle { display:flex; align-items:center; gap:8px; height:auto; margin-top:12px; }
+
+/* Refinement shares the native item form, with a quiet slate inset. */
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-weapon-refinement { margin:16px 0; padding:12px; border:1px solid var(--iw-color-line); border-top-color:var(--iw-color-bronze-shadow); background:var(--iw-color-metal-surface); }
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-weapon-refinement .form-group {margin:0;}
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-refined-benefits { display:flex; flex-wrap:wrap; gap:8px 22px; margin-top:10px; font-size:12px; color:var(--iw-color-muted); }
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-refined-benefits strong {color:var(--iw-color-bronze-light);font-variant-numeric:tabular-nums; margin-left:5px;}
+
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-refined-armor-benefits {margin:10px 0 12px;padding:9px 12px;border:1px solid var(--iw-color-line);background:var(--iw-color-metal-surface);}
+
+/* Species information: aligned headings, named measurements and explicit empty states. */
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .info-block.iw-species-info {
+  display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); align-items:stretch;
+  gap:0; margin:0; padding:10px 12px; border-color:var(--iw-color-line);
+  background:var(--iw-color-panel); text-align:left;
+}
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-species-info-section { min-width:0; padding:0 12px; }
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-species-info-section:first-child { padding-left:0; }
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-species-info-section:last-child { padding-right:0; }
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-species-info-section + .iw-species-info-section { border-left:1px solid var(--iw-color-line-faint); }
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-species-info-heading { display:flex; align-items:center; justify-content:space-between; gap:6px; min-height:32px; margin:0 0 7px; padding:0; border:0; background:transparent; }
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-species-info-heading strong { min-width:0; color:var(--iw-color-muted); font:600 12px/1.35 "Segoe UI",Arial,sans-serif; text-transform:none; overflow-wrap:anywhere; }
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-species-info-config { display:grid; place-items:center; flex:0 0 24px; width:24px; height:24px; min-height:24px; margin:0; padding:3px; border:1px solid transparent; border-radius:3px; color:var(--iw-color-accent); background:transparent; }
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-species-info-config svg { width:16px; height:16px; }
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-species-info-config:hover { border-color:var(--iw-color-line); }
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-species-info-rows { display:flex; flex-direction:column; gap:6px; margin:0; padding:0; }
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-species-info-row { display:grid; grid-template-columns:minmax(0,1fr) max-content; align-items:baseline; gap:8px; min-width:0; }
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-species-info-row dt { min-width:0; color:var(--iw-color-muted); font:400 12px/1.45 "Segoe UI",Arial,sans-serif; overflow-wrap:anywhere; }
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-species-info-row dd { margin:0; color:var(--iw-color-text-warm); font:600 13px/1.4 "Segoe UI",Arial,sans-serif; font-variant-numeric:tabular-nums; white-space:nowrap; }
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-species-info-wide dt { grid-column:1 / -1; }
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet :is(.iw-species-info-value,.iw-species-info-empty) { margin:0; font:400 12px/1.45 "Segoe UI",Arial,sans-serif; }
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-species-info-value { color:var(--iw-color-text-warm); font-weight:600; font-size:13px; }
+.application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-species-info-empty { color:var(--iw-color-subtle); }
+@container iw-item (max-width:430px) {
+  .application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .info-block.iw-species-info { grid-template-columns:minmax(0,1fr); gap:10px; }
+  .application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-species-info-section { padding:0; }
+  .application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-species-info-section + .iw-species-info-section { border-left:0; border-top:1px solid var(--iw-color-line-faint); padding-top:8px; }
+  .application.dnd5e2.jj2-document.sheet.item.jj2-item-sheet .iw-species-info-heading { min-height:24px; margin-bottom:5px; }
+}
+
+/* Crystal quote units belong to item prices, never to the coin wallet. */
+i.currency.essence-human { display:inline-block; width:18px; height:18px; background:transparent url("../assets/wuxia/cristais-essencia-pintados-v1/humano-comum.webp") center/contain no-repeat; vertical-align:middle; }
+i.currency.essence-earth { display:inline-block; width:18px; height:18px; background:transparent url("../assets/wuxia/cristais-essencia-pintados-v1/terra-comum.webp") center/contain no-repeat; vertical-align:middle; }
+i.currency.essence-heaven { display:inline-block; width:18px; height:18px; background:transparent url("../assets/wuxia/cristais-essencia-pintados-v1/ceu-comum.webp") center/contain no-repeat; vertical-align:middle; }
+i.currency.essence-sacred { display:inline-block; width:18px; height:18px; background:transparent url("../assets/wuxia/cristais-essencia-pintados-v1/sagrado-comum.webp") center/contain no-repeat; vertical-align:middle; }
+i.currency.essence-divine { display:inline-block; width:18px; height:18px; background:transparent url("../assets/wuxia/cristais-essencia-pintados-v1/divino-comum.webp") center/contain no-repeat; vertical-align:middle; }
+i.currency.essence-supreme { display:inline-block; width:18px; height:18px; background:transparent url("../assets/wuxia/cristais-essencia-pintados-v1/supremo-unico.webp") center/contain no-repeat; vertical-align:middle; }
+i.currency[class*="essence-"]::before { display:none; }
+.application.dnd5e2.jj2-document:is(.sheet.item.jj2-item-sheet,.jj2-activity-sheet) .common-fields.physical > .price:has(select) { grid-template-columns:minmax(40px,.7fr) minmax(80px,1.3fr); }

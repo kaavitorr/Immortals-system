@@ -1,0 +1,53 @@
+_id: b1e0e07c0b9956ed
+_key: '!items!b1e0e07c0b9956ed'
+name: Guelras de Bagre do Fio Dourado
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/b1e0e07c0b9956ed.webp
+system:
+  identifier: material-alquimia-b1e0e07c0b9956ed
+  description:
+    value: <p><strong>Elemento:</strong> Luz · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Parte de animal</p><p>Este bagre espiritual respira em nascentes atravessadas por Qi luminoso, e um filamento dourado percorre seus barbilhões até as guelras. As membranas conservam essa essência em lâminas finas, úteis para filtrar resíduos e distribuir a luz em preparações fluidas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 200
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f0081ecc5ab75e71
+sort: 1700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: luz
+      elementLabel: Luz
+      level: 1
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/luz.json
+        originalName: Guelras de Bagre Dourado
+        sha256: a65d9c475ce3e69bcab79896f06bd1f00a0fcc1e5a6329d0e4735711f2236288
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

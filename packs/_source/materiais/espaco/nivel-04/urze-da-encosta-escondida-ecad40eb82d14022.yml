@@ -1,0 +1,53 @@
+_id: ecad40eb82d14022
+_key: '!items!ecad40eb82d14022'
+name: Urze da Encosta Escondida
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/ecad40eb82d14022.webp
+system:
+  identifier: material-alquimia-ecad40eb82d14022
+  description:
+    value: <p><strong>Elemento:</strong> Espaço · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Planta</p><p>Esta urze amadurece no interior de dobras de Qi espacial, mostrando a encosta que recobre apenas a quem observa por certos caminhos. Seu néctar conserva uma correspondência definida entre os lados da dobra, útil para orientar essências e preservar vínculos de travessia.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: ca8b955afd3c7c23
+sort: 7000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: espaco
+      elementLabel: Espaço
+      level: 4
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/espaco.json
+        originalName: Urze da Encosta Escondida
+        sha256: e7d0006d3bc5b8eb4685c982cf4dd46c83df9af6d2f53fcd8b56c8b83060db26
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

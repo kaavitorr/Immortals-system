@@ -1,0 +1,13 @@
+_id: b0b6d3677b445c34
+_key: '!folders!b0b6d3677b445c34'
+name: Nível 3
+type: Item
+folder: c850a5148710bf94
+sorting: a
+sort: 300000
+color: '#365f78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: agua
+      level: 3

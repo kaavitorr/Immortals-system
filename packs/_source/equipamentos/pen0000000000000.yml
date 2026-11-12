@@ -1,0 +1,64 @@
+_id: pen0000000000000
+_key: '!items!pen0000000000000'
+name: Caneta
+type: tool
+img: icons/tools/scribal/pen-steel-grey-brown.webp
+system:
+  identifier: pen
+  description:
+    value: >-
+      <p>Instrumento de escrita comum usado por escribas; permite a troca de pontas para diferentes estilos de
+      traço.</p><p><strong>Propriedades:</strong> Empilhável.</p><p><strong>Profissões e conhecimentos:</strong>
+      Ciência, Sociedade, Diplomacia, Controle de Qi.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 0
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: ''
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: 7LUkTLEZvS60KVBp
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: pen0000000000000
+      sourceType: tool
+      category: implement
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

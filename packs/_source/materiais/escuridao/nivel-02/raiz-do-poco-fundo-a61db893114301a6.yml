@@ -1,0 +1,53 @@
+_id: a61db893114301a6
+_key: '!items!a61db893114301a6'
+name: Raiz do Poço Fundo
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/a61db893114301a6.webp
+system:
+  identifier: material-alquimia-a61db893114301a6
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>Esta raiz alcança reservatórios de Qi yin abaixo do leito de poços antigos, formando nódulos negros que permanecem frios fora da terra. Sua essência densa assenta correntes agitadas e constitui o princípio ativo de escuridão em pílulas de afinidade e condensação elemental.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 450
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d4840a148e9cd19b
+sort: 2200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Raiz do Poço Fundo
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

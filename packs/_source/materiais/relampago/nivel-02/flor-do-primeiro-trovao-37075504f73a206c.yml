@@ -1,0 +1,53 @@
+_id: 37075504f73a206c
+_key: '!items!37075504f73a206c'
+name: Flor do Primeiro Trovão
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/37075504f73a206c.webp
+system:
+  identifier: material-alquimia-37075504f73a206c
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>Sua corola permanece fechada até que o primeiro trovão carregado de Qi percorra a montanha. Nesse instante, os estames prendem uma centelha entre fios de pólen, conservando o impulso inicial que desperta e põe em movimento uma preparação fulmínea.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 635a2a44e928b124
+sort: 2100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Flor do Primeiro Trovão
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

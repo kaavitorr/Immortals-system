@@ -1,0 +1,16 @@
+_id: 38877a6e275e7204
+name: Bestas Divinas
+type: Item
+folder: 326e539ab1223fd5
+sorting: a
+color: '#a2542a'
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: folder:divinebeasts:reactions
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+_key: '!folders!38877a6e275e7204'

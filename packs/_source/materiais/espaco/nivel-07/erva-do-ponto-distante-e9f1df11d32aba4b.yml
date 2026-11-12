@@ -1,0 +1,53 @@
+_id: e9f1df11d32aba4b
+_key: '!items!e9f1df11d32aba4b'
+name: Erva do Ponto Distante
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/e9f1df11d32aba4b.webp
+system:
+  identifier: material-alquimia-e9f1df11d32aba4b
+  description:
+    value: <p><strong>Elemento:</strong> Espaço · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Planta</p><p>Floresce onde uma corrente de Qi espacial atinge o limite de seu percurso antes de retornar ao veio de origem. Suas folhas guardam a referência desse ponto extremo, constituindo princípio ativo de espaço em pílulas que precisam manter a essência orientada e coesa.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d9cd7058efa0c0df
+sort: 12200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: espaco
+      elementLabel: Espaço
+      level: 7
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/espaco.json
+        originalName: Erva do Ponto Distante
+        sha256: e7d0006d3bc5b8eb4685c982cf4dd46c83df9af6d2f53fcd8b56c8b83060db26
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

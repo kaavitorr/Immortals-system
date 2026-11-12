@@ -1,0 +1,92 @@
+_id: 7bbf113c5cca4de4
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:71
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 7bbf113c5cca4de4
+name: Ataque com Asa
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢</strong></p><p>A criatura bate as asas com força, emitindo uma ventania poderosa. Todas as
+      criaturas a 5 metros + 1 metro por ND devem realizar uma Salvaguarda de Reflexo, sofrendo 6d6 de dano Contundente
+      se falharem ou metade se obtiverem sucesso. Se uma criatura falhar na Salvaguarda, ela recebe a condição
+      “Caído”.</p>
+    chat: ''
+  identifier: ataque-com-asa
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    eada3c7f66d38e39:
+      _id: eada3c7f66d38e39
+      type: save
+      name: Ataque com Asa
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura bate as asas com força, emitindo uma ventania poderosa. Todas as criaturas a 5 metros + 1 metro
+          por ND devem realizar uma Salvaguarda de Reflexo, sofrendo 6d6 de dano Contundente se falharem ou metade se
+          obtiverem sucesso. Se uma criatura falhar na Salvaguarda, ela recebe a condição “Caído”.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: creature
+        prompt: true
+        override: true
+        template:
+          type: sphere
+          size: 5 + @legacy2.nd
+          units: m
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: ''
+          formula: 10 + @npcPrincipal
+      damage:
+        onSave: half
+        parts:
+          - custom:
+              enabled: true
+              formula: 6d6
+            types:
+              - bludgeoning
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/ataque-com-asa-7bbf113c5cca4de4.webp"
+_key: '!items!7bbf113c5cca4de4'

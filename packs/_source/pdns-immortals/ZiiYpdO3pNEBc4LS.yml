@@ -1,0 +1,39 @@
+name: Constituição de Morto-Vivo
+type: feat
+folder: d9a33aaa60a052d4
+system:
+  description:
+    value: >-
+      <p><strong>Constituição de Morto-Vivo:</strong> Essa criatura devora por instinto, mas pode se manter sem nenhuma
+      necessidade de carne ou Qi extra.</p>
+    chat: ''
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+  identifier: constituicao-de-morto-vivo
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+_id: ZiiYpdO3pNEBc4LS
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/constituicao-de-morto-vivo-ZiiYpdO3pNEBc4LS.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: ZiiYpdO3pNEBc4LS
+_key: '!items!ZiiYpdO3pNEBc4LS'

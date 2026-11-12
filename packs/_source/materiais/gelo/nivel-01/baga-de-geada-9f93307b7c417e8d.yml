@@ -1,0 +1,53 @@
+_id: 9f93307b7c417e8d
+_key: '!items!9f93307b7c417e8d'
+name: Baga de Geada
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/9f93307b7c417e8d.webp
+system:
+  identifier: material-alquimia-9f93307b7c417e8d
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Planta</p><p>Nasce em arbustos enraizados sobre veios de Qi frio, onde a geada permanece mesmo ao sol. A polpa translúcida encerra minúsculos cristais que liberam sua afinidade de gelo gradualmente, oferecendo às matrizes uma fonte suave e distinta das ervas de neve.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 814266407798d73b
+sort: 500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 1
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Baga de Geada
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

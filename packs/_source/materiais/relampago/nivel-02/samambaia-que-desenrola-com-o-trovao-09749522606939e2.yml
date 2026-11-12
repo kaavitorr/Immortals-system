@@ -1,0 +1,53 @@
+_id: '09749522606939e2'
+_key: '!items!09749522606939e2'
+name: Samambaia do Broto Trovejante
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/09749522606939e2.webp
+system:
+  identifier: material-alquimia-09749522606939e2
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>Seus brotos se abrem quando o Qi de um trovão alcança as raízes enterradas na pedra. A seiva repete esse impulso de expansão em tecidos lesionados, fornecendo o princípio regenerativo que os alquimistas procuram para fórmulas de cicatrização e recomposição corporal.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 635a2a44e928b124
+sort: 2700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Samambaia que Desenrola com o Trovão
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

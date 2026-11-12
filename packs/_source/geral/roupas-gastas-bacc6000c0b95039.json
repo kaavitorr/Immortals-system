@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000c0b95039",
+  "name": "Roupas Gastas",
+  "type": "equipment",
+  "img": "icons/equipment/chest/shirt-collared-brown.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-roupas-gastas",
+    "description": {
+      "value": "<p>Roupas antigas e desgastadas.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "clothing"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "roupas-gastas"
+    }
+  },
+  "_key": "!items!bacc6000c0b95039"
+}

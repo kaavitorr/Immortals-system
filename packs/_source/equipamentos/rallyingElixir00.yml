@@ -1,0 +1,141 @@
+_id: rallyingElixir00
+_key: '!items!rallyingElixir00'
+name: Elixir de Ânimo
+type: consumable
+img: icons/consumables/potions/bottle-bulb-corked-purple.webp
+system:
+  identifier: rallying-elixir
+  description:
+    value: >-
+      <p>Esta poção contém uma fórmula alquímica especializada para fortalecer rapidamente a psique e melhorar a
+      moral.</p><p><strong>Propriedades:</strong> Empilhável.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 1
+    units: kg
+  price:
+    value: 400
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  activities:
+    e82cc7bce5e32776:
+      _id: e82cc7bce5e32776
+      type: utility
+      name: Beber elixir de ânimo
+      img: icons/consumables/potions/bottle-bulb-corked-purple.webp
+      sort: 0
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+          - type: itemUses
+            target: ''
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        value: >-
+          <p>Immediately recover an amount of <strong>Morale </strong>dependant on the quality of the
+          elixir.</p><ul><li><p><strong>Shoddy</strong> - Immediately heals 6
+          <strong>Morale</strong>.</p></li><li><p><strong>Standard</strong> - Immediately heals 12
+          <strong>Morale</strong>.</p></li><li><p><strong>Fine</strong> - Immediately heals 24
+          <strong>Morale</strong>.</p></li><li><p><strong>Superior</strong> - Immediately heals 48
+          <strong>Morale</strong>.</p></li><li><p><strong>Masterwork</strong> - Immediately heals 96
+          <strong>Morale</strong>.</p></li></ul>
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: m
+        value: 1
+        special: ''
+      target:
+        override: true
+        prompt: true
+        template:
+          type: ''
+          size: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+          special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  type:
+    value: potion
+    subtype: ''
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    replace: false
+effects: []
+folder: WqUGvC0ubhjrpvz9
+sort: 400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: rallyingElixir00
+      sourceType: consumable
+      category: flask
+      quality: standard
+      enchantment: ''
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

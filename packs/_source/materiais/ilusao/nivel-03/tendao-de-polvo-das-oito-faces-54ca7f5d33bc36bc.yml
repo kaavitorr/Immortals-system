@@ -1,0 +1,53 @@
+_id: 54ca7f5d33bc36bc
+_key: '!items!54ca7f5d33bc36bc'
+name: Fibra Muscular de Polvo das Oito Faces
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/54ca7f5d33bc36bc.webp
+system:
+  identifier: material-alquimia-54ca7f5d33bc36bc
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Parte de animal</p><p>O polvo das oito faces vive entre recifes saturados de Qi ilusório, mantendo uma aparência diferente em cada lado do corpo. As fibras musculares guardam camadas de pigmento e essência coordenadas, úteis para ligar imagens complexas sem perder a flexibilidade do preparado.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 3000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 1da2695e7fa3fc8b
+sort: 5400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 3
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Tendão de Polvo das Oito Faces
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

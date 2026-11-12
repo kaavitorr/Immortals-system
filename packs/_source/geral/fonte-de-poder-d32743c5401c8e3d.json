@@ -1,0 +1,50 @@
+{
+  "_id": "d32743c5401c8e3d",
+  "name": "Fonte de Poder",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/fonte-de-poder.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-fonte-de-poder",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo da Alma.</p><h2>Fonte de Poder</h2><p><strong>Requisito:</strong> 1º Revolução</p><p>Você aprende a canalizar o poder da sua alma para atacar de forma um pouco mais efetiva. Você pode adicionar metade do seu atributo de Presença em suas rolagens de dano.</p><p><strong>Pendente:</strong> O texto não explicita o arredondamento da metade de Presença.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "fonte-de-poder",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo da Alma",
+        "requisitos": [
+          "1º Revolução"
+        ],
+        "requirementRules": {
+          "type": "soul",
+          "min": 2
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "attackDamageBonus",
+            "formula": "floor(@abilities.cha.value / 2)"
+          }
+        ],
+        "manual": [],
+        "pending": [
+          "O texto não explicita o arredondamento da metade de Presença."
+        ]
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!d32743c5401c8e3d"
+}

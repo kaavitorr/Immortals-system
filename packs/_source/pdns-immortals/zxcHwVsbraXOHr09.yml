@@ -1,0 +1,180 @@
+name: Espreitador Vertical
+type: archetype
+folder: 1bnnSCjbnPuunvFI
+system:
+  description:
+    value: >-
+      <p>Espera em paredes, tetos e beiradas para atacar de ângulos inesperados. Usa a escalada e movimentos rápidos
+      para perseguir a presa ou sair do alcance dela.</p><p><strong>Resistência por ND:</strong> Cortante
+      +1</p><p><strong>Vulnerabilidade:</strong> Elétrico −6 · Mov +1 | 5/ND</p><p><strong>Deslocamento:</strong> +1 até
+      um máximo de 25</p><p><strong>Armaduras:</strong> Nenhuma.</p><p><strong>Perícias:</strong> Proficiências:
+      Furtividade, Percepção, Sobrevivência e Atletismo.</p><p><strong>Salvaguardas:</strong> Proficiências: Reflexo e
+      Vontade.</p><p><strong>Aspectos:</strong> Caminhante de Superfícies, Escalada Aracnídea, Silenciosa, Visão no
+      Escuro, Tremoresense, Emboscador, Ataque Surpresa, Mordida Infectada, Reflexos Aguçados,
+      Agressivo.</p><p><strong>Habilidades:</strong> Bote Sônico, Investida Subterrânea, Mordida Infecciosa, Presa
+      Infecciosa, Enrolar, Golpe de Cauda, Fuga Escorregadia, Surto de Velocidade, Apunhalar, Esquiva
+      Rápida.</p><p><strong>Reações:</strong> Emboscada Reativa, Esquiva Rápida, Mordida Reativa.</p>
+    chat: ''
+  identifier: espreitador-vertical
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 2
+    dex: 4
+    con: 3
+    int: 0
+    wis: 3
+    cha: 0
+  resistencias:
+    bludgeoning:
+      value: 0
+      immune: false
+    piercing:
+      value: 0
+      immune: false
+    slashing:
+      value: 1
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: -6
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 0
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ste
+      - skills.prc
+      - skills.sur
+      - skills.ath
+      - saves.dex
+      - saves.int
+      - saves.con
+      - saves.cha
+    alternative:
+      - skills.ste
+      - skills.prc
+      - skills.sur
+      - skills.ath
+      - alternativeSaves.reflexo
+      - alternativeSaves.vontade
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.bf2f75f9bcad6213
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.327c9800b94e079e
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.464fadb6d059e88b
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.ee5b9ae19707d11e
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.c826a1ecd3030df0
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f35cdef068d2d3d8
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.69fce788d9d15b15
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4afa4131cc85e2bd
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9149d2bde056a98a
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e23adbbd6878d66b
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.34e2fedcea4c64ac
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7fe18fd34ab108c3
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.98f7ed9c8403484e
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.df29c624c51c64cf
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7b29cdec7754e73a
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8dff2a48dfc953a3
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5fe35c33989ab996
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5da66adcc9262ed1
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.b0025217be0f5675
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d2bce7920a15e02a
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e3954a3cc125e416
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5dcab7f3fdcd6d4f
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.576c5020e56e2555
+      nd: 12
+  equipamentos:
+    armadura: null
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000004
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: zxcHwVsbraXOHr09
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/espreitador-vertical.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:espreitadorvertical
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: zxcHwVsbraXOHr09
+_key: '!items!zxcHwVsbraXOHr09'

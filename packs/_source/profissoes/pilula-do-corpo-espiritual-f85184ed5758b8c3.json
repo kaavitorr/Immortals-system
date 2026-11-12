@@ -1,0 +1,192 @@
+{
+  "_id": "f85184ed5758b8c3",
+  "name": "Pílula do Corpo Espiritual",
+  "type": "consumable",
+  "folder": "3ec1f795631fd283",
+  "img": "systems/Immortals-system/assets/wuxia/pilulas-pintadas-v1/pilula-do-corpo-espiritual.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-pilula-do-corpo-espiritual",
+    "type": {
+      "value": "potion"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 1. <strong>Qualidade:</strong> Inferior.</p><h3>PÍLULA DO CORPO ESPIRITUAL</h3>\n<table><tbody><tr><td>Multiplicador de Toxina: x 3</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 17</td></tr></tbody></table>\n<p>Uma pílula que permite que você regenere um membro perdido, desde que seus efeitos sejam auxiliados pelo Qi de um médico. Você recupera seu membro em até 1 hora, junto de 30 Pontos de Vida. Só funciona criaturas com Rank referente ao nível da pílula.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>200% do valor de criação / cada</td></tr><tr><td>Quantidade</td><td>A cada refinamento, você consegue gerar uma pílula, não importa a qualidade.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar o efeito descrito no uso da pílula e conferir Rank, duração e restrições com o mestre. A posse da pílula não ativa seus efeitos. A qualidade da pílula é determinada somente pela margem do teste de Criação; os testes exigidos ainda precisam passar. O consumo usa uma unidade da pilha e registra as toxinas. Resolva o efeito descrito com o narrador, incluindo requisitos, duração e eventuais benefícios ou consequências permanentes. Possuir a pílula não concede seus efeitos.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 600 PO. <strong>Venda por unidade:</strong> 1.200 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"pilula-do-corpo-espiritual:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/tempo/bbac32be40075f75.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"bbac32be40075f75\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.bbac32be40075f75\">Flor de Um Só Dia</a><small>princípio ativo de cicatrização e regeneração</small></div><span class=\"iw-recipe-price\" title=\"200 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/f648e4a2e8cfcda8.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"f648e4a2e8cfcda8\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.f648e4a2e8cfcda8\">Ovo de Codorna da Aurora Clara</a><small>reconstituição da estrutura corporal</small></div><span class=\"iw-recipe-price\" title=\"200 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/e2231d62c23ea082.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"e2231d62c23ea082\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.e2231d62c23ea082\">Erva Dourada da Clareira</a><small>reserva e recomposição do Qi</small></div><span class=\"iw-recipe-price\" title=\"150 PO por unidade\">150 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/581c23844115c319.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"581c23844115c319\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.581c23844115c319\">Sal da Chama Mansa</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>600 PO</strong></footer><p class=\"iw-recipe-note\">Prepare a presa no veículo antes de incorporar o extrato antiveneno à mistura.</p></section>"
+    },
+    "activities": {
+      "ca3b4e9f49422f79": {
+        "_id": "ca3b4e9f49422f79",
+        "type": "utility",
+        "name": "Consumir pílula (resolver efeito)",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 1. <strong>Qualidade:</strong> Inferior.</p><h3>PÍLULA DO CORPO ESPIRITUAL</h3>\n<table><tbody><tr><td>Multiplicador de Toxina: x 3</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 17</td></tr></tbody></table>\n<p>Uma pílula que permite que você regenere um membro perdido, desde que seus efeitos sejam auxiliados pelo Qi de um médico. Você recupera seu membro em até 1 hora, junto de 30 Pontos de Vida. Só funciona criaturas com Rank referente ao nível da pílula.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>200% do valor de criação / cada</td></tr><tr><td>Quantidade</td><td>A cada refinamento, você consegue gerar uma pílula, não importa a qualidade.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar o efeito descrito no uso da pílula e conferir Rank, duração e restrições com o mestre. A posse da pílula não ativa seus efeitos. A qualidade da pílula é determinada somente pela margem do teste de Criação; os testes exigidos ainda precisam passar. O consumo usa uma unidade da pilha e registra as toxinas. Resolva o efeito descrito com o narrador, incluindo requisitos, duração e eventuais benefícios ou consequências permanentes. Possuir a pílula não concede seus efeitos.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 600 PO. <strong>Venda por unidade:</strong> 1.200 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"pilula-do-corpo-espiritual:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/tempo/bbac32be40075f75.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"bbac32be40075f75\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.bbac32be40075f75\">Flor de Um Só Dia</a><small>princípio ativo de cicatrização e regeneração</small></div><span class=\"iw-recipe-price\" title=\"200 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/f648e4a2e8cfcda8.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"f648e4a2e8cfcda8\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.f648e4a2e8cfcda8\">Ovo de Codorna da Aurora Clara</a><small>reconstituição da estrutura corporal</small></div><span class=\"iw-recipe-price\" title=\"200 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/e2231d62c23ea082.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"e2231d62c23ea082\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.e2231d62c23ea082\">Erva Dourada da Clareira</a><small>reserva e recomposição do Qi</small></div><span class=\"iw-recipe-price\" title=\"150 PO por unidade\">150 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/581c23844115c319.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"581c23844115c319\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.581c23844115c319\">Sal da Chama Mansa</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>600 PO</strong></footer><p class=\"iw-recipe-note\">Prepare a presa no veículo antes de incorporar o extrato antiveneno à mistura.</p></section>",
+          "chatFlavor": "Pílula do Corpo Espiritual — Consumir pílula (resolver efeito)"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "pilula-do-corpo-espiritual",
+              "key": "consume",
+              "level": 1,
+              "quality": "inferior",
+              "manualResolution": true,
+              "consumeItem": true,
+              "rule": "pilula-do-corpo-espiritual",
+              "poison": 60,
+              "requiresPhysicianQi": true,
+              "requiresMatchingCultivationRank": true,
+              "restoredHitPoints": 30,
+              "maximumHours": 1,
+              "manualLimbRegeneration": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Consumir pílula (resolver efeito)",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/pilulas-pintadas-v1/pilula-do-corpo-espiritual.webp"
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "price": {
+      "value": 1200,
+      "denomination": "gp"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "pilula-do-corpo-espiritual",
+        "kind": "pill",
+        "profession": "alchemy",
+        "level": 1,
+        "quality": "inferior"
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 1,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 3000,
+          "materials": 500,
+          "currency": "gp",
+          "rank": null
+        },
+        "creationPercent": 500,
+        "salePercent": 200,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 600,
+          "currency": "gp",
+          "rank": null
+        },
+        "sale": {
+          "amount": 1200,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceCreation": {
+          "amount": 2500,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceSale": {
+          "amount": 5000,
+          "currency": "gp",
+          "rank": null
+        }
+      },
+      "professionProductAutomation": {
+        "rules": [
+          {
+            "type": "pillToxins",
+            "quality": "inferior",
+            "base": 20,
+            "multiplier": 3,
+            "value": 60
+          }
+        ],
+        "manual": [
+          "Aplicar o efeito descrito no uso da pílula e conferir Rank, duração e restrições com o mestre. A posse da pílula não ativa seus efeitos.",
+          "A qualidade da pílula é determinada somente pela margem do teste de Criação; os testes exigidos ainda precisam passar.",
+          "O consumo usa uma unidade da pilha e registra as toxinas. Resolva o efeito descrito com o narrador, incluindo requisitos, duração e eventuais benefícios ou consequências permanentes. Possuir a pílula não concede seus efeitos."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!f85184ed5758b8c3"
+}

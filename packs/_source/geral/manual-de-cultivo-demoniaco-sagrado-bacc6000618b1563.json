@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000618b1563",
+  "name": "Manual de Cultivo Demoníaco — Sagrado",
+  "type": "loot",
+  "img": "systems/Immortals-system/assets/wuxia/equipamentos-antecedentes-pintados-v1/manual-sagrado.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-manual-sagrado",
+    "description": {
+      "value": "<p>Manual de cultivo demoníaco recebido pelo antecedente. Exige uma vida inocente por semana, conforme sua característica.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "gear"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "manual-sagrado"
+    }
+  },
+  "_key": "!items!bacc6000618b1563"
+}

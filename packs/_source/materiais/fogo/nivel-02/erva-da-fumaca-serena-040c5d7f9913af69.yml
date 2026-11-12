@@ -1,0 +1,53 @@
+_id: 040c5d7f9913af69
+_key: '!items!040c5d7f9913af69'
+name: Erva da Fumaça Serena
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/040c5d7f9913af69.webp
+system:
+  identifier: material-alquimia-040c5d7f9913af69
+  description:
+    value: <p><strong>Elemento:</strong> Fogo · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>A erva cresce nas saídas de fumarolas de Qi brando e encerra nas folhas cinzentas uma fumaça que desce em vez de subir. Seu incenso forma uma camada estável ao redor das essências do espírito, sendo empregado em compostos e ritos de proteção espiritual.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 85025b79f667906f
+sort: 2100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: fogo
+      elementLabel: Fogo
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/fogo.json
+        originalName: Erva da Fumaça Serena
+        sha256: ba1a23c0b606945bb3806834a346654c7369238959758f3d2c8d2c74258f92bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

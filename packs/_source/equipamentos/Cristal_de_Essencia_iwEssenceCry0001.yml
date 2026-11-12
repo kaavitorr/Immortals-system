@@ -1,0 +1,29 @@
+{
+  "_id": "iwEssenceCry0001",
+  "name": "Cristal de Essência",
+  "type": "equipment",
+  "folder": "iwEssenceCryst01",
+  "img": "icons/commodities/gems/gem-rough-faceted-green.webp",
+  "effects": [],
+  "system": {
+    "identifier": "cristal-de-essencia",
+    "type": {
+      "value": "trinket"
+    },
+    "quantity": 1,
+    "equipped": false,
+    "description": {
+      "value": "<p>Recite seu mantra segurando um Cristal de Essência equipado para dobrar a velocidade de cultivo enquanto houver essência disponível.</p><p>Configure a capacidade total e a essência restante em Detalhes. A capacidade deve atingir metade da absorção efetiva: o menor limite entre o mantra e a região. O calendário desconta somente a essência extra concedida; o último dia pode receber um bônus parcial. Cristais esgotados permanecem no inventário.</p>",
+      "chat": ""
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "essenceCrystal": {
+        "enabled": true,
+        "capacity": 0,
+        "remaining": 0
+      }
+    }
+  }
+}

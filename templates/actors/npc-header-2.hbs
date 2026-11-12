@@ -1,0 +1,40 @@
+<header class="sheet-header jj2-header jj2-hero {{#if jj2.npc.profileTags}}jj2-npc-has-profiles{{/if}}">
+  <img class="iw-wuxia-landscape" src="systems/Immortals-system/assets/wuxia/sheet-header.webp" alt="" aria-hidden="true">
+  <div class="jj2-hero-art"><div class="jj2-portrait portrait {{#if portrait.token}}token{{/if}}">
+    {{#with portrait}}{{#if isVideo}}<video src="{{src}}" controls muted playsinline disablepictureinpicture {{#if @root.editable}}data-action="{{action}}" data-edit="{{path}}" data-type="{{type}}"{{else}}data-action="showArtwork"{{/if}}></video>{{else}}<img src="{{src}}" alt="{{@root.actor.name}}" {{#if @root.editable}}data-action="{{action}}" data-edit="{{path}}" data-type="{{type}}"{{else}}data-action="showArtwork"{{/if}}>{{/if}}{{/with}}
+  </div>{{#if editable}}<label class="jj2-portrait-toggle"><input type="checkbox" data-flag-path="Immortals-system.showTokenPortrait" role="switch" aria-label="Usar imagem do token" {{checked portrait.token}}><span class="jj2-portrait-switch" aria-hidden="true"></span></label>{{/if}}</div>
+  <div class="jj2-hero-identity">
+    <div class="jj2-nameplate {{#if jj2.npc.longName}}jj2-npc-name-long{{/if}}">{{#if editable}}<input type="text" name="name" class="document-name" value="{{actor._source.name}}" aria-label="Nome do NPC" title="{{actor.name}}">{{else}}<h1 class="document-name" title="{{actor.name}}">{{actor.name}}</h1>{{/if}}</div>
+    <div class="jj2-header-meta"><span>PdN</span><span class="jj2-npc-category">{{jj2.npc.category}}</span>
+      {{#if jj2.npc.profileTags}}<div class="jj2-npc-profile-tags">{{#each jj2.npc.profileTags}}
+        <div class="jj2-npc-profile-tag" data-profile-type="{{type}}" title="{{label}}">
+          {{#if uuid}}<button type="button" class="jj2-profile-open always-interactive" data-action="{{#if @root.owner}}editDocument{{else}}showDocument{{/if}}" data-uuid="{{uuid}}" aria-label="{{label}}"><b>{{label}}</b></button>{{else}}<div class="jj2-profile-open"><b>{{label}}</b></div>{{/if}}
+          {{#if @root.editable}}<button type="button" class="jj2-profile-remove" data-action="jj2RemoveNpcProfile" data-profile-type="{{type}}" aria-label="Remover {{label}} da ficha" title="Remover da ficha">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="close"}}</button>{{/if}}
+        </div>
+      {{/each}}</div>{{/if}}
+      <div class="iw-npc-cultivation-summary"><strong>{{jj2.npc.cultivation.name}}</strong><span>Estágio {{jj2.npc.cultivation.stage}} de 3</span></div>
+    </div>
+    <div class="jj2-hero-resources">
+      <div class="jj2-header-bars">
+        {{> "systems/Immortals-system/templates/actors/parts/jj2-resource.hbs" id="hp" label="Vida" path="jj2HitPointsTotal" value=jj2.hp.total max=jj2.hp.max pct=jj2.hpPct health=true normalValue=jj2.hp.value tempValue=jj2.hp.temp tempPct=jj2.hp.tempPct tempMax=jj2.hp.tempMax unbounded=true configKey="hitPoints"}}
+        {{> "systems/Immortals-system/templates/actors/parts/jj2-resource.hbs" id="energy" label="Qi" path="system.energy.total" value=system.energy.total max=system.energy.max pct=jj2.energyPct}}
+      </div>
+      <div class="jj2-header-emblems">
+      {{> "systems/Immortals-system/templates/actors/parts/jj2-resource.hbs" id="refinement" label="Qi Refinado" sigilLotus=true sigilLabel="Refinar Qi" path="system.energy.generated" value=jj2.energyAvailable max=system.energy.genMax unbounded=true sigil=true}}
+      {{> "systems/Immortals-system/templates/actors/parts/jj2-action-ring.hbs"}}
+      {{> "systems/Immortals-system/templates/actors/parts/jj2-shield.hbs"}}
+      </div>
+    </div>
+  </div><div class="jj2-hero-actions">
+    {{#if showRests}}<div class="jj2-rests">{{#each CONFIG.restTypes}}<button type="button" class="jj2-action always-interactive" data-action="rest" data-type="{{@key}}" aria-label="{{localize label}}" data-tooltip="{{localize label}}">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key=@key}}</button>{{/each}}</div>{{/if}}
+    <div class="jj2-level iw-npc-level-badge" aria-label="Nível de cultivo {{jj2.npc.cultivation.level}} de 30" title="{{jj2.npc.cultivation.name}} · Estágio {{jj2.npc.cultivation.stage}} de 3">
+      <svg class="iw-npc-level-frame" viewBox="0 0 64 76" fill="none" stroke="currentColor" stroke-linejoin="miter" aria-hidden="true">
+        <path class="iw-npc-level-surface" d="M15 2h34l13 13v46L49 74H15L2 61V15Z"/>
+        <path class="iw-npc-level-inset" d="M17 7h30l10 10v42L47 69H17L7 59V17Z"/>
+        <path class="iw-npc-level-engraving" d="M26 11h12M22 51h20M29 67h6"/>
+      </svg>
+      <div class="jj2-level-number">{{#if editable}}<input type="number" data-npc-cultivation-level value="{{jj2.npc.cultivation.level}}" min="1" max="30" step="1" aria-label="Nível de cultivo">{{else}}<strong>{{jj2.npc.cultivation.level}}</strong>{{/if}}</div>
+      <span class="iw-npc-level-caption">Cultivo</span>
+    </div>
+  </div>
+</header>

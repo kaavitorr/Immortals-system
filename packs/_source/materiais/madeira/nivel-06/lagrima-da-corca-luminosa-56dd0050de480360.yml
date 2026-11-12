@@ -1,0 +1,53 @@
+_id: 56dd0050de480360
+_key: '!items!56dd0050de480360'
+name: Lágrima da Corça Luminosa
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/56dd0050de480360.webp
+system:
+  identifier: material-alquimia-56dd0050de480360
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Parte de animal</p><p>Lágrima que brilha como orvalho ao sol, chorada pela corça da floresta profunda. Dissolvida em chá, cura mágoas que apodrecem o coração.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d553fd0a1f34557e
+sort: 11900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 6
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Lágrima da Corça Luminosa
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

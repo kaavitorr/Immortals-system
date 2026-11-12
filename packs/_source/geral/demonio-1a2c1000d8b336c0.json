@@ -1,0 +1,118 @@
+{
+  "_id": "1a2c1000d8b336c0",
+  "name": "Demônio",
+  "type": "race",
+  "img": "systems/Immortals-system/assets/wuxia/especies-pintadas-v1/demonio.webp",
+  "folder": "1a2c000000000001",
+  "system": {
+    "identifier": "especie-demonio",
+    "type": {
+      "value": "humanoid"
+    },
+    "description": {
+      "value": "<p>Espécie de Immortals Legacy. 10 Pontos de Vida adicionais; caminhada 12 m e nado 4.5 m.</p><p>Características e escolhas são concedidas pela Progressão. Apenas uma espécie e uma variante/ancestralidade por personagem.</p>"
+    },
+    "movement": {
+      "units": "m",
+      "speeds": {
+        "walk": 12,
+        "swim": 4.5
+      }
+    },
+    "advancement": {
+      "1a2c100064b231d5": {
+        "_id": "1a2c100064b231d5",
+        "type": "Size",
+        "level": 0,
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "value": {}
+      },
+      "1a2c1000659a3ae4": {
+        "_id": "1a2c1000659a3ae4",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Características de Demônio",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000acf2082a",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000415f3cd6",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000e6ef568d",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100030bd4229",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "1a2c1000e54c8c57": {
+        "_id": "1a2c1000e54c8c57",
+        "type": "ItemChoice",
+        "title": "Variante demoníaca",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100046d381c9"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000e0b73a08"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c100019d6176c"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      },
+      "1a2c1000da5080b2": {
+        "_id": "1a2c1000da5080b2",
+        "type": "AbilityScoreImprovement",
+        "level": 0,
+        "title": "Ajuste de atributos da espécie",
+        "configuration": {
+          "points": 2,
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "max": 20
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "species": {
+        "key": "demonio"
+      },
+      "pvAdicional": 10,
+      "speciesContentVersion": 1,
+      "atributosAdicionais": 2
+    }
+  },
+  "_key": "!items!1a2c1000d8b336c0"
+}

@@ -1,0 +1,46 @@
+_id: 7e51f53fbae07c20
+name: Goma do Pinheiro de Jade
+type: loot
+img: systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/7e51f53fbae07c20.webp
+folder: 392050e27983b981
+sort: 200000
+system:
+  identifier: reagente-7e51f53fbae07c20
+  type:
+    value: material
+    subtype: ''
+  description:
+    value: <p><strong>Nível:</strong> 1 · <strong>Categoria:</strong> Reagente · <strong>Função:</strong> Estabilizante</p><p>Recolhida de pinheiros espirituais enraizados sobre veios de Madeira, essa goma cor de mel mantém fios de Qi unidos mesmo fora da árvore. Filtrada e apurada, estabiliza misturas durante o refino. É usada como ligante em massas de pílulas, pigmentos de inscrição e compostos de têmpera.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 50
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  source:
+    custom: Immortals Legacy — Reagentes de Preparo
+effects: []
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    reagentMaterial:
+      level: 1
+      role: estabilizante
+      category: reagente
+    materialEconomy:
+      version: 2
+      level: 1
+      category: reagente
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!7e51f53fbae07c20'

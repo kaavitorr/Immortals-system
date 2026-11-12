@@ -1,0 +1,13 @@
+_id: c3a2c8406ce8b9a0
+_key: '!folders!c3a2c8406ce8b9a0'
+name: Nível 6
+type: Item
+folder: 57c7cfa4d7a2235f
+sorting: a
+sort: 600000
+color: '#445674'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: espaco
+      level: 6

@@ -1,0 +1,28 @@
+{
+  "_id": "bacc60005f89f41d",
+  "name": "Vestes Pretas",
+  "type": "equipment",
+  "img": "systems/Immortals-system/assets/wuxia/equipamentos-antecedentes-pintados-v1/vestes-pretas.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-vestes-pretas",
+    "description": {
+      "value": "<p>Vestes escuras do cultivador demoníaco.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "clothing"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "vestes-pretas"
+    }
+  },
+  "_key": "!items!bacc60005f89f41d"
+}

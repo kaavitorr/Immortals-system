@@ -1,0 +1,212 @@
+/* Wuxia creature workshop. All colors come from the shared charcoal/slate/bronze palette. */
+.iw-npc-generator-launcher { display:block; flex:none; grid-column:1 / -1; width:100%; margin:7px 0 0; }
+.iw-npc-generator-launcher .iw-npc-generator-button { display:flex; align-items:center; justify-content:center; gap:8px; width:100%; min-height:32px; padding:5px 10px; border:1px solid var(--iw-color-bronze-shadow); background:var(--iw-color-panel); color:var(--iw-color-text); font:600 12px/1.4 'Segoe UI',Arial,sans-serif; box-shadow:none; }
+.iw-npc-generator-button svg { width:18px; height:18px; color:var(--iw-color-bronze); }
+.application#iw-npc-generator { container:iw-npc-generator / inline-size; min-width:340px; max-width:calc(100vw - 20px); max-height:calc(100dvh - 24px); color-scheme:dark; }
+#iw-npc-generator .window-content { display:flex; padding:0; min-height:0; overflow:hidden; background:var(--iw-color-ink); }
+#iw-npc-generator .iw-ng-main { display:flex; flex-direction:column; width:100%; min-width:0; min-height:0; overflow:hidden; color:var(--iw-color-text); font:400 12px/1.5 'Segoe UI',Arial,sans-serif; }
+#iw-npc-generator .iw-ng-main [hidden] { display:none!important; }
+#iw-npc-generator .iw-ng-main :where(h2,h3,h4,p,ul,dl,fieldset) { margin:0; }
+#iw-npc-generator .iw-ng-main :is(h2,h3,h4) { border:0; padding:0; letter-spacing:0; text-transform:none; color:var(--iw-color-text); }
+#iw-npc-generator .iw-ng-main :is(button,input,select) { box-sizing:border-box; max-width:100%; font-family:inherit; font-style:normal; font-size:12px; letter-spacing:0; text-transform:none; box-shadow:none; }
+#iw-npc-generator .iw-ng-main button { display:flex; align-items:center; justify-content:center; gap:6px; height:auto; min-height:30px; margin:0; padding:5px 9px; border:1px solid var(--iw-color-line); border-radius:3px; background:var(--iw-color-panel); color:var(--iw-color-text); cursor:pointer; }
+#iw-npc-generator .iw-ng-main button:hover { border-color:var(--iw-color-bronze); background:var(--iw-color-hover); }
+#iw-npc-generator .iw-ng-main button:disabled { opacity:.45; cursor:default; }
+#iw-npc-generator .iw-ng-main :where(input:not([type=checkbox]):not([type=radio]),select) { width:100%; min-width:0; height:34px; margin:0; padding:5px 9px; border:1px solid var(--iw-color-line); border-radius:3px; background:var(--iw-color-recess); color:var(--iw-color-text); text-overflow:ellipsis; }
+#iw-npc-generator .iw-ng-main select { padding-right:23px; }
+#iw-npc-generator .iw-ng-main :is(input,select)::placeholder { color:var(--iw-color-subtle); opacity:1; }
+#iw-npc-generator .iw-ng-main :is(option,optgroup) { background:var(--iw-color-panel); color:var(--iw-color-text); }
+#iw-npc-generator .iw-ng-main :is(input[type=checkbox],input[type=radio]) { appearance:auto; flex:none; width:15px; height:15px; margin:0; accent-color:var(--iw-color-bronze); }
+#iw-npc-generator .iw-ng-main :is(input[type=checkbox],input[type=radio])::before,#iw-npc-generator .iw-ng-main :is(input[type=checkbox],input[type=radio])::after { content:none; }
+#iw-npc-generator .iw-ng-main :is(button,input,select,summary):focus-visible { outline:2px solid var(--iw-color-accent); outline-offset:2px; }
+#iw-npc-generator .jj2-icon { flex:none; width:17px; height:17px; color:var(--iw-color-bronze); }
+#iw-npc-generator .iw-ng-banner { flex:none; display:flex; align-items:center; gap:12px; min-height:84px; padding:8px 22px; border-bottom:1px solid var(--iw-color-bronze-shadow); background:linear-gradient(90deg,var(--iw-color-ink),color-mix(in srgb,var(--iw-color-ink) 88%,transparent)),url('../assets/wuxia/sheet-header.webp') center 45% / cover; }
+#iw-npc-generator .iw-ng-banner > img { flex:none; display:block; width:64px; height:64px; border:0; object-fit:contain; }
+#iw-npc-generator .iw-ng-banner h2 { font:600 26px/1.2 Georgia,serif; }
+#iw-npc-generator .iw-ng-banner p { margin-top:5px; color:var(--iw-color-muted); font-size:12px; }
+#iw-npc-generator .iw-ng-edition { margin-left:auto; padding-left:14px; border-left:1px solid var(--iw-color-line); color:var(--iw-color-muted); font-size:11px; text-align:right; }
+#iw-npc-generator .iw-ng-edition strong { display:block; color:var(--iw-color-bronze-light); font:600 18px/1.3 Georgia,serif; }
+#iw-npc-generator .iw-ng-scroll { flex:1; min-height:0; overflow:auto; padding:18px 20px; scrollbar-width:thin; scrollbar-color:var(--iw-color-line-strong) var(--iw-color-recess); }
+#iw-npc-generator .iw-ng-workspace { display:grid; grid-template-columns:310px minmax(0,1fr); align-items:start; gap:22px; }
+#iw-npc-generator .iw-ng-profile { position:relative; min-width:0; padding:15px; border:1px solid var(--iw-color-bronze-shadow); border-radius:3px 13px 3px 13px; background:var(--iw-color-panel); }
+#iw-npc-generator .iw-ng-field { display:grid; gap:5px; min-width:0; color:var(--iw-color-muted); font-size:11px; }
+#iw-npc-generator .iw-ng-field > span { display:flex; justify-content:space-between; align-items:baseline; gap:6px; }
+#iw-npc-generator .iw-ng-field small { color:var(--iw-color-subtle); font-size:10px; }
+#iw-npc-generator .iw-ng-cultivation { display:grid; grid-template-columns:minmax(0,1fr) 90px 40px; align-items:end; gap:7px; margin-top:12px; }
+#iw-npc-generator .iw-ng-cultivation select { padding-inline:5px 18px; font-size:11px; }
+#iw-npc-generator .iw-ng-level { display:flex; align-items:center; justify-content:center; flex-direction:column; height:38px; margin-bottom:-2px; border:1px solid var(--iw-color-bronze-shadow); border-radius:9px 1px; color:var(--iw-color-bronze-light); background:var(--iw-color-recess); }
+#iw-npc-generator .iw-ng-level strong { font-size:19px; line-height:1.1; font-variant-numeric:tabular-nums; }
+#iw-npc-generator .iw-ng-level small { font-size:9px; line-height:1.2; color:var(--iw-color-muted); }
+#iw-npc-generator .iw-ng-nature { display:flex; gap:6px; padding:0; margin-top:13px; border:0; }
+#iw-npc-generator .iw-ng-nature legend { float:left; margin-right:auto; color:var(--iw-color-muted); font-size:11px; }
+#iw-npc-generator .iw-ng-nature label { display:flex; align-items:center; gap:6px; cursor:pointer; }
+#iw-npc-generator .iw-ng-nature label span { color:var(--iw-color-muted); font-size:11px; }
+#iw-npc-generator .iw-ng-nature label:has(input:checked) span { color:var(--iw-color-text); }
+#iw-npc-generator .iw-ng-profile-field { display:block; position:relative; min-width:0; margin-top:13px; }
+#iw-npc-generator .iw-ng-profile-field > span { position:absolute; top:9px; left:76px; z-index:1; color:var(--iw-color-muted); font-size:10px; pointer-events:none; }
+#iw-npc-generator .iw-ng-profile-field > div { display:grid; grid-template-columns:72px minmax(0,1fr); align-items:center; border:1px solid var(--iw-color-line-faint); border-bottom-color:var(--iw-color-bronze-shadow); border-radius:3px; background:var(--iw-color-recess); }
+#iw-npc-generator .iw-ng-profile-field img { display:block; width:72px; height:72px; padding:5px; object-fit:contain; border:0; }
+#iw-npc-generator .iw-ng-profile-field select { height:72px; padding:21px 22px 1px 4px; border:0; background:transparent; font-size:14px; font-weight:600; }
+#iw-npc-generator .iw-ng-note { margin-top:7px; color:var(--iw-color-muted); font-size:10.5px; line-height:1.55; }
+#iw-npc-generator .iw-ng-existence { min-width:0; padding:0; margin-top:18px; border:0; }
+#iw-npc-generator .iw-ng-existence legend { padding:0; margin-bottom:9px; color:var(--iw-color-text); font-size:12px; font-weight:600; }
+#iw-npc-generator .iw-ng-existence > div { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:7px; }
+#iw-npc-generator .iw-ng-existence-choice { position:relative; min-width:0; cursor:pointer; }
+#iw-npc-generator .iw-ng-existence-choice > input { position:absolute; width:1px!important; height:1px!important; opacity:0; clip-path:inset(50%); }
+#iw-npc-generator .iw-ng-existence-button { display:flex; align-items:center; gap:6px; min-height:76px; padding:7px 6px; border:1px solid var(--iw-color-line-faint); border-radius:3px; background:var(--iw-color-recess); }
+#iw-npc-generator .iw-ng-existence-button > img { flex:none; width:47px; height:51px; object-fit:contain; border:0; }
+#iw-npc-generator .iw-ng-existence-button > span { min-width:0; }
+#iw-npc-generator .iw-ng-existence-button strong { display:block; color:var(--iw-color-text); font-size:12px; line-height:1.3; }
+#iw-npc-generator .iw-ng-existence-button small { display:block; color:var(--iw-color-muted); font-size:10px; white-space:nowrap; }
+#iw-npc-generator .iw-ng-existence-choice:has(input:checked) .iw-ng-existence-button { border-color:var(--iw-color-bronze); background:var(--iw-color-metal-surface); box-shadow:inset 0 -2px var(--iw-color-bronze-shadow); }
+#iw-npc-generator .iw-ng-existence-choice:has(input:checked) strong { color:var(--iw-color-bronze-light); }
+#iw-npc-generator .iw-ng-existence-choice:focus-within { outline:2px solid var(--iw-color-accent); outline-offset:2px; }
+#iw-npc-generator .iw-ng-summary { margin-top:18px; padding:11px; border:1px solid var(--iw-color-line); border-top-color:var(--iw-color-bronze-shadow); border-radius:3px 10px 3px 10px; background:var(--iw-color-recess); }
+#iw-npc-generator .iw-ng-summary > header { display:flex; align-items:center; justify-content:space-between; gap:8px; padding-bottom:9px; border-bottom:1px solid var(--iw-color-line-faint); }
+#iw-npc-generator .iw-ng-main h3 { font-size:13px; font-weight:600; line-height:1.4; }
+#iw-npc-generator .iw-ng-summary header h3 { display:flex; align-items:center; gap:6px; font-size:12px; }
+#iw-npc-generator .iw-ng-summary header h3 .jj2-icon { width:14px; height:14px; }
+#iw-npc-generator .iw-ng-cr-preview { display:flex; align-items:center; gap:7px; flex:none; }
+#iw-npc-generator .iw-ng-cr-preview > span:first-child { color:var(--iw-color-muted); font-size:9px; }
+#iw-npc-generator .iw-ng-cr-value { position:relative; display:grid; place-items:center; width:32px; height:36px; color:var(--iw-color-bronze); }
+#iw-npc-generator .iw-ng-cr-value > svg { position:absolute; inset:0; width:100%; height:100%; }
+#iw-npc-generator .iw-ng-cr-value strong { color:var(--iw-color-text-warm); font-size:18px; line-height:1; font-weight:700; font-variant-numeric:tabular-nums; }
+#iw-npc-generator .iw-ng-vitals { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; padding:12px 0 10px; }
+#iw-npc-generator .iw-ng-vitals > div { min-width:0; padding-left:9px; border-left:2px solid var(--iw-color-line); }
+#iw-npc-generator .iw-ng-vitals > div[data-resource=life] { border-color:var(--iw-color-danger); }
+#iw-npc-generator .iw-ng-vitals > div[data-resource=qi] { border-color:var(--iw-color-accent-muted); }
+#iw-npc-generator .iw-ng-vitals dt { display:flex; align-items:center; gap:5px; color:var(--iw-color-muted); font-size:10px; }
+#iw-npc-generator .iw-ng-vitals .jj2-icon { width:13px; height:13px; color:inherit; }
+#iw-npc-generator .iw-ng-vitals dd { margin:3px 0 0; color:var(--iw-color-text); font-size:23px; line-height:1.2; font-weight:700; font-variant-numeric:tabular-nums; }
+#iw-npc-generator .iw-ng-economy { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; padding:9px 0; border-block:1px solid var(--iw-color-line-faint); }
+#iw-npc-generator .iw-ng-economy > div { display:flex; align-items:center; justify-content:space-between; gap:5px; min-width:0; }
+#iw-npc-generator .iw-ng-economy dt { display:flex; align-items:center; gap:4px; color:var(--iw-color-muted); font-size:9px; }
+#iw-npc-generator .iw-ng-economy dt :is(.jj2-icon,img) { flex:none; width:13px; height:15px; object-fit:contain; border:0; opacity:.8; }
+#iw-npc-generator .iw-ng-economy dd { display:flex; align-items:baseline; gap:3px; margin:0; color:var(--iw-color-text-warm); font-size:17px; line-height:1.2; font-weight:700; font-variant-numeric:tabular-nums; }
+#iw-npc-generator .iw-ng-economy dd small { color:var(--iw-color-muted); font-size:8px; font-weight:400; }
+#iw-npc-generator .iw-ng-abilities { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:9px 4px; padding:13px 0 11px; }
+#iw-npc-generator .iw-ng-abilities > div { display:flex; flex-direction:column; align-items:center; gap:3px; min-width:0; }
+#iw-npc-generator .iw-ng-abilities dt { order:2; color:var(--iw-color-muted); font-size:9px; font-weight:600; line-height:1.3; }
+#iw-npc-generator .iw-ng-abilities dd { order:1; margin:0; }
+#iw-npc-generator .iw-ng-abilities strong { position:relative; isolation:isolate; display:grid; place-items:center; width:40px; height:42px; color:var(--iw-color-accent-bright); font-size:18px; line-height:1; font-weight:700; font-variant-numeric:tabular-nums; }
+#iw-npc-generator .iw-ng-abilities strong::before { content:''; position:absolute; inset:0; z-index:-1; background:url('../assets/wuxia/attributes/frame.webp') center / contain no-repeat; opacity:.38; }
+#iw-npc-generator .iw-ng-preview-note { padding-top:8px; border-top:1px solid var(--iw-color-line-faint); color:var(--iw-color-muted); font-size:9px; line-height:1.5; }
+#iw-npc-generator .iw-ng-loot { padding-top:13px; margin-top:13px; border-top:1px solid var(--iw-color-line); }
+#iw-npc-generator .iw-ng-loot > summary { display:flex; align-items:center; gap:7px; color:var(--iw-color-text); font-size:12px; font-weight:600; cursor:pointer; }
+#iw-npc-generator .iw-ng-loot label:not(.iw-ng-field) { display:flex; align-items:start; gap:8px; margin-top:12px; cursor:pointer; }
+#iw-npc-generator .iw-ng-loot label > span { display:grid; gap:2px; }
+#iw-npc-generator .iw-ng-loot label strong { font-size:11px; font-weight:600; }
+#iw-npc-generator .iw-ng-loot label small { color:var(--iw-color-muted); font-size:10px; }
+#iw-npc-generator .iw-ng-loot .iw-ng-field { margin-top:10px; }
+#iw-npc-generator .iw-ng-editor { min-width:0; }
+#iw-npc-generator .iw-ng-panels { display:flex; align-items:center; gap:20px; padding-bottom:8px; margin-bottom:16px; border-bottom:1px solid var(--iw-color-line); }
+#iw-npc-generator .iw-ng-panels > button { justify-content:start; min-height:35px; padding:2px 0; border:0; border-radius:0; background:transparent; color:var(--iw-color-muted); font-weight:600; font-size:14px; }
+#iw-npc-generator .iw-ng-panels > button[aria-selected=true] { color:var(--iw-color-text); box-shadow:0 9px 0 -7px var(--iw-color-bronze); }
+#iw-npc-generator .iw-ng-panels small { min-width:20px; margin-left:3px; color:var(--iw-color-muted); font-size:11px; font-weight:400; }
+#iw-npc-generator .iw-ng-section-heading { padding-bottom:12px; }
+#iw-npc-generator .iw-ng-section-heading p { margin-top:5px; color:var(--iw-color-muted); font-size:11px; }
+#iw-npc-generator .iw-ng-browser { min-width:0; container:iw-ng-browser / inline-size; }
+#iw-npc-generator .iw-ng-equipment-filters { display:grid; grid-template-columns:minmax(0,1.2fr) minmax(0,1fr); gap:8px; margin-bottom:13px; }
+#iw-npc-generator .iw-ng-search { position:relative; display:flex; align-items:center; min-width:0; }
+#iw-npc-generator .iw-ng-search .jj2-icon { position:absolute; left:9px; width:15px; height:15px; color:var(--iw-color-muted); }
+#iw-npc-generator .iw-ng-search input { padding-left:31px!important; }
+#iw-npc-generator .iw-ng-equipment-browser { display:grid; grid-template-columns:115px minmax(0,1fr); gap:13px; }
+#iw-npc-generator .iw-ng-folders { max-height:400px; overflow:auto; padding-right:7px; border-right:1px solid var(--iw-color-line-faint); scrollbar-width:thin; }
+#iw-npc-generator .iw-ng-folders button { justify-content:start; gap:5px; width:100%; min-height:29px; margin-bottom:2px; padding:5px 5px; border:1px solid transparent; background:transparent; text-align:left; font-size:11px; }
+#iw-npc-generator .iw-ng-folders button span { flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+#iw-npc-generator .iw-ng-folders button small { margin-left:auto; color:var(--iw-color-subtle); font-size:9px; }
+#iw-npc-generator .iw-ng-folders button .jj2-icon { width:13px; height:13px; }
+#iw-npc-generator .iw-ng-folders button[aria-pressed=true] { border-color:var(--iw-color-line); border-left:2px solid var(--iw-color-bronze); background:var(--iw-color-selected); color:var(--iw-color-text); }
+#iw-npc-generator .iw-ng-element-folders { margin:6px 0; }
+#iw-npc-generator .iw-ng-element-folders > summary { padding:4px; color:var(--iw-color-muted); font-size:11px; cursor:pointer; }
+#iw-npc-generator .iw-ng-element-folders button { padding-left:12px; }
+#iw-npc-generator .iw-ng-equipment-results { min-width:0; }
+#iw-npc-generator .iw-ng-main h4 { font-size:13px; font-weight:600; line-height:1.4; }
+#iw-npc-generator .iw-ng-equipment-count { margin:4px 0 10px; color:var(--iw-color-muted); font-size:10px; }
+#iw-npc-generator .iw-ng-equipment-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); align-content:start; gap:8px; max-height:351px; overflow:auto; overscroll-behavior:contain; padding:1px 5px 3px 1px; scrollbar-width:thin; }
+#iw-npc-generator .iw-ng-equipment-card { position:relative; display:grid; grid-template-columns:52px minmax(0,1fr); align-items:center; gap:7px; min-width:0; min-height:80px; padding:8px 7px; border:1px solid var(--iw-color-line-faint); border-radius:3px; background:var(--iw-color-panel); cursor:pointer; }
+#iw-npc-generator .iw-ng-equipment-card > input { position:absolute; top:7px; right:7px; width:13px!important; height:13px!important; }
+#iw-npc-generator .iw-ng-equipment-card > img { display:block; width:52px; height:56px; object-fit:contain; border:0; }
+#iw-npc-generator .iw-ng-equipment-card > span { min-width:0; }
+#iw-npc-generator .iw-ng-equipment-card strong { display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; padding-right:12px; color:var(--iw-color-text); font-size:12px; font-weight:600; line-height:1.35; overflow-wrap:anywhere; }
+#iw-npc-generator .iw-ng-equipment-card small { display:block; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; margin-top:4px; color:var(--iw-color-muted); font-size:9px; }
+#iw-npc-generator .iw-ng-equipment-card:hover { border-color:var(--iw-color-line-strong); background:var(--iw-color-hover); }
+#iw-npc-generator .iw-ng-equipment-card:has(input:checked) { border-color:var(--iw-color-bronze-shadow); background:var(--iw-color-metal-surface); box-shadow:inset 2px 0 var(--iw-color-bronze); }
+#iw-npc-generator .iw-ng-equipment-card:focus-within { outline:2px solid var(--iw-color-accent); outline-offset:-2px; }
+#iw-npc-generator .iw-ng-selection { container:iw-ng-selection / inline-size; margin-top:19px; padding:12px; border:1px solid var(--iw-color-line); border-top-color:var(--iw-color-bronze-shadow); border-radius:3px 10px 3px 10px; background:var(--iw-color-recess); }
+#iw-npc-generator .iw-ng-selection > header { display:flex; align-items:center; justify-content:space-between; gap:10px; padding-bottom:10px; }
+#iw-npc-generator .iw-ng-selection > header h3 { display:flex; align-items:center; gap:7px; font-size:12px; }
+#iw-npc-generator .iw-ng-selection > header .jj2-icon { width:15px; height:15px; }
+#iw-npc-generator .iw-ng-selection-count { display:inline-flex; align-items:center; flex:none; gap:5px; padding:2px 7px; border:1px solid var(--iw-color-line-faint); border-radius:9px 2px; color:var(--iw-color-muted); font-size:10px; }
+#iw-npc-generator .iw-ng-selection-count strong { color:var(--iw-color-bronze-light); font-size:12px; font-weight:600; font-variant-numeric:tabular-nums; }
+#iw-npc-generator .iw-ng-gear-list { padding:0; list-style:none; }
+#iw-npc-generator .iw-ng-gear-list > li:not(.iw-ng-empty) { display:grid; grid-template-columns:44px minmax(0,1fr) auto; align-items:center; gap:10px; min-width:0; padding:10px 0; border-top:1px solid var(--iw-color-line-faint); }
+#iw-npc-generator .iw-ng-gear-art { display:grid; place-items:center; width:44px; height:44px; border:1px solid var(--iw-color-line); border-radius:3px 8px 3px 8px; background:var(--iw-color-panel); }
+#iw-npc-generator .iw-ng-gear-art img { display:block; width:38px; height:38px; object-fit:contain; border:0; }
+#iw-npc-generator .iw-ng-gear-list .iw-ng-gear-name { display:block; min-width:0; padding:0; border:0; border-radius:0; background:transparent; text-align:left; }
+#iw-npc-generator .iw-ng-gear-list .iw-ng-gear-name:hover { background:transparent; }
+#iw-npc-generator .iw-ng-gear-name strong { display:block; overflow-wrap:anywhere; color:var(--iw-color-text); font-size:12px; font-weight:600; line-height:1.4; }
+#iw-npc-generator .iw-ng-gear-name small { display:block; margin-top:3px; color:var(--iw-color-muted); font-size:10px; line-height:1.4; }
+#iw-npc-generator .iw-ng-gear-controls { display:grid; grid-template-columns:56px 92px 28px; align-items:center; gap:10px; }
+#iw-npc-generator .iw-ng-quantity { position:relative; display:flex; align-items:center; width:56px; min-width:0; }
+#iw-npc-generator .iw-ng-quantity > span { position:absolute; top:-7px; left:6px; padding:0 3px; color:var(--iw-color-muted); background:var(--iw-color-recess); font-size:9px; line-height:1.3; }
+#iw-npc-generator .iw-ng-main .iw-ng-quantity input { width:56px; height:31px; padding:3px; border-color:var(--iw-color-line-strong); text-align:center; color:var(--iw-color-text-warm); font-size:13px; font-weight:600; font-variant-numeric:tabular-nums; }
+#iw-npc-generator .iw-ng-equipped { display:flex; align-items:center; justify-content:center; gap:6px; min-height:31px; padding:5px 7px; border:1px solid var(--iw-color-line-faint); border-radius:3px; background:var(--iw-color-panel); color:var(--iw-color-muted); font-size:10px; cursor:pointer; }
+#iw-npc-generator .iw-ng-equipped:has(input:checked) { border-color:var(--iw-color-bronze-shadow); background:var(--iw-color-metal-surface); color:var(--iw-color-text-warm); }
+#iw-npc-generator .iw-ng-equipped:focus-within { outline:2px solid var(--iw-color-accent); outline-offset:2px; }
+#iw-npc-generator .iw-ng-main .iw-ng-equipped input { width:13px; height:13px; }
+#iw-npc-generator .iw-ng-main :is(.iw-ng-source,.iw-ng-remove) { width:28px; min-height:28px; padding:5px; border-color:transparent; background:transparent; }
+#iw-npc-generator .iw-ng-main .iw-ng-remove { color:var(--iw-color-muted); }
+#iw-npc-generator .iw-ng-remove .jj2-icon { color:inherit; width:15px; height:15px; }
+#iw-npc-generator .iw-ng-main .iw-ng-remove:hover { border-color:var(--iw-color-danger-line); background:var(--iw-color-danger-bg); color:var(--iw-color-danger-light); }
+@container iw-ng-selection (max-width:440px) {
+ #iw-npc-generator .iw-ng-gear-list > li:not(.iw-ng-empty) { grid-template-columns:44px minmax(0,1fr); gap:7px 10px; }
+ #iw-npc-generator .iw-ng-gear-art { grid-row:1 / span 2; align-self:start; }
+ #iw-npc-generator .iw-ng-gear-controls { grid-column:2; display:flex; flex-wrap:wrap; gap:8px; }
+ #iw-npc-generator .iw-ng-gear-controls .iw-ng-remove { margin-left:auto; }
+ #iw-npc-generator .iw-ng-equipped { width:92px; }
+ #iw-npc-generator .iw-ng-selection > header h3 { font-size:11px; }
+}
+#iw-npc-generator .iw-ng-feature-results { max-height:610px; overflow:auto; overscroll-behavior:contain; scrollbar-width:thin; padding-right:5px; }
+#iw-npc-generator .iw-ng-features { display:flex; flex-direction:column; gap:7px; padding:0; list-style:none; }
+#iw-npc-generator .iw-ng-features > li:not(.iw-ng-empty) { display:grid; grid-template-columns:minmax(0,1fr) 26px; align-items:center; gap:5px 8px; padding:10px; border:1px solid var(--iw-color-line-faint); border-radius:3px; background:var(--iw-color-panel); }
+#iw-npc-generator .iw-ng-features label { display:flex; align-items:center; gap:9px; min-width:0; cursor:pointer; }
+#iw-npc-generator .iw-ng-features label img { flex:none; width:36px; height:36px; object-fit:contain; border:0; }
+#iw-npc-generator .iw-ng-features label > span { min-width:0; }
+#iw-npc-generator .iw-ng-features strong { display:block; color:var(--iw-color-text); font-size:12px; font-weight:600; }
+#iw-npc-generator .iw-ng-features small { color:var(--iw-color-muted); font-size:10px; }
+#iw-npc-generator .iw-ng-features li > details { grid-column:1 / -1; padding-left:25px; }
+#iw-npc-generator .iw-ng-features summary { color:var(--iw-color-accent); font-size:10px; cursor:pointer; }
+#iw-npc-generator .iw-ng-features details p { margin-top:7px; color:var(--iw-color-muted); font-size:11px; line-height:1.6; }
+#iw-npc-generator .iw-ng-future { margin-top:17px; }
+#iw-npc-generator .iw-ng-future > summary { color:var(--iw-color-muted); font-size:12px; cursor:pointer; }
+#iw-npc-generator .iw-ng-future > .iw-ng-features { margin-top:10px; }
+#iw-npc-generator .iw-ng-empty { padding:14px 4px; color:var(--iw-color-muted); font-size:11px; line-height:1.6; }
+#iw-npc-generator .iw-ng-validation { padding:9px 0 0 17px; color:var(--iw-color-danger-light); font-size:11px; }
+#iw-npc-generator .iw-ng-warnings { margin-top:12px; color:var(--iw-color-muted); font-size:11px; }
+#iw-npc-generator .iw-ng-error { margin:0; padding:10px 20px; border-top:1px solid var(--iw-color-danger-line); color:var(--iw-color-danger-light); background:var(--iw-color-danger-bg); }
+#iw-npc-generator .iw-ng-footer { display:flex; align-items:center; flex:none; gap:9px; padding:12px 20px; border-top:1px solid var(--iw-color-line); background:var(--iw-color-panel); }
+#iw-npc-generator .iw-ng-footer > span { flex:1; min-width:0; color:var(--iw-color-muted); font-size:10px; }
+#iw-npc-generator .iw-ng-footer > button { flex:none; min-height:36px; min-width:95px; }
+#iw-npc-generator .iw-ng-footer > .iw-ng-create { min-width:144px; color:var(--iw-color-text-warm); border-color:var(--iw-color-bronze); background:var(--iw-color-metal-raised); font-weight:600; }
+#iw-npc-generator .iw-ng-loading { padding:24px; }
+@container iw-ng-browser (max-width:500px) { #iw-npc-generator .iw-ng-equipment-list { grid-template-columns:minmax(0,1fr); } }
+@container iw-npc-generator (max-width:820px) {
+ #iw-npc-generator .iw-ng-workspace { grid-template-columns:minmax(0,1fr); gap:20px; }
+ #iw-npc-generator .iw-ng-profile { padding:14px; }
+ #iw-npc-generator .iw-ng-scroll { padding:14px; }
+ #iw-npc-generator .iw-ng-equipment-list { max-height:360px; }
+ #iw-npc-generator .iw-ng-banner { padding-inline:14px; }
+}
+@container iw-npc-generator (max-width:480px) {
+ #iw-npc-generator .iw-ng-banner > img { width:46px; height:46px; }
+ #iw-npc-generator .iw-ng-banner { min-height:76px; gap:9px; }
+ #iw-npc-generator .iw-ng-banner h2 { font-size:23px; }
+ #iw-npc-generator .iw-ng-banner p { max-width:210px; font-size:10px; }
+ #iw-npc-generator .iw-ng-edition { display:none; }
+ #iw-npc-generator .iw-ng-equipment-browser { grid-template-columns:96px minmax(0,1fr); gap:8px; }
+ #iw-npc-generator .iw-ng-equipment-filters { grid-template-columns:minmax(0,1fr); }
+ #iw-npc-generator .iw-ng-footer { flex-wrap:wrap; padding:10px 14px; }
+ #iw-npc-generator .iw-ng-footer > span { flex-basis:100%; }
+ #iw-npc-generator .iw-ng-footer > button { flex:1; }
+}

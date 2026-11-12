@@ -1,0 +1,177 @@
+name: Berserker
+type: archetype
+folder: 53154a640414559d
+system:
+  description:
+    value: >-
+      <p>Entrega-se à fúria e mantém uma sequência de golpes agressivos. Usa a Força e os próprios ferimentos para
+      intensificar a ofensiva e responder a cada ataque.</p><p><strong>Resistência por ND:</strong> Físicos +1 |
+      Psíquico +1</p><p><strong>Vulnerabilidade:</strong> Veneno −6 | Ácido −6</p><p><strong>Deslocamento:</strong>
+      Caminhada: 10 m (fixo)</p><p><strong>Armaduras:</strong> Nenhuma.</p><p><strong>Perícias:</strong> Proficiências:
+      Atletismo, Intimidação, Sobrevivência e Percepção.</p><p><strong>Salvaguardas:</strong> Proficiências: Fortitude e
+      Vontade.</p><p><strong>Aspectos:</strong> Fúria, Frenesi de Sangue, Ferimento Enfurecedor, Agressivo, Descuidado,
+      Fanático, Implacável, Corpo Resistente, Sede de Sangue, Força Descomunal.</p><p><strong>Habilidades:</strong>
+      Golpe Duplo, Golpe Giratório, Golpe Esmagador, Investida, Impacto Atordoante, Contra-Golpe, Ataque em Cadeia,
+      Grito de Guerra, Enrijecer Músculos, Terremoto.</p><p><strong>Reações:</strong> Fúria Reativa, Contra-Golpe,
+      Ignorar Dor.</p>
+    chat: ''
+  identifier: berserker
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 4
+    dex: 3
+    con: 3
+    int: 0
+    wis: 1
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: 1
+      immune: false
+    piercing:
+      value: 1
+      immune: false
+    slashing:
+      value: 1
+      immune: false
+    acid:
+      value: -6
+      immune: false
+    poison:
+      value: -6
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 1
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ath
+      - skills.itm
+      - skills.sur
+      - skills.prc
+      - saves.str
+      - saves.wis
+      - saves.con
+      - saves.cha
+    alternative:
+      - skills.ath
+      - skills.itm
+      - skills.sur
+      - skills.prc
+      - alternativeSaves.fortitude
+      - alternativeSaves.vontade
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4e065b4c8fa19cff
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9149d2bde056a98a
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53d435a7250164af
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.05d16addb258c9b6
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.77a0b5147a32f481
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bd5ffa57c1f404a
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.1a2c7d04572fb42e
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f0d3c647f89cbdab
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.a768d6db7abb6d1d
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bfd51c9ea7cf377
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9f58c17ca809238a
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.935c1c39e5333fd6
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.fef42e1c5f273c51
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.0ed691df48afe037
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6bd7d97c6b3853b2
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.dba6e75422ac79f4
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7603853cf6050958
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.a1113fe1c7ca7100
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.569c09e7a5aa4734
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f40e787e68a26164
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4547dce6ef214cf3
+      nd: 11
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+  equipamentos:
+    armadura: null
+    armas: []
+  movimento:
+    ganho: 0
+    intervalo: 1
+    maximo: null
+_id: 7k9ZQRZLVuL3Nb6n
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/berserker.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:berserker
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 7k9ZQRZLVuL3Nb6n
+_key: '!items!7k9ZQRZLVuL3Nb6n'

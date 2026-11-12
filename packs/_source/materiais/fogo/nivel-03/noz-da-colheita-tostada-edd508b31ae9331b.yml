@@ -1,0 +1,53 @@
+_id: edd508b31ae9331b
+_key: '!items!edd508b31ae9331b'
+name: Noz da Brasa Encerrada
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/edd508b31ae9331b.webp
+system:
+  identifier: material-alquimia-edd508b31ae9331b
+  description:
+    value: <p><strong>Elemento:</strong> Fogo · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Planta</p><p>A nogueira nasce onde o Qi ígneo se acumula sob argila selada, encerrando em cada noz uma polpa dourada protegida por casca fria. Seu óleo alimenta matrizes de restauração sem liberar calor de uma só vez, sendo valorizado em preparados de esforço prolongado.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 1000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: e94d1872852c0748
+sort: 4900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: fogo
+      elementLabel: Fogo
+      level: 3
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/fogo.json
+        originalName: Noz da Colheita Tostada
+        sha256: ba1a23c0b606945bb3806834a346654c7369238959758f3d2c8d2c74258f92bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

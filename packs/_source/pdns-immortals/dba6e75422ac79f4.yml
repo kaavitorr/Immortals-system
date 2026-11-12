@@ -1,0 +1,78 @@
+_id: dba6e75422ac79f4
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:123
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: dba6e75422ac79f4
+name: Grito de Guerra
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢</strong></p><p>Ao gastar 6 PQ, a criatura emite um grito aterrador que abala os inimigos e
+      aumenta o ímpeto dos aliados. Ela e todas as criaturas aliadas recebem 5 Pontos de Resistência a todos os tipos de
+      dano até o início do próximo turno dela.</p>
+    chat: ''
+  identifier: grito-de-guerra
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    4dcee5b94de889a0:
+      _id: 4dcee5b94de889a0
+      type: utility
+      name: Grito de Guerra
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '6'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 6 PQ, a criatura emite um grito aterrador que abala os inimigos e aumenta o ímpeto dos aliados.
+          Ela e todas as criaturas aliadas recebem 5 Pontos de Resistência a todos os tipos de dano até o início do
+          próximo turno dela.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/grito-de-guerra-dba6e75422ac79f4.webp"
+_key: '!items!dba6e75422ac79f4'

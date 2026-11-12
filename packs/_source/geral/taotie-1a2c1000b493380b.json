@@ -1,0 +1,57 @@
+{
+  "_id": "1a2c1000b493380b",
+  "name": "Taotie",
+  "type": "feat",
+  "folder": "1a2c000000000003",
+  "img": "systems/Immortals-system/assets/wuxia/ancestralidades-variantes-pintadas-v1/taotie.webp",
+  "system": {
+    "identifier": "especie-f7f676cb",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Uma criatura que lembra um javali com um longo rabo de lagarto. Ela representa a gula e possui uma habilidade estranha de poder engolir uma quantidade enorme de coisas sem nunca se encher, sendo a representação da gula.</p><p>Raridade: Extremamente Raro.</p><p>Afinidade: Espaço* (Ao possuir essa ancestralidade, role 1d20. Em um resultado de 16 ou maior, você recebe afinidade ao espaço, caso contrário não possui nenhuma afinidade).</p><p>Característica Única: É capaz de comer monstros, pedras espirituais e tesouros naturais como ervas para recuperar seu QI e avançar nos Ranks. Caso coma algo de 2 Ranks acima ou mais, seu corpo explode e você morre instantaneamente.</p><p>Ao comer um Cristal de Essência, você recupera 5 Pontos de Qi (PQ) para cada PEQ no cristal. Ao recuperar um valor igual ao seu valor máximo de Qi, você não pode se beneficiar desse efeito novamente até realizar um descanso longo.</p>"
+    },
+    "advancement": {},
+    "activities": {
+      "1a2c100009c9b152": {
+        "_id": "1a2c100009c9b152",
+        "type": "utility",
+        "name": "Verificar afinidade com Espaço",
+        "activation": {
+          "type": "",
+          "value": 0
+        },
+        "consumption": {
+          "targets": [],
+          "spellSlot": false
+        },
+        "target": {
+          "affects": {
+            "type": "self"
+          },
+          "prompt": false
+        },
+        "range": {
+          "units": "self"
+        },
+        "roll": {
+          "formula": "1d20",
+          "name": "16 ou mais: afinidade com Espaço",
+          "prompt": false,
+          "visible": true
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Taotie",
+      "speciesLineage": true,
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000b493380b"
+}

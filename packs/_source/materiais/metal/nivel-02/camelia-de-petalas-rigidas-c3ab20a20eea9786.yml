@@ -1,0 +1,53 @@
+_id: c3ab20a20eea9786
+_key: '!items!c3ab20a20eea9786'
+name: Camélia de Pétalas Rígidas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/c3ab20a20eea9786.webp
+system:
+  identifier: material-alquimia-c3ab20a20eea9786
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>Esta camélia floresce em fendas de Qi metálico e constrói pétalas em lâminas sobrepostas que quebram com uma nota limpa. O óleo extraído preserva a ordem dessas camadas, sendo usado em pastas alquímicas que dão firmeza à pele antes de exercícios de resistência.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 7633a1c049da1357
+sort: 2800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Camélia de Pétalas Rígidas
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

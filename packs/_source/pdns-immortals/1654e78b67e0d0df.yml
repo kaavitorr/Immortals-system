@@ -1,0 +1,77 @@
+_id: 1654e78b67e0d0df
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:170
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 1654e78b67e0d0df
+name: Tiro de Cobertura
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p>Ao ativar essa habilidade gastando 10 PQ, você assume uma posição confortável para ajudar seus aliados dentro
+      de um alcance de 10 metros + 1 para cada ND seu. Toda vez que uma criatura usar uma ação com a palavra-chave
+      “Reação”, você pode gastar 1 Ponto de Ação para realizar uma jogada de ataque (Comum) à distância contra ela como
+      “Reação”. O alvo é obrigado a gastar 2 PQ adicionais para continuar a reação; caso contrário, ela é
+      interrompida.</p>
+    chat: ''
+  identifier: tiro-de-cobertura
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    ef803724d1428c4a:
+      _id: ef803724d1428c4a
+      type: utility
+      name: Tiro de Cobertura
+      activation:
+        type: action
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Ao ativar essa habilidade gastando 10 PQ, você assume uma posição confortável para ajudar seus aliados
+          dentro de um alcance de 10 metros + 1 para cada ND seu. Toda vez que uma criatura usar uma ação com a
+          palavra-chave “Reação”, você pode gastar 1 Ponto de Ação para realizar uma jogada de ataque (Comum) à
+          distância contra ela como “Reação”. O alvo é obrigado a gastar 2 PQ adicionais para continuar a reação; caso
+          contrário, ela é interrompida.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 8
+  prerequisites:
+    items: []
+    level: 8
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/tiro-de-cobertura-1654e78b67e0d0df.webp"
+_key: '!items!1654e78b67e0d0df'

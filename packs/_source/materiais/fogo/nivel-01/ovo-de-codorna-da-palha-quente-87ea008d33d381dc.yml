@@ -1,0 +1,53 @@
+_id: 87ea008d33d381dc
+_key: '!items!87ea008d33d381dc'
+name: Ovo de Codorna do Ninho de Brasa
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/87ea008d33d381dc.webp
+system:
+  identifier: material-alquimia-87ea008d33d381dc
+  description:
+    value: <p><strong>Elemento:</strong> Fogo · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Parte de animal</p><p>A codorna do Ninho de Brasa aquece os ovos com um halo de Qi preso às penas e faz seus ninhos em cavidades de rocha ígnea. A gema encerra calor vital brando, usado como veículo em elixires destinados à recuperação do fôlego e da força.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 00fb5377e2f8d2b2
+sort: 1600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: fogo
+      elementLabel: Fogo
+      level: 1
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/fogo.json
+        originalName: Ovo de Codorna da Palha Quente
+        sha256: ba1a23c0b606945bb3806834a346654c7369238959758f3d2c8d2c74258f92bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

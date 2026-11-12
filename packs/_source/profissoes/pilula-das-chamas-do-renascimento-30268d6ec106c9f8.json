@@ -1,0 +1,190 @@
+{
+  "_id": "30268d6ec106c9f8",
+  "name": "Pílula das Chamas do Renascimento",
+  "type": "consumable",
+  "folder": "3ec1f795631fd283",
+  "img": "systems/Immortals-system/assets/wuxia/pilulas-pintadas-v1/pilula-das-chamas-do-renascimento.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-pilula-das-chamas-do-renascimento",
+    "type": {
+      "value": "potion"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 7. <strong>Qualidade:</strong> Inferior.</p><h3>PÍLULA DAS CHAMAS DO RENASCIMENTO</h3>\n<table><tbody><tr><td>Multiplicador de Toxina: x 20</td><td>Nível: 7</td><td>Classe de Dificuldade: 25</td></tr></tbody></table>\n<p>Uma pílula de extremamente rara por precisar utilizar as chamas de uma fênix de nível Lorde Sagrado ou acima para ser criada. Ela permite que uma criatura recupere todos os Pontos de Vida e Qi no corpo dela, fazendo com que ela levante, caso tenha caído.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>500% do valor de criação / cada</td></tr><tr><td>Quantidade</td><td>A cada refinamento, você consegue gerar uma pílula, não importa a qualidade.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar o efeito descrito no uso da pílula e conferir Rank, duração e restrições com o mestre. A posse da pílula não ativa seus efeitos. A qualidade da pílula é determinada somente pela margem do teste de Criação; os testes exigidos ainda precisam passar. O consumo usa uma unidade da pilha e registra as toxinas. Resolva o efeito descrito com o narrador, incluindo requisitos, duração e eventuais benefícios ou consequências permanentes. Possuir a pílula não concede seus efeitos.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 120 Cristais de Essência Sagrado Comum. <strong>Venda por unidade:</strong> 600 Cristais de Essência Sagrado Comum.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"pilula-das-chamas-do-renascimento:7:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 7</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/1f1dcddb8f5e22af.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"1f1dcddb8f5e22af\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.1f1dcddb8f5e22af\">Gengibre dos Nove Nós</a><small>matriz de restauração superior</small></div><span class=\"iw-recipe-price\" title=\"30 Cristais de Essência Sagrado Comum por unidade\">30 Cristais de Essência Sagrado Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/vento/af4692120b526235.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"af4692120b526235\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.af4692120b526235\">Esporos das Correntes Milenares</a><small>princípio de reanimação de cultivador em colapso</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Sagrado Comum por unidade\">40 Cristais de Essência Sagrado Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/2a00e52e9c8fa5b6.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"2a00e52e9c8fa5b6\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.2a00e52e9c8fa5b6\">Fruto Crepitante das Ilhas</a><small>recomposição do Qi gasto</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Sagrado Comum por unidade\">40 Cristais de Essência Sagrado Comum</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-07/2c672944732fa936.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"2c672944732fa936\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.2c672944732fa936\">Cinza da Chama Silenciosa</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"10 Cristais de Essência Sagrado Comum por unidade\">10 Cristais de Essência Sagrado Comum</span></li></ol><footer><span>Custo dos componentes</span><strong>120 Cristais de Essência Sagrado Comum</strong></footer><p class=\"iw-recipe-note\">Exige também as chamas de uma fênix de nível Lorde Sagrado ou superior.</p></section>"
+    },
+    "activities": {
+      "197002a0e261dd02": {
+        "_id": "197002a0e261dd02",
+        "type": "utility",
+        "name": "Consumir pílula (resolver efeito)",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 7. <strong>Qualidade:</strong> Inferior.</p><h3>PÍLULA DAS CHAMAS DO RENASCIMENTO</h3>\n<table><tbody><tr><td>Multiplicador de Toxina: x 20</td><td>Nível: 7</td><td>Classe de Dificuldade: 25</td></tr></tbody></table>\n<p>Uma pílula de extremamente rara por precisar utilizar as chamas de uma fênix de nível Lorde Sagrado ou acima para ser criada. Ela permite que uma criatura recupere todos os Pontos de Vida e Qi no corpo dela, fazendo com que ela levante, caso tenha caído.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>500% do valor de criação / cada</td></tr><tr><td>Quantidade</td><td>A cada refinamento, você consegue gerar uma pílula, não importa a qualidade.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar o efeito descrito no uso da pílula e conferir Rank, duração e restrições com o mestre. A posse da pílula não ativa seus efeitos. A qualidade da pílula é determinada somente pela margem do teste de Criação; os testes exigidos ainda precisam passar. O consumo usa uma unidade da pilha e registra as toxinas. Resolva o efeito descrito com o narrador, incluindo requisitos, duração e eventuais benefícios ou consequências permanentes. Possuir a pílula não concede seus efeitos.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 120 Cristais de Essência Sagrado Comum. <strong>Venda por unidade:</strong> 600 Cristais de Essência Sagrado Comum.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"pilula-das-chamas-do-renascimento:7:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 7</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/1f1dcddb8f5e22af.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"1f1dcddb8f5e22af\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.1f1dcddb8f5e22af\">Gengibre dos Nove Nós</a><small>matriz de restauração superior</small></div><span class=\"iw-recipe-price\" title=\"30 Cristais de Essência Sagrado Comum por unidade\">30 Cristais de Essência Sagrado Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/vento/af4692120b526235.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"af4692120b526235\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.af4692120b526235\">Esporos das Correntes Milenares</a><small>princípio de reanimação de cultivador em colapso</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Sagrado Comum por unidade\">40 Cristais de Essência Sagrado Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/2a00e52e9c8fa5b6.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"2a00e52e9c8fa5b6\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.2a00e52e9c8fa5b6\">Fruto Crepitante das Ilhas</a><small>recomposição do Qi gasto</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Sagrado Comum por unidade\">40 Cristais de Essência Sagrado Comum</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-07/2c672944732fa936.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"2c672944732fa936\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.2c672944732fa936\">Cinza da Chama Silenciosa</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"10 Cristais de Essência Sagrado Comum por unidade\">10 Cristais de Essência Sagrado Comum</span></li></ol><footer><span>Custo dos componentes</span><strong>120 Cristais de Essência Sagrado Comum</strong></footer><p class=\"iw-recipe-note\">Exige também as chamas de uma fênix de nível Lorde Sagrado ou superior.</p></section>",
+          "chatFlavor": "Pílula das Chamas do Renascimento — Consumir pílula (resolver efeito)"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "pilula-das-chamas-do-renascimento",
+              "key": "consume",
+              "level": 7,
+              "quality": "inferior",
+              "manualResolution": true,
+              "consumeItem": true,
+              "rule": "pilula-das-chamas-do-renascimento",
+              "poison": 400,
+              "restoreAllHitPoints": true,
+              "restoreAllRefinedQi": true,
+              "requiresPhoenixFlames": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Consumir pílula (resolver efeito)",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/pilulas-pintadas-v1/pilula-das-chamas-do-renascimento.webp"
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "price": {
+      "value": 600,
+      "denomination": "essence-sacred"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "pilula-das-chamas-do-renascimento",
+        "kind": "pill",
+        "profession": "alchemy",
+        "level": 7,
+        "quality": "inferior"
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 7,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 5000,
+          "materials": 100,
+          "currency": "spiritualCrystals",
+          "rank": "sacred"
+        },
+        "creationPercent": 25000,
+        "salePercent": 500,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 120,
+          "currency": "spiritualCrystals",
+          "rank": "sacred"
+        },
+        "sale": {
+          "amount": 600,
+          "currency": "spiritualCrystals",
+          "rank": "sacred"
+        },
+        "referenceCreation": {
+          "amount": 25000,
+          "currency": "spiritualCrystals",
+          "rank": "sacred"
+        },
+        "referenceSale": {
+          "amount": 125000,
+          "currency": "spiritualCrystals",
+          "rank": "sacred"
+        }
+      },
+      "professionProductAutomation": {
+        "rules": [
+          {
+            "type": "pillToxins",
+            "quality": "inferior",
+            "base": 20,
+            "multiplier": 20,
+            "value": 400
+          }
+        ],
+        "manual": [
+          "Aplicar o efeito descrito no uso da pílula e conferir Rank, duração e restrições com o mestre. A posse da pílula não ativa seus efeitos.",
+          "A qualidade da pílula é determinada somente pela margem do teste de Criação; os testes exigidos ainda precisam passar.",
+          "O consumo usa uma unidade da pilha e registra as toxinas. Resolva o efeito descrito com o narrador, incluindo requisitos, duração e eventuais benefícios ou consequências permanentes. Possuir a pílula não concede seus efeitos."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!30268d6ec106c9f8"
+}

@@ -1,0 +1,53 @@
+_id: 87d82a0943a3b571
+_key: '!items!87d82a0943a3b571'
+name: Romã das Idades Simultâneas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/87d82a0943a3b571.webp
+system:
+  identifier: material-alquimia-87d82a0943a3b571
+  description:
+    value: '<p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Planta</p><p>Cada semente reflete quem parte a romã numa idade diferente: criança, guerreiro ou ancião de cabelos brancos. Seu suco, em poções, devolve por uma tarde a agilidade da idade refletida.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>'
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 2a998700f944fbd5
+sort: 14900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 8
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Romã das Idades Simultâneas
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

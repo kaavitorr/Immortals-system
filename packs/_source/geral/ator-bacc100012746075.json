@@ -1,0 +1,80 @@
+{
+  "_id": "bacc100012746075",
+  "name": "Ator",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/ator.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-ator",
+    "description": {
+      "value": "<p>Um ator é aquele que faz do seu trabalho ser um rei da mentira, interpretar um personagem parecido ou totalmente diferente de você e convencer as massas de que aquilo é sua verdadeira personalidade. Quando um ator está fazendo seu trabalho com excelência, você raramente irá saber se ele está mentindo ou falando a verdade.</p><h3>Equipamentos iniciais</h3><p>Dois kits de disfarce e túnicas luxuosas. <strong>100 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc200012746075]{Atuação Estupenda}</h3><p>Sua habilidade em atuar é algo de tirar o fôlego de alguns, fazendo com que você possa até convencer um vegano a comer carne caso esteja empenhado o suficiente. Desde que sua atuação (Interpretativa) seja aceitável, você pode rolar um Teste de Sorte CD 16. Em caso de sucesso, você passa automaticamente em um teste de interação social. Essa habilidade pode ser utilizada uma vez por dia, recuperando seu uso após o fim de um descanso longo.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc500012746075",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 100,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc300012746075": {
+        "_id": "bacc300012746075",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc200012746075",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc700012746075": {
+        "_id": "bacc700012746075",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.disguiseToolkit0",
+              "quantity": 2,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.dressClothing000",
+              "quantity": 1,
+              "optional": false
+            }
+          ],
+          "currency": {
+            "gp": 100
+          },
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "ator",
+        "startingGold": 100,
+        "equipment": "Dois kits de disfarce e túnicas luxuosas."
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc100012746075"
+}

@@ -1,0 +1,13 @@
+_id: 71f71570300be19d
+_key: '!folders!71f71570300be19d'
+name: Nível 2
+type: Item
+folder: c850a5148710bf94
+sorting: a
+sort: 200000
+color: '#365f78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: agua
+      level: 2

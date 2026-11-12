@@ -1,0 +1,44 @@
+{
+  "_id": "a619b28158c738f3",
+  "name": "Movimento Suave",
+  "type": "feat",
+  "folder": "d2652f7aa9b40d98",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/movimento-suave.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-movimento-suave",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Combate Veloz.</p><h2>Movimento Suave</h2><p>Toda vez que você executa uma técnica, você pode se mover 5 metros em qualquer direção e 2 metros se for um ataque comum. Adicionalmente, toda vez que você usar uma reação, você impõe uma desvantagem em uma rolagem de acerto contra você.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "movimento-suave",
+        "categoria": "Adaptação Física",
+        "caminho": "Combate Veloz",
+        "requisitos": [],
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "smoothMovement",
+            "techniqueMeters": 5,
+            "commonAttackMeters": 2,
+            "reactionAttackDisadvantage": 1
+          }
+        ],
+        "manual": [],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!a619b28158c738f3"
+}

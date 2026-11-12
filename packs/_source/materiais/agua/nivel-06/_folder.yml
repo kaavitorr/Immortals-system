@@ -1,0 +1,13 @@
+_id: 11b23a4f0477dbd7
+_key: '!folders!11b23a4f0477dbd7'
+name: Nível 6
+type: Item
+folder: c850a5148710bf94
+sorting: a
+sort: 600000
+color: '#365f78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: agua
+      level: 6

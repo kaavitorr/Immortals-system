@@ -1,0 +1,205 @@
+_id: jjnat00000000020
+name: Mordida Frigida
+type: weapon
+img: systems/Immortals-system/assets/wuxia/equipamentos-pdn-pintados-v1/jjnat00000000020-mordida-frigida.webp
+system:
+  type:
+    value: natural
+    baseItem: ''
+  identified: true
+  description:
+    value: >-
+      <p>Ataque natural corpo a corpo. Dano Frio conforme a Escala de Dano do nível de cultivo, somado ao valor inteiro
+      do atributo usado no ataque.</p><p>Adiciona 1 dado do mesmo tipo da escala a cada 4 níveis de cultivo
+      completos.</p><p><strong>Ao atingir:</strong> aplica Congelando, com a duração indicada no efeito.</p><p>Este
+      ataque custa 1 Ponto de Ação adicional em relação ao ataque natural comum.</p><p><strong>Custo:</strong> 3 Pontos
+      de Ação. Não consome Qi Refinado; gastos opcionais de energia são configurados no uso.</p>
+    chat: ''
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  equipped: false
+  activities:
+    jjnat00000000020:
+      _id: jjnat00000000020
+      type: attack
+      name: Ataque
+      sort: 0
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: '@escala + @mod@escalaExtra'
+            types:
+              - cold
+            modifiers: []
+            scaling:
+              number: 1
+        critical: {}
+        includeBase: false
+      attack:
+        ability: ''
+        bonus: ''
+        flat: false
+        type:
+          value: melee
+          classification: ''
+        critical: {}
+      effects:
+        - _id: jjnatfx000000004
+          level:
+            min: 0
+            max: 0
+          uuid: null
+      img: systems/Immortals-system/assets/wuxia/equipamentos-pdn-pintados-v1/jjnat00000000020-mordida-frigida.webp
+      activation:
+        type: action
+        override: true
+        value: 3
+      behaviors: []
+      description:
+        value: ''
+      jjScale:
+        enabled: false
+        cost: 1
+        maxPA: 0
+      constantCost:
+        enabled: false
+        pool: generated
+        concentration: false
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: m
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      modifiers: []
+      scaling:
+        number: 1
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      modifiers: []
+      scaling:
+        number: 1
+  uses:
+    spent: 0
+    recovery: []
+  identifier: mordida-frigida
+  source:
+    revision: 1
+    rules: '2024'
+  unidentified:
+    description: ''
+  container: null
+  price:
+    value: 0
+    denomination: gp
+  rarities: []
+  attunement: ''
+  attuned: false
+  crew:
+    value: []
+  ammunition: {}
+  armor: {}
+  properties: []
+  proficient: null
+  range:
+    units: m
+flags:
+  Immortals-system:
+    ataqueNatural: true
+    danoExtraPorNd: true
+    custoPA: 3
+    modificador: 'Frio + 1 dado de dano a cada 4 nível de cultivo · Condição ao atingir: Congelando'
+    elemento: cold
+    condicaoAoAtingir: Congelando
+    equipmentPdn:
+      version: 1
+      source: Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000020
+      previousImg: systems/Immortals-system/icons/svg/items/weapon.svg
+      descriptionHashesBefore:
+        - 636d8b91
+        - 86b1081
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: equipamento-pdn
+      documentId: jjnat00000000020
+effects:
+  - _id: jjnatfx000000004
+    name: Congelando
+    img: systems/Immortals-system/icons/svg/damage/cold.svg
+    origin: null
+    duration:
+      value: 1
+      units: rounds
+      expiry: turnStart
+      expired: false
+    statuses:
+      - jj-congelando
+      - jj-lento
+    transfer: false
+    disabled: false
+    flags:
+      Immortals-system:
+        isJujutsuCondition: true
+        condicaoDano:
+          chave: cold
+          save: con
+          cd: null
+    type: base
+    system:
+      changes: []
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: null
+        message: null
+      conditions: '{}'
+      magical: false
+      rider:
+        statuses: []
+    start: null
+    description: ''
+    tint: '#ffffff'
+    showIcon: 1
+    folder: null
+    sort: 0
+    _key: '!items.effects!jjnat00000000020.jjnatfx000000004'
+folder: SdzWEVLhnoHcahGw
+sort: 0
+_key: '!items!jjnat00000000020'

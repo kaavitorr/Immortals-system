@@ -1,0 +1,53 @@
+_id: c0aebce357701a5d
+_key: '!items!c0aebce357701a5d'
+name: Bile de Dragão de Gelo
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/c0aebce357701a5d.webp
+system:
+  identifier: material-alquimia-c0aebce357701a5d
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Parte de animal</p><p>Bile azul-gelo retirada de um dragão morto há um século, ainda fria. Diluída gota a gota, elimina doenças ardentes e acalma o Qi descontrolado.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d033fae8a35cbeb7
+sort: 15200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 8
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Bílis de Dragão de Gelo
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

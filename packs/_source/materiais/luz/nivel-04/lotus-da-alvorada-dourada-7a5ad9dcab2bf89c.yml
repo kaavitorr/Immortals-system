@@ -1,0 +1,53 @@
+_id: 7a5ad9dcab2bf89c
+_key: '!items!7a5ad9dcab2bf89c'
+name: Lótus da Alvorada Dourada
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/7a5ad9dcab2bf89c.webp
+system:
+  identifier: material-alquimia-7a5ad9dcab2bf89c
+  description:
+    value: <p><strong>Elemento:</strong> Luz · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Planta</p><p>Lótus que floresce em lagos de montanha minutos antes do sol, abrindo pétalas de um dourado sereno. É base de pílulas que limpam o Qi das impurezas do cansaço.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: eb92545fa4badbb5
+sort: 6100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: luz
+      elementLabel: Luz
+      level: 4
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/luz.json
+        originalName: Lótus da Alvorada Dourada
+        sha256: a65d9c475ce3e69bcab79896f06bd1f00a0fcc1e5a6329d0e4735711f2236288
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

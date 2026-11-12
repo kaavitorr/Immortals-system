@@ -1,0 +1,64 @@
+_id: grapnel000000000
+_key: '!items!grapnel000000000'
+name: Gancho de Escalada
+type: tool
+img: icons/tools/fishing/hook-multi-steel-brown.webp
+system:
+  identifier: tool-grapplinghook
+  description:
+    value: >-
+      <p>Gancho de aço simples de duas ou quatro pontas, projetado para uso com corda ou corrente a fim de fixá-la em
+      estruturas de madeira.</p><p><strong>Propriedades:</strong> Empilhável.</p><p><strong>Profissões e
+      conhecimentos:</strong> Atletismo.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 3
+    units: kg
+  price:
+    value: 200
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: ''
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: 7LUkTLEZvS60KVBp
+sort: 1100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: grapnel000000000
+      sourceType: tool
+      category: implement
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

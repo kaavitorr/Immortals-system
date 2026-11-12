@@ -1,0 +1,160 @@
+_id: dartGun000000000
+_key: '!items!dartGun000000000'
+name: Zarabatana
+type: weapon
+img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/zarabatana.webp
+system:
+  identifier: dartgun
+  description:
+    value: >-
+      <p>Arma tubular compacta projetada para lançar silenciosamente pequenos projéteis, frequentemente envenenados; a
+      arma de dardos é favorecida por assassinos, domadores de feras e alquimistas das
+      sombras.</p><p><strong>Propriedades:</strong> Emboscada.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 2
+    units: kg
+  price:
+    value: 160
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - amm
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    1e3de42a3b6592b5:
+      _id: 1e3de42a3b6592b5
+      type: attack
+      name: Ataque
+      img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/zarabatana.webp
+      sort: 0
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      attack:
+        ability: ''
+        bonus: ''
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+        critical:
+          threshold: null
+      damage:
+        includeBase: true
+        parts: []
+        critical:
+          bonus: ''
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: m
+        value: 60
+        override: true
+        special: ''
+      target:
+        override: false
+        prompt: true
+        template:
+          type: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+  type:
+    value: martialR
+    baseItem: ''
+  ammunition:
+    type: arrow
+  range:
+    units: m
+    value: 60
+    long: null
+    reach: null
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - piercing
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - piercing
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+effects: []
+folder: NNHjWBS5AM148J20
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: dartGun000000000
+      sourceType: weapon
+      category: projectile1
+      quality: despertado
+      enchantment: mundane
+      properties:
+        - ambush
+      weaponDamagePending: true
+      manualEffects: []

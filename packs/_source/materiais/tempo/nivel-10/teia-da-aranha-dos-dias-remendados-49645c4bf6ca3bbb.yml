@@ -1,0 +1,53 @@
+_id: 49645c4bf6ca3bbb
+_key: '!items!49645c4bf6ca3bbb'
+name: Teia da Aranha dos Dias Remendados
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/tempo/49645c4bf6ca3bbb.webp
+system:
+  identifier: material-alquimia-49645c4bf6ca3bbb
+  description:
+    value: <p><strong>Elemento:</strong> Tempo · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Parte de animal</p><p>Quando um dia se rompe por calamidade, esta aranha remenda a rasgadura fio a fio. Um fio atado ao pulso segura a vida por mais um dia exato.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: c271d0501f993cf0
+sort: 20000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: tempo
+      elementLabel: Tempo
+      level: 10
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/tempo.json
+        originalName: Teia da Aranha dos Dias Remendados
+        sha256: 78c1decf6231b4f084096c5432683d625516dd37d65e516e424b199307cc5107
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

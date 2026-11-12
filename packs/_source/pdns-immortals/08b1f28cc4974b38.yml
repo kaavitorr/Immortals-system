@@ -1,0 +1,80 @@
+_id: 08b1f28cc4974b38
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:229
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 08b1f28cc4974b38
+name: Olhar Reativo
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢ · Reação</strong></p><p>Quando uma criatura a até 15 metros realizar uma rolagem de acerto
+      contra essa criatura, ela pode gastar 3 PQ para enviar uma onda psíquica através dos olhos contra a criatura
+      atacante. Se a atacante puder ver o hipnotizador, deve realizar uma Salvaguarda de Vontade para não receber a
+      condição “Enfeitiçado” até o fim do turno atual.</p>
+    chat: ''
+  identifier: olhar-reativo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    bffee346488eb5bc:
+      _id: bffee346488eb5bc
+      type: utility
+      name: Olhar Reativo
+      activation:
+        type: reaction
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '3'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Quando uma criatura a até 15 metros realizar uma rolagem de acerto contra essa criatura, ela pode gastar 3
+          PQ para enviar uma onda psíquica através dos olhos contra a criatura atacante. Se a atacante puder ver o
+          hipnotizador, deve realizar uma Salvaguarda de Vontade para não receber a condição “Enfeitiçado” até o fim do
+          turno atual.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/olhar-reativo-08b1f28cc4974b38.webp"
+_key: '!items!08b1f28cc4974b38'

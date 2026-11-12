@@ -1,0 +1,60 @@
+<section class="tab {{tab.cssClass}} jj2-page iw-cultivation-manual" data-tab="{{tab.id}}" data-group="{{tab.group}}">
+  {{#unless manual.hidden}}
+  <div class="iw-tab-heading"><h2>{{#with jj2.tabImages.cultivationManual as |image|}}<img class="iw-tab-heading-art" src="{{image}}" alt="" aria-hidden="true" width="28" height="28" draggable="false">{{else}}{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="manual"}}{{/with}}Manual de Cultivo</h2><span class="iw-manual-count">{{manual.techniqueCount}} técnicas</span></div>
+  <header class="iw-manual-cover">
+    <img src="{{manual.image}}" alt="" class="iw-manual-cover-art" aria-hidden="true">
+    <label class="iw-manual-name"><span>Nome do manual</span><input name="flags.Immortals-system.cultivationManualName" value="{{manual.name}}" placeholder="Nome do seu manual" maxlength="120" {{#unless manual.editable}}disabled{{/unless}}></label>
+    <div class="iw-manual-model-actions">
+      <button type="button" data-action="feitico-import-json" {{#unless manual.editable}}disabled{{/unless}}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="import"}}Importar modelo</button>
+      <button type="button" data-action="feitico-save-template" {{#unless manual.editable}}disabled{{/unless}}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="save"}}Salvar modelo</button>
+    </div>
+    <div class="iw-manual-classification">
+      <label><span>Rank do manual</span><select data-manual-field="manualRarity" aria-label="Rank do manual" {{#unless manual.editable}}disabled{{/unless}}>{{#each manual.rankOptions}}<option value="{{value}}" {{#if selected}}selected{{/if}}>{{label}}</option>{{/each}}</select></label>
+      <label><span>Qualidade</span><select data-manual-field="manualClass" aria-label="Qualidade do manual" {{#unless manual.editable}}disabled{{/unless}}>{{#each manual.qualityOptions}}<option value="{{value}}" {{#if selected}}selected{{/if}}>{{label}}</option>{{/each}}</select></label>
+      <div class="iw-manual-cultivation-level"><span>Nível de cultivo</span><strong>{{manual.nivel}}<small> / 30</small></strong></div>
+    </div>
+  </header>
+  <p class="iw-manual-guidance">Organize os fundamentos e as manifestações do manual. Crie uma habilidade principal e vincule suas técnicas; configure ações, Qi, dano e efeitos no próprio item.</p>
+
+  {{#*inline "iwManualTechnique"}}
+  <li class="iw-manual-technique {{#if @root.manual.editable}}draggable{{/if}} {{#if blocked}}is-blocked{{/if}}" data-item-id="{{id}}" draggable="{{#if @root.manual.editable}}true{{else}}false{{/if}}">
+    <img src="{{img}}" alt="">
+    <div class="iw-manual-technique-copy"><strong>{{name}}</strong><span>{{#if grau}}Grau {{grau}}{{else}}Auxiliar{{/if}}{{#if blocked}} · Requisito pendente{{/if}}</span></div>
+    <div class="iw-manual-item-actions">
+      <button type="button" data-action="feitico-roll" data-item-id="{{id}}" data-tooltip="Usar técnica" aria-label="Usar técnica" {{#if (or blocked (not @root.manual.editable))}}disabled{{/if}}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="dice"}}</button>
+      <button type="button" data-action="feitico-edit" data-item-id="{{id}}" data-tooltip="Editar técnica" aria-label="Editar técnica" {{#unless @root.manual.editable}}disabled{{/unless}}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="edit"}}</button>
+      <button type="button" data-action="feitico-unassign-tecnica" data-item-id="{{id}}" data-tooltip="Desvincular técnica" aria-label="Desvincular técnica" {{#unless @root.manual.editable}}disabled{{/unless}}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="close"}}</button>
+    </div>
+  </li>
+  {{/inline}}
+
+  <div class="iw-manual-groups">
+    {{#each manual.slots as |slot|}}
+    <article class="iw-manual-group {{#if blocked}}is-blocked{{/if}}" data-feitico-slot="{{id}}">
+      <header class="iw-manual-group-heading"><div><h3>{{label}}</h3><p>{{description}}</p></div>{{#if blocked}}<span class="iw-manual-lock" data-tooltip="{{blockedReason}}">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="lock"}}Requisito pendente</span>{{/if}}</header>
+      {{#if manifestacao}}
+      <div class="iw-manual-principle {{#if @root.manual.editable}}draggable{{/if}}" data-item-id="{{manifestacao.id}}" draggable="{{#if @root.manual.editable}}true{{else}}false{{/if}}">
+        <button type="button" class="iw-manual-principle-art" data-action="feitico-change-image" data-item-id="{{manifestacao.id}}" data-tooltip="Trocar imagem no modo de edição" aria-label="Trocar imagem da habilidade" {{#unless @root.manual.isEditMode}}disabled{{/unless}}><img src="{{manifestacao.img}}" alt=""></button>
+        <div class="iw-manual-technique-copy"><strong>{{manifestacao.name}}</strong><span>Habilidade principal</span></div>
+        <div class="iw-manual-item-actions">
+          <button type="button" data-action="feitico-roll" data-item-id="{{manifestacao.id}}" data-tooltip="Usar habilidade" aria-label="Usar habilidade" {{#if (or blocked (not @root.manual.editable))}}disabled{{/if}}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="dice"}}</button>
+          <button type="button" data-action="feitico-display-card" data-item-id="{{manifestacao.id}}" data-tooltip="Enviar para o chat" aria-label="Enviar habilidade para o chat" {{#unless @root.manual.editable}}disabled{{/unless}}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="int"}}</button>
+          <button type="button" data-action="feitico-edit" data-item-id="{{manifestacao.id}}" data-tooltip="Editar habilidade" aria-label="Editar habilidade" {{#unless @root.manual.editable}}disabled{{/unless}}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="edit"}}</button>
+          <button type="button" data-action="feitico-unassign-manif" data-slot="{{id}}" data-tooltip="Desvincular habilidade" aria-label="Desvincular habilidade" {{#unless @root.manual.editable}}disabled{{/unless}}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="close"}}</button>
+        </div>
+      </div>
+      <div class="iw-manual-requirements">
+        {{#each requirements}}<label class="iw-manual-requirement {{#if met}}met{{else}}unmet{{/if}}"><span>Nível mínimo</span><input type="number" min="1" max="30" value="{{level}}" data-feitico-req="level" data-item-id="{{manifestacaoId}}" data-index="{{index}}" aria-label="Nível de cultivo exigido" {{#unless @root.manual.editable}}disabled{{/unless}}><button type="button" data-action="feitico-req-remove" data-item-id="{{manifestacaoId}}" data-index="{{index}}" aria-label="Remover requisito" {{#unless @root.manual.editable}}disabled{{/unless}}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="close"}}</button></label>{{/each}}
+        {{#if canAddReq}}{{#if @root.manual.editable}}<button type="button" data-action="feitico-req-add" data-item-id="{{manifestacao.id}}">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="add"}}Requisito</button>{{/if}}{{/if}}
+      </div>
+      {{else}}
+      <div class="iw-manual-empty feitico-drop-zone" data-feitico-drop="manif"><span>Vincule a habilidade principal deste grupo.</span><button type="button" data-action="feitico-create-manif" data-slot="{{id}}" {{#unless @root.manual.editable}}disabled{{/unless}}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="add"}}Criar habilidade</button></div>
+      {{/if}}
+      <div class="iw-manual-techniques feitico-drop-zone" data-feitico-drop="tecnica"><header><h4>{{tecnicasLabel}}</h4><button type="button" data-action="feitico-create-tecnica" data-slot="{{id}}" aria-label="Criar técnica em {{label}}" {{#unless @root.manual.editable}}disabled{{/unless}}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="add"}}Técnica</button></header>
+        {{#if hasTecnicas}}<ul>{{#each tecnicas}}{{> iwManualTechnique}}{{/each}}</ul>{{else}}<p class="iw-manual-empty-hint">Arraste uma técnica ou crie uma nova para este grupo.</p>{{/if}}
+      </div>
+    </article>
+    {{/each}}
+  </div>
+  {{/unless}}
+</section>

@@ -1,0 +1,50 @@
+_id: 790367ab2867abeb
+name: Âmbar Mineral da Resina Seca
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-04/790367ab2867abeb.webp
+system:
+  identifier: minerio-790367ab2867abeb
+  description:
+    value: <p><strong>Nível:</strong> 4 · <strong>Categoria:</strong> Minério</p><p>Massa dourada translúcida encerrada em pedra sedimentar, sem restos de plantas em seu interior. Apesar do nome, é um mineral que imita resina endurecida. É lapidado em isoladores e em pequenas janelas de recipientes nos quais o artesão precisa observar o refino.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: b5278cc44cb40857
+sort: 900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 4
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 4
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!790367ab2867abeb'

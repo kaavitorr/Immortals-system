@@ -1,0 +1,53 @@
+_id: cd995de76aa26558
+_key: '!items!cd995de76aa26558'
+name: Noz do Coração do Inverno
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/cd995de76aa26558.webp
+system:
+  identifier: material-alquimia-cd995de76aa26558
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Planta</p><p>Amadurece somente no coração do inverno, no centro do bosque mais frio. A amêndoa compõe pílulas que sustentam o cultivador durante longos retiros debaixo da neve.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 49cfc131fd248e74
+sort: 10700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 6
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Noz do Coração do Inverno
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

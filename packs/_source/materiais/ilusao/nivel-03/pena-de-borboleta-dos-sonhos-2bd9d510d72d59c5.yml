@@ -1,0 +1,53 @@
+_id: 2bd9d510d72d59c5
+_key: '!items!2bd9d510d72d59c5'
+name: Escama de Asa de Borboleta dos Sonhos
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/2bd9d510d72d59c5.webp
+system:
+  identifier: material-alquimia-2bd9d510d72d59c5
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Parte de animal</p><p>A borboleta dos sonhos emerge de casulos alimentados pelo Qi onírico de grutas de meditação, levando figuras mutáveis nas asas. Suas escamas guardam uma película que envolve impressões sem fragmentá-las, usada como componente de proteção espiritual em símbolos de preservação da mente.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 3000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 1da2695e7fa3fc8b
+sort: 5500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 3
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Pena de Borboleta dos Sonhos
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

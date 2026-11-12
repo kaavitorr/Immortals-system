@@ -1,0 +1,53 @@
+_id: 9ec943ee77a673f0
+_key: '!items!9ec943ee77a673f0'
+name: Trevo da Última Estrela
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/9ec943ee77a673f0.webp
+system:
+  identifier: material-alquimia-9ec943ee77a673f0
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 9 · <strong>Categoria:</strong> Planta</p><p>Nasce apenas na noite em que a última estrela se apaga, no fundo do abismo lendário. Segurado sob a língua, faz o Qi correr sem vazar um brilho sequer.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 67038bc3a72ed56a
+sort: 16600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 9
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Trevo da Última Estrela
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 9
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

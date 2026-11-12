@@ -1,0 +1,192 @@
+{
+  "_id": "374d654df8dcadc7",
+  "name": "Little Twist",
+  "type": "spell",
+  "folder": "e1acf6123955f1a0",
+  "sort": 300000,
+  "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/leque-de-ferro.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-little-twist",
+    "level": 0,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 2,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "1",
+      "units": "turn",
+      "expiry": "turnStart",
+      "special": "Até o início do seu próximo turno.",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "15",
+      "units": "m",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "circle",
+        "size": "9",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "creature",
+        "count": "",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Leque</td></tr><tr><th>Técnica</th><td>Auxiliar</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>2</td></tr><tr><th>Alcance</th><td>Até 15 metros, Linha</td></tr><tr><th>Duração</th><td>Até o início do seu próximo turno.</td></tr><tr><th>Arma</th><td>Leque</td></tr><tr><th>Requisito do quadro</th><td>Leque</td></tr></tbody></table><p>Você balança seu leque formando um pequeno tornado a sua frente potencializado pelo seu Qi. Todas as criaturas, com exceção de você, a até 9 metros de raio do tornado devem realizar uma Salvaguarda de Força para não serem puxadas por 12 metros na direção do tornado.</p><h3>Observações</h3><p>Posicione o tornado a até 15 metros. Exclua o usuário e resolva uma salvaguarda de Força de cada criatura no raio de 9 metros; na falha, puxe-a 12 metros em direção ao tornado. O narrador move os tokens.</p>"
+    },
+    "activities": {
+      "c6d0be62a2d2fe5a": {
+        "_id": "c6d0be62a2d2fe5a",
+        "type": "save",
+        "name": "Little Twist",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/leque-de-ferro.webp",
+        "activation": {
+          "type": "action",
+          "value": 2,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Leque</td></tr><tr><th>Técnica</th><td>Auxiliar</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>2</td></tr><tr><th>Alcance</th><td>Até 15 metros, Linha</td></tr><tr><th>Duração</th><td>Até o início do seu próximo turno.</td></tr><tr><th>Arma</th><td>Leque</td></tr><tr><th>Requisito do quadro</th><td>Leque</td></tr></tbody></table><p>Você balança seu leque formando um pequeno tornado a sua frente potencializado pelo seu Qi. Todas as criaturas, com exceção de você, a até 9 metros de raio do tornado devem realizar uma Salvaguarda de Força para não serem puxadas por 12 metros na direção do tornado.</p><h3>Observações</h3><p>Posicione o tornado a até 15 metros. Exclua o usuário e resolva uma salvaguarda de Força de cada criatura no raio de 9 metros; na falha, puxe-a 12 metros em direção ao tornado. O narrador move os tokens.</p>",
+          "chatFlavor": "Little Twist"
+        },
+        "duration": {
+          "value": "1",
+          "units": "turn",
+          "expiry": "turnStart",
+          "special": "Até o início do seu próximo turno.",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "15",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "circle",
+            "size": "9",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "little-twist",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "bonus": "",
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          },
+          "visible": true
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        },
+        "conditions": []
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "little-twist",
+        "category": "leque",
+        "grade": null,
+        "auxiliary": true,
+        "weapon": "Leque",
+        "qi": 2,
+        "actions": 2,
+        "reaction": false,
+        "combinedAttack": null,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Até o início do seu próximo turno.",
+            "range": "Até 15 metros, Linha",
+            "requirements": "Leque",
+            "damage": "Nenhum",
+            "combinedAttack": null
+          }
+        },
+        "manualResolution": [
+          "Posicione o tornado a até 15 metros. Exclua o usuário e resolva uma salvaguarda de Força de cada criatura no raio de 9 metros; na falha, puxe-a 12 metros em direção ao tornado. O narrador move os tokens."
+        ],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!374d654df8dcadc7"
+}

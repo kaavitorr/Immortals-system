@@ -1,0 +1,75 @@
+_id: c4a41a220166b3ed
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:216
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: c4a41a220166b3ed
+name: Falsa Forma
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢ · Reação</strong></p><p>Quando uma criatura se mover ou realizar uma ação dentro do alcance
+      dessa criatura, ela pode se mover 5 metros e mudar sua forma para a de outra criatura ou de um elemento do
+      cenário. Se escolher um elemento do cenário, pode realizar um Teste de Furtividade para tentar se esconder, mas
+      apenas se não estiver na linha de visão de nenhuma criatura.</p>
+    chat: ''
+  identifier: falsa-forma
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    8fcf9d1505519e45:
+      _id: 8fcf9d1505519e45
+      type: utility
+      name: Falsa Forma
+      activation:
+        type: reaction
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Quando uma criatura se mover ou realizar uma ação dentro do alcance dessa criatura, ela pode se mover 5
+          metros e mudar sua forma para a de outra criatura ou de um elemento do cenário. Se escolher um elemento do
+          cenário, pode realizar um Teste de Furtividade para tentar se esconder, mas apenas se não estiver na linha de
+          visão de nenhuma criatura.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/falsa-forma-c4a41a220166b3ed.webp"
+_key: '!items!c4a41a220166b3ed'

@@ -1,0 +1,50 @@
+_id: ec77ec81732d30d4
+name: Antimônio da Pena Metálica
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-05/ec77ec81732d30d4.webp
+system:
+  identifier: minerio-ec77ec81732d30d4
+  description:
+    value: <p><strong>Nível:</strong> 5 · <strong>Categoria:</strong> Minério</p><p>Feixes de cristais prateados estreitos lembram penas rígidas sobre uma matriz negra. Crescem em fendas percorridas por Qi de Vento. O minério é beneficiado para ligas de peças finas, enquanto exemplares inteiros servem de modelo ao desenho de canais ramificados em tesouros voadores.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-earth
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 258aedcff99f53f1
+sort: 900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 5
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 5
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!ec77ec81732d30d4'

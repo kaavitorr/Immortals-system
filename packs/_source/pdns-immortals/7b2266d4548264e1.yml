@@ -1,0 +1,98 @@
+_id: 7b2266d4548264e1
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:146
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 7b2266d4548264e1
+name: Nuvem de Esporos
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢</strong></p><p>Ao gastar 4 PQ, a criatura libera constantemente uma nuvem de esporos em uma
+      emanação de 10 metros de raio ao seu redor, causando 1d4 de dano de Veneno por ND, até um máximo de 10d4. Todas as
+      criaturas que iniciarem o turno dentro da área devem realizar uma Salvaguarda de Vontade, sofrendo todo o dano se
+      falharem ou metade se obtiverem sucesso. Uma criatura que falhar recebe a condição “Envenenado”.</p>
+    chat: ''
+  identifier: nuvem-de-esporos
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    e25a21b4d47d94b7:
+      _id: e25a21b4d47d94b7
+      type: save
+      name: Nuvem de Esporos
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '4'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 4 PQ, a criatura libera constantemente uma nuvem de esporos em uma emanação de 10 metros de raio
+          ao seu redor, causando 1d4 de dano de Veneno por ND, até um máximo de 10d4. Todas as criaturas que iniciarem o
+          turno dentro da área devem realizar uma Salvaguarda de Vontade, sofrendo todo o dano se falharem ou metade se
+          obtiverem sucesso. Uma criatura que falhar recebe a condição “Envenenado”.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: creature
+        prompt: true
+        override: true
+        template:
+          type: sphere
+          size: '10'
+          units: m
+      save:
+        ability:
+          - con
+        dc:
+          calculation: ''
+          formula: 10 + @npcPrincipal
+      damage:
+        onSave: half
+        parts:
+          - custom:
+              enabled: true
+              formula: (min(10, @legacy2.nd))d4
+            types:
+              - poison
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 5
+  prerequisites:
+    items: []
+    level: 5
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/nuvem-de-esporos-7b2266d4548264e1.webp"
+_key: '!items!7b2266d4548264e1'

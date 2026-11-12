@@ -1,0 +1,177 @@
+name: Bastião
+type: archetype
+folder: 53154a640414559d
+system:
+  description:
+    value: >-
+      <p>Sustenta a linha de frente com proteção reforçada e resistência a deslocamentos. Intercepta projéteis e ataques
+      para impedir o avanço inimigo e resguardar aliados.</p><p><strong>Resistência por ND:</strong> Físicos
+      +2</p><p><strong>Vulnerabilidade:</strong> Psíquico −8</p><p><strong>Deslocamento:</strong> Caminhada: 10 m
+      (fixo)</p><p><strong>Armaduras:</strong> Placas Pesadas (16 + For).</p><p><strong>Perícias:</strong>
+      Proficiências: Atletismo, Intimidação, Percepção e Sobrevivência.</p><p><strong>Salvaguardas:</strong>
+      Proficiências: Vontade e Fortitude.</p><p><strong>Aspectos:</strong> Estabilidade, Pele Grossa, Corpo Resistente,
+      Implacável, Fanático, Vigoroso, Corpo Robusto, Temperamento Frio, Reativo,
+      Intimidadora.</p><p><strong>Habilidades:</strong> Manter Firme, Defesa Robusta, Enrijecer Músculos, Escudo Humano,
+      Agarrar Projétil, Golpe Aterrador, Onda de Choque, Contra-Golpe, Rugido Terrível, Investida
+      Derrubadora.</p><p><strong>Reações:</strong> Escudo Reativo, Endurecer, Bloqueio.</p>
+    chat: ''
+  identifier: bastiao
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 3
+    dex: 0
+    con: 5
+    int: 1
+    wis: 2
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: 2
+      immune: false
+    piercing:
+      value: 2
+      immune: false
+    slashing:
+      value: 2
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: -8
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ath
+      - skills.itm
+      - skills.prc
+      - skills.sur
+      - saves.con
+      - saves.cha
+      - saves.str
+      - saves.wis
+    alternative:
+      - skills.ath
+      - skills.itm
+      - skills.prc
+      - skills.sur
+      - alternativeSaves.vontade
+      - alternativeSaves.fortitude
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8a0ca76215e75f50
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.325e12eb1ac5a88d
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.71f999e7e919a534
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.14b8b3a34b1a2993
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.ce81e225dc8cd735
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7b0bc0a12fe44448
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6c3e03cf4f31410e
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6a05f364304f67ca
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.a768d6db7abb6d1d
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bfd51c9ea7cf377
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9f58c17ca809238a
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.784469a8c5879212
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f27f00879aae6e10
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6bd7d97c6b3853b2
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4af56efce85f33bc
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d3b3052e04d15f8e
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.993367be87b6d592
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.060086db82d1cba2
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.39ea5af9979fe435
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.255cd26bc92d3768
+      nd: 10
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7c4887f815cc4103
+      nd: 13
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000014
+    armas: []
+  movimento:
+    ganho: 0
+    intervalo: 1
+    maximo: null
+_id: 84uBvapi8f840wyt
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/bastiao.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:bastiao
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 84uBvapi8f840wyt
+_key: '!items!84uBvapi8f840wyt'

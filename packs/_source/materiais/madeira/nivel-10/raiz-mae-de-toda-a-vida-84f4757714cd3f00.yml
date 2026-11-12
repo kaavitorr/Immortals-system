@@ -1,0 +1,53 @@
+_id: 84f4757714cd3f00
+_key: '!items!84f4757714cd3f00'
+name: Raiz-Mãe de Toda a Vida
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/84f4757714cd3f00.webp
+system:
+  identifier: material-alquimia-84f4757714cd3f00
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Planta</p><p>Raiz colossal que dorme sob o mundo, da qual toda vida brotou. Um único fio, obtido por bênção e jamais por força, anima pílulas capazes de criar vida nova.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f986b8b9caa25536
+sort: 18400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 10
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Raiz-Mãe de Toda a Vida
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,53 @@
+_id: aa06b612db970312
+_key: '!items!aa06b612db970312'
+name: Jujuba do Solar Sem Velas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/aa06b612db970312.webp
+system:
+  identifier: material-alquimia-aa06b612db970312
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Planta</p><p>Frutifica nas ruínas de antigos retiros onde o Qi yin permanece preso aos alicerces, apagando o brilho do orvalho sobre os ramos. A polpa negra conserva uma essência serena e coesa, usada para estabilizar misturas de escuridão durante longas etapas de maturação.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 88cd562b36a9baf1
+sort: 6800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 4
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Jujuba do Solar Sem Velas
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

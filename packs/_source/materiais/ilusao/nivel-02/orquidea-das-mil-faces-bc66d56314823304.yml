@@ -1,0 +1,53 @@
+_id: bc66d56314823304
+_key: '!items!bc66d56314823304'
+name: Orquídea das Mil Faces
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/bc66d56314823304.webp
+system:
+  identifier: material-alquimia-bc66d56314823304
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>Suas flores amadurecem em grutas de Qi ilusório e mostram feições diferentes conforme o observador se move entre as pedras. O néctar conserva essa plasticidade sem perder o núcleo da essência, servindo como matriz complementar em pílulas de afinidade com a ilusão.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 91b9ed675b46d50c
+sort: 2200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Orquídea das Mil Faces
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

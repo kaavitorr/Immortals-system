@@ -1,0 +1,15 @@
+{
+  "_id": "d2652f7aa9b40d98",
+  "name": "Adaptação Física",
+  "type": "Item",
+  "folder": "1ac79c99963d80c7",
+  "sorting": "a",
+  "color": "#b57859",
+  "flags": {
+    "Immortals-system": {
+      "qiTalentsFolder": "Adaptação Física",
+      "qiTalentsContentVersion": 1
+    }
+  },
+  "_key": "!folders!d2652f7aa9b40d98"
+}

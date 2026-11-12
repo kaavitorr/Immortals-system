@@ -1,0 +1,74 @@
+_id: d3b3052e04d15f8e
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:149
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: d3b3052e04d15f8e
+name: Onda de Choque
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢</strong></p><p>A criatura libera uma onda de choque que empurra todas as criaturas dentro do
+      alcance por 9 metros. Todas as criaturas afetadas devem realizar uma Salvaguarda de Fortitude para não sofrerem o
+      empurrão, sofrendo 4d8 de dano Contundente se colidirem com um objeto ou uma estrutura durante esse
+      deslocamento.</p>
+    chat: ''
+  identifier: onda-de-choque
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    363f9948605cdfcb:
+      _id: 363f9948605cdfcb
+      type: utility
+      name: Onda de Choque
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura libera uma onda de choque que empurra todas as criaturas dentro do alcance por 9 metros. Todas
+          as criaturas afetadas devem realizar uma Salvaguarda de Fortitude para não sofrerem o empurrão, sofrendo 4d8
+          de dano Contundente se colidirem com um objeto ou uma estrutura durante esse deslocamento.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 7
+  prerequisites:
+    items: []
+    level: 7
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/onda-de-choque-d3b3052e04d15f8e.webp"
+_key: '!items!d3b3052e04d15f8e'

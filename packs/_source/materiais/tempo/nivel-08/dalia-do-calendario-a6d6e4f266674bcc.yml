@@ -1,0 +1,53 @@
+_id: a6d6e4f266674bcc
+_key: '!items!a6d6e4f266674bcc'
+name: Dália do Calendário
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/tempo/a6d6e4f266674bcc.webp
+system:
+  identifier: material-alquimia-a6d6e4f266674bcc
+  description:
+    value: <p><strong>Elemento:</strong> Tempo · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Planta</p><p>Suas corolas abrem uma pétala por mês e formam um calendário do ano em flor. Os elixires preparados com elas distribuem o efeito de remédios compostos em etapas bem definidas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 200
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 1115efbcdd33aa68
+sort: 14600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: tempo
+      elementLabel: Tempo
+      level: 8
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/tempo.json
+        originalName: Dália do Calendário
+        sha256: 78c1decf6231b4f084096c5432683d625516dd37d65e516e424b199307cc5107
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

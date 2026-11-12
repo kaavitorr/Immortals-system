@@ -1,0 +1,161 @@
+_id: jjarm00000000007
+_key: '!items!jjarm00000000007'
+name: Martelo de Guerra
+type: weapon
+img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/martelo-de-guerra.webp
+system:
+  identifier: warhammer
+  description:
+    value: >-
+      <p>Feito para esmagar placas e estilhaçar escudos, o martelo de guerra apresenta cabeça pesada e romba sobre haste
+      reforçada, entregando ruína nas mãos de quem prefere poder a finura.</p><p><strong>Propriedades:</strong>
+      Versátil.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 5
+    units: kg
+  price:
+    value: 400
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - ver
+    - hvy
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    090176a114ab7864:
+      _id: 090176a114ab7864
+      type: attack
+      name: Ataque
+      img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/martelo-de-guerra.webp
+      sort: 0
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '3'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      attack:
+        ability: ''
+        bonus: ''
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+        critical:
+          threshold: null
+      damage:
+        includeBase: true
+        parts: []
+        critical:
+          bonus: ''
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: m
+        value: 2
+        override: true
+        special: ''
+      target:
+        override: false
+        prompt: true
+        template:
+          type: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+  type:
+    value: martialM
+    baseItem: ''
+  ammunition:
+    type: ''
+  range:
+    units: m
+    value: null
+    long: null
+    reach: 2
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+effects: []
+folder: 3BDkyJ5nPk8nVa81
+sort: 200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: warHammer0000000
+      sourceType: weapon
+      category: heavy1
+      quality: dormente
+      enchantment: mundane
+      properties:
+        - versatile
+      weaponDamagePending: true
+      manualEffects: []

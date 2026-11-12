@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000e0ac0ea5",
+  "name": "Traços Animalescos — Cefalópodes",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/fish/octopus-pink.webp",
+  "system": {
+    "identifier": "especie-16e04765",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Cefalópodes. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c10003ace07aa": {
+        "_id": "1a2c10003ace07aa",
+        "type": "ItemChoice",
+        "title": "Duas características — Cefalópodes",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.g5cf9b80IRdFvVy6"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.LANQXB2wFNWNGzfb"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Cefalópodes",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000e0ac0ea5"
+}

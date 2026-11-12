@@ -1,0 +1,126 @@
+_id: lantern000000000
+_key: '!items!lantern000000000'
+name: Lanterna
+type: tool
+img: icons/sundries/lights/lantern-iron-yellow.webp
+system:
+  identifier: lantern
+  description:
+    value: >-
+      <p>Lanterna a óleo ou iluminada magicamente que emite luz brilhante num raio de 6 metros e luz fraca num raio de
+      12 metros.</p><p><strong>Propriedades:</strong> Empilhável.</p><p><strong>Profissões e conhecimentos:</strong>
+      Percepção, Furtividade.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 2
+    units: kg
+  price:
+    value: 30
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    808a5c36cbbb3230:
+      _id: 808a5c36cbbb3230
+      type: utility
+      name: Acender lanterna
+      img: icons/sundries/lights/lantern-iron-yellow.webp
+      sort: 0
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        value: >-
+          <p>You ignite the Lanterna, producing steady illumination in a wide radius. This action consumes one unit of
+          @UUID[Compendium.Immortals-system.equipamentos.Item.lanternOil000000]{Lantern Oil} from your inventory; the
+          burn duration depends on the quality of the oil consumed:</p><ul><li><p><strong>Shoddy</strong> - 1
+          hour</p></li><li><p><strong>Standard</strong> - 4 hours</p></li><li><p><strong>Fine</strong> - 12
+          hours</p></li><li><p><strong>Superior</strong> - 24 hours</p></li><li><p><strong>Masterwork</strong> - 48
+          hours</p></li></ul>
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: self
+        value: null
+        special: ''
+      target:
+        override: true
+        prompt: true
+        template:
+          type: ''
+          size: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: self
+          count: ''
+          choice: false
+          special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  type:
+    value: art
+    baseItem: ''
+  ability: ''
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: 7LUkTLEZvS60KVBp
+sort: 1400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: lantern000000000
+      sourceType: tool
+      category: implement
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

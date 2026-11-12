@@ -1,0 +1,53 @@
+_id: 9c64513ffcb34b1f
+_key: '!items!9c64513ffcb34b1f'
+name: Botão do Primeiro Pessegueiro
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/9c64513ffcb34b1f.webp
+system:
+  identifier: material-alquimia-9c64513ffcb34b1f
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Planta</p><p>Botão fechado do primeiro pessegueiro do mundo, que ainda não decidiu florescer. Aberto sobre um moribundo, devolve-lhe todo o vigor da primavera da vida.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f986b8b9caa25536
+sort: 18600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 10
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Botão do Primeiro Pessegueiro
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

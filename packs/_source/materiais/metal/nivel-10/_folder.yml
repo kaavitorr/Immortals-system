@@ -1,0 +1,13 @@
+_id: 4c8cabc1aacf16c8
+_key: '!folders!4c8cabc1aacf16c8'
+name: Nível 10
+type: Item
+folder: 1e7500f1620000ec
+sorting: a
+sort: 1000000
+color: '#5f6d78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: metal
+      level: 10

@@ -1,0 +1,26 @@
+{
+  "_id": "1a2c1000415f3cd6",
+  "name": "Sede de Sangue",
+  "type": "feat",
+  "folder": "1a2c000000000002",
+  "img": "systems/Immortals-system/assets/wuxia/caracteristicas-especie-pintadas-v1/sede-de-sangue.webp",
+  "system": {
+    "identifier": "especie-e6f1b096",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Sede de Sangue: Toda vez que ficar com menos de 1/3 dos Pontos de Vida, o demônio entra em um Frenesi, recebendo a condição “Alucinado”. Caso você mate uma criatura nesse estado, você encerra seu turno mesmo que ainda tenha ações e devora o coração dela, recuperando 10 Pontos de Vida para cada nível de cultivo que ela possuir dentro de um rank, recebendo 30 por Rank.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Sede de Sangue",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000415f3cd6"
+}

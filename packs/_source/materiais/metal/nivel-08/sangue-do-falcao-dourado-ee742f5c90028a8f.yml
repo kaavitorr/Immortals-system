@@ -1,0 +1,53 @@
+_id: ee742f5c90028a8f
+_key: '!items!ee742f5c90028a8f'
+name: Sangue do Falcão Dourado
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/ee742f5c90028a8f.webp
+system:
+  identifier: material-alquimia-ee742f5c90028a8f
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Parte de animal</p><p>O falcão que nidifica no alto da forja celeste tem sangue de ouro líquido, que só corre com seu consentimento. Uma gota doura os meridianos de um cultivador por um ano.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 86cc70826d40dc34
+sort: 15500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 8
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Sangue do Falcão Dourado
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

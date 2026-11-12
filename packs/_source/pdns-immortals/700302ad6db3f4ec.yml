@@ -1,0 +1,73 @@
+_id: 700302ad6db3f4ec
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:171
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 700302ad6db3f4ec
+name: Disparo Preciso
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢</strong></p><p>Você realiza um ataque de projétil ou de arma de arremesso contra uma criatura
+      inimiga a até 10 metros + 1 metro por ND. Esse ataque causa metade do seu dano padrão, mas, se for um crítico por
+      excedente, impõe a condição “Sangramento”. Você pode utilizar essa habilidade até 3 vezes por rodada.</p>
+    chat: ''
+  identifier: disparo-preciso
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    ebbc8db0d4f2ff7d:
+      _id: ebbc8db0d4f2ff7d
+      type: utility
+      name: Disparo Preciso
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Você realiza um ataque de projétil ou de arma de arremesso contra uma criatura inimiga a até 10 metros + 1
+          metro por ND. Esse ataque causa metade do seu dano padrão, mas, se for um crítico por excedente, impõe a
+          condição “Sangramento”. Você pode utilizar essa habilidade até 3 vezes por rodada.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 10
+  prerequisites:
+    items: []
+    level: 10
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/disparo-preciso-700302ad6db3f4ec.webp"
+_key: '!items!700302ad6db3f4ec'

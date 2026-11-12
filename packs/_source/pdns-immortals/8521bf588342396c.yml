@@ -1,0 +1,75 @@
+_id: 8521bf588342396c
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:168
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 8521bf588342396c
+name: Tecer Acelerado
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p>A cada 1 hora de concentração, a criatura forma ou amplia uma estrutura feita de fios em uma quantidade de
+      metros igual ao ND dela, até um máximo de 10 vezes o ND da criatura em metros de raio. A estrutura pode assumir a
+      forma que a criatura quiser, e cada parte de 5 metros tem 10 de CR e Pontos de Vida em quantidade igual a 10 vezes
+      o ND da criatura.</p>
+    chat: ''
+  identifier: tecer-acelerado
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    bc01c3f15c01aa37:
+      _id: bc01c3f15c01aa37
+      type: utility
+      name: Tecer Acelerado
+      activation:
+        type: action
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A cada 1 hora de concentração, a criatura forma ou amplia uma estrutura feita de fios em uma quantidade de
+          metros igual ao ND dela, até um máximo de 10 vezes o ND da criatura em metros de raio. A estrutura pode
+          assumir a forma que a criatura quiser, e cada parte de 5 metros tem 10 de CR e Pontos de Vida em quantidade
+          igual a 10 vezes o ND da criatura.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 7
+  prerequisites:
+    items: []
+    level: 7
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/tecer-acelerado-8521bf588342396c.webp"
+_key: '!items!8521bf588342396c'

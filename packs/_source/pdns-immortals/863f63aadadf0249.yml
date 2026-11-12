@@ -1,0 +1,73 @@
+_id: 863f63aadadf0249
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:111
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 863f63aadadf0249
+name: Explodir
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢</strong></p><p>A qualquer momento, enquanto estiver se movendo, você pode marcar o terreno ou
+      uma área com seu Qi. A qualquer momento, pode escolher consumir outro Ponto de Ação para explodir o local marcado,
+      causando o dano do seu ataque normal como dano de Fogo a todas as criaturas a 1 metro do local da explosão.</p>
+    chat: ''
+  identifier: explodir
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    c8bfc338fe5c1c80:
+      _id: c8bfc338fe5c1c80
+      type: utility
+      name: Explodir
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A qualquer momento, enquanto estiver se movendo, você pode marcar o terreno ou uma área com seu Qi. A
+          qualquer momento, pode escolher consumir outro Ponto de Ação para explodir o local marcado, causando o dano do
+          seu ataque normal como dano de Fogo a todas as criaturas a 1 metro do local da explosão.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/explodir-863f63aadadf0249.webp"
+_key: '!items!863f63aadadf0249'

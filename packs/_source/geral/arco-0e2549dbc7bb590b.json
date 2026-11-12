@@ -1,0 +1,16 @@
+{
+  "_id": "0e2549dbc7bb590b",
+  "name": "Arco",
+  "type": "Item",
+  "folder": "c16983361c76c762",
+  "sort": 700000,
+  "sorting": "m",
+  "color": "#9bb0bf",
+  "flags": {
+    "Immortals-system": {
+      "combatManualFolder": "arco",
+      "combatManualContentVersion": 1
+    }
+  },
+  "_key": "!folders!0e2549dbc7bb590b"
+}

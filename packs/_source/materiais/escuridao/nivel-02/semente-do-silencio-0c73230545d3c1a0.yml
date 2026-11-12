@@ -1,0 +1,53 @@
+_id: 0c73230545d3c1a0
+_key: '!items!0c73230545d3c1a0'
+name: Semente do Silêncio
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/0c73230545d3c1a0.webp
+system:
+  identifier: material-alquimia-0c73230545d3c1a0
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>Forma-se em ervas raras que recebem Qi yin nas cavernas onde nenhum eco retorna à entrada. A casca encerra um embrião quase imóvel e uma essência que abranda oscilações, utilizada para preservar a quietude de preparados de escuridão durante sua maturação.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 450
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d4840a148e9cd19b
+sort: 2400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Semente do Silêncio
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

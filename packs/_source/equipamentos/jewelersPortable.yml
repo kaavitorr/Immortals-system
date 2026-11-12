@@ -1,0 +1,65 @@
+_id: jewelersPortable
+_key: '!items!jewelersPortable'
+name: Bancada Portátil de Joalheiro
+type: tool
+img: icons/containers/chest/chest-simple-box-red.webp
+system:
+  identifier: workbench-jewelcrafting
+  description:
+    value: >-
+      <p>Caixa rasa de madeira com couro, contendo roda de esmeril dobrável, pedra de amolar e polir, martelo de
+      lapidário e pequena bigorna de aço, deixando espaço para guardar projetos em andamento com segurança durante a
+      viagem.</p><p><strong>Propriedades:</strong> Empilhável.</p><p><strong>Profissões e conhecimentos:</strong>
+      Joalheria.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 30
+    units: kg
+  price:
+    value: 3200
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: wis
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: zKA7bUzu7rPpL2lk
+sort: 700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: jewelersPortable
+      sourceType: tool
+      category: crafting
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

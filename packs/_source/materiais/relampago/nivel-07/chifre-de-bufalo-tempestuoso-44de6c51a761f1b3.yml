@@ -1,0 +1,53 @@
+_id: 44de6c51a761f1b3
+_key: '!items!44de6c51a761f1b3'
+name: Chifre de Búfalo Tempestuoso
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/44de6c51a761f1b3.webp
+system:
+  identifier: material-alquimia-44de6c51a761f1b3
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Parte de animal</p><p>Búfalo imenso que pasta em picos varridos por descargas; os chifres em espiral atraem os raios. Raspas queimadas fortalecem ossos fracos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 26db1de00fdce891
+sort: 13500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 7
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Chifre de Búfalo Tempestuoso
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,53 @@
+_id: e7c524740bc8a292
+_key: '!items!e7c524740bc8a292'
+name: Canela da Casca Noturna
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/e7c524740bc8a292.webp
+system:
+  identifier: material-alquimia-e7c524740bc8a292
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Planta</p><p>Esta caneleira amadurece junto a veios profundos de Qi yin e renova a casca apenas quando a escuridão cobre inteiramente seus ramos. O óleo negro retém essência entre lâminas sobrepostas, servindo para fixar e harmonizar ingredientes escuros em refinamentos de alto grau.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 6d3d81d8f7f845fe
+sort: 12800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 7
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Canela da Casca Noturna
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

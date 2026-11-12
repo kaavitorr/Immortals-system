@@ -1,0 +1,80 @@
+_id: 17a436d27f512357
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:246
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 17a436d27f512357
+name: Toque Paralisante
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢ · Reação</strong></p><p>Quando uma criatura dentro do alcance de Toque dessa criatura
+      realizar uma ação ou tentar se afastar enquanto estiver engajada, essa criatura pode gastar 10 PQ para realizar
+      uma jogada de ataque contra ela. Se atingir, o alvo sofre o dano do ataque normal e deve realizar uma Salvaguarda
+      de Vontade para não receber a condição “Paralisado” até o fim do turno seguinte dele.</p>
+    chat: ''
+  identifier: toque-paralisante
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    d9f94d9fe4ab2561:
+      _id: d9f94d9fe4ab2561
+      type: utility
+      name: Toque Paralisante
+      activation:
+        type: reaction
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '10'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Quando uma criatura dentro do alcance de Toque dessa criatura realizar uma ação ou tentar se afastar
+          enquanto estiver engajada, essa criatura pode gastar 10 PQ para realizar uma jogada de ataque contra ela. Se
+          atingir, o alvo sofre o dano do ataque normal e deve realizar uma Salvaguarda de Vontade para não receber a
+          condição “Paralisado” até o fim do turno seguinte dele.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 10
+  prerequisites:
+    items: []
+    level: 10
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/toque-paralisante-17a436d27f512357.webp"
+_key: '!items!17a436d27f512357'

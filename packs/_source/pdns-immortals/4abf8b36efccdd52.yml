@@ -1,0 +1,77 @@
+_id: 4abf8b36efccdd52
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:248
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 4abf8b36efccdd52
+name: Zelo do Protetor
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢ · Reação</strong></p><p>Essa criatura pode gastar 6 PQ para reduzir a própria Classe de
+      Resistência a 10, escolher outra criatura a até 15 metros de distância e aumentar a CR dela pela quantidade
+      perdida.</p>
+    chat: ''
+  identifier: zelo-do-protetor
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    122240d603342fc8:
+      _id: 122240d603342fc8
+      type: utility
+      name: Zelo do Protetor
+      activation:
+        type: reaction
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '6'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Essa criatura pode gastar 6 PQ para reduzir a própria Classe de Resistência a 10, escolher outra criatura a
+          até 15 metros de distância e aumentar a CR dela pela quantidade perdida.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/zelo-do-protetor-4abf8b36efccdd52.webp"
+_key: '!items!4abf8b36efccdd52'

@@ -1,0 +1,73 @@
+_id: b71609205af77897
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:221
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: b71609205af77897
+name: Golpe Imprevisível
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: Custo do ataque −1 · Reação</strong></p><p>Uma vez por turno de cada criatura, quando uma
+      criatura dentro do alcance dessa criatura for alvo de uma rolagem de acerto, essa criatura pode realizar um ataque
+      (Comum) contra ela, gastando 1 Ponto de Ação a menos.</p>
+    chat: ''
+  identifier: golpe-imprevisivel
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    6144694001b60fdc:
+      _id: 6144694001b60fdc
+      type: utility
+      name: Golpe Imprevisível
+      activation:
+        type: reaction
+        value: 0
+        condition: 'Ações: Custo do ataque −1'
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Uma vez por turno de cada criatura, quando uma criatura dentro do alcance dessa criatura for alvo de uma
+          rolagem de acerto, essa criatura pode realizar um ataque (Comum) contra ela, gastando 1 Ponto de Ação a
+          menos.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/golpe-imprevisivel-b71609205af77897.webp"
+_key: '!items!b71609205af77897'

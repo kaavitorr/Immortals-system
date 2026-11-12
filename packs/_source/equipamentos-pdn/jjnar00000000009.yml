@@ -1,0 +1,109 @@
+_id: jjnar00000000009
+name: Exoesqueleto Fundido
+type: equipment
+img: systems/Immortals-system/assets/wuxia/equipamentos-pdn-pintados-v1/jjnar00000000009-exoesqueleto-fundido.webp
+system:
+  type:
+    value: natural
+    baseItem: ''
+  identified: true
+  description:
+    value: >-
+      <p>Armadura natural. <strong>Classe de Resistência:</strong> 16 + Constituição, usando o valor inteiro do
+      atributo.</p><p>Ao equipar, substitui o cálculo padrão de CR; não é somada a ele.</p>
+    chat: ''
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  equipped: false
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+  identifier: exoesqueleto-fundido
+  source:
+    revision: 1
+    rules: '2024'
+  unidentified:
+    description: ''
+  container: null
+  price:
+    value: 0
+    denomination: yen
+  rarities: []
+  attunement: ''
+  attuned: false
+  crew:
+    value: []
+  armor:
+    value: 16
+    dex: null
+    ability: con
+  proficient: null
+  properties: []
+  strength: null
+flags:
+  Immortals-system:
+    armaduraNatural: true
+    cr:
+      base: 16
+      atributo: con
+    equipmentPdn:
+      version: 1
+      source: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000009
+      previousImg: systems/Immortals-system/icons/svg/items/equipment.svg
+      descriptionHashesBefore:
+        - 11f54da8
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: equipamento-pdn
+      documentId: jjnar00000000009
+effects:
+  - _id: jjnarfx000000009
+    name: Exoesqueleto Fundido — Classe de Resistência
+    img: systems/Immortals-system/icons/svg/items/equipment.svg
+    origin: null
+    transfer: false
+    disabled: true
+    statuses: []
+    flags:
+      Immortals-system:
+        armaduraNaturalCR:
+          base: 16
+          atributo: con
+    system:
+      changes:
+        - key: system.attributes.ac.bonus
+          value: 16 + @abilities.con.mod
+          type: add
+          phase: initial
+          _id: ssOAGHHL1MQRMhfg
+          conditions: '{}'
+          replacement: ''
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: null
+        message: null
+      conditions: '{}'
+      magical: false
+      rider:
+        statuses: []
+    type: base
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    showIcon: 1
+    folder: null
+    sort: 0
+    _key: '!items.effects!jjnar00000000009.jjnarfx000000009'
+folder: IMEsHfstlHxfmBqg
+sort: 0
+_key: '!items!jjnar00000000009'

@@ -1,0 +1,53 @@
+_id: 0405dc90eb2a15e9
+_key: '!items!0405dc90eb2a15e9'
+name: Noz dos Veios Amargos
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/0405dc90eb2a15e9.webp
+system:
+  identifier: material-alquimia-0405dc90eb2a15e9
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Planta</p><p>A nogueira enraíza em rochas permeadas por Qi da Madeira e produz nozes cujas divisórias internas brilham como nervuras verdes. O óleo da amêndoa nutre matrizes destinadas à clareza mental, enquanto a fração amarga auxilia a separação de resíduos que turvam a essência.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 1000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 99c7c69753e2fb5c
+sort: 4800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 3
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Noz de Casca Amarga
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

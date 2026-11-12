@@ -1,0 +1,53 @@
+_id: 180cf829cfbdf80c
+_key: '!items!180cf829cfbdf80c'
+name: Coração de Dragão das Dinastias
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/tempo/180cf829cfbdf80c.webp
+system:
+  identifier: material-alquimia-180cf829cfbdf80c
+  description:
+    value: <p><strong>Elemento:</strong> Tempo · <strong>Nível:</strong> 9 · <strong>Categoria:</strong> Parte de animal</p><p>O coração colossal do dragão bate uma única vez a cada estação. Seus fragmentos cristalizados entram em pílulas que restituem a juventude a corpos moribundos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 739c6cecdf9c6e60
+sort: 17100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: tempo
+      elementLabel: Tempo
+      level: 9
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/tempo.json
+        originalName: Coração de Dragão das Dinastias
+        sha256: 78c1decf6231b4f084096c5432683d625516dd37d65e516e424b199307cc5107
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 9
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

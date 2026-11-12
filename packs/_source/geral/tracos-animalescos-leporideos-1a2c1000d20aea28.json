@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000d20aea28",
+  "name": "Traços Animalescos — Leporídeos",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/mammals/rabbit-movement-glowing-green.webp",
+  "system": {
+    "identifier": "especie-0cdc56e8",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Leporídeos. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c10000150768c": {
+        "_id": "1a2c10000150768c",
+        "type": "ItemChoice",
+        "title": "Duas características — Leporídeos",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.SXzgK3cSmLFXES3o"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.OPPyLtUV4PiEyw8G"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Leporídeos",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000d20aea28"
+}

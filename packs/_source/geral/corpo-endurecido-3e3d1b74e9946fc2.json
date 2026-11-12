@@ -1,0 +1,47 @@
+{
+  "_id": "3e3d1b74e9946fc2",
+  "name": "Corpo Endurecido",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/corpo-endurecido.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-corpo-endurecido",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo do Corpo.</p><h2>Corpo Endurecido</h2><p><strong>Requisito:</strong> 1º Portão</p><p>Seu corpo se tornou extremamente resistente a todos os tipos de feridas debilitantes, dessa forma, você não acumula Pontos de Ferida por acertos críticos ou outros meios, os recebendo apenas ao sofrer dano com 0 Pontos de Vida.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "corpo-endurecido",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo do Corpo",
+        "requisitos": [
+          "1º Portão"
+        ],
+        "requirementRules": {
+          "type": "body",
+          "min": 3
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "woundsOnlyAtZeroHitPoints"
+          }
+        ],
+        "manual": [],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!3e3d1b74e9946fc2"
+}

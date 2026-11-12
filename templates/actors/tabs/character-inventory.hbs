@@ -1,0 +1,25 @@
+<section class="tab {{ tab.cssClass }} iw-inventory-page" data-tab="{{ tab.id }}" data-group="{{ tab.group }}">
+  <header class="jj2-page-heading iw-tab-heading iw-inventory-heading">
+    <h2>{{#with jj2.tabImages.inventory as |image|}}<img class="iw-tab-heading-art" src="{{image}}" alt="" aria-hidden="true" width="28" height="28" draggable="false">{{else}}{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="inventory" }}{{/with}}Inventário</h2>
+    {{#if owner}}<button type="button" class="iw-inventory-add always-interactive" data-action="addDocument" aria-label="Adicionar item">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="add" }}Adicionar item</button>{{/if}}
+  </header>
+  <div class="top iw-inventory-overview">
+    <section class="iw-carry-panel" aria-label="Carga">
+      <h3>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="budget" }}Carga</h3>
+      <div class="encumbrance card">
+        {{> "systems/Immortals-system/templates/inventory/encumbrance.hbs" encumbrance=system.attributes.encumbrance hasBreakpoints=true }}
+        <div class="info">
+          <div class="strength"><span class="label">{{ localize "DND5E.AbilityStr" }}</span><span class="value">{{ system.abilities.str.value }}</span></div>
+          <div class="size"><span class="label">{{ localize "DND5E.Size" }}</span><span class="value" aria-label="{{ size.label }}">{{ size.abbr }}</span></div>
+          <div class="multiplier"><span class="label">{{ localize "DND5E.Multiplier" }}</span><span class="value"><span class="sign">&times;</span>{{ size.mod }}</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="iw-container-panel" aria-label="Recipientes">
+      <h3>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="inventory" }}Recipientes</h3>
+      {{> "systems/Immortals-system/templates/inventory/containers.hbs" }}
+      {{#unless containers.length}}<p class="iw-container-empty">Sem recipientes. Adicione bolsas ou outros recipientes para organizar seus itens.</p>{{/unless}}
+    </section>
+  </div>
+  {{> "systems/Immortals-system/templates/inventory/inventory.hbs" }}
+</section>

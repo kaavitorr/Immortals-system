@@ -1,0 +1,581 @@
+{
+  "_id": "f7ccd44a4dd736c4",
+  "name": "Gestos: Flecha e Linha",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-flecha-e-linha.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-gestos-flecha-e-linha",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Flecha e Linha</h2><p>Você aprendeu gestos que permitem modificar livremente suas técnicas a distância, alterando sua área de efeito mediante um custo. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Flecha: Você concentra a Técnica em uma única criatura dentro do alcance, realizando uma Rolagem de Ataque contra ela. O dado de dano da Técnica passa a ser d8.</li><li>Linha: Você faz com que sua Técnica atinja uma linha de 1,5 metro de largura. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, sofrendo todo o dano em caso de falha ou metade em caso de sucesso. O dado de dano da Técnica passa a ser d8.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Flecha</th><th>Linha</th></tr><tr><td>1º Manifestação</td><td>15 metros</td><td>15 metros</td></tr><tr><td>2º Manifestação</td><td>25 metros</td><td>25 metros</td></tr><tr><td>3º Manifestação</td><td>35 metros</td><td>35 metros</td></tr></tbody></table><p>Caso a Técnica modificada seja “Flecha” e aplique uma Condição, você pode gastar 1 PA adicional para convertê-la ao modelo de “Linha”.</p><ul><li>Os gestos só funcionam em Técnicas que causem dano e/ou apliquem Condições negativas.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p>"
+    },
+    "activities": {
+      "1bd1175a36719108": {
+        "_id": "1bd1175a36719108",
+        "type": "utility",
+        "name": "Flecha — 1ª Manifestação",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Flecha e Linha</h2><p>Você aprendeu gestos que permitem modificar livremente suas técnicas a distância, alterando sua área de efeito mediante um custo. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Flecha: Você concentra a Técnica em uma única criatura dentro do alcance, realizando uma Rolagem de Ataque contra ela. O dado de dano da Técnica passa a ser d8.</li><li>Linha: Você faz com que sua Técnica atinja uma linha de 1,5 metro de largura. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, sofrendo todo o dano em caso de falha ou metade em caso de sucesso. O dado de dano da Técnica passa a ser d8.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Flecha</th><th>Linha</th></tr><tr><td>1º Manifestação</td><td>15 metros</td><td>15 metros</td></tr><tr><td>2º Manifestação</td><td>25 metros</td><td>25 metros</td></tr><tr><td>3º Manifestação</td><td>35 metros</td><td>35 metros</td></tr></tbody></table><p>Caso a Técnica modificada seja “Flecha” e aplique uma Condição, você pode gastar 1 PA adicional para convertê-la ao modelo de “Linha”.</p><ul><li>Os gestos só funcionam em Técnicas que causem dano e/ou apliquem Condições negativas.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p>",
+          "chatFlavor": "Gestos: Flecha e Linha — Flecha — 1ª Manifestação"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "15",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "gestos-flecha-e-linha",
+              "key": "arrow-1",
+              "manualResolution": true,
+              "rule": "gesture",
+              "gesture": "arrow",
+              "manifestation": 1,
+              "modifiesExistingTechnique": true,
+              "damageDie": 8
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Flecha — 1ª Manifestação",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-flecha-e-linha.webp"
+      },
+      "972d15a73164277b": {
+        "_id": "972d15a73164277b",
+        "type": "utility",
+        "name": "Linha — 1ª Manifestação",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Flecha e Linha</h2><p>Você aprendeu gestos que permitem modificar livremente suas técnicas a distância, alterando sua área de efeito mediante um custo. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Flecha: Você concentra a Técnica em uma única criatura dentro do alcance, realizando uma Rolagem de Ataque contra ela. O dado de dano da Técnica passa a ser d8.</li><li>Linha: Você faz com que sua Técnica atinja uma linha de 1,5 metro de largura. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, sofrendo todo o dano em caso de falha ou metade em caso de sucesso. O dado de dano da Técnica passa a ser d8.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Flecha</th><th>Linha</th></tr><tr><td>1º Manifestação</td><td>15 metros</td><td>15 metros</td></tr><tr><td>2º Manifestação</td><td>25 metros</td><td>25 metros</td></tr><tr><td>3º Manifestação</td><td>35 metros</td><td>35 metros</td></tr></tbody></table><p>Caso a Técnica modificada seja “Flecha” e aplique uma Condição, você pode gastar 1 PA adicional para convertê-la ao modelo de “Linha”.</p><ul><li>Os gestos só funcionam em Técnicas que causem dano e/ou apliquem Condições negativas.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p>",
+          "chatFlavor": "Gestos: Flecha e Linha — Linha — 1ª Manifestação"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "15",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "line",
+            "size": "15",
+            "width": "1.5",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "gestos-flecha-e-linha",
+              "key": "line-1",
+              "manualResolution": true,
+              "rule": "gesture",
+              "gesture": "line",
+              "manifestation": 1,
+              "modifiesExistingTechnique": true,
+              "damageDie": 8
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Linha — 1ª Manifestação",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-flecha-e-linha.webp"
+      },
+      "1ad115c77e899bbf": {
+        "_id": "1ad115c77e899bbf",
+        "type": "utility",
+        "name": "Flecha — 2ª Manifestação",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Flecha e Linha</h2><p>Você aprendeu gestos que permitem modificar livremente suas técnicas a distância, alterando sua área de efeito mediante um custo. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Flecha: Você concentra a Técnica em uma única criatura dentro do alcance, realizando uma Rolagem de Ataque contra ela. O dado de dano da Técnica passa a ser d8.</li><li>Linha: Você faz com que sua Técnica atinja uma linha de 1,5 metro de largura. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, sofrendo todo o dano em caso de falha ou metade em caso de sucesso. O dado de dano da Técnica passa a ser d8.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Flecha</th><th>Linha</th></tr><tr><td>1º Manifestação</td><td>15 metros</td><td>15 metros</td></tr><tr><td>2º Manifestação</td><td>25 metros</td><td>25 metros</td></tr><tr><td>3º Manifestação</td><td>35 metros</td><td>35 metros</td></tr></tbody></table><p>Caso a Técnica modificada seja “Flecha” e aplique uma Condição, você pode gastar 1 PA adicional para convertê-la ao modelo de “Linha”.</p><ul><li>Os gestos só funcionam em Técnicas que causem dano e/ou apliquem Condições negativas.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p>",
+          "chatFlavor": "Gestos: Flecha e Linha — Flecha — 2ª Manifestação"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "25",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "gestos-flecha-e-linha",
+              "key": "arrow-2",
+              "manualResolution": true,
+              "rule": "gesture",
+              "gesture": "arrow",
+              "manifestation": 2,
+              "modifiesExistingTechnique": true,
+              "damageDie": 8
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Flecha — 2ª Manifestação",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-flecha-e-linha.webp"
+      },
+      "982d173ae94c1cc4": {
+        "_id": "982d173ae94c1cc4",
+        "type": "utility",
+        "name": "Linha — 2ª Manifestação",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Flecha e Linha</h2><p>Você aprendeu gestos que permitem modificar livremente suas técnicas a distância, alterando sua área de efeito mediante um custo. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Flecha: Você concentra a Técnica em uma única criatura dentro do alcance, realizando uma Rolagem de Ataque contra ela. O dado de dano da Técnica passa a ser d8.</li><li>Linha: Você faz com que sua Técnica atinja uma linha de 1,5 metro de largura. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, sofrendo todo o dano em caso de falha ou metade em caso de sucesso. O dado de dano da Técnica passa a ser d8.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Flecha</th><th>Linha</th></tr><tr><td>1º Manifestação</td><td>15 metros</td><td>15 metros</td></tr><tr><td>2º Manifestação</td><td>25 metros</td><td>25 metros</td></tr><tr><td>3º Manifestação</td><td>35 metros</td><td>35 metros</td></tr></tbody></table><p>Caso a Técnica modificada seja “Flecha” e aplique uma Condição, você pode gastar 1 PA adicional para convertê-la ao modelo de “Linha”.</p><ul><li>Os gestos só funcionam em Técnicas que causem dano e/ou apliquem Condições negativas.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p>",
+          "chatFlavor": "Gestos: Flecha e Linha — Linha — 2ª Manifestação"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "25",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "line",
+            "size": "25",
+            "width": "1.5",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "gestos-flecha-e-linha",
+              "key": "line-2",
+              "manualResolution": true,
+              "rule": "gesture",
+              "gesture": "line",
+              "manifestation": 2,
+              "modifiesExistingTechnique": true,
+              "damageDie": 8
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Linha — 2ª Manifestação",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-flecha-e-linha.webp"
+      },
+      "19d11434bbd6ed82": {
+        "_id": "19d11434bbd6ed82",
+        "type": "utility",
+        "name": "Flecha — 3ª Manifestação",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "3",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Flecha e Linha</h2><p>Você aprendeu gestos que permitem modificar livremente suas técnicas a distância, alterando sua área de efeito mediante um custo. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Flecha: Você concentra a Técnica em uma única criatura dentro do alcance, realizando uma Rolagem de Ataque contra ela. O dado de dano da Técnica passa a ser d8.</li><li>Linha: Você faz com que sua Técnica atinja uma linha de 1,5 metro de largura. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, sofrendo todo o dano em caso de falha ou metade em caso de sucesso. O dado de dano da Técnica passa a ser d8.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Flecha</th><th>Linha</th></tr><tr><td>1º Manifestação</td><td>15 metros</td><td>15 metros</td></tr><tr><td>2º Manifestação</td><td>25 metros</td><td>25 metros</td></tr><tr><td>3º Manifestação</td><td>35 metros</td><td>35 metros</td></tr></tbody></table><p>Caso a Técnica modificada seja “Flecha” e aplique uma Condição, você pode gastar 1 PA adicional para convertê-la ao modelo de “Linha”.</p><ul><li>Os gestos só funcionam em Técnicas que causem dano e/ou apliquem Condições negativas.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p>",
+          "chatFlavor": "Gestos: Flecha e Linha — Flecha — 3ª Manifestação"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "35",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "gestos-flecha-e-linha",
+              "key": "arrow-3",
+              "manualResolution": true,
+              "rule": "gesture",
+              "gesture": "arrow",
+              "manifestation": 3,
+              "modifiesExistingTechnique": true,
+              "damageDie": 8
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Flecha — 3ª Manifestação",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-flecha-e-linha.webp"
+      },
+      "992d18cdabfecb01": {
+        "_id": "992d18cdabfecb01",
+        "type": "utility",
+        "name": "Linha — 3ª Manifestação",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "3",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Flecha e Linha</h2><p>Você aprendeu gestos que permitem modificar livremente suas técnicas a distância, alterando sua área de efeito mediante um custo. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Flecha: Você concentra a Técnica em uma única criatura dentro do alcance, realizando uma Rolagem de Ataque contra ela. O dado de dano da Técnica passa a ser d8.</li><li>Linha: Você faz com que sua Técnica atinja uma linha de 1,5 metro de largura. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, sofrendo todo o dano em caso de falha ou metade em caso de sucesso. O dado de dano da Técnica passa a ser d8.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Flecha</th><th>Linha</th></tr><tr><td>1º Manifestação</td><td>15 metros</td><td>15 metros</td></tr><tr><td>2º Manifestação</td><td>25 metros</td><td>25 metros</td></tr><tr><td>3º Manifestação</td><td>35 metros</td><td>35 metros</td></tr></tbody></table><p>Caso a Técnica modificada seja “Flecha” e aplique uma Condição, você pode gastar 1 PA adicional para convertê-la ao modelo de “Linha”.</p><ul><li>Os gestos só funcionam em Técnicas que causem dano e/ou apliquem Condições negativas.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p>",
+          "chatFlavor": "Gestos: Flecha e Linha — Linha — 3ª Manifestação"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "35",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "line",
+            "size": "35",
+            "width": "1.5",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "gestos-flecha-e-linha",
+              "key": "line-3",
+              "manualResolution": true,
+              "rule": "gesture",
+              "gesture": "line",
+              "manifestation": 3,
+              "modifiesExistingTechnique": true,
+              "damageDie": 8
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Linha — 3ª Manifestação",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-flecha-e-linha.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "gestos-flecha-e-linha",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Controle de Qi",
+        "requisitos": [],
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado.",
+          "As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!f7ccd44a4dd736c4"
+}

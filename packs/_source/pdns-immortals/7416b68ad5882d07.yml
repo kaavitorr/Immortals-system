@@ -1,0 +1,73 @@
+_id: 7416b68ad5882d07
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:117
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 7416b68ad5882d07
+name: Golpe de Pinça
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢ [adicionais]</strong></p><p>Quando acertar um ataque contra um inimigo, a criatura pode
+      prender o alvo entre suas pinças, impondo a condição “Impedido” se ele falhar em uma Salvaguarda de Fortitude. A
+      condição dura até que o alvo consiga fugir.</p>
+    chat: ''
+  identifier: golpe-de-pinca
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    ba6892a390c19be9:
+      _id: ba6892a390c19be9
+      type: utility
+      name: Golpe de Pinça
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Quando acertar um ataque contra um inimigo, a criatura pode prender o alvo entre suas pinças, impondo a
+          condição “Impedido” se ele falhar em uma Salvaguarda de Fortitude. A condição dura até que o alvo consiga
+          fugir.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/golpe-de-pinca-7416b68ad5882d07.webp"
+_key: '!items!7416b68ad5882d07'

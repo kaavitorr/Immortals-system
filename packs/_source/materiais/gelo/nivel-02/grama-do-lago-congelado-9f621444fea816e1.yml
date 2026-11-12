@@ -1,0 +1,53 @@
+_id: 9f621444fea816e1
+_key: '!items!9f621444fea816e1'
+name: Grama do Espelho Congelado
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/9f621444fea816e1.webp
+system:
+  identifier: material-alquimia-9f621444fea816e1
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>Cresce sobre lagos espirituais cuja água reflete estrelas mesmo sob neve espessa. Seus fios atravessam o gelo para colher Qi nas duas faces da superfície, produzindo uma essência que aproxima camadas separadas sem desfazer a estabilidade fria da mistura.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 01a43186322c8bd2
+sort: 2100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Grama do Lago Congelado
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

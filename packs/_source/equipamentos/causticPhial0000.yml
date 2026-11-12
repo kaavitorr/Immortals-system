@@ -1,0 +1,142 @@
+_id: causticPhial0000
+_key: '!items!causticPhial0000'
+name: Frasco Cáustico
+type: consumable
+img: icons/consumables/potions/bottle-conical-fumes-green.webp
+system:
+  identifier: caustic-phial
+  description:
+    value: >-
+      <p>Líquido corrosivo gira dentro deste frasco de vidro deliberadamente fino, projetado para estilhaçar no impacto
+      e derramar a substância cáustica sobre o alvo.</p><p><strong>Propriedades:</strong> Empilhável, Arremesso.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 1
+    units: kg
+  price:
+    value: 250
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  activities:
+    ef4b477ce96fb0f2:
+      _id: ef4b477ce96fb0f2
+      type: utility
+      name: Arremessar frasco cáustico
+      img: icons/consumables/potions/bottle-conical-fumes-green.webp
+      sort: 0
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+          - type: itemUses
+            target: ''
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        value: >-
+          <p>You fling the Frasco Cáustico, dealing dano reduzido immediate <strong>Acid</strong> damage but causing the
+          Corrosão condition to all enemies in a 4 m radius <strong>Blast</strong> who fail to avoid the
+          attack.</p><p>The amount of corroding damage and its duration is dependent on the quality of the Frasco
+          Cáustico:</p><ul><li><p><strong>Shoddy</strong> - 2 damage for 2
+          rounds</p></li><li><p><strong>Standard</strong> - 3 damage for 3 rounds</p></li><li><p><strong>Fine</strong> -
+          4 damage for 4 rounds</p></li><li><p><strong>Superior</strong> - 6 damage for 5
+          rounds</p></li><li><p><strong>Masterwork</strong> - 8 damage for 6 rounds</p></li></ul>
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: m
+        value: 20
+        special: ''
+      target:
+        override: true
+        prompt: true
+        template:
+          type: circle
+          size: '4'
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+          special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  type:
+    value: trinket
+    subtype: ''
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    replace: false
+effects: []
+folder: 9u3lR2Lbhj3cdjQk
+sort: 100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: causticPhial0000
+      sourceType: consumable
+      category: bomb
+      quality: standard
+      enchantment: ''
+      properties:
+        - stackable
+        - thrown
+      weaponDamagePending: false
+      manualEffects: []

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 38" fill="none">
+  <defs><linearGradient id="lacquer" x1="7" y1="2" x2="40" y2="37" gradientUnits="userSpaceOnUse"><stop stop-color="#2b3c30"/><stop offset=".5" stop-color="#19291f"/><stop offset="1" stop-color="#122018"/></linearGradient><linearGradient id="bronze" x1="6" y1="0" x2="42" y2="38" gradientUnits="userSpaceOnUse"><stop stop-color="#a9956e"/><stop offset=".5" stop-color="#6f7960"/><stop offset="1" stop-color="#a08b63"/></linearGradient></defs>
+  <path d="M8.5 1h31L47 8.5v21L39.5 37h-31L1 29.5v-21Z" fill="url(#lacquer)" stroke="url(#bronze)"/>
+  <path d="M9.5 4h29L44 9.5v19L38.5 34h-29L4 28.5v-19Z" stroke="#87a592" stroke-opacity=".32" stroke-width=".65"/>
+  <path d="M4 12V9.5L9.5 4H13M35 34h3.5l5.5-5.5V26" stroke="#c2ac7a" stroke-opacity=".58" stroke-width=".8"/>
+  <path d="m24 1 1.8 1.8L24 4.6l-1.8-1.8ZM24 33.4l1.8 1.8L24 37l-1.8-1.8Z" fill="#9e916c"/>
+</svg>

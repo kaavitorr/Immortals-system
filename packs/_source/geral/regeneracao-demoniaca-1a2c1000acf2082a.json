@@ -1,0 +1,26 @@
+{
+  "_id": "1a2c1000acf2082a",
+  "name": "Regeneração Demoníaca",
+  "type": "feat",
+  "folder": "1a2c000000000002",
+  "img": "systems/Immortals-system/assets/wuxia/caracteristicas-especie-pintadas-v1/regeneracao-demoniaca.webp",
+  "system": {
+    "identifier": "especie-892eb26a",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Regeneração Demoníaca: O Demônio é imune a efeitos de “Ferida Brutal” e “Ferimento Persistente”, embora ainda os sofra. Caso ele perca um órgão ou membro que não seja o cérebro ou coração, ele pode regenerar qualquer outra parte perdida em até 10 dias, reduzindo em 2 dias para cada nível de cultivo acima de “Mortal”.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Regeneração Demoníaca",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000acf2082a"
+}

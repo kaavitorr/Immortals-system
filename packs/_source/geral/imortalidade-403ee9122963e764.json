@@ -1,0 +1,15 @@
+{
+  "_id": "403ee9122963e764",
+  "name": "Imortalidade",
+  "type": "Item",
+  "folder": "1ac79c99963d80c7",
+  "sorting": "a",
+  "color": "#bb9e57",
+  "flags": {
+    "Immortals-system": {
+      "qiTalentsFolder": "Imortalidade",
+      "qiTalentsContentVersion": 1
+    }
+  },
+  "_key": "!folders!403ee9122963e764"
+}

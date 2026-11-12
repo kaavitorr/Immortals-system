@@ -1,0 +1,53 @@
+_id: a0ca74642f3355dd
+_key: '!items!a0ca74642f3355dd'
+name: Couro de Iaque Incandescente
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/a0ca74642f3355dd.webp
+system:
+  identifier: material-alquimia-a0ca74642f3355dd
+  description:
+    value: <p><strong>Elemento:</strong> Fogo · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Parte de animal</p><p>Iaques de carga cruzam o desfiladeiro de lava a passo certo, sem queimar as patas. Curtido em fumaça de lenha, o couro faz vestes que prendem o calor junto ao peito.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 4d8c101e00971f88
+sort: 7800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: fogo
+      elementLabel: Fogo
+      level: 4
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/fogo.json
+        originalName: Couro de Iaque Incandescente
+        sha256: ba1a23c0b606945bb3806834a346654c7369238959758f3d2c8d2c74258f92bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

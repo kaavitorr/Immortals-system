@@ -1,0 +1,137 @@
+_id: torch00000000000
+_key: '!items!torch00000000000'
+name: Tocha
+type: consumable
+img: icons/sundries/lights/torch-black.webp
+system:
+  identifier: torch
+  description:
+    value: >-
+      <p>Tecido em camadas embebido em óleo, fixado na ponta de uma haste de osso ou outro material não inflamável: uma
+      fonte de luz barata, embora ineficiente. Cada tocha queima por uma hora antes de não poder mais ser
+      usada.</p><p><strong>Propriedades:</strong> Empilhável.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 1
+    units: kg
+  price:
+    value: 1
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  activities:
+    48325764b2af15af:
+      _id: 48325764b2af15af
+      type: utility
+      name: Acender tocha
+      img: icons/sundries/lights/torch-brown-lit.webp
+      sort: 0
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '1'
+          - type: itemUses
+            target: ''
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        value: >-
+          <p>You ignite the Tocha, producing flickering illumination in a wide radius for one hour. The torch is
+          consumed by this action and cannot be used again, but its light remains until it burns out.</p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: self
+        value: null
+        special: ''
+      target:
+        override: true
+        prompt: true
+        template:
+          type: ''
+          size: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: self
+          count: ''
+          choice: false
+          special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  type:
+    value: trinket
+    subtype: ''
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    replace: false
+effects: []
+folder: h5q90kRajvUXzsEw
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: torch00000000000
+      sourceType: consumable
+      category: other
+      quality: standard
+      enchantment: ''
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

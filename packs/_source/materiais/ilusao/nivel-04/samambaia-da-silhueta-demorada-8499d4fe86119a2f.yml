@@ -1,0 +1,53 @@
+_id: 8499d4fe86119a2f
+_key: '!items!8499d4fe86119a2f'
+name: Samambaia da Silhueta Demorada
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/8499d4fe86119a2f.webp
+system:
+  identifier: material-alquimia-8499d4fe86119a2f
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Planta</p><p>Onde ela cresce, sua silhueta fica no ar um instante após a planta se mover, como marca de tinta. Frondes amarradas à testa prolongam as fintas do corpo em combate.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: e3d2cfec08742040
+sort: 7000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 4
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Samambaia da Silhueta Demorada
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

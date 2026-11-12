@@ -1,0 +1,80 @@
+_id: f7771b337157f26e
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:219
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: f7771b337157f26e
+name: Fuga Escorregadia
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Ao ser alvo de uma jogada de acerto ou precisar realizar uma
+      Salvaguarda para sofrer todo o dano ou metade dele, essa criatura pode gastar 2 PQ para se mover 5 metros,
+      cancelando o ataque ou zerando o dano de um ataque em área se sair do alcance. Após isso, a próxima rolagem de
+      acerto contra ela tem duas desvantagens.</p>
+    chat: ''
+  identifier: fuga-escorregadia
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    db72e941ed8f9e2c:
+      _id: db72e941ed8f9e2c
+      type: utility
+      name: Fuga Escorregadia
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao ser alvo de uma jogada de acerto ou precisar realizar uma Salvaguarda para sofrer todo o dano ou metade
+          dele, essa criatura pode gastar 2 PQ para se mover 5 metros, cancelando o ataque ou zerando o dano de um
+          ataque em área se sair do alcance. Após isso, a próxima rolagem de acerto contra ela tem duas
+          desvantagens.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 2
+  prerequisites:
+    items: []
+    level: 2
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/fuga-escorregadia-f7771b337157f26e.webp"
+_key: '!items!f7771b337157f26e'

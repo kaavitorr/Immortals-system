@@ -1,0 +1,53 @@
+_id: 970d36b533bc3146
+_key: '!items!970d36b533bc3146'
+name: Osso do Peng de Nove Asas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/970d36b533bc3146.webp
+system:
+  identifier: material-alquimia-970d36b533bc3146
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 9 · <strong>Categoria:</strong> Parte de animal</p><p>Osso leve como cana e mais forte que aço, das nove asas que cobrem o céu do pico ocidental. Ralado, alivia o peso do corpo por uma lua.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 70f6a58e639a255c
+sort: 17300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 9
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Osso do Peng de Nove Asas
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 9
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,53 @@
+_id: cca697303e103d8a
+_key: '!items!cca697303e103d8a'
+name: Cardo das Veias de Estanho
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/cca697303e103d8a.webp
+system:
+  identifier: material-alquimia-cca697303e103d8a
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Planta</p><p>Este cardo enraíza em afloramentos permeados por Qi de Metal e conduz brilho cinzento das raízes até as pontas dos espinhos. Sua fração mineral depurada dá firmeza a matrizes nutritivas e integra preparados alquímicos destinados à consolidação dos dentes e da estrutura óssea.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 50
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 77a144bc11e1d2d8
+sort: 200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 1
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Cardo de Estanho
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

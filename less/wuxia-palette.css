@@ -1,0 +1,48 @@
+/* PALETA CENTRAL — Immortals Legacy
+ * Altere as seis cores principais aqui. Os demais tons são derivados delas.
+ * Prata/cobre preservam a identidade das moedas; preto/branco servem às misturas.
+ * Ícones e ilustrações mantêm suas cores originais.
+ */
+:root {
+  --iw-color-ink: #191d23;
+  --iw-color-panel: #20262e;
+  --iw-color-accent: #9bb0bf;
+  --iw-color-bronze: #b79a71;
+  --iw-color-text: #d5d3ca;
+  --iw-color-danger: #b18a83;
+  --iw-color-resistance: #79ad88;
+  --iw-color-vulnerability: #c97876;
+  --iw-color-temp-hp: #80abd2;
+  --iw-color-silver: #b2bcc3;
+  --iw-color-copper: #b78f76;
+  --iw-color-shadow: #000000;
+  --iw-color-light: #ffffff;
+
+  /* Superfícies, linhas, estados e ornamentos derivados. */
+  --iw-color-deep: color-mix(in srgb,var(--iw-color-ink) 70%,var(--iw-color-shadow));
+  --iw-color-recess: color-mix(in srgb,var(--iw-color-ink) 85%,var(--iw-color-shadow));
+  --iw-color-raised: color-mix(in srgb,var(--iw-color-panel) 92%,var(--iw-color-accent));
+  --iw-color-hover: color-mix(in srgb,var(--iw-color-panel) 84%,var(--iw-color-accent));
+  --iw-color-selected: color-mix(in srgb,var(--iw-color-panel) 75%,var(--iw-color-accent));
+  --iw-color-line-faint: color-mix(in srgb,var(--iw-color-panel) 82%,var(--iw-color-accent));
+  --iw-color-line: color-mix(in srgb,var(--iw-color-panel) 65%,var(--iw-color-accent));
+  --iw-color-line-strong: color-mix(in srgb,var(--iw-color-panel) 42%,var(--iw-color-accent));
+  --iw-color-accent-muted: color-mix(in srgb,var(--iw-color-accent) 78%,var(--iw-color-panel));
+  --iw-color-accent-bright: color-mix(in srgb,var(--iw-color-accent) 72%,var(--iw-color-text));
+  --iw-color-muted: color-mix(in srgb,var(--iw-color-text) 64%,var(--iw-color-line));
+  --iw-color-subtle: color-mix(in srgb,var(--iw-color-text) 45%,var(--iw-color-line));
+  --iw-color-text-warm: color-mix(in srgb,var(--iw-color-text) 86%,var(--iw-color-bronze));
+  --iw-color-metal-surface: color-mix(in srgb,var(--iw-color-panel) 92%,var(--iw-color-bronze));
+  --iw-color-metal-raised: color-mix(in srgb,var(--iw-color-panel) 75%,var(--iw-color-bronze));
+  --iw-color-bronze-shadow: color-mix(in srgb,var(--iw-color-bronze) 56%,var(--iw-color-panel));
+  --iw-color-bronze-light: color-mix(in srgb,var(--iw-color-bronze) 68%,var(--iw-color-text));
+  --iw-color-danger-bg: color-mix(in srgb,var(--iw-color-panel) 90%,var(--iw-color-danger));
+  --iw-color-danger-line: color-mix(in srgb,var(--iw-color-danger) 60%,var(--iw-color-panel));
+  --iw-color-danger-light: color-mix(in srgb,var(--iw-color-danger) 65%,var(--iw-color-text));
+  --iw-color-highlight: color-mix(in srgb,var(--iw-color-text) 80%,var(--iw-color-light));
+  --iw-color-vapor: color-mix(in srgb,var(--iw-color-accent) 50%,var(--iw-color-text));
+  --iw-color-aura-qi:var(--iw-color-accent);
+  --iw-color-aura-body:var(--iw-color-bronze);
+  --iw-color-aura-soul:var(--iw-color-accent-bright);
+}
+

@@ -1,0 +1,80 @@
+{
+  "_id": "bacc1000159dee51",
+  "name": "Ladrão de Rua",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/ladrao-de-rua.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-ladrao-de-rua",
+    "description": {
+      "value": "<p>O ladrão é aquele que vive a sua vida cometendo desde pequenos furtos até grandes roubos para se manter, ele pode possuir uma grande gama de habilidades e normalmente é capaz de escapar de qualquer situação, desde que ele tenha planejado o suficiente. Um ladrão de sucesso consegue fazer milhares de moedas roubando das pessoas certas.</p><h3>Equipamentos iniciais</h3><p>Um kit de abrir cadeados e um kit de disfarce. <strong>10 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc2000159dee51]{Rastro Fantasma}</h3><p>Você consegue sentir o cheiro de dinheiro, quando você detecta um objeto valioso e sabe informações suficientes sobre ele e seu dono, você é capaz de acha-lo como se existisse um rastro luminoso levando até seu alvo. Quando você invadir um lugar que contém um item específico que você busca. Você pode realizar um Teste de Sorte com CD definida pelo Narrador. Em caso de sucesso, você irá deduzir com sucesso onde o item se encontra na estrutura. Se você conseguirá rouba-lo é outra história.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc5000159dee51",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 10,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc3000159dee51": {
+        "_id": "bacc3000159dee51",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc2000159dee51",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc7000159dee51": {
+        "_id": "bacc7000159dee51",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000c180b3ad",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.disguiseToolkit0",
+              "quantity": 1,
+              "optional": false
+            }
+          ],
+          "currency": {
+            "gp": 10
+          },
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "ladrao-de-rua",
+        "startingGold": 10,
+        "equipment": "Um kit de abrir cadeados e um kit de disfarce."
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc1000159dee51"
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000188cf136",
+  "name": "Chapéu de Palha",
+  "type": "equipment",
+  "img": "icons/equipment/head/hat-pointed-leather-brown.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-chapeu-palha",
+    "description": {
+      "value": "<p>Chapéu simples de palha.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "clothing"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "chapeu-palha"
+    }
+  },
+  "_key": "!items!bacc6000188cf136"
+}

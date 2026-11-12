@@ -1,0 +1,11 @@
+_id: 15c0438a058c3465
+name: Minérios
+type: Item
+folder: null
+sorting: m
+sort: 1300000
+color: '#77614b'
+flags:
+  Immortals-system:
+    oreMaterialFolder: true
+_key: '!folders!15c0438a058c3465'

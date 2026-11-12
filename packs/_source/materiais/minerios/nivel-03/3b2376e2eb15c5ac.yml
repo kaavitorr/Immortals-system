@@ -1,0 +1,50 @@
+_id: 3b2376e2eb15c5ac
+name: Calcedônia do Suspiro
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-03/3b2376e2eb15c5ac.webp
+system:
+  identifier: minerio-3b2376e2eb15c5ac
+  description:
+    value: <p><strong>Nível:</strong> 3 · <strong>Categoria:</strong> Minério</p><p>Nódulo azul acinzentado com camadas delicadas que deixam passar a luz pelas bordas. Cresce em túneis percorridos por correntes de ar contínuas. É lapidado em bocais e anéis de passagem de Qi para instrumentos de sopro e dispositivos de Vento.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 2000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 1553cd7f43d03e6b
+sort: 700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 3
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 3
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!3b2376e2eb15c5ac'

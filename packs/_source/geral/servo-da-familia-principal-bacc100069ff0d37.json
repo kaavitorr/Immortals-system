@@ -1,0 +1,80 @@
+{
+  "_id": "bacc100069ff0d37",
+  "name": "Servo da Família Principal",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/servo-da-familia-principal.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-servo-da-familia-principal",
+    "description": {
+      "value": "<p>Você foi o servo nada importante de uma família de cultivadores e recebeu instruções e treinamentos básicos de como melhor servi-los, isso garantiu alguns poucos benefícios que ajudam você a sobreviver no mundo.</p><h3>Equipamentos iniciais</h3><p>Três conjuntos de robes simples de servo. <strong>100 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc200069ff0d37]{Benefícios de Servo}</h3><p>Você recebe um manual de cultivo de rank humano e classe comum que é dado para todos os servos da família. Além disso, quando você se deparar com um membro da família a que serviu, você pode realizar um Teste de Sorte com CD definida pelo Narrador. Em caso de sucesso, um membro ou servo da família pode te dar uma ajuda que não custe nenhum dinheiro ou ponha a própria vida ou de quem serve em risco. Essa ajuda pode ser em forma de informação, abrigo ou similar.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc500069ff0d37",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 100,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc300069ff0d37": {
+        "_id": "bacc300069ff0d37",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc200069ff0d37",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc700069ff0d37": {
+        "_id": "bacc700069ff0d37",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc60002981627f",
+              "quantity": 3,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000b08cc8b6",
+              "quantity": 1,
+              "optional": false
+            }
+          ],
+          "currency": {
+            "gp": 100
+          },
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "servo-da-familia-principal",
+        "startingGold": 100,
+        "equipment": "Três conjuntos de robes simples de servo."
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc100069ff0d37"
+}

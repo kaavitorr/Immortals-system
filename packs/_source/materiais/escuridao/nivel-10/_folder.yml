@@ -1,0 +1,13 @@
+_id: 67086d34314c15a2
+_key: '!folders!67086d34314c15a2'
+name: Nível 10
+type: Item
+folder: b1a27ea1b8406500
+sorting: a
+sort: 1000000
+color: '#3c414c'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: escuridao
+      level: 10

@@ -1,0 +1,80 @@
+_id: 9611a18c36e0ef56
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:214
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 9611a18c36e0ef56
+name: Estilhaço Reativo
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Quando uma criatura realizar uma ação dentro do alcance de 10 metros
+      dessa criatura, ela pode gastar 2 PQ para realizar um ataque que cria uma explosão concussiva em uma área de 5
+      metros. Todas as criaturas no interior que falharem em uma Salvaguarda de Fortitude são empurradas por 5 metros na
+      direção contrária à do centro da explosão. Essa habilidade não causa dano de colisão.</p>
+    chat: ''
+  identifier: estilhaco-reativo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    a299dd0be37fb737:
+      _id: a299dd0be37fb737
+      type: utility
+      name: Estilhaço Reativo
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Quando uma criatura realizar uma ação dentro do alcance de 10 metros dessa criatura, ela pode gastar 2 PQ
+          para realizar um ataque que cria uma explosão concussiva em uma área de 5 metros. Todas as criaturas no
+          interior que falharem em uma Salvaguarda de Fortitude são empurradas por 5 metros na direção contrária à do
+          centro da explosão. Essa habilidade não causa dano de colisão.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/estilhaco-reativo-9611a18c36e0ef56.webp"
+_key: '!items!9611a18c36e0ef56'

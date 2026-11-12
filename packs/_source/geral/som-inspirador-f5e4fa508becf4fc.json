@@ -1,0 +1,182 @@
+{
+  "_id": "f5e4fa508becf4fc",
+  "name": "Som Inspirador",
+  "type": "spell",
+  "folder": "d15ebb74f3191760",
+  "sort": 300000,
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/musico.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-som-inspirador",
+    "level": 0,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 2,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "1",
+      "units": "turn",
+      "expiry": "turnEnd",
+      "special": "Até o fim do turno atual",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "",
+      "units": "self",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "radius",
+        "size": "30",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "creature",
+        "count": "",
+        "choice": true,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Cítara</td></tr><tr><th>Técnica</th><td>Auxiliar</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>2</td></tr><tr><th>Alcance</th><td>Até 30 metros, Emanação</td></tr><tr><th>Duração</th><td>Até o fim do turno atual</td></tr><tr><th>Arma</th><td>Cítara</td></tr><tr><th>Requisito do quadro</th><td>Citara</td></tr></tbody></table><p>Você toca uma única nota que se espalha como uma ondulação pelo local. Todas as criaturas (à sua escolha) a até 30 metros recebem 1d6 para utilizar em uma rolagem no d20.</p><h3>Observações</h3><p>Escolha as criaturas na emanação de 30 metros. Cada uma pode usar 1d6 em uma rolagem no d20 até o fim do turno atual; aplique esse dado somente à rolagem escolhida.</p>"
+    },
+    "activities": {
+      "8745f58509db5755": {
+        "_id": "8745f58509db5755",
+        "type": "utility",
+        "name": "Som Inspirador",
+        "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/musico.webp",
+        "activation": {
+          "type": "action",
+          "value": 2,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "4",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Cítara</td></tr><tr><th>Técnica</th><td>Auxiliar</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>2</td></tr><tr><th>Alcance</th><td>Até 30 metros, Emanação</td></tr><tr><th>Duração</th><td>Até o fim do turno atual</td></tr><tr><th>Arma</th><td>Cítara</td></tr><tr><th>Requisito do quadro</th><td>Citara</td></tr></tbody></table><p>Você toca uma única nota que se espalha como uma ondulação pelo local. Todas as criaturas (à sua escolha) a até 30 metros recebem 1d6 para utilizar em uma rolagem no d20.</p><h3>Observações</h3><p>Escolha as criaturas na emanação de 30 metros. Cada uma pode usar 1d6 em uma rolagem no d20 até o fim do turno atual; aplique esse dado somente à rolagem escolhida.</p>",
+          "chatFlavor": "Som Inspirador"
+        },
+        "duration": {
+          "value": "1",
+          "units": "turn",
+          "expiry": "turnEnd",
+          "special": "Até o fim do turno atual",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "radius",
+            "size": "30",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "",
+            "choice": true,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "som-inspirador",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "1d6",
+          "name": "Som Inspirador",
+          "visible": true,
+          "prompt": false
+        }
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "som-inspirador",
+        "category": "citara",
+        "grade": null,
+        "auxiliary": true,
+        "weapon": "Cítara",
+        "qi": 4,
+        "actions": 2,
+        "reaction": false,
+        "combinedAttack": null,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Até o fim do turno atual",
+            "range": "Até 30 metros, Emanação",
+            "requirements": "Citara",
+            "damage": "Nenhum",
+            "combinedAttack": null
+          }
+        },
+        "manualResolution": [
+          "Escolha as criaturas na emanação de 30 metros. Cada uma pode usar 1d6 em uma rolagem no d20 até o fim do turno atual; aplique esse dado somente à rolagem escolhida."
+        ],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!f5e4fa508becf4fc"
+}

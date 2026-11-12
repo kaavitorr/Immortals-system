@@ -1,0 +1,179 @@
+name: Agourento
+type: archetype
+folder: 1bnnSCjbnPuunvFI
+system:
+  description:
+    value: >-
+      <p>Abala a mente dos inimigos com presságios, gritos e sussurros. Aproveita o medo e a desorientação para atacar
+      com o bando ou preparar uma emboscada.</p><p><strong>Resistência por ND:</strong> Psíquico
+      +2</p><p><strong>Vulnerabilidade:</strong> Físicos −6 · Mov +1 | 5/ND</p><p><strong>Deslocamento:</strong> +1 até
+      um máximo de 25</p><p><strong>Armaduras:</strong> Nenhuma.</p><p><strong>Perícias:</strong> Proficiências:
+      Intimidação, Sobrenatural, Percepção e Enganação.</p><p><strong>Salvaguardas:</strong> Proficiências: Vontade e
+      Fortitude.</p><p><strong>Aspectos:</strong> Presença Aterradora, Aura do Medo, Visão Aguçada, Voo Superior,
+      Sobrevoo, Sussurro Perturbador, Analisar Padrões, Tática de Bando, Mente Singular, Algoz
+      Invisível.</p><p><strong>Habilidades:</strong> Medo Instilado, Grito Estridente, Imitar Voz, Roubo de Nome, Onda
+      de Charme, Ataque de Mergulho, Ataque com Asa, Ilusão Menor, Grito Psíquico, Passo das
+      Sombras.</p><p><strong>Reações:</strong> Grito de Agouro, Sussurro Reativo, Alerta.</p>
+    chat: ''
+  identifier: agourento
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 1
+    dex: 3
+    con: 2
+    int: 3
+    wis: 2
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: -6
+      immune: false
+    piercing:
+      value: -6
+      immune: false
+    slashing:
+      value: -6
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 2
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.itm
+      - skills.ani
+      - skills.prc
+      - skills.dec
+      - saves.con
+      - saves.cha
+      - saves.str
+      - saves.wis
+    alternative:
+      - skills.itm
+      - skills.ani
+      - skills.prc
+      - skills.dec
+      - alternativeSaves.vontade
+      - alternativeSaves.fortitude
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.1b191e87efc875ab
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.1cf422fe3a1c85ba
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.cd071c8deb66d86d
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5b985b137ebe3303
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.a2bef16f773de0b2
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bbf113c5cca4de4
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.85abaa55671447db
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7845b27e637b3835
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.96843f58553be25f
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e34c3dee2bd1012b
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5d85d51e1781dcb6
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.86a2bfef529caefd
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f07d95cbbe478b4e
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.38a87b70e6f341bd
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.51ef0393adc7e89f
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5b1140a0f034010d
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4bfd8fb89c7efd6d
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.76b427cb66539eaf
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5efee2aef46af820
+      nd: 10
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.0692eab7d5bf96d7
+      nd: 10
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8727b2b7070ef7d5
+      nd: 11
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.549b53570842bd88
+      nd: 14
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.43ff2f3cca5fedbf
+      nd: 14
+  equipamentos:
+    armadura: null
+    armas: []
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: LULUUYe2mpcWWBoO
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/agourento.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:agourento
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: LULUUYe2mpcWWBoO
+_key: '!items!LULUUYe2mpcWWBoO'

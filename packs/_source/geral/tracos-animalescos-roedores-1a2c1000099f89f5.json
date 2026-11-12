@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000099f89f5",
+  "name": "Traços Animalescos — Roedores",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/mammals/rodent-rat-green.webp",
+  "system": {
+    "identifier": "especie-45723cb5",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Roedores. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c1000adef7102": {
+        "_id": "1a2c1000adef7102",
+        "type": "ItemChoice",
+        "title": "Duas características — Roedores",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.dPscOGGStS2FBPI2"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.K2n04gRVgy7GJ2Fd"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Roedores",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000099f89f5"
+}

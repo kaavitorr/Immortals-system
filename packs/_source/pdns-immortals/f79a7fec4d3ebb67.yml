@@ -1,0 +1,73 @@
+_id: f79a7fec4d3ebb67
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:187
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: f79a7fec4d3ebb67
+name: Bote Surpresa
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Quando uma criatura a até 5 metros se mover, você pode avançar contra
+      ela e realizar uma rolagem de ataque. Em caso de acerto, o alvo é empurrado 1 metro e deve realizar uma
+      Salvaguarda de Reflexo para não receber a condição “Caído”.</p>
+    chat: ''
+  identifier: bote-surpresa
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    ada20fa5f4d9c8a2:
+      _id: ada20fa5f4d9c8a2
+      type: utility
+      name: Bote Surpresa
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Quando uma criatura a até 5 metros se mover, você pode avançar contra ela e realizar uma rolagem de ataque.
+          Em caso de acerto, o alvo é empurrado 1 metro e deve realizar uma Salvaguarda de Reflexo para não receber a
+          condição “Caído”.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/bote-surpresa-f79a7fec4d3ebb67.webp"
+_key: '!items!f79a7fec4d3ebb67'

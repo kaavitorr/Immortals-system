@@ -1,0 +1,71 @@
+_id: 5dcab7f3fdcd6d4f
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:227
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 5dcab7f3fdcd6d4f
+name: Mordida Reativa
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Reação</strong></p><p>Quando uma criatura realizar uma ação dentro do alcance dessa criatura, ela pode
+      realizar um ataque comum contra o alvo, como reação.</p>
+    chat: ''
+  identifier: mordida-reativa
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    28535889d753a26d:
+      _id: 28535889d753a26d
+      type: utility
+      name: Mordida Reativa
+      activation:
+        type: reaction
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Quando uma criatura realizar uma ação dentro do alcance dessa criatura, ela pode realizar um ataque comum
+          contra o alvo, como reação.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 7
+  prerequisites:
+    items: []
+    level: 7
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/mordida-reativa-5dcab7f3fdcd6d4f.webp"
+_key: '!items!5dcab7f3fdcd6d4f'

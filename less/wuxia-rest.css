@@ -1,0 +1,27 @@
+/* Long-rest summary: quiet slate surfaces, bronze details and native form controls. */
+.application.iw-dialog.long-rest .window-content .iw-long-rest{display:flex;flex-direction:column;gap:12px;min-width:0;color:var(--iw-color-text);font:400 12px/1.5 "Segoe UI",Arial,sans-serif}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-intro{display:flex;align-items:center;gap:11px;padding:0 0 12px;border-bottom:1px solid var(--iw-color-bronze-shadow)}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-intro>svg{flex:none;width:27px;height:30px;color:var(--iw-color-bronze)}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-intro h2{margin:0 0 4px;border:0;font:600 16px/1.4 "Segoe UI",Arial,sans-serif;color:var(--iw-color-text)}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-intro p{margin:0;font:400 11px/1.5 "Segoe UI",Arial,sans-serif;color:var(--iw-color-muted)}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-recoveries{display:grid;gap:10px;min-width:0}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-recovery{--iw-rest-color:var(--iw-color-bronze);min-width:0;padding:12px;border:1px solid var(--iw-color-line);border-left:2px solid var(--iw-rest-color);border-radius:3px 1px;background:linear-gradient(100deg,var(--iw-color-raised),var(--iw-color-panel));box-shadow:inset 0 1px 0 color-mix(in srgb,var(--iw-color-bronze-light) 8%,transparent)}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-life{--iw-rest-color:var(--iw-color-danger)}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-qi{--iw-rest-color:var(--iw-color-accent)}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-recovery>header{display:grid;grid-template-columns:25px minmax(0,1fr) auto;align-items:center;gap:9px;min-width:0}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-recovery>header>svg{width:23px;height:25px;color:var(--iw-rest-color)}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-card-title{margin:0;border:0;color:var(--iw-color-text);font:600 12px/1.4 "Segoe UI",Arial,sans-serif}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-recovery header p{margin:3px 0 0;font:400 10px/1.45 "Segoe UI",Arial,sans-serif;color:var(--iw-color-muted)}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-amount{color:var(--iw-color-text);font:600 19px/1.25 "Segoe UI",Arial,sans-serif;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-recovery>footer{display:flex;justify-content:space-between;gap:10px;margin-top:10px;padding-top:8px;border-top:1px solid var(--iw-color-line-faint);color:var(--iw-color-muted);font:400 10px/1.4 "Segoe UI",Arial,sans-serif}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-recovery footer b{font-weight:500;color:var(--iw-color-accent)}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-ceiling-note{margin:0;padding:0 2px;color:var(--iw-color-muted);font:400 10px/1.55 "Segoe UI",Arial,sans-serif}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-options{margin:0;padding-top:10px;border-top:1px solid var(--iw-color-line)}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-options>summary{display:flex;align-items:center;justify-content:space-between;gap:10px;cursor:pointer;list-style:none;font:500 11px/1.5 "Segoe UI",Arial,sans-serif;color:var(--iw-color-muted)}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-options>summary>svg{flex:none;width:13px;height:13px;color:var(--iw-color-bronze)}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-options[open]>summary>svg{transform:rotate(180deg)}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-options>div{padding-top:12px;display:grid;gap:10px}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-general{display:grid;gap:8px}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-general p{margin:0;padding:10px;border-left:2px solid var(--iw-color-bronze-shadow);background:var(--iw-color-panel)}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-general strong{display:block;color:var(--iw-color-text);margin-bottom:4px}
+.application.iw-dialog.long-rest .window-content .iw-long-rest .iw-rest-general span{color:var(--iw-color-muted);font-size:11px}

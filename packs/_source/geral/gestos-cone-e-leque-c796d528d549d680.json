@@ -1,0 +1,593 @@
+{
+  "_id": "c796d528d549d680",
+  "name": "Gestos: Cone e Leque",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-cone-e-leque.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-gestos-cone-e-leque",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Cone e Leque</h2><p><strong>Requisito:</strong> Gestos: Flecha e Linha.</p><p>Você aprende a utilizar os gestos de Cone e Leque na ativação de suas Técnicas a distância, modificando seu alcance. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Leque: Você faz com que seu ataque atinja uma área de 180° à sua frente. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li><li>Cone: Você faz com que seu ataque atinja uma área de 55° à sua frente. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Leque</th><th>Cone</th></tr><tr><td>1º Manifestação</td><td>6 metros</td><td>10 metros</td></tr><tr><td>2º Manifestação</td><td>12 metros</td><td>20 metros</td></tr><tr><td>3º Manifestação</td><td>18 metros</td><td>30 metros</td></tr></tbody></table><p>Caso a técnica modificada seja uma “Flecha” e tenha uma condição, você paga 2 PQ adicionais para modifica-la para o modelo de Leque ou Cone.</p><ul><li>Os gestos só funcionam em técnicas que causam dano e/ou condições negativas.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p>"
+    },
+    "activities": {
+      "e9198818c69a0f24": {
+        "_id": "e9198818c69a0f24",
+        "type": "utility",
+        "name": "Leque — 1ª Manifestação",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Cone e Leque</h2><p><strong>Requisito:</strong> Gestos: Flecha e Linha.</p><p>Você aprende a utilizar os gestos de Cone e Leque na ativação de suas Técnicas a distância, modificando seu alcance. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Leque: Você faz com que seu ataque atinja uma área de 180° à sua frente. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li><li>Cone: Você faz com que seu ataque atinja uma área de 55° à sua frente. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Leque</th><th>Cone</th></tr><tr><td>1º Manifestação</td><td>6 metros</td><td>10 metros</td></tr><tr><td>2º Manifestação</td><td>12 metros</td><td>20 metros</td></tr><tr><td>3º Manifestação</td><td>18 metros</td><td>30 metros</td></tr></tbody></table><p>Caso a técnica modificada seja uma “Flecha” e tenha uma condição, você paga 2 PQ adicionais para modifica-la para o modelo de Leque ou Cone.</p><ul><li>Os gestos só funcionam em técnicas que causam dano e/ou condições negativas.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p>",
+          "chatFlavor": "Gestos: Cone e Leque — Leque — 1ª Manifestação"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "15",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "cone",
+            "size": "6",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "gestos-cone-e-leque",
+              "key": "fan-1",
+              "manualResolution": true,
+              "rule": "gesture",
+              "gesture": "fan",
+              "manifestation": 1,
+              "modifiesExistingTechnique": true,
+              "damageDie": 6,
+              "angle": 180
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Leque — 1ª Manifestação",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-cone-e-leque.webp"
+      },
+      "cf9380d0ff851446": {
+        "_id": "cf9380d0ff851446",
+        "type": "utility",
+        "name": "Cone — 1ª Manifestação",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Cone e Leque</h2><p><strong>Requisito:</strong> Gestos: Flecha e Linha.</p><p>Você aprende a utilizar os gestos de Cone e Leque na ativação de suas Técnicas a distância, modificando seu alcance. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Leque: Você faz com que seu ataque atinja uma área de 180° à sua frente. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li><li>Cone: Você faz com que seu ataque atinja uma área de 55° à sua frente. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Leque</th><th>Cone</th></tr><tr><td>1º Manifestação</td><td>6 metros</td><td>10 metros</td></tr><tr><td>2º Manifestação</td><td>12 metros</td><td>20 metros</td></tr><tr><td>3º Manifestação</td><td>18 metros</td><td>30 metros</td></tr></tbody></table><p>Caso a técnica modificada seja uma “Flecha” e tenha uma condição, você paga 2 PQ adicionais para modifica-la para o modelo de Leque ou Cone.</p><ul><li>Os gestos só funcionam em técnicas que causam dano e/ou condições negativas.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p>",
+          "chatFlavor": "Gestos: Cone e Leque — Cone — 1ª Manifestação"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "15",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "cone",
+            "size": "10",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "gestos-cone-e-leque",
+              "key": "cone-1",
+              "manualResolution": true,
+              "rule": "gesture",
+              "gesture": "cone",
+              "manifestation": 1,
+              "modifiesExistingTechnique": true,
+              "damageDie": 6,
+              "angle": 55
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Cone — 1ª Manifestação",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-cone-e-leque.webp"
+      },
+      "ec198cd10eb219db": {
+        "_id": "ec198cd10eb219db",
+        "type": "utility",
+        "name": "Leque — 2ª Manifestação",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Cone e Leque</h2><p><strong>Requisito:</strong> Gestos: Flecha e Linha.</p><p>Você aprende a utilizar os gestos de Cone e Leque na ativação de suas Técnicas a distância, modificando seu alcance. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Leque: Você faz com que seu ataque atinja uma área de 180° à sua frente. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li><li>Cone: Você faz com que seu ataque atinja uma área de 55° à sua frente. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Leque</th><th>Cone</th></tr><tr><td>1º Manifestação</td><td>6 metros</td><td>10 metros</td></tr><tr><td>2º Manifestação</td><td>12 metros</td><td>20 metros</td></tr><tr><td>3º Manifestação</td><td>18 metros</td><td>30 metros</td></tr></tbody></table><p>Caso a técnica modificada seja uma “Flecha” e tenha uma condição, você paga 2 PQ adicionais para modifica-la para o modelo de Leque ou Cone.</p><ul><li>Os gestos só funcionam em técnicas que causam dano e/ou condições negativas.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p>",
+          "chatFlavor": "Gestos: Cone e Leque — Leque — 2ª Manifestação"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "25",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "cone",
+            "size": "12",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "gestos-cone-e-leque",
+              "key": "fan-2",
+              "manualResolution": true,
+              "rule": "gesture",
+              "gesture": "fan",
+              "manifestation": 2,
+              "modifiesExistingTechnique": true,
+              "damageDie": 6,
+              "angle": 180
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Leque — 2ª Manifestação",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-cone-e-leque.webp"
+      },
+      "d29385893cd26609": {
+        "_id": "d29385893cd26609",
+        "type": "utility",
+        "name": "Cone — 2ª Manifestação",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Cone e Leque</h2><p><strong>Requisito:</strong> Gestos: Flecha e Linha.</p><p>Você aprende a utilizar os gestos de Cone e Leque na ativação de suas Técnicas a distância, modificando seu alcance. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Leque: Você faz com que seu ataque atinja uma área de 180° à sua frente. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li><li>Cone: Você faz com que seu ataque atinja uma área de 55° à sua frente. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Leque</th><th>Cone</th></tr><tr><td>1º Manifestação</td><td>6 metros</td><td>10 metros</td></tr><tr><td>2º Manifestação</td><td>12 metros</td><td>20 metros</td></tr><tr><td>3º Manifestação</td><td>18 metros</td><td>30 metros</td></tr></tbody></table><p>Caso a técnica modificada seja uma “Flecha” e tenha uma condição, você paga 2 PQ adicionais para modifica-la para o modelo de Leque ou Cone.</p><ul><li>Os gestos só funcionam em técnicas que causam dano e/ou condições negativas.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p>",
+          "chatFlavor": "Gestos: Cone e Leque — Cone — 2ª Manifestação"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "25",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "cone",
+            "size": "20",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "gestos-cone-e-leque",
+              "key": "cone-2",
+              "manualResolution": true,
+              "rule": "gesture",
+              "gesture": "cone",
+              "manifestation": 2,
+              "modifiesExistingTechnique": true,
+              "damageDie": 6,
+              "angle": 55
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Cone — 2ª Manifestação",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-cone-e-leque.webp"
+      },
+      "eb198b3e4bff6b9e": {
+        "_id": "eb198b3e4bff6b9e",
+        "type": "utility",
+        "name": "Leque — 3ª Manifestação",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "3",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Cone e Leque</h2><p><strong>Requisito:</strong> Gestos: Flecha e Linha.</p><p>Você aprende a utilizar os gestos de Cone e Leque na ativação de suas Técnicas a distância, modificando seu alcance. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Leque: Você faz com que seu ataque atinja uma área de 180° à sua frente. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li><li>Cone: Você faz com que seu ataque atinja uma área de 55° à sua frente. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Leque</th><th>Cone</th></tr><tr><td>1º Manifestação</td><td>6 metros</td><td>10 metros</td></tr><tr><td>2º Manifestação</td><td>12 metros</td><td>20 metros</td></tr><tr><td>3º Manifestação</td><td>18 metros</td><td>30 metros</td></tr></tbody></table><p>Caso a técnica modificada seja uma “Flecha” e tenha uma condição, você paga 2 PQ adicionais para modifica-la para o modelo de Leque ou Cone.</p><ul><li>Os gestos só funcionam em técnicas que causam dano e/ou condições negativas.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p>",
+          "chatFlavor": "Gestos: Cone e Leque — Leque — 3ª Manifestação"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "35",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "cone",
+            "size": "18",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "gestos-cone-e-leque",
+              "key": "fan-3",
+              "manualResolution": true,
+              "rule": "gesture",
+              "gesture": "fan",
+              "manifestation": 3,
+              "modifiesExistingTechnique": true,
+              "damageDie": 6,
+              "angle": 180
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Leque — 3ª Manifestação",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-cone-e-leque.webp"
+      },
+      "d19383f67a1fb7cc": {
+        "_id": "d19383f67a1fb7cc",
+        "type": "utility",
+        "name": "Cone — 3ª Manifestação",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "3",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Cone e Leque</h2><p><strong>Requisito:</strong> Gestos: Flecha e Linha.</p><p>Você aprende a utilizar os gestos de Cone e Leque na ativação de suas Técnicas a distância, modificando seu alcance. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Leque: Você faz com que seu ataque atinja uma área de 180° à sua frente. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li><li>Cone: Você faz com que seu ataque atinja uma área de 55° à sua frente. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Leque</th><th>Cone</th></tr><tr><td>1º Manifestação</td><td>6 metros</td><td>10 metros</td></tr><tr><td>2º Manifestação</td><td>12 metros</td><td>20 metros</td></tr><tr><td>3º Manifestação</td><td>18 metros</td><td>30 metros</td></tr></tbody></table><p>Caso a técnica modificada seja uma “Flecha” e tenha uma condição, você paga 2 PQ adicionais para modifica-la para o modelo de Leque ou Cone.</p><ul><li>Os gestos só funcionam em técnicas que causam dano e/ou condições negativas.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p>",
+          "chatFlavor": "Gestos: Cone e Leque — Cone — 3ª Manifestação"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "35",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "cone",
+            "size": "30",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "gestos-cone-e-leque",
+              "key": "cone-3",
+              "manualResolution": true,
+              "rule": "gesture",
+              "gesture": "cone",
+              "manifestation": 3,
+              "modifiesExistingTechnique": true,
+              "damageDie": 6,
+              "angle": 55
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Cone — 3ª Manifestação",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-cone-e-leque.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "gestos-cone-e-leque",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Controle de Qi",
+        "requisitos": [
+          "Gestos: Flecha e Linha"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "gestos-flecha-e-linha"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado.",
+          "As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!c796d528d549d680"
+}

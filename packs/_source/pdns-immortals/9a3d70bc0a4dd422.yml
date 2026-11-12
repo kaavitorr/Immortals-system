@@ -1,0 +1,77 @@
+_id: 9a3d70bc0a4dd422
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:218
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 9a3d70bc0a4dd422
+name: Formação Defensiva
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢ · Reação</strong></p><p>Ao gastar 2 PQ, essa criatura pode reduzir seu próprio deslocamento
+      do turno seguinte a 0, inclusive o deslocamento que poderia adquirir ao consumir ações, para receber +5 de Classe
+      de Resistência.</p>
+    chat: ''
+  identifier: formacao-defensiva
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    d2b6fe8522f3f78c:
+      _id: d2b6fe8522f3f78c
+      type: utility
+      name: Formação Defensiva
+      activation:
+        type: reaction
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 2 PQ, essa criatura pode reduzir seu próprio deslocamento do turno seguinte a 0, inclusive o
+          deslocamento que poderia adquirir ao consumir ações, para receber +5 de Classe de Resistência.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/formacao-defensiva-9a3d70bc0a4dd422.webp"
+_key: '!items!9a3d70bc0a4dd422'

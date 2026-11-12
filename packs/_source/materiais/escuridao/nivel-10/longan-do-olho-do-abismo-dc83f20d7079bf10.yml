@@ -1,0 +1,53 @@
+_id: dc83f20d7079bf10
+_key: '!items!dc83f20d7079bf10'
+name: Longan do Olho do Abismo
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/dc83f20d7079bf10.webp
+system:
+  identifier: material-alquimia-dc83f20d7079bf10
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Planta</p><p>Um único fruto por era, formado onde o abismo abriu um olho para fitar o mundo. Provada por um grão-mestre, sua semente permite enxergar através de toda treva.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 67086d34314c15a2
+sort: 18700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 10
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Longan do Olho do Abismo
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

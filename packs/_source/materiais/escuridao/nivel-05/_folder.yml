@@ -1,0 +1,13 @@
+_id: 0b7ed1e747ea86fb
+_key: '!folders!0b7ed1e747ea86fb'
+name: Nível 5
+type: Item
+folder: b1a27ea1b8406500
+sorting: a
+sort: 500000
+color: '#3c414c'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: escuridao
+      level: 5

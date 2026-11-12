@@ -1,0 +1,73 @@
+_id: 2618d7dba8c165ef
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:224
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 2618d7dba8c165ef
+name: Grito Psíquico
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Reação</strong></p><p>Quando uma criatura realizar uma jogada de ataque a até 15 metros dessa criatura,
+      ela pode dar um grito ensurdecedor que causa uma dor de cabeça lancinante em todas as criaturas que falharem em
+      uma Salvaguarda de Vontade, impondo a condição “Desorientado” até o início do próximo turno dessa criatura.</p>
+    chat: ''
+  identifier: grito-psiquico
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    b8b14ed48ddf4a20:
+      _id: b8b14ed48ddf4a20
+      type: utility
+      name: Grito Psíquico
+      activation:
+        type: reaction
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Quando uma criatura realizar uma jogada de ataque a até 15 metros dessa criatura, ela pode dar um grito
+          ensurdecedor que causa uma dor de cabeça lancinante em todas as criaturas que falharem em uma Salvaguarda de
+          Vontade, impondo a condição “Desorientado” até o início do próximo turno dessa criatura.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 5
+  prerequisites:
+    items: []
+    level: 5
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/grito-psiquico-2618d7dba8c165ef.webp"
+_key: '!items!2618d7dba8c165ef'

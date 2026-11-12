@@ -1,0 +1,53 @@
+_id: 1bd508aea8591120
+_key: '!items!1bd508aea8591120'
+name: Taboa de Plumas das Alturas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/vento/1bd508aea8591120.webp
+system:
+  identifier: material-alquimia-1bd508aea8591120
+  description:
+    value: <p><strong>Elemento:</strong> Vento · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>Enraíza em lagoas suspensas banhadas por correntes de Qi que sobem dos desfiladeiros. Suas plumas mantêm ar preso mesmo quando úmidas, permitindo incorporar essências de vento a preparados líquidos sem que elas percam a leveza antes da condensação alquímica.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 33f7c246b328acf0
+sort: 2600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: vento
+      elementLabel: Vento
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/vento.json
+        originalName: Taboa Cardosa dos Planaltos
+        sha256: f5db71d3cdec5cc798ab9829fe28f461a95ad76b46b89331433a614fa8d62814
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

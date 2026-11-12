@@ -1,0 +1,16 @@
+{
+  "_id": "98a8e079c5129985",
+  "name": "Palma",
+  "type": "Item",
+  "folder": "c16983361c76c762",
+  "sort": 100000,
+  "sorting": "m",
+  "color": "#9bb0bf",
+  "flags": {
+    "Immortals-system": {
+      "combatManualFolder": "palma",
+      "combatManualContentVersion": 1
+    }
+  },
+  "_key": "!folders!98a8e079c5129985"
+}

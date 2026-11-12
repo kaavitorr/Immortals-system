@@ -1,0 +1,212 @@
+{
+  "_id": "545659ca1a9f7ae2",
+  "name": "Punho Brutal",
+  "type": "spell",
+  "folder": "cd332fdb37f7359d",
+  "sort": 100000,
+  "img": "systems/Immortals-system/assets/wuxia/proficiencies/unarmed.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-punho-brutal",
+    "level": 1,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 3,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "",
+      "units": "inst",
+      "expiry": null,
+      "special": "",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "",
+      "units": "touch",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "",
+        "size": "",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Desarmados</td></tr><tr><th>Técnica</th><td>1º Grau</td></tr><tr><th>Custo</th><td>1 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Toque</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Desarmado</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você concentra uma grande quantidade de Qi em seu punho, ombros e quadris antes de desferir um poderoso golpe contra o alvo.</p>"
+    },
+    "activities": {
+      "d5f3b7cfb3c2ccdb": {
+        "_id": "d5f3b7cfb3c2ccdb",
+        "type": "attack",
+        "name": "Punho Brutal",
+        "img": "systems/Immortals-system/assets/wuxia/proficiencies/unarmed.webp",
+        "activation": {
+          "type": "action",
+          "value": 3,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Desarmados</td></tr><tr><th>Técnica</th><td>1º Grau</td></tr><tr><th>Custo</th><td>1 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Toque</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Desarmado</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você concentra uma grande quantidade de Qi em seu punho, ombros e quadris antes de desferir um poderoso golpe contra o alvo.</p>",
+          "chatFlavor": "Punho Brutal"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "touch",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "punho-brutal",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": false
+            }
+          }
+        },
+        "attack": {
+          "ability": "spellcasting",
+          "bonus": "",
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "spell"
+          },
+          "critical": {
+            "threshold": 20
+          }
+        },
+        "damage": {
+          "includeBase": false,
+          "critical": {
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 2,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "bludgeoning"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": []
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "punho-brutal",
+        "category": "desarmados",
+        "grade": 1,
+        "auxiliary": false,
+        "weapon": "Desarmado",
+        "qi": 1,
+        "actions": 3,
+        "reaction": false,
+        "combinedAttack": true,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Instantâneo",
+            "range": "Toque",
+            "requirements": "-",
+            "damage": "2d8 de dano Contundente",
+            "combinedAttack": true
+          }
+        },
+        "manualResolution": [],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!545659ca1a9f7ae2"
+}

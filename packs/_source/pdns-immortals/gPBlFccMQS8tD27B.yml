@@ -1,0 +1,44 @@
+name: Corpo Esporado
+type: feat
+folder: 54ceaab34559571a
+system:
+  description:
+    value: >-
+      <p>Ao atacar essa criatura, exceto com dano de fogo e ácido, ela libera uma enorme quantidade de esporos que afeta
+      tudo em uma área de 5 metros. Todas as criaturas dentro da área devem realizar uma Salvaguarda de Vontade para não
+      receberem a condição “Envenenado”.</p>
+    chat: ''
+  identifier: corpo-esporado
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: gPBlFccMQS8tD27B
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/corpo-esporado-gPBlFccMQS8tD27B.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:corpoesporado:c782258c9e42
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: gPBlFccMQS8tD27B
+_key: '!items!gPBlFccMQS8tD27B'

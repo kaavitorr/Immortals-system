@@ -1,0 +1,53 @@
+_id: bbb35cf339496fe8
+_key: '!items!bbb35cf339496fe8'
+name: Grama das Três Neves
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/bbb35cf339496fe8.webp
+system:
+  identifier: material-alquimia-bbb35cf339496fe8
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Planta</p><p>Só amadurece após receber três nevadas alimentadas pela mesma nascente de Qi, cada uma deixando uma faixa nas folhas. Sua seiva fria percorre os meridianos sem aderir às paredes, preparando-os para acolher essências geladas concentradas e acalmando a irritação do cultivo.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 2000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d1519af315652f3b
+sort: 4100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 3
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Grama das Três Neves
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

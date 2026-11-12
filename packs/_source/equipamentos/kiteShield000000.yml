@@ -1,0 +1,65 @@
+_id: kiteShield000000
+_key: '!items!kiteShield000000'
+name: Escudo Pavês
+type: equipment
+img: icons/equipment/shield/kite-wooden-boss-steel-brown.webp
+system:
+  identifier: kite-shield
+  description:
+    value: >-
+      <p>Alto e afunilado para proteção de corpo inteiro, o escudo pavês curva-se ao redor do corpo de quem o empunha e
+      é favorecido por cavalaria e infantaria por sua excelente cobertura e silhueta icônica.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 8
+    units: kg
+  price:
+    value: 640
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: shield
+    baseItem: ''
+  armor:
+    value: 3
+    dex: null
+    ability: ''
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: pibeFfUJ9FFbWkoY
+sort: 400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: kiteShield000000
+      sourceType: weapon
+      category: shieldHeavy
+      quality: despertado
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: false
+      manualEffects: []

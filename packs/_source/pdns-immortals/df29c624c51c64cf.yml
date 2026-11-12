@@ -1,0 +1,74 @@
+_id: df29c624c51c64cf
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:116
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: df29c624c51c64cf
+name: Golpe de Cauda
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢</strong></p><p>A criatura gira o corpo em um ataque corpo a corpo com a cauda, causando o
+      dano padrão da cauda e empurrando o alvo por 6 metros se ele falhar em uma Salvaguarda de Fortitude. Se o alvo
+      colidir com um objeto ou uma estrutura de 1 metro de raio ou maior durante o empurrão, recebe 2d8 de dano
+      adicional.</p>
+    chat: ''
+  identifier: golpe-de-cauda
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    ba6a55d478ee5f1c:
+      _id: ba6a55d478ee5f1c
+      type: utility
+      name: Golpe de Cauda
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura gira o corpo em um ataque corpo a corpo com a cauda, causando o dano padrão da cauda e
+          empurrando o alvo por 6 metros se ele falhar em uma Salvaguarda de Fortitude. Se o alvo colidir com um objeto
+          ou uma estrutura de 1 metro de raio ou maior durante o empurrão, recebe 2d8 de dano adicional.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/golpe-de-cauda-df29c624c51c64cf.webp"
+_key: '!items!df29c624c51c64cf'

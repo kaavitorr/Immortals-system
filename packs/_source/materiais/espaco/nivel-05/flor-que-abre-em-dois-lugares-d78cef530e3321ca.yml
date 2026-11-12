@@ -1,0 +1,53 @@
+_id: d78cef530e3321ca
+_key: '!items!d78cef530e3321ca'
+name: Flor que Abre em Dois Lugares
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/d78cef530e3321ca.webp
+system:
+  identifier: material-alquimia-d78cef530e3321ca
+  description:
+    value: <p><strong>Elemento:</strong> Espaço · <strong>Nível:</strong> 5 · <strong>Categoria:</strong> Planta</p><p>Flor que desabrocha ao mesmo tempo em duas clareiras distantíssimas, idênticas em tudo. Destilada em gotas de sereno, rende um elixir que encurta a primeira légua da marcha.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-earth
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: e2712f8acf553829
+sort: 8200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: espaco
+      elementLabel: Espaço
+      level: 5
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/espaco.json
+        originalName: Flor que Abre em Dois Lugares
+        sha256: e7d0006d3bc5b8eb4685c982cf4dd46c83df9af6d2f53fcd8b56c8b83060db26
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 5
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

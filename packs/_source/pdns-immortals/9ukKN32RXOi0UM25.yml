@@ -1,0 +1,178 @@
+name: Espadachim
+type: archetype
+folder: 53154a640414559d
+system:
+  description:
+    value: >-
+      <p>Controla a curta distância com a lâmina, encadeando cortes e desarmes. Usa leitura do oponente, esquivas e
+      contragolpes para conservar a iniciativa.</p><p><strong>Resistência por ND:</strong> Cortante +2 (apara
+      lâminas)</p><p><strong>Vulnerabilidade:</strong> Contundente −6</p><p><strong>Deslocamento:</strong> Caminhada: 10
+      m (fixo)</p><p><strong>Armaduras:</strong> Couro Leve (6 + Agi).</p><p><strong>Perícias:</strong> Proficiências:
+      Coordenação, Percepção, Atletismo e Intimidação.</p><p><strong>Salvaguardas:</strong> Proficiências: Reflexo e
+      Fortitude.</p><p><strong>Aspectos:</strong> Reflexos Aguçados, Golpe Preciso, Analisar Padrões, Reativo,
+      Agressivo, Descuidado, Silenciosa, Visão Aguçada, Agarrador, Fanático.</p><p><strong>Habilidades:</strong> Golpe
+      Duplo, Desarme, Contra-Golpe, Golpe Letal, Esquiva Rápida, Ataque em Cadeia, Apunhalar, Bote Sônico, Investida,
+      Salto Mortal.</p><p><strong>Reações:</strong> Desarme Reativo, Esquiva Rápida, Contra-Golpe.</p>
+    chat: ''
+  identifier: espadachim
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 2
+    dex: 4
+    con: 2
+    int: 2
+    wis: 1
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: -6
+      immune: false
+    piercing:
+      value: 0
+      immune: false
+    slashing:
+      value: 2
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 0
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.acr
+      - skills.prc
+      - skills.ath
+      - skills.itm
+      - saves.dex
+      - saves.int
+      - saves.str
+      - saves.wis
+    alternative:
+      - skills.acr
+      - skills.prc
+      - skills.ath
+      - skills.itm
+      - alternativeSaves.reflexo
+      - alternativeSaves.fortitude
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.1b191e87efc875ab
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9ab24ff5f376e4d3
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f35cdef068d2d3d8
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4e065b4c8fa19cff
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9149d2bde056a98a
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53d435a7250164af
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.34e2fedcea4c64ac
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.98f7ed9c8403484e
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.05d16addb258c9b6
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5f6cf4c720a404dc
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9f58c17ca809238a
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.38a87b70e6f341bd
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5da66adcc9262ed1
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.ada66419b0076ed9
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.a1113fe1c7ca7100
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.b0025217be0f5675
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.569c09e7a5aa4734
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e3954a3cc125e416
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.b3f1cb5e6320a231
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.39ea5af9979fe435
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4054b676984235b9
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.3f9435196036804c
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000004
+    armas: []
+  movimento:
+    ganho: 0
+    intervalo: 1
+    maximo: null
+_id: 9ukKN32RXOi0UM25
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/espadachim.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:espadachim
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 9ukKN32RXOi0UM25
+_key: '!items!9ukKN32RXOi0UM25'

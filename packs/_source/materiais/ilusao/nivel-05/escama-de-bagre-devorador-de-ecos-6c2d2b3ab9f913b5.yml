@@ -1,0 +1,53 @@
+_id: 6c2d2b3ab9f913b5
+_key: '!items!6c2d2b3ab9f913b5'
+name: Placa Óssea de Bagre Devorador de Ecos
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/6c2d2b3ab9f913b5.webp
+system:
+  identifier: material-alquimia-6c2d2b3ab9f913b5
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 5 · <strong>Categoria:</strong> Parte de animal</p><p>Placa óssea do bagre que abocanha os sons que caem na água funda, tornando seu lago silencioso. Polida em forma de brinco, recolhe segredos sussurrados por perto.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-earth
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: aa70372429d230ba
+sort: 10000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 5
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Escama de Bagre Devorador de Ecos
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 5
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

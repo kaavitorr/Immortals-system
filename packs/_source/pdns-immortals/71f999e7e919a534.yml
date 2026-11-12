@@ -1,0 +1,43 @@
+_id: 71f999e7e919a534
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:27
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 71f999e7e919a534
+name: Estabilidade
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: >-
+      <p>A criatura recebe duas vantagens em Salvaguardas de Fortitude e Reflexo realizadas contra efeitos que possam
+      derrubá-la no chão.</p>
+    chat: ''
+  identifier: estabilidade
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/estabilidade-71f999e7e919a534.webp"
+_key: '!items!71f999e7e919a534'

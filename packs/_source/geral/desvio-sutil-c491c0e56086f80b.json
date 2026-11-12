@@ -1,0 +1,182 @@
+{
+  "_id": "c491c0e56086f80b",
+  "name": "Desvio Sutil",
+  "type": "spell",
+  "folder": "4e1078af41ad3c81",
+  "sort": 300000,
+  "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/jian.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-desvio-sutil",
+    "level": 0,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "reaction",
+      "value": 2,
+      "condition": "Use somente quando ocorrer o gatilho descrito na técnica.",
+      "override": true
+    },
+    "duration": {
+      "value": "",
+      "units": "inst",
+      "expiry": null,
+      "special": "",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "",
+      "units": "self",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "",
+        "size": "",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "self",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Espadas</td></tr><tr><th>Técnica</th><td>Auxiliar</td></tr><tr><th>Custo</th><td>3 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>2 · Reação</td></tr><tr><th>Alcance</th><td>Pessoal</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Espada</td></tr><tr><th>Requisito do quadro</th><td>Arma Cortante, Reação</td></tr></tbody></table><p>Quando você for alvo de uma jogada de ataque normal a distância ou de uma técnica de até 2º grau a distância ou em área, você pode usar sua reação para cortar através do ataque ou desvia-lo para o terreno a sua volta e anulando o dano sobre si mesmo.</p><h3>Observações</h3><p>Use somente contra um ataque comum à distância ou técnica à distância/em área de até 2º grau. Depois do pagamento, o narrador anula o dano sobre você; a técnica não concede imunidade duradoura.</p>"
+    },
+    "activities": {
+      "3ad25fa2e949e786": {
+        "_id": "3ad25fa2e949e786",
+        "type": "utility",
+        "name": "Desvio Sutil",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/jian.webp",
+        "activation": {
+          "type": "reaction",
+          "value": 2,
+          "condition": "Use somente quando ocorrer o gatilho descrito na técnica.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "3",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Espadas</td></tr><tr><th>Técnica</th><td>Auxiliar</td></tr><tr><th>Custo</th><td>3 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>2 · Reação</td></tr><tr><th>Alcance</th><td>Pessoal</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Espada</td></tr><tr><th>Requisito do quadro</th><td>Arma Cortante, Reação</td></tr></tbody></table><p>Quando você for alvo de uma jogada de ataque normal a distância ou de uma técnica de até 2º grau a distância ou em área, você pode usar sua reação para cortar através do ataque ou desvia-lo para o terreno a sua volta e anulando o dano sobre si mesmo.</p><h3>Observações</h3><p>Use somente contra um ataque comum à distância ou técnica à distância/em área de até 2º grau. Depois do pagamento, o narrador anula o dano sobre você; a técnica não concede imunidade duradoura.</p>",
+          "chatFlavor": "Desvio Sutil"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "desvio-sutil",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Desvio Sutil",
+          "visible": false,
+          "prompt": false
+        }
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "desvio-sutil",
+        "category": "espadas",
+        "grade": null,
+        "auxiliary": true,
+        "weapon": "Espada",
+        "qi": 3,
+        "actions": 2,
+        "reaction": true,
+        "combinedAttack": null,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Instantâneo",
+            "range": "Pessoal",
+            "requirements": "Arma Cortante, Reação",
+            "damage": "Nenhum",
+            "combinedAttack": null
+          }
+        },
+        "manualResolution": [
+          "Use somente contra um ataque comum à distância ou técnica à distância/em área de até 2º grau. Depois do pagamento, o narrador anula o dano sobre você; a técnica não concede imunidade duradoura."
+        ],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!c491c0e56086f80b"
+}

@@ -1,0 +1,13 @@
+_id: d4884f48ce4dfd96
+_key: '!folders!d4884f48ce4dfd96'
+name: Nível 3
+type: Item
+folder: e1730b8d2dbc7697
+sorting: a
+sort: 300000
+color: '#806d3f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: luz
+      level: 3

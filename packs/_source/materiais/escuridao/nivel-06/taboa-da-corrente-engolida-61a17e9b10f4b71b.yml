@@ -1,0 +1,53 @@
+_id: 61a17e9b10f4b71b
+_key: '!items!61a17e9b10f4b71b'
+name: Taboa da Corrente Engolida
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/61a17e9b10f4b71b.webp
+system:
+  identifier: material-alquimia-61a17e9b10f4b71b
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Planta</p><p>Enraíza onde rios carregados de Qi yin desaparecem sob montanhas, acumulando nas espigas a essência que a água deixa nas fendas. A paina negra conserva quietude e continuidade, auxiliando a retenção de ingredientes voláteis em tintas e preparados de escuridão concentrada.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: fca2badbc7e83ef3
+sort: 11000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 6
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Taboa da Corrente Engolida
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

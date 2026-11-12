@@ -1,0 +1,182 @@
+{
+  "_id": "491f2ad21d30d674",
+  "name": "Accurate Thrust",
+  "type": "spell",
+  "folder": "c0d481d1026ee51d",
+  "sort": 300000,
+  "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/qiang.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-accurate-thrust",
+    "level": 0,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "reaction",
+      "value": 1,
+      "condition": "Use somente quando ocorrer o gatilho descrito na técnica.",
+      "override": true
+    },
+    "duration": {
+      "value": "1",
+      "units": "turn",
+      "expiry": "turnEnd",
+      "special": "Até o fim do turno atual",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "",
+      "units": "self",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "",
+        "size": "",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "self",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Lança</td></tr><tr><th>Técnica</th><td>Auxiliar</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>1 · Reação</td></tr><tr><th>Alcance</th><td>Pessoal</td></tr><tr><th>Duração</th><td>Até o fim do turno atual</td></tr><tr><th>Arma</th><td>Lança</td></tr><tr><th>Requisito do quadro</th><td>Lança, Reação</td></tr></tbody></table><p>Quando uma criatura realizar uma jogada de ataque (Comum) corpo-a-corpo, você pode usar sua reação para realizar um ataque contra ela, anulando o dano se a criatura for de mesmo rank que você ou reduzindo 30 de dano do ataque.</p><h3>Observações</h3><p>Resolva o contra-ataque comum com a lança contra o ataque corpo a corpo desencadeador, sem cobrar novamente esta ativação. Se a criatura tiver o mesmo reino, anule o dano; nos demais casos reduza 30 apenas desse golpe.</p>"
+    },
+    "activities": {
+      "7001cb07d85219a5": {
+        "_id": "7001cb07d85219a5",
+        "type": "utility",
+        "name": "Accurate Thrust",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/qiang.webp",
+        "activation": {
+          "type": "reaction",
+          "value": 1,
+          "condition": "Use somente quando ocorrer o gatilho descrito na técnica.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Lança</td></tr><tr><th>Técnica</th><td>Auxiliar</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>1 · Reação</td></tr><tr><th>Alcance</th><td>Pessoal</td></tr><tr><th>Duração</th><td>Até o fim do turno atual</td></tr><tr><th>Arma</th><td>Lança</td></tr><tr><th>Requisito do quadro</th><td>Lança, Reação</td></tr></tbody></table><p>Quando uma criatura realizar uma jogada de ataque (Comum) corpo-a-corpo, você pode usar sua reação para realizar um ataque contra ela, anulando o dano se a criatura for de mesmo rank que você ou reduzindo 30 de dano do ataque.</p><h3>Observações</h3><p>Resolva o contra-ataque comum com a lança contra o ataque corpo a corpo desencadeador, sem cobrar novamente esta ativação. Se a criatura tiver o mesmo reino, anule o dano; nos demais casos reduza 30 apenas desse golpe.</p>",
+          "chatFlavor": "Accurate Thrust"
+        },
+        "duration": {
+          "value": "1",
+          "units": "turn",
+          "expiry": "turnEnd",
+          "special": "Até o fim do turno atual",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "accurate-thrust",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Accurate Thrust",
+          "visible": false,
+          "prompt": false
+        }
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "accurate-thrust",
+        "category": "lanca",
+        "grade": null,
+        "auxiliary": true,
+        "weapon": "Lança",
+        "qi": 2,
+        "actions": 1,
+        "reaction": true,
+        "combinedAttack": null,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Até o fim do turno atual",
+            "range": "Pessoal",
+            "requirements": "Lança, Reação",
+            "damage": "Nenhum",
+            "combinedAttack": null
+          }
+        },
+        "manualResolution": [
+          "Resolva o contra-ataque comum com a lança contra o ataque corpo a corpo desencadeador, sem cobrar novamente esta ativação. Se a criatura tiver o mesmo reino, anule o dano; nos demais casos reduza 30 apenas desse golpe."
+        ],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!491f2ad21d30d674"
+}

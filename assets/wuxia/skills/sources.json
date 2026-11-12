@@ -1,0 +1,80 @@
+{
+  "note": "Original icon artwork copied locally for Immortals Legacy. Appearance is toned through CSS; source pixels are unchanged.",
+  "icons": {
+    "ath": {
+      "source": "Crucible icons/skills/athletics.jpg",
+      "file": "ath.jpg",
+      "sha256": "2bd5d7b6332ef21e345f8221d00e725c79a15880f4bf803d646500c159804449"
+    },
+    "acr": {
+      "source": "Crucible icons/skills/gymnast.jpg",
+      "file": "acr.jpg",
+      "sha256": "56cd27cdc20711f39f8b160f7846570e44b0ad66843497b1d8f0e848b7f9b9c4"
+    },
+    "prc": {
+      "source": "Crucible icons/skills/awareness.jpg",
+      "file": "prc.jpg",
+      "sha256": "59aa530f07309aea7b9c9ac304f569e7f96620a2183f73a306454e223b7fc482"
+    },
+    "ste": {
+      "source": "Crucible icons/skills/stealth.jpg",
+      "file": "ste.jpg",
+      "sha256": "c3712b36081ef6c91c116c4b15c662356251d5eaf1f837ed6f091d7f54bfe5b7"
+    },
+    "sur": {
+      "source": "Crucible icons/skills/wilderness.jpg",
+      "file": "sur.jpg",
+      "sha256": "062ca819895b8d239d2635c03e2384aae5d8bd6d26a8ef4df4f10fbeda96551c"
+    },
+    "arc": {
+      "source": "Crucible icons/skills/arcana.jpg",
+      "file": "arc.jpg",
+      "sha256": "d0205463cf7d15f381026e69c955496acc3561947e15c73046d910c1b4b24426"
+    },
+    "rel": {
+      "source": "Crucible icons/skills/medicine.jpg",
+      "file": "rel.jpg",
+      "sha256": "72fece66e181a62ab937f73edf6f77b4cbb6d1cf4f3039e07e200d9366b3f372"
+    },
+    "inv": {
+      "source": "Crucible icons/skills/investigation.jpg",
+      "file": "inv.jpg",
+      "sha256": "aa89becb6b8b73c4084ec5b0d0e0a1e9ce4bc1f776dadfe7f26d2b0f00f6e996"
+    },
+    "his": {
+      "source": "Crucible icons/skills/historian.jpg",
+      "file": "his.jpg",
+      "sha256": "51fcaa4857bc3aa13714dd5817a56f6bcb016344ee987c368476b833eceef50f"
+    },
+    "ani": {
+      "source": "Crucible icons/skills/tinkerer.jpg",
+      "file": "ani.jpg",
+      "sha256": "3d26971e0314f3c408815c017b2add159fcf150fc3f3adc4feb7b082984d522b"
+    },
+    "dec": {
+      "source": "Crucible icons/skills/deception.jpg",
+      "file": "dec.jpg",
+      "sha256": "87ebcb7398b6b4754e964fedc0f65de6d989d7c1ec571c31823d7282bbccf8f4"
+    },
+    "per": {
+      "source": "Crucible icons/skills/diplomacy.jpg",
+      "file": "per.jpg",
+      "sha256": "9861518031368e9a8ceeacc19218cde2dbe54331fb84b06250226fc33145751f"
+    },
+    "itm": {
+      "source": "Crucible icons/skills/intimidation.jpg",
+      "file": "itm.jpg",
+      "sha256": "58be75346a460dd680b7329c37eadf986f3ea4d3bea415b54d2c30b60c6aa6af"
+    },
+    "prf": {
+      "source": "Crucible icons/skills/performance.jpg",
+      "file": "prf.jpg",
+      "sha256": "ad593cf5975d2be9cb6273b16d42dd8ba596bb9c2a06e023089bf5d9f9f9bf45"
+    },
+    "luc": {
+      "source": "Foundry VTT icons/sundries/gaming/dice-pair-white-green.webp",
+      "file": "luc.webp",
+      "sha256": "32e6eeb744345b4e442304cab0b6811656fe0aae209d60954f44d671f4989dc4"
+    }
+  }
+}

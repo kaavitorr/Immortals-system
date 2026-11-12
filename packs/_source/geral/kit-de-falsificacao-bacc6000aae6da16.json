@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000aae6da16",
+  "name": "Kit de Falsificação",
+  "type": "tool",
+  "img": "icons/tools/scribal/pen-steel-grey-brown.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-falsificacao",
+    "description": {
+      "value": "<p>Kit de falsificação de valor máximo de 50 PO.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "art"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "falsificacao"
+    }
+  },
+  "_key": "!items!bacc6000aae6da16"
+}

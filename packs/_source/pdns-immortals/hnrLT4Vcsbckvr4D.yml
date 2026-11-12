@@ -1,0 +1,174 @@
+name: Necrófago
+type: archetype
+folder: 26a0e683ac977c63
+system:
+  description:
+    value: >-
+      <p>Ataca de perto com mordidas e golpes que contaminam a presa. Consome carne e vitalidade para se recompor e
+      prolongar o combate.</p><p><strong>Resistência por ND:</strong> Veneno +2 | Ácido
+      +2</p><p><strong>Vulnerabilidade:</strong> Fogo −8 | Alma −6</p><p><strong>Deslocamento:</strong> +1 até um máximo
+      de 25</p><p><strong>Armaduras:</strong> Pele Grossa (10 + Con).</p><p><strong>Perícias:</strong> Proficiências:
+      Sobrevivência, Percepção, Medicina e Furtividade.</p><p><strong>Salvaguardas:</strong> Proficiências: Vontade e
+      Fortitude.</p><p><strong>Aspectos:</strong> Fome Insaciável, Carnívoro Voraz, Corpo Inerte, Vontade de Morto-Vivo,
+      Faro Aguçado, Mente Inexistente, Descuidado, Sede de Sangue, Pele Grossa,
+      Vigoroso.</p><p><strong>Habilidades:</strong> Mordida Voraz, Mordida de Zumbi, Transferir Praga, Digestão Rápida,
+      Regenerar Membro, Drenagem de Sangue, Bote Sônico, Divisão, Fuga Escorregadia,
+      Contra-Golpe.</p><p><strong>Reações:</strong> Mordida Reativa, Fome Reativa, Reflexo.</p>
+    chat: ''
+  identifier: necrofago
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 2
+    dex: 2
+    con: 4
+    int: 1
+    wis: 2
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: 0
+      immune: false
+    piercing:
+      value: 0
+      immune: false
+    slashing:
+      value: 0
+      immune: false
+    acid:
+      value: 2
+      immune: false
+    poison:
+      value: 2
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: -8
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 0
+      immune: false
+    soul:
+      value: -6
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.sur
+      - skills.prc
+      - skills.rel
+      - skills.ste
+      - saves.con
+      - saves.cha
+      - saves.str
+      - saves.wis
+    alternative:
+      - skills.sur
+      - skills.prc
+      - skills.rel
+      - skills.ste
+      - alternativeSaves.vontade
+      - alternativeSaves.fortitude
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.464d3aa8ad859a36
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8a0ca76215e75f50
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f35cdef068d2d3d8
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4afa4131cc85e2bd
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5bcca07b63f166e2
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53d435a7250164af
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.bfc649b7dd470a35
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.58a51099f9439d17
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bd5ffa57c1f404a
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6e9d3f1d8b93c1d2
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9f58c17ca809238a
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.139c3f652dc40e9b
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53a3e58d6c265d67
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.afd35e07d69570d7
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.fa62f7a0c1925c9f
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5dcab7f3fdcd6d4f
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.783ac8aaca30fb71
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9cb70c1a39119c13
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.037a7d2566a620b3
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.67e813cb17e4754f
+      nd: 14
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000012
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000003
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: hnrLT4Vcsbckvr4D
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/necrofago.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:necrofago
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: hnrLT4Vcsbckvr4D
+_key: '!items!hnrLT4Vcsbckvr4D'

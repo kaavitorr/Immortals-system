@@ -1,0 +1,26 @@
+{
+  "_id": "1a2c1000808dfb2d",
+  "name": "Talento de Espécie",
+  "type": "feat",
+  "folder": "1a2c000000000002",
+  "img": "systems/Immortals-system/assets/wuxia/caracteristicas-especie-pintadas-v1/talento-de-especie.webp",
+  "system": {
+    "identifier": "especie-a64db9ed",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Talento de Espécie: A partir da Formação de Núcleo você recebe um talento de espécie de acordo com o Capítulo 6.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Talento de Espécie",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000808dfb2d"
+}

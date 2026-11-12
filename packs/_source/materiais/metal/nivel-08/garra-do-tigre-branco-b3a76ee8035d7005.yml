@@ -1,0 +1,53 @@
+_id: b3a76ee8035d7005
+_key: '!items!b3a76ee8035d7005'
+name: Garra do Tigre Branco
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/b3a76ee8035d7005.webp
+system:
+  identifier: material-alquimia-b3a76ee8035d7005
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Parte de animal</p><p>Arrancada em duelo pelo ancestral da seita do oeste, a garra do guardião ainda corta o ar sozinha nas noites claras. Forja-se dela a pílula da palma cortante.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 86cc70826d40dc34
+sort: 15100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 8
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Garra do Tigre Branco
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

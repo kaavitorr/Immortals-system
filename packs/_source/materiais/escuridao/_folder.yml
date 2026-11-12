@@ -1,0 +1,12 @@
+_id: b1a27ea1b8406500
+_key: '!folders!b1a27ea1b8406500'
+name: Escuridão
+type: Item
+folder: null
+sorting: m
+sort: 1000000
+color: '#3c414c'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: escuridao

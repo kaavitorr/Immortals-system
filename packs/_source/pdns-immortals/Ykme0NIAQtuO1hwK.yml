@@ -1,0 +1,180 @@
+name: Devorador
+type: archetype
+folder: 26a0e683ac977c63
+system:
+  description:
+    value: >-
+      <p>Agarra e devora suas presas para recuperar forças durante o combate. Prefere a curta distância, onde pode
+      morder, drenar sangue e manter o alvo preso.</p><p><strong>Resistência por ND:</strong> Contundente +1 | Veneno
+      +1</p><p><strong>Vulnerabilidade:</strong> Psíquico −6 | Fogo −6</p><p><strong>Deslocamento:</strong> +1 até um
+      máximo de 25</p><p><strong>Armaduras:</strong> Musculatura Densa (10 + Con).</p><p><strong>Perícias:</strong>
+      Proficiências: Sobrevivência, Percepção, Atletismo e Intimidação.</p><p><strong>Salvaguardas:</strong>
+      Proficiências: Vontade e Fortitude.</p><p><strong>Aspectos:</strong> Carnívoro Voraz, Fome Insaciável, Frenesi de
+      Sangue, Corpo Robusto, Sede de Sangue, Faro Aguçado, Agarrador, Implacável, Descuidado,
+      Vigoroso.</p><p><strong>Habilidades:</strong> Mordida Voraz, Digestão Rápida, Drenagem de Sangue, Bote Sônico,
+      Golpe Esmagador, Enrolar, Abraço Esmagador, Investida, Regenerar Membro, Fuga
+      Escorregadia.</p><p><strong>Reações:</strong> Mordida Reativa, Absorção Reativa, Reflexo.</p>
+    chat: ''
+  identifier: devorador
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 3
+    dex: 2
+    con: 4
+    int: 1
+    wis: 1
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: 1
+      immune: false
+    piercing:
+      value: 0
+      immune: false
+    slashing:
+      value: 0
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 1
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: -6
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: -6
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.sur
+      - skills.prc
+      - skills.ath
+      - skills.itm
+      - saves.con
+      - saves.cha
+      - saves.str
+      - saves.wis
+    alternative:
+      - skills.sur
+      - skills.prc
+      - skills.ath
+      - skills.itm
+      - alternativeSaves.vontade
+      - alternativeSaves.fortitude
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.464d3aa8ad859a36
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8a0ca76215e75f50
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9ab24ff5f376e4d3
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f35cdef068d2d3d8
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.69fce788d9d15b15
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4afa4131cc85e2bd
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4e065b4c8fa19cff
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53d435a7250164af
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8f56c3eb1f2f032e
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.bfc649b7dd470a35
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6c3e03cf4f31410e
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.77a0b5147a32f481
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bd5ffa57c1f404a
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.1a2c7d04572fb42e
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6e9d3f1d8b93c1d2
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.18ba90de638cd682
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bfd51c9ea7cf377
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53a3e58d6c265d67
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.afd35e07d69570d7
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.fa62f7a0c1925c9f
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5dcab7f3fdcd6d4f
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.037a7d2566a620b3
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.67e813cb17e4754f
+      nd: 14
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000021
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000003
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: Ykme0NIAQtuO1hwK
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/devorador.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:devorador
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: Ykme0NIAQtuO1hwK
+_key: '!items!Ykme0NIAQtuO1hwK'

@@ -1,0 +1,80 @@
+_id: 144bb9f8e1884516
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:126
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 144bb9f8e1884516
+name: Hipnotizar
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢</strong></p><p>Ao gastar 5 PQ, a criatura pode tentar influenciar a mente de outra criatura,
+      fazendo-a acreditar que é sua aliada. O alvo deve ser bem-sucedido em uma Salvaguarda de Vontade. Em caso de
+      falha, torna-se um aliado da criatura enquanto ela continuar pagando 3 Pontos de Ação e 5 PQ no início de cada um
+      dos turnos dela. O alvo pode repetir a Salvaguarda no fim de cada um dos turnos dele para tentar se libertar.</p>
+    chat: ''
+  identifier: hipnotizar
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    dc0c4ae18b627cf4:
+      _id: dc0c4ae18b627cf4
+      type: utility
+      name: Hipnotizar
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '5'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 5 PQ, a criatura pode tentar influenciar a mente de outra criatura, fazendo-a acreditar que é sua
+          aliada. O alvo deve ser bem-sucedido em uma Salvaguarda de Vontade. Em caso de falha, torna-se um aliado da
+          criatura enquanto ela continuar pagando 3 Pontos de Ação e 5 PQ no início de cada um dos turnos dela. O alvo
+          pode repetir a Salvaguarda no fim de cada um dos turnos dele para tentar se libertar.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 10
+  prerequisites:
+    items: []
+    level: 10
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/hipnotizar-144bb9f8e1884516.webp"
+_key: '!items!144bb9f8e1884516'

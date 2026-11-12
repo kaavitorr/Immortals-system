@@ -1,0 +1,53 @@
+_id: 97f23da5a8b4915a
+_key: '!items!97f23da5a8b4915a'
+name: Teia de Aranha-Viúva do Véu Baixo
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/97f23da5a8b4915a.webp
+system:
+  identifier: material-alquimia-97f23da5a8b4915a
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Parte de animal</p><p>A viúva do véu baixo estende seus fios sobre fendas de Qi yin, prendendo a penumbra entre filamentos quase invisíveis. A teia recolhida conserva aderência espiritual e maleabilidade, úteis para unir ingredientes escuros e formar películas que limitam a dispersão de sinais.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 600
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d4840a148e9cd19b
+sort: 3600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 2
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Teia de Aranha-Viúva da Adega
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

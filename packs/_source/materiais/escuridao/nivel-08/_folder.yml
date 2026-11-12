@@ -1,0 +1,13 @@
+_id: c928a293515d0c69
+_key: '!folders!c928a293515d0c69'
+name: Nível 8
+type: Item
+folder: b1a27ea1b8406500
+sorting: a
+sort: 800000
+color: '#3c414c'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: escuridao
+      level: 8

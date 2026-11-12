@@ -1,0 +1,44 @@
+{
+  "_id": "430aa641b86d7927",
+  "name": "Forno de Alquimia",
+  "type": "tool",
+  "folder": "34be9554e1bd424a",
+  "img": "systems/Immortals-system/assets/wuxia/ferramentas-pintadas-v1/forno-de-alquimia.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-forno-de-alquimia",
+    "type": {
+      "value": "art"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p>Ferramentas de Alquimista: 1 Livro de Técnicas de Controle do Fogo, 1 Forno de Alquimia, 1 Conjunto de Reagentes, 1 Enciclopédia de Ervas.</p><p><strong>Resolução:</strong> Ferramenta ou suprimento da profissão; não concede talento, perícia, receita ou proficiência automaticamente. A fonte não define uma receita de fabricação para este objeto.</p>"
+    },
+    "activities": {},
+    "equipped": false,
+    "ability": "wis",
+    "proficient": null,
+    "bonus": ""
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "forno-de-alquimia",
+        "kind": "tool",
+        "profession": "alchemy",
+        "level": null,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionProductsContentVersion": 2,
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Ferramenta ou suprimento da profissão; não concede talento, perícia, receita ou proficiência automaticamente. A fonte não define uma receita de fabricação para este objeto."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!430aa641b86d7927"
+}

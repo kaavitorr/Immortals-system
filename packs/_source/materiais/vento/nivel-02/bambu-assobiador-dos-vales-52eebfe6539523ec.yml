@@ -1,0 +1,53 @@
+_id: 52eebfe6539523ec
+_key: '!items!52eebfe6539523ec'
+name: Bambu dos Vales Assobiadores
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/vento/52eebfe6539523ec.webp
+system:
+  identifier: material-alquimia-52eebfe6539523ec
+  description:
+    value: <p><strong>Elemento:</strong> Vento · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>Enraíza em vales estreitos onde o Qi de vento se comprime até fazer a pedra ressoar. Seus colmos possuem aberturas naturais de tamanhos distintos, permitindo separar e ordenar correntes de essência aérea antes de reuni-las no núcleo da preparação.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 33f7c246b328acf0
+sort: 2300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: vento
+      elementLabel: Vento
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/vento.json
+        originalName: Bambu Assobiador dos Vales
+        sha256: f5db71d3cdec5cc798ab9829fe28f461a95ad76b46b89331433a614fa8d62814
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

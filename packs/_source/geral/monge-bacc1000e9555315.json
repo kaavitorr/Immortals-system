@@ -1,0 +1,81 @@
+{
+  "_id": "bacc1000e9555315",
+  "name": "Monge",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/monge.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-monge",
+    "description": {
+      "value": "<p>Alguém que passou grande parte da vida em um monastério ou templo. Um monge treina seu corpo arduamente para superar seus limites e poder proteger o templo ou monastério. Ao escolher essa origem, você automaticamente fica careca.</p><h3>Equipamentos iniciais</h3><p>Um kit de escalada e vestes típicas de monastério. <strong>60 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc2000e9555315]{Companheiro Taoista}</h3><p>Você sabe os locais dos templos mais famosos espalhados pelo mundo, assim como suas sedes, isso permite que você sempre tenha um refúgio para se esconder em um momento de dificuldades. Você pode realizar um Teste de Sorte com CD 16. Em caso de sucesso, você encontra um templo ou sede que pode abriga-lo permitindo que você encontre descanso de forma segura por 24 horas. Essa característica se estende para até 4 criaturas aliadas. Caso você não esteja fugindo de ninguém, você pode se manter no lugar por até 30 dias se possuir aliados ou por tempo indefinido se estiver sozinho, podendo cultivar em um local concedido pelos monges do templo.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc5000e9555315",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 60,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc3000e9555315": {
+        "_id": "bacc3000e9555315",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc2000e9555315",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc7000e9555315": {
+        "_id": "bacc7000e9555315",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc60000d22c4b5",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000a09063e0",
+              "quantity": 1,
+              "optional": false
+            }
+          ],
+          "currency": {
+            "gp": 60
+          },
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "monge",
+        "startingGold": 60,
+        "equipment": "Um kit de escalada e vestes típicas de monastério.",
+        "hair": "Careca"
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc1000e9555315"
+}

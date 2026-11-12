@@ -1,0 +1,53 @@
+_id: a2e73b5ab3886bb5
+_key: '!items!a2e73b5ab3886bb5'
+name: Jujuba dos Cem Dias
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/tempo/a2e73b5ab3886bb5.webp
+system:
+  identifier: material-alquimia-a2e73b5ab3886bb5
+  description:
+    value: <p><strong>Elemento:</strong> Tempo · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>Frutifica em ravinas onde o Qi prolonga cada estágio do amadurecimento até que a polpa ganhe marcas douradas. O fruto guarda vigor distribuído entre essas camadas, nutrindo preparações de transformação lenta sem concentrar toda a essência num único momento.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 600
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 75d8f2969c78c857
+sort: 2600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: tempo
+      elementLabel: Tempo
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/tempo.json
+        originalName: Jujuba dos Cem Dias
+        sha256: 78c1decf6231b4f084096c5432683d625516dd37d65e516e424b199307cc5107
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

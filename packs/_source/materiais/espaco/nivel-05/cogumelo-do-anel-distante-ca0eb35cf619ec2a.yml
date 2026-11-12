@@ -1,0 +1,53 @@
+_id: ca0eb35cf619ec2a
+_key: '!items!ca0eb35cf619ec2a'
+name: Cogumelo do Anel Distante
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/ca0eb35cf619ec2a.webp
+system:
+  identifier: material-alquimia-ca0eb35cf619ec2a
+  description:
+    value: <p><strong>Elemento:</strong> Espaço · <strong>Nível:</strong> 5 · <strong>Categoria:</strong> Planta</p><p>Cogumelo de chapéu arredondado que brota em anéis no limite da vista. Moído em pó, aproxima do ouvido os sons nascidos longe.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-earth
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: e2712f8acf553829
+sort: 8500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: espaco
+      elementLabel: Espaço
+      level: 5
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/espaco.json
+        originalName: Cogumelo do Anel Distante
+        sha256: e7d0006d3bc5b8eb4685c982cf4dd46c83df9af6d2f53fcd8b56c8b83060db26
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 5
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,176 @@
+name: Guerreiro
+type: archetype
+folder: 53154a640414559d
+system:
+  description:
+    value: >-
+      <p>Enfrenta o inimigo de forma direta, alternando ataques, defesa e manobras com armas. Combina investidas e
+      golpes coordenados para sustentar a linha de frente.</p><p><strong>Resistência por ND:</strong> Físicos
+      +1</p><p><strong>Vulnerabilidade:</strong> Psíquico −6</p><p><strong>Deslocamento:</strong> Caminhada: 10 m
+      (fixo)</p><p><strong>Armaduras:</strong> Couro Pesado (10 + Agi).</p><p><strong>Perícias:</strong> Proficiências:
+      Atletismo, Intimidação, Percepção e Coordenação.</p><p><strong>Salvaguardas:</strong> Proficiências: Fortitude e
+      Vontade.</p><p><strong>Aspectos:</strong> Corpo Resistente, Vigoroso, Reativo, Fanático, Agressivo, Golpe Preciso,
+      Tática de Bando, Implacável, Corpo Robusto, Descuidado.</p><p><strong>Habilidades:</strong> Golpe Duplo,
+      Contra-Golpe, Golpe Esmagador, Investida, Desarme, Grito de Guerra, Manter Firme, Ordem Tática, Ataque em Cadeia,
+      Impacto Atordoante.</p><p><strong>Reações:</strong> Contra-Golpe, Ataque Reativo, Postura Defensiva.</p>
+    chat: ''
+  identifier: guerreiro
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 3
+    dex: 3
+    con: 3
+    int: 1
+    wis: 1
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: 1
+      immune: false
+    piercing:
+      value: 1
+      immune: false
+    slashing:
+      value: 1
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: -6
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ath
+      - skills.itm
+      - skills.prc
+      - skills.acr
+      - saves.str
+      - saves.wis
+      - saves.con
+      - saves.cha
+    alternative:
+      - skills.ath
+      - skills.itm
+      - skills.prc
+      - skills.acr
+      - alternativeSaves.fortitude
+      - alternativeSaves.vontade
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8a0ca76215e75f50
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4e065b4c8fa19cff
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9149d2bde056a98a
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53d435a7250164af
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5b985b137ebe3303
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7b0bc0a12fe44448
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.05d16addb258c9b6
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6c3e03cf4f31410e
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5f6cf4c720a404dc
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.1a2c7d04572fb42e
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.a768d6db7abb6d1d
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bfd51c9ea7cf377
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9f58c17ca809238a
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.fef42e1c5f273c51
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.dba6e75422ac79f4
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9095a6530f2efc97
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.a1113fe1c7ca7100
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.569c09e7a5aa4734
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.0fdeb0b18b4ee7df
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.b3f1cb5e6320a231
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.39ea5af9979fe435
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000005
+    armas: []
+  movimento:
+    ganho: 0
+    intervalo: 1
+    maximo: null
+_id: K7hZVQH2MLbrfcPY
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/guerreiro.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:guerreiro
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: K7hZVQH2MLbrfcPY
+_key: '!items!K7hZVQH2MLbrfcPY'

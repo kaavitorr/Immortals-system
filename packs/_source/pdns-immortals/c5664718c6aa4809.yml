@@ -1,0 +1,91 @@
+_id: c5664718c6aa4809
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:83
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: c5664718c6aa4809
+name: Chuva de Espinhos
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢</strong></p><p>A criatura libera uma chuva de espinhos contra todas as criaturas em um cone
+      de 10 metros + 1 metro por ND. Todas as criaturas dentro da área devem realizar uma Salvaguarda de Reflexo para
+      não sofrerem 4d6 de dano Perfurante + 1d6 para cada 3 NDs da criatura.</p>
+    chat: ''
+  identifier: chuva-de-espinhos
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    c0d809c1736d2079:
+      _id: c0d809c1736d2079
+      type: save
+      name: Chuva de Espinhos
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura libera uma chuva de espinhos contra todas as criaturas em um cone de 10 metros + 1 metro por ND.
+          Todas as criaturas dentro da área devem realizar uma Salvaguarda de Reflexo para não sofrerem 4d6 de dano
+          Perfurante + 1d6 para cada 3 NDs da criatura.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: creature
+        prompt: true
+        override: true
+        template:
+          type: cone
+          size: 10 + @legacy2.nd
+          units: m
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: ''
+          formula: 10 + @npcPrincipal
+      damage:
+        onSave: none
+        parts:
+          - custom:
+              enabled: true
+              formula: (4 + floor(@legacy2.nd / 3))d6
+            types:
+              - piercing
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/chuva-de-espinhos-c5664718c6aa4809.webp"
+_key: '!items!c5664718c6aa4809'

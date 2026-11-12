@@ -1,0 +1,53 @@
+_id: 5ec69ca915b20b17
+_key: '!items!5ec69ca915b20b17'
+name: Carapaça de Lagostim das Nervuras Verdes
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/5ec69ca915b20b17.webp
+system:
+  identifier: material-alquimia-5ec69ca915b20b17
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Parte de animal</p><p>O lagostim das Nervuras Verdes filtra Qi entre raízes de riachos e desenvolve placas que recompõem pequenas rachaduras antes da muda. Sua carapaça calcinada prende resíduos úmidos nas pastas de recuperação da pele, preservando a afinidade renovadora sem alimentar fermentações indesejadas no preparado.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 2000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 99c7c69753e2fb5c
+sort: 5800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 3
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Concha de Lagostim Verde
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,53 @@
+_id: f14ac7e474c794bc
+_key: '!items!f14ac7e474c794bc'
+name: Junco da Primeira Lâmina
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/f14ac7e474c794bc.webp
+system:
+  identifier: material-alquimia-f14ac7e474c794bc
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Planta</p><p>Nasce no caniçal onde a primeira lâmina do mundo foi lavada após a forja, um único pé por era. Seu caule entra na composição das pílulas lendárias de corte.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 4c8cabc1aacf16c8
+sort: 18600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 10
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Junco da Primeira Lâmina
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

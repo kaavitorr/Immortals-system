@@ -1,0 +1,53 @@
+_id: ec37d52d065a1419
+_key: '!items!ec37d52d065a1419'
+name: Chifre de Búfalo das Raízes Profundas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/ec37d52d065a1419.webp
+system:
+  identifier: material-alquimia-ec37d52d065a1419
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Parte de animal</p><p>O búfalo das Raízes Profundas conduz Qi da Madeira pelos chifres estriados e firma as patas como raízes antes de avançar. As raspas conservam uma essência de sustentação e impulso, empregada em compostos destinados ao vigor corporal e à firmeza do golpe.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 00224d1b64407566
+sort: 3400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 2
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Presa de Búfalo do Vale
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,75 @@
+_id: rations000000000
+_key: '!items!rations000000000'
+name: Rações
+type: consumable
+img: icons/consumables/food/dried-meat-jerky-fish-red.webp
+system:
+  identifier: rations
+  description:
+    value: >-
+      <p>Pão seco, nozes, queijo e carne defumada, adequados para servir como refeição rudimentar capaz de sustentar a
+      vida por um único dia.</p><p><strong>Propriedades:</strong> Empilhável.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 1
+    units: kg
+  price:
+    value: 1
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  activities: {}
+  type:
+    value: trinket
+    subtype: ''
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    replace: false
+effects: []
+folder: B6n3Q73Jl36TvWlr
+sort: 200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: rations000000000
+      sourceType: consumable
+      category: other
+      quality: standard
+      enchantment: ''
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

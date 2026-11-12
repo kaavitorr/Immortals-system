@@ -1,0 +1,13 @@
+_id: 8f0fefc34f5b57fe
+_key: '!folders!8f0fefc34f5b57fe'
+name: Nível 4
+type: Item
+folder: 23310966e9c1ac2b
+sorting: a
+sort: 400000
+color: '#466b52'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: madeira
+      level: 4

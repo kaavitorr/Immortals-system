@@ -1,0 +1,168 @@
+/* Spiritual inheritance uses the sheet's shared charcoal, blue-grey and bronze. */
+.iw-cultivation-destiny,
+.iw-destiny-dialog .iw-destiny-form {
+  min-width: 0;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.45;
+  color: var(--iw-color-text);
+}
+.iw-cultivation-destiny {
+  margin-block: 8px;
+  padding: 10px 12px;
+  border: 1px solid var(--iw-color-line);
+  border-inline-start: 2px solid var(--iw-color-bronze-shadow);
+  border-radius: 4px;
+  background: var(--iw-color-panel);
+}
+.iw-cultivation-destiny p,
+.iw-destiny-dialog .iw-destiny-form p { margin: 5px 0; overflow-wrap: anywhere; }
+.iw-destiny-header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 6px; }
+.iw-destiny-header h4 { margin: 0; font: 600 13px/1.35 "Segoe UI", sans-serif; color: var(--iw-color-bronze-light); }
+.iw-destiny-choice { margin-block: 8px; }
+.iw-destiny-choice strong { color: var(--iw-color-accent-bright); font-weight: 600; }
+.iw-destiny-label { color: var(--iw-color-text-warm); font-weight: 600; }
+.iw-destiny-muted { color: var(--iw-color-muted); }
+.iw-destiny-status { color: var(--iw-color-bronze-light); }
+.iw-destiny-prose { white-space: pre-wrap; overflow-wrap: anywhere; }
+.iw-destiny-active { margin-block: 8px; padding-block: 5px; border-block: 1px solid var(--iw-color-line-faint); }
+.iw-destiny-actions { display: flex; flex-wrap: wrap; gap: 5px; margin-block: 8px; }
+.iw-cultivation-destiny button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: auto;
+  min-width: 0;
+  min-height: 28px;
+  padding: 4px 7px;
+  border: 1px solid var(--iw-color-line-strong);
+  border-radius: 3px;
+  background: var(--iw-color-raised);
+  color: var(--iw-color-accent-bright);
+  font: 400 11px/1.35 "Segoe UI", sans-serif;
+  white-space: normal;
+  box-shadow: none;
+  text-shadow: none;
+}
+.iw-cultivation-destiny button:hover { background: var(--iw-color-hover); color: var(--iw-color-text); box-shadow: none; text-shadow: none; }
+.iw-cultivation-destiny button svg { width: 15px; height: 15px; flex: 0 0 15px; }
+.iw-cultivation-destiny :focus-visible,
+.iw-destiny-dialog .iw-destiny-form :focus-visible { outline: 2px solid var(--iw-color-accent); outline-offset: 2px; box-shadow: none; }
+.iw-destiny-history { margin-block-start: 8px; border-block-start: 1px solid var(--iw-color-line-faint); padding-block-start: 6px; }
+.iw-destiny-history summary { cursor: pointer; color: var(--iw-color-accent); }
+.iw-destiny-history ol { margin: 8px 0 0; padding-inline-start: 20px; }
+.iw-destiny-history li { margin-block-end: 10px; padding-inline-start: 2px; }
+.iw-destiny-history li > .iw-destiny-muted { display: block; }
+.iw-destiny-dialog { max-width: calc(100vw - 16px); max-height: calc(100vh - 16px); font-family: "Segoe UI", sans-serif; }
+.iw-destiny-dialog .window-content { min-width: 0; overflow-y: auto; background: var(--iw-color-ink); }
+.iw-destiny-dialog .iw-destiny-form { display: grid; gap: 12px; width: 100%; }
+.iw-destiny-dialog .iw-destiny-form [hidden] { display: none !important; }
+.iw-destiny-dialog .iw-destiny-form label { display: grid; gap: 5px; min-width: 0; font-weight: 400; color: var(--iw-color-text); }
+.iw-destiny-dialog .iw-destiny-form input:not([type="checkbox"]):not([type="radio"]),
+.iw-destiny-dialog .iw-destiny-form select,
+.iw-destiny-dialog .iw-destiny-form textarea {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  margin: 0;
+  padding: 7px 8px;
+  border: 1px solid var(--iw-color-line-strong);
+  border-radius: 3px;
+  background: var(--iw-color-recess);
+  color: var(--iw-color-text);
+  font: 400 12px/1.45 "Segoe UI", sans-serif;
+  box-shadow: none;
+}
+.iw-destiny-dialog .iw-destiny-form select { min-height: 34px; height: auto; }
+.iw-destiny-dialog .iw-destiny-form select option { background: var(--iw-color-panel); color: var(--iw-color-text); }
+.iw-destiny-dialog .iw-destiny-form textarea { min-height: 108px; resize: vertical; }
+.iw-destiny-dialog .iw-destiny-wide { grid-column: 1 / -1; }
+.iw-destiny-dialog .iw-destiny-form fieldset { display: grid; gap: 10px; min-width: 0; margin: 0; padding: 10px; border: 1px solid var(--iw-color-line); border-radius: 3px; }
+.iw-destiny-dialog .iw-destiny-form legend { padding-inline: 5px; color: var(--iw-color-bronze-light); font: 600 12px/1.4 "Segoe UI", sans-serif; }
+.iw-destiny-dialog .iw-destiny-form .iw-destiny-check { display: flex; align-items: flex-start; gap: 8px; }
+.iw-destiny-dialog .iw-destiny-check input { flex: 0 0 auto; margin: 2px 0 0; accent-color: var(--iw-color-accent); }
+.iw-destiny-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.iw-destiny-preview { padding: 8px 10px; border-inline-start: 2px solid var(--iw-color-bronze-shadow); background: var(--iw-color-panel); }
+.iw-destiny-preview:empty { display: none; }
+.iw-destiny-note { padding: 7px 9px; border: 1px solid var(--iw-color-bronze-shadow); border-radius: 3px; color: var(--iw-color-text-warm); background: var(--iw-color-metal-surface); }
+@media (max-width: 480px) {
+  .iw-cultivation-destiny { padding: 8px; }
+  .iw-destiny-header { align-items: flex-start; }
+  .iw-destiny-actions { display: grid; grid-template-columns: minmax(0, 1fr); }
+  .iw-destiny-actions button { justify-content: flex-start; width: 100%; }
+  .iw-destiny-grid { grid-template-columns: minmax(0, 1fr); }
+  .iw-destiny-dialog .iw-destiny-form fieldset { padding: 8px; }
+}
+
+/* Native DialogV2 keeps the footer outside the scrolling form content. */
+.application.dialog.iw-dialog.iw-destiny-dialog {
+  max-height: calc(100dvh - 24px);
+  border: 1px solid var(--iw-color-bronze-shadow);
+  box-shadow: 0 10px 28px color-mix(in srgb, var(--iw-color-shadow) 35%, transparent);
+}
+.application.dialog.iw-dialog.iw-destiny-dialog .window-content {
+  min-height: 0;
+  max-height: calc(100dvh - 72px);
+  padding: 0;
+  overflow: hidden;
+  gap: 0;
+}
+.application.dialog.iw-dialog.iw-destiny-dialog .dialog-form {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  max-height: calc(100dvh - 72px);
+  gap: 0;
+}
+.application.dialog.iw-dialog.iw-destiny-dialog .dialog-content {
+  min-height: 0;
+  max-height: calc(100dvh - 142px);
+  overflow: hidden auto;
+  padding: 14px 16px;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--iw-color-line-strong) transparent;
+}
+.application.dialog.iw-dialog.iw-destiny-dialog .form-footer {
+  position: static;
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 12px 16px;
+  border-top: 1px solid var(--iw-color-line);
+  background: var(--iw-color-ink);
+}
+.application.dialog.iw-dialog.iw-destiny-dialog .iw-destiny-check :is(input[type="checkbox"],input[type="radio"]) {
+  appearance: auto;
+  -webkit-appearance: auto;
+  width: 14px;
+  height: 14px;
+  border: 0;
+  background: none;
+  box-shadow: none;
+}
+.application.dialog.iw-dialog.iw-destiny-dialog .iw-destiny-check input::before,
+.application.dialog.iw-dialog.iw-destiny-dialog .iw-destiny-check input::after { content: none; display: none; }
+.dnd5e2.sheet.actor.iw-wuxia .iw-cultivation-destiny button { text-transform: none; font-variant: normal; }
+.application.iw-manual-study-dialog .iw-manual-study-editor {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 12px;
+  min-width: 0;
+}
+.application.iw-manual-study-dialog .iw-manual-study-editor > label {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 6px;
+  min-width: 0;
+}
+.application.iw-manual-study-dialog .iw-manual-study-editor > .iw-manual-study-wide { grid-column: 1 / -1; }
+.application.iw-manual-study-dialog .iw-manual-study-editor :is(input[type="text"],select,textarea) { width: 100%; min-width: 0; max-width: 100%; }
+.application.iw-manual-study-dialog .iw-manual-study-editor label:has(input[type="checkbox"]) { flex-direction: row; align-items: start; }
+@media(max-width:480px) {
+  .application.dialog.iw-dialog.iw-destiny-dialog .dialog-content { padding: 10px; }
+  .application.dialog.iw-dialog.iw-destiny-dialog .form-footer { padding: 10px; }
+  .application.iw-manual-study-dialog .iw-manual-study-editor { grid-template-columns: minmax(0,1fr); }
+}

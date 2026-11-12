@@ -1,0 +1,11 @@
+_id: f3ef8d149cb8b8bd
+name: Nível 6
+type: Item
+folder: 15c0438a058c3465
+sorting: a
+sort: 600000
+color: '#77614b'
+flags:
+  Immortals-system:
+    oreMaterialLevel: 6
+_key: '!folders!f3ef8d149cb8b8bd'

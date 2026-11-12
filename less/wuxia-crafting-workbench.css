@@ -1,0 +1,107 @@
+/* Illustrated profession workbench. All colors come from the shared Immortals palette. */
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog { width:min(760px,calc(100vw - 24px)); max-height:calc(100dvh - 30px); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .window-content { min-height:0; max-height:calc(100dvh - 80px); padding:0; gap:0; overflow:hidden; background:var(--iw-color-ink); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .dialog-form { display:flex; flex-direction:column; min-height:0; max-height:calc(100dvh - 80px); gap:0; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .dialog-content { min-height:0; max-height:calc(100dvh - 146px); overflow-y:auto; overflow-x:hidden; padding:0; gap:0; overscroll-behavior:contain; scrollbar-width:thin; scrollbar-color:var(--iw-color-line-strong) transparent; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-workbench { padding:16px 20px; color:var(--iw-color-text); font:400 12px/1.5 "Segoe UI",Arial,sans-serif; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-workbench [hidden] { display:none; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-hero { display:grid; grid-template-columns:96px minmax(0,1fr); align-items:center; gap:16px; margin:0 0 14px; padding:0 0 12px; border-bottom:1px solid var(--iw-color-line); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-art-frame { position:relative; display:grid; place-items:center; width:96px; height:96px; isolation:isolate; background:radial-gradient(ellipse,color-mix(in srgb,var(--iw-color-accent) 13%,transparent),transparent 70%); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-art-frame::before { content:""; position:absolute; z-index:-1; inset:5px; border:1px solid var(--iw-color-bronze-shadow); border-radius:50%; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-art-frame::after { content:""; position:absolute; z-index:-1; inset:0; border-top:1px solid var(--iw-color-bronze-shadow); border-bottom:1px solid var(--iw-color-bronze-shadow); border-radius:50%; transform:rotate(-28deg); opacity:.6; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-product-art { display:block; width:96px; height:96px; object-fit:contain; border:0; box-shadow:none; background:none; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-title { min-width:0; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-title p { margin:0 0 4px; color:var(--iw-color-bronze-light); font:500 11px/1.5 "Segoe UI",Arial,sans-serif; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-title h2 { margin:0 0 4px; border:0; color:var(--iw-color-text); font:650 21px/1.25 "Segoe UI",Arial,sans-serif; overflow-wrap:anywhere; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-subtitle { display:block; color:var(--iw-color-accent); font-size:11px; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-title > small { display:block; max-width:54ch; margin-top:8px; color:var(--iw-color-muted); font:400 11px/1.5 "Segoe UI",Arial,sans-serif; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-title small strong { font-weight:600; color:var(--iw-color-text); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-options { display:flex; flex-wrap:wrap; align-items:flex-end; gap:12px 16px; padding:0 0 14px; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-options > label { display:grid; grid-template-columns:minmax(0,1fr); align-content:start; flex:1 1 140px; min-width:0; max-width:220px; gap:5px; margin:0; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-options > label > span { color:var(--iw-color-muted); font:500 11px/1.45 "Segoe UI",Arial,sans-serif; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-options :is(select,input[type="number"]) { display:block; width:100%; min-height:34px; height:34px; margin:0; padding:6px 9px; border:1px solid var(--iw-color-line); border-bottom-color:var(--iw-color-bronze-shadow); border-radius:2px; background:var(--iw-color-recess); color:var(--iw-color-text); font:500 12px/1.4 "Segoe UI",Arial,sans-serif; box-shadow:none; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-options .iw-craft-first-recipe { display:flex; align-items:flex-start; align-self:center; flex:2 1 220px; max-width:none; gap:8px; padding-top:15px; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-first-recipe input,.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-confirmation input { flex:0 0 15px; width:15px; height:15px; min-height:15px; margin:1px 0 0; padding:0; appearance:auto; accent-color:var(--iw-color-accent); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-first-recipe span { color:var(--iw-color-text); font:400 11px/1.4 "Segoe UI",Arial,sans-serif; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-first-recipe small { display:block; margin-left:0; color:var(--iw-color-subtle); font-weight:400; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-columns { display:grid; grid-template-columns:minmax(0,1.15fr) minmax(235px,.85fr); gap:18px; align-items:start; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-ingredients { min-width:0; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-material-recipe { margin:0; padding:12px; border:1px solid var(--iw-color-line-faint); border-top-color:var(--iw-color-bronze-shadow); background:var(--iw-color-recess); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-material-recipe > header { margin-bottom:7px; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-material-recipe > header strong { font-size:12px; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-material-recipe > header > span { font-size:10px; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-material-recipe .iw-recipe-basis { font:400 10px/1.45 "Segoe UI",Arial,sans-serif; margin-bottom:8px; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-material-recipe li { grid-template-columns:30px 18px minmax(0,1fr); column-gap:7px; row-gap:2px; padding:8px 0; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-material-recipe li > img { width:30px; height:30px; grid-row:span 2; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-material-recipe .iw-recipe-quantity { grid-row:span 2; font-size:13px; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-material-recipe .iw-recipe-identity { font-size:11px; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-material-recipe .iw-recipe-identity small { margin-top:2px; font:400 10px/1.4 "Segoe UI",Arial,sans-serif; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-material-recipe .iw-recipe-price { display:none; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-material-recipe > footer { gap:4px; padding-top:8px; font-size:10px; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-material-recipe .iw-recipe-note { font-size:10px; margin-top:8px; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-plan { min-width:0; padding:0; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-plan-heading { display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:3px 8px; margin-bottom:10px; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-plan-heading h3 { margin:0; border:0; font:600 12px/1.4 "Segoe UI",Arial,sans-serif; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-plan-heading > span { font-size:10px; color:var(--iw-color-bronze-light); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-facts { display:grid; grid-template-columns:1fr 1fr; gap:0; margin:0 0 12px; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-facts > div { min-width:0; padding:8px 0; border-bottom:1px solid var(--iw-color-line-faint); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-facts > div:last-child { grid-column:1/-1; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-facts dt { font-size:10px; color:var(--iw-color-muted); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-facts dd { margin:1px 0 0; font:600 19px/1.4 "Segoe UI",Arial,sans-serif; color:var(--iw-color-text); font-variant-numeric:tabular-nums; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-facts dd small { font-size:11px; color:var(--iw-color-accent); font-weight:400; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-facts dd > span { font-size:11px; font-weight:400; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-checks { display:grid; gap:0; list-style:none; margin:0; padding:0; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-checks li { display:grid; grid-template-columns:25px minmax(0,1fr) auto; align-items:center; gap:7px; min-width:0; padding:9px 0; margin:0; border-bottom:1px solid var(--iw-color-line-faint); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-check-mark { display:grid; place-items:center; width:23px; height:23px; border:1px solid var(--iw-color-line); border-radius:50%; font:500 10px/1 "Segoe UI",Arial,sans-serif; color:var(--iw-color-muted); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-check-mark svg { width:14px; height:14px; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-checks li strong { display:block; color:var(--iw-color-text); font:500 11px/1.4 "Segoe UI",Arial,sans-serif; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-checks li small { display:block; color:var(--iw-color-subtle); font-size:10px; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-check-score { white-space:nowrap; color:var(--iw-color-muted); font-size:10px; font-variant-numeric:tabular-nums; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-check-score b { font-size:15px; font-weight:600; color:var(--iw-color-text); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-checks [data-status="rolling"] .iw-craft-check-mark { border-color:var(--iw-color-bronze); color:var(--iw-color-bronze-light); background:var(--iw-color-metal-surface); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-checks [data-status="rolling"] small { color:var(--iw-color-bronze-light); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-checks [data-status="passed"] .iw-craft-check-mark { color:var(--iw-color-resistance); border-color:var(--iw-color-resistance); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-checks [data-status="failed"] .iw-craft-check-mark { color:var(--iw-color-danger); border-color:var(--iw-color-danger); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-guidance { margin:10px 0 0; color:var(--iw-color-subtle); font:400 10px/1.5 "Segoe UI",Arial,sans-serif; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-requirements { margin:14px 0 0; padding:9px 0; border-top:1px solid var(--iw-color-line-faint); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-requirements summary { display:flex; align-items:center; gap:7px; color:var(--iw-color-muted); cursor:pointer; font:500 11px/1.5 "Segoe UI",Arial,sans-serif; list-style:none; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-requirements svg { width:15px; height:15px; color:var(--iw-color-bronze); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-requirements p { margin:8px 0 3px; font:400 11px/1.55 "Segoe UI",Arial,sans-serif; color:var(--iw-color-muted); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-confirmation { display:flex; align-items:flex-start; gap:9px; padding:8px 0 14px; font:400 11px/1.5 "Segoe UI",Arial,sans-serif; color:var(--iw-color-text); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-attempt { margin:0; padding:13px 14px 10px; border:1px solid var(--iw-color-bronze-shadow); border-left:2px solid var(--iw-color-bronze); background:var(--iw-color-panel); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-status-row { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:5px 10px; margin-bottom:9px; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-status-row strong { font-size:12px; font-weight:600; color:var(--iw-color-text); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-status-row > span { color:var(--iw-color-accent); font-size:10px; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-progress { height:6px; border:1px solid var(--iw-color-line); background:var(--iw-color-recess); overflow:hidden; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-progress > span { display:block; width:0; height:100%; background:var(--iw-color-accent); transition:width 180ms ease-out; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-status-detail { margin:8px 0 0; min-height:16px; color:var(--iw-color-muted); font:400 11px/1.5 "Segoe UI",Arial,sans-serif; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-status-detail.is-error { color:var(--iw-color-danger-light); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog [data-craft-state="complete"] .iw-craft-progress > span { background:var(--iw-color-bronze); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-outcome { display:flex; align-items:center; gap:10px; margin-top:12px; padding-top:12px; border-top:1px solid var(--iw-color-line); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-outcome > svg { flex:0 0 20px; width:20px; height:20px; color:var(--iw-color-resistance); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-outcome[data-success="false"] > svg { color:var(--iw-color-danger); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-outcome > div { flex:1; min-width:0; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-outcome strong { display:block; font:600 12px/1.4 "Segoe UI",Arial,sans-serif; overflow-wrap:anywhere; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-outcome span { display:block; margin-top:2px; font-size:11px; color:var(--iw-color-muted); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-outcome button { flex:none; display:flex; align-items:center; gap:5px; width:auto; padding:6px 8px; border:1px solid var(--iw-color-line); font:500 11px/1.4 "Segoe UI",Arial,sans-serif; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-outcome button svg { width:14px; height:14px; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .form-footer { position:static; flex:none; justify-content:flex-end; margin:0; padding:11px 20px; gap:8px; border-top:1px solid var(--iw-color-bronze-shadow); background:var(--iw-color-deep); }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .form-footer button { flex:0 1 auto; width:auto; min-width:100px; min-height:34px; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .form-footer button[data-action="attempt"] { margin-left:auto; order:2; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .form-footer button[data-action="dismiss"] { order:1; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog :is(input,select):disabled { opacity:.65; }
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog :is(button,input,select,summary,a):focus-visible { outline:2px solid var(--iw-color-accent); outline-offset:2px; }
+@media(max-width:620px) {
+ .application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-workbench { padding:14px; }
+ .application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-columns { grid-template-columns:minmax(0,1fr); gap:16px; }
+ .application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-hero { grid-template-columns:84px minmax(0,1fr); gap:12px; }
+ .application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog :is(.iw-craft-art-frame,.iw-craft-product-art) { width:84px; height:84px; }
+ .application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-title h2 { font-size:18px; }
+ .application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-first-recipe small { display:block; margin-left:0; }
+ .application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-facts { grid-template-columns:1fr 1fr 1fr; }
+ .application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-facts > div:last-child { grid-column:auto; }
+ .application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .form-footer { padding:10px 14px; }
+}
+@media(prefers-reduced-motion:reduce) { .application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog .iw-craft-progress > span { transition:none; } }
+
+.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog input[type="checkbox"]::before,.application.dialog.iw-dialog.iw-profession-dialog.iw-craft-dialog input[type="checkbox"]::after { display:none; }

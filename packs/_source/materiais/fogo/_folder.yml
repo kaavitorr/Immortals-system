@@ -1,0 +1,12 @@
+_id: 1d29bf4920c1b673
+_key: '!folders!1d29bf4920c1b673'
+name: Fogo
+type: Item
+folder: null
+sorting: m
+sort: 100000
+color: '#85473f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: fogo

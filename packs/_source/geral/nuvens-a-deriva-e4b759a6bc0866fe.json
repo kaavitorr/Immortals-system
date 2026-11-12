@@ -1,0 +1,182 @@
+{
+  "_id": "e4b759a6bc0866fe",
+  "name": "Nuvens à Deriva",
+  "type": "spell",
+  "folder": "5305a0e07fd8bbec",
+  "sort": 200000,
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v1/passo-esguio.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-nuvens-a-deriva",
+    "level": 0,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "1",
+      "units": "turn",
+      "expiry": "turnEnd",
+      "special": "Até o fim do turno atual.",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "",
+      "units": "self",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "",
+        "size": "",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "self",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Movimento</td></tr><tr><th>Técnica</th><td>Auxiliar</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>1</td></tr><tr><th>Alcance</th><td>Pessoal</td></tr><tr><th>Duração</th><td>Até o fim do turno atual.</td></tr><tr><th>Arma</th><td>Nenhum</td></tr></tbody></table><p>Você desaparece do local que se encontra e aparece em um local a 5 metros de distância, enquanto uma forma similar a sua aparece em outro lugar a 5 metros, a cópia se move em uma direção a sua escolha, mas desaparece em fumaça ao fim do deslocamento.</p><h3>Observações</h3><p>Escolha um destino a 5 metros, mova o token e indique outro ponto a 5 metros para a cópia. Resolva o movimento da cópia e seu desaparecimento em fumaça; nenhum segundo ator é criado.</p>"
+    },
+    "activities": {
+      "0d925eaf331e635f": {
+        "_id": "0d925eaf331e635f",
+        "type": "utility",
+        "name": "Nuvens à Deriva",
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v1/passo-esguio.webp",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Movimento</td></tr><tr><th>Técnica</th><td>Auxiliar</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>1</td></tr><tr><th>Alcance</th><td>Pessoal</td></tr><tr><th>Duração</th><td>Até o fim do turno atual.</td></tr><tr><th>Arma</th><td>Nenhum</td></tr></tbody></table><p>Você desaparece do local que se encontra e aparece em um local a 5 metros de distância, enquanto uma forma similar a sua aparece em outro lugar a 5 metros, a cópia se move em uma direção a sua escolha, mas desaparece em fumaça ao fim do deslocamento.</p><h3>Observações</h3><p>Escolha um destino a 5 metros, mova o token e indique outro ponto a 5 metros para a cópia. Resolva o movimento da cópia e seu desaparecimento em fumaça; nenhum segundo ator é criado.</p>",
+          "chatFlavor": "Nuvens à Deriva"
+        },
+        "duration": {
+          "value": "1",
+          "units": "turn",
+          "expiry": "turnEnd",
+          "special": "Até o fim do turno atual.",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "nuvens-a-deriva",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Nuvens à Deriva",
+          "visible": false,
+          "prompt": false
+        }
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "nuvens-a-deriva",
+        "category": "movimento",
+        "grade": null,
+        "auxiliary": true,
+        "weapon": "Nenhum",
+        "qi": 2,
+        "actions": 1,
+        "reaction": false,
+        "combinedAttack": null,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Até o fim do turno atual.",
+            "range": "Pessoal",
+            "requirements": "Nenhum",
+            "damage": "Nenhum",
+            "combinedAttack": null
+          }
+        },
+        "manualResolution": [
+          "Escolha um destino a 5 metros, mova o token e indique outro ponto a 5 metros para a cópia. Resolva o movimento da cópia e seu desaparecimento em fumaça; nenhum segundo ator é criado."
+        ],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!e4b759a6bc0866fe"
+}

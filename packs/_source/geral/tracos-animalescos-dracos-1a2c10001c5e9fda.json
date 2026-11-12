@@ -1,0 +1,55 @@
+{
+  "_id": "1a2c10001c5e9fda",
+  "name": "Traços Animalescos — Dracos",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/reptiles/dragon-horned-blue.webp",
+  "system": {
+    "identifier": "especie-5cb46f9a",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Dracos. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c1000fbf5b0ce": {
+        "_id": "1a2c1000fbf5b0ce",
+        "type": "ItemChoice",
+        "title": "Duas características — Dracos",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.s5YojiyZSTeHORzk"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.g3EJkIy8NZ1Q0bPW"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.nu1IEaE8v2IQjbhP"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Dracos",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c10001c5e9fda"
+}

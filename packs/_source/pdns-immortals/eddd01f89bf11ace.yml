@@ -1,0 +1,72 @@
+_id: eddd01f89bf11ace
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:201
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: eddd01f89bf11ace
+name: Dispersar
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢ · Reação</strong></p><p>Quando essa criatura sofrer um ataque (Comum ou de Técnica), ela pode
+      dispersar seu corpo, negando o ataque comum ou reduzindo o dano da técnica pela metade. Esse efeito não funciona
+      contra técnicas em área.</p>
+    chat: ''
+  identifier: dispersar
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    840add867c9705c4:
+      _id: 840add867c9705c4
+      type: utility
+      name: Dispersar
+      activation:
+        type: reaction
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Quando essa criatura sofrer um ataque (Comum ou de Técnica), ela pode dispersar seu corpo, negando o ataque
+          comum ou reduzindo o dano da técnica pela metade. Esse efeito não funciona contra técnicas em área.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 5
+  prerequisites:
+    items: []
+    level: 5
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/dispersar-eddd01f89bf11ace.webp"
+_key: '!items!eddd01f89bf11ace'

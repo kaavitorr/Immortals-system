@@ -1,0 +1,53 @@
+_id: 47b4de8aafda209f
+_key: '!items!47b4de8aafda209f'
+name: Crina de Cavalo do Galope Refletido
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/47b4de8aafda209f.webp
+system:
+  identifier: material-alquimia-47b4de8aafda209f
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Parte de animal</p><p>Este corcel celestial amadurece nas correntes elevadas de Qi ilusório, projetando galopes sobre o vazio enquanto seu corpo permanece entre as nuvens. Os fios da crina preservam sequências de essência contínua, úteis para ligar movimentos aparentes em preparados de ilusão de alto grau.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 2a998700f944fbd5
+sort: 15800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 8
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Crina de Cavalo Galope Suspenso
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

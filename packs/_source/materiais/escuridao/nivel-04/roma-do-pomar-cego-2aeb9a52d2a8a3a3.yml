@@ -1,0 +1,53 @@
+_id: 2aeb9a52d2a8a3a3
+_key: '!items!2aeb9a52d2a8a3a3'
+name: Romã do Pomar Cego
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/2aeb9a52d2a8a3a3.webp
+system:
+  identifier: material-alquimia-2aeb9a52d2a8a3a3
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Planta</p><p>Amadurece em romãzeiras cujas raízes cercam uma nascente de Qi yin, onde os frutos absorvem todo reflexo antes de romper a casca. O sumo mantém a essência repartida entre compartimentos bem definidos, auxiliando a distribuição de escuridão em preparados de maior densidade.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 88cd562b36a9baf1
+sort: 6600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 4
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Romã do Pomar Cego
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

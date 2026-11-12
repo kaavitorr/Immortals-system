@@ -1,0 +1,63 @@
+{
+  "_id": "3358af066cf134ba",
+  "name": "Manipulação Rápida",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/manipulacao-rapida.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-manipulacao-rapida",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Manipulação Rápida</h2><p><strong>Requisito:</strong> 8 talentos de Qi qualquer OU Aprimorar Alcance</p><p>Você dominou a manipulação das suas técnicas a tal nível, que você pode alterar quase que livremente suas técnicas para desencadearem efeitos diferentes.</p><p>Ao alterar a circulação de Qi usada pela técnica, você pode modifica-la para receber efeitos em troca de outro aspecto dela. Por exemplo, você pode reduzir o dano de uma Técnica em 2 dados para adicionar a ela uma Condição de até 2 PA.</p><p>Independentemente do efeito escolhido, você pode criar quantas manipulações desejar junto ao seu Narrador. No entanto, só pode manter dois deles preparados ao final de cada Descanso Longo, podendo alterá-los sempre que realizar um novo Descanso Longo.</p><h3>REDUÇÃO DE POTÊNCIA</h3><p>Você reduz o dano final da sua “Retaliação Rápida” em 2 dados de dano para impor a condição “Sangramento” se a criatura falhar em uma Salvaguarda de Constituição.</p><table><tbody><tr><td>Duração</td><td>Instantâneo</td></tr><tr><td>Requisito</td><td>Retalhação Rápida</td></tr></tbody></table><p>Manipulação Rápida</p><p>A cada 3 Ranks de Cultivo, você recebe um espaço de manipulação adicional, podendo manter mais delas preparadas simultaneamente.</p><p><strong>Resolução:</strong> As manipulações são criadas com o Narrador; Redução de Potência é exemplo, não um talento separado. Crie as manipulações junto ao narrador e escolha as preparadas no descanso longo. Redução de Potência é um exemplo ligado à Retaliação Rápida, e não uma técnica ou condição gratuita.</p><p><strong>Pendente:</strong> O exemplo exige Retaliação Rápida/Retalhação Rápida, que não é descrita neste anexo.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "manipulacao-rapida",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Controle de Qi",
+        "requisitos": [
+          "8 talentos de Qi quaisquer OU Aprimorar Alcance"
+        ],
+        "requirementRules": {
+          "type": "or",
+          "rules": [
+            {
+              "type": "count",
+              "min": 8
+            },
+            {
+              "type": "node",
+              "id": "aprimorar-alcance"
+            }
+          ]
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "preparedManipulations",
+            "capacityFormula": "2 + floor(@cultivation.rank / 3)",
+            "changesAt": "longRest"
+          }
+        ],
+        "manual": [
+          "As manipulações são criadas com o Narrador; Redução de Potência é exemplo, não um talento separado.",
+          "Crie as manipulações junto ao narrador e escolha as preparadas no descanso longo. Redução de Potência é um exemplo ligado à Retaliação Rápida, e não uma técnica ou condição gratuita."
+        ],
+        "pending": [
+          "O exemplo exige Retaliação Rápida/Retalhação Rápida, que não é descrita neste anexo."
+        ]
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!3358af066cf134ba"
+}

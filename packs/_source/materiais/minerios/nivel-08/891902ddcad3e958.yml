@@ -1,0 +1,50 @@
+_id: 891902ddcad3e958
+name: Cristal do Intervalo Quieto
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-08/891902ddcad3e958.webp
+system:
+  identifier: minerio-891902ddcad3e958
+  description:
+    value: <p><strong>Nível:</strong> 8 · <strong>Categoria:</strong> Minério</p><p>Bloco translúcido cor de areia com camadas internas separadas por linhas negras. Cresce em fendas onde o fluxo de Qi de Tempo se torna irregular. É cortado em marcadores para matrizes temporais; as camadas precisam permanecer inteiras para que a inscrição acompanhe sua ordem.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: c68bd2db09650a50
+sort: 600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 8
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 8
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!891902ddcad3e958'

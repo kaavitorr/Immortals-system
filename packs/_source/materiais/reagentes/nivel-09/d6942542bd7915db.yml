@@ -1,0 +1,46 @@
+_id: d6942542bd7915db
+name: Eluente do Horizonte Puro
+type: loot
+img: systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-09/d6942542bd7915db.webp
+folder: 64541b5b25a8b6a4
+sort: 300000
+system:
+  identifier: reagente-d6942542bd7915db
+  type:
+    value: material
+    subtype: ''
+  description:
+    value: '<p><strong>Nível:</strong> 9 · <strong>Categoria:</strong> Reagente · <strong>Função:</strong> Veículo</p><p>Líquido translúcido de reflexo violeta muito discreto, reservado ao preparo de materiais do nono nível. É um veículo de extração e mistura: transporta os componentes beneficiados até a etapa de união. Não substitui ingredientes elementais, essências de besta nem outros requisitos específicos do produto.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>'
+    chat: ''
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  source:
+    custom: Immortals Legacy — Reagentes de Preparo
+effects: []
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    reagentMaterial:
+      level: 9
+      role: veiculo
+      category: reagente
+    materialEconomy:
+      version: 2
+      level: 9
+      category: reagente
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!d6942542bd7915db'

@@ -1,0 +1,53 @@
+_id: 42b236bcafbc4654
+_key: '!items!42b236bcafbc4654'
+name: Ameixeira de Inverno de Cem Anos
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/42b236bcafbc4654.webp
+system:
+  identifier: material-alquimia-42b236bcafbc4654
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Planta</p><p>Essa ameixeira precisa atravessar um século sobre veios de Qi glacial antes de abrir seus botões translúcidos. As pétalas mantêm seiva viva sob cristais que jamais a perfuram, fornecendo uma essência de persistência que sustenta o corpo durante o cultivo do frio.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: e7c04cfbe4a5d156
+sort: 6500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 4
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Ameixeira de Inverno de Cem Anos
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

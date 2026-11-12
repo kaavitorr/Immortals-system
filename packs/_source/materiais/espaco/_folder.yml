@@ -1,0 +1,12 @@
+_id: 57c7cfa4d7a2235f
+_key: '!folders!57c7cfa4d7a2235f'
+name: Espaço
+type: Item
+folder: null
+sorting: m
+sort: 1200000
+color: '#445674'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: espaco

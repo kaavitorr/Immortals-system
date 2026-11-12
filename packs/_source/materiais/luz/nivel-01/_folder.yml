@@ -1,0 +1,13 @@
+_id: f0081ecc5ab75e71
+_key: '!folders!f0081ecc5ab75e71'
+name: Nível 1
+type: Item
+folder: e1730b8d2dbc7697
+sorting: a
+sort: 100000
+color: '#806d3f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: luz
+      level: 1

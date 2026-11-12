@@ -1,0 +1,78 @@
+name: Labirinto de Miragens
+type: feat
+folder: b4cdf08eea2c07d5
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢⬢</p><p>A criatura altera a percepção de passagens, obstáculos e distâncias em uma
+      área. Ao consumir 2 Ponto de Ação [⬢⬢] por rodada, você pode criar uma área de 60 metros de raio +30 por ND da
+      criatura. O interior da área é extremamente realista e afeta todos os sentidos, fazendo a criatura realmente
+      pensar que os objetos no interior são sólidos. Não é possível criar criaturas no interior.</p>
+    chat: ''
+  identifier: labirinto-de-miragens
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    44497dc2e7d830f6:
+      _id: 44497dc2e7d830f6
+      type: utility
+      name: Labirinto de Miragens
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets: []
+      description:
+        value: >-
+          <p>A criatura altera a percepção de passagens, obstáculos e distâncias em uma área. Ao consumir 2 Ponto de
+          Ação [⬢⬢] por rodada, você pode criar uma área de 60 metros de raio +30 por ND da criatura. O interior da área
+          é extremamente realista e afeta todos os sentidos, fazendo a criatura realmente pensar que os objetos no
+          interior são sólidos. Não é possível criar criaturas no interior.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 8
+  prerequisites:
+    items: []
+    level: 8
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: 62915d87b28d458a
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/ilusao-menor-7845b27e637b3835.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:labirintodemiragens
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Tecelã de Miragens
+_key: '!items!62915d87b28d458a'

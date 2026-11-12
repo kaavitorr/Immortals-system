@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c100057e1a985",
+  "name": "Traços Animalescos — Lobisomens",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/mammals/humanoid-wolf-dog-blue.webp",
+  "system": {
+    "identifier": "especie-0a157645",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Lobisomens. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c10005d68b7ff": {
+        "_id": "1a2c10005d68b7ff",
+        "type": "ItemChoice",
+        "title": "Duas características — Lobisomens",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.qo5e2YHyBU0uOiyr"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.wu652CwZ8ypGjskR"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Lobisomens",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c100057e1a985"
+}

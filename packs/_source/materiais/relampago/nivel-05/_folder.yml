@@ -1,0 +1,13 @@
+_id: 12968d12e60a5af5
+_key: '!folders!12968d12e60a5af5'
+name: Nível 5
+type: Item
+folder: 8e61a385d86bbe51
+sorting: a
+sort: 500000
+color: '#8b6c36'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: relampago
+      level: 5

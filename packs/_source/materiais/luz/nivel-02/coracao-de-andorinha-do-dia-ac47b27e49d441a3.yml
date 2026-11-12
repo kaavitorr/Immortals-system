@@ -1,0 +1,53 @@
+_id: ac47b27e49d441a3
+_key: '!items!ac47b27e49d441a3'
+name: Coração de Andorinha do Dia
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/ac47b27e49d441a3.webp
+system:
+  identifier: material-alquimia-ac47b27e49d441a3
+  description:
+    value: <p><strong>Elemento:</strong> Luz · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Parte de animal</p><p>Esta andorinha espiritual acompanha correntes de Qi luminoso acima das nuvens, e suas asas projetam um breve rastro branco sobre as montanhas. O coração conserva uma pulsação clara e regular, usada como matriz complementar para harmonizar a essência em pílulas de luz.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 600
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: dd35007db9aab0d8
+sort: 3400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: luz
+      elementLabel: Luz
+      level: 2
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/luz.json
+        originalName: Coração de Andorinha do Dia
+        sha256: a65d9c475ce3e69bcab79896f06bd1f00a0fcc1e5a6329d0e4735711f2236288
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

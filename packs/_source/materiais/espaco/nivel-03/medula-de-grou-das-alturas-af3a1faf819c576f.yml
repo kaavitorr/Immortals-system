@@ -1,0 +1,53 @@
+_id: af3a1faf819c576f
+_key: '!items!af3a1faf819c576f'
+name: Medula de Grou das Alturas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/af3a1faf819c576f.webp
+system:
+  identifier: material-alquimia-af3a1faf819c576f
+  description:
+    value: <p><strong>Elemento:</strong> Espaço · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Parte de animal</p><p>O grou das alturas voa pelas correntes de Qi espacial entre picos, mantendo as asas imóveis durante trechos em que o horizonte se dobra. Sua medula concentra essa essência no interior dos ossos ocos e fornece uma segunda fonte de espaço às matrizes elementais.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 4000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 46d03499f99dbd13
+sort: 5500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: espaco
+      elementLabel: Espaço
+      level: 3
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/espaco.json
+        originalName: Medula de Grou das Alturas
+        sha256: e7d0006d3bc5b8eb4685c982cf4dd46c83df9af6d2f53fcd8b56c8b83060db26
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,43 @@
+name: Corpo Elemental da Terra / Plantas
+type: feat
+folder: LVtN60nyQkd1jaKo
+system:
+  description:
+    value: >-
+      <p>Essa criatura tem imunidade a Ácido e recupera uma quantidade de Vida igual ao Atributo de Constituição dela
+      enquanto estiver tocando o chão.</p>
+    chat: ''
+  identifier: corpo-elemental-da-terra-plantas
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: YY38HMDaZ97konil
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/corpo-elemental-da-terra-plantas-YY38HMDaZ97konil.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:corpoelementaldaterraplantas:1d229da65acc
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: YY38HMDaZ97konil
+_key: '!items!YY38HMDaZ97konil'

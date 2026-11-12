@@ -1,0 +1,71 @@
+_id: fef42e1c5f273c51
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:130
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: fef42e1c5f273c51
+name: Impacto Atordoante
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ adicional</strong></p><p>Ao realizar uma jogada de ataque, essa criatura pode tentar impor a
+      condição “Atordoado” até o fim do próximo turno da criatura atingida.</p>
+    chat: ''
+  identifier: impacto-atordoante
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    ab5ccbec0bdcd048:
+      _id: ab5ccbec0bdcd048
+      type: utility
+      name: Impacto Atordoante
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Ao realizar uma jogada de ataque, essa criatura pode tentar impor a condição “Atordoado” até o fim do
+          próximo turno da criatura atingida.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 5
+  prerequisites:
+    items: []
+    level: 5
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/impacto-atordoante-fef42e1c5f273c51.webp"
+_key: '!items!fef42e1c5f273c51'

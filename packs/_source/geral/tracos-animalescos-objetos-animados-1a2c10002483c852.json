@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c10002483c852",
+  "name": "Traços Animalescos — Objetos Animados",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/magic/control/control-influence-puppet.webp",
+  "system": {
+    "identifier": "especie-e0c13a92",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Objetos Animados. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c10006bb4b8c5": {
+        "_id": "1a2c10006bb4b8c5",
+        "type": "ItemChoice",
+        "title": "Duas características — Objetos Animados",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.GkbU6r4twJIdjCpR"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.Q3QaRVNmFinyjtCR"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Objetos Animados",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c10002483c852"
+}

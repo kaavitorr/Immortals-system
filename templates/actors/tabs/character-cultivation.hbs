@@ -1,0 +1,276 @@
+<section class="tab {{tab.cssClass}} cultivation-tab iw-cultivation" data-tab="{{tab.id}}" data-group="{{tab.group}}">
+  {{#*inline "iw-cult-qi-aura"}}
+  <svg class="cult-qi-gathering" viewBox="0 0 220 240" fill="none" aria-hidden="true" focusable="false">
+    <g class="cult-qi-streams" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+      <path pathLength="100" d="M24 188C4 144 24 86 64 63c23-13 43-8 49 6C77 61 46 84 40 117"/>
+      <path pathLength="100" d="M196 170c25-40 8-89-28-111-21-13-46-12-59 3 32-5 61 11 72 35"/>
+      <path pathLength="100" d="M14 150c-5 43 37 72 81 65 32-5 49-23 43-41-10 24-43 30-69 20"/>
+      <path pathLength="100" d="M209 128c12 43-14 73-48 76-23 2-44-7-47-24 14 12 37 13 53 2"/>
+      <path pathLength="100" d="M40 78c-6 25 8 41 30 44 24 3 34 12 34 28"/>
+      <path pathLength="100" d="M182 72c9 29-4 48-27 56-21 8-31 14-32 28"/>
+      <path pathLength="100" d="M34 176c13-17 32-24 52-16 15 6 28 10 39 4"/>
+      <path pathLength="100" d="M188 188c-9-27-32-35-49-27"/>
+    </g>
+    <g class="cult-qi-whispers" stroke="currentColor" stroke-linecap="round">
+      <path d="M60 52c14-11 28-14 42-10M139 47c19 4 35 15 43 27M27 151c-3-14-1-28 5-41M165 216c-17 7-34 9-51 4"/>
+    </g>
+    <g class="cult-qi-motes" fill="currentColor">
+      <circle cx="44" cy="92" r="1.6"/><circle cx="77" cy="51" r="1.2"/><circle cx="164" cy="67" r="1.4"/><circle cx="190" cy="121" r="1.2"/>
+      <circle cx="30" cy="172" r="1.4"/><circle cx="74" cy="210" r="1.1"/><circle cx="155" cy="207" r="1.6"/><circle cx="183" cy="184" r="1.1"/>
+    </g>
+  </svg>
+  {{/inline}}
+
+  <nav class="cult-subtabs" aria-label="Caminhos de cultivo">
+    <button type="button" class="cult-subtab-btn active" data-subtab="cultivo" aria-pressed="true"><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21C3 17 2 10 3 5c5 0 8 3 9 7 1-4 4-7 9-7 1 5 0 12-9 16Z"/><path d="M12 12v9"/></svg><span>Cultivo</span><small>{{cultivation.rank}}/10</small></button>
+    <button type="button" class="cult-subtab-btn" data-subtab="corpo" aria-pressed="false"><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 12V5a2 2 0 0 1 4 0v7m0-6a2 2 0 0 1 4 0v6m0-4a2 2 0 0 1 4 0v8l-4 5H8l-4-7V9a2 2 0 0 1 4 0"/></svg><span>Corpo</span><small>{{bodyLevel}}/10</small></button>
+    <button type="button" class="cult-subtab-btn" data-subtab="alma" aria-pressed="false"><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c2 4 6 5 6 10a6 6 0 0 1-12 0c0-2 1-4 3-6 0 3 1 4 3 5 1-3 1-6 0-9Z"/></svg><span>Alma</span><small>{{soulLevel}}/10</small></button>
+  </nav>
+
+  <section class="cult-frame iw-constitution-section" data-constitution-section aria-label="Constituição">
+    <header class="iw-constitution-panel-heading"><h3><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="5" r="2.5"/><path d="M7 21v-6l-2-4 4-3m8 13v-6l2-4-4-3M9 10l3 3 3-3m-3 3v7"/><circle cx="12" cy="17" r="1.5"/></svg>Constituição</h3>{{#if constitution.editable}}<button type="button" class="cult-btn" data-action="constitutionChoose" data-constitution-slot="primary">{{#if constitution.current}}Trocar constituição{{else}}Escolher constituição{{/if}}</button>{{/if}}</header>
+    {{#if constitution.destinyReincarnated}}<p class="iw-constitution-note">Cultivador Reencarnado: constituição inicial Humano Inferior. A evolução exige o dobro dos recursos; confirme os materiais e o método com o narrador.</p>{{/if}}
+    {{#if constitution.current}}<div class="iw-constitution-current"><div><strong class="iw-constitution-name">{{constitution.current.name}}</strong><span class="iw-constitution-class">{{constitution.current.rarityLabel}} · {{constitution.current.qualityLabel}}</span></div><span class="iw-constitution-state {{#if constitution.current.baseActive}}is-active{{/if}}">{{#if constitution.current.baseActive}}Desperta{{else}}Requer {{constitution.current.minimumName}}{{/if}}</span></div>
+    {{#if constitution.current.affinitiesLabel}}<p class="iw-constitution-affinity-line">Afinidades: <strong>{{constitution.current.affinitiesLabel}}</strong></p>{{/if}}{{#if constitution.current.affinityMissing}}<p class="iw-constitution-note">{{constitution.current.affinityMissing}} afinidade(s) pendente(s). Use Trocar constituição para definir.</p>{{/if}}
+    <details class="iw-constitution-disclosure" data-cult-section="constitution"><summary>Características e evolução<span>{{#if constitution.current.additionalActive}}Efeitos adicionais disponíveis{{else if constitution.current.additionalName}}Adicionais em {{constitution.current.additionalName}}{{/if}}</span><svg class="iw-constitution-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></summary><div class="iw-constitution-rule-copy">{{{constitution.current.rulesHTML}}}</div></details>
+    {{else}}<p class="iw-constitution-note">Sua constituição ainda não foi revelada. Registre aqui a descoberta pelo Cristal da Visão ou a escolha acordada com o Narrador.</p>{{/if}}
+    {{#if constitution.isDevourer}}<div class="iw-constitution-absorbed"><h4>Constituições absorvidas</h4>{{#each constitution.slots}}<div class="iw-constitution-absorbed-slot"><div><span>{{label}}</span><strong>{{#if entry}}{{entry.name}}{{else}}Espaço disponível{{/if}}</strong>{{#if entry}}<small>{{entry.rarityLabel}} · {{entry.qualityLabel}}{{#unless entry.baseActive}} · Requer {{entry.minimumName}}{{/unless}}</small>{{/if}}</div>{{#if @root.constitution.editable}}<button type="button" class="cult-btn" data-action="constitutionChoose" data-constitution-slot="{{index}}">{{#if entry}}Trocar{{else}}Escolher{{/if}}</button>{{/if}}</div>{{#if entry}}<details class="iw-constitution-disclosure" data-cult-section="constitution-absorbed-{{index}}"><summary>Características de {{entry.name}}<svg class="iw-constitution-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></summary><div class="iw-constitution-rule-copy">{{{entry.rulesHTML}}}</div></details>{{/if}}{{/each}}</div>{{/if}}
+    {{#if constitution.current}}<details class="iw-constitution-disclosure" data-cult-section="constitution-context"><summary>Condições do cultivo<span>Absorção ×{{constitution.absorptionMultiplier}}</span><svg class="iw-constitution-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></summary><div class="iw-constitution-context">
+      {{#if constitution.showCultivationContext}}<label>Cultivo duplo<select data-constitution-context="dualPartner"><option value="">Sem parceiro Yin/Yang</option><option value="yin" {{#if (eq constitution.context.dualPartner "yin")}}selected{{/if}}>Parceiro com Corpo Yin</option><option value="yang" {{#if (eq constitution.context.dualPartner "yang")}}selected{{/if}}>Parceiro com Corpo Yang</option></select></label><label>Qi predominante da região<select data-constitution-context="zoneAspect"><option value="">Sem saturação Yin/Yang</option><option value="yin" {{#if (eq constitution.context.zoneAspect "yin")}}selected{{/if}}>Yin</option><option value="yang" {{#if (eq constitution.context.zoneAspect "yang")}}selected{{/if}}>Yang</option></select></label><label class="iw-constitution-checkbox"><input type="checkbox" data-constitution-context="demonicQi" {{#if constitution.context.demonicQi}}checked{{/if}}>Cultivando com Qi demoníaco</label>{{/if}}
+      {{#if constitution.isDevourer}}<label>Maldição do Devorador<select data-constitution-context="devourerCounting"><option value="">Definir contagem com o Narrador</option><option value="additional" {{#if (eq constitution.context.devourerCounting "additional")}}selected{{/if}}>Dobrar por constituição absorvida</option><option value="all" {{#if (eq constitution.context.devourerCounting "all")}}selected{{/if}}>Dobrar também pela Devoradora</option></select></label>{{/if}}
+      <div class="iw-constitution-automation"><strong>Aplicado na ficha</strong>{{#each constitution.automation}}<span>{{this}}</span>{{else}}<span>Sem efeitos passivos automáticos para a escolha atual.</span>{{/each}}</div>{{#each constitution.manual}}<p class="iw-constitution-note">{{this}}</p>{{/each}}{{#each constitution.pending}}<p class="iw-constitution-note">{{this}}</p>{{/each}}
+    </div></details>{{/if}}
+  </section>
+
+
+  <div class="cult-subtab active" data-subtab-content="cultivo" role="region" aria-label="Cultivo de Qi" aria-hidden="false">
+    {{#if cultivation.toxins}}<p class="cult-note cult-toxin-notice" role="status"><strong>Toxinas de pílulas: {{cultivation.toxins}}</strong> · {{#if cultivation.toxinBlocked}}Absorção e avanço de Qi bloqueados até remover todas as toxinas.{{else}}Estágios: +{{cultivation.toxinStagePC}} PC. Rompimentos: +{{cultivation.toxinRankPC}} PC e CD.{{/if}}</p>{{/if}}
+    <header class="cult-hero cult-frame">
+      <div class="cult-realm">
+        <div class="cult-level-identity">
+          <span class="cult-level-seal" role="img" aria-label="Reino {{cultivation.rank}} de 10"><svg class="cult-level-sigil" viewBox="0 0 64 64" fill="none" stroke="currentColor" aria-hidden="true"><path d="M16 3h32l13 13v32L48 61H16L3 48V16Z"/><path class="cult-level-inlay" d="M18 8h28l10 10v28L46 56H18L8 46V18Z"/></svg><strong aria-hidden="true">{{cultivation.rank}}</strong><small aria-hidden="true">/ 10</small></span>
+          <div class="cult-level-heading"><span class="cult-realm-eyebrow">Reino de cultivo</span><h2 class="cult-realm-name">{{cultivation.name}}</h2></div>
+        </div>
+        <div class="cult-stage-progression">
+          <div class="cult-level-caption"><span>Estágios do reino</span><strong>{{cultivation.stage}} / {{cultivation.stageMax}}</strong></div>
+          <ol class="cult-stage-steps" aria-label="Estágios deste reino">
+            {{#each cultivation.stagePips as |step|}}<li class="{{#if (eq step.n @root.cultivation.stage)}}current{{else if step.filled}}completed{{else}}future{{/if}}" {{#if (eq step.n @root.cultivation.stage)}}aria-current="step"{{/if}}><span class="cult-stage-number"><svg class="cult-level-sigil" viewBox="0 0 64 64" fill="none" stroke="currentColor" aria-hidden="true"><path d="M16 3h32l13 13v32L48 61H16L3 48V16Z"/><path class="cult-level-inlay" d="M18 8h28l10 10v28L46 56H18L8 46V18Z"/></svg><strong>{{step.n}}</strong></span><small>{{#if (eq step.n @root.cultivation.stage)}}Atual{{else if step.filled}}Concluído{{else}}A seguir{{/if}}</small></li>{{/each}}
+          </ol>
+        </div>
+        <p class="cult-realm-next">{{#if (and cultivation.atRankMax cultivation.atStageMax)}}Caminho da ascensão concluído.{{else if cultivation.atStageMax}}Próximo reino: <strong>{{cultivation.nextRankName}}</strong>{{else}}Reúna Essência de Qi para o próximo estágio.{{/if}}</p>
+      </div>
+      <div class="cult-figure-wrap" data-cult-portrait="qi">{{> "iw-cult-qi-aura"}}<img class="cult-figure" src="{{cultivation.image}}" alt="Cultivador de Qi" /></div>
+    </header>
+
+    <div class="cult-class-progress"><span>Nível de cultivo <strong>{{cultivation.level}} / 30</strong></span><span>Dano padrão <strong>1d{{cultivation.damageDie}}</strong></span><span>Talentos de Qi <strong>{{cultivation.talents}}</strong></span></div>
+
+    <section class="cult-advancement cult-frame cult-essence-panel" aria-label="Essência e avanço de cultivo">
+      <header class="cult-section-heading cult-essence-heading">
+        <h3><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21C3 17 2 10 3 5c5 0 8 3 9 7 1-4 4-7 9-7 1 5 0 12-9 16Z"/><path d="M12 12v9"/></svg>Essência de Qi</h3>
+        <label class="cult-points" data-tooltip="Pontos de Cultivo. O mestre concede este recurso; ele é separado da proficiência.">{{#if cultivation.canEditNarrative}}<input type="number" data-cult-points value="{{cultivation.pt}}" min="0" step="1" aria-label="Saldo de Pontos de Cultivo">{{else}}<strong>{{cultivation.pt}}</strong>{{/if}}<span>PC disponíveis</span></label>
+      </header>
+      <div class="cult-essence-content">
+        <div class="cult-essence-reading">
+          <label class="cult-resource-value"><span class="cult-sr-only">Essência de Qi acumulada</span>
+            <input type="text" class="cult-essence-input" name="system.cultivation.essence" data-dtype="Number" value="{{cultivation.essence}}" placeholder="0" />
+            <span class="cult-essence-goal"><span>/</span><strong>{{dnd5e-numberFormat cultivation.essMax}}</strong><small>PEQ</small></span>
+          </label>
+          <div class="cult-essence-summary {{#if cultivation.essFull}}complete{{/if}}">
+            <span class="cult-essence-percent" aria-hidden="true">{{cultivation.essencePct}}<small>%</small></span>
+            <span class="cult-resource-status">{{#if cultivation.essFull}}Essência reunida{{else}}Em cultivo{{/if}}</span>
+          </div>
+        </div>
+        <div class="cult-essence-track" role="progressbar" aria-label="Essência de Qi" aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{cultivation.essencePct}}" aria-valuetext="{{cultivation.essence}} de {{cultivation.essMax}} PEQ">
+          <div class="cult-essence-fill {{#if cultivation.essFull}}full{{/if}}" style="width:{{cultivation.essencePct}}%"></div>
+        </div>
+        <div class="cult-absorption" data-tooltip="Zona de Qi: {{#if cultivation.zoneUnlimited}}sem limite{{else}}{{cultivation.zoneLimit}} PEQ/dia{{/if}} · Manual: {{#if cultivation.manualLimited}}{{cultivation.manualAbsorb}} PEQ/dia{{else}}sem limite{{/if}}">
+          <span>Absorção diária</span><strong>{{#if cultivation.capUnlimited}}Sem limite{{else}}{{cultivation.dailyEssenceCap}} <small>PEQ/dia</small>{{/if}}</strong>
+        </div>
+          {{#if cultivation.crystal.equipped}}<div class="cult-crystal-status {{#if cultivation.crystal.active}}is-active{{/if}}"><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="m12 2 7 6-2 11-5 3-5-3L5 8l7-6Z"/><path d="m12 2 3 7-3 13-3-13 3-7Zm-7 6 4 1m6 0 4-1"/></svg><div><strong>{{#if cultivation.crystal.active}}Cristal auxiliando o cultivo{{else}}Cristal sem bônus de absorção{{/if}}</strong><span>{{cultivation.crystal.status}}</span></div></div>{{/if}}
+      </div>
+      <div class="cult-advancement-footer">
+        {{#if (and cultivation.atRankMax cultivation.atStageMax)}}
+          <p class="cult-note">Você atingiu o ápice do cultivo.</p>
+        {{else}}
+          <p class="cult-note">{{#if cultivation.essGoalIsNext}}Reúna {{dnd5e-numberFormat cultivation.essMax}} PEQ para tentar o rompimento para {{cultivation.nextRankName}}.{{else}}Complete a Essência e use {{cultivation.advanceCost}} PC para avançar de estágio.{{/if}}</p>
+        {{/if}}
+        <div class="cult-actions">
+          {{#unless cultivation.atStageMax}}
+            <button type="button" class="cult-btn cult-btn-advance" data-action="cultivationAdvanceStage" {{#unless cultivation.canAdvanceStage}}disabled{{/unless}} data-tooltip="{{#unless cultivation.essFull}}Complete a Essência de Qi.{{else unless cultivation.advanceAfford}}Requer {{cultivation.advanceCost}} PC disponíveis.{{else}}Avançar para o próximo estágio.{{/unless}}">
+              <svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20V4m-7 7 7-7 7 7"/></svg><span class="cult-btn-main">Avançar estágio</span><span class="cult-btn-cost">{{cultivation.advanceCost}} PC</span>
+            </button>
+          {{else}}
+            <button type="button" class="cult-btn cult-btn-breakthrough" data-action="cultivationBreakthrough" {{#unless cultivation.canBreakthrough}}disabled{{/unless}} data-tooltip="{{#if cultivation.atRankMax}}Ápice atingido.{{else unless cultivation.essFull}}Requer {{dnd5e-numberFormat cultivation.essMax}} PEQ.{{else unless cultivation.breakthroughAfford}}Requer {{cultivation.breakthroughCost}} PC disponíveis.{{else}}Rompimento: 1d20, CD {{cultivation.breakthroughCD}}. Cada PI reduz a CD em 3. Falha causa Ferimento Persistente.{{/if}}">
+              <svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m13 2-9 12h7l-1 8 10-12h-7z"/></svg><span class="cult-btn-main">{{#if cultivation.atRankMax}}Ápice atingido{{else}}Tentar rompimento{{/if}}</span>{{#unless cultivation.atRankMax}}<span class="cult-btn-cost">{{cultivation.breakthroughCost}} PC · CD {{cultivation.breakthroughCD}}</span>{{/unless}}
+            </button>
+            {{#unless cultivation.atRankMax}}
+              <button type="button" class="cult-btn cult-btn-illumination" data-action="cultivationProfoundIllumination" {{#unless cultivation.canProfoundIllumination}}disabled{{/unless}} data-tooltip="Avanço garantido. Requer a Essência completa, {{cultivation.breakthroughCost}} PC e 3 PI.">
+                <svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6m-5 3h4M8 14a6 6 0 1 1 8 0l-1 2H9Z"/></svg><span class="cult-btn-main">Iluminação profunda</span><span class="cult-btn-cost">{{cultivation.breakthroughCost}} PC + 3 PI</span>
+              </button>
+            {{/unless}}
+          {{/unless}}
+          {{#if cultivation.canEditNarrative}}{{#unless cultivation.atStageMax}}<button type="button" class="cult-btn cult-combat-advance" data-action="cultivationAdvanceCombat" {{#unless cultivation.combatAdvanceEligible}}disabled{{/unless}}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="action"}}<span>Avanço em combate</span><small>Autorização do mestre · sem PC</small></button>{{/unless}}{{/if}}
+        </div>
+      </div>
+    </section>
+
+    <section class="cult-resource-strip cult-frame" aria-label="Qi e Iluminação">
+      <div class="cult-resource-overview">
+        <section class="cult-resource cult-resource-qi" aria-label="Pontos de Qi">
+          <div class="cult-resource-head">
+            <h3 class="cult-resource-title"><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m13 2-9 12h7l-1 8 10-12h-7z"/></svg>Pontos de Qi</h3>
+            {{!-- No name: the header already submits system.energy.total. This input uses its own listener. --}}
+            <label class="cult-resource-value"><span class="cult-sr-only">Pontos de Qi atuais</span><input type="text" class="cult-essence-input" data-cult-qi value="{{cultivation.qi.value}}" placeholder="0" /><span>/ {{cultivation.qi.max}}</span></label>
+          </div>
+          <div class="cult-essence-track" role="progressbar" aria-label="Pontos de Qi" aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{cultivation.qi.pct}}"><div class="cult-qi-fill" style="width:{{cultivation.qi.pct}}%"></div></div>
+          {{#if cultivation.benefits.meditationQi}}<div class="cult-rank-resource-action"><span>{{cultivation.benefits.meditationQi}} Qi / 10 min</span>{{#if cultivation.editable}}<button type="button" class="cult-btn" data-action="cultivationMeditate">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="time"}}Meditar</button>{{/if}}</div>{{/if}}
+        </section>
+        <section class="cult-resource cult-resource-illumination" aria-label="Pontos de Iluminação">
+          <div class="cult-resource-head">
+            <h3 class="cult-resource-title"><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6m-5 3h4M8 14a6 6 0 1 1 8 0l-1 2H9Z"/></svg>Iluminação</h3>
+            <label class="cult-resource-value"><span class="cult-sr-only">Pontos de Iluminação</span><input type="number" class="cult-illumination-input" name="system.cultivation.illumination" data-dtype="Number" value="{{cultivation.illumination}}" min="0" placeholder="0" /><span>PI</span></label>
+          </div>
+          {{#if cultivation.canEditNarrative}}<div class="cult-rank-resource-action"><span>{{#if cultivation.benefits.illuminationExtra}}+{{cultivation.benefits.illuminationExtra}} PI por PI recebido{{/if}}</span><button type="button" class="cult-btn" data-action="cultivationGrantIllumination">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="add"}}Conceder PI</button></div>{{/if}}
+        </section>
+      </div>
+      <details class="cult-inline-details cult-illumination-uses" data-cult-section="illumination">
+        <summary><span>Usos da Iluminação</span><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></summary>
+        <dl class="cult-help-list">
+          <div><dt><span>Reduzir dificuldade</span><span class="cult-help-cost">1 <small>PI</small></span></dt><dd>Reduz a CD de um avanço em 3.</dd></div>
+          <div><dt><span>Iluminação profunda</span><span class="cult-help-cost">3 <small>PI</small></span></dt><dd>Avança para o próximo reino sem rolagem. Exige a Essência completa e o custo em PC.</dd></div>
+          <div><dt><span>Entendimento</span><span class="cult-help-cost">1 <small>PI</small></span></dt><dd>Reduz a CD de profissão ou elemento e o custo em PC de Cultivo em 3.</dd></div>
+        </dl>
+      </details>
+    </section>
+
+
+    <details class="cult-disclosure cult-rank-benefits" data-cult-section="realm-benefits">
+      <summary><span>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="cultivation"}}Benefícios do reino</span><span class="cult-summary-meta">{{cultivation.name}}</span>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="collapse"}}</summary>
+      <div class="cult-disclosure-body cult-rank-description">{{{cultivation.realmDescription}}}<p class="cult-rank-choices"><strong>{{cultivation.benefits.basicQiAbilities}}</strong> escolhas de Habilidade de Qi Básica concedidas pelos reinos. As escolhas respeitam os requisitos de cada habilidade.</p>{{#if cultivation.benefits.divinePending}}<p class="cult-note">A aplicação numérica da duplicação de Divino aguarda a definição do alcance desse benefício.</p>{{/if}}</div>
+    </details>
+
+    <details class="cult-disclosure" data-cult-section="foundation">
+      <summary><span>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="cultivation"}}Base de Cultivo</span><span class="cult-summary-meta">CD {{cultivation.breakthroughCD}}</span>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="collapse"}}</summary>
+      <div class="cult-disclosure-body cult-foundation-body">
+        <div class="cult-foundation-ledger"><div><span>Batalhas e encontros</span><strong>{{cultivation.foundation.encounters}}</strong></div><div><span>Anos em reclusão</span><strong>{{cultivation.foundation.years}}</strong></div><div><span>Redução da CD</span><strong>{{cultivation.foundationDiscount}}</strong></div></div>
+        <p class="cult-note">Cada encontro após o terceiro reduz a CD em 1. Cada {{cultivation.rank}} ano(s) em reclusão também reduz em 1. A base recomeça ao entrar em um novo reino.</p>
+        {{#if cultivation.canEditNarrative}}<div class="cult-foundation-controls"><button type="button" class="cult-btn" data-action="cultivationRecordEncounter">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="add"}}Registrar encontro</button><button type="button" class="cult-btn" data-action="cultivationRecordReclusion">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="time"}}Registrar reclusão</button></div>{{/if}}
+        {{#if cultivation.tribulationDice}}<p class="cult-tribulation-note">Tribulação neste reino: <strong>{{cultivation.tribulationDice}}d10</strong> diretamente em Feridas se o rompimento falhar.</p>{{/if}}
+        {{#if cultivation.persistentInjuries}}<p class="cult-note">Ferimentos Persistentes sofridos em rompimentos: <strong>{{cultivation.persistentInjuries}}</strong>. O mestre acompanha o tratamento na aba Efeitos.</p>{{/if}}
+      </div>
+    </details>
+
+    <details class="cult-disclosure" data-cult-section="manual">
+      <summary><span><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM8 7h8M8 11h6M8 15h3"/></svg>{{#if divineManual.active}}{{divineManual.title}}{{else}}Manual de Cultivo{{/if}}</span><span class="cult-summary-meta cult-manual-summary"><strong>{{manual.rankLabel}}</strong><span aria-hidden="true">·</span><span>{{manual.qualityLabel}}</span></span><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></summary>
+      <div class="cult-disclosure-body cult-manual-fields">
+        {{#if cultivationDestiny.active}}<div class="cult-full-row">{{{cultivationDestiny.html}}}</div>{{/if}}
+        {{#if divineManual.active}}<div class="cult-manual-inheritance cult-full-row"><div><strong>Herança espiritual</strong><span>{{#if divineManual.absorptionRealmLabel}}Mantra considerado no reino {{divineManual.absorptionRealmLabel}}{{else}}O conhecimento se revela conforme sua jornada{{/if}}</span></div><span>{{#if divineManual.unlimited}}Assimilações ilimitadas{{else}}{{divineManual.remaining}} / 3 assimilações restantes{{/if}}</span></div>{{/if}}
+        <div class="cult-manual-classification cult-full-row">
+          <label>Rank do manual<select data-manual-rarity {{#unless cultivation.editable}}disabled{{/unless}}>{{#each manual.rankOptions as |option|}}<option value="{{option.value}}" {{#if option.selected}}selected{{/if}}>{{option.label}}</option>{{/each}}</select></label>
+          <label>Qualidade<select data-manual-class {{#unless cultivation.editable}}disabled{{/unless}}>{{#each manual.qualityOptions as |option|}}<option value="{{option.value}}" {{#if option.selected}}selected{{/if}}>{{option.label}}</option>{{/each}}</select></label>
+        </div>
+        <div class="cult-manual-absorption cult-full-row">
+          <label>Absorção do manual<span class="cult-manual-absorption-value"><input type="number" min="0" step="1" data-manual-essence value="{{manual.essencePerDay}}" placeholder="Sem limite" /><span>PEQ/dia</span></span></label>
+          <p class="cult-note">Deixe vazio para usar o limite da região. Zero suspende o ganho de Essência.</p>
+        </div>
+        {{#if divineManual.active}}<div class="cult-manual-study cult-full-row"><p class="cult-note">A leitura eleva o rank e preserva as propriedades. {{#if divineManual.unlimited}}Você pode assimilar sem limite e manter dois manuais ativos.{{else}}Assimilar um manual consome uma das três oportunidades da campanha.{{/if}}</p>{{#if cultivation.editable}}<button type="button" class="cult-btn" data-action="cultivationStudyManual">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="int"}}Estudar ou assimilar manual</button>{{/if}}</div>{{#if divineManual.assimilations.length}}<div class="cult-manual-current cult-full-row"><strong>Propriedades ativas</strong><ol class="cult-manual-history">{{#each divineManual.activeAssimilations}}<li><strong>{{name}}</strong>{{#if properties}}<p>{{properties}}</p>{{/if}}</li>{{/each}}</ol></div><details class="cult-full-row cult-manual-archive"><summary>Histórico de assimilações ({{divineManual.assimilations.length}})</summary><ol class="cult-manual-history">{{#each divineManual.assimilations}}<li><strong>{{name}}</strong>{{#if properties}}<p>{{properties}}</p>{{/if}}</li>{{/each}}</ol></details>{{/if}}{{/if}}
+        <label class="cult-manual-mantra cult-full-row">Mantra<textarea rows="3" data-manual-mantra placeholder="Escreva o mantra de cultivo">{{manual.mantra}}</textarea></label>
+      </div>
+    </details>
+
+    <details class="cult-disclosure" data-cult-section="qi-path">
+      <summary><span><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h6v-6h5V8h5M16 4l4 4-4 4"/></svg>Caminho da Ascensão</span><span class="cult-summary-meta">{{cultivation.rank}} de 10 reinos</span><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></summary>
+      <ol class="cult-journey cult-disclosure-body" aria-label="Dez reinos da ascensão">
+        {{#each cultivation.ranks as |realm|}}
+          <li class="cult-journey-step cult-journey-realm {{#if (eq realm.state 'past')}}completed{{else if (eq realm.state 'current')}}current{{else if (eq realm.name @root.cultivation.nextRankName)}}next{{else}}future{{/if}}" {{#if (eq realm.state 'current')}}aria-current="step"{{/if}}>
+            <span class="cult-level-node" aria-hidden="true"><svg class="cult-level-sigil" viewBox="0 0 64 64" fill="none" stroke="currentColor" aria-hidden="true"><path d="M16 3h32l13 13v32L48 61H16L3 48V16Z"/><path class="cult-level-inlay" d="M18 8h28l10 10v28L46 56H18L8 46V18Z"/></svg><strong>{{realm.rank}}</strong></span>
+            <details class="cult-journey-entry" data-cult-section="realm-{{realm.rank}}"><summary><span class="cult-journey-main"><strong>{{realm.name}}</strong><span class="cult-journey-caption">Reino {{realm.rank}} · 3 estágios</span></span><span class="cult-journey-status">{{#if (eq realm.state 'past')}}Concluído{{else if (eq realm.state 'current')}}Atual{{else}}Futuro{{/if}}</span>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="collapse"}}</summary><div class="cult-journey-description cult-rank-description">{{{realm.description}}}</div></details>
+            <div class="cult-journey-cost"><strong>{{dnd5e-numberFormat realm.essence}} <small>PEQ</small></strong><span>Essência base</span></div>
+          </li>
+        {{/each}}
+      </ol>
+    </details>
+  </div>
+
+  {{#each cultivationPaths as |path|}}
+    <div class="cult-subtab" data-subtab-content="{{path.tab}}" role="region" aria-label="{{path.title}}" aria-hidden="true">
+      <header class="cult-hero cult-frame">
+        <div class="cult-realm">
+          <div class="cult-level-identity">
+            <span class="cult-level-seal" role="img" aria-label="Nível {{path.level}} de 10 {{path.article}}"><svg class="cult-level-sigil" viewBox="0 0 64 64" fill="none" stroke="currentColor" aria-hidden="true"><path d="M16 3h32l13 13v32L48 61H16L3 48V16Z"/><path class="cult-level-inlay" d="M18 8h28l10 10v28L46 56H18L8 46V18Z"/></svg><strong aria-hidden="true">{{path.level}}</strong><small aria-hidden="true">/ 10</small></span>
+            <div class="cult-level-heading"><span class="cult-realm-eyebrow">{{path.title}}</span><h2 class="cult-realm-name">{{#if path.current}}{{path.current.name}}{{else}}Início do caminho{{/if}}</h2></div>
+          </div>
+          <div class="cult-path-progression"><div class="cult-level-caption"><span>Etapas de refinamento</span><strong>{{path.level}} / 10</strong></div>
+            <ol class="cult-refinement-steps" aria-label="Níveis {{path.article}}">{{#each path.nodes as |step|}}<li class="{{#if (eq step.level path.level)}}current{{else if step.isCurrent}}next{{else if (eq step.state 'completed')}}completed{{else}}future{{/if}}" data-tooltip="Nível {{step.level}}: {{step.name}}" {{#if (eq step.level path.level)}}aria-current="step"{{/if}}><span class="cult-refinement-number"><svg class="cult-level-sigil" viewBox="0 0 64 64" fill="none" stroke="currentColor" aria-hidden="true"><path d="M16 3h32l13 13v32L48 61H16L3 48V16Z"/><path class="cult-level-inlay" d="M18 8h28l10 10v28L46 56H18L8 46V18Z"/></svg><strong>{{step.level}}</strong></span></li>{{/each}}</ol>
+          </div>
+          <p class="cult-realm-next">{{#if path.next}}Próxima etapa: <strong>{{path.next.name}}</strong>{{else}}Caminho dominado.{{/if}}</p>
+        </div>
+        <div class="cult-figure-wrap" data-cult-portrait="{{path.key}}">{{> "iw-cult-qi-aura"}}<img class="cult-figure" src="{{path.image}}" alt="Cultivador {{path.article}}" /></div>
+      </header>
+
+      {{#if (eq path.key "body")}}{{#if @root.bodyTraining.level}}
+      <section class="cult-body-practice cult-frame" aria-label="Disciplina do Corpo">
+        <div class="cult-section-heading"><h3>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="str"}}Disciplina do Corpo</h3><span class="cult-summary-meta">+{{@root.bodyTraining.extraHitPoints}} PV · {{@root.bodyTraining.attributeChoices}} escolhas de atributo</span></div>
+        <div class="cult-body-facts"><span>Carga <strong>×{{@root.bodyTraining.loadMultiplier}}</strong></span>{{#if @root.bodyTraining.movement}}<span>Movimento <strong>+{{@root.bodyTraining.movement}} m</strong></span>{{/if}}{{#if @root.bodyTraining.refinement}}<span>Refinamento <strong>+{{@root.bodyTraining.refinement}}</strong></span>{{/if}}</div>
+        {{#if @root.bodyTraining.armorLabel}}<p class="cult-note"><strong>Proteção corporal:</strong> {{@root.bodyTraining.armorLabel}}. Não se soma à armadura vestida.</p>{{/if}}
+        {{#if @root.bodyTraining.cure}}<div class="cult-body-active-gates">
+          <button type="button" class="cult-btn" data-action="cultivationBodyCure" data-tooltip="{{@root.bodyTraining.cureReason}}" {{#unless @root.bodyTraining.canCure}}disabled{{/unless}}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="heart"}}<span>Cura <small>{{@root.bodyTraining.cureRemaining}} / 5 usos · 1 ação</small></span></button>
+          {{#if @root.bodyTraining.movement}}<button type="button" class="cult-btn" data-action="cultivationBodyMaravilhas" data-tooltip="{{@root.bodyTraining.maravilhasReason}}" {{#unless @root.bodyTraining.canMaravilhas}}disabled{{/unless}}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="dex"}}<span>Maravilhas <small>{{@root.bodyTraining.maravilhasRemaining}} / 3 usos no encontro</small></span></button>{{/if}}
+        </div><p class="cult-note">Feridas recuperadas: {{@root.bodyTraining.woundShortPct}}% no descanso curto · {{@root.bodyTraining.woundLongPct}}% no longo.{{#if @root.bodyTraining.regeneration}} Regeneração: {{@root.bodyTraining.regeneration}} PV no início do turno.{{/if}}</p>{{/if}}
+        {{#if @root.bodyTraining.limitChoicePending}}{{#if @root.cultivation.editable}}<button type="button" class="cult-attribute-choice" data-action="cultivationChooseAttribute" data-path="body-limit" data-level="4">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="add"}}<span>Escolher atributo adicional do Limite<small>+1 em Força ou Agilidade</small></span></button>{{/if}}{{/if}}
+        {{#if @root.bodyTraining.basePending}}<p class="cult-note cult-body-pending">Os aumentos de Vida Base e Qi Base estão registrados nos portões. O recálculo aguarda a definição da progressão.</p>{{/if}}
+      </section>
+      {{/if}}{{/if}}
+
+      {{#if (eq path.key "soul")}}{{#if (or @root.soulTraining.level @root.soulTraining.wounds.value)}}
+      <section class="cult-body-practice cult-soul-practice cult-frame" aria-label="Disciplina da Alma">
+        <div class="cult-section-heading"><h3>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="wis"}}Disciplina da Alma</h3><span class="cult-summary-meta">+{{@root.soulTraining.extraHitPoints}} PV · {{@root.soulTraining.attributeChoices}} pontos de atributo</span></div>
+        <div class="cult-body-facts">{{#if @root.soulTraining.spiritDamage}}<span>Espírito de Batalha <strong>+{{@root.soulTraining.spiritDamage}} Psíquico</strong></span>{{/if}}{{#if @root.soulTraining.penetration}}<span>Penetração de Alma <strong>{{@root.soulTraining.penetration}}</strong></span>{{/if}}{{#if @root.soulTraining.professionReduction}}<span>Absorção <strong>×{{@root.soulTraining.absorptionMultiplier}}</strong></span><span>Profissões <strong>−{{@root.soulTraining.professionReduction}} CD</strong></span>{{/if}}</div>
+        {{#if @root.soulTraining.level}}<div class="cult-body-active-gates"><button type="button" class="cult-btn" data-action="cultivationSoulAvatar" {{#unless @root.soulTraining.editable}}disabled{{/unless}}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="cultivation"}}<span>{{#if @root.soulTraining.avatarActive}}Recolher avatar{{else}}Manifestar avatar{{/if}}<small>{{#if @root.soulTraining.avatarActive}}Avatar manifestado{{else}}1 Ponto de Ação{{/if}}</small></span></button>{{#if @root.soulTraining.mentalDefense}}<button type="button" class="cult-btn" data-action="cultivationSoulDefense" {{#unless @root.soulTraining.editable}}disabled{{/unless}}>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="con"}}<span>Defender mente e alma<small>+1 Fortitude ou Vontade</small></span></button>{{/if}}</div>
+        <label class="cult-soul-channel"><span>Canalização do dano</span><select data-soul-channel {{#unless @root.soulTraining.editable}}disabled{{/unless}}><option value="" {{#if (eq @root.soulTraining.selectedChannel "")}}selected{{/if}}>Tipo original</option><option value="psychic" {{#if (eq @root.soulTraining.selectedChannel "psychic")}}selected{{/if}} {{#unless @root.soulTraining.avatarActive}}disabled{{/unless}}>Psíquico · técnica direta pelo avatar</option>{{#if (gte @root.soulTraining.level 5)}}<option value="soul" {{#if (eq @root.soulTraining.selectedChannel "soul")}}selected{{/if}}>Alma · Quarta Revolução</option>{{/if}}</select></label>{{/if}}
+        {{#if @root.soulTraining.barrier.max}}<div class="cult-soul-reserve"><div><strong>PV temporários da Alma</strong><label><input type="number" data-soul-barrier min="0" max="{{@root.soulTraining.barrier.max}}" value="{{@root.soulTraining.barrier.value}}" aria-label="PV temporários da Alma"><span>/ {{@root.soulTraining.barrier.max}}</span></label></div><div class="cult-essence-track" role="progressbar" aria-label="PV temporários da Alma" aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{@root.soulTraining.barrier.pct}}"><div class="cult-qi-fill" style="width:{{@root.soulTraining.barrier.pct}}%"></div></div><p class="cult-note">Somente dano de Alma consome esta reserva. Recuperada no descanso longo.</p></div>{{/if}}
+        <label class="cult-soul-wounds"><span>Das {{@root.soulTraining.wounds.total}} Feridas totais, quantas são de Alma?</span><input type="number" data-soul-wounds min="0" max="{{@root.soulTraining.wounds.total}}" value="{{@root.soulTraining.wounds.value}}" aria-label="Parcela das Feridas causada por Alma"></label>
+        {{#if @root.soulTraining.regeneration}}<p class="cult-note">Recupera até {{@root.soulTraining.regeneration}} Feridas de Alma no início do turno. Feridas de outras origens permanecem.</p>{{/if}}
+        {{#if @root.soulTraining.extraChoice}}{{#if @root.soulTraining.editable}}<button type="button" class="cult-attribute-choice" data-action="cultivationChooseAttribute" data-path="soul-insight" data-level="{{@root.soulTraining.extraChoice}}">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="add"}}<span>Atributo da Oitava Revolução<small>Escolha {{@root.soulTraining.extraChoice}} de 2 · limite 15</small></span></button>{{/if}}{{/if}}
+        {{#if @root.soulTraining.battleIntegrity}}<div class="cult-soul-reference"><strong>Batalha da Alma</strong><span>Integridade de referência: {{@root.soulTraining.battleIntegrity}} PV</span><span>Qi compartilhado: {{@root.cultivation.qi.value}} / {{@root.cultivation.qi.max}}</span></div>{{/if}}
+        {{#if @root.soulTraining.immortal}}<div class="cult-soul-reference"><strong>Alma Imortal · último descanso longo</strong>{{#if @root.soulTraining.lastRest}}<span>{{@root.soulTraining.lastRest.hp}} PV · {{@root.soulTraining.lastRest.qi}} Qi</span>{{else}}<span>Os valores serão registrados no próximo descanso longo.</span>{{/if}}</div>{{/if}}
+        {{#if @root.soulTraining.qiBaseBonus}}<p class="cult-note cult-body-pending">Qi Base: +{{@root.soulTraining.qiBaseBonus}}. O recálculo aguarda a definição dos bônus de Base.</p>{{/if}}
+      </section>
+      {{/if}}{{/if}}
+
+      <section class="cult-advancement cult-frame" aria-label="Avanço {{path.article}}">
+        <div class="cult-section-heading"><h3>{{#if (eq path.key "body")}}<svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 12V5a2 2 0 0 1 4 0v7m0-6a2 2 0 0 1 4 0v6m0-4a2 2 0 0 1 4 0v8l-4 5H8l-4-7V9a2 2 0 0 1 4 0"/></svg>{{else}}<svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c2 4 6 5 6 10a6 6 0 0 1-12 0c0-2 1-4 3-6 0 3 1 4 3 5 1-3 1-6 0-9Z"/></svg>{{/if}}{{#if path.next}}Próximo refinamento{{else}}Caminho concluído{{/if}}</h3><span class="cult-points"><strong>{{@root.cultivation.pt}}</strong> PC disponíveis</span></div>
+        {{#if path.next}}
+          <div class="cult-next-step"><span class="cult-level-node next" aria-hidden="true"><svg class="cult-level-sigil" viewBox="0 0 64 64" fill="none" stroke="currentColor" aria-hidden="true"><path d="M16 3h32l13 13v32L48 61H16L3 48V16Z"/><path class="cult-level-inlay" d="M18 8h28l10 10v28L46 56H18L8 46V18Z"/></svg><strong>{{path.next.level}}</strong></span><strong>{{path.next.name}}</strong></div>
+          <dl class="cult-requirements"><div><dt>Pontos de Cultivo</dt><dd>{{path.next.req.pt}} <small>PC</small></dd></div><div><dt>Tempo de treino</dt><dd>{{path.next.req.dias}} <small>dias</small></dd></div><div><dt>Pílulas de nível {{path.next.req.pillLevel}}</dt><dd>{{path.next.req.pills}} <small>pílulas</small></dd></div></dl>
+          <p class="cult-note">O mestre acompanha os dias de treino. As pílulas e os PC são consumidos no avanço.</p>
+          <div class="cult-actions"><button type="button" class="cult-btn cult-btn-advance" data-action="cultivationAdvancePath" data-path="{{path.key}}"><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20V4m-7 7 7-7 7 7"/></svg><span class="cult-btn-main">Avançar para o nível {{path.next.level}}</span><span class="cult-btn-cost">{{path.next.req.pt}} PC</span></button></div>
+          <details class="cult-inline-details cult-benefits" data-cult-section="{{path.key}}-next"><summary>Benefícios da próxima etapa <svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></summary><p>{{path.next.description}}</p></details>
+        {{else}}<p class="cult-note">Você concluiu as dez etapas {{path.article}}.</p>{{/if}}
+        {{#if path.pendingAttribute}}<button type="button" class="cult-attribute-choice" data-action="cultivationChooseAttribute" data-path="{{path.key}}" data-level="{{path.pendingAttribute}}"><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20V4m-7 7 7-7 7 7"/></svg><span>Escolher atributo {{path.article}}<small>Escolha pendente do nível {{path.pendingAttribute}}</small></span><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>{{/if}}
+      </section>
+
+      {{#if path.current}}<details class="cult-disclosure" data-cult-section="{{path.key}}-current"><summary><span><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21C3 17 2 10 3 5c5 0 8 3 9 7 1-4 4-7 9-7 1 5 0 12-9 16Z"/><path d="M12 12v9"/></svg>Benefícios do nível atual</span><span class="cult-summary-meta">Nível {{path.level}}</span><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></summary><div class="cult-disclosure-body cult-description">{{path.current.description}}</div></details>{{/if}}
+
+      <section class="cult-pill-stock" aria-label="{{path.pillName}}">
+        <div class="cult-section-heading"><h3><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 16 8-8M5 11l6-6a5 5 0 0 1 7 7l-6 6a5 5 0 0 1-7-7Z"/></svg>{{path.pillName}}</h3><span class="cult-summary-meta">Quantidade por nível</span></div>
+        <div class="cult-pills">{{#each path.pills as |pill|}}<label class="cult-pill"><span>Nível {{pill.level}}</span><input type="number" class="cult-pill-input" min="0" name="system.cultivation.{{path.key}}Pills.{{pill.level}}" value="{{pill.count}}" data-dtype="Number" /></label>{{/each}}</div>
+      </section>
+
+      <details class="cult-disclosure" data-cult-section="{{path.key}}-path">
+        <summary><span><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h6v-6h5V8h5M16 4l4 4-4 4"/></svg>{{path.ladderTitle}}</span><span class="cult-summary-meta">{{path.level}} de 10 etapas</span><svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></summary>
+        <ol class="cult-journey cult-disclosure-body" aria-label="Dez etapas {{path.article}}">
+          {{#each path.nodes as |node|}}
+            <li class="cult-journey-step cult-journey-path {{#if (eq node.level path.level)}}current{{else if node.isCurrent}}next{{else if (eq node.state 'completed')}}completed{{else}}future{{/if}}" {{#if (eq node.level path.level)}}aria-current="step"{{/if}}>
+              <span class="cult-level-node" aria-hidden="true"><svg class="cult-level-sigil" viewBox="0 0 64 64" fill="none" stroke="currentColor" aria-hidden="true"><path d="M16 3h32l13 13v32L48 61H16L3 48V16Z"/><path class="cult-level-inlay" d="M18 8h28l10 10v28L46 56H18L8 46V18Z"/></svg><strong>{{node.level}}</strong></span>
+              <details class="cult-journey-entry" data-cult-section="{{path.key}}-level-{{node.level}}">
+                <summary><span class="cult-journey-main"><strong>{{node.name}}</strong><span class="cult-journey-caption">Nível {{node.level}}</span></span><span class="cult-journey-status">{{#if (eq node.level path.level)}}Atual{{else if node.isCurrent}}Próximo{{else if (eq node.state 'completed')}}Concluído{{else}}Futuro{{/if}}</span><svg class="cult-icon cult-journey-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></summary>
+                <div class="cult-journey-description"><h4>Benefícios</h4><p>{{node.description}}</p>{{#if node.req}}<dl class="cult-journey-requirements"><div><dt>Treino</dt><dd>{{node.req.dias}} dias</dd></div><div><dt>Custo</dt><dd>{{node.req.pt}} PC</dd></div><div><dt>Pílulas</dt><dd>{{node.req.pills}} de nível {{node.req.pillLevel}}</dd></div></dl>{{/if}}</div>
+              </details>
+            </li>
+          {{/each}}
+        </ol>
+      </details>
+    </div>
+  {{/each}}
+</section>

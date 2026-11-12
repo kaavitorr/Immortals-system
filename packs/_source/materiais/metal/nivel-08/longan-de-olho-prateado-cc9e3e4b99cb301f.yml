@@ -1,0 +1,53 @@
+_id: cc9e3e4b99cb301f
+_key: '!items!cc9e3e4b99cb301f'
+name: Longan de Olho Prateado
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/cc9e3e4b99cb301f.webp
+system:
+  identifier: material-alquimia-cc9e3e4b99cb301f
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Planta</p><p>O caroço é um olho prateado que pisca quando o fruto é aberto, nos pomares do palácio de aço. A polpa permite enxergar a grandes distâncias por um dia.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 50
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 86cc70826d40dc34
+sort: 14700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 8
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Longan de Olho Prateado
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,300 @@
+{
+  "_id": "da84e39ba1d6eb85",
+  "name": "Rage Kick",
+  "type": "spell",
+  "folder": "cd332fdb37f7359d",
+  "sort": 300000,
+  "img": "systems/Immortals-system/assets/wuxia/proficiencies/unarmed.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-rage-kick",
+    "level": 2,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 3,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "",
+      "units": "inst",
+      "expiry": null,
+      "special": "",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "",
+      "units": "touch",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "",
+        "size": "",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Desarmados</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Toque</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Desarmado</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você desfere um poderoso chute contra o corpo de uma criatura com força suficiente para enviá-la voando. Um alvo atingido deve realizar uma Salvaguarda de Força. Sendo empurrado por 6 metros em caso de falha.</p><p>Se, durante o empurrão, a criatura atingir um objeto ou estrutura de 1,5 metros de raio ou maior, ela recebe 10 de dano extra.</p><h3>Observações</h3><p>Após acertar, resolva a salvaguarda de Força sem pagar outra ativação. Na falha, empurre 6 metros; a colisão com objeto ou estrutura de 1,5 metro ou maior causa 10 de dano extra. O narrador posiciona o alvo e confirma a colisão.</p>"
+    },
+    "activities": {
+      "35a286fcc79d5920": {
+        "_id": "35a286fcc79d5920",
+        "type": "attack",
+        "name": "Rage Kick",
+        "img": "systems/Immortals-system/assets/wuxia/proficiencies/unarmed.webp",
+        "activation": {
+          "type": "action",
+          "value": 3,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "4",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Desarmados</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Toque</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Desarmado</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você desfere um poderoso chute contra o corpo de uma criatura com força suficiente para enviá-la voando. Um alvo atingido deve realizar uma Salvaguarda de Força. Sendo empurrado por 6 metros em caso de falha.</p><p>Se, durante o empurrão, a criatura atingir um objeto ou estrutura de 1,5 metros de raio ou maior, ela recebe 10 de dano extra.</p><h3>Observações</h3><p>Após acertar, resolva a salvaguarda de Força sem pagar outra ativação. Na falha, empurre 6 metros; a colisão com objeto ou estrutura de 1,5 metro ou maior causa 10 de dano extra. O narrador posiciona o alvo e confirma a colisão.</p>",
+          "chatFlavor": "Rage Kick"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "touch",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "rage-kick",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "attack": {
+          "ability": "spellcasting",
+          "bonus": "",
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "spell"
+          },
+          "critical": {
+            "threshold": 20
+          }
+        },
+        "damage": {
+          "includeBase": false,
+          "critical": {
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 3,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "bludgeoning"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": []
+      },
+      "cadec0090c91b109": {
+        "_id": "cadec0090c91b109",
+        "type": "save",
+        "name": "Resistir ao empurrão após o acerto",
+        "img": "systems/Immortals-system/assets/wuxia/proficiencies/unarmed.webp",
+        "activation": {
+          "type": "action",
+          "value": 0,
+          "condition": "Somente após acertar a técnica; não é uma nova ativação.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Desarmados</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Toque</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Desarmado</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você desfere um poderoso chute contra o corpo de uma criatura com força suficiente para enviá-la voando. Um alvo atingido deve realizar uma Salvaguarda de Força. Sendo empurrado por 6 metros em caso de falha.</p><p>Se, durante o empurrão, a criatura atingir um objeto ou estrutura de 1,5 metros de raio ou maior, ela recebe 10 de dano extra.</p><h3>Observações</h3><p>Após acertar, resolva a salvaguarda de Força sem pagar outra ativação. Na falha, empurre 6 metros; a colisão com objeto ou estrutura de 1,5 metro ou maior causa 10 de dano extra. O narrador posiciona o alvo e confirma a colisão.</p>",
+          "chatFlavor": "Rage Kick"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "touch",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "rage-kick",
+              "key": "push-save",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "bonus": "",
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          },
+          "visible": true
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        },
+        "conditions": []
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "rage-kick",
+        "category": "desarmados",
+        "grade": 2,
+        "auxiliary": false,
+        "weapon": "Desarmado",
+        "qi": 4,
+        "actions": 3,
+        "reaction": false,
+        "combinedAttack": true,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Instantâneo",
+            "range": "Toque",
+            "requirements": "-",
+            "damage": "3d8 de dano Contundente",
+            "combinedAttack": true
+          }
+        },
+        "manualResolution": [
+          "Após acertar, resolva a salvaguarda de Força sem pagar outra ativação. Na falha, empurre 6 metros; a colisão com objeto ou estrutura de 1,5 metro ou maior causa 10 de dano extra. O narrador posiciona o alvo e confirma a colisão."
+        ],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!da84e39ba1d6eb85"
+}

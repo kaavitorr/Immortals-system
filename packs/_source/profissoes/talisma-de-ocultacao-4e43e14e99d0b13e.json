@@ -1,0 +1,180 @@
+{
+  "_id": "4e43e14e99d0b13e",
+  "name": "Talismã de Ocultação",
+  "type": "consumable",
+  "folder": "1a1dfff59dd402d3",
+  "img": "systems/Immortals-system/assets/wuxia/talismas-pintados-v1/talisma-de-ocultacao.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-talisma-de-ocultacao",
+    "type": {
+      "value": "scroll"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>TALISMÃ DE OCULTAÇÃO</h3>\n<table><tbody><tr><td>Tipo: Utilitário</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 19</td></tr></tbody></table>\n<p>Um talismã que quando rasgado faz com que o usuário receba a condição “Invisível” desde que não se mova mais de 3 metros por rodada. Você não pode ser detectado mesmo por “Sentido Divino”, desde que a criatura seja de um Rank igual ou menor que o nível equivalente do símbolo.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>300% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Declarar ativação, alvos, área e duração conforme a descrição; resolver os efeitos táticos com o mestre. Aplique Invisível e confira o movimento a cada rodada e o rank de quem usa Sentido Divino.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 500 PO. <strong>Venda por unidade:</strong> 1.500 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"talisma-de-ocultacao:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/b05766a030fd0655.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"b05766a030fd0655\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.b05766a030fd0655\">Junco das Fibras Renascidas</a><small>fibra do suporte</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/b093d477c7e255df.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"b093d477c7e255df\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.b093d477c7e255df\">Pena de Corvo Noturno</a><small>ocultação da presença</small></div><span class=\"iw-recipe-price\" title=\"200 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/89b95fa5a1e49a5a.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"89b95fa5a1e49a5a\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.89b95fa5a1e49a5a\">Samambaia das Imagens Enroladas</a><small>proteção espiritual</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/aada69663d799e39.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"aada69663d799e39\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.aada69663d799e39\">Orvalho da Veia Clara</a><small>Reagente · veículo de extração e mistura</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>500 PO</strong></footer></section>"
+    },
+    "activities": {
+      "ffc1b69f677f9d2d": {
+        "_id": "ffc1b69f677f9d2d",
+        "type": "utility",
+        "name": "Rasgar e ocultar",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>TALISMÃ DE OCULTAÇÃO</h3>\n<table><tbody><tr><td>Tipo: Utilitário</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 19</td></tr></tbody></table>\n<p>Um talismã que quando rasgado faz com que o usuário receba a condição “Invisível” desde que não se mova mais de 3 metros por rodada. Você não pode ser detectado mesmo por “Sentido Divino”, desde que a criatura seja de um Rank igual ou menor que o nível equivalente do símbolo.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>300% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Declarar ativação, alvos, área e duração conforme a descrição; resolver os efeitos táticos com o mestre. Aplique Invisível e confira o movimento a cada rodada e o rank de quem usa Sentido Divino.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 500 PO. <strong>Venda por unidade:</strong> 1.500 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"talisma-de-ocultacao:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/b05766a030fd0655.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"b05766a030fd0655\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.b05766a030fd0655\">Junco das Fibras Renascidas</a><small>fibra do suporte</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/b093d477c7e255df.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"b093d477c7e255df\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.b093d477c7e255df\">Pena de Corvo Noturno</a><small>ocultação da presença</small></div><span class=\"iw-recipe-price\" title=\"200 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/89b95fa5a1e49a5a.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"89b95fa5a1e49a5a\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.89b95fa5a1e49a5a\">Samambaia das Imagens Enroladas</a><small>proteção espiritual</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/aada69663d799e39.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"aada69663d799e39\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.aada69663d799e39\">Orvalho da Veia Clara</a><small>Reagente · veículo de extração e mistura</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>500 PO</strong></footer></section>",
+          "chatFlavor": "Talismã de Ocultação — Rasgar e ocultar"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "talisma-de-ocultacao",
+              "key": "conceal",
+              "level": 1,
+              "quality": null,
+              "manualResolution": true,
+              "consumeItem": true,
+              "rule": "concealmentTalisman",
+              "condition": "invisible",
+              "maximumMovementMetersPerRound": 3,
+              "divineSenseMaximumRank": 1
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Rasgar e ocultar",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talismas-pintados-v1/talisma-de-ocultacao.webp"
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "price": {
+      "value": 1500,
+      "denomination": "gp"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "talisma-de-ocultacao",
+        "kind": "talisman",
+        "profession": "inscriptions",
+        "level": 1,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 1,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 3000,
+          "materials": 500,
+          "currency": "gp",
+          "rank": null
+        },
+        "creationPercent": 700,
+        "salePercent": 300,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 500,
+          "currency": "gp",
+          "rank": null
+        },
+        "sale": {
+          "amount": 1500,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceCreation": {
+          "amount": 3500,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceSale": {
+          "amount": 10500,
+          "currency": "gp",
+          "rank": null
+        }
+      },
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Declarar ativação, alvos, área e duração conforme a descrição; resolver os efeitos táticos com o mestre.",
+          "Aplique Invisível e confira o movimento a cada rodada e o rank de quem usa Sentido Divino."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!4e43e14e99d0b13e"
+}

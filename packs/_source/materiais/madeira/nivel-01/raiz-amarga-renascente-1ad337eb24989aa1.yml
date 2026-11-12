@@ -1,0 +1,53 @@
+_id: 1ad337eb24989aa1
+_key: '!items!1ad337eb24989aa1'
+name: Raiz Amarga Renascente
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/1ad337eb24989aa1.webp
+system:
+  identifier: material-alquimia-1ad337eb24989aa1
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Planta</p><p>Esta raiz cresce sobre veias de Qi da Madeira e recompõe a ponta cortada com fibras claras antes do próximo orvalho. Sua essência amarga ajuda a separar resíduos de matrizes nutritivas e integra preparados de renovação em que a absorção dos ingredientes precisa ser harmonizada.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 50
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 94a0d53897fd5754
+sort: 500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 1
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Raiz Amarga Renascente
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

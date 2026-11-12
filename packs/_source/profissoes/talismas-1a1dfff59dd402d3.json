@@ -1,0 +1,15 @@
+{
+  "_id": "1a1dfff59dd402d3",
+  "name": "Talismãs",
+  "type": "Item",
+  "folder": "881fadce1bce968c",
+  "sorting": "a",
+  "color": "#ac8769",
+  "flags": {
+    "Immortals-system": {
+      "professionProductsFolder": "talisman",
+      "professionProductsContentVersion": 2
+    }
+  },
+  "_key": "!folders!1a1dfff59dd402d3"
+}

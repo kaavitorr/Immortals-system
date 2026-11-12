@@ -1,0 +1,53 @@
+_id: cfaba2c4c36d62d9
+_key: '!items!cfaba2c4c36d62d9'
+name: Camélia das Flores Refletidas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/cfaba2c4c36d62d9.webp
+system:
+  identifier: material-alquimia-cfaba2c4c36d62d9
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Planta</p><p>Dá botões apenas na superfície quieta dos tanques, e a flor real só existe no reflexo. Colhidos da água, nunca do ramo, os botões entram na confecção de espelhos que lembram rostos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: fe2618f2c84e8257
+sort: 10600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 6
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Camélia das Flores Refletidas
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

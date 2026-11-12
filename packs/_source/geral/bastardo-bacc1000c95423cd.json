@@ -1,0 +1,90 @@
+{
+  "_id": "bacc1000c95423cd",
+  "name": "Bastardo",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/bastardo.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-bastardo",
+    "description": {
+      "value": "<p>Você é o bastardo de uma família de cultivadores extremamente influente, mas sua existência e de sua mãe é como uma mancha para essa família, que a matou, e agora sempre está a sua procura. O patriarca da família será sempre de Rank de Cultivo - Lorde Divino.</p><h3>Equipamentos iniciais</h3><p>Um kit de disfarce e três conjuntos de roupas simples. <strong>120 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc2000c95423cd]{Herança Roubada}</h3><p>Sua mãe conseguiu levá-lo para longe logo após seu nascimento, deixando uma carta explicando sua origem, junto de um Manual de Cultivo de Rank Céu roubado de sua família.</p><p>Caso escolha integrar esse Manual de Rank Céu ao seu Manual Divino, você corre o risco de revelar sua localização sempre que utilizar suas habilidades.</p><p>Uma vez por dia, ao utilizar qualquer habilidade desse manual, exceto seu mantra de absorção de Qi, você deixa rastros de sua presença e deve rolar 1d12. Em um resultado de 8 ou menos, sua família encontra vestígios de sua existência naquele local e começa a caçá-lo.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc5000c95423cd",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 120,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc3000c95423cd": {
+        "_id": "bacc3000c95423cd",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc2000c95423cd",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc7000c95423cd": {
+        "_id": "bacc7000c95423cd",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.disguiseToolkit0",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.commonClothing00",
+              "quantity": 3,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc600065b35e0d",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc60008aaba75a",
+              "quantity": 1,
+              "optional": false
+            }
+          ],
+          "currency": {
+            "gp": 120
+          },
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "bastardo",
+        "startingGold": 120,
+        "equipment": "Um kit de disfarce e três conjuntos de roupas simples."
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc1000c95423cd"
+}

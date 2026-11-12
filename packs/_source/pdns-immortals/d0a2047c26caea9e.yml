@@ -1,0 +1,43 @@
+name: Beleza Sobrenatural
+type: feat
+folder: 4dfde1eecff468d4
+system:
+  description:
+    value: >-
+      <p><strong>Tipo:</strong> Passiva</p><p>A aparência e os gestos da criatura atraem a atenção de quem a observa.
+      Essa criatura recebe 1 Ponto de Presença e recebe 1 Ponto de Proficiência em uma perícia de Persuasão.</p>
+    chat: ''
+  identifier: beleza-sobrenatural
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: d0a2047c26caea9e
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/hipnose-passiva-0b500be94f084af3.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:belezasobrenatural
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Raposas Celestiais
+_key: '!items!d0a2047c26caea9e'

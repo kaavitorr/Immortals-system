@@ -1,0 +1,80 @@
+{
+  "_id": "bacc100041d4b894",
+  "name": "Acompanhante",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/acompanhante.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-acompanhante",
+    "description": {
+      "value": "<p>Um acompanhante é aquele que tem como trabalho entreter as pessoas e fazer companhia a figuras poderosas e influentes. Eles necessitam de uma aparência impecável e uma capacidade de interação anormal, assim como saber coletar informações sobre quem irão interagir, sempre prontos para lidar com pessoas da mais alta sociedade e mostrando o melhor dos modos.</p><h3>Equipamentos iniciais</h3><p>Kit de Falsificação de até 50 PO e uma roupa de gala. <strong>80 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc200041d4b894]{Amigos Influentes}</h3><p>Seu trabalho como acompanhante fez com que você conhecesse muitas pessoas importantes ao longo dos anos, permitindo que você possa entrar em contato com elas para se livrar de alguns problemas importunos, quando você estiver lidando com autoridades ou uma organização no mundo, você pode entrar em contato com uma dessas figuras. Você realiza um Teste de Sorte CD 15. Em caso de sucesso, você consegue a ajuda, e ganha um passe livre para usar contra aquela organização ou autoridades locais desde que você não se torne hostil.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc500041d4b894",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 80,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc300041d4b894": {
+        "_id": "bacc300041d4b894",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc200041d4b894",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc700041d4b894": {
+        "_id": "bacc700041d4b894",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000aae6da16",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.dressClothing000",
+              "quantity": 1,
+              "optional": false
+            }
+          ],
+          "currency": {
+            "gp": 80
+          },
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "acompanhante",
+        "startingGold": 80,
+        "equipment": "Kit de Falsificação de até 50 PO e uma roupa de gala."
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc100041d4b894"
+}

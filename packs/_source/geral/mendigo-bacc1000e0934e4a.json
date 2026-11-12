@@ -1,0 +1,85 @@
+{
+  "_id": "bacc1000e0934e4a",
+  "name": "Mendigo",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/mendigo.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-mendigo",
+    "description": {
+      "value": "<p>Você é um morador de rua que passou a vida sobrevivendo como pode, tendo nascido de uma família na miséria e passando os próximos anos nas ruas. Embora você não tenha nenhuma habilidade digna de nota ou características poderosas, você sabe reconhecer o nível das pessoas com um único olhar, sabendo com quem você pode ou não mexer.</p><h3>Equipamentos iniciais</h3><p>Roupas surradas, chapéu de palha e uma arma enferrujada que causa 1d4 de dano. <strong>15 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc2000e0934e4a]{Clã dos Mendigos}</h3><p>Em algum momento da sua vida miserável, você entrou no clã dos mendigos, sendo parte dessa organização gigantesca de ajuda mútua e troca de informações. Uma vez por semana, você pode escolher entrar em contato com um mendigo e realizar um Teste de Sorte com CD definida pelo Narrador. Em caso de sucesso, você recebe o último lugar que uma criatura ou objeto foi avistado ou onde um boato se iniciou.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc5000e0934e4a",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 15,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc3000e0934e4a": {
+        "_id": "bacc3000e0934e4a",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc2000e0934e4a",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc7000e0934e4a": {
+        "_id": "bacc7000e0934e4a",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000c0b95039",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000188cf136",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc60008e09fb1a",
+              "quantity": 1,
+              "optional": false
+            }
+          ],
+          "currency": {
+            "gp": 15
+          },
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "mendigo",
+        "startingGold": 15,
+        "equipment": "Roupas surradas, chapéu de palha e uma arma enferrujada que causa 1d4 de dano."
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc1000e0934e4a"
+}

@@ -1,0 +1,12 @@
+_id: 1854b698d40f63ca
+_key: '!folders!1854b698d40f63ca'
+name: Vento
+type: Item
+folder: null
+sorting: m
+sort: 500000
+color: '#51766d'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: vento

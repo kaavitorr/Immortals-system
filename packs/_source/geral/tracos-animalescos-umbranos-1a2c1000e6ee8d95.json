@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000e6ee8d95",
+  "name": "Traços Animalescos — Umbranos",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/magical/spirit-fear-energy-pink.webp",
+  "system": {
+    "identifier": "especie-64a8c455",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Umbranos. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c10002500a9b8": {
+        "_id": "1a2c10002500a9b8",
+        "type": "ItemChoice",
+        "title": "Duas características — Umbranos",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.5d782244bee611f2"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.LCi3OtRhtVyLQ8iX"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Umbranos",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000e6ee8d95"
+}

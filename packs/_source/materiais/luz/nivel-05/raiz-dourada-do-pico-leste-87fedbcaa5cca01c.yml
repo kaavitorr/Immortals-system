@@ -1,0 +1,53 @@
+_id: 87fedbcaa5cca01c
+_key: '!items!87fedbcaa5cca01c'
+name: Raiz Dourada do Pico Leste
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/87fedbcaa5cca01c.webp
+system:
+  identifier: material-alquimia-87fedbcaa5cca01c
+  description:
+    value: <p><strong>Elemento:</strong> Luz · <strong>Nível:</strong> 5 · <strong>Categoria:</strong> Planta</p><p>A raiz desce pelas fissuras de picos onde o Qi luminoso emerge antes de alcançar as encostas, formando nódulos de brilho dourado. Sua seiva conserva uma essência penetrante e contínua, empregada para integrar ingredientes densos e conduzir luz em preparados de cultivo.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-earth
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: cec2cb07aa6d16a8
+sort: 8500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: luz
+      elementLabel: Luz
+      level: 5
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/luz.json
+        originalName: Raiz Dourada do Pico Leste
+        sha256: a65d9c475ce3e69bcab79896f06bd1f00a0fcc1e5a6329d0e4735711f2236288
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 5
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

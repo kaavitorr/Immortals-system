@@ -1,0 +1,161 @@
+_id: javelin000000000
+_key: '!items!javelin000000000'
+name: Dardo
+type: weapon
+img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/dardo.webp
+system:
+  identifier: javelin
+  description:
+    value: >-
+      <p>Com uma ponta metálica afiada no topo de uma haste longa, o dardo é leve o bastante para ser arremessado mas
+      resistente o suficiente para permanecer útil em curta distância. Balanceado para o voo, pode ser lançado até
+      <strong>18 metros</strong> quando usado em ataques de arremesso.</p><p><strong>Propriedades:</strong>
+      Arremesso.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 2
+    units: kg
+  price:
+    value: 160
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - thr
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    5b4b3f833b46ddd3:
+      _id: 5b4b3f833b46ddd3
+      type: attack
+      name: Ataque
+      img: systems/Immortals-system/assets/wuxia/armas-pintadas-v1/dardo.webp
+      sort: 0
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      attack:
+        ability: ''
+        bonus: ''
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+        critical:
+          threshold: null
+      damage:
+        includeBase: true
+        parts: []
+        critical:
+          bonus: ''
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: m
+        value: 1
+        override: true
+        special: ''
+      target:
+        override: false
+        prompt: true
+        template:
+          type: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+  type:
+    value: simpleM
+    baseItem: ''
+  ammunition:
+    type: ''
+  range:
+    units: m
+    value: 30
+    long: null
+    reach: 1
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - piercing
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
+        - piercing
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+effects: []
+folder: 3BDkyJ5nPk8nVa81
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: javelin000000000
+      sourceType: weapon
+      category: simple1
+      quality: dormente
+      enchantment: mundane
+      properties:
+        - thrown
+      weaponDamagePending: true
+      manualEffects: []

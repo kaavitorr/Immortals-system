@@ -1,0 +1,173 @@
+name: Usurpador
+type: archetype
+folder: dcb7bdd3e7181c6f
+system:
+  description:
+    value: >-
+      <p>Usurpa o corpo de um hospedeiro e luta por meio dele. Usa esse vínculo para se proteger, transferir danos e
+      procurar outro corpo quando sua posição é ameaçada.</p><p><strong>Resistência por ND:</strong> Veneno
+      +2</p><p><strong>Vulnerabilidade:</strong> Fogo −8 · Mov +1 | 5/ND</p><p><strong>Deslocamento:</strong> +1 até um
+      máximo de 25</p><p><strong>Armaduras:</strong> Nenhuma.</p><p><strong>Perícias:</strong> Proficiências: Medicina,
+      Furtividade, Sobrenatural e Percepção.</p><p><strong>Salvaguardas:</strong> Proficiências: Vontade e
+      Fortitude.</p><p><strong>Aspectos:</strong> Algoz Invisível, Silenciosa, Camuflagem, Corpo Inerte, Mente
+      Inexistente, Fanático, Implacável, Agarrador, Absorção Rápida, Temperamento
+      Frio.</p><p><strong>Habilidades:</strong> Transferir Praga, Mordida Transformadora, Drenagem de Sangue, Divisão,
+      Invocar Crias, Semear Filhotes, Fuga Escorregadia, Enrolar, Ilusão Menor, Regenerar
+      Membro.</p><p><strong>Reações:</strong> Salto de Corpo, Contenção Reativa, Reflexo.</p>
+    chat: ''
+  identifier: usurpador
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 1
+    dex: 3
+    con: 4
+    int: 2
+    wis: 2
+    cha: 0
+  resistencias:
+    bludgeoning:
+      value: 0
+      immune: false
+    piercing:
+      value: 0
+      immune: false
+    slashing:
+      value: 0
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 2
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: -8
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 0
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.rel
+      - skills.ste
+      - skills.ani
+      - skills.prc
+      - saves.con
+      - saves.cha
+      - saves.str
+      - saves.wis
+    alternative:
+      - skills.rel
+      - skills.ste
+      - skills.ani
+      - skills.prc
+      - alternativeSaves.vontade
+      - alternativeSaves.fortitude
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9ab24ff5f376e4d3
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d7e889a4ea13732e
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.69fce788d9d15b15
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4afa4131cc85e2bd
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5bcca07b63f166e2
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.98f7ed9c8403484e
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.58a51099f9439d17
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7845b27e637b3835
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5d85d51e1781dcb6
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bfd51c9ea7cf377
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.abc95c7b0ef196ce
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53a3e58d6c265d67
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.afd35e07d69570d7
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.fa62f7a0c1925c9f
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.060086db82d1cba2
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.783ac8aaca30fb71
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9cb70c1a39119c13
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.32cfff658c023831
+      nd: 12
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e88fb722022f2b00
+      nd: 12
+  equipamentos:
+    armadura: null
+    armas: []
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: PbChzA5Fzd8ZwfCG
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/usurpador.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:usurpador
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: PbChzA5Fzd8ZwfCG
+_key: '!items!PbChzA5Fzd8ZwfCG'

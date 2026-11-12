@@ -1,0 +1,46 @@
+_id: e297c2832c3f65ec
+name: Pó de Calcita Serena
+type: loot
+img: systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-02/e297c2832c3f65ec.webp
+folder: 3f5f452e48cf83a1
+sort: 100000
+system:
+  identifier: reagente-e297c2832c3f65ec
+  type:
+    value: material
+    subtype: ''
+  description:
+    value: <p><strong>Nível:</strong> 2 · <strong>Categoria:</strong> Reagente · <strong>Função:</strong> Catalisador</p><p>A calcita nasce em depósitos banhados por uma fonte espiritual de circulação lenta, formando camadas brancas e azuladas. Purificada sob fluxo contínuo de Qi, seu pó recolhe impurezas sem prender a energia útil da mistura. É um catalisador de preparos alquímicos, tintas minerais e ligas trabalhadas por cultivadores.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  source:
+    custom: Immortals Legacy — Reagentes de Preparo
+effects: []
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    reagentMaterial:
+      level: 2
+      role: catalisador
+      category: reagente
+    materialEconomy:
+      version: 2
+      level: 2
+      category: reagente
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!e297c2832c3f65ec'

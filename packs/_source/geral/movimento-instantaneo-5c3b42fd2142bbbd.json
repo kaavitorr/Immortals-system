@@ -1,0 +1,139 @@
+{
+  "_id": "5c3b42fd2142bbbd",
+  "name": "Movimento Instantâneo",
+  "type": "feat",
+  "folder": "d2652f7aa9b40d98",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/movimento-instantaneo.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-movimento-instantaneo",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Corpo de Guerreiro.</p><h2>Movimento Instantâneo</h2><p><strong>Requisito:</strong> Ataque Cruel ou Aceleração Súbita</p><p>Você pode utilizar seu Deslocamento para alcançar instantaneamente qualquer ponto que esteja dentro da distância que poderia percorrer normalmente, ignorando quaisquer Reações que seriam desencadeadas por esse movimento.</p><p>Caso se mova 5 metros ou mais dessa forma antes de realizar um ataque, essa rolagem de ataque recebe 2 vantagens.</p><p><strong>Resolução:</strong> Escolha o destino dentro do deslocamento disponível e mova o token. Não há teletransporte ou ataque automático.</p>"
+    },
+    "activities": {
+      "c011f2dd41f836dd": {
+        "_id": "c011f2dd41f836dd",
+        "type": "utility",
+        "name": "Movimento Instantâneo",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Corpo de Guerreiro.</p><h2>Movimento Instantâneo</h2><p><strong>Requisito:</strong> Ataque Cruel ou Aceleração Súbita</p><p>Você pode utilizar seu Deslocamento para alcançar instantaneamente qualquer ponto que esteja dentro da distância que poderia percorrer normalmente, ignorando quaisquer Reações que seriam desencadeadas por esse movimento.</p><p>Caso se mova 5 metros ou mais dessa forma antes de realizar um ataque, essa rolagem de ataque recebe 2 vantagens.</p><p><strong>Resolução:</strong> Escolha o destino dentro do deslocamento disponível e mova o token. Não há teletransporte ou ataque automático.</p>",
+          "chatFlavor": "Movimento Instantâneo — Movimento Instantâneo"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "@attributes.movement.speeds.walk",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "movimento-instantaneo",
+              "key": "move",
+              "manualResolution": true,
+              "rule": "instantMovement",
+              "consumesMovement": true,
+              "noReactions": true,
+              "advantagesAfterMeters": 5,
+              "advantages": 2
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Movimento Instantâneo",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/movimento-instantaneo.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "movimento-instantaneo",
+        "categoria": "Adaptação Física",
+        "caminho": "Corpo de Guerreiro",
+        "caminhos": [
+          "Corpo de Guerreiro",
+          "Combate Veloz"
+        ],
+        "requisitos": [
+          "Ataque Cruel ou Aceleração Súbita"
+        ],
+        "requirementRules": {
+          "type": "or",
+          "rules": [
+            {
+              "type": "node",
+              "id": "ataque-cruel"
+            },
+            {
+              "type": "node",
+              "id": "aceleracao-subita"
+            }
+          ]
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "Escolha o destino dentro do deslocamento disponível e mova o token. Não há teletransporte ou ataque automático."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!5c3b42fd2142bbbd"
+}

@@ -1,0 +1,179 @@
+{
+  "collection": "Antecedentes pintados v2",
+  "generator": "Built-in image_gen",
+  "format": "WebP",
+  "transparent": true,
+  "size": 256,
+  "icons": [
+    {
+      "key": "acompanhante",
+      "name": "Acompanhante",
+      "file": "acompanhante.webp",
+      "original": "originais/acompanhante.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: An elegant closed ivory silk folding fan, slightly opened into a compact wedge, with a dark lacquer handle, a small bronze clasp and one soft gray silk tassel. It represents refined social companionship and courtly etiquette. No weapon."
+    },
+    {
+      "key": "aprendiz-marcial",
+      "name": "Aprendiz Marcial",
+      "file": "aprendiz-marcial.webp",
+      "original": "originais/aprendiz-marcial.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: A single wooden Chinese practice jian sword with a broad clearly readable silhouette, its plain hilt wrapped in off-white training linen, resting diagonally across one folded charcoal training sash. Humble martial training equipment rather than an ornate legendary weapon."
+    },
+    {
+      "key": "ator",
+      "name": "Ator",
+      "file": "ator.webp",
+      "original": "originais/ator.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: A single traditional Chinese opera face mask, ivory with strong charcoal eyebrow and eye shapes and restrained dark vermilion cheek marks. Very simple bold painted facial design, slightly angled, expression dignified and theatrical."
+    },
+    {
+      "key": "bastardo",
+      "name": "Bastardo",
+      "file": "bastardo.webp",
+      "original": "originais/bastardo.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: A broken ancestral jade pendant in two uneven pieces, joined by a frayed charcoal silk cord and a small worn bronze family clasp. The pendant has only a shallow simple cloud motif and symbolizes an outcast heir and a fractured lineage."
+    },
+    {
+      "key": "cacador-de-recompensas",
+      "name": "Caçador de Recompensas",
+      "file": "cacador-de-recompensas.webp",
+      "original": "originais/cacador-de-recompensas.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: One compact rolled parchment bounty notice opened just enough to show a bold simple dark ink human bust silhouette, with a single old iron manacle lying across its lower edge. No letters, numerals or writing."
+    },
+    {
+      "key": "comerciante",
+      "name": "Comerciante",
+      "file": "comerciante.webp",
+      "original": "originais/comerciante.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: A small dark cloth money pouch with a visible ivory cord, three large worn Chinese bronze coins with square central holes spilling from it. Clear round coin silhouettes, restrained warm bronze, no writing."
+    },
+    {
+      "key": "cozinheiro",
+      "name": "Cozinheiro",
+      "file": "cozinheiro.webp",
+      "original": "originais/cozinheiro.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: A small round black iron wok with a short wooden handle and a single wooden cooking ladle across the rim, containing a few broad simplified pale food shapes. A restrained curl of steam only."
+    },
+    {
+      "key": "cultivador-demoniaco",
+      "name": "Cultivador Demoníaco",
+      "file": "cultivador-demoniaco.webp",
+      "original": "originais/cultivador-demoniaco.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: A small closed charcoal cultivation manual bound with dark burgundy cord, with one cracked black jade core on its cover. A very dim ember-red fissure in the core, subtle and matte, suggesting a forbidden cultivation path without extravagant magical effects. No skull, text or glyphs."
+    },
+    {
+      "key": "estudioso",
+      "name": "Estudioso",
+      "file": "estudioso.webp",
+      "original": "originais/estudioso.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: A compact fan of three ancient bamboo manuscript slips tied with gray linen and a single Chinese calligraphy brush laid diagonally across them. Broad pale bamboo surfaces, dark brush handle, only a few abstract ink dashes, no readable text."
+    },
+    {
+      "key": "iniciado-em-medicina",
+      "name": "Iniciado em Medicina",
+      "file": "iniciado-em-medicina.webp",
+      "original": "originais/iniciado-em-medicina.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: A small open wooden apothecary case containing a neatly rolled ivory cloth bandage and one small packet of medicinal herbs. Simple sturdy box shape, only two clearly readable medical supplies, no modern cross symbol, no profession emblem."
+    },
+    {
+      "key": "jovem-mestre",
+      "name": "Jovem Mestre",
+      "file": "jovem-mestre.webp",
+      "original": "originais/jovem-mestre.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: A dignified ancient Chinese bronze-and-jade guan hair crown with a single pale jade hairpin passing through it, placed over a small folded piece of muted dark brocade silk. Wealth and lineage shown through shape and restrained metal accents, not jewels or bright gold."
+    },
+    {
+      "key": "ladrao-de-rua",
+      "name": "Ladrão de Rua",
+      "file": "ladrao-de-rua.webp",
+      "original": "originais/ladrao-de-rua.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: A small half-open worn leather coin purse with one thin hooked iron lockpick tucked under its cord. Compact stealthy silhouette, scuffed charcoal brown leather and ivory string, a tiny bronze coin just visible inside. No hand, no person."
+    },
+    {
+      "key": "matador-de-aluguel",
+      "name": "Matador de Aluguel",
+      "file": "matador-de-aluguel.webp",
+      "original": "originais/matador-de-aluguel.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: One slender ancient Chinese assassin dagger partly drawn from a plain dark scabbard, a sharply readable pale steel blade and charcoal cloth-wrapped hilt, one small muted gray tassel. A quiet threatening diagonal silhouette, no blood, no ornate effects."
+    },
+    {
+      "key": "membro-de-seita",
+      "name": "Membro de Seita",
+      "file": "membro-de-seita.webp",
+      "original": "originais/membro-de-seita.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: A single hexagonal dark wooden sect membership token hanging from a folded blue-gray cloth sash. A simple shallow ivory cloud crest cut into the token, bronze rim, no letters, no kanji. Compact badge as the clear main silhouette."
+    },
+    {
+      "key": "mendigo",
+      "name": "Mendigo",
+      "file": "mendigo.webp",
+      "original": "originais/mendigo.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: A chipped shallow earthenware begging bowl with one small worn bronze coin inside, a short section of rough bamboo walking staff leaning behind it. Patched cloth tied around the bowl base, humble and weathered. No person."
+    },
+    {
+      "key": "monge",
+      "name": "Monge",
+      "file": "monge.webp",
+      "original": "originais/monge.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: A compact loop of large worn dark wooden prayer beads draped around one small old bronze temple bell. Few large bead shapes, a quiet contemplative silhouette, ivory highlights, no writing or religious figure."
+    },
+    {
+      "key": "musico",
+      "name": "Músico",
+      "file": "musico.webp",
+      "original": "originais/musico.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: A single short bamboo xiao flute with only a few large dark finger holes, laid diagonally and tied with a restrained ivory silk tassel. Dark warm bamboo, worn pale mouthpiece, clearly readable musical instrument rather than a weapon."
+    },
+    {
+      "key": "orfao",
+      "name": "Órfão",
+      "file": "orfao.webp",
+      "original": "originais/orfao.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: A small pair of worn traditional Chinese cloth shoes with simple off-white patches, with a tiny carved wooden bird toy nestled between them. Gentle humble object still life, three broad shapes, no child or face."
+    },
+    {
+      "key": "pescador",
+      "name": "Pescador",
+      "file": "pescador.webp",
+      "original": "originais/pescador.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: A compact traditional woven bamboo fishing creel with its lid ajar and one small silver-gray fish tail visible, a simple curved fishing hook tied to a short gray cord beside it. Strong basket silhouette and minimal broad weave marks, no water scene."
+    },
+    {
+      "key": "servo-do-jovem-mestre",
+      "name": "Servo do Jovem Mestre",
+      "file": "servo-do-jovem-mestre.webp",
+      "original": "originais/servo-do-jovem-mestre.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: A small dark lacquer serving tray holding one ivory porcelain gaiwan tea cup with lid tilted slightly, a single plain folded gray cloth under the cup. Elegant but modest tea service with bold simple silhouettes, no floral pattern or writing."
+    },
+    {
+      "key": "servo-da-familia-principal",
+      "name": "Servo da Família Principal",
+      "file": "servo-da-familia-principal.webp",
+      "original": "originais/servo-da-familia-principal.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: An old bronze household key ring with two large ancient keys and a small plain square bronze house-seal tag, resting on a neatly folded charcoal servant sash. Clearly distinct key silhouettes, understated service and trust, no writing."
+    },
+    {
+      "key": "soldado",
+      "name": "Soldado",
+      "file": "soldado.webp",
+      "original": "originais/soldado.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: A single old Chinese infantry helmet of dull dark steel with a short ivory cloth neck guard, and one broad spearhead angled behind it. Plain practical military equipment, a few broad metal planes, no plume, no modern insignia."
+    },
+    {
+      "key": "vagabundo",
+      "name": "Vagabundo",
+      "file": "vagabundo.webp",
+      "original": "originais/vagabundo.webp",
+      "prompt": "Use case: stylized-concept. Asset type: one square RPG inventory/background icon for Immortals Legacy, an ancient Chinese wuxia cultivation game. Create exactly ONE isolated icon, not a contact sheet. Style: simple hand-painted gouache fantasy game icon, broad opaque painterly brush strokes, low detail, strong clear silhouette readable at 40 to 64 pixels. Similar art direction to muted hand-painted antique Chinese RPG objects: charcoal dark wood, warm ivory, weathered bronze, desaturated slate and natural materials. Matte paint, restrained values, no photorealism, no vector outlines, no glossy 3D, no tiny engraving or excessive texture. Center the object grouping, entirely visible with a generous transparent margin (roughly 15 percent), compact balanced silhouette and soft directional highlights. True transparent background, no colored disc, square tile, scene, floor or cast background shadow. No text, letters, numbers, labels, border, watermark or logos. No neon, large auras or extra props. Primary subject: A battered conical Chinese straw travel hat with one broad patched section, resting against a short cloth travel bundle tied with plain cord. Simple loose-living wanderer belongings, weathered muted tan and charcoal, no person or landscape."
+    }
+  ],
+  "imageProcessing": {
+    "date": "2026-11-01",
+    "operation": "resize",
+    "maximumWidth": 256,
+    "maximumHeight": 256,
+    "fit": "inside",
+    "withoutEnlargement": true,
+    "originalPromptsPreserved": true
+  }
+}

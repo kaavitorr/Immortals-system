@@ -1,0 +1,43 @@
+name: Absorção Rápida
+type: feat
+folder: 4858be5c4feed237
+system:
+  description:
+    value: >-
+      <p>Essa criatura pode absorver os nutrientes ou Qi do hospedeiro para recuperar os próprios Pontos de Vida em
+      proporção de 1:1.</p>
+    chat: ''
+  identifier: absorcao-rapida
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: FcjCzLhHSeozdaqf
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/absorcao-rapida-FcjCzLhHSeozdaqf.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:absorcaorapida:f5a2ae358388
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: FcjCzLhHSeozdaqf
+_key: '!items!FcjCzLhHSeozdaqf'

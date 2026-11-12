@@ -1,0 +1,180 @@
+name: Drenador (vampírico)
+type: archetype
+folder: 26a0e683ac977c63
+system:
+  description:
+    value: >-
+      <p>Drena a vitalidade das vítimas para sustentar o próprio corpo. Combina mordidas e contato próximo com hipnose,
+      disfarces e transformações para controlar a presa.</p><p><strong>Resistência por ND:</strong> Físicos +1 | Veneno
+      +1</p><p><strong>Vulnerabilidade:</strong> Fogo −8 | Alma −6</p><p><strong>Deslocamento:</strong> +1 até um máximo
+      de 25</p><p><strong>Armaduras:</strong> Couro Pesado (10 + Agi).</p><p><strong>Perícias:</strong> Proficiências:
+      Furtividade, Percepção, Intimidação e Sobrenatural.</p><p><strong>Salvaguardas:</strong> Proficiências: Vontade e
+      Reflexo.</p><p><strong>Aspectos:</strong> Sede de Sangue, Fome Insaciável, Agarrador, Algoz Invisível, Silenciosa,
+      Camuflagem, Faro Aguçado, Reflexos Aguçados, Hipnose Passiva, Fanático.</p><p><strong>Habilidades:</strong>
+      Drenagem de Sangue, Dreno da Alma, Beijo Tenebroso, Mordida Voraz, Bote Sônico, Nuvem de Morcegos, Transformação
+      Animal, Mordida Transformadora, Transferir Praga, Fuga Escorregadia.</p><p><strong>Reações:</strong> Dreno
+      Reativo, Nuvem de Morcegos, Esquiva Rápida.</p>
+    chat: ''
+  identifier: drenador-vampirico
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 2
+    dex: 3
+    con: 3
+    int: 2
+    wis: 1
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: 1
+      immune: false
+    piercing:
+      value: 1
+      immune: false
+    slashing:
+      value: 1
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 1
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: -8
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 0
+      immune: false
+    soul:
+      value: -6
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ste
+      - skills.prc
+      - skills.itm
+      - skills.ani
+      - saves.con
+      - saves.cha
+      - saves.dex
+      - saves.int
+    alternative:
+      - skills.ste
+      - skills.prc
+      - skills.itm
+      - skills.ani
+      - alternativeSaves.vontade
+      - alternativeSaves.reflexo
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.464d3aa8ad859a36
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9ab24ff5f376e4d3
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d7e889a4ea13732e
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f35cdef068d2d3d8
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4afa4131cc85e2bd
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.34e2fedcea4c64ac
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.98f7ed9c8403484e
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bd5ffa57c1f404a
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6e9d3f1d8b93c1d2
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5d85d51e1781dcb6
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.0b500be94f084af3
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7aa89d4bad849a72
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f02694e6db2f4899
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.fa62f7a0c1925c9f
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.47dd4f4fae98b06a
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e3954a3cc125e416
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.a290291cba56fed5
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.783ac8aaca30fb71
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.2652f4d9a0599060
+      nd: 10
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.b4fe7aa0f538f15e
+      nd: 11
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.32cfff658c023831
+      nd: 12
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.67e813cb17e4754f
+      nd: 14
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000005
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000003
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: LBL3HmRR0mijch5k
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/drenador-vampirico.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:drenadorvampirico
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: LBL3HmRR0mijch5k
+_key: '!items!LBL3HmRR0mijch5k'

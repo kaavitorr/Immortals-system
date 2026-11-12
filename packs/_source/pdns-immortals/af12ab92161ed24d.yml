@@ -1,0 +1,76 @@
+_id: af12ab92161ed24d
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:237
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: af12ab92161ed24d
+name: Reformar
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢ · Reação</strong></p><p>Ao sofrer qualquer quantidade de dano em um único ataque ou técnica,
+      essa criatura pode gastar 10 PQ para negar o dano sofrido.</p>
+    chat: ''
+  identifier: reformar
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    82b9a502537d621f:
+      _id: 82b9a502537d621f
+      type: utility
+      name: Reformar
+      activation:
+        type: reaction
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '10'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao sofrer qualquer quantidade de dano em um único ataque ou técnica, essa criatura pode gastar 10 PQ para
+          negar o dano sofrido.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 9
+  prerequisites:
+    items: []
+    level: 9
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/reformar-af12ab92161ed24d.webp"
+_key: '!items!af12ab92161ed24d'

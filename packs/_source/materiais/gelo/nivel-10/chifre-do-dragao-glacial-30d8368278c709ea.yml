@@ -1,0 +1,53 @@
+_id: 30d8368278c709ea
+_key: '!items!30d8368278c709ea'
+name: Chifre do Dragão Glacial
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/30d8368278c709ea.webp
+system:
+  identifier: material-alquimia-30d8368278c709ea
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Parte de animal</p><p>Chifre do primeiro dragão a adormecer sob as geleiras, arrancado em guerra esquecida. Limado em pó, desperta nos meridianos a essência do frio primordial.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f3259bbba607e561
+sort: 19200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 10
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Chifre do Dragão Glacial
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

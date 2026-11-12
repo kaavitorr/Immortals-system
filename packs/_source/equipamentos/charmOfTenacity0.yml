@@ -1,0 +1,71 @@
+_id: charmOfTenacity0
+_key: '!items!charmOfTenacity0'
+name: Amuleto da Tenacidade
+type: equipment
+img: icons/equipment/neck/necklace-carved-stone-spiral.webp
+system:
+  identifier: amulet-tenacity
+  description:
+    value: >-
+      <blockquote><p>Este colar coberto de amuletos parece rústico, mas à inspeção próxima nota-se um artesanato
+      delicado imbuído em sua feitura. Ao segurá-lo, você sente sua respiração se aprofundar e as pequenas dores
+      musculares se dissiparem.</p></blockquote><p>Este amuleto encantado fornece um bônus à defesa de
+      <strong>Fortitude</strong>.</p><p><strong>Propriedades:</strong> Vinculação.</p><h3>Tenacidade</h3><p>Increase
+      <strong>Fortitude</strong> defense by 1 per each <strong>Tier</strong> of this suffix.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - mgc
+  equipped: false
+  attunement: required
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: wondrous
+    baseItem: ''
+  armor:
+    value: 0
+    dex: null
+    ability: ''
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: dNk8eE87Ep8GtNse
+sort: 200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: charmOfTenacity0
+      sourceType: accessory
+      category: jewelry
+      quality: fine
+      enchantment: minor
+      properties:
+        - investment
+      weaponDamagePending: false
+      manualEffects:
+        - Tenacidade

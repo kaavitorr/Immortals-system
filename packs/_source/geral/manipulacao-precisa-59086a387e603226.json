@@ -1,0 +1,75 @@
+{
+  "_id": "59086a387e603226",
+  "name": "Manipulação Precisa",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/manipulacao-precisa.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-manipulacao-precisa",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Habilidades Básicas.</p><h2>Manipulação Precisa</h2><p><strong>Requisito:</strong> Canalização Amplificadora e Canalização de Combate</p><p>Você aprendeu a comprimir seu Qi em seus golpes, fazendo com que ela passe mais facilmente a defesa das criaturas inimigas. Você recebe +1 de acerto em suas jogadas de ataque (Comuns e de Técnica), passando para +2 no 6º nível e +3 no 10º nível de personagem.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "manipulacao-precisa",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Habilidades Básicas",
+        "requisitos": [
+          "Canalização Amplificadora",
+          "Canalização de Combate"
+        ],
+        "requirementRules": {
+          "type": "and",
+          "rules": [
+            {
+              "type": "node",
+              "id": "canalizacao-amplificadora"
+            },
+            {
+              "type": "node",
+              "id": "canalizacao-de-combate"
+            }
+          ]
+        },
+        "basic": true
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "attackBonus",
+            "thresholds": [
+              {
+                "level": 1,
+                "value": 1
+              },
+              {
+                "level": 6,
+                "value": 2
+              },
+              {
+                "level": 10,
+                "value": 3
+              }
+            ],
+            "attacks": [
+              "common",
+              "technique"
+            ]
+          }
+        ],
+        "manual": [],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!59086a387e603226"
+}

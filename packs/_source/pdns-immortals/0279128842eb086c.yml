@@ -1,0 +1,71 @@
+_id: 0279128842eb086c
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:233
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 0279128842eb086c
+name: Pinça Reativa
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Reação</strong></p><p>Quando uma criatura realizar uma ação dentro do alcance dessa criatura, ela pode
+      realizar um ataque comum contra o alvo, como reação.</p>
+    chat: ''
+  identifier: pinca-reativa
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    54a345b68a05c6fd:
+      _id: 54a345b68a05c6fd
+      type: utility
+      name: Pinça Reativa
+      activation:
+        type: reaction
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Quando uma criatura realizar uma ação dentro do alcance dessa criatura, ela pode realizar um ataque comum
+          contra o alvo, como reação.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 2
+  prerequisites:
+    items: []
+    level: 2
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/pinca-reativa-0279128842eb086c.webp"
+_key: '!items!0279128842eb086c'

@@ -1,0 +1,53 @@
+_id: 53034b9538503324
+_key: '!items!53034b9538503324'
+name: Figo da Figueira Milenar
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/53034b9538503324.webp
+system:
+  identifier: material-alquimia-53034b9538503324
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 9 · <strong>Categoria:</strong> Planta</p><p>Figo escuro da figueira que alimenta gerações de monges há mil anos. Sua polpa restaura anos de vida e faz brotar dentes e cabelos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f7757a6cfc4fe288
+sort: 16600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 9
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Figo da Figueira Milenar
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 9
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

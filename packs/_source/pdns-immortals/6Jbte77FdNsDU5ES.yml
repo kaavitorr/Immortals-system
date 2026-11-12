@@ -1,0 +1,177 @@
+name: Atirador
+type: archetype
+folder: 53154a640414559d
+system:
+  description:
+    value: >-
+      <p>Mantém distância e ataca com armas de projétil ou de arremesso. Combina precisão, recargas rápidas e tiros de
+      cobertura, reposicionando-se quando é pressionado.</p><p><strong>Resistência por ND:</strong> Físicos
+      +1</p><p><strong>Vulnerabilidade:</strong> Contundente −8</p><p><strong>Deslocamento:</strong> Caminhada: 10 m
+      (fixo)</p><p><strong>Armaduras:</strong> Couro Leve (6 + Agi).</p><p><strong>Perícias:</strong> Proficiências:
+      Percepção, Coordenação, Furtividade e Investigação.</p><p><strong>Salvaguardas:</strong> Proficiências: Reflexo e
+      Fortitude.</p><p><strong>Aspectos:</strong> Visão Aguçada, Golpe Preciso, Analisar Padrões, Reflexos Aguçados,
+      Silenciosa, Camuflagem, Temperamento Frio, Emboscador, Descuidado, Fanático.</p><p><strong>Habilidades:</strong>
+      Tiro Preciso, Tiro de Cobertura, Recarga Relâmpago, Esquiva Rápida, Surto de Velocidade, Fuga Escorregadia, Golpe
+      Letal, Ilusão Menor, Desarme, Passo das Sombras.</p><p><strong>Reações:</strong> Tiro Reativo, Recarga Rápida,
+      Esquiva Rápida.</p>
+    chat: ''
+  identifier: atirador
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 2
+    dex: 3
+    con: 2
+    int: 3
+    wis: 1
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: -8
+      immune: false
+    piercing:
+      value: 1
+      immune: false
+    slashing:
+      value: 1
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 0
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.prc
+      - skills.acr
+      - skills.ste
+      - skills.inv
+      - saves.dex
+      - saves.int
+      - saves.str
+      - saves.wis
+    alternative:
+      - skills.prc
+      - skills.acr
+      - skills.ste
+      - skills.inv
+      - alternativeSaves.reflexo
+      - alternativeSaves.fortitude
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.1b191e87efc875ab
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d7e889a4ea13732e
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.ee5b9ae19707d11e
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4afa4131cc85e2bd
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53d435a7250164af
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.34e2fedcea4c64ac
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.98f7ed9c8403484e
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7845b27e637b3835
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f25c6d009d1bf844
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5f6cf4c720a404dc
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.86a2bfef529caefd
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.38a87b70e6f341bd
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.dfe74790f747cc82
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.b0025217be0f5675
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.e3954a3cc125e416
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.060086db82d1cba2
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.1654e78b67e0d0df
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.b3f1cb5e6320a231
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4054b676984235b9
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.700302ad6db3f4ec
+      nd: 10
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.576c5020e56e2555
+      nd: 12
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000004
+    armas: []
+  movimento:
+    ganho: 0
+    intervalo: 1
+    maximo: null
+_id: 6Jbte77FdNsDU5ES
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/atirador.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:atirador
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 6Jbte77FdNsDU5ES
+_key: '!items!6Jbte77FdNsDU5ES'

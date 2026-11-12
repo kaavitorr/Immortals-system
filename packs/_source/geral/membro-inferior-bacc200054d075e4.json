@@ -1,0 +1,31 @@
+{
+  "_id": "bacc200054d075e4",
+  "name": "Membro Inferior",
+  "type": "feat",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/habilidades/membro-de-seita.webp",
+  "folder": "bacc000000000002",
+  "system": {
+    "identifier": "antecedente-membro-de-seita",
+    "type": {
+      "value": "background"
+    },
+    "description": {
+      "value": "<p>Você está ligado a uma seita de renome aceitável, mesmo não tendo força suficiente para ser um membro dela. Você recebe um manual de Rank Terra e começa a aventura, no mínimo, um nível acima do membro de nível mais baixo do grupo.</p><p>Devido ao seu senso de gratidão a seita, você sempre deve voltar para protege-la de todas as ameaças e deve compartilhar metade de seus ganhos com o ancião que te deu a chance de mudar seu destino.</p><p>Seu anel espacial deve ser utilizado para armazenar metade de seus ganhos que irão para o ancião.</p>"
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundFeature": "membro-de-seita",
+      "backgroundRuleVersion": 1,
+      "featureSection": "jj-origin"
+    }
+  },
+  "_key": "!items!bacc200054d075e4"
+}

@@ -1,0 +1,13 @@
+_id: 91b9ed675b46d50c
+_key: '!folders!91b9ed675b46d50c'
+name: Nível 2
+type: Item
+folder: 25264a5c1c2a6166
+sorting: a
+sort: 200000
+color: '#795d67'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: ilusao
+      level: 2

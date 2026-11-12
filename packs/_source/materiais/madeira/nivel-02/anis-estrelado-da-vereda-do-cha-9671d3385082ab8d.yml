@@ -1,0 +1,53 @@
+_id: 9671d3385082ab8d
+_key: '!items!9671d3385082ab8d'
+name: Anis-Estrelado da Vereda Esmeralda
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/9671d3385082ab8d.webp
+system:
+  identifier: material-alquimia-9671d3385082ab8d
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>As estrelas deste anis amadurecem em árvores cuja seiva acompanha uma veia sinuosa de Qi da Madeira, formando veios verdes entre as pontas. Seu óleo oferece uma matriz complementar e depurativa às fórmulas de cultivo, auxiliando a liberação de bloqueios durante a circulação interna.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 00224d1b64407566
+sort: 2800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Anis-Estrelado da Vereda do Chá
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

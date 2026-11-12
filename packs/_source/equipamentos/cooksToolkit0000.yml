@@ -1,0 +1,65 @@
+_id: cooksToolkit0000
+_key: '!items!cooksToolkit0000'
+name: Kit de Cozinheiro
+type: tool
+img: icons/tools/cooking/cauldron-empty.webp
+system:
+  identifier: tool-kit-cooking
+  description:
+    value: >-
+      <p>Panela de ferro com tampa que fecha, faca larga e utensílios de madeira projetados para serem guardados dentro
+      durante a viagem, deixando espaço para uma bolsa de couro de ingredientes para armazenar grãos, frasco de óleo de
+      cozinha, especiarias ou sal e outros alimentos pequenos com segurança.</p><p><strong>Propriedades:</strong>
+      Empilhável.</p><p><strong>Profissões e conhecimentos:</strong> Culinária.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 12
+    units: kg
+  price:
+    value: 1200
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: wis
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: zKA7bUzu7rPpL2lk
+sort: 1200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: cooksToolkit0000
+      sourceType: tool
+      category: crafting
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000719697ff",
+  "name": "Kit de Remédios",
+  "type": "tool",
+  "img": "icons/consumables/potions/bottle-round-corked-green.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-remedios",
+    "description": {
+      "value": "<p>Remédios iniciais do antecedente.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "art"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "remedios"
+    }
+  },
+  "_key": "!items!bacc6000719697ff"
+}

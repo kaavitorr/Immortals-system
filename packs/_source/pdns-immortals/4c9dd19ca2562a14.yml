@@ -1,0 +1,75 @@
+_id: 4c9dd19ca2562a14
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:99
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 4c9dd19ca2562a14
+name: Disparo de Fios
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢</strong></p><p>Essa criatura dispara teias ou fios contra uma criatura inimiga a até 10 metros
+      + 1 metro por ND. Em caso de acerto, a criatura atingida não pode se afastar de você além da distância em que se
+      encontra atualmente. Toda vez que ela se aproximar, a nova distância se torna a máxima. Essa habilidade só pode
+      ser encerrada se o alvo passar em uma Salvaguarda de Fortitude.</p>
+    chat: ''
+  identifier: disparo-de-fios
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    d4de2c1982096b6e:
+      _id: d4de2c1982096b6e
+      type: utility
+      name: Disparo de Fios
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Essa criatura dispara teias ou fios contra uma criatura inimiga a até 10 metros + 1 metro por ND. Em caso
+          de acerto, a criatura atingida não pode se afastar de você além da distância em que se encontra atualmente.
+          Toda vez que ela se aproximar, a nova distância se torna a máxima. Essa habilidade só pode ser encerrada se o
+          alvo passar em uma Salvaguarda de Fortitude.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 1
+  prerequisites:
+    items: []
+    level: 1
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/disparo-de-fios-4c9dd19ca2562a14.webp"
+_key: '!items!4c9dd19ca2562a14'

@@ -1,0 +1,66 @@
+_id: heaterShield0000
+_key: '!items!heaterShield0000'
+name: Escudo Triangular
+type: equipment
+img: icons/equipment/shield/heater-steel-worn.webp
+system:
+  identifier: heater-shield
+  description:
+    value: >-
+      <p>Batizado pelo formato de ferro que lembra a base de um ferro de passar roupas, o escudo triangular oferece
+      equilíbrio entre cobertura e mobilidade.</p><p><strong>Propriedades:</strong> Engajamento.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 6
+    units: kg
+  price:
+    value: 360
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: shield
+    baseItem: ''
+  armor:
+    value: 2
+    dex: null
+    ability: ''
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: pibeFfUJ9FFbWkoY
+sort: 200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: heaterShield0000
+      sourceType: weapon
+      category: shieldLight
+      quality: despertado
+      enchantment: mundane
+      properties:
+        - engaging
+      weaponDamagePending: false
+      manualEffects: []

@@ -1,0 +1,53 @@
+_id: 8760b926d37952ab
+_key: '!items!8760b926d37952ab'
+name: Longan das Correntes Gêmeas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/8760b926d37952ab.webp
+system:
+  identifier: material-alquimia-8760b926d37952ab
+  description:
+    value: <p><strong>Elemento:</strong> Água · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Planta</p><p>Os frutos redondos amadurecem na ilha onde duas correntes se abraçam. A polpa translúcida nutre os olhos e firma a memória dos que estudam muito.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: c67d55906ca48f23
+sort: 6700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: agua
+      elementLabel: Água
+      level: 4
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/agua.json
+        originalName: Longan das Correntes Gêmeas
+        sha256: 4e0ab61ab8b4f69e0e1dd88c53ff06dabfdca351a5290537230f83680b9c27bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

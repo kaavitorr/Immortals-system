@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000a4503e0f",
+  "name": "Traços Animalescos — Plantas Carnívoras",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/magic/nature/plant-venus-flytrap-blood.webp",
+  "system": {
+    "identifier": "especie-e1ed3e4f",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Plantas Carnívoras. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c1000584b60c5": {
+        "_id": "1a2c1000584b60c5",
+        "type": "ItemChoice",
+        "title": "Duas características — Plantas Carnívoras",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.9LMsmfxPMHAoAIc4"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.tDx6xp86t21cf7vx"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Plantas Carnívoras",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000a4503e0f"
+}

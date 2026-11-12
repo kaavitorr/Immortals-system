@@ -1,0 +1,81 @@
+name: Chama Restauradora
+type: feat
+folder: b4cdf08eea2c07d5
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢⬢⬢</p><p>A criatura envolve a si mesma ou um aliado em fogo controlado que estimula a
+      recuperação do corpo. Ao consumir 3 Pontos de Ação [⬢⬢⬢] e 10 PQ. Essa criatura pode recuperar 30 Pontos de Vida
+      de si mesma e de um aliado simultaneamente.</p>
+    chat: ''
+  identifier: chama-restauradora
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    7ef3a5e8c4a4d4fa:
+      _id: 7ef3a5e8c4a4d4fa
+      type: utility
+      name: Chama Restauradora
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '10'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>A criatura envolve a si mesma ou um aliado em fogo controlado que estimula a recuperação do corpo. Ao
+          consumir 3 Pontos de Ação [⬢⬢⬢] e 10 PQ. Essa criatura pode recuperar 30 Pontos de Vida de si mesma e de um
+          aliado simultaneamente.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: e60db885a7cf5bbd
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/regenerar-membro-53a3e58d6c265d67.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:chamarestauradora
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Chama da Renovação
+_key: '!items!e60db885a7cf5bbd'

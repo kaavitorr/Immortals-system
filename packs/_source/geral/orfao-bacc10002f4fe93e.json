@@ -1,0 +1,80 @@
+{
+  "_id": "bacc10002f4fe93e",
+  "name": "Órfão",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/orfao.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-orfao",
+    "description": {
+      "value": "<p>Suas origens são desconhecidas, você pode até saber seu sobrenome, mas ele não te dá nenhuma pista ou qualquer informação sobre a sua família. Além de não conhecer seus pais, desde que você se lembre, nunca houve nenhuma figura que cuidou de você, sempre tendo que se virar sozinha para conseguir se alimentar e sobreviver. Isso pode ter te tornado uma pessoa amarga ou ter alimentado uma empolgação para construir do zero seus próprios sonhos.</p><h3>Equipamentos iniciais</h3><p>Uma roupa simples e uma bugiganga roubada de até 10 PO. <strong>30 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc20002f4fe93e]{Malandragem}</h3><p>Dentro de centros urbanos, desde que você seja bem sucedido em um Teste de Sorte, com a CD definida pelo Narrador, você pode reconhecer os padrões e caminhos secretos típicos, conseguindo encontrar passagens em meio ao tecido urbano que os outros jamais notariam, podendo viajar entre quaisquer dois pontos da cidade, duas vezes mais rápido do que o seu deslocamento permite. </p><p>Além disso, o mesmo teste pode ser usado para encontrar comida e água para si mesmo e para até cinco outras pessoas uma vez por dia, desde que seja possível.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc50002f4fe93e",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 30,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc30002f4fe93e": {
+        "_id": "bacc30002f4fe93e",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc20002f4fe93e",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc70002f4fe93e": {
+        "_id": "bacc70002f4fe93e",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.commonClothing00",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000af415255",
+              "quantity": 1,
+              "optional": false
+            }
+          ],
+          "currency": {
+            "gp": 30
+          },
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "orfao",
+        "startingGold": 30,
+        "equipment": "Uma roupa simples e uma bugiganga roubada de até 10 PO."
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc10002f4fe93e"
+}

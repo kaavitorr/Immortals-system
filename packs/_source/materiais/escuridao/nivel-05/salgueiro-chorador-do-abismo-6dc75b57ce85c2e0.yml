@@ -1,0 +1,53 @@
+_id: 6dc75b57ce85c2e0
+_key: '!items!6dc75b57ce85c2e0'
+name: Salgueiro Chorador do Abismo
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/6dc75b57ce85c2e0.webp
+system:
+  identifier: material-alquimia-6dc75b57ce85c2e0
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 5 · <strong>Categoria:</strong> Planta</p><p>Deixa pender galhos inteiros pelas bordas do abismo, como cabelos sobre um rosto morto. Cascas cozidas rendem tintura que gruda sombras às roupas por nove horas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-earth
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 0b7ed1e747ea86fb
+sort: 8700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 5
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Salgueiro Chorador do Abismo
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 5
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

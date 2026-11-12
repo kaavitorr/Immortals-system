@@ -1,0 +1,53 @@
+_id: 0896e973e31b4588
+_key: '!items!0896e973e31b4588'
+name: Tendão de Cavalo das Veredas Vivas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/0896e973e31b4588.webp
+system:
+  identifier: material-alquimia-0896e973e31b4588
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Parte de animal</p><p>O cavalo das Veredas Vivas acompanha correntes de Qi da Madeira e faz surgir caminhos de folhas suspensas entre árvores fechadas. Seus tendões conservam continuidade sob esforço prolongado, servindo de liga às matrizes de resistência dos membros e aos preparados de sustentação do movimento.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 13b8eac8c73d7a19
+sort: 14000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 7
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Tendão do Cavalo Selvagem
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

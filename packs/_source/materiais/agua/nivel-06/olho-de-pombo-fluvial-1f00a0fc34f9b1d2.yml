@@ -1,0 +1,53 @@
+_id: 1f00a0fc34f9b1d2
+_key: '!items!1f00a0fc34f9b1d2'
+name: Olho de Pomba das Rotas de Safira
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/1f00a0fc34f9b1d2.webp
+system:
+  identifier: material-alquimia-1f00a0fc34f9b1d2
+  description:
+    value: <p><strong>Elemento:</strong> Água · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Parte de animal</p><p>A pomba das Rotas de Safira acompanha veias fluviais de Qi e conserva suas curvas como imagens luminosas dentro das pupilas. O cristal ocular fixa impressões sem turvá-las, servindo de componente para registros de imagem e preparados de preservação da memória visual.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 11b23a4f0477dbd7
+sort: 12000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: agua
+      elementLabel: Água
+      level: 6
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/agua.json
+        originalName: Olho de Pombo Fluvial
+        sha256: 4e0ab61ab8b4f69e0e1dd88c53ff06dabfdca351a5290537230f83680b9c27bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

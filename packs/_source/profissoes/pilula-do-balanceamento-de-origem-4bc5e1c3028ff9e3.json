@@ -1,0 +1,190 @@
+{
+  "_id": "4bc5e1c3028ff9e3",
+  "name": "Pílula do Balanceamento de Origem",
+  "type": "consumable",
+  "folder": "3ec1f795631fd283",
+  "img": "systems/Immortals-system/assets/wuxia/pilulas-pintadas-v1/pilula-do-balanceamento-de-origem.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-pilula-do-balanceamento-de-origem",
+    "type": {
+      "value": "potion"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 6. <strong>Qualidade:</strong> Inferior.</p><h3>PÍLULA DO BALANCEAMENTO DE ORIGEM</h3>\n<table><tbody><tr><td>Multiplicador de Toxina: x 5</td><td>Nível: 6</td><td>Classe de Dificuldade: 22</td></tr></tbody></table>\n<p>Uma pílula que remove todas as impurezas presentes no seu corpo, permitindo que você possa cultivar na capacidade máxima permitida pelo seu talento. Ao consumi-la, você aumenta permanentemente sua capacidade de absorver Pontos de Essência de Qi em 20%.</p>\n<p>Cada criatura só pode consumir uma única dessas na vida.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>300% do valor de criação / cada</td></tr><tr><td>Quantidade</td><td>A cada refinamento, você consegue gerar uma pílula, não importa a qualidade.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar o efeito descrito no uso da pílula e conferir Rank, duração e restrições com o mestre. A posse da pílula não ativa seus efeitos. A qualidade da pílula é determinada somente pela margem do teste de Criação; os testes exigidos ainda precisam passar. O consumo usa uma unidade da pilha e registra as toxinas. Resolva o efeito descrito com o narrador, incluindo requisitos, duração e eventuais benefícios ou consequências permanentes. Possuir a pílula não concede seus efeitos.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 150 Cristais de Essência Céu Comum. <strong>Venda por unidade:</strong> 450 Cristais de Essência Céu Comum.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"pilula-do-balanceamento-de-origem:6:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 6</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/bc5a4a133510a70c.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"bc5a4a133510a70c\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.bc5a4a133510a70c\">Folha Branco-Azulada da Figueira Trovejante</a><small>limpeza dos meridianos entorpecidos</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Céu Comum por unidade\">20 Cristais de Essência Céu Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/951c002f8fb8810e.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"951c002f8fb8810e\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.951c002f8fb8810e\">Flor Imortal da Geleira</a><small>contenção de venenos lentos e males persistentes</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Céu Comum por unidade\">40 Cristais de Essência Céu Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/e1947df3b17926ef.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"e1947df3b17926ef\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.e1947df3b17926ef\">Semente de Pinheiro Ancião</a><small>sustentação da essência óssea durante a depuração</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Céu Comum por unidade\">40 Cristais de Essência Céu Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/b554ce072b539d03.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"b554ce072b539d03\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.b554ce072b539d03\">Raiz das Mil Léguas</a><small>nutrição dos meridianos para receber o refino de origem</small></div><span class=\"iw-recipe-price\" title=\"40 Cristais de Essência Céu Comum por unidade\">40 Cristais de Essência Céu Comum</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-06/4238b39f659e5a41.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"4238b39f659e5a41\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.4238b39f659e5a41\">Grãos da Pedra Harmônica</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"10 Cristais de Essência Céu Comum por unidade\">10 Cristais de Essência Céu Comum</span></li></ol><footer><span>Custo dos componentes</span><strong>150 Cristais de Essência Céu Comum</strong></footer></section>"
+    },
+    "activities": {
+      "d56eb205d4c6b6f9": {
+        "_id": "d56eb205d4c6b6f9",
+        "type": "utility",
+        "name": "Consumir pílula (resolver efeito)",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 6. <strong>Qualidade:</strong> Inferior.</p><h3>PÍLULA DO BALANCEAMENTO DE ORIGEM</h3>\n<table><tbody><tr><td>Multiplicador de Toxina: x 5</td><td>Nível: 6</td><td>Classe de Dificuldade: 22</td></tr></tbody></table>\n<p>Uma pílula que remove todas as impurezas presentes no seu corpo, permitindo que você possa cultivar na capacidade máxima permitida pelo seu talento. Ao consumi-la, você aumenta permanentemente sua capacidade de absorver Pontos de Essência de Qi em 20%.</p>\n<p>Cada criatura só pode consumir uma única dessas na vida.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>300% do valor de criação / cada</td></tr><tr><td>Quantidade</td><td>A cada refinamento, você consegue gerar uma pílula, não importa a qualidade.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar o efeito descrito no uso da pílula e conferir Rank, duração e restrições com o mestre. A posse da pílula não ativa seus efeitos. A qualidade da pílula é determinada somente pela margem do teste de Criação; os testes exigidos ainda precisam passar. O consumo usa uma unidade da pilha e registra as toxinas. Resolva o efeito descrito com o narrador, incluindo requisitos, duração e eventuais benefícios ou consequências permanentes. Possuir a pílula não concede seus efeitos.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 150 Cristais de Essência Céu Comum. <strong>Venda por unidade:</strong> 450 Cristais de Essência Céu Comum.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"pilula-do-balanceamento-de-origem:6:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 6</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/bc5a4a133510a70c.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"bc5a4a133510a70c\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.bc5a4a133510a70c\">Folha Branco-Azulada da Figueira Trovejante</a><small>limpeza dos meridianos entorpecidos</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Céu Comum por unidade\">20 Cristais de Essência Céu Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/951c002f8fb8810e.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"951c002f8fb8810e\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.951c002f8fb8810e\">Flor Imortal da Geleira</a><small>contenção de venenos lentos e males persistentes</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Céu Comum por unidade\">40 Cristais de Essência Céu Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/e1947df3b17926ef.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"e1947df3b17926ef\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.e1947df3b17926ef\">Semente de Pinheiro Ancião</a><small>sustentação da essência óssea durante a depuração</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Céu Comum por unidade\">40 Cristais de Essência Céu Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/b554ce072b539d03.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"b554ce072b539d03\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.b554ce072b539d03\">Raiz das Mil Léguas</a><small>nutrição dos meridianos para receber o refino de origem</small></div><span class=\"iw-recipe-price\" title=\"40 Cristais de Essência Céu Comum por unidade\">40 Cristais de Essência Céu Comum</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-06/4238b39f659e5a41.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"4238b39f659e5a41\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.4238b39f659e5a41\">Grãos da Pedra Harmônica</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"10 Cristais de Essência Céu Comum por unidade\">10 Cristais de Essência Céu Comum</span></li></ol><footer><span>Custo dos componentes</span><strong>150 Cristais de Essência Céu Comum</strong></footer></section>",
+          "chatFlavor": "Pílula do Balanceamento de Origem — Consumir pílula (resolver efeito)"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "pilula-do-balanceamento-de-origem",
+              "key": "consume",
+              "level": 6,
+              "quality": "inferior",
+              "manualResolution": true,
+              "consumeItem": true,
+              "rule": "pilula-do-balanceamento-de-origem",
+              "poison": 100,
+              "essenceAbsorptionMultiplier": 1.2,
+              "oncePerLifetime": true,
+              "permanent": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Consumir pílula (resolver efeito)",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/pilulas-pintadas-v1/pilula-do-balanceamento-de-origem.webp"
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "price": {
+      "value": 450,
+      "denomination": "essence-heaven"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "pilula-do-balanceamento-de-origem",
+        "kind": "pill",
+        "profession": "alchemy",
+        "level": 6,
+        "quality": "inferior"
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 6,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 5000,
+          "materials": 100,
+          "currency": "spiritualCrystals",
+          "rank": "heaven"
+        },
+        "creationPercent": 5000,
+        "salePercent": 300,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 150,
+          "currency": "spiritualCrystals",
+          "rank": "heaven"
+        },
+        "sale": {
+          "amount": 450,
+          "currency": "spiritualCrystals",
+          "rank": "heaven"
+        },
+        "referenceCreation": {
+          "amount": 5000,
+          "currency": "spiritualCrystals",
+          "rank": "heaven"
+        },
+        "referenceSale": {
+          "amount": 15000,
+          "currency": "spiritualCrystals",
+          "rank": "heaven"
+        }
+      },
+      "professionProductAutomation": {
+        "rules": [
+          {
+            "type": "pillToxins",
+            "quality": "inferior",
+            "base": 20,
+            "multiplier": 5,
+            "value": 100
+          }
+        ],
+        "manual": [
+          "Aplicar o efeito descrito no uso da pílula e conferir Rank, duração e restrições com o mestre. A posse da pílula não ativa seus efeitos.",
+          "A qualidade da pílula é determinada somente pela margem do teste de Criação; os testes exigidos ainda precisam passar.",
+          "O consumo usa uma unidade da pilha e registra as toxinas. Resolva o efeito descrito com o narrador, incluindo requisitos, duração e eventuais benefícios ou consequências permanentes. Possuir a pílula não concede seus efeitos."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!4bc5e1c3028ff9e3"
+}

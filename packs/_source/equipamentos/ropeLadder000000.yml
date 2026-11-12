@@ -1,0 +1,65 @@
+_id: ropeLadder000000
+_key: '!items!ropeLadder000000'
+name: Escada de Corda
+type: tool
+img: icons/sundries/survival/rope-wrapped-loops-grey.webp
+system:
+  identifier: rope-ladder
+  description:
+    value: >-
+      <p>7,5 metros de ripas de madeira e corda com nós, atados juntos e enrolados num dispositivo prático de escalada.
+      Quando fixa numa extremidade, reduz significativamente as chances de queda de quem
+      escala.</p><p><strong>Propriedades:</strong> Empilhável.</p><p><strong>Profissões e conhecimentos:</strong>
+      Atletismo.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 8
+    units: kg
+  price:
+    value: 150
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: ''
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: 7LUkTLEZvS60KVBp
+sort: 300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: ropeLadder000000
+      sourceType: tool
+      category: implement
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

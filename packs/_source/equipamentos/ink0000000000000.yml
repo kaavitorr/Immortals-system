@@ -1,0 +1,55 @@
+_id: ink0000000000000
+_key: '!items!ink0000000000000'
+name: Tinta
+type: loot
+img: icons/consumables/potions/bottle-conical-corked-tied-blue.webp
+system:
+  identifier: ingredient-ink
+  description:
+    value: <p>Um frasco de tinta de escrita comum.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 1
+    units: kg
+  price:
+    value: 2
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: material
+effects: []
+folder: enNNOtkze4LoJXgw
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: ink0000000000000
+      sourceType: loot
+      category: ingredient
+      quality: standard
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: false
+      manualEffects: []

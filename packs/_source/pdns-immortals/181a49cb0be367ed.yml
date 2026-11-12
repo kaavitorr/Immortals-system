@@ -1,0 +1,94 @@
+_id: 181a49cb0be367ed
+type: feat
+effects:
+  - _id: f283449352532fa5
+    name: Couraça de Metal
+    transfer: true
+    disabled: false
+    system:
+      changes:
+        - key: system.attributes.ac.bonus
+          value: 2
+          priority: 20
+          type: add
+    img: icons/svg/aura.svg
+    type: base
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _key: '!items.effects!181a49cb0be367ed.f283449352532fa5'
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:91
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 181a49cb0be367ed
+name: Couraça de Metal
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: <p>A Classe de Resistência da criatura aumenta em +2.</p>
+    chat: ''
+  identifier: couraca-de-metal
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    680f07f09632a22f:
+      _id: 680f07f09632a22f
+      type: utility
+      name: Couraça de Metal
+      activation:
+        type: action
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: <p>A Classe de Resistência da criatura aumenta em +2.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 8
+  prerequisites:
+    items: []
+    level: 8
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/couraca-de-metal-181a49cb0be367ed.webp"
+_key: '!items!181a49cb0be367ed'

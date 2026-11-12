@@ -1,0 +1,124 @@
+{
+  "_id": "6b5609b478a5104e",
+  "name": "Lorde Demoníaco",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/lorde-demoniaco.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-lorde-demoniaco",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Cultivo Demoníaco.</p><h2>Lorde Demoníaco</h2><p><strong>Requisito:</strong> Refinar Constituição</p><p>Você é capaz de emitir uma aura demoníaca extremamente poderosa, capaz de suprimir tanto cultivadores demoníacos quanto demônios. Sua presença inspira um medo avassalador, tornando suas ordens extremamente difíceis de ignorar.</p><p>Você pode comandar cultivadores demoníacos de Rank inferior ao seu e demônios que estejam pelo menos 2 Ranks abaixo do seu, submetendo-os à sua vontade através do medo.</p><p><strong>Resolução:</strong> O narrador resolve o comando de cultivadores demoníacos inferiores e demônios ao menos dois reinos abaixo.</p>"
+    },
+    "activities": {
+      "03051d0e35cacf60": {
+        "_id": "03051d0e35cacf60",
+        "type": "utility",
+        "name": "Comandar pela aura demoníaca",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Cultivo Demoníaco.</p><h2>Lorde Demoníaco</h2><p><strong>Requisito:</strong> Refinar Constituição</p><p>Você é capaz de emitir uma aura demoníaca extremamente poderosa, capaz de suprimir tanto cultivadores demoníacos quanto demônios. Sua presença inspira um medo avassalador, tornando suas ordens extremamente difíceis de ignorar.</p><p>Você pode comandar cultivadores demoníacos de Rank inferior ao seu e demônios que estejam pelo menos 2 Ranks abaixo do seu, submetendo-os à sua vontade através do medo.</p><p><strong>Resolução:</strong> O narrador resolve o comando de cultivadores demoníacos inferiores e demônios ao menos dois reinos abaixo.</p>",
+          "chatFlavor": "Lorde Demoníaco — Comandar pela aura demoníaca"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "spec",
+          "special": "O texto não especifica alcance.",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "lorde-demoniaco",
+              "key": "command",
+              "manualResolution": true,
+              "rule": "demonicCommand",
+              "cultivatorRankDifference": 1,
+              "demonRankDifference": 2
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Comandar pela aura demoníaca",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/lorde-demoniaco.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "lorde-demoniaco",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Cultivo Demoníaco",
+        "requisitos": [
+          "Refinar Constituição"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "refinar-constituicao"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "O narrador resolve o comando de cultivadores demoníacos inferiores e demônios ao menos dois reinos abaixo."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!6b5609b478a5104e"
+}

@@ -1,0 +1,80 @@
+_id: e15ca32c20353b44
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:223
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: e15ca32c20353b44
+name: Grito de Guerra
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢ · Reação</strong></p><p>Quando uma criatura inimiga realizar uma ação, essa criatura pode
+      gastar 8 PQ para conceder 5 vantagens a todas as suas criaturas aliadas até o início do próximo turno do
+      comandante. Essas vantagens podem ser divididas entre várias ações ou usadas de uma só vez, mas não se acumulam
+      com múltiplas ativações de Grito de Guerra, mesmo que sejam de criaturas distintas.</p>
+    chat: ''
+  identifier: grito-de-guerra
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    a632ae05fec3b86b:
+      _id: a632ae05fec3b86b
+      type: utility
+      name: Grito de Guerra
+      activation:
+        type: reaction
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '8'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Quando uma criatura inimiga realizar uma ação, essa criatura pode gastar 8 PQ para conceder 5 vantagens a
+          todas as suas criaturas aliadas até o início do próximo turno do comandante. Essas vantagens podem ser
+          divididas entre várias ações ou usadas de uma só vez, mas não se acumulam com múltiplas ativações de Grito de
+          Guerra, mesmo que sejam de criaturas distintas.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 7
+  prerequisites:
+    items: []
+    level: 7
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/grito-de-guerra-e15ca32c20353b44.webp"
+_key: '!items!e15ca32c20353b44'

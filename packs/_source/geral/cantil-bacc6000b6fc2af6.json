@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000b6fc2af6",
+  "name": "Cantil",
+  "type": "loot",
+  "img": "systems/Immortals-system/assets/wuxia/equipamentos-antecedentes-pintados-v1/cantil.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-cantil",
+    "description": {
+      "value": "<p>Recipiente de água para viagem.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "gear"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "cantil"
+    }
+  },
+  "_key": "!items!bacc6000b6fc2af6"
+}

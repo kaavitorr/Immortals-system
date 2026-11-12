@@ -1,0 +1,28 @@
+{
+  "_id": "bacc60002981627f",
+  "name": "Túnica Simples de Servo",
+  "type": "equipment",
+  "img": "icons/equipment/chest/shirt-collared-brown.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-vestes-servo",
+    "description": {
+      "value": "<p>Vestes simples de servo da família principal.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "clothing"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "vestes-servo"
+    }
+  },
+  "_key": "!items!bacc60002981627f"
+}

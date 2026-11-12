@@ -1,0 +1,53 @@
+_id: 5f129f0e03e4a1a7
+_key: '!items!5f129f0e03e4a1a7'
+name: Patas Terminais de Centopeia Escarlate
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/5f129f0e03e4a1a7.webp
+system:
+  identifier: material-alquimia-5f129f0e03e4a1a7
+  description:
+    value: <p><strong>Elemento:</strong> Fogo · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Parte de animal</p><p>A centopeia Escarlate percorre troncos saturados de Qi ígneo e transforma o último par de patas em filamentos incandescentes ao se defender. Essas patas fornecem uma matriz complementar de Fogo, distribuindo impulsos térmicos por preparados de circulação e oferecendo afinidade elementar distinta.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 85025b79f667906f
+sort: 3500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: fogo
+      elementLabel: Fogo
+      level: 2
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/fogo.json
+        originalName: Cauda de Centopeia Escarlate
+        sha256: ba1a23c0b606945bb3806834a346654c7369238959758f3d2c8d2c74258f92bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

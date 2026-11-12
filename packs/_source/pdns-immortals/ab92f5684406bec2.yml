@@ -1,0 +1,75 @@
+_id: ab92f5684406bec2
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:74
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: ab92f5684406bec2
+name: Rajada Elemental
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢</strong></p><p>A criatura libera uma rajada elemental de suas mãos ou um grito de sua boca em
+      um cone de 10 metros à sua frente. Todas as criaturas dentro da área da técnica devem realizar uma Salvaguarda de
+      Vontade, sofrendo todo o dano se falharem ou metade se obtiverem sucesso. O tipo de dano varia de acordo com a
+      fonte do poder do artilheiro ou é Trovejante, se o efeito for sonoro.</p>
+    chat: ''
+  identifier: rajada-elemental
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    fba9af0b1c19b3c8:
+      _id: fba9af0b1c19b3c8
+      type: utility
+      name: Rajada Elemental
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura libera uma rajada elemental de suas mãos ou um grito de sua boca em um cone de 10 metros à sua
+          frente. Todas as criaturas dentro da área da técnica devem realizar uma Salvaguarda de Vontade, sofrendo todo
+          o dano se falharem ou metade se obtiverem sucesso. O tipo de dano varia de acordo com a fonte do poder do
+          artilheiro ou é Trovejante, se o efeito for sonoro.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 8
+  prerequisites:
+    items: []
+    level: 8
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/rajada-elemental-ab92f5684406bec2.webp"
+_key: '!items!ab92f5684406bec2'

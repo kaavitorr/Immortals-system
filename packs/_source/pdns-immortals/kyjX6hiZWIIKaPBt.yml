@@ -1,0 +1,41 @@
+name: Visão Aguçada
+type: feat
+folder: D8Yrqg8ddiUXg3Yv
+system:
+  description:
+    value: <p>A criatura recebe vantagem em Testes de Atributo de Percepção relacionados a visão.</p>
+    chat: ''
+  identifier: visao-agucada
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: kyjX6hiZWIIKaPBt
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/visao-agucada-kyjX6hiZWIIKaPBt.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:visaoagucada:e968cef9c37b
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: kyjX6hiZWIIKaPBt
+_key: '!items!kyjX6hiZWIIKaPBt'

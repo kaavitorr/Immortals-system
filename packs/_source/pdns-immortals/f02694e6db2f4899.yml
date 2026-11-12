@@ -1,0 +1,72 @@
+_id: f02694e6db2f4899
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:228
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: f02694e6db2f4899
+name: Nuvem de Morcegos
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Reação</strong></p><p>Quando essa criatura for alvo de uma jogada de acerto ou precisar realizar uma
+      Salvaguarda para sofrer todo o dano ou metade dele, ela pode se transformar em uma nuvem de morcegos,
+      dispersando-se.</p>
+    chat: ''
+  identifier: nuvem-de-morcegos
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    1200e5eff5830814:
+      _id: 1200e5eff5830814
+      type: utility
+      name: Nuvem de Morcegos
+      activation:
+        type: reaction
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Quando essa criatura for alvo de uma jogada de acerto ou precisar realizar uma Salvaguarda para sofrer todo
+          o dano ou metade dele, ela pode se transformar em uma nuvem de morcegos, dispersando-se.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/nuvem-de-morcegos-f02694e6db2f4899.webp"
+_key: '!items!f02694e6db2f4899'

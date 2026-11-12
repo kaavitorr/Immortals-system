@@ -1,0 +1,128 @@
+{
+  "_id": "183bd43a11aa877e",
+  "name": "Sentido Divino",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/sentido-divino.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-sentido-divino",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Habilidades Básicas.</p><h2>Sentido Divino</h2><p><strong>Requisito:</strong> Formação de Núcleo</p><p>Através da expansão da sua alma, você pode enviar seus sentidos para fora do seu corpo, permitindo que você possa ver sem olhar, como se tivesse tocando o que seu sentido divino tocar. Podendo até atravessar roupas, carne, rochas, metais e similares e ver através.</p><p>Enquanto estiver com ele ativo, você recebe 2 vantagens em testes de Percepção (Sabedoria) e Investigação (Intelecto) e seu alcance é igual a 5 metros vezes o seu nível de cultivo.</p><p><strong>Resolução:</strong> O narrador resolve as informações percebidas; o texto não fixa custo nem duração de ativação.</p>"
+    },
+    "activities": {
+      "040dde8f4809f5b5": {
+        "_id": "040dde8f4809f5b5",
+        "type": "utility",
+        "name": "Expandir Sentido Divino",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Habilidades Básicas.</p><h2>Sentido Divino</h2><p><strong>Requisito:</strong> Formação de Núcleo</p><p>Através da expansão da sua alma, você pode enviar seus sentidos para fora do seu corpo, permitindo que você possa ver sem olhar, como se tivesse tocando o que seu sentido divino tocar. Podendo até atravessar roupas, carne, rochas, metais e similares e ver através.</p><p>Enquanto estiver com ele ativo, você recebe 2 vantagens em testes de Percepção (Sabedoria) e Investigação (Intelecto) e seu alcance é igual a 5 metros vezes o seu nível de cultivo.</p><p><strong>Resolução:</strong> O narrador resolve as informações percebidas; o texto não fixa custo nem duração de ativação.</p>",
+          "chatFlavor": "Sentido Divino — Expandir Sentido Divino"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "5 * @nivelCultivo",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "sentido-divino",
+              "key": "sense",
+              "manualResolution": true,
+              "rule": "divineSense",
+              "advantages": 2,
+              "skills": [
+                "prc",
+                "inv"
+              ],
+              "penetratesObjects": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Expandir Sentido Divino",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/sentido-divino.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "sentido-divino",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Habilidades Básicas",
+        "requisitos": [
+          "Formação de Núcleo"
+        ],
+        "requirementRules": {
+          "type": "rank",
+          "min": 2
+        },
+        "basic": true
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "O narrador resolve as informações percebidas; o texto não fixa custo nem duração de ativação."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!183bd43a11aa877e"
+}

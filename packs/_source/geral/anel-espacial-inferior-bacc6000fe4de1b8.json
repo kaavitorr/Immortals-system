@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000fe4de1b8",
+  "name": "Anel Espacial Inferior",
+  "type": "equipment",
+  "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-anel-espacial",
+    "description": {
+      "value": "<p>Anel espacial inferior recebido pelo antecedente. A capacidade segue a regra de anéis da campanha.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "clothing"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "anel-espacial"
+    }
+  },
+  "_key": "!items!bacc6000fe4de1b8"
+}

@@ -1,0 +1,20 @@
+<div class="hxh-cal">
+    <div class="hxh-cal-dial">
+        <div class="hxh-cal-rotor">
+            <svg class="cult-icon hxh-cal-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/></svg>
+            <svg class="cult-icon hxh-cal-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14A8 8 0 0 1 10 4a8 8 0 1 0 10 10Z"/></svg>
+        </div>
+        <div class="hxh-cal-horizon"></div>
+        <div class="hxh-cal-hub"></div>
+    </div>
+    <div class="hxh-cal-info">
+        <span class="calendar-date"></span>
+        <span class="calendar-time"></span>
+    </div>
+    {{#if isGM}}
+    <button type="button" class="hxh-cal-play {{#if isPlaying}}is-playing{{/if}}" data-action="toggleAutoTime"
+            data-tooltip="{{#if isPlaying}}Pausar o tempo{{else}}Deixar o tempo correr{{/if}}">
+        <svg class="cult-icon hxh-cal-play-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="{{#if isPlaying}}M8 5v14M16 5v14{{else}}m8 4 12 8-12 8Z{{/if}}"/></svg>
+    </button>
+    {{/if}}
+</div>

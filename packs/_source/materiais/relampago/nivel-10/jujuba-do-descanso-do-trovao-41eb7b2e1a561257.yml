@@ -1,0 +1,53 @@
+_id: 41eb7b2e1a561257
+_key: '!items!41eb7b2e1a561257'
+name: Jujuba do Descanso do Trovão
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/41eb7b2e1a561257.webp
+system:
+  identifier: material-alquimia-41eb7b2e1a561257
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Planta</p><p>Da jujubeira torta sob a qual o trovão repousou entre duas eras. Um fruto, cozido inteiro, devolve o alento a moribundos exaustos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 915b74bf3408615e
+sort: 19000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 10
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Jujuba do Descanso do Trovão
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

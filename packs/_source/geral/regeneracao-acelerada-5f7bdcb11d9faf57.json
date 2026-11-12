@@ -1,0 +1,54 @@
+{
+  "_id": "5f7bdcb11d9faf57",
+  "name": "Regeneração Acelerada",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/regeneracao-acelerada.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-regeneracao-acelerada",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo do Corpo.</p><h2>Regeneração Acelerada</h2><p><strong>Requisito:</strong> 7º Portão</p><p>Enquanto estiver em combate, você recupera uma quantidade de Pontos de Vida igual ao seu valor de Constituição no início de cada um de seus Turnos. Esse efeito é encerrado caso seus Pontos de Vida sejam reduzidos a 0.</p><p>Fora de combate, você recupera 1 Ponto de Vida a cada 6 segundos.</p><p><strong>Resolução:</strong> A regeneração exige mais de 0 PV e usa os limites de Vida atuais; acompanhe a recuperação fora do combate com o narrador.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "regeneracao-acelerada",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo do Corpo",
+        "requisitos": [
+          "7º Portão"
+        ],
+        "requirementRules": {
+          "type": "body",
+          "min": 9
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "livingRegeneration",
+            "combatFormula": "@abilities.con.value",
+            "at": "turnStart",
+            "requiresPositiveHitPoints": true,
+            "outOfCombatHitPoints": 1,
+            "outOfCombatPeriodSeconds": 6
+          }
+        ],
+        "manual": [
+          "A regeneração exige mais de 0 PV e usa os limites de Vida atuais; acompanhe a recuperação fora do combate com o narrador."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!5f7bdcb11d9faf57"
+}

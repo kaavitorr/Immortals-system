@@ -1,0 +1,220 @@
+{
+  "_id": "a2109ebedbe22cf2",
+  "name": "Mão do Perdão",
+  "type": "spell",
+  "folder": "98a8e079c5129985",
+  "sort": 200000,
+  "img": "systems/Immortals-system/assets/wuxia/proficiencies/unarmed.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-mao-do-perdao",
+    "level": 2,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 3,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "1",
+      "units": "turn",
+      "expiry": "turnStart",
+      "special": "Até o início do seu próximo turno.",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "5",
+      "units": "m",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "line",
+        "size": "5",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Palma</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Até 5 metros, Linha</td></tr><tr><th>Duração</th><td>Até o início do seu próximo turno.</td></tr><tr><th>Arma</th><td>Desarmado (palma)</td></tr><tr><th>Ataque Combinado</th><td>Impossível</td></tr></tbody></table><p>Você desfere um golpe de palma contra uma criatura dentro do alcance, enviando uma onda de Qi que atravessa seu corpo ultrapassando a maior parte das defesas do alvo. A criatura deve realizar uma Salvaguarda de Constituição para não receber a condição “Estremecido” até o fim do próximo turno dela.</p><h3>Observações</h3><p>Estremecido dura até o fim do próximo turno do alvo. A duração geral do quadro termina no início do seu próximo turno; acompanhe os dois tempos separadamente.</p>"
+    },
+    "activities": {
+      "d949839f115521db": {
+        "_id": "d949839f115521db",
+        "type": "attack",
+        "name": "Mão do Perdão",
+        "img": "systems/Immortals-system/assets/wuxia/proficiencies/unarmed.webp",
+        "activation": {
+          "type": "action",
+          "value": 3,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "4",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Palma</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Até 5 metros, Linha</td></tr><tr><th>Duração</th><td>Até o início do seu próximo turno.</td></tr><tr><th>Arma</th><td>Desarmado (palma)</td></tr><tr><th>Ataque Combinado</th><td>Impossível</td></tr></tbody></table><p>Você desfere um golpe de palma contra uma criatura dentro do alcance, enviando uma onda de Qi que atravessa seu corpo ultrapassando a maior parte das defesas do alvo. A criatura deve realizar uma Salvaguarda de Constituição para não receber a condição “Estremecido” até o fim do próximo turno dela.</p><h3>Observações</h3><p>Estremecido dura até o fim do próximo turno do alvo. A duração geral do quadro termina no início do seu próximo turno; acompanhe os dois tempos separadamente.</p>",
+          "chatFlavor": "Mão do Perdão"
+        },
+        "duration": {
+          "value": "1",
+          "units": "turn",
+          "expiry": "turnStart",
+          "special": "Até o início do seu próximo turno.",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "5",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "line",
+            "size": "5",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "mao-do-perdao",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "attack": {
+          "ability": "spellcasting",
+          "bonus": "",
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": "spell"
+          },
+          "critical": {
+            "threshold": 20
+          }
+        },
+        "damage": {
+          "includeBase": false,
+          "critical": {
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 2,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "thunder"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": [
+          {
+            "_id": "13fba3b7b22c9641",
+            "condition": "jj-estremecido",
+            "save": "con"
+          }
+        ]
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "mao-do-perdao",
+        "category": "palma",
+        "grade": 2,
+        "auxiliary": false,
+        "weapon": "Desarmado (palma)",
+        "qi": 4,
+        "actions": 3,
+        "reaction": false,
+        "combinedAttack": false,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Até o início do seu próximo turno.",
+            "range": "Até 5 metros, Linha",
+            "requirements": "-",
+            "damage": "2d8 de dano Trovejante",
+            "combinedAttack": false
+          }
+        },
+        "manualResolution": [
+          "Estremecido dura até o fim do próximo turno do alvo. A duração geral do quadro termina no início do seu próximo turno; acompanhe os dois tempos separadamente."
+        ],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!a2109ebedbe22cf2"
+}

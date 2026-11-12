@@ -1,0 +1,11 @@
+_id: 0a401e47575918e3
+type: Item
+name: Reagentes
+folder: null
+sorting: m
+sort: 1400000
+color: '#6b6553'
+flags:
+  Immortals-system:
+    reagentMaterialFolder: true
+_key: '!folders!0a401e47575918e3'

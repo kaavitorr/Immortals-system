@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000d6540f92",
+  "name": "Vestes da Seita",
+  "type": "equipment",
+  "img": "icons/equipment/chest/robe-layered-red.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-vestes-seita",
+    "description": {
+      "value": "<p>Vestes da seita à qual o personagem pertence.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "clothing"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "vestes-seita"
+    }
+  },
+  "_key": "!items!bacc6000d6540f92"
+}

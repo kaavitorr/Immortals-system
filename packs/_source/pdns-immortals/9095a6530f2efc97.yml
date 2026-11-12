@@ -1,0 +1,75 @@
+_id: 9095a6530f2efc97
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:150
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 9095a6530f2efc97
+name: Ordem Tática
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ por criatura</strong></p><p>A criatura pode afetar cada criatura que escolher a até 10 metros
+      + 1 metro por ND, concedendo-lhe uma vantagem em qualquer rolagem de d20. Ela também pode gastar diversas ações na
+      mesma criatura para acumular ações ou permitir que ela use o benefício em ações individuais. O benefício se esgota
+      no início do turno da criatura que deu a Ordem Tática.</p>
+    chat: ''
+  identifier: ordem-tatica
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    427b317f8e26ab5b:
+      _id: 427b317f8e26ab5b
+      type: utility
+      name: Ordem Tática
+      activation:
+        type: action
+        value: 0
+        condition: 'Ações: ⬢ por criatura'
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura pode afetar cada criatura que escolher a até 10 metros + 1 metro por ND, concedendo-lhe uma
+          vantagem em qualquer rolagem de d20. Ela também pode gastar diversas ações na mesma criatura para acumular
+          ações ou permitir que ela use o benefício em ações individuais. O benefício se esgota no início do turno da
+          criatura que deu a Ordem Tática.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/ordem-tatica-9095a6530f2efc97.webp"
+_key: '!items!9095a6530f2efc97'

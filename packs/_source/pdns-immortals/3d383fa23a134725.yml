@@ -1,0 +1,76 @@
+name: Véu das Formas
+type: feat
+folder: b4cdf08eea2c07d5
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢⬢</p><p>A criatura recobre a própria aparência com uma ilusão de outra identidade,
+      incluindo voz e vestimentas aparentes. A criatura pode gastar 2 Pontos de Ação [⬢⬢] para tomar a aparência e voz
+      de outra criatura, podendo mudar para uma forma que não pertence a ninguém específico.</p>
+    chat: ''
+  identifier: veu-das-formas
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    f23d5f15b1a3d1ed:
+      _id: f23d5f15b1a3d1ed
+      type: utility
+      name: Véu das Formas
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets: []
+      description:
+        value: >-
+          <p>A criatura recobre a própria aparência com uma ilusão de outra identidade, incluindo voz e vestimentas
+          aparentes. A criatura pode gastar 2 Pontos de Ação [⬢⬢] para tomar a aparência e voz de outra criatura,
+          podendo mudar para uma forma que não pertence a ninguém específico.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: 3d383fa23a134725
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/trocar-de-forma-3c5172a41ad2d9ec.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:veudasformas
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Tecelã de Miragens
+_key: '!items!3d383fa23a134725'

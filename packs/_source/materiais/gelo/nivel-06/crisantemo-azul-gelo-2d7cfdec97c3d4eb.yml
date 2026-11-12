@@ -1,0 +1,53 @@
+_id: 2d7cfdec97c3d4eb
+_key: '!items!2d7cfdec97c3d4eb'
+name: Crisântemo Azul-Gelo
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/2d7cfdec97c3d4eb.webp
+system:
+  identifier: material-alquimia-2d7cfdec97c3d4eb
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Planta</p><p>Pétalas azul-gelo que só se abrem sob a lua de inverno. Em tintura, despertam nos meridianos uma corrente fria que alimenta o cultivo por dias.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 49cfc131fd248e74
+sort: 10300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 6
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Crisântemo Azul-Gelo
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

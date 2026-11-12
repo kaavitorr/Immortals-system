@@ -1,0 +1,26 @@
+{
+  "_id": "1a2c1000a3b631cc",
+  "name": "Transformação Divina",
+  "type": "feat",
+  "folder": "1a2c000000000002",
+  "img": "systems/Immortals-system/assets/wuxia/caracteristicas-especie-pintadas-v1/transformacao-divina.webp",
+  "system": {
+    "identifier": "especie-e18e570c",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Transformação Divina: Ao chegar no Rank de Núcleo Rotativo, você pode usar 4 Pontos de Ação [[-1 ações][-1 ações][-1 ações][-1 ações]] para assumir a sua forma bestial a qual sua linhagem pertence, recebendo 50 Pontos de Vida adicionais, e [-1 ações]1 em todos os atributos.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Transformação Divina",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000a3b631cc"
+}

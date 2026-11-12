@@ -1,0 +1,214 @@
+{
+  "_id": "8acb720b81104c1d",
+  "name": "Corte de Papel",
+  "type": "spell",
+  "folder": "e1acf6123955f1a0",
+  "sort": 100000,
+  "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/leque-de-ferro.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-corte-de-papel",
+    "level": 1,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 3,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "",
+      "units": "inst",
+      "expiry": null,
+      "special": "",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "",
+      "units": "touch",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "",
+        "size": "",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Leque</td></tr><tr><th>Técnica</th><td>1º Grau</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Toque</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Leque</td></tr><tr><th>Requisito do quadro</th><td>Citara</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você balança seu leque com velocidade e precisão em um ângulo perfeito, permitindo que você possa cortar através de materiais bem resistentes. Você tem margem de acerto crítico 19-20 com essa técnica.</p><h3>Observações</h3><p>O quadro traz Citara como requisito; foi corrigido para Leque, conforme a categoria e a descrição.</p>"
+    },
+    "activities": {
+      "04ec1680d2c87948": {
+        "_id": "04ec1680d2c87948",
+        "type": "attack",
+        "name": "Corte de Papel",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/leque-de-ferro.webp",
+        "activation": {
+          "type": "action",
+          "value": 3,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Leque</td></tr><tr><th>Técnica</th><td>1º Grau</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Toque</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Leque</td></tr><tr><th>Requisito do quadro</th><td>Citara</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você balança seu leque com velocidade e precisão em um ângulo perfeito, permitindo que você possa cortar através de materiais bem resistentes. Você tem margem de acerto crítico 19-20 com essa técnica.</p><h3>Observações</h3><p>O quadro traz Citara como requisito; foi corrigido para Leque, conforme a categoria e a descrição.</p>",
+          "chatFlavor": "Corte de Papel"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "touch",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "corte-de-papel",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": false
+            }
+          }
+        },
+        "attack": {
+          "ability": "spellcasting",
+          "bonus": "",
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "spell"
+          },
+          "critical": {
+            "threshold": 19
+          }
+        },
+        "damage": {
+          "includeBase": false,
+          "critical": {
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "types": [
+                "slashing"
+              ],
+              "custom": {
+                "enabled": true,
+                "formula": "12"
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": []
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "corte-de-papel",
+        "category": "leque",
+        "grade": 1,
+        "auxiliary": false,
+        "weapon": "Leque",
+        "qi": 2,
+        "actions": 3,
+        "reaction": false,
+        "combinedAttack": true,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Instantâneo",
+            "range": "Toque",
+            "requirements": "Citara",
+            "damage": "12 de dano Cortante",
+            "combinedAttack": true
+          }
+        },
+        "manualResolution": [],
+        "sourceCorrections": [
+          "O quadro traz Citara como requisito; foi corrigido para Leque, conforme a categoria e a descrição."
+        ]
+      }
+    }
+  },
+  "_key": "!items!8acb720b81104c1d"
+}

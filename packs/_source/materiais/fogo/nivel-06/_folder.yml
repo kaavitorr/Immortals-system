@@ -1,0 +1,13 @@
+_id: 630a5b3acfd6562c
+_key: '!folders!630a5b3acfd6562c'
+name: Nível 6
+type: Item
+folder: 1d29bf4920c1b673
+sorting: a
+sort: 600000
+color: '#85473f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: fogo
+      level: 6

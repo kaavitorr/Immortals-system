@@ -1,0 +1,225 @@
+{
+  "_id": "ab90b8ce15efb73a",
+  "name": "Talismã Explosivo",
+  "type": "consumable",
+  "folder": "1a1dfff59dd402d3",
+  "img": "systems/Immortals-system/assets/wuxia/talismas-pintados-v1/talisma-explosivo.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-talisma-explosivo",
+    "type": {
+      "value": "scroll"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>TALISMÃ EXPLOSIVO</h3>\n<table><tbody><tr><td>Tipo: Ataque</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 16</td></tr></tbody></table>\n<p>Um talismã que pode ser atirado em uma direção a sua escolha com duas ações [2 ações], criando uma explosão no alcance de uma esfera de 12 metros de raio, causando 12 de dano para cada nível do símbolo. Todas as criaturas dentro do alcance devem realizar uma Salvaguarda de Agilidade. Uma falha na salvaguarda causa o dano total; um sucesso causa metade do dano. Metade do dano é Contundente e a outra metade é Fogo.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>200% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Declarar ativação, alvos, área e duração conforme a descrição; resolver os efeitos táticos com o mestre. A explosão causa todo o dano na falha de Reflexo e metade no sucesso. A fonte não fornece CD da salvaguarda: confirme a CD com o narrador antes de resolvê-la; a atividade conserva o cálculo nativo padrão.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 300 PO. <strong>Venda por unidade:</strong> 600 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"talisma-explosivo:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/b05766a030fd0655.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"b05766a030fd0655\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.b05766a030fd0655\">Junco das Fibras Renascidas</a><small>fibra do suporte</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/3524349f316feae3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"3524349f316feae3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.3524349f316feae3\">Coração de Lagarto do Disco Solar</a><small>essência de calor</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/581c23844115c319.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"581c23844115c319\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.581c23844115c319\">Sal da Chama Mansa</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>300 PO</strong></footer></section>"
+    },
+    "activities": {
+      "838a39ebdb3219f9": {
+        "_id": "838a39ebdb3219f9",
+        "type": "save",
+        "name": "Liberar explosão",
+        "activation": {
+          "type": "action",
+          "value": 2,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>TALISMÃ EXPLOSIVO</h3>\n<table><tbody><tr><td>Tipo: Ataque</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 16</td></tr></tbody></table>\n<p>Um talismã que pode ser atirado em uma direção a sua escolha com duas ações [2 ações], criando uma explosão no alcance de uma esfera de 12 metros de raio, causando 12 de dano para cada nível do símbolo. Todas as criaturas dentro do alcance devem realizar uma Salvaguarda de Agilidade. Uma falha na salvaguarda causa o dano total; um sucesso causa metade do dano. Metade do dano é Contundente e a outra metade é Fogo.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>200% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Declarar ativação, alvos, área e duração conforme a descrição; resolver os efeitos táticos com o mestre. A explosão causa todo o dano na falha de Reflexo e metade no sucesso. A fonte não fornece CD da salvaguarda: confirme a CD com o narrador antes de resolvê-la; a atividade conserva o cálculo nativo padrão.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 300 PO. <strong>Venda por unidade:</strong> 600 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"talisma-explosivo:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/b05766a030fd0655.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"b05766a030fd0655\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.b05766a030fd0655\">Junco das Fibras Renascidas</a><small>fibra do suporte</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/3524349f316feae3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"3524349f316feae3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.3524349f316feae3\">Coração de Lagarto do Disco Solar</a><small>essência de calor</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/581c23844115c319.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"581c23844115c319\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.581c23844115c319\">Sal da Chama Mansa</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>300 PO</strong></footer></section>",
+          "chatFlavor": "Talismã Explosivo — Liberar explosão"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "spec",
+          "special": "Alcance não especificado na fonte; resolva com o narrador.",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "radius",
+            "size": "12",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "talisma-explosivo",
+              "key": "release",
+              "level": 1,
+              "quality": null,
+              "manualResolution": false,
+              "consumeItem": true,
+              "rule": "explosiveTalisman",
+              "save": "dex",
+              "saveLabel": "Reflexo",
+              "manualSaveDifficulty": true
+            }
+          }
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "bonus": "",
+          "dc": {
+            "calculation": "initial",
+            "formula": ""
+          },
+          "visible": true
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "types": [
+                "bludgeoning"
+              ],
+              "custom": {
+                "enabled": true,
+                "formula": "6"
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            },
+            {
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "types": [
+                "fire"
+              ],
+              "custom": {
+                "enabled": true,
+                "formula": "6"
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": [],
+        "img": "systems/Immortals-system/assets/wuxia/talismas-pintados-v1/talisma-explosivo.webp"
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "price": {
+      "value": 600,
+      "denomination": "gp"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "talisma-explosivo",
+        "kind": "talisman",
+        "profession": "inscriptions",
+        "level": 1,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 1,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 3000,
+          "materials": 500,
+          "currency": "gp",
+          "rank": null
+        },
+        "creationPercent": 300,
+        "salePercent": 200,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 300,
+          "currency": "gp",
+          "rank": null
+        },
+        "sale": {
+          "amount": 600,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceCreation": {
+          "amount": 1500,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceSale": {
+          "amount": 3000,
+          "currency": "gp",
+          "rank": null
+        }
+      },
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Declarar ativação, alvos, área e duração conforme a descrição; resolver os efeitos táticos com o mestre.",
+          "A explosão causa todo o dano na falha de Reflexo e metade no sucesso. A fonte não fornece CD da salvaguarda: confirme a CD com o narrador antes de resolvê-la; a atividade conserva o cálculo nativo padrão."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!ab90b8ce15efb73a"
+}

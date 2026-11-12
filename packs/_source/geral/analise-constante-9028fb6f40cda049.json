@@ -1,0 +1,134 @@
+{
+  "_id": "9028fb6f40cda049",
+  "name": "Análise Constante",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/analise-constante.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-analise-constante",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo da Alma.</p><h2>Análise Constante</h2><p><strong>Requisito:</strong> 4º Revolução</p><p>Sua sensibilidade à alma e ao Qi é superior à de outras criaturas. Ao gastar 2 Pontos de Ação [2 ações] e 5 PQ, você pode escolher uma criatura no campo de batalha e analisá-la continuamente. Sempre que essa criatura estiver abaixo de você na ordem de Iniciativa, você recebe 2 vantagens contra ela. Esse efeito dura 1 minuto.</p><p><strong>Resolução:</strong> Marque a criatura escolhida e aplique duas vantagens apenas enquanto ela estiver abaixo na iniciativa.</p>"
+    },
+    "activities": {
+      "5d0f1c7a5eafb594": {
+        "_id": "5d0f1c7a5eafb594",
+        "type": "utility",
+        "name": "Análise Constante",
+        "activation": {
+          "type": "action",
+          "value": 2,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "5",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo da Alma.</p><h2>Análise Constante</h2><p><strong>Requisito:</strong> 4º Revolução</p><p>Sua sensibilidade à alma e ao Qi é superior à de outras criaturas. Ao gastar 2 Pontos de Ação [2 ações] e 5 PQ, você pode escolher uma criatura no campo de batalha e analisá-la continuamente. Sempre que essa criatura estiver abaixo de você na ordem de Iniciativa, você recebe 2 vantagens contra ela. Esse efeito dura 1 minuto.</p><p><strong>Resolução:</strong> Marque a criatura escolhida e aplique duas vantagens apenas enquanto ela estiver abaixo na iniciativa.</p>",
+          "chatFlavor": "Análise Constante — Análise Constante"
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "spec",
+          "special": "O texto não especifica alcance.",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "analise-constante",
+              "key": "analyze",
+              "manualResolution": true,
+              "rule": "constantAnalysis",
+              "advantages": 2,
+              "requiresLowerTargetInitiative": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Análise Constante",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/analise-constante.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "analise-constante",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo da Alma",
+        "requisitos": [
+          "4º Revolução"
+        ],
+        "requirementRules": {
+          "type": "soul",
+          "min": 5
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "Marque a criatura escolhida e aplique duas vantagens apenas enquanto ela estiver abaixo na iniciativa."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!9028fb6f40cda049"
+}

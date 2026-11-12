@@ -1,0 +1,110 @@
+_id: 32cfff658c023831
+type: feat
+effects:
+  - _id: 818409b908e0c4a6
+    name: Mordida Transformadora
+    transfer: true
+    disabled: false
+    system:
+      changes:
+        - key: system.legacy2.resistances.soul.immune
+          value: true
+          priority: 20
+          type: override
+    img: icons/svg/aura.svg
+    type: base
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _key: '!items.effects!32cfff658c023831.818409b908e0c4a6'
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:144
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 32cfff658c023831
+name: Mordida Transformadora
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢⬢⬢⬢</strong></p><p>Ao gastar 10 PQ, a criatura pode realizar um ataque de mordida contra um
+      alvo inconsciente, injetando seu Qi virulento nele. O alvo tem seu corpo transformado pela natureza da habilidade.
+      No caso do Drenador, sofre 1d8 de dano de Energia por rodada sob a luz do sol, recebe imunidade a dano de Alma e
+      só pode se alimentar de sangue, além de ser suscetível às ordens do Drenador. No caso do Usurpador, torna-se um
+      receptáculo perfeito para ele, que pode ocupar o corpo do alvo enquanto ele estiver vivo e usar todas as suas
+      habilidades.</p>
+    chat: ''
+  identifier: mordida-transformadora
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    854a83660b1baa3f:
+      _id: 854a83660b1baa3f
+      type: utility
+      name: Mordida Transformadora
+      activation:
+        type: action
+        value: 6
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '10'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 10 PQ, a criatura pode realizar um ataque de mordida contra um alvo inconsciente, injetando seu
+          Qi virulento nele. O alvo tem seu corpo transformado pela natureza da habilidade. No caso do Drenador, sofre
+          1d8 de dano de Energia por rodada sob a luz do sol, recebe imunidade a dano de Alma e só pode se alimentar de
+          sangue, além de ser suscetível às ordens do Drenador. No caso do Usurpador, torna-se um receptáculo perfeito
+          para ele, que pode ocupar o corpo do alvo enquanto ele estiver vivo e usar todas as suas habilidades.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 12
+  prerequisites:
+    items: []
+    level: 12
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/mordida-transformadora-32cfff658c023831.webp"
+_key: '!items!32cfff658c023831'

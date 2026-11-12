@@ -1,0 +1,52 @@
+{{!-- Modal de Cultivo Passivo: escolha de fichas ao passar dias (peq-dialog.mjs) --}}
+<div class="peq-dialog">
+
+  {{!-- Resumo: dias + zona de Qi vigente --}}
+  <div class="peq-summary">
+    <div class="peq-days">
+      <svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21C3 17 2 10 3 5c5 0 8 3 9 7 1-4 4-7 9-7 1 5 0 12-9 16Z"/><path d="M12 12v9"/></svg>
+      <span><strong>{{days}}</strong> {{#if (eq days 1)}}dia de cultivo{{else}}dias de cultivo{{/if}}</span>
+    </div>
+    <div class="peq-zone">
+      <svg class="cult-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21C3 17 2 10 3 5c5 0 8 3 9 7 1-4 4-7 9-7 1 5 0 12-9 16Z"/><path d="M12 12v9"/></svg>
+      <span class="peq-zone-name">{{zone.label}}</span>
+      <span class="peq-zone-limit">{{zone.limitLabel}} PEQ/dia</span>
+      {{#if zone.mods}}<span class="peq-zone-mods">{{zone.mods}}</span>{{/if}}
+    </div>
+  </div>
+
+  <p class="peq-hint">Selecione quais fichas de jogador cultivaram durante esse período.</p>
+
+  {{!-- Atalho "Todos" --}}
+  <label class="peq-row peq-todos">
+    <input type="checkbox" name="peqTodos" {{#if selectAll}}checked{{/if}}> 
+    <span class="peq-todos-box"><strong>Todos</strong> — todas as fichas de jogador</span>
+  </label>
+
+  {{!-- Uma checkbox por ficha de jogador --}}
+  <div class="peq-list">
+    {{#each actors as |a|}}
+    <label class="peq-row {{#unless a.canGain}}no-gain{{/unless}}" {{#if a.canGain}}data-tooltip="Cultivar {{a.projected}} PEQ em {{../days}} dia(s)"{{/if}}>
+      <input type="checkbox" name="peqActor" value="{{a.id}}" {{#if a.selected}}checked{{/if}} {{#unless a.canGain}}disabled{{/unless}}>
+      <img class="peq-avatar" src="{{a.img}}" alt="{{a.name}}">
+      <span class="peq-name">{{a.name}}
+        <em class="peq-sub">{{a.gainPerDayLabel}}/dia</em>
+        {{#if a.timeSummary}}<em class="peq-sub">{{a.timeSummary}}</em>{{/if}}
+        {{#if a.crystalSummary}}<em class="peq-sub peq-crystal-summary">{{a.crystalSummary}}</em>{{/if}}
+      </span>
+      <span class="peq-gain">
+        {{#if a.canGain}}
+          <strong>+{{a.projected}} PEQ</strong>
+          <em class="peq-sub">{{a.current}} → {{a.newEssence}} / {{a.essGoal}}</em>
+        {{else}}
+          <em class="peq-sub">{{a.reason}}</em>
+        {{/if}}
+      </span>
+    </label>
+    {{/each}}
+    {{#unless actors.length}}
+    <p class="peq-empty">Nenhuma ficha de jogador encontrada no mundo.</p>
+    {{/unless}}
+  </div>
+
+</div>

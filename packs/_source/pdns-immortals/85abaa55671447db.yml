@@ -1,0 +1,73 @@
+_id: 85abaa55671447db
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:124
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 85abaa55671447db
+name: Grito Estridente
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p>Uma vez por rodada, a criatura pode emitir um grito estridente no lugar do seu ataque, causando o dano do seu
+      ataque padrão a todas as criaturas em um alcance de 10 metros. Você ainda faz uma jogada de ataque, usando uma
+      única rolagem contra todas as criaturas.</p>
+    chat: ''
+  identifier: grito-estridente
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    90eea80caeda67d6:
+      _id: 90eea80caeda67d6
+      type: utility
+      name: Grito Estridente
+      activation:
+        type: action
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Uma vez por rodada, a criatura pode emitir um grito estridente no lugar do seu ataque, causando o dano do
+          seu ataque padrão a todas as criaturas em um alcance de 10 metros. Você ainda faz uma jogada de ataque, usando
+          uma única rolagem contra todas as criaturas.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/grito-estridente-85abaa55671447db.webp"
+_key: '!items!85abaa55671447db'

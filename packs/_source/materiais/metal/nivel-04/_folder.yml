@@ -1,0 +1,13 @@
+_id: 7de9db68c684280d
+_key: '!folders!7de9db68c684280d'
+name: Nível 4
+type: Item
+folder: 1e7500f1620000ec
+sorting: a
+sort: 400000
+color: '#5f6d78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: metal
+      level: 4

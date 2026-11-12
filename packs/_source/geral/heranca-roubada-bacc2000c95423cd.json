@@ -1,0 +1,86 @@
+{
+  "_id": "bacc2000c95423cd",
+  "name": "Herança Roubada",
+  "type": "feat",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/habilidades/bastardo.webp",
+  "folder": "bacc000000000002",
+  "system": {
+    "identifier": "antecedente-bastardo",
+    "type": {
+      "value": "background"
+    },
+    "description": {
+      "value": "<p>Sua mãe conseguiu levá-lo para longe logo após seu nascimento, deixando uma carta explicando sua origem, junto de um Manual de Cultivo de Rank Céu roubado de sua família.</p><p>Caso escolha integrar esse Manual de Rank Céu ao seu Manual Divino, você corre o risco de revelar sua localização sempre que utilizar suas habilidades.</p><p>Uma vez por dia, ao utilizar qualquer habilidade desse manual, exceto seu mantra de absorção de Qi, você deixa rastros de sua presença e deve rolar 1d12. Em um resultado de 8 ou menos, sua família encontra vestígios de sua existência naquele local e começa a caçá-lo.</p>"
+    },
+    "uses": {
+      "spent": 0,
+      "max": "1",
+      "recovery": [
+        {
+          "period": "day",
+          "type": "recoverAll",
+          "formula": ""
+        }
+      ]
+    },
+    "activities": {
+      "bacc400006290d20": {
+        "_id": "bacc400006290d20",
+        "type": "utility",
+        "name": "Herança Roubada",
+        "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v1/habilidades/bastardo.webp",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "Conforme as condições da característica."
+        },
+        "consumption": {
+          "spellSlot": false,
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1"
+            }
+          ]
+        },
+        "target": {
+          "affects": {
+            "type": "self"
+          },
+          "prompt": false,
+          "template": {
+            "units": "m"
+          }
+        },
+        "range": {
+          "units": "self"
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "description": {
+          "chatFlavor": "Herança Roubada",
+          "value": "<p>Sua mãe conseguiu levá-lo para longe logo após seu nascimento, deixando uma carta explicando sua origem, junto de um Manual de Cultivo de Rank Céu roubado de sua família.</p><p>Caso escolha integrar esse Manual de Rank Céu ao seu Manual Divino, você corre o risco de revelar sua localização sempre que utilizar suas habilidades.</p><p>Uma vez por dia, ao utilizar qualquer habilidade desse manual, exceto seu mantra de absorção de Qi, você deixa rastros de sua presença e deve rolar 1d12. Em um resultado de 8 ou menos, sua família encontra vestígios de sua existência naquele local e começa a caçá-lo.</p>"
+        },
+        "roll": {
+          "formula": "1d12",
+          "name": "Herança Roubada",
+          "prompt": false,
+          "visible": true
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundFeature": "bastardo",
+      "backgroundRuleVersion": 1,
+      "featureSection": "jj-origin"
+    }
+  },
+  "_key": "!items!bacc2000c95423cd"
+}

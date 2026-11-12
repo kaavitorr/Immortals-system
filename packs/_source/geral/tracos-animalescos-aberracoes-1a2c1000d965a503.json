@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000d965a503",
+  "name": "Traços Animalescos — Aberrações",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/environment/creatures/monster-tentacles-eye-purple.webp",
+  "system": {
+    "identifier": "especie-3319bcc3",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Aberrações. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c1000b88cc942": {
+        "_id": "1a2c1000b88cc942",
+        "type": "ItemChoice",
+        "title": "Duas características — Aberrações",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.CWcLbF1ejFjQp4dg"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.Aukvw64u1rmEU69Z"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Aberrações",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000d965a503"
+}

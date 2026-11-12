@@ -1,0 +1,53 @@
+_id: b781afc61b9f95ed
+_key: '!items!b781afc61b9f95ed'
+name: Pena de Pelicano Pescador de Miragens
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/b781afc61b9f95ed.webp
+system:
+  identifier: material-alquimia-b781afc61b9f95ed
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Parte de animal</p><p>Pena do pelicano que mergulha em cardumes que só ele vê e volta com o bico cheio mesmo assim. Mantida sob a língua, permite fisgar peixes de miragem por um dia.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: e3d2cfec08742040
+sort: 7900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 4
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Pena de Pelicano Pescador de Miragens
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

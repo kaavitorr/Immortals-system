@@ -1,0 +1,65 @@
+_id: repairKitSmith00
+_key: '!items!repairKitSmith00'
+name: Kit de Reparo (ferreiro)
+type: tool
+img: icons/tools/hand/hammer-backing-steel.webp
+system:
+  identifier: tool-kit-smithing
+  description:
+    value: >-
+      <p>Bolsa de couro contendo pedras de amolar e rebarbador, pequeno martelo, pequeno cadinho para liquefazer metal e
+      uma variedade de sucatas metálicas pequenas. Pode ser usada para reparar armaduras, armas e acessórios de
+      metal.</p><p><strong>Propriedades:</strong> Empilhável.</p><p><strong>Profissões e conhecimentos:</strong>
+      Ferraria.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 5
+    units: kg
+  price:
+    value: 150
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: wis
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: zKA7bUzu7rPpL2lk
+sort: 1000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: repairKitSmith00
+      sourceType: tool
+      category: crafting
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

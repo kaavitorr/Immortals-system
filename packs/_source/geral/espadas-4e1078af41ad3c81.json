@@ -1,0 +1,16 @@
+{
+  "_id": "4e1078af41ad3c81",
+  "name": "Espadas",
+  "type": "Item",
+  "folder": "c16983361c76c762",
+  "sort": 200000,
+  "sorting": "m",
+  "color": "#9bb0bf",
+  "flags": {
+    "Immortals-system": {
+      "combatManualFolder": "espadas",
+      "combatManualContentVersion": 1
+    }
+  },
+  "_key": "!folders!4e1078af41ad3c81"
+}

@@ -1,0 +1,46 @@
+_id: 840a1097e5a951d4
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:44
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 840a1097e5a951d4
+name: Morte Falsa
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: >-
+      <p>Ao perder metade dos seus Pontos de Vida, essa criatura pode se fingir de morta. No caso de um Espírito
+      Amaldiçoado, ela se desfaz parcialmente para simular sua destruição.</p><p>Em seguida, realiza um Teste de
+      Atributo de Furtividade com duas vantagens. Em caso de sucesso, seu estado de morte aparente permanece até que ela
+      realize um ataque contra outra criatura. O primeiro ataque realizado enquanto estiver nesse estado causa um acerto
+      crítico garantido.</p>
+    chat: ''
+  identifier: morte-falsa
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/morte-falsa-840a1097e5a951d4.webp"
+_key: '!items!840a1097e5a951d4'

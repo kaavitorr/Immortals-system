@@ -1,0 +1,162 @@
+{
+  "_id": "6cc0d0a70d494d53",
+  "name": "Matriz de Ilusão Assassina",
+  "type": "equipment",
+  "folder": "ded1c1d760625589",
+  "img": "systems/Immortals-system/assets/wuxia/matrizes-pintadas-v1/matriz-de-ilusao-assassina.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-matriz-de-ilusao-assassina",
+    "type": {
+      "value": "vehicle"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>MATRIZ DE ILUSÃO ASSASSINA</h3>\n<table><tbody><tr><td>Pontos de Vida: 250 PV / nível</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 20</td></tr></tbody></table>\n<p>Uma matriz capaz de conjurar criaturas no seu interior para matar qualquer um preso dentro dela. Ela consome 10 PEQ de Cristais utilizados na criação para cada criatura que a matriz conjurar para enfrentar as criaturas no seu interior. Ficando limitada a 3 criaturas por inimigo preso dentro dela. Para cada criatura acima de Condensação de Qi, a matriz consome 20 PEQ adicionais por nível.</p>\n<p>Uma matriz não pode conjurar criaturas acima do rank de um nível equivalente a matriz. Por exemplo: Uma matriz de nível 1 pode conjurar criaturas na Condensação de Qi. Enquanto isso, uma matriz de nível 4 pode conjurar criaturas no Mar Divino.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Ponto Fraco</td><td>Ao chegar ao núcleo, é possível causar o triplo de dano na matriz.</td></tr></tbody></table><p><strong>Resolução:</strong> O mestre posiciona a área e o núcleo, acompanha o combustível de PEQ, as criaturas afetadas e o ponto fraco conforme a descrição. Selecionar e criar manualmente as criaturas conjuradas, respeitando limites de Rank e PEQ. Instale e delimite a matriz junto ao narrador. Registre operadores, alvos, recursos externos e manutenção conforme a descrição; nenhum ator, cristal ou local é alterado automaticamente.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 700 PO. <strong>Venda por unidade:</strong> não definida pela fonte.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"matriz-de-ilusao-assassina:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>placa polida para os traços da matriz</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">100 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/09539c71b912fa42.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"09539c71b912fa42\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.09539c71b912fa42\">Malaquita da Nascente Esmeralda</a><small>cobre dos fios e fechos do circuito</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/f7d80b5351c60ff6.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"f7d80b5351c60ff6\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.f7d80b5351c60ff6\">Junco do Reflexo Dobrado</a><small>foco de projeção das criaturas ilusórias</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/d56996bdf756ac2f.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">3</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"d56996bdf756ac2f\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.d56996bdf756ac2f\">Grama da Lâmina Fina</a><small>componente ofensivo para as manifestações da formação</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">150 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/aada69663d799e39.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"aada69663d799e39\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.aada69663d799e39\">Orvalho da Veia Clara</a><small>Reagente · veículo de extração e mistura</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>700 PO</strong></footer><p class=\"iw-recipe-note\">Abasteça a matriz com cristais para alimentar as criaturas conjuradas. O consumo segue a operação descrita no produto.</p></section>"
+    },
+    "activities": {
+      "1d9b282b93a87d51": {
+        "_id": "1d9b282b93a87d51",
+        "type": "utility",
+        "name": "Operar matriz (resolução manual)",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>MATRIZ DE ILUSÃO ASSASSINA</h3>\n<table><tbody><tr><td>Pontos de Vida: 250 PV / nível</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 20</td></tr></tbody></table>\n<p>Uma matriz capaz de conjurar criaturas no seu interior para matar qualquer um preso dentro dela. Ela consome 10 PEQ de Cristais utilizados na criação para cada criatura que a matriz conjurar para enfrentar as criaturas no seu interior. Ficando limitada a 3 criaturas por inimigo preso dentro dela. Para cada criatura acima de Condensação de Qi, a matriz consome 20 PEQ adicionais por nível.</p>\n<p>Uma matriz não pode conjurar criaturas acima do rank de um nível equivalente a matriz. Por exemplo: Uma matriz de nível 1 pode conjurar criaturas na Condensação de Qi. Enquanto isso, uma matriz de nível 4 pode conjurar criaturas no Mar Divino.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Ponto Fraco</td><td>Ao chegar ao núcleo, é possível causar o triplo de dano na matriz.</td></tr></tbody></table><p><strong>Resolução:</strong> O mestre posiciona a área e o núcleo, acompanha o combustível de PEQ, as criaturas afetadas e o ponto fraco conforme a descrição. Selecionar e criar manualmente as criaturas conjuradas, respeitando limites de Rank e PEQ. Instale e delimite a matriz junto ao narrador. Registre operadores, alvos, recursos externos e manutenção conforme a descrição; nenhum ator, cristal ou local é alterado automaticamente.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 700 PO. <strong>Venda por unidade:</strong> não definida pela fonte.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"matriz-de-ilusao-assassina:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>placa polida para os traços da matriz</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">100 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/09539c71b912fa42.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"09539c71b912fa42\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.09539c71b912fa42\">Malaquita da Nascente Esmeralda</a><small>cobre dos fios e fechos do circuito</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/f7d80b5351c60ff6.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"f7d80b5351c60ff6\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.f7d80b5351c60ff6\">Junco do Reflexo Dobrado</a><small>foco de projeção das criaturas ilusórias</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/d56996bdf756ac2f.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">3</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"d56996bdf756ac2f\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.d56996bdf756ac2f\">Grama da Lâmina Fina</a><small>componente ofensivo para as manifestações da formação</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">150 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/aada69663d799e39.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"aada69663d799e39\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.aada69663d799e39\">Orvalho da Veia Clara</a><small>Reagente · veículo de extração e mistura</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>700 PO</strong></footer><p class=\"iw-recipe-note\">Abasteça a matriz com cristais para alimentar as criaturas conjuradas. O consumo segue a operação descrita no produto.</p></section>",
+          "chatFlavor": "Matriz de Ilusão Assassina — Operar matriz (resolução manual)"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "matriz-de-ilusao-assassina",
+              "key": "operate",
+              "level": 1,
+              "quality": null,
+              "manualResolution": true,
+              "consumeItem": false,
+              "rule": "matriz-de-ilusao-assassina",
+              "manualInstallation": true,
+              "manualGeometry": true,
+              "matrixHitPoints": 250
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Operar matriz (resolução manual)",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/matrizes-pintadas-v1/matriz-de-ilusao-assassina.webp"
+      }
+    },
+    "equipped": false,
+    "hp": {
+      "value": 250,
+      "max": 250,
+      "dt": 0,
+      "conditions": "Ao chegar ao núcleo, é possível causar o triplo de dano na matriz."
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "matriz-de-ilusao-assassina",
+        "kind": "matrix",
+        "profession": "matrices",
+        "level": 1,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 1,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 3000,
+          "materials": 500,
+          "currency": "gp",
+          "rank": null
+        },
+        "creationPercent": 1000,
+        "salePercent": null,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 700,
+          "currency": "gp",
+          "rank": null
+        },
+        "sale": null,
+        "referenceCreation": {
+          "amount": 5000,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceSale": null
+      },
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "O mestre posiciona a área e o núcleo, acompanha o combustível de PEQ, as criaturas afetadas e o ponto fraco conforme a descrição.",
+          "Selecionar e criar manualmente as criaturas conjuradas, respeitando limites de Rank e PEQ.",
+          "Instale e delimite a matriz junto ao narrador. Registre operadores, alvos, recursos externos e manutenção conforme a descrição; nenhum ator, cristal ou local é alterado automaticamente."
+        ],
+        "pending": [],
+        "weakPoint": "Ao chegar ao núcleo, é possível causar o triplo de dano na matriz.",
+        "hpPerLevel": 250
+      }
+    }
+  },
+  "_key": "!items!6cc0d0a70d494d53"
+}

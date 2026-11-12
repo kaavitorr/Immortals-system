@@ -1,0 +1,128 @@
+{
+  "_id": "030153e5e74eca5d",
+  "name": "Evasão de Contra-Ataque",
+  "type": "feat",
+  "folder": "d2652f7aa9b40d98",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/evasao-de-contra-ataque.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-evasao-de-contra-ataque",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Combate Veloz.</p><h2>Evasão de Contra-Ataque</h2><p><strong>Requisito:</strong> Dispersar força</p><p>Uma vez por turno de cada criatura, quando ela errar uma Rolagem de Ataque corpo a corpo, seja Comum ou de Técnica, que tenha você como alvo, você pode, como Reação, realizar uma Rolagem de Ataque Comum contra ela com seu Custo de Ação reduzido em 1 Ponto de Ação [1 ação].</p><p>Cada ataque realizado dessa forma consome 1 PE.</p><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado.</p><p><strong>Pendente:</strong> O custo de 1 PE por contra-ataque usa sigla ainda não esclarecida; não converter para Qi ou PA por suposição. Confirme a reserva de 1 PE por contra-ataque.</p>"
+    },
+    "activities": {
+      "7a08fee047d4c0a0": {
+        "_id": "7a08fee047d4c0a0",
+        "type": "utility",
+        "name": "Evasão de Contra-Ataque",
+        "activation": {
+          "type": "reaction",
+          "value": 0,
+          "condition": "Uma vez por turno de cada criatura, quando ela errar um ataque corpo a corpo contra você.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Combate Veloz.</p><h2>Evasão de Contra-Ataque</h2><p><strong>Requisito:</strong> Dispersar força</p><p>Uma vez por turno de cada criatura, quando ela errar uma Rolagem de Ataque corpo a corpo, seja Comum ou de Técnica, que tenha você como alvo, você pode, como Reação, realizar uma Rolagem de Ataque Comum contra ela com seu Custo de Ação reduzido em 1 Ponto de Ação [1 ação].</p><p>Cada ataque realizado dessa forma consome 1 PE.</p><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado.</p><p><strong>Pendente:</strong> O custo de 1 PE por contra-ataque usa sigla ainda não esclarecida; não converter para Qi ou PA por suposição. Confirme a reserva de 1 PE por contra-ataque.</p><p><strong>Custo pendente — uso bloqueado:</strong> O custo de 1 PE ainda não tem reserva confirmada.</p>",
+          "chatFlavor": "Evasão de Contra-Ataque — Evasão de Contra-Ataque"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "spec",
+          "special": "O texto não especifica alcance.",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "evasao-de-contra-ataque",
+              "key": "counterattack",
+              "manualResolution": true,
+              "rule": "counterattack",
+              "actionReduction": 1,
+              "oncePerCreatureTurn": true,
+              "pendingCost": "O custo de 1 PE ainda não tem reserva confirmada."
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Evasão de Contra-Ataque",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/evasao-de-contra-ataque.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "evasao-de-contra-ataque",
+        "categoria": "Adaptação Física",
+        "caminho": "Combate Veloz",
+        "requisitos": [
+          "Dispersar Força"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "dispersar-forca"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado."
+        ],
+        "pending": [
+          "O custo de 1 PE por contra-ataque usa sigla ainda não esclarecida; não converter para Qi ou PA por suposição.",
+          "Confirme a reserva de 1 PE por contra-ataque."
+        ]
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!030153e5e74eca5d"
+}

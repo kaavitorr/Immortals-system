@@ -1,0 +1,53 @@
+_id: 4b38f9a9108ff367
+_key: '!items!4b38f9a9108ff367'
+name: Chifre de Qilin Flamejante
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/4b38f9a9108ff367.webp
+system:
+  identifier: material-alquimia-4b38f9a9108ff367
+  description:
+    value: <p><strong>Elemento:</strong> Fogo · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Parte de animal</p><p>O qilin de crinas em brasa deixa lascas do chifre ao atravessar campos queimados. Queimadas com incenso, atraem a bênção das Leis do fogo.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: b11cdf05c43b394b
+sort: 13200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: fogo
+      elementLabel: Fogo
+      level: 7
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/fogo.json
+        originalName: Chifre de Qilin Flamejante
+        sha256: ba1a23c0b606945bb3806834a346654c7369238959758f3d2c8d2c74258f92bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

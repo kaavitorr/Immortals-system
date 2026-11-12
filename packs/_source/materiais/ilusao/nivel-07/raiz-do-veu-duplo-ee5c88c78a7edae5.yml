@@ -1,0 +1,53 @@
+_id: ee5c88c78a7edae5
+_key: '!items!ee5c88c78a7edae5'
+name: Raiz do Véu Duplo
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/ee5c88c78a7edae5.webp
+system:
+  identifier: material-alquimia-ee5c88c78a7edae5
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Planta</p><p>Tubérculo de casca dupla que, descascado, revela outra casca idêntica por dentro, camada após camada. Ralada em vinho de arroz, a raiz gera uma pasta que dá à voz um timbre alheio.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f8640645ab59d7b9
+sort: 12200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 7
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Raiz do Véu Duplo
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

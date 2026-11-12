@@ -1,0 +1,41 @@
+name: Sentido de Tremor
+type: feat
+folder: D8Yrqg8ddiUXg3Yv
+system:
+  description:
+    value: <p>A criatura sente qualquer criatura tocando o chão em um alcance de 10 metros + 2 metros vezes o ND dela.</p>
+    chat: ''
+  identifier: sentido-de-tremor
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: RmElvfZbwnmiumF5
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/sentido-de-tremor-RmElvfZbwnmiumF5.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:sentidodetremor:5a39b2d4bda2
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: RmElvfZbwnmiumF5
+_key: '!items!RmElvfZbwnmiumF5'

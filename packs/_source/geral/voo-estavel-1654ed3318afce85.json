@@ -1,0 +1,152 @@
+{
+  "_id": "1654ed3318afce85",
+  "name": "Voo Estável",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/voo-estavel.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-voo-estavel",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Habilidades Básicas.</p><h2>Voo Estável</h2><p><strong>Requisito:</strong> Mar Divino e Levitação de Qi</p><p>Você passa a poder voar com maestria, consumindo 1 Ponto de Qi na ativação e mais 1 Ponto de Qi por rodada para receber deslocamento de voo igual seu deslocamento padrão.</p><p>Fora de combate, você dobra seu deslocamento e consome apenas 1 Ponto de Qi a cada 5 minutos.</p><p><strong>Resolução:</strong> Aplique voo igual ao deslocamento padrão; fora de combate, dobre o deslocamento e acompanhe a manutenção de 5 minutos.</p>"
+    },
+    "activities": {
+      "d40b716fa5869d43": {
+        "_id": "d40b716fa5869d43",
+        "type": "utility",
+        "name": "Voo Estável",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Habilidades Básicas.</p><h2>Voo Estável</h2><p><strong>Requisito:</strong> Mar Divino e Levitação de Qi</p><p>Você passa a poder voar com maestria, consumindo 1 Ponto de Qi na ativação e mais 1 Ponto de Qi por rodada para receber deslocamento de voo igual seu deslocamento padrão.</p><p>Fora de combate, você dobra seu deslocamento e consome apenas 1 Ponto de Qi a cada 5 minutos.</p><p><strong>Resolução:</strong> Aplique voo igual ao deslocamento padrão; fora de combate, dobre o deslocamento e acompanhe a manutenção de 5 minutos.</p>",
+          "chatFlavor": "Voo Estável — Voo Estável"
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "expiry": null,
+          "special": "Em combate, 1 Qi por rodada; fora dele, 1 Qi a cada 5 minutos.",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "voo-estavel",
+              "key": "fly",
+              "manualResolution": true,
+              "rule": "stableFlight",
+              "flightEqualsWalking": true,
+              "outOfCombatMovementMultiplier": 2,
+              "outOfCombatPeriodSeconds": 300,
+              "upkeepQi": 1
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Voo Estável",
+          "visible": false,
+          "prompt": false
+        },
+        "constantCost": {
+          "enabled": true,
+          "value": "1",
+          "pool": "generated",
+          "concentration": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/voo-estavel.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "voo-estavel",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Habilidades Básicas",
+        "requisitos": [
+          "Mar Divino",
+          "Levitação de Qi"
+        ],
+        "requirementRules": {
+          "type": "and",
+          "rules": [
+            {
+              "type": "rank",
+              "min": 4
+            },
+            {
+              "type": "node",
+              "id": "levitacao-de-qi"
+            }
+          ]
+        },
+        "basic": true
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "Aplique voo igual ao deslocamento padrão; fora de combate, dobre o deslocamento e acompanhe a manutenção de 5 minutos."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!1654ed3318afce85"
+}

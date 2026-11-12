@@ -1,0 +1,72 @@
+_id: 7c4887f815cc4103
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:115
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 7c4887f815cc4103
+name: Golpe Aterrador
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢ [adicionais]</strong></p><p>Durante um ataque, essa criatura avança até 5 metros antes de
+      desferir seu golpe com uma Força tremenda. O alvo deve realizar uma Salvaguarda de Vontade para não receber a
+      condição “Atordoado”.</p>
+    chat: ''
+  identifier: golpe-aterrador
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    782766704bd2e67a:
+      _id: 782766704bd2e67a
+      type: utility
+      name: Golpe Aterrador
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Durante um ataque, essa criatura avança até 5 metros antes de desferir seu golpe com uma Força tremenda. O
+          alvo deve realizar uma Salvaguarda de Vontade para não receber a condição “Atordoado”.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 13
+  prerequisites:
+    items: []
+    level: 13
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/golpe-aterrador-7c4887f815cc4103.webp"
+_key: '!items!7c4887f815cc4103'

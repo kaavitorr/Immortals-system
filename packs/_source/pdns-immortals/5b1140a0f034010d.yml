@@ -1,0 +1,89 @@
+_id: 5b1140a0f034010d
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:125
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 5b1140a0f034010d
+name: Grito Psíquico
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢⬢⬢</strong></p><p>A criatura emite um grito que libera uma onda mental, debilitando todas as
+      criaturas dentro do alcance e causando-lhes uma dor de cabeça lancinante. Todas as criaturas afetadas devem
+      realizar uma Salvaguarda de Fortitude para não sofrerem 1d4 de dano Psíquico para cada ND dessa criatura e
+      receberem a condição “Alucinado”. Se obtiverem sucesso, sofrem apenas metade do dano.</p>
+    chat: ''
+  identifier: grito-psiquico
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    2bd69cddc8de827a:
+      _id: 2bd69cddc8de827a
+      type: save
+      name: Grito Psíquico
+      activation:
+        type: action
+        value: 5
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura emite um grito que libera uma onda mental, debilitando todas as criaturas dentro do alcance e
+          causando-lhes uma dor de cabeça lancinante. Todas as criaturas afetadas devem realizar uma Salvaguarda de
+          Fortitude para não sofrerem 1d4 de dano Psíquico para cada ND dessa criatura e receberem a condição
+          “Alucinado”. Se obtiverem sucesso, sofrem apenas metade do dano.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: creature
+        prompt: true
+        override: true
+      save:
+        ability:
+          - str
+        dc:
+          calculation: ''
+          formula: 10 + @npcPrincipal
+      damage:
+        onSave: half
+        parts:
+          - custom:
+              enabled: true
+              formula: (@legacy2.nd)d4
+            types:
+              - psychic
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/grito-psiquico-5b1140a0f034010d.webp"
+_key: '!items!5b1140a0f034010d'

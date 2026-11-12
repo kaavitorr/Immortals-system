@@ -1,0 +1,15 @@
+{
+  "_id": "1ac79c99963d80c7",
+  "name": "Talentos de Qi",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "color": "#bb9e57",
+  "flags": {
+    "Immortals-system": {
+      "qiTalentsFolder": "root",
+      "qiTalentsContentVersion": 1
+    }
+  },
+  "_key": "!folders!1ac79c99963d80c7"
+}

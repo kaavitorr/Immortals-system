@@ -1,0 +1,147 @@
+name: Aves do Renascimento
+type: taxonomy
+folder: DRQX6MB3WXaJwNh0
+system:
+  description:
+    value: >-
+      <p>Aves espirituais cujo corpo é formado por chamas vivas. Sua existência está ligada ao fogo, à renovação da vida
+      e ao renascimento a partir das próprias cinzas.</p><p>Raridade: Extremamente Raro.</p><p>Afinidade: Fogo
+      (Inicial).</p><p><strong>Resistência:</strong> Fogo +10; Físicos +3.</p><p><strong>Vulnerabilidade:</strong> Frio
+      −6; Alma −5.</p><p><strong>Deslocamento:</strong> Caminhada 6 m; voo 12 m.</p><p><strong>Armaduras:</strong>
+      Armadura Elemental (10 + Intelecto).</p><p><strong>Perícias:</strong> Controle de Qi, Percepção, Sobrevivência e
+      Coordenação.</p><p><strong>Salvaguardas:</strong> Vontade e Reflexo.</p><p><strong>Aspectos:</strong> Corpo de
+      Chamas, Asas Incandescentes, Nutrição Ígnea, Brasa do Renascimento.</p><p><strong>Habilidades:</strong> Chamas
+      Restauradoras.</p><p><strong>Ataques comuns:</strong> Bicada (Perfurante), garras (Cortante) e toque de chamas
+      (Fogo).</p>
+    chat: ''
+  identifier: aves-do-renascimento
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  pesos:
+    str: 1
+    dex: 3
+    con: 3
+    int: 1
+    wis: 2
+    cha: 2
+  resistencias:
+    bludgeoning:
+      value: 3
+      immune: false
+    piercing:
+      value: 3
+      immune: false
+    slashing:
+      value: 3
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: -6
+      immune: false
+    fire:
+      value: 10
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 0
+      immune: false
+    soul:
+      value: -5
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.arc
+      - skills.prc
+      - skills.sur
+      - skills.acr
+      - saves.con
+      - saves.cha
+      - saves.dex
+      - saves.int
+    alternative:
+      - skills.arc
+      - skills.prc
+      - skills.sur
+      - skills.acr
+      - alternativeSaves.vontade
+      - alternativeSaves.reflexo
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.69b23c4522d23603
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7ecdb81e132a7408
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f892b3b3816aa9e5
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.f5a76452c8f9c962
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.92590b3e339ebaab
+      nd: 0
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000001
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000002
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000004
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnem00000000003
+  vidaEnergia: false
+  energiaBase: 10
+  movimento:
+    walk: 6
+    swim: 0
+    fly: 12
+    climb: 0
+    burrow: 0
+_id: 7aae5fac28637f7f
+img: systems/Immortals-system/assets/wuxia/ancestralidades-variantes-pintadas-v1/phoenix.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: profile:taxonomy:avesdorenascimento
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      creature: Phoenix
+_key: '!items!7aae5fac28637f7f'

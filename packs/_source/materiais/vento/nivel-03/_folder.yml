@@ -1,0 +1,13 @@
+_id: 8f2a392a07c897a3
+_key: '!folders!8f2a392a07c897a3'
+name: Nível 3
+type: Item
+folder: 1854b698d40f63ca
+sorting: a
+sort: 300000
+color: '#51766d'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: vento
+      level: 3

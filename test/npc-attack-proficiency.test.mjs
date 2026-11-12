@@ -1,0 +1,19 @@
+import assert from 'node:assert/strict';
+import {test} from 'node:test';
+import Ruleset from '../module/systems/ruleset.mjs';
+import {buildNpc2Context} from '../module/applications/actor/jj/legacy2-npc-sheet.mjs';
+const abilities=['str','dex','con','int','wis','cha'];
+globalThis.game={settings:{get:()=> '2.0'}};
+globalThis.CONFIG={JUJUTSU:{},DND5E:{abilities:Object.fromEntries(abilities.map(k=>[k,{label:k,abbreviation:k}]))}};
+const config={abilities:CONFIG.DND5E.abilities,movementTypes:{},movementUnits:{}};
+const npc=(level=1,ranks={})=>({type:'npc',items:[],itemTypes:{},system:{legacy2:{nd:String(level),armas:ranks},abilities:Object.fromEntries(abilities.map(k=>[k,{value:8}])),attributes:{hp:{value:10,max:10},movement:{}},energy:{}}});
+const weapon=(category='natural')=>({type:'weapon',system:{type:{value:category}}});
+const expected=level=>level>=16?4:level>=11?3:level>=6?2:1;
+test('NPC attacks start Trained and advance at cultivation levels 6, 11 and 16, capped at Master',()=>{for(let level=1;level<=30;level++)for(const category of ['natural','improv','simpleM','martialM','simpleR','martialR','siege']){const actor=npc(level),rank=expected(level),before=structuredClone(actor.system);assert.equal(Ruleset.armaRank(actor,weapon(category)),rank,'level '+level+' / '+category);assert.equal(Ruleset.bonusArma(actor,weapon(category)),Ruleset.rankBonus(rank));assert.deepEqual(actor.system,before);}});
+test('NPC attack techniques share the same cultivation proficiency while player techniques keep their existing rules',()=>{for(const type of ['feat','spell']){assert.equal(Ruleset.armaRank(npc(1),{type}),1);assert.equal(Ruleset.armaRank(npc(10),{type}),2);assert.equal(Ruleset.armaRank({type:'character',system:{legacy2:{nd:'30'}}},{type}),1);}});
+test('a higher manually configured NPC weapon rank is preserved without stacking with automatic progress',()=>{const actor=npc(5,{natural:4,martialR:3});assert.equal(Ruleset.armaRank(actor,weapon()),4);assert.equal(Ruleset.armaRank(actor,weapon('simpleR')),3);actor.system.legacy2.armas.natural=0;assert.equal(Ruleset.armaRank(actor,weapon()),1);actor.system.legacy2.nd='1';assert.equal(Ruleset.armaRank(actor,weapon()),1);});
+test('manual group overrides and alias choices retain their existing precedence above the NPC floor',()=>{const actor=npc(1,{simpleM:4,martialM:2}),item={...weapon('martialM'),getFlag:()=> 'simpleM'};assert.equal(Ruleset.armaRank(actor,item),4);actor.system.legacy2.nd='16';assert.equal(Ruleset.armaRank(actor,weapon('unknown')),4);});
+test('player weapons retain zero-rank penalties and never inherit NPC automatic proficiency',()=>{const actor=npc(30);actor.type='character';assert.equal(Ruleset.armaRank(actor,weapon()),0);assert.equal(Ruleset.bonusArma(actor,weapon()),-4);actor.system.legacy2.armas.natural=2;assert.equal(Ruleset.armaRank(actor,weapon()),2);});
+test('NPC weapon proficiency displayed on the sheet agrees with its attack rolls at every level',()=>{for(let level=1;level<=30;level++){const actor=npc(level),data=buildNpc2Context(actor,config,Ruleset,{});for(const group of data.armas){const rank=Ruleset.armaRank(actor,weapon(group.key));assert.equal(group.rank,rank);assert.equal(group.bonus,Ruleset.rankBonus(rank));assert.equal(group.rankLabel,Ruleset.rankLabel(rank));}}});
+
+test('all weapon groups use the explicit cultivation boundaries including zero and levels above twenty',()=>{for(const [level,rank]of [[0,1],[1,1],[5,1],[6,2],[10,2],[11,3],[15,3],[16,4],[20,4],[21,4],[30,4]])for(const category of ['natural','improv','simpleM','martialM','simpleR','martialR','siege']){const actor=npc(level),data=buildNpc2Context(actor,config,Ruleset,{});assert.equal(Ruleset.armaRank(actor,weapon(category)),rank,level+' / '+category);const group=data.armas.find(g=>g.key===category);if(group)assert.equal(group.rank,rank);}});

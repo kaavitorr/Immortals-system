@@ -1,0 +1,66 @@
+_id: dressClothing000
+_key: '!items!dressClothing000'
+name: Roupas de Gala
+type: equipment
+img: icons/equipment/chest/robe-layered-red.webp
+system:
+  identifier: clothing-dress
+  description:
+    value: >-
+      <p>Um conjunto régio de finas vestimentas próprio para celebrações e funções da alta sociedade; inclui sobretudo
+      ou vestido, lenço ou gravata, camisa fina ou espartilho, colete ou corpete, calças ou anágua, cinto ou tirantes,
+      meias e sapatos finos.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 2
+    units: kg
+  price:
+    value: 60
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: clothing
+    baseItem: ''
+  armor:
+    value: 0
+    dex: null
+    ability: ''
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: D03SIA37tnsn3qBB
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: dressClothing000
+      sourceType: armor
+      category: unarmored
+      quality: standard
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: false
+      manualEffects: []

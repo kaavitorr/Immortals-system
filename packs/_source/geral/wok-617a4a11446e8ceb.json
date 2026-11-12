@@ -1,0 +1,16 @@
+{
+  "_id": "617a4a11446e8ceb",
+  "name": "Wok",
+  "type": "Item",
+  "folder": "c16983361c76c762",
+  "sort": 1000000,
+  "sorting": "m",
+  "color": "#9bb0bf",
+  "flags": {
+    "Immortals-system": {
+      "combatManualFolder": "wok",
+      "combatManualContentVersion": 1
+    }
+  },
+  "_key": "!folders!617a4a11446e8ceb"
+}

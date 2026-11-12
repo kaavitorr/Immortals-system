@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000bd21105c",
+  "name": "Traços Animalescos — Gigantes",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+  "system": {
+    "identifier": "especie-0f42f41c",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Gigantes. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c10003df11798": {
+        "_id": "1a2c10003df11798",
+        "type": "ItemChoice",
+        "title": "Duas características — Gigantes",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.cd0e609a62dfc187"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.e8e6385db1e732ce"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Gigantes",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000bd21105c"
+}

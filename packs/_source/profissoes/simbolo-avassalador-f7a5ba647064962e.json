@@ -1,0 +1,197 @@
+{
+  "_id": "f7a5ba647064962e",
+  "name": "Símbolo Avassalador",
+  "type": "equipment",
+  "folder": "0ba3fd64495066b2",
+  "img": "systems/Immortals-system/assets/wuxia/inscricoes-pintadas-v1/simbolo-avassalador.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-simbolo-avassalador",
+    "type": {
+      "value": "wondrous"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 2.</p><h3>SÍMBOLO AVASSALADOR</h3>\n<table><tbody><tr><td>Tipo: Arma</td><td>Nível: 2 a 10</td><td>Classe de Dificuldade: 14</td></tr></tbody></table>\n<p>Um símbolo que quando colocado em uma arma, aumenta seu dano em um passo e concede uma habilidade única com as seguintes características:</p>\n<p>Violent Strike (4 Pontos de Qi): Ao usar duas ações [2 ações], você avança na direção 3 metros na direção de uma criatura inimiga antes de desferir um golpe devastador contra o alvo, causando 42de dano Contundente, Cortante ou Perfurante, dependendo da arma. A criatura deve realizar uma Salvaguarda de Constituição para não receber a condição “Sangramento”.</p>\n<p>Você pode gastar 1 Ponto de Qi para adicionar 6 de dano até um máximo de 54 de dano.</p>\n<p>A cada nível seguinte, você aumenta o limite de dano do “Violent Strike” em 2 Pontos de Qi.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>200% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar esta inscrição ao suporte ou criatura indicado; vincular a habilidade e suas limitações ao alvo escolhido. Aplique à arma o aumento de um passo de dano. Para Violent Strike, escolha o dano físico da arma, avance 3 metros e confirme com o narrador o acerto e a salvaguarda de Fortitude contra Sangramento.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 1.800 PO. <strong>Venda por unidade:</strong> 3.600 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"simbolo-avassalador:2:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 2</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-02/cec26b12fcf9993c.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"cec26b12fcf9993c\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.cec26b12fcf9993c\">Jade da Raiz Funda</a><small>carga mineral da runa</small></div><span class=\"iw-recipe-price\" title=\"450 PO por unidade\">450 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/ec37d52d065a1419.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"ec37d52d065a1419\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.ec37d52d065a1419\">Chifre de Búfalo das Raízes Profundas</a><small>vigor do golpe</small></div><span class=\"iw-recipe-price\" title=\"300 PO por unidade\">600 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/def5ab7449fbad6c.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"def5ab7449fbad6c\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.def5ab7449fbad6c\">Carapaça de Caranguejo-Faca</a><small>potência do corte</small></div><span class=\"iw-recipe-price\" title=\"300 PO por unidade\">600 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-02/e297c2832c3f65ec.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"e297c2832c3f65ec\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.e297c2832c3f65ec\">Pó de Calcita Serena</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"150 PO por unidade\">150 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>1.800 PO</strong></footer></section>"
+    },
+    "activities": {
+      "5f94a602f81ef9c6": {
+        "_id": "5f94a602f81ef9c6",
+        "type": "damage",
+        "name": "Violent Strike",
+        "activation": {
+          "type": "action",
+          "value": 2,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": true,
+            "max": "2"
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "4",
+              "scaling": {
+                "mode": "amount",
+                "formula": "1"
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 2.</p><h3>SÍMBOLO AVASSALADOR</h3>\n<table><tbody><tr><td>Tipo: Arma</td><td>Nível: 2 a 10</td><td>Classe de Dificuldade: 14</td></tr></tbody></table>\n<p>Um símbolo que quando colocado em uma arma, aumenta seu dano em um passo e concede uma habilidade única com as seguintes características:</p>\n<p>Violent Strike (4 Pontos de Qi): Ao usar duas ações [2 ações], você avança na direção 3 metros na direção de uma criatura inimiga antes de desferir um golpe devastador contra o alvo, causando 42de dano Contundente, Cortante ou Perfurante, dependendo da arma. A criatura deve realizar uma Salvaguarda de Constituição para não receber a condição “Sangramento”.</p>\n<p>Você pode gastar 1 Ponto de Qi para adicionar 6 de dano até um máximo de 54 de dano.</p>\n<p>A cada nível seguinte, você aumenta o limite de dano do “Violent Strike” em 2 Pontos de Qi.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>200% do valor de criação.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar esta inscrição ao suporte ou criatura indicado; vincular a habilidade e suas limitações ao alvo escolhido. Aplique à arma o aumento de um passo de dano. Para Violent Strike, escolha o dano físico da arma, avance 3 metros e confirme com o narrador o acerto e a salvaguarda de Fortitude contra Sangramento.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 1.800 PO. <strong>Venda por unidade:</strong> 3.600 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"simbolo-avassalador:2:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 2</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-02/cec26b12fcf9993c.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"cec26b12fcf9993c\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.cec26b12fcf9993c\">Jade da Raiz Funda</a><small>carga mineral da runa</small></div><span class=\"iw-recipe-price\" title=\"450 PO por unidade\">450 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/ec37d52d065a1419.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"ec37d52d065a1419\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.ec37d52d065a1419\">Chifre de Búfalo das Raízes Profundas</a><small>vigor do golpe</small></div><span class=\"iw-recipe-price\" title=\"300 PO por unidade\">600 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/def5ab7449fbad6c.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"def5ab7449fbad6c\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.def5ab7449fbad6c\">Carapaça de Caranguejo-Faca</a><small>potência do corte</small></div><span class=\"iw-recipe-price\" title=\"300 PO por unidade\">600 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-02/e297c2832c3f65ec.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"e297c2832c3f65ec\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.e297c2832c3f65ec\">Pó de Calcita Serena</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"150 PO por unidade\">150 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>1.800 PO</strong></footer></section>",
+          "chatFlavor": "Símbolo Avassalador — Violent Strike"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "spec",
+          "special": "Alcance não especificado na fonte; resolva com o narrador.",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "simbolo-avassalador",
+              "key": "strike",
+              "level": 2,
+              "quality": null,
+              "manualResolution": false,
+              "consumeItem": false,
+              "rule": "violentStrike",
+              "requiresAppliedWeapon": true,
+              "advanceMeters": 3,
+              "maximumAdditionalQi": 2,
+              "manualSave": "Fortitude (Constituição); CD não fornecida pela fonte.",
+              "condition": "bleeding"
+            }
+          }
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "types": [
+                "bludgeoning",
+                "slashing",
+                "piercing"
+              ],
+              "custom": {
+                "enabled": true,
+                "formula": "42"
+              },
+              "scaling": {
+                "mode": "whole",
+                "number": 0,
+                "formula": "6"
+              }
+            }
+          ]
+        },
+        "img": "systems/Immortals-system/assets/wuxia/inscricoes-pintadas-v1/simbolo-avassalador.webp"
+      }
+    },
+    "equipped": false,
+    "price": {
+      "value": 3600,
+      "denomination": "gp"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "simbolo-avassalador",
+        "kind": "inscription",
+        "profession": "inscriptions",
+        "level": 2,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 2,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 15000,
+          "materials": 1500,
+          "currency": "gp",
+          "rank": null
+        },
+        "creationPercent": 100,
+        "salePercent": 200,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 1800,
+          "currency": "gp",
+          "rank": null
+        },
+        "sale": {
+          "amount": 3600,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceCreation": {
+          "amount": 1500,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceSale": {
+          "amount": 3000,
+          "currency": "gp",
+          "rank": null
+        }
+      },
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Aplicar esta inscrição ao suporte ou criatura indicado; vincular a habilidade e suas limitações ao alvo escolhido.",
+          "Aplique à arma o aumento de um passo de dano. Para Violent Strike, escolha o dano físico da arma, avance 3 metros e confirme com o narrador o acerto e a salvaguarda de Fortitude contra Sangramento."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!f7a5ba647064962e"
+}

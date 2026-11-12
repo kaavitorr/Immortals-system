@@ -1,0 +1,27 @@
+{
+  "_id": "1a2c100049f766a7",
+  "name": "Tigre Branco",
+  "type": "feat",
+  "folder": "1a2c000000000003",
+  "img": "systems/Immortals-system/assets/wuxia/ancestralidades-variantes-pintadas-v1/tigre-branco.webp",
+  "system": {
+    "identifier": "especie-757b42e7",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>São criaturas majestosas que emitem uma enorme quantidade de Sede de Sangue e são capazes de alcançar velocidades extremas.</p><p>Raridade: Muito Raro.</p><p>Afinidade: Terra (Inicial) e Metal (Intermediário)</p><p>Característica Única: Recebe resistência 5 a dano Cortante, Perfurante e Contundente e provenientes de Qi de Terra e Metal (Não pode ser ignorado); e recebe 6 metros de deslocamento adicionais durante o combate ou dobra seu deslocamento fora dele.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Tigre Branco",
+      "speciesLineage": true,
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c100049f766a7"
+}

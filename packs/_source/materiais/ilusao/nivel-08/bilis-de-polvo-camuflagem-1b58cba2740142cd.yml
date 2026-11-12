@@ -1,0 +1,53 @@
+_id: 1b58cba2740142cd
+_key: '!items!1b58cba2740142cd'
+name: Secreção Digestiva de Polvo-Camuflagem
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/1b58cba2740142cd.webp
+system:
+  identifier: material-alquimia-1b58cba2740142cd
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Parte de animal</p><p>Secreção digestiva do polvo que, quando velho, imita ilhas inteiras e faz barcos encalharem em costas que não existem. Uma gota apaga um rosto de qualquer retrato por um ano.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 2a998700f944fbd5
+sort: 15300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 8
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Bílis de Polvo-Camuflagem
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

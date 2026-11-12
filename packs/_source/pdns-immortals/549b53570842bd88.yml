@@ -1,0 +1,79 @@
+_id: 549b53570842bd88
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:141
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 549b53570842bd88
+name: Medo Instilado
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢</strong></p><p>Ao gastar 4 PQ, essa criatura começa a liberar uma onda de terror que afeta
+      todos a 5 metros dela. Toda criatura que iniciar ou terminar o turno dentro do alcance deve realizar uma
+      Salvaguarda de Vontade para não receber a condição “Amedrontado” até o fim do próximo turno da criatura
+      afetada.</p>
+    chat: ''
+  identifier: medo-instilado
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    ea7415aa63d1465f:
+      _id: ea7415aa63d1465f
+      type: utility
+      name: Medo Instilado
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '4'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 4 PQ, essa criatura começa a liberar uma onda de terror que afeta todos a 5 metros dela. Toda
+          criatura que iniciar ou terminar o turno dentro do alcance deve realizar uma Salvaguarda de Vontade para não
+          receber a condição “Amedrontado” até o fim do próximo turno da criatura afetada.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 14
+  prerequisites:
+    items: []
+    level: 14
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/medo-instilado-549b53570842bd88.webp"
+_key: '!items!549b53570842bd88'

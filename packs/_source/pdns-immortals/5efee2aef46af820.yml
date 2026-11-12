@@ -1,0 +1,43 @@
+_id: 5efee2aef46af820
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:46
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 5efee2aef46af820
+name: Presença Aterradora
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: >-
+      <p>Qualquer criatura com valor de Presença inferior a 3 + 1 para cada Categoria de Tamanho dessa criatura recebe
+      uma desvantagem ao atacá-la.</p>
+    chat: ''
+  identifier: presenca-aterradora
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 10
+  prerequisites:
+    items: []
+    level: 10
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/presenca-aterradora-5efee2aef46af820.webp"
+_key: '!items!5efee2aef46af820'

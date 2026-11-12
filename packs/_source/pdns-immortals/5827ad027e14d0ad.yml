@@ -1,0 +1,76 @@
+_id: 5827ad027e14d0ad
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:78
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 5827ad027e14d0ad
+name: Canalização Elemental
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p>Ao usar 2 Pontos de Qi por rodada, essa criatura muda seu tipo de dano para o elemento com o qual está
+      sintonizada e causa dano adicional igual ao seu atributo principal.</p>
+    chat: ''
+  identifier: canalizacao-elemental
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    2208a3c5dc5e0817:
+      _id: 2208a3c5dc5e0817
+      type: utility
+      name: Canalização Elemental
+      activation:
+        type: action
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao usar 2 Pontos de Qi por rodada, essa criatura muda seu tipo de dano para o elemento com o qual está
+          sintonizada e causa dano adicional igual ao seu atributo principal.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 8
+  prerequisites:
+    items: []
+    level: 8
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/canalizacao-elemental-5827ad027e14d0ad.webp"
+_key: '!items!5827ad027e14d0ad'

@@ -1,0 +1,27 @@
+{
+  "_id": "1a2c10000932125c",
+  "name": "Pássaro Roc",
+  "type": "feat",
+  "folder": "1a2c000000000003",
+  "img": "systems/Immortals-system/assets/wuxia/ancestralidades-variantes-pintadas-v1/passaro-roc.webp",
+  "system": {
+    "identifier": "especie-f6d03f9c",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>São pássaros extremamente poderosos que podem tomar proporções imensas quando em sua forma adulta. Eles são ditos terem a capacidade de furar o vazio. Só pode ser adquirido com permissão do Narrador.</p><p>Raridade: Extremamente Raro.</p><p>Afinidade: Vento (Inicial) e Espaço (Avançado)</p><p>Característica Única: Você recebe 2 níveis no elemento Vento e Espaço, desde que seja um Cultivador; e 18 metros de deslocamento de voo.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Pássaro Roc",
+      "speciesLineage": true,
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c10000932125c"
+}

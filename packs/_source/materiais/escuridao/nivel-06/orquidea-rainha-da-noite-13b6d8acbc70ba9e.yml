@@ -1,0 +1,53 @@
+_id: 13b6d8acbc70ba9e
+_key: '!items!13b6d8acbc70ba9e'
+name: Orquídea Rainha da Noite
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/13b6d8acbc70ba9e.webp
+system:
+  identifier: material-alquimia-13b6d8acbc70ba9e
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Planta</p><p>Preside as grutas profundas com pétalas largas e negras, eretas como coroa. Seu pólen guardado em vidro escuro serve de catalisador para pílulas de ocultamento de alto grau.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: fca2badbc7e83ef3
+sort: 10200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 6
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Orquídea Rainha da Noite
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

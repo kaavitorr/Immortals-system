@@ -1,0 +1,68 @@
+_id: bagOfHolding0000
+_key: '!items!bagOfHolding0000'
+name: Bolsa de Guardar
+type: equipment
+img: icons/containers/bags/pack-leather-gold-pink.webp
+system:
+  identifier: bag-of-holding
+  description:
+    value: >-
+      <p>Esta bolsa primorosamente trabalhada ostenta ornamentação elaborada que deixa claro não ser um bornal comum.
+      Enquanto <strong>Equipada</strong> e <strong>Vinculada</strong>, sua capacidade de carga é
+      triplicada.</p><p><strong>Propriedades:</strong> Vinculação.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 5
+    units: kg
+  price:
+    value: 100
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - mgc
+  equipped: false
+  attunement: required
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: clothing
+    baseItem: ''
+  armor:
+    value: 0
+    dex: null
+    ability: ''
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: GVbpo5LtAY44QZPD
+sort: 600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: bagOfHolding0000
+      sourceType: accessory
+      category: clothing
+      quality: superior
+      enchantment: major
+      properties:
+        - investment
+      weaponDamagePending: false
+      manualEffects: []

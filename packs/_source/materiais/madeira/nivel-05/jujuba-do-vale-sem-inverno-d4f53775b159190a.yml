@@ -1,0 +1,53 @@
+_id: d4f53775b159190a
+_key: '!items!d4f53775b159190a'
+name: Jujuba do Vale Sem Inverno
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/d4f53775b159190a.webp
+system:
+  identifier: material-alquimia-d4f53775b159190a
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 5 · <strong>Categoria:</strong> Planta</p><p>Jujubas cor de sangue seco, colhidas no vale onde o inverno nunca entra. Comidas cruas, engrossam o sangue fino e aquecem meridianos frios.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-earth
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 062371395dde880c
+sort: 8600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 5
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Jujuba do Vale Sem Inverno
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 5
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

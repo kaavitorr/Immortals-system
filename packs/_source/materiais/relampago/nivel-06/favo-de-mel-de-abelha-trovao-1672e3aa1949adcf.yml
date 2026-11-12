@@ -1,0 +1,53 @@
+_id: 1672e3aa1949adcf
+_key: '!items!1672e3aa1949adcf'
+name: Favo de Mel de Abelha-Trovão
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/1672e3aa1949adcf.webp
+system:
+  identifier: material-alquimia-1672e3aa1949adcf
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Parte de animal</p><p>Abelhas escuras que fazem colmeia só em troncos fulminados; o mel estala doce na língua. Uma colherada apressa a recuperação dos meridianos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d0f20b3f759ae3b5
+sort: 11800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 6
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Favo de Mel de Abelha-Trovão
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

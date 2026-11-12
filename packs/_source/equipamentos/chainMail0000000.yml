@@ -1,0 +1,69 @@
+_id: chainMail0000000
+_key: '!items!chainMail0000000'
+name: Armadura Flexível Pesada
+type: equipment
+img: systems/Immortals-system/assets/wuxia/armaduras-heroicas-pintadas-v2/armadura-flexivel-pesada.webp
+system:
+  identifier: chain-mail
+  description:
+    value: >-
+      <p>Camadas de lâminas articuladas e tecido espesso oferecem uma proteção robusta e flexível.</p><p><strong>Classe
+      de Resistência:</strong> 12 + Agilidade (máximo +4).</p><p>Usa o valor de Agilidade, até +4, substituindo a defesa
+      sem armadura.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 40
+    units: kg
+  price:
+    value: 3200
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties:
+    - stealthDisadvantage
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: heavy
+    baseItem: ''
+  armor:
+    value: 12
+    dex: 4
+    ability: dex
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: amO0X74IO8uQIox5
+sort: 100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: chainMail0000000
+      sourceType: armor
+      category: heavy
+      quality: standard
+      enchantment: mundane
+      properties:
+        - noisy
+      weaponDamagePending: false
+      manualEffects: []
+    flexibleArmorVersion: 1

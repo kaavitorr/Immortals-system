@@ -1,0 +1,53 @@
+_id: 0c12716bfdbf4c6e
+_key: '!items!0c12716bfdbf4c6e'
+name: Noz de Casca Cristalina
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/0c12716bfdbf4c6e.webp
+system:
+  identifier: material-alquimia-0c12716bfdbf4c6e
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>Amadurece em nogueiras que absorvem Qi de cavernas glaciais por raízes muito profundas. A casca forma planos transparentes ao redor de uma amêndoa ainda viva; esse equilíbrio permite concentrar essência fria protegendo os ingredientes mais sensíveis da fórmula.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 01a43186322c8bd2
+sort: 2800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Noz de Casca Cristalina
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

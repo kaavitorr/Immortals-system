@@ -1,0 +1,13 @@
+_id: b5d3a52fba9a7d34
+_key: '!folders!b5d3a52fba9a7d34'
+name: Nível 6
+type: Item
+folder: 1854b698d40f63ca
+sorting: a
+sort: 600000
+color: '#51766d'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: vento
+      level: 6

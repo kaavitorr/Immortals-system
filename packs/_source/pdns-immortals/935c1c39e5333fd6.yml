@@ -1,0 +1,71 @@
+_id: 935c1c39e5333fd6
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:120
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 935c1c39e5333fd6
+name: Golpe Giratório
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ [adicional]</strong></p><p>A criatura faz seu ataque atingir uma área em leque de 3 metros à
+      sua frente, usando a mesma rolagem de acerto contra todas as criaturas nessa área.</p>
+    chat: ''
+  identifier: golpe-giratorio
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    32e26413441056c4:
+      _id: 32e26413441056c4
+      type: utility
+      name: Golpe Giratório
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura faz seu ataque atingir uma área em leque de 3 metros à sua frente, usando a mesma rolagem de
+          acerto contra todas as criaturas nessa área.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 5
+  prerequisites:
+    items: []
+    level: 5
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/golpe-giratorio-935c1c39e5333fd6.webp"
+_key: '!items!935c1c39e5333fd6'

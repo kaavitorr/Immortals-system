@@ -1,0 +1,53 @@
+_id: 04d1c6c4058260ad
+_key: '!items!04d1c6c4058260ad'
+name: Cedro das Forjas Cantantes
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/04d1c6c4058260ad.webp
+system:
+  identifier: material-alquimia-04d1c6c4058260ad
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Planta</p><p>Tronco que soa notas graves quando golpeado, plantado onde forjas naturais respiram pelos flancos da montanha. A serragem em incenso acalma ferreiros exaustos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 7de9db68c684280d
+sort: 6900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 4
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Cedro das Forjas Cantantes
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

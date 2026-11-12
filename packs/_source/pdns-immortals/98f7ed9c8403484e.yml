@@ -1,0 +1,43 @@
+_id: 98f7ed9c8403484e
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:53
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 98f7ed9c8403484e
+name: Silenciosa
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: >-
+      <p>Essa criatura não emite nenhum som ao se mover ou atacar, recebendo sempre duas vantagens em Testes de Atributo
+      de Furtividade. Sua fala pode ser ouvida apenas pela pessoa que ela deseja que a ouça.</p>
+    chat: ''
+  identifier: silenciosa
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/silenciosa-98f7ed9c8403484e.webp"
+_key: '!items!98f7ed9c8403484e'

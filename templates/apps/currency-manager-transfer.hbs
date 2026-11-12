@@ -1,0 +1,32 @@
+<section class="tab {{ tab.cssClass }}" data-group="primary" data-tab="transfer">
+    <section class="currency iw-transfer-currency">
+        <div class="iw-transfer-shortcuts">
+            <button type="button" data-action="setAll">{{ localize "DND5E.CurrencyManager.Transfer.All" }}</button>
+            <button type="button" data-action="setHalf">{{ localize "DND5E.CurrencyManager.Transfer.Half" }}</button>
+        </div>
+        <div class="iw-transfer-amounts">
+        {{#each currency}}
+        <label class="iw-transfer-coin" data-denomination="{{ @key }}">
+            {{#with (lookup @root.CONFIG.visibleCurrencies @key) as |currency|}}
+            <span class="iw-transfer-label" title="{{ localize currency.label }}">{{#if (and currency.icon (eq currency.exchangeGroup "coins"))}}<img class="iw-currency-art" src="{{currency.icon}}" alt="" aria-hidden="true" width="20" height="20">{{else}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9 9h6v6H9Z"/></svg>{{/if}}<strong>{{ localize currency.abbreviation }}</strong><small>{{#if currency.shortLabel}}{{localize currency.shortLabel}}{{else}}{{localize currency.label}}{{/if}}</small></span>
+            {{/with}}
+            {{ numberInput null name=(concat "amount." @key) step=1 }}
+        </label>
+        {{/each}}
+        </div>
+    </section>
+    <div class="destinations">
+        {{#each destinations}}
+        <label>
+            <dnd5e-checkbox name="destination.{{ doc.id }}"></dnd5e-checkbox>
+            {{{ icon }}} {{ doc.name }}
+        </label>
+        {{else}}
+        <p class="no-destinations">{{ localize "DND5E.Award.NoDestinations" }}</p>
+        {{/each}}
+    </div>
+    <button type="submit" name="transfer" disabled>
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h16m-4-4 4 4-4 4M20 16H4m4-4-4 4 4 4"/></svg>
+        {{ localize "DND5E.CurrencyManager.Transfer.Action" }}
+    </button>
+</section>

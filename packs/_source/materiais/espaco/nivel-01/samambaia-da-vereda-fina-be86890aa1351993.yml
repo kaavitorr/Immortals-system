@@ -1,0 +1,53 @@
+_id: be86890aa1351993
+_key: '!items!be86890aa1351993'
+name: Samambaia da Vereda Fina
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/be86890aa1351993.webp
+system:
+  identifier: material-alquimia-be86890aa1351993
+  description:
+    value: <p><strong>Elemento:</strong> Espaço · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Planta</p><p>Desenrola suas frondes nas bordas de veios de Qi espacial tão estreitos que apenas suas raízes conseguem segui-los. Os folíolos preservam pequenas continuidades entre segmentos separados, auxiliando a união de essências delicadas em preparados de afinidade com o espaço.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 200
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 75c9a20464353a4b
+sort: 700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: espaco
+      elementLabel: Espaço
+      level: 1
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/espaco.json
+        originalName: Samambaia da Vereda Fina
+        sha256: e7d0006d3bc5b8eb4685c982cf4dd46c83df9af6d2f53fcd8b56c8b83060db26
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

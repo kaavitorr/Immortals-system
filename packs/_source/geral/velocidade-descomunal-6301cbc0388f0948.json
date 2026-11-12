@@ -1,0 +1,53 @@
+{
+  "_id": "6301cbc0388f0948",
+  "name": "Velocidade Descomunal",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/velocidade-descomunal.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-velocidade-descomunal",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo do Corpo.</p><h2>Velocidade Descomunal</h2><p><strong>Requisito:</strong> 3º Portão</p><p>Ao executar uma Técnica corpo a corpo ou à distância, você pode escolher aparecer instantaneamente no limite de seu alcance ao final da execução.</p><p>No caso de Técnicas de Toque, você aparece ao lado do alvo, podendo se deslocar até 10 metros no 1º Grau, com 5 metros adicionais para cada Grau acima do primeiro.</p><p><strong>Resolução:</strong> Escolha o destino e mova o token após a técnica; não crie um novo ataque ou destino automático.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "velocidade-descomunal",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo do Corpo",
+        "requisitos": [
+          "3º Portão"
+        ],
+        "requirementRules": {
+          "type": "body",
+          "min": 5
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "techniqueReposition",
+            "at": "techniqueEnd",
+            "destination": "rangeLimit",
+            "touchBaseMeters": 10,
+            "touchMetersPerGradeAboveFirst": 5
+          }
+        ],
+        "manual": [
+          "Escolha o destino e mova o token após a técnica; não crie um novo ataque ou destino automático."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!6301cbc0388f0948"
+}

@@ -1,0 +1,13 @@
+_id: 59ff80df0ece44e5
+_key: '!folders!59ff80df0ece44e5'
+name: Nível 3
+type: Item
+folder: b1a27ea1b8406500
+sorting: a
+sort: 300000
+color: '#3c414c'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: escuridao
+      level: 3

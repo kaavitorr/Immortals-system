@@ -1,0 +1,13 @@
+_id: d9cd7058efa0c0df
+_key: '!folders!d9cd7058efa0c0df'
+name: Nível 7
+type: Item
+folder: 57c7cfa4d7a2235f
+sorting: a
+sort: 700000
+color: '#445674'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: espaco
+      level: 7

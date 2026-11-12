@@ -1,0 +1,53 @@
+_id: 0a3e1fb577f7c3db
+_key: '!items!0a3e1fb577f7c3db'
+name: Peônia do Casco Negro
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/0a3e1fb577f7c3db.webp
+system:
+  identifier: material-alquimia-0a3e1fb577f7c3db
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Planta</p><p>Abre pétalas cor de ferro sombrio nas margens de lagos abissais onde Xuanwu dorme. O chá dessas pétalas endurece a pele como um casco, mantendo-a escura como a noite.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: c928a293515d0c69
+sort: 14400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 8
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Peônia do Casco Negro
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

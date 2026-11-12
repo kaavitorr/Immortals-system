@@ -1,0 +1,78 @@
+_id: 2dca33a3b776bc32
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:155
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 2dca33a3b776bc32
+name: Prisão de Gelo
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢</strong></p><p>Ao gastar 5 PQ, você pode criar um ar gélido que congela rapidamente o corpo
+      de uma criatura a até 10 metros + 1 metro por ND. O alvo recebe a condição “Congelado” ao falhar em uma
+      Salvaguarda de Fortitude. A condição dura até o fim do próximo turno dele.</p>
+    chat: ''
+  identifier: prisao-de-gelo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    66f1f2f7d144c587:
+      _id: 66f1f2f7d144c587
+      type: utility
+      name: Prisão de Gelo
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '5'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 5 PQ, você pode criar um ar gélido que congela rapidamente o corpo de uma criatura a até 10
+          metros + 1 metro por ND. O alvo recebe a condição “Congelado” ao falhar em uma Salvaguarda de Fortitude. A
+          condição dura até o fim do próximo turno dele.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 7
+  prerequisites:
+    items: []
+    level: 7
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/prisao-de-gelo-2dca33a3b776bc32.webp"
+_key: '!items!2dca33a3b776bc32'

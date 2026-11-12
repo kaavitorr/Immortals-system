@@ -1,0 +1,12 @@
+_id: e1730b8d2dbc7697
+_key: '!folders!e1730b8d2dbc7697'
+name: Luz
+type: Item
+folder: null
+sorting: m
+sort: 900000
+color: '#806d3f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: luz

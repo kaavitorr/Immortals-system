@@ -1,0 +1,53 @@
+_id: 46eb2b117e56190a
+_key: '!items!46eb2b117e56190a'
+name: Núcleo de Dragão do Vazio
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/46eb2b117e56190a.webp
+system:
+  identifier: material-alquimia-46eb2b117e56190a
+  description:
+    value: <p><strong>Elemento:</strong> Espaço · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Parte de animal</p><p>Núcleo negro-estrelado do dragão que nada no vazio entre as estrelas distantes. Guardado como tesouro supremo, é o cerne das pílulas de passagem entre mundos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 200
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 9f6fb71207910da6
+sort: 15300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: espaco
+      elementLabel: Espaço
+      level: 8
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/espaco.json
+        originalName: Núcleo de Dragão do Vazio
+        sha256: e7d0006d3bc5b8eb4685c982cf4dd46c83df9af6d2f53fcd8b56c8b83060db26
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

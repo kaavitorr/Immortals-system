@@ -1,0 +1,53 @@
+_id: f8f0108f662a3d20
+_key: '!items!f8f0108f662a3d20'
+name: Orquídea da Forja Natural
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/f8f0108f662a3d20.webp
+system:
+  identifier: material-alquimia-f8f0108f662a3d20
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Planta</p><p>Só cresce nas grutas onde o chão canta como bigorna e o ar tem gosto de minério. Sua essência prepara o corpo para longas horas de forja.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 7de9db68c684280d
+sort: 6500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 4
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Orquídea da Forja Natural
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

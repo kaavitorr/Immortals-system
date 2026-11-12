@@ -1,0 +1,13 @@
+_id: 7633a1c049da1357
+_key: '!folders!7633a1c049da1357'
+name: Nível 2
+type: Item
+folder: 1e7500f1620000ec
+sorting: a
+sort: 200000
+color: '#5f6d78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: metal
+      level: 2

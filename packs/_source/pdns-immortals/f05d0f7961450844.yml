@@ -1,0 +1,82 @@
+name: Enlace Dracônico
+type: feat
+folder: b4cdf08eea2c07d5
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢</p><p>A criatura envolve um alvo com o corpo ou a cauda, prendendo seus movimentos
+      enquanto o comprime. Ao gastar 1 Ponto de Ação [⬢] e 2 PQ, a criatura realiza um ataque contra o alvo para tentar
+      prende-lo com sua cauda. Em caso de acerto, o alvo recebe a condição &quot;Agarrado&quot; e pode ser arrastado
+      pela criatura.</p>
+    chat: ''
+  identifier: enlace-draconico
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    6cdf3420b397fcc8:
+      _id: 6cdf3420b397fcc8
+      type: utility
+      name: Enlace Dracônico
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>A criatura envolve um alvo com o corpo ou a cauda, prendendo seus movimentos enquanto o comprime. Ao gastar
+          1 Ponto de Ação [⬢] e 2 PQ, a criatura realiza um ataque contra o alvo para tentar prende-lo com sua cauda. Em
+          caso de acerto, o alvo recebe a condição &quot;Agarrado&quot; e pode ser arrastado pela criatura.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: f05d0f7961450844
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/enrolar-69fce788d9d15b15.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:enlacedraconico
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Soberano Elemental
+_key: '!items!f05d0f7961450844'

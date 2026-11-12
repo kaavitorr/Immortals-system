@@ -1,0 +1,62 @@
+_id: lanternOil000000
+_key: '!items!lanternOil000000'
+name: Óleo de Lanterna
+type: loot
+img: icons/consumables/drinks/water-jug-clay-brown.webp
+system:
+  identifier: lantern-oil
+  description:
+    value: >-
+      <p>Um frasco pequeno de óleo combustível refinado. Uma unidade de Óleo de Lanterna é consumida para acender uma
+      @UUID[Compendium.Immortals-system.equipamentos.Item.lantern000000000]{Lanterna}; a duração da chama depende da
+      qualidade do óleo:</p><ul><li><p><strong>Precário</strong> - 1 hora</p></li><li><p><strong>Padrão</strong> - 4
+      horas</p></li><li><p><strong>Fino</strong> - 12 horas</p></li><li><p><strong>Superior</strong> - 24
+      horas</p></li><li><p><strong>Obra-Prima</strong> - 48 horas</p></li></ul><p><strong>Propriedades:</strong>
+      Empilhável.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 1
+    units: kg
+  price:
+    value: 10
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: material
+effects: []
+folder: enNNOtkze4LoJXgw
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: lanternOil000000
+      sourceType: loot
+      category: ingredient
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

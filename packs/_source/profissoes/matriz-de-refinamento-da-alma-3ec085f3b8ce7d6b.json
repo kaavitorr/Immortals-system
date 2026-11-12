@@ -1,0 +1,80 @@
+{
+  "_id": "3ec085f3b8ce7d6b",
+  "name": "Matriz de Refinamento da Alma",
+  "type": "equipment",
+  "folder": "ded1c1d760625589",
+  "img": "systems/Immortals-system/assets/wuxia/matrizes-pintadas-v1/matriz-de-refinamento-da-alma.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-matriz-de-refinamento-da-alma",
+    "type": {
+      "value": "vehicle"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 1.</p><h3>MATRIZ DE REFINAMENTO DA ALMA</h3>\n<table><tbody><tr><td>Pontos de Vida: 100 PV / nível</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 25</td></tr></tbody></table>\n<p>Uma matriz extremamente poderosa que serve para refinar a alma, causando danos constantes aos dois enquanto estimula a regeneração dos mesmos.</p>\n<p>Efeito Pendente</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Ponto Fraco</td><td>Nenhum</td></tr></tbody></table><p><strong>Resolução:</strong> O mestre posiciona a área e o núcleo, acompanha o combustível de PEQ, as criaturas afetadas e o ponto fraco conforme a descrição.</p><p><strong>Pendente:</strong> Efeito Pendente na fonte: o efeito de refinamento ainda não foi definido pelo autor. Efeito Pendente — a fonte ainda não define o refinamento; nenhuma atividade de ativação é criada.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 550 PO. <strong>Venda por unidade:</strong> não definida pela fonte.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"matriz-de-refinamento-da-alma:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/7715d948683061e3.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"7715d948683061e3\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.7715d948683061e3\">Nefrita do Bambual Vivo</a><small>placa polida para os traços da matriz</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">100 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/f7d80b5351c60ff6.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"f7d80b5351c60ff6\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.f7d80b5351c60ff6\">Junco do Reflexo Dobrado</a><small>foco de imagens e estímulos da percepção</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/2545ca420e6f0d6c.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"2545ca420e6f0d6c\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.2545ca420e6f0d6c\">Casulo do Bicho-da-Seda Dourado-Palha</a><small>afinidade de lucidez, proteção ou restauração espiritual</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/aada69663d799e39.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"aada69663d799e39\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.aada69663d799e39\">Orvalho da Veia Clara</a><small>Reagente · veículo de extração e mistura</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>550 PO</strong></footer><p class=\"iw-recipe-note\">O efeito desta matriz depende de definição do mestre; consulte a descrição antes da criação.</p></section>"
+    },
+    "activities": {},
+    "equipped": false,
+    "hp": {
+      "value": 100,
+      "max": 100,
+      "dt": 0,
+      "conditions": "Nenhum"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "matriz-de-refinamento-da-alma",
+        "kind": "matrix",
+        "profession": "matrices",
+        "level": 1,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 1,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 3000,
+          "materials": 500,
+          "currency": "gp",
+          "rank": null
+        },
+        "creationPercent": 25000,
+        "salePercent": null,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 550,
+          "currency": "gp",
+          "rank": null
+        },
+        "sale": null,
+        "referenceCreation": {
+          "amount": 125000,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceSale": null
+      },
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "O mestre posiciona a área e o núcleo, acompanha o combustível de PEQ, as criaturas afetadas e o ponto fraco conforme a descrição."
+        ],
+        "pending": [
+          "Efeito Pendente na fonte: o efeito de refinamento ainda não foi definido pelo autor.",
+          "Efeito Pendente — a fonte ainda não define o refinamento; nenhuma atividade de ativação é criada."
+        ],
+        "weakPoint": "Nenhum",
+        "hpPerLevel": 100
+      }
+    }
+  },
+  "_key": "!items!3ec085f3b8ce7d6b"
+}

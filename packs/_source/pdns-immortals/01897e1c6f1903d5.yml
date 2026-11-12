@@ -1,0 +1,72 @@
+_id: 01897e1c6f1903d5
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:179
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 01897e1c6f1903d5
+name: Agarrão Reativo
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Quando uma criatura engajada tentar sair do seu alcance, você pode
+      realizar uma jogada de ataque de Atletismo contra o valor de Força dela. Em caso de sucesso, a criatura é
+      agarrada.</p>
+    chat: ''
+  identifier: agarrao-reativo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    fc223c2d4b4bdadb:
+      _id: fc223c2d4b4bdadb
+      type: utility
+      name: Agarrão Reativo
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Quando uma criatura engajada tentar sair do seu alcance, você pode realizar uma jogada de ataque de
+          Atletismo contra o valor de Força dela. Em caso de sucesso, a criatura é agarrada.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 1
+  prerequisites:
+    items: []
+    level: 1
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/agarrao-reativo-01897e1c6f1903d5.webp"
+_key: '!items!01897e1c6f1903d5'

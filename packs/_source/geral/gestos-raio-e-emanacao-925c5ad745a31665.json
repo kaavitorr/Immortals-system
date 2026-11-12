@@ -1,0 +1,589 @@
+{
+  "_id": "925c5ad745a31665",
+  "name": "Gestos: Raio e Emanação",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-raio-e-emanacao.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-gestos-raio-e-emanacao",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Raio e Emanação</h2><p><strong>Requisito:</strong> Gestos: Cone e Leque</p><p>Você aprende a utilizar os gestos de Raio e Emanação na ativação de suas Técnicas, modificando seu alcance. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Raio: Você lança sua Técnica dentro do alcance de Linha, fazendo com que ela atinja uma área ao redor do ponto de impacto. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li><li>Emanação: Você faz com que sua Técnica atinja toda a área ao seu redor. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Raio (metros)</th><th>Emanação</th></tr><tr><td>1º Manifestação</td><td>15 de Linha e 5 de Raio</td><td>5 metros</td></tr><tr><td>2º Manifestação</td><td>25 de Linha e 10 de Raio</td><td>10 metros</td></tr><tr><td>3º Manifestação</td><td>35 de Linha e 15 de Raio</td><td>15 metros</td></tr></tbody></table><p>Caso a técnica modificada seja uma “Flecha” e tenha uma condição, você paga 3 PQ adicionais para modifica-la para o modelo de Leque ou Cone. Os gestos só funcionam em técnicas que causam dano e/ou condições negativas.</p><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p><p><strong>Pendente:</strong> A última frase cita Leque ou Cone, embora este talento trate de Raio e Emanação; confirmar a referência antes de automatizar a sobretaxa de 3 PQ.</p>"
+    },
+    "activities": {
+      "a7bd08be9e70dfe0": {
+        "_id": "a7bd08be9e70dfe0",
+        "type": "utility",
+        "name": "Raio — 1ª Manifestação",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Raio e Emanação</h2><p><strong>Requisito:</strong> Gestos: Cone e Leque</p><p>Você aprende a utilizar os gestos de Raio e Emanação na ativação de suas Técnicas, modificando seu alcance. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Raio: Você lança sua Técnica dentro do alcance de Linha, fazendo com que ela atinja uma área ao redor do ponto de impacto. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li><li>Emanação: Você faz com que sua Técnica atinja toda a área ao seu redor. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Raio (metros)</th><th>Emanação</th></tr><tr><td>1º Manifestação</td><td>15 de Linha e 5 de Raio</td><td>5 metros</td></tr><tr><td>2º Manifestação</td><td>25 de Linha e 10 de Raio</td><td>10 metros</td></tr><tr><td>3º Manifestação</td><td>35 de Linha e 15 de Raio</td><td>15 metros</td></tr></tbody></table><p>Caso a técnica modificada seja uma “Flecha” e tenha uma condição, você paga 3 PQ adicionais para modifica-la para o modelo de Leque ou Cone. Os gestos só funcionam em técnicas que causam dano e/ou condições negativas.</p><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p><p><strong>Pendente:</strong> A última frase cita Leque ou Cone, embora este talento trate de Raio e Emanação; confirmar a referência antes de automatizar a sobretaxa de 3 PQ.</p>",
+          "chatFlavor": "Gestos: Raio e Emanação — Raio — 1ª Manifestação"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "15",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "radius",
+            "size": "5",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "gestos-raio-e-emanacao",
+              "key": "radius-1",
+              "manualResolution": true,
+              "rule": "gesture",
+              "gesture": "radius",
+              "manifestation": 1,
+              "modifiesExistingTechnique": true,
+              "damageDie": 6
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Raio — 1ª Manifestação",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-raio-e-emanacao.webp"
+      },
+      "77115fa2df2db76e": {
+        "_id": "77115fa2df2db76e",
+        "type": "utility",
+        "name": "Emanação — 1ª Manifestação",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Raio e Emanação</h2><p><strong>Requisito:</strong> Gestos: Cone e Leque</p><p>Você aprende a utilizar os gestos de Raio e Emanação na ativação de suas Técnicas, modificando seu alcance. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Raio: Você lança sua Técnica dentro do alcance de Linha, fazendo com que ela atinja uma área ao redor do ponto de impacto. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li><li>Emanação: Você faz com que sua Técnica atinja toda a área ao seu redor. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Raio (metros)</th><th>Emanação</th></tr><tr><td>1º Manifestação</td><td>15 de Linha e 5 de Raio</td><td>5 metros</td></tr><tr><td>2º Manifestação</td><td>25 de Linha e 10 de Raio</td><td>10 metros</td></tr><tr><td>3º Manifestação</td><td>35 de Linha e 15 de Raio</td><td>15 metros</td></tr></tbody></table><p>Caso a técnica modificada seja uma “Flecha” e tenha uma condição, você paga 3 PQ adicionais para modifica-la para o modelo de Leque ou Cone. Os gestos só funcionam em técnicas que causam dano e/ou condições negativas.</p><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p><p><strong>Pendente:</strong> A última frase cita Leque ou Cone, embora este talento trate de Raio e Emanação; confirmar a referência antes de automatizar a sobretaxa de 3 PQ.</p>",
+          "chatFlavor": "Gestos: Raio e Emanação — Emanação — 1ª Manifestação"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "radius",
+            "size": "5",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "gestos-raio-e-emanacao",
+              "key": "emanation-1",
+              "manualResolution": true,
+              "rule": "gesture",
+              "gesture": "emanation",
+              "manifestation": 1,
+              "modifiesExistingTechnique": true,
+              "damageDie": 6
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Emanação — 1ª Manifestação",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-raio-e-emanacao.webp"
+      },
+      "a6bd072be688ea97": {
+        "_id": "a6bd072be688ea97",
+        "type": "utility",
+        "name": "Raio — 2ª Manifestação",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Raio e Emanação</h2><p><strong>Requisito:</strong> Gestos: Cone e Leque</p><p>Você aprende a utilizar os gestos de Raio e Emanação na ativação de suas Técnicas, modificando seu alcance. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Raio: Você lança sua Técnica dentro do alcance de Linha, fazendo com que ela atinja uma área ao redor do ponto de impacto. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li><li>Emanação: Você faz com que sua Técnica atinja toda a área ao seu redor. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Raio (metros)</th><th>Emanação</th></tr><tr><td>1º Manifestação</td><td>15 de Linha e 5 de Raio</td><td>5 metros</td></tr><tr><td>2º Manifestação</td><td>25 de Linha e 10 de Raio</td><td>10 metros</td></tr><tr><td>3º Manifestação</td><td>35 de Linha e 15 de Raio</td><td>15 metros</td></tr></tbody></table><p>Caso a técnica modificada seja uma “Flecha” e tenha uma condição, você paga 3 PQ adicionais para modifica-la para o modelo de Leque ou Cone. Os gestos só funcionam em técnicas que causam dano e/ou condições negativas.</p><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p><p><strong>Pendente:</strong> A última frase cita Leque ou Cone, embora este talento trate de Raio e Emanação; confirmar a referência antes de automatizar a sobretaxa de 3 PQ.</p>",
+          "chatFlavor": "Gestos: Raio e Emanação — Raio — 2ª Manifestação"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "25",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "radius",
+            "size": "10",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "gestos-raio-e-emanacao",
+              "key": "radius-2",
+              "manualResolution": true,
+              "rule": "gesture",
+              "gesture": "radius",
+              "manifestation": 2,
+              "modifiesExistingTechnique": true,
+              "damageDie": 6
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Raio — 2ª Manifestação",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-raio-e-emanacao.webp"
+      },
+      "76115e0f1c7b0931": {
+        "_id": "76115e0f1c7b0931",
+        "type": "utility",
+        "name": "Emanação — 2ª Manifestação",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Raio e Emanação</h2><p><strong>Requisito:</strong> Gestos: Cone e Leque</p><p>Você aprende a utilizar os gestos de Raio e Emanação na ativação de suas Técnicas, modificando seu alcance. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Raio: Você lança sua Técnica dentro do alcance de Linha, fazendo com que ela atinja uma área ao redor do ponto de impacto. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li><li>Emanação: Você faz com que sua Técnica atinja toda a área ao seu redor. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Raio (metros)</th><th>Emanação</th></tr><tr><td>1º Manifestação</td><td>15 de Linha e 5 de Raio</td><td>5 metros</td></tr><tr><td>2º Manifestação</td><td>25 de Linha e 10 de Raio</td><td>10 metros</td></tr><tr><td>3º Manifestação</td><td>35 de Linha e 15 de Raio</td><td>15 metros</td></tr></tbody></table><p>Caso a técnica modificada seja uma “Flecha” e tenha uma condição, você paga 3 PQ adicionais para modifica-la para o modelo de Leque ou Cone. Os gestos só funcionam em técnicas que causam dano e/ou condições negativas.</p><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p><p><strong>Pendente:</strong> A última frase cita Leque ou Cone, embora este talento trate de Raio e Emanação; confirmar a referência antes de automatizar a sobretaxa de 3 PQ.</p>",
+          "chatFlavor": "Gestos: Raio e Emanação — Emanação — 2ª Manifestação"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "radius",
+            "size": "10",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "gestos-raio-e-emanacao",
+              "key": "emanation-2",
+              "manualResolution": true,
+              "rule": "gesture",
+              "gesture": "emanation",
+              "manifestation": 2,
+              "modifiesExistingTechnique": true,
+              "damageDie": 6
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Emanação — 2ª Manifestação",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-raio-e-emanacao.webp"
+      },
+      "a5bd059823d63c5a": {
+        "_id": "a5bd059823d63c5a",
+        "type": "utility",
+        "name": "Raio — 3ª Manifestação",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "3",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Raio e Emanação</h2><p><strong>Requisito:</strong> Gestos: Cone e Leque</p><p>Você aprende a utilizar os gestos de Raio e Emanação na ativação de suas Técnicas, modificando seu alcance. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Raio: Você lança sua Técnica dentro do alcance de Linha, fazendo com que ela atinja uma área ao redor do ponto de impacto. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li><li>Emanação: Você faz com que sua Técnica atinja toda a área ao seu redor. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Raio (metros)</th><th>Emanação</th></tr><tr><td>1º Manifestação</td><td>15 de Linha e 5 de Raio</td><td>5 metros</td></tr><tr><td>2º Manifestação</td><td>25 de Linha e 10 de Raio</td><td>10 metros</td></tr><tr><td>3º Manifestação</td><td>35 de Linha e 15 de Raio</td><td>15 metros</td></tr></tbody></table><p>Caso a técnica modificada seja uma “Flecha” e tenha uma condição, você paga 3 PQ adicionais para modifica-la para o modelo de Leque ou Cone. Os gestos só funcionam em técnicas que causam dano e/ou condições negativas.</p><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p><p><strong>Pendente:</strong> A última frase cita Leque ou Cone, embora este talento trate de Raio e Emanação; confirmar a referência antes de automatizar a sobretaxa de 3 PQ.</p>",
+          "chatFlavor": "Gestos: Raio e Emanação — Raio — 3ª Manifestação"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "35",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "radius",
+            "size": "15",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "gestos-raio-e-emanacao",
+              "key": "radius-3",
+              "manualResolution": true,
+              "rule": "gesture",
+              "gesture": "radius",
+              "manifestation": 3,
+              "modifiesExistingTechnique": true,
+              "damageDie": 6
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Raio — 3ª Manifestação",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-raio-e-emanacao.webp"
+      },
+      "75115c7c59c85af4": {
+        "_id": "75115c7c59c85af4",
+        "type": "utility",
+        "name": "Emanação — 3ª Manifestação",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "3",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Gestos: Raio e Emanação</h2><p><strong>Requisito:</strong> Gestos: Cone e Leque</p><p>Você aprende a utilizar os gestos de Raio e Emanação na ativação de suas Técnicas, modificando seu alcance. Ao gastar 1 Ponto de Ação [1 ação] e uma quantidade de PQ igual à ordem da habilidade (1º Manifestação – 1 PQ | 2º Manifestação – 2 PQ | 3º Manifestação – 3 PQ), você pode modificar o alcance de sua Técnica para uma das seguintes opções:</p><ul><li>Raio: Você lança sua Técnica dentro do alcance de Linha, fazendo com que ela atinja uma área ao redor do ponto de impacto. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li><li>Emanação: Você faz com que sua Técnica atinja toda a área ao seu redor. Todas as criaturas na área devem realizar uma Salvaguarda de Agilidade, ou a Salvaguarda original da Técnica. Em caso de falha, sofrem todo o dano; em caso de sucesso, sofrem metade. O dado de dano da Técnica passa a ser d6.</li></ul><h3>ESTATÍSTICAS DAS MANIFESTAÇÕES</h3><table><tbody><tr><th>Ordem</th><th>Raio (metros)</th><th>Emanação</th></tr><tr><td>1º Manifestação</td><td>15 de Linha e 5 de Raio</td><td>5 metros</td></tr><tr><td>2º Manifestação</td><td>25 de Linha e 10 de Raio</td><td>10 metros</td></tr><tr><td>3º Manifestação</td><td>35 de Linha e 15 de Raio</td><td>15 metros</td></tr></tbody></table><p>Caso a técnica modificada seja uma “Flecha” e tenha uma condição, você paga 3 PQ adicionais para modifica-la para o modelo de Leque ou Cone. Os gestos só funcionam em técnicas que causam dano e/ou condições negativas.</p><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la.</p><p><strong>Pendente:</strong> A última frase cita Leque ou Cone, embora este talento trate de Raio e Emanação; confirmar a referência antes de automatizar a sobretaxa de 3 PQ.</p>",
+          "chatFlavor": "Gestos: Raio e Emanação — Emanação — 3ª Manifestação"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "radius",
+            "size": "15",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "gestos-raio-e-emanacao",
+              "key": "emanation-3",
+              "manualResolution": true,
+              "rule": "gesture",
+              "gesture": "emanation",
+              "manifestation": 3,
+              "modifiesExistingTechnique": true,
+              "damageDie": 6
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Emanação — 3ª Manifestação",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/gestos-raio-e-emanacao.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "gestos-raio-e-emanacao",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Controle de Qi",
+        "requisitos": [
+          "Gestos: Cone e Leque"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "gestos-cone-e-leque"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado.",
+          "As áreas e os gestos específicos são ajustados pelo narrador. Flecha com condição custa mais 1 ação para Linha; para Cone/Leque, mais 2 Qi. Raio/Emanação preservam a exceção impressa de mais 3 Qi e sua redação deve ser conferida ao aplicá-la."
+        ],
+        "pending": [
+          "A última frase cita Leque ou Cone, embora este talento trate de Raio e Emanação; confirmar a referência antes de automatizar a sobretaxa de 3 PQ."
+        ]
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!925c5ad745a31665"
+}

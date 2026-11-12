@@ -1,0 +1,50 @@
+_id: 0c44bee589b71286
+name: Magnetita da Agulha Errante
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/0c44bee589b71286.webp
+system:
+  identifier: minerio-0c44bee589b71286
+  description:
+    value: <p><strong>Nível:</strong> 1 · <strong>Categoria:</strong> Minério</p><p>Seus cristais negros amadurecem nos pontos em que duas veias espirituais se cruzam, fazendo limalhas girarem mesmo sem contato. Ferreiros preservam esse alinhamento ao extrair o metal, usado em agulhas de orientação e pequenos circuitos que precisam encontrar e acompanhar um fluxo de Qi.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: cfba75a524e8918d
+sort: 500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 1
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 1
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!0c44bee589b71286'

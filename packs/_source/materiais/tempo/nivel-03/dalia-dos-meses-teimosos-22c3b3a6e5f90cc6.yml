@@ -1,0 +1,53 @@
+_id: 22c3b3a6e5f90cc6
+_key: '!items!22c3b3a6e5f90cc6'
+name: Dália dos Meses Persistentes
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/tempo/22c3b3a6e5f90cc6.webp
+system:
+  identifier: material-alquimia-22c3b3a6e5f90cc6
+  description:
+    value: <p><strong>Elemento:</strong> Tempo · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Planta</p><p>Essa dália cresce em bolsões de Qi onde a mesma fase da estação se prolonga entre chuvas. Cada pétala mantém o vigor de um estágio diferente, oferecendo uma essência que prolonga a coesão de preparados sujeitos a transformações lentas e desiguais.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 4000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 1f0823b87d043093
+sort: 5000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: tempo
+      elementLabel: Tempo
+      level: 3
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/tempo.json
+        originalName: Dália dos Meses Teimosos
+        sha256: 78c1decf6231b4f084096c5432683d625516dd37d65e516e424b199307cc5107
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

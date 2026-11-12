@@ -1,0 +1,80 @@
+/* The Narrator review uses the system's existing dialog and bronze/slate tokens. */
+.application.iw-beast-essence-capture-dialog .iw-essence-capture { display:flex; flex-direction:column; gap:18px; min-width:0; color:var(--iw-color-text); }
+.application.iw-beast-essence-capture-dialog .iw-essence-capture :is(p,h2,h3,ul) { margin:0; }
+.application.iw-beast-essence-capture-dialog .iw-essence-capture :is(h2,h3) { border:0; text-transform:none; letter-spacing:0; }
+.application.iw-beast-essence-capture-dialog .iw-capture-heading { display:flex; align-items:center; gap:17px; padding-bottom:16px; border-bottom:1px solid var(--iw-color-bronze-shadow); }
+.application.iw-beast-essence-capture-dialog .iw-capture-heading > img { flex:none; width:74px; height:74px; object-fit:cover; padding:3px; border:1px solid var(--iw-color-bronze-shadow); background:var(--iw-color-recess); }
+.application.iw-beast-essence-capture-dialog .iw-capture-heading h2 { margin-bottom:5px; color:var(--iw-color-text-warm); font:400 25px/1.2 "Palatino Linotype",Georgia,serif; overflow-wrap:anywhere; }
+.application.iw-beast-essence-capture-dialog .iw-capture-heading p { max-width:66ch; }
+.application.iw-beast-essence-capture-dialog .iw-capture-fields { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px 18px; margin-bottom:12px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-fields > label { display:flex; flex-direction:column; gap:5px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-checkbox { display:inline-flex; align-items:center; gap:7px; }
+.application.iw-beast-essence-capture-dialog .iw-essence-capture input[type="checkbox"] { width:16px; height:16px; flex:0 0 16px; margin:0; }
+.application.iw-beast-essence-capture-dialog .iw-capture-result { margin:12px 0 7px; padding:9px 11px; border-left:2px solid var(--iw-color-bronze); background:var(--iw-color-recess); }
+.application.iw-beast-essence-capture-dialog .iw-capture-result strong { color:var(--iw-color-bronze-light); font-weight:500; }
+.application.iw-beast-essence-capture-dialog .iw-essence-capture .iw-capture-hint { margin-top:7px; max-width:79ch; color:var(--iw-color-muted); font-size:11px; line-height:1.6; }
+.application.iw-beast-essence-capture-dialog .iw-capture-lineages { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-profile { padding:11px 13px; border:1px solid var(--iw-color-line-faint); border-radius:2px; background:var(--iw-color-panel); }
+.application.iw-beast-essence-capture-dialog .iw-capture-profile h3 { display:flex; align-items:center; gap:8px; margin-bottom:8px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-profile img { border:0; object-fit:cover; }
+.application.iw-beast-essence-capture-dialog .iw-capture-profile ul { margin-top:8px; padding-left:17px; font-size:11px; line-height:1.7; }
+.application.iw-beast-essence-capture-dialog .iw-capture-profile li > span { color:var(--iw-color-muted); }
+.application.iw-beast-essence-capture-dialog .iw-capture-weapons ul { display:flex; flex-wrap:wrap; gap:8px 18px; padding:0; margin-top:9px; list-style:none; }
+.application.iw-beast-essence-capture-dialog .iw-capture-weapons li { display:flex; align-items:center; gap:8px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-elements { display:flex; flex-wrap:wrap; gap:10px 20px; padding-top:3px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-choice-table { margin-top:10px; border-block:1px solid var(--iw-color-line); }
+.application.iw-beast-essence-capture-dialog :is(.iw-capture-choice-head,.iw-capture-choice-row) { display:grid; grid-template-columns:minmax(0,1fr) 70px 100px; align-items:center; gap:10px; padding:9px 0; }
+.application.iw-beast-essence-capture-dialog .iw-capture-choice-head { color:var(--iw-color-muted); font-size:10px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-choice-head > span:not(:first-child),
+.application.iw-beast-essence-capture-dialog .iw-capture-choice-row > label { text-align:center; }
+.application.iw-beast-essence-capture-dialog .iw-capture-choice-row { border-top:1px solid var(--iw-color-line-faint); font-size:12px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-choice-row > span { display:flex; align-items:center; gap:9px; overflow-wrap:anywhere; }
+.application.iw-beast-essence-capture-dialog .iw-essence-capture .iw-capture-empty { color:var(--iw-color-subtle); font-size:11px; padding-block:5px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-attack { margin-top:10px; padding:12px 0; border-top:1px solid var(--iw-color-line-faint); }
+.application.iw-beast-essence-capture-dialog .iw-capture-attack-heading { display:flex; align-items:center; gap:10px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-attack-heading > div { display:flex; flex-direction:column; gap:3px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-attack-heading strong { font-size:12px; font-weight:500; overflow-wrap:anywhere; }
+.application.iw-beast-essence-capture-dialog .iw-capture-attack-heading span { color:var(--iw-color-muted); font-size:10px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-attack-options { display:grid; grid-template-columns:90px 125px repeat(2,minmax(0,1fr)); gap:12px; align-items:end; margin-top:11px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-attack-options > label:not(.iw-capture-checkbox) { display:flex; flex-direction:column; gap:4px; font-size:10px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-attack-options .iw-capture-checkbox { align-self:center; }
+.application.iw-beast-essence-capture-dialog .iw-capture-warnings { color:var(--iw-color-muted); font-size:11px; line-height:1.6; }
+.application.iw-beast-essence-capture-dialog .iw-capture-warnings summary { cursor:pointer; color:var(--iw-color-bronze-light); }
+.application.iw-beast-essence-capture-dialog .iw-essence-capture .iw-capture-error { padding:11px 13px; color:var(--iw-color-danger-light); background:var(--iw-color-danger-bg); border:1px solid var(--iw-color-danger-line); }
+.application.iw-beast-essence-capture-dialog .iw-essence-capture .iw-capture-footer { padding-top:12px; border-top:1px solid var(--iw-color-line-faint); font-size:11px; }
+.application.iw-beast-essence-capture-dialog .iw-essence-capture img { border-radius:2px; object-fit:cover; }
+@media (max-width:640px) {
+  .application.iw-beast-essence-capture-dialog :is(.iw-capture-fields,.iw-capture-lineages) { grid-template-columns:1fr; }
+  .application.iw-beast-essence-capture-dialog .iw-capture-attack-options { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .application.iw-beast-essence-capture-dialog :is(.iw-capture-choice-head,.iw-capture-choice-row) { grid-template-columns:minmax(0,1fr) 54px 90px; gap:5px; }
+  .application.iw-beast-essence-capture-dialog .iw-capture-heading { align-items:start; }
+}
+
+.application.iw-beast-essence-capture-dialog .iw-capture-growth-selection { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); align-items:center; gap:12px 18px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-growth-selection > label { display:flex; flex-direction:column; gap:5px; min-width:0; }
+.application.iw-beast-essence-capture-dialog .iw-capture-growth-selection > p { color:var(--iw-color-muted); font-size:11px; line-height:1.6; }
+.application.iw-beast-essence-capture-dialog .iw-capture-growth-selection strong { color:var(--iw-color-bronze-light); font-weight:600; }
+.application.iw-beast-essence-capture-dialog .iw-capture-growth-table { border-top:1px solid var(--iw-color-line-faint); padding-top:9px; margin-top:10px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-growth-table summary { cursor:pointer; color:var(--iw-color-bronze-light); font-size:11px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-growth-table table { width:100%; margin-top:10px; border:0; border-collapse:collapse; background:var(--iw-color-panel); font-size:11px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-growth-table :is(th,td) { padding:6px 9px; border-bottom:1px solid var(--iw-color-line-faint); text-align:left; white-space:normal; }
+.application.iw-beast-essence-capture-dialog .iw-capture-growth-table th { background:var(--iw-color-recess); color:var(--iw-color-muted); font-weight:500; text-shadow:none; }
+@media (max-width:600px) { .application.iw-beast-essence-capture-dialog .iw-capture-growth-selection { grid-template-columns:minmax(0,1fr); } }
+
+.application.iw-beast-essence-capture-dialog .iw-capture-growth-table tbody tr { background:var(--iw-color-panel); }
+.application.iw-beast-essence-capture-dialog .iw-capture-growth-table tbody tr:nth-child(even) { background:var(--iw-color-raised); }
+
+.application.iw-beast-essence-capture-dialog .iw-capture-core { border-color:var(--iw-color-bronze-shadow); background:var(--iw-color-panel); }
+.application.iw-beast-essence-capture-dialog .iw-capture-core-saved { display:flex; align-items:center; gap:14px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-core-saved img { flex:none; object-fit:contain; border:0; }
+.application.iw-beast-essence-capture-dialog .iw-capture-core-saved strong { color:var(--iw-color-bronze-light); font-size:13px; }
+.application.iw-beast-essence-capture-dialog .iw-capture-core-saved :is(p,span) { color:var(--iw-color-muted); font-size:11px; }
+.application.iw-beast-essence-capture-dialog :is(.dialog-buttons,.form-footer) { flex-wrap:wrap; }
+.application.iw-beast-essence-capture-dialog :is(.dialog-buttons,.form-footer) button { flex:1 1 120px; min-width:0; white-space:normal; }
+.application.jj2-item-sheet .iw-beast-core-preview { display:grid; grid-template-columns:72px minmax(0,1fr); align-items:center; gap:18px; }
+.application.jj2-item-sheet .iw-beast-core-preview img { border:0; object-fit:contain; }
+.application.jj2-item-sheet .iw-beast-core-preview > div { display:flex; flex-direction:column; gap:7px; min-width:0; }
+.application.jj2-item-sheet .iw-beast-core-preview select { width:100%; }
+
+.application.iw-beast-essence-capture-dialog .iw-capture-delivery > label { display:flex; flex-direction:column; gap:6px; min-width:0; }
+.application.iw-beast-essence-capture-dialog .iw-capture-delivery select { width:100%; min-width:0; }

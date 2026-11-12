@@ -1,0 +1,13 @@
+_id: 94a0d53897fd5754
+_key: '!folders!94a0d53897fd5754'
+name: Nível 1
+type: Item
+folder: 23310966e9c1ac2b
+sorting: a
+sort: 100000
+color: '#466b52'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: madeira
+      level: 1

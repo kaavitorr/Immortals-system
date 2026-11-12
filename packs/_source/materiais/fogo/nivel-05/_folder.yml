@@ -1,0 +1,13 @@
+_id: bfca41f95e6894ff
+_key: '!folders!bfca41f95e6894ff'
+name: Nível 5
+type: Item
+folder: 1d29bf4920c1b673
+sorting: a
+sort: 500000
+color: '#85473f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: fogo
+      level: 5

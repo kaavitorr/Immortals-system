@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000f111fec7",
+  "name": "Guqin",
+  "type": "tool",
+  "img": "icons/tools/instruments/lute-gold-brown.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-guqin",
+    "description": {
+      "value": "<p>Instrumento musical de cordas.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "art"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "guqin"
+    }
+  },
+  "_key": "!items!bacc6000f111fec7"
+}

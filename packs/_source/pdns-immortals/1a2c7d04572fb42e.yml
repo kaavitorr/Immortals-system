@@ -1,0 +1,74 @@
+_id: 1a2c7d04572fb42e
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:119
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 1a2c7d04572fb42e
+name: Golpe Esmagador
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ [adicional]</strong></p><p>Durante um ataque de dano Contundente, a criatura pode esmagar o
+      alvo contra o chão, desde que ele seja de Categoria de Tamanho igual ou inferior à dela, impondo a condição
+      “Caído” se ele falhar em uma Salvaguarda de Fortitude. Se receber a condição, o alvo sofre dano adicional igual ao
+      atributo de força da criatura.</p>
+    chat: ''
+  identifier: golpe-esmagador
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    5d55092323e307b1:
+      _id: 5d55092323e307b1
+      type: utility
+      name: Golpe Esmagador
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Durante um ataque de dano Contundente, a criatura pode esmagar o alvo contra o chão, desde que ele seja de
+          Categoria de Tamanho igual ou inferior à dela, impondo a condição “Caído” se ele falhar em uma Salvaguarda de
+          Fortitude. Se receber a condição, o alvo sofre dano adicional igual ao atributo de força da criatura.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/golpe-esmagador-1a2c7d04572fb42e.webp"
+_key: '!items!1a2c7d04572fb42e'

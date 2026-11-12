@@ -1,0 +1,96 @@
+_id: 4547dce6ef214cf3
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:169
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 4547dce6ef214cf3
+name: Terremoto
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢⬢⬢⬢</strong></p><p>Ao gastar 20 PQ, a criatura desfere um golpe contra o chão, liberando uma
+      enorme quantidade de Qi e criando um grande terremoto que afeta uma área igual a 250 metros vezes o ND dela. Todas
+      as criaturas a 10 metros + 1 metro por ND que estiverem tocando o chão devem realizar uma Salvaguarda de Vontade,
+      sofrendo o ND dela em d4 se falharem ou metade se obtiverem sucesso. Todas as criaturas fora da área efetiva do
+      dano sofrem 1 de dano para cada 2 NDs dela. Estruturas que não possuam Qi sofrem 30 vezes o dano.</p>
+    chat: ''
+  identifier: terremoto
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    58c6ef94d3e070ee:
+      _id: 58c6ef94d3e070ee
+      type: save
+      name: Terremoto
+      activation:
+        type: action
+        value: 6
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '20'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 20 PQ, a criatura desfere um golpe contra o chão, liberando uma enorme quantidade de Qi e criando
+          um grande terremoto que afeta uma área igual a 250 metros vezes o ND dela. Todas as criaturas a 10 metros + 1
+          metro por ND que estiverem tocando o chão devem realizar uma Salvaguarda de Vontade, sofrendo o ND dela em d4
+          se falharem ou metade se obtiverem sucesso. Todas as criaturas fora da área efetiva do dano sofrem 1 de dano
+          para cada 2 NDs dela. Estruturas que não possuam Qi sofrem 30 vezes o dano.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: creature
+        prompt: true
+        override: true
+      save:
+        ability:
+          - con
+        dc:
+          calculation: ''
+          formula: 10 + @npcPrincipal
+      damage:
+        onSave: half
+        parts:
+          - custom:
+              enabled: true
+              formula: (@legacy2.nd)d4
+            types:
+              - bludgeoning
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 11
+  prerequisites:
+    items: []
+    level: 11
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/terremoto-4547dce6ef214cf3.webp"
+_key: '!items!4547dce6ef214cf3'

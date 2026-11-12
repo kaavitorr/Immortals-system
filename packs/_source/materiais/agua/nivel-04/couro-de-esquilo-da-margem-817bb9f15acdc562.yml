@@ -1,0 +1,53 @@
+_id: 817bb9f15acdc562
+_key: '!items!817bb9f15acdc562'
+name: Couro de Esquilo das Margens Suspensas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/817bb9f15acdc562.webp
+system:
+  identifier: material-alquimia-817bb9f15acdc562
+  description:
+    value: <p><strong>Elemento:</strong> Água · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Parte de animal</p><p>O esquilo das Margens Suspensas corre sobre faixas de Qi acima dos rios e abre uma película azul entre os pelos ao tocar a água. Seu couro preserva essa barreira seletiva, sendo curtido para invólucros de essências aquáticas e revestimentos de vestes usadas no refino úmido.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: c67d55906ca48f23
+sort: 7700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: agua
+      elementLabel: Água
+      level: 4
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/agua.json
+        originalName: Couro de Esquilo da Margem
+        sha256: 4e0ab61ab8b4f69e0e1dd88c53ff06dabfdca351a5290537230f83680b9c27bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

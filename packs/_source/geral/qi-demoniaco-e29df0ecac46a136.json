@@ -1,0 +1,49 @@
+{
+  "_id": "e29df0ecac46a136",
+  "name": "Qi Demoníaco",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/qi-demoniaco.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-qi-demoniaco",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Cultivo Demoníaco.</p><h2>Qi Demoníaco</h2><p><strong>Requisito:</strong> Corrupção</p><p>Seu Qi é muito mais poderoso que o normal devido as suas artes demoníacas. No fim de cada um de seus turnos, você recebe 1 Ponto de Ação [1 ação] que deve ser usado especificamente para habilidades e técnicas com a palavra-chave “Reação”.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "qi-demoniaco",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Cultivo Demoníaco",
+        "requisitos": [
+          "Corrupção"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "corrupcao"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "reactionOnlyAction",
+            "value": 1,
+            "at": "turnEnd"
+          }
+        ],
+        "manual": [],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!e29df0ecac46a136"
+}

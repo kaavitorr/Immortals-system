@@ -1,0 +1,28 @@
+{
+  "_id": "bacc600065b35e0d",
+  "name": "Manual de Cultivo — Céu",
+  "type": "loot",
+  "img": "systems/Immortals-system/assets/wuxia/equipamentos-antecedentes-pintados-v1/manual-ceu.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-manual-ceu",
+    "description": {
+      "value": "<p>Manual roubado recebido por Direito de Nascimento. Qualidade e propriedades são definidas pelo Narrador.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "gear"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "manual-ceu"
+    }
+  },
+  "_key": "!items!bacc600065b35e0d"
+}

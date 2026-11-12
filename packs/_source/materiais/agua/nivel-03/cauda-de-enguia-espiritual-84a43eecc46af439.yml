@@ -1,0 +1,53 @@
+_id: 84a43eecc46af439
+_key: '!items!84a43eecc46af439'
+name: Cauda de Enguia dos Fios Fluentes
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/84a43eecc46af439.webp
+system:
+  identifier: material-alquimia-84a43eecc46af439
+  description:
+    value: <p><strong>Elemento:</strong> Água · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Parte de animal</p><p>A enguia dos Fios Fluentes estende da cauda filamentos de Qi que entrelaçam correntes opostas sem produzir remoinhos, vivendo em canais espirituais profundos. O tecido macerado mantém ingredientes suspensos em um fluxo único e impede a separação das fases durante o preparo de poções.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 2000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: b0b6d3677b445c34
+sort: 5500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: agua
+      elementLabel: Água
+      level: 3
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/agua.json
+        originalName: Cauda de Enguia Espiritual
+        sha256: 4e0ab61ab8b4f69e0e1dd88c53ff06dabfdca351a5290537230f83680b9c27bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

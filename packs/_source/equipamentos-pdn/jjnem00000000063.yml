@@ -1,0 +1,157 @@
+_id: jjnem00000000063
+name: Garras Estrondosas
+type: weapon
+img: systems/Immortals-system/assets/wuxia/equipamentos-pdn-pintados-v1/jjnem00000000063-garras-estrondosas.webp
+system:
+  type:
+    value: natural
+    baseItem: ''
+  identified: true
+  description:
+    value: >-
+      <p>Ataque natural corpo a corpo. Dano Trovejante conforme a Escala de Dano do nível de cultivo, somado ao valor
+      inteiro do atributo usado no ataque.</p><p><strong>Custo:</strong> 2 Pontos de Ação. Não consome Qi Refinado;
+      gastos opcionais de energia são configurados no uso.</p>
+    chat: ''
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  equipped: false
+  activities:
+    jjnem00000000063:
+      _id: jjnem00000000063
+      type: attack
+      name: Ataque
+      sort: 0
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: '@escala + @mod'
+            types:
+              - thunder
+            modifiers: []
+            scaling:
+              number: 1
+        critical: {}
+        includeBase: false
+      attack:
+        ability: ''
+        bonus: ''
+        flat: false
+        type:
+          value: melee
+          classification: ''
+        critical: {}
+      img: systems/Immortals-system/assets/wuxia/equipamentos-pdn-pintados-v1/jjnem00000000063-garras-estrondosas.webp
+      activation:
+        type: action
+        override: true
+        value: 2
+      behaviors: []
+      description:
+        value: ''
+      jjScale:
+        enabled: false
+        cost: 1
+        maxPA: 0
+      constantCost:
+        enabled: false
+        pool: generated
+        concentration: false
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: m
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      modifiers: []
+      scaling:
+        number: 1
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      modifiers: []
+      scaling:
+        number: 1
+  uses:
+    spent: 0
+    recovery: []
+  identifier: garras-estrondosas
+  source:
+    revision: 1
+    rules: '2024'
+  unidentified:
+    description: ''
+  container: null
+  price:
+    value: 0
+    denomination: gp
+  rarities: []
+  attunement: ''
+  attuned: false
+  crew:
+    value: []
+  ammunition: {}
+  armor: {}
+  properties: []
+  proficient: null
+  range:
+    units: m
+flags:
+  Immortals-system:
+    ataqueNatural: true
+    danoExtraPorNd: false
+    custoPA: 2
+    modificador: Trovejante
+    elemento: thunder
+    membroElemental: true
+    equipmentPdn:
+      version: 1
+      source: Compendium.Immortals-system.equipamentos-pdn.Item.jjnem00000000063
+      previousImg: icons/magic/sonic/explosion-impact-shock-wave.webp
+      descriptionHashesBefore:
+        - c5c2c523
+        - 1acef3df
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: equipamento-pdn
+      documentId: jjnem00000000063
+effects: []
+folder: npenxzoYhDe7p0EP
+sort: 0
+_key: '!items!jjnem00000000063'

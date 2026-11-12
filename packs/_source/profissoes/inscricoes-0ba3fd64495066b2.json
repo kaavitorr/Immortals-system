@@ -1,0 +1,15 @@
+{
+  "_id": "0ba3fd64495066b2",
+  "name": "Inscrições",
+  "type": "Item",
+  "folder": "881fadce1bce968c",
+  "sorting": "a",
+  "color": "#968d69",
+  "flags": {
+    "Immortals-system": {
+      "professionProductsFolder": "inscription",
+      "professionProductsContentVersion": 2
+    }
+  },
+  "_key": "!folders!0ba3fd64495066b2"
+}

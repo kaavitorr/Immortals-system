@@ -1,0 +1,50 @@
+_id: 34973f3753cdab41
+name: Adamante do Pilar Primordial
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-10/34973f3753cdab41.webp
+system:
+  identifier: minerio-34973f3753cdab41
+  description:
+    value: <p><strong>Nível:</strong> 10 · <strong>Categoria:</strong> Minério</p><p>Bloco mineral quase branco com grandes arestas douradas, encontrado em restos dos pilares de domínios desaparecidos. Sua estrutura exige ferramentas espirituais para ser separada sem trincas. É reservado a suportes e peças de ligação de tesouros supremos, preparados em oficinas capazes de preservar seus veios.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 66f01b1432a186ba
+sort: 100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 10
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 10
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!34973f3753cdab41'

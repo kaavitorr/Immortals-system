@@ -1,0 +1,65 @@
+_id: paddedArmor00000
+_key: '!items!paddedArmor00000'
+name: Armadura Acolchoada
+type: equipment
+img: systems/Immortals-system/assets/wuxia/armaduras-heroicas-pintadas-v2/armadura-acolchoada.webp
+system:
+  identifier: padded-armor
+  description:
+    value: >-
+      <p>Consistindo em camadas acolchoadas de tecido recheadas com trapos ou lã, a armadura acolchoada amortece o corpo
+      contra força bruta e serve de fundação sob equipamentos mais pesados.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 5
+    units: kg
+  price:
+    value: 200
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: light
+    baseItem: ''
+  armor:
+    value: 4
+    dex: null
+    ability: dex
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: fLJrHfDuvr4Z8bXK
+sort: 100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: paddedArmor00000
+      sourceType: armor
+      category: light
+      quality: standard
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: false
+      manualEffects: []

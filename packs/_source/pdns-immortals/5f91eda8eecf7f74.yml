@@ -1,0 +1,73 @@
+_id: 5f91eda8eecf7f74
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:202
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 5f91eda8eecf7f74
+name: Divisão Reativa
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢ · Reação</strong></p><p>Quando uma criatura dentro do alcance dessa criatura realizar uma
+      ação, essa criatura pode criar um lacaio idêntico a si mesma e realizar um ataque comum contra o alvo com a cópia.
+      A cópia também sofre o dano no lugar do alvo caso essa reação tenha sido usada contra um ataque ou técnica.</p>
+    chat: ''
+  identifier: divisao-reativa
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    45288cc8069a72ae:
+      _id: 45288cc8069a72ae
+      type: utility
+      name: Divisão Reativa
+      activation:
+        type: reaction
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Quando uma criatura dentro do alcance dessa criatura realizar uma ação, essa criatura pode criar um lacaio
+          idêntico a si mesma e realizar um ataque comum contra o alvo com a cópia. A cópia também sofre o dano no lugar
+          do alvo caso essa reação tenha sido usada contra um ataque ou técnica.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 9
+  prerequisites:
+    items: []
+    level: 9
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/divisao-reativa-5f91eda8eecf7f74.webp"
+_key: '!items!5f91eda8eecf7f74'

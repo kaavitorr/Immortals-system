@@ -1,0 +1,13 @@
+_id: eb92545fa4badbb5
+_key: '!folders!eb92545fa4badbb5'
+name: Nível 4
+type: Item
+folder: e1730b8d2dbc7697
+sorting: a
+sort: 400000
+color: '#806d3f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: luz
+      level: 4

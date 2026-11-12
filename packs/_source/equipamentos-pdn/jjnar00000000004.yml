@@ -1,0 +1,109 @@
+_id: jjnar00000000004
+name: Couro Leve
+type: equipment
+img: systems/Immortals-system/assets/wuxia/equipamentos-pdn-pintados-v1/jjnar00000000004-couro-leve.webp
+system:
+  type:
+    value: natural
+    baseItem: ''
+  identified: true
+  description:
+    value: >-
+      <p>Armadura natural. <strong>Classe de Resistência:</strong> 6 + Agilidade, usando o valor inteiro do
+      atributo.</p><p>Ao equipar, substitui o cálculo padrão de CR; não é somada a ele.</p>
+    chat: ''
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  equipped: false
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+  identifier: couro-leve
+  source:
+    revision: 1
+    rules: '2024'
+  unidentified:
+    description: ''
+  container: null
+  price:
+    value: 0
+    denomination: yen
+  rarities: []
+  attunement: ''
+  attuned: false
+  crew:
+    value: []
+  armor:
+    value: 6
+    dex: null
+    ability: dex
+  proficient: null
+  properties: []
+  strength: null
+flags:
+  Immortals-system:
+    armaduraNatural: true
+    cr:
+      base: 6
+      atributo: dex
+    equipmentPdn:
+      version: 1
+      source: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000004
+      previousImg: systems/Immortals-system/icons/svg/items/equipment.svg
+      descriptionHashesBefore:
+        - 81eb129e
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: equipamento-pdn
+      documentId: jjnar00000000004
+effects:
+  - _id: jjnarfx000000004
+    name: Couro Leve — Classe de Resistência
+    img: systems/Immortals-system/icons/svg/items/equipment.svg
+    origin: null
+    transfer: false
+    disabled: true
+    statuses: []
+    flags:
+      Immortals-system:
+        armaduraNaturalCR:
+          base: 6
+          atributo: dex
+    system:
+      changes:
+        - key: system.attributes.ac.bonus
+          value: 6 + @abilities.dex.mod
+          type: add
+          phase: initial
+          _id: N8MD5D403mJN3THV
+          conditions: '{}'
+          replacement: ''
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: null
+        message: null
+      conditions: '{}'
+      magical: false
+      rider:
+        statuses: []
+    type: base
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    showIcon: 1
+    folder: null
+    sort: 0
+    _key: '!items.effects!jjnar00000000004.jjnarfx000000004'
+folder: IMEsHfstlHxfmBqg
+sort: 0
+_key: '!items!jjnar00000000004'

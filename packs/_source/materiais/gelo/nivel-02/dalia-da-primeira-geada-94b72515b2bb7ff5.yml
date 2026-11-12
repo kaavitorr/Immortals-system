@@ -1,0 +1,53 @@
+_id: 94b72515b2bb7ff5
+_key: '!items!94b72515b2bb7ff5'
+name: Dália da Primeira Geada
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/94b72515b2bb7ff5.webp
+system:
+  identifier: material-alquimia-94b72515b2bb7ff5
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>Floresce apenas quando uma corrente de Qi frio alcança terra ainda morna, formando pétalas com bordas vítreas. Essa tensão permanece na seiva e permite condensar o gelo aos poucos, antes que a mistura alquímica se feche num bloco inerte.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 01a43186322c8bd2
+sort: 3000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Dália da Primeira Geada
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

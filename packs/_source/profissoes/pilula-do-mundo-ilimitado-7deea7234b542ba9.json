@@ -1,0 +1,188 @@
+{
+  "_id": "7deea7234b542ba9",
+  "name": "Pílula do Mundo Ilimitado",
+  "type": "consumable",
+  "folder": "3ec1f795631fd283",
+  "img": "systems/Immortals-system/assets/wuxia/pilulas-pintadas-v1/pilula-do-mundo-ilimitado.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-pilula-do-mundo-ilimitado",
+    "type": {
+      "value": "potion"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 4. <strong>Qualidade:</strong> Inferior.</p><h3>PÍLULA DO MUNDO ILIMITADO</h3>\n<table><tbody><tr><td>Multiplicador de Toxina: x 2</td><td>Nível: 4 a 10</td><td>Classe de Dificuldade: 16</td></tr></tbody></table>\n<p>Uma pílula que pode ser consumida a cada avanço de rank. Ela permite que, ao avançar de Rank com sucesso, você receba 30 Pontos de Qi adicionais permanentemente.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>200% do valor de criação / cada</td></tr><tr><td>Quantidade</td><td>A cada refinamento, você consegue gerar uma pílula, não importa a qualidade.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar o efeito descrito no uso da pílula e conferir Rank, duração e restrições com o mestre. A posse da pílula não ativa seus efeitos. A qualidade da pílula é determinada somente pela margem do teste de Criação; os testes exigidos ainda precisam passar. O consumo usa uma unidade da pilha e registra as toxinas. Resolva o efeito descrito com o narrador, incluindo requisitos, duração e eventuais benefícios ou consequências permanentes. Possuir a pílula não concede seus efeitos.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 90 Cristais de Essência Humano Comum. <strong>Venda por unidade:</strong> 180 Cristais de Essência Humano Comum.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"pilula-do-mundo-ilimitado:4:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 4</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/c7bfe1bf81e39148.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"c7bfe1bf81e39148\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.c7bfe1bf81e39148\">Samambaia Espiral de Jade</a><small>condução pelos meridianos</small></div><span class=\"iw-recipe-price\" title=\"10 Cristais de Essência Humano Comum por unidade\">10 Cristais de Essência Humano Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/a60109bff37140f6.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">3</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"a60109bff37140f6\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.a60109bff37140f6\">Ginseng da Mata Espiritual</a><small>reserva e recomposição do Qi</small></div><span class=\"iw-recipe-price\" title=\"10 Cristais de Essência Humano Comum por unidade\">30 Cristais de Essência Humano Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/aee256ab02d75ed2.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"aee256ab02d75ed2\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.aee256ab02d75ed2\">Ovo de Cegonha do Ninho de Jade</a><small>reconstituição da estrutura corporal</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Humano Comum por unidade\">40 Cristais de Essência Humano Comum</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-04/71dbe71d6d5918d4.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"71dbe71d6d5918d4\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.71dbe71d6d5918d4\">Sal dos Veios Abertos</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"10 Cristais de Essência Humano Comum por unidade\">10 Cristais de Essência Humano Comum</span></li></ol><footer><span>Custo dos componentes</span><strong>90 Cristais de Essência Humano Comum</strong></footer><p class=\"iw-recipe-note\">Prepare a presa no veículo antes de incorporar o extrato antiveneno à mistura.</p></section>"
+    },
+    "activities": {
+      "069bfd71d2301cf3": {
+        "_id": "069bfd71d2301cf3",
+        "type": "utility",
+        "name": "Consumir pílula (resolver efeito)",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 4. <strong>Qualidade:</strong> Inferior.</p><h3>PÍLULA DO MUNDO ILIMITADO</h3>\n<table><tbody><tr><td>Multiplicador de Toxina: x 2</td><td>Nível: 4 a 10</td><td>Classe de Dificuldade: 16</td></tr></tbody></table>\n<p>Uma pílula que pode ser consumida a cada avanço de rank. Ela permite que, ao avançar de Rank com sucesso, você receba 30 Pontos de Qi adicionais permanentemente.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>200% do valor de criação / cada</td></tr><tr><td>Quantidade</td><td>A cada refinamento, você consegue gerar uma pílula, não importa a qualidade.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar o efeito descrito no uso da pílula e conferir Rank, duração e restrições com o mestre. A posse da pílula não ativa seus efeitos. A qualidade da pílula é determinada somente pela margem do teste de Criação; os testes exigidos ainda precisam passar. O consumo usa uma unidade da pilha e registra as toxinas. Resolva o efeito descrito com o narrador, incluindo requisitos, duração e eventuais benefícios ou consequências permanentes. Possuir a pílula não concede seus efeitos.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 90 Cristais de Essência Humano Comum. <strong>Venda por unidade:</strong> 180 Cristais de Essência Humano Comum.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"pilula-do-mundo-ilimitado:4:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 4</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/c7bfe1bf81e39148.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"c7bfe1bf81e39148\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.c7bfe1bf81e39148\">Samambaia Espiral de Jade</a><small>condução pelos meridianos</small></div><span class=\"iw-recipe-price\" title=\"10 Cristais de Essência Humano Comum por unidade\">10 Cristais de Essência Humano Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/a60109bff37140f6.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">3</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"a60109bff37140f6\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.a60109bff37140f6\">Ginseng da Mata Espiritual</a><small>reserva e recomposição do Qi</small></div><span class=\"iw-recipe-price\" title=\"10 Cristais de Essência Humano Comum por unidade\">30 Cristais de Essência Humano Comum</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/aee256ab02d75ed2.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"aee256ab02d75ed2\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.aee256ab02d75ed2\">Ovo de Cegonha do Ninho de Jade</a><small>reconstituição da estrutura corporal</small></div><span class=\"iw-recipe-price\" title=\"20 Cristais de Essência Humano Comum por unidade\">40 Cristais de Essência Humano Comum</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-04/71dbe71d6d5918d4.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"71dbe71d6d5918d4\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.71dbe71d6d5918d4\">Sal dos Veios Abertos</a><small>Reagente · catalisador do refino</small></div><span class=\"iw-recipe-price\" title=\"10 Cristais de Essência Humano Comum por unidade\">10 Cristais de Essência Humano Comum</span></li></ol><footer><span>Custo dos componentes</span><strong>90 Cristais de Essência Humano Comum</strong></footer><p class=\"iw-recipe-note\">Prepare a presa no veículo antes de incorporar o extrato antiveneno à mistura.</p></section>",
+          "chatFlavor": "Pílula do Mundo Ilimitado — Consumir pílula (resolver efeito)"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "pilula-do-mundo-ilimitado",
+              "key": "consume",
+              "level": 4,
+              "quality": "inferior",
+              "manualResolution": true,
+              "consumeItem": true,
+              "rule": "pilula-do-mundo-ilimitado",
+              "poison": 40,
+              "nextSuccessfulRankAdvancePermanentQi": 30
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Consumir pílula (resolver efeito)",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/pilulas-pintadas-v1/pilula-do-mundo-ilimitado.webp"
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "price": {
+      "value": 180,
+      "denomination": "essence-human"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "pilula-do-mundo-ilimitado",
+        "kind": "pill",
+        "profession": "alchemy",
+        "level": 4,
+        "quality": "inferior"
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 4,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 5000,
+          "materials": 100,
+          "currency": "spiritualCrystals",
+          "rank": "human"
+        },
+        "creationPercent": 800,
+        "salePercent": 200,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 90,
+          "currency": "spiritualCrystals",
+          "rank": "human"
+        },
+        "sale": {
+          "amount": 180,
+          "currency": "spiritualCrystals",
+          "rank": "human"
+        },
+        "referenceCreation": {
+          "amount": 800,
+          "currency": "spiritualCrystals",
+          "rank": "human"
+        },
+        "referenceSale": {
+          "amount": 1600,
+          "currency": "spiritualCrystals",
+          "rank": "human"
+        }
+      },
+      "professionProductAutomation": {
+        "rules": [
+          {
+            "type": "pillToxins",
+            "quality": "inferior",
+            "base": 20,
+            "multiplier": 2,
+            "value": 40
+          }
+        ],
+        "manual": [
+          "Aplicar o efeito descrito no uso da pílula e conferir Rank, duração e restrições com o mestre. A posse da pílula não ativa seus efeitos.",
+          "A qualidade da pílula é determinada somente pela margem do teste de Criação; os testes exigidos ainda precisam passar.",
+          "O consumo usa uma unidade da pilha e registra as toxinas. Resolva o efeito descrito com o narrador, incluindo requisitos, duração e eventuais benefícios ou consequências permanentes. Possuir a pílula não concede seus efeitos."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!7deea7234b542ba9"
+}

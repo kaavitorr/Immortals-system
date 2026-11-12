@@ -1,0 +1,53 @@
+_id: 9e2eacd1f0c4add6
+_key: '!items!9e2eacd1f0c4add6'
+name: Sangue de Macaco Uivador de Tempestade
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/9e2eacd1f0c4add6.webp
+system:
+  identifier: material-alquimia-9e2eacd1f0c4add6
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Parte de animal</p><p>Macacos que se balançam sob trovoadas têm sangue espumante e ardente. Gotas em poção emprestam agilidade, embora inquietem o sono.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d0f20b3f759ae3b5
+sort: 11100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 6
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Sangue de Macaco Uivador de Tempestade
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

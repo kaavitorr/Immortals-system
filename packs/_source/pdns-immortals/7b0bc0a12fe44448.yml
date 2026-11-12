@@ -1,0 +1,76 @@
+_id: 7b0bc0a12fe44448
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:138
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 7b0bc0a12fe44448
+name: Manter Firme
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p>Ao sofrer um efeito de Empurrão ou uma tentativa de lhe impor a condição “Caído”, essa criatura pode consumir 2
+      PQ para negar o efeito ou a condição.</p>
+    chat: ''
+  identifier: manter-firme
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    54a7cedf2e572b43:
+      _id: 54a7cedf2e572b43
+      type: utility
+      name: Manter Firme
+      activation:
+        type: action
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao sofrer um efeito de Empurrão ou uma tentativa de lhe impor a condição “Caído”, essa criatura pode
+          consumir 2 PQ para negar o efeito ou a condição.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/manter-firme-7b0bc0a12fe44448.webp"
+_key: '!items!7b0bc0a12fe44448'

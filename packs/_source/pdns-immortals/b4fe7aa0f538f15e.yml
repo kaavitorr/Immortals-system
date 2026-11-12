@@ -1,0 +1,71 @@
+_id: b4fe7aa0f538f15e
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:102
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: b4fe7aa0f538f15e
+name: Dreno da Alma
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p>Seu toque passa a afetar a alma das criaturas que você ataca. Você muda a propriedade de um de seus membros
+      para “Sombrio”, permitindo que todo o dano causado por ele seja do tipo “Alma”.</p>
+    chat: ''
+  identifier: dreno-da-alma
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    88325463fc51dd27:
+      _id: 88325463fc51dd27
+      type: utility
+      name: Dreno da Alma
+      activation:
+        type: action
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Seu toque passa a afetar a alma das criaturas que você ataca. Você muda a propriedade de um de seus membros
+          para “Sombrio”, permitindo que todo o dano causado por ele seja do tipo “Alma”.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 11
+  prerequisites:
+    items: []
+    level: 11
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/dreno-da-alma-b4fe7aa0f538f15e.webp"
+_key: '!items!b4fe7aa0f538f15e'

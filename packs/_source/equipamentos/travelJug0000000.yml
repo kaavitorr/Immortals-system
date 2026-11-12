@@ -1,0 +1,75 @@
+_id: travelJug0000000
+_key: '!items!travelJug0000000'
+name: Jarra de Viagem
+type: consumable
+img: icons/consumables/drinks/water-jug-clay-brown.webp
+system:
+  identifier: survival-jug
+  description:
+    value: >-
+      <p>Uma jarra de barro com rolha, envolta em couro, que pode ser presa ao cinto ou ao lado de uma mochila para uso
+      conveniente. Pode conter 1,2 litros de líquido.</p><p><strong>Propriedades:</strong> Empilhável.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 2
+    units: kg
+  price:
+    value: 30
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  activities: {}
+  type:
+    value: trinket
+    subtype: ''
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    replace: false
+effects: []
+folder: B6n3Q73Jl36TvWlr
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: travelJug0000000
+      sourceType: consumable
+      category: other
+      quality: standard
+      enchantment: ''
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

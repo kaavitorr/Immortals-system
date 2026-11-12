@@ -1,0 +1,53 @@
+_id: 643f0b315e8ceee4
+_key: '!items!643f0b315e8ceee4'
+name: Anis-Estrelado da Nona Trovoada
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/643f0b315e8ceee4.webp
+system:
+  identifier: material-alquimia-643f0b315e8ceee4
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 9 · <strong>Categoria:</strong> Planta</p><p>Anis-estrelado de um horto sagrado de montanha, cuja nona ponta só cresce em anos de grandes trovoadas. Moída sozinha, essa ponta entra em pílulas que despertam dons de previsão.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: e6eb103ba14ea702
+sort: 17000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 9
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Anis-Estrelado da Nona Trovoada
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 9
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,71 @@
+_id: a5e5af44f6d9d133
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:175
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: a5e5af44f6d9d133
+name: Veneno Concentrado
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢ [adicionais]</strong></p><p>Ao realizar um ataque de mordida, essa criatura pode injetar um
+      veneno ainda mais potente no corpo do alvo, impondo a condição “Envenenado” por 20 rodadas em vez de 3.</p>
+    chat: ''
+  identifier: veneno-concentrado
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    533e2262e30e332e:
+      _id: 533e2262e30e332e
+      type: utility
+      name: Veneno Concentrado
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Ao realizar um ataque de mordida, essa criatura pode injetar um veneno ainda mais potente no corpo do alvo,
+          impondo a condição “Envenenado” por 20 rodadas em vez de 3.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 10
+  prerequisites:
+    items: []
+    level: 10
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/veneno-concentrado-a5e5af44f6d9d133.webp"
+_key: '!items!a5e5af44f6d9d133'

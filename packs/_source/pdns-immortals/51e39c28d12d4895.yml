@@ -1,0 +1,82 @@
+_id: 51e39c28d12d4895
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:230
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 51e39c28d12d4895
+name: Onda de Choque
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢ · Reação</strong></p><p>Quando uma criatura realizar uma jogada de acerto contra essa
+      criatura ou se mover em sua direção, ela pode gastar 4 PQ para emitir uma onda de choque em um cone de 15 metros à
+      sua frente. Todas as criaturas na área devem realizar uma Salvaguarda de Fortitude para não serem empurradas por
+      10 metros. Caso a reação seja usada contra um ataque e as criaturas saiam do alcance dele, o ataque é cancelado, e
+      a criatura atacante perde a ação utilizada.</p>
+    chat: ''
+  identifier: onda-de-choque
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    917ebaa0b37eb92c:
+      _id: 917ebaa0b37eb92c
+      type: utility
+      name: Onda de Choque
+      activation:
+        type: reaction
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '4'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Quando uma criatura realizar uma jogada de acerto contra essa criatura ou se mover em sua direção, ela pode
+          gastar 4 PQ para emitir uma onda de choque em um cone de 15 metros à sua frente. Todas as criaturas na área
+          devem realizar uma Salvaguarda de Fortitude para não serem empurradas por 10 metros. Caso a reação seja usada
+          contra um ataque e as criaturas saiam do alcance dele, o ataque é cancelado, e a criatura atacante perde a
+          ação utilizada.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/onda-de-choque-51e39c28d12d4895.webp"
+_key: '!items!51e39c28d12d4895'

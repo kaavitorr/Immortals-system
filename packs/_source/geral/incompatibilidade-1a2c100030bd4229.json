@@ -1,0 +1,26 @@
+{
+  "_id": "1a2c100030bd4229",
+  "name": "Incompatibilidade",
+  "type": "feat",
+  "folder": "1a2c000000000002",
+  "img": "systems/Immortals-system/assets/wuxia/caracteristicas-especie-pintadas-v1/incompatibilidade.webp",
+  "system": {
+    "identifier": "especie-a58655e9",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Incompatibilidade: Enquanto estiver cultivando fora de uma área com Qi Demoníaco, você reduz sua velocidade de cultivo em 10%, aumentando para 30% caso seja uma área de Qi elemental ao invés de neutro.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Incompatibilidade",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c100030bd4229"
+}

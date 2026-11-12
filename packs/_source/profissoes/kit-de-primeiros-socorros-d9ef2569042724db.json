@@ -1,0 +1,39 @@
+{
+  "_id": "d9ef2569042724db",
+  "name": "Kit de Primeiros Socorros",
+  "type": "loot",
+  "folder": "34be9554e1bd424a",
+  "img": "systems/Immortals-system/assets/wuxia/ferramentas-pintadas-v1/kit-de-primeiros-socorros.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-kit-de-primeiros-socorros",
+    "type": {
+      "value": "material"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p>Ferramentas de Mestre de Bestas: 3 Kits de Primeiros Socorros, 1 Livro Sobre Bestas Mágicas e Demoníacas, 10 pacotes de ração para bestas e 1 Livro sobre Biomas.</p><p><strong>Resolução:</strong> Ferramenta ou suprimento da profissão; não concede talento, perícia, receita ou proficiência automaticamente. A fonte não define uma receita de fabricação para este objeto.</p>"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "kit-de-primeiros-socorros",
+        "kind": "tool",
+        "profession": "beasts",
+        "level": null,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionProductsContentVersion": 2,
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Ferramenta ou suprimento da profissão; não concede talento, perícia, receita ou proficiência automaticamente. A fonte não define uma receita de fabricação para este objeto."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!d9ef2569042724db"
+}

@@ -1,0 +1,46 @@
+_id: 3c6eb9b0a118b143
+name: Pó da Origem Mineral
+type: loot
+img: systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-09/3c6eb9b0a118b143.webp
+folder: 64541b5b25a8b6a4
+sort: 100000
+system:
+  identifier: reagente-3c6eb9b0a118b143
+  type:
+    value: material
+    subtype: ''
+  description:
+    value: <p><strong>Nível:</strong> 9 · <strong>Categoria:</strong> Reagente · <strong>Função:</strong> Catalisador</p><p>Pó branco-perolado obtido da purificação de minerais espirituais raríssimos. É o catalisador dos preparos do nono nível, usado para regular a passagem de Qi entre componentes já beneficiados. Seu valor vem da dificuldade do refino, e não de conceder ao portador os poderes dos materiais de origem.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  source:
+    custom: Immortals Legacy — Reagentes de Preparo
+effects: []
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    reagentMaterial:
+      level: 9
+      role: catalisador
+      category: reagente
+    materialEconomy:
+      version: 2
+      level: 9
+      category: reagente
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!3c6eb9b0a118b143'

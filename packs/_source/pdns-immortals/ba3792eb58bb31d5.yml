@@ -1,0 +1,73 @@
+_id: ba3792eb58bb31d5
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:70
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: ba3792eb58bb31d5
+name: Armadilha de Pólen
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢</strong></p><p>Quando essa criatura sofrer dano, ela pode liberar uma nuvem de pólen com raio
+      de 5 metros + 1 metro por ND, causando dano de Veneno igual ao seu atributo principal. Além disso, todas as
+      criaturas no interior devem realizar uma Salvaguarda de Vontade para não receberem a condição “Envenenado”.</p>
+    chat: ''
+  identifier: armadilha-de-polen
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    4696dcb3eb762978:
+      _id: 4696dcb3eb762978
+      type: utility
+      name: Armadilha de Pólen
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Quando essa criatura sofrer dano, ela pode liberar uma nuvem de pólen com raio de 5 metros + 1 metro por
+          ND, causando dano de Veneno igual ao seu atributo principal. Além disso, todas as criaturas no interior devem
+          realizar uma Salvaguarda de Vontade para não receberem a condição “Envenenado”.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 2
+  prerequisites:
+    items: []
+    level: 2
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/armadilha-de-polen-ba3792eb58bb31d5.webp"
+_key: '!items!ba3792eb58bb31d5'

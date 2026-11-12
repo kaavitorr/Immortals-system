@@ -1,0 +1,13 @@
+_id: 75c9a20464353a4b
+_key: '!folders!75c9a20464353a4b'
+name: Nível 1
+type: Item
+folder: 57c7cfa4d7a2235f
+sorting: a
+sort: 100000
+color: '#445674'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: espaco
+      level: 1

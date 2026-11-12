@@ -1,0 +1,13 @@
+_id: 915b74bf3408615e
+_key: '!folders!915b74bf3408615e'
+name: Nível 10
+type: Item
+folder: 8e61a385d86bbe51
+sorting: a
+sort: 1000000
+color: '#8b6c36'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: relampago
+      level: 10

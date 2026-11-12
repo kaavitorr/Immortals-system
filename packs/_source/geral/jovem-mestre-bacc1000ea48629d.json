@@ -1,0 +1,233 @@
+{
+  "_id": "bacc1000ea48629d",
+  "name": "Jovem Mestre",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/jovem-mestre.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-jovem-mestre",
+    "description": {
+      "value": "<p>Um jovem mestre é aquele que pertence a uma família com certo nível de influência, seja marcial, de cultivadores ou apenas uma família de mercadores muito influentes.</p><h3>Equipamentos iniciais</h3><p>Roupas luxuosas e uma arma comum de boa qualidade. <strong>200 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc2000ea48629d]{Me Vingue!}</h3><p>Toda vez que você perder uma batalha, você pode expressar sua indignação para um membro da família, desde que ele seja o próximo mais forte após você. Se esse membro perder, ele mesmo ativa essa característica e vai reclamar com o próximo mais forte que ele.</p><p>Se você ativar essa característica contra uma criatura muito forte, você pode acabar perdendo alguns membros antes que seu pai, tio ou alguém de poder venha te espancar por ser um inútil.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc5000ea48629d",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 200,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc3000ea48629d": {
+        "_id": "bacc3000ea48629d",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc2000ea48629d",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc7000ea48629d": {
+        "_id": "bacc7000ea48629d",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.dressClothing000",
+              "quantity": 1,
+              "optional": false
+            }
+          ],
+          "currency": {
+            "gp": 200
+          },
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc8000f2abb8f9": {
+        "_id": "bacc8000f2abb8f9",
+        "type": "ItemChoice",
+        "title": "Arma comum de boa qualidade",
+        "hint": "Escolha a arma comum recebida pela família.",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "allowDrops": false,
+          "type": null,
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.287cfd274553dbb4"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.30f554ce1bf92d40"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.65f2e842ded9ca8b"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.73becd0c57f0787a"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.794a52cd148cbccb"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.8aec730c7777981f"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.97bf7c2bd49b47c2"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.bastardSword0000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.battleAxe0000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.beedd8a495bcc6fe"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.boStaff000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.chainHook0000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.clawHammer000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.dagger0000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.dartGun000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.eb574f8c2097f5b9"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.f85714e20057dc2e"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.glaive0000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.greatclub0000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.greatHammer00000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.greatsword000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.halberd000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.handAxe000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.handCrossbow0000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.heavyCrossbow000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.javelin000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.jjarm00000000001"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.jjarm00000000005"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.jjarm00000000007"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.jjarm00000000014"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.jjarm00000000025"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.longbow000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.longsword0000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.mace000000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.pickaxe000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.pistol0000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.quarterstaff0000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.rapier0000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.sai0000000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.scimitar00000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.shortbow00000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.shortsword000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.sling00000000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.spikedGreatclub0"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.stiletto00000000"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.warLance00000000"
+            }
+          ],
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "jovem-mestre",
+        "startingGold": 200,
+        "equipment": "Roupas luxuosas e uma arma comum de boa qualidade."
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc1000ea48629d"
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "1a2c10000b3adca9",
+  "name": "Dificuldade de Aprendizado",
+  "type": "feat",
+  "folder": "1a2c000000000002",
+  "img": "systems/Immortals-system/assets/wuxia/caracteristicas-especie-pintadas-v1/dificuldade-de-aprendizado.webp",
+  "system": {
+    "identifier": "especie-66da0169",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Dificuldade de Aprendizado: Os meios monstros não são tão dependentes de meditação para aprender novas habilidades, fazendo com que eles tenham dificuldade em aprender coisas novas. Um Meio Monstro leva o dobro do tempo para trocar de Manual de Cultivo e gasta o dobro de tempo e Pontos de Cultivo para aprender e evoluir conceitos que ele não tenha recebido pelo “Leis Naturais”.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Dificuldade de Aprendizado",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c10000b3adca9"
+}

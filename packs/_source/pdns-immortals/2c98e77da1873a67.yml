@@ -1,0 +1,81 @@
+name: Convergência das Afinidades
+type: feat
+folder: b4cdf08eea2c07d5
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢ [adicional]</p><p>A criatura combina seus dois elementos em uma mesma técnica. Ao
+      realizar um ataque ou técnica, a criatura pode gastar 1 Ponto de Ação adicional [⬢] e 6 PQ para impor duas
+      condições de dano se a criatura falhar em uma Salvaguarda de Fortitude.</p>
+    chat: ''
+  identifier: convergencia-das-afinidades
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    cce2ccaca21693bc:
+      _id: cce2ccaca21693bc
+      type: utility
+      name: Convergência das Afinidades
+      activation:
+        type: action
+        value: 1
+        condition: Durante um ataque ou técnica, como custo adicional.
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '6'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>A criatura combina seus dois elementos em uma mesma técnica. Ao realizar um ataque ou técnica, a criatura
+          pode gastar 1 Ponto de Ação adicional [⬢] e 6 PQ para impor duas condições de dano se a criatura falhar em uma
+          Salvaguarda de Fortitude.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 8
+  prerequisites:
+    items: []
+    level: 8
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: 2c98e77da1873a67
+img: systems/Immortals-system/assets/wuxia/ancestralidades-variantes-pintadas-v1/dragao.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:convergenciadasafinidades
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Soberano Elemental
+_key: '!items!2c98e77da1873a67'

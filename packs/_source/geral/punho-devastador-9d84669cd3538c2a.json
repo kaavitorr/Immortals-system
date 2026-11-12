@@ -1,0 +1,46 @@
+{
+  "_id": "9d84669cd3538c2a",
+  "name": "Punho Devastador",
+  "type": "feat",
+  "folder": "d2652f7aa9b40d98",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/punho-devastador.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-punho-devastador",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Corpo de Guerreiro.</p><h2>Punho Devastador</h2><p>Ao causar um Acerto Crítico, você causa dano adicional igual ao seu Atributo Principal, e a criatura deve realizar uma Salvaguarda de Vontade. Em caso de falha, ela recebe a condição “Exposto”.</p><p><strong>Resolução:</strong> Aplique o bônus e a salvaguarda de Vontade somente ao acerto crítico que os desencadeou, sem uma segunda rolagem de dano independente.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "punho-devastador",
+        "categoria": "Adaptação Física",
+        "caminho": "Corpo de Guerreiro",
+        "requisitos": [],
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "criticalRider",
+            "damageFormula": "@elemental.primary",
+            "save": "con",
+            "condition": "exposto"
+          }
+        ],
+        "manual": [
+          "Aplique o bônus e a salvaguarda de Vontade somente ao acerto crítico que os desencadeou, sem uma segunda rolagem de dano independente."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!9d84669cd3538c2a"
+}

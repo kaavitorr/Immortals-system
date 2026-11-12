@@ -1,0 +1,53 @@
+_id: d0d216cdbb2dd312
+_key: '!items!d0d216cdbb2dd312'
+name: Urze das Abelhas Enganadas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/d0d216cdbb2dd312.webp
+system:
+  identifier: material-alquimia-d0d216cdbb2dd312
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>Floresce onde o Qi ilusório se mistura ao orvalho, mostrando corolas abertas ao lado de botões ainda fechados. Seu néctar retém o brilho dessas flores aparentes, oferecendo uma essência delicada para sobrepor estímulos e suavizar os contornos de projeções ilusórias.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 91b9ed675b46d50c
+sort: 2900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Urze das Abelhas Enganadas
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

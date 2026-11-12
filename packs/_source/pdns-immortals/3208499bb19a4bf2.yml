@@ -1,0 +1,73 @@
+_id: 3208499bb19a4bf2
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:110
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 3208499bb19a4bf2
+name: Execução Guardiã
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢⬢⬢⬢</strong></p><p>Caso uma criatura tenha causado dano ao local que está protegendo, a
+      criatura guardiã pode desferir um golpe contra ela. Se o alvo tiver ND inferior ao do guardião e menos de 75
+      Pontos de Vida, seus Pontos de Vida se tornam 0.</p>
+    chat: ''
+  identifier: execucao-guardia
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    099ed1ff51547408:
+      _id: 099ed1ff51547408
+      type: utility
+      name: Execução Guardiã
+      activation:
+        type: action
+        value: 6
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Caso uma criatura tenha causado dano ao local que está protegendo, a criatura guardiã pode desferir um
+          golpe contra ela. Se o alvo tiver ND inferior ao do guardião e menos de 75 Pontos de Vida, seus Pontos de Vida
+          se tornam 0.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 12
+  prerequisites:
+    items: []
+    level: 12
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/execucao-guardia-3208499bb19a4bf2.webp"
+_key: '!items!3208499bb19a4bf2'

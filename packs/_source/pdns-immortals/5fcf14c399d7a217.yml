@@ -1,0 +1,72 @@
+_id: 5fcf14c399d7a217
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:178
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 5fcf14c399d7a217
+name: Agarrar Projétil
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Você pode agarrar um projétil que venha em sua direção, reduzindo o
+      dano pela metade, e usar outro Ponto de Ação [⬢] para atirá-lo de volta contra a criatura inimiga. Essa reação não
+      funciona contra técnicas.</p>
+    chat: ''
+  identifier: agarrar-projetil
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    bd82509263f33c8c:
+      _id: bd82509263f33c8c
+      type: utility
+      name: Agarrar Projétil
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Você pode agarrar um projétil que venha em sua direção, reduzindo o dano pela metade, e usar outro Ponto de
+          Ação [⬢] para atirá-lo de volta contra a criatura inimiga. Essa reação não funciona contra técnicas.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 2
+  prerequisites:
+    items: []
+    level: 2
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/agarrar-projetil-5fcf14c399d7a217.webp"
+_key: '!items!5fcf14c399d7a217'

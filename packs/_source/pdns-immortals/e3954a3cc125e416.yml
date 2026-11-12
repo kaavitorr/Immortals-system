@@ -1,0 +1,72 @@
+_id: e3954a3cc125e416
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:213
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: e3954a3cc125e416
+name: Esquiva Rápida
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Quando essa criatura realizar uma Salvaguarda de Fortitude ou Reflexo
+      para sofrer todo o dano ou metade dele, ela pode sofrer metade do dano se falhar e nenhum dano se obtiver
+      sucesso.</p>
+    chat: ''
+  identifier: esquiva-rapida
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    2ef4154dffc5fa6d:
+      _id: 2ef4154dffc5fa6d
+      type: utility
+      name: Esquiva Rápida
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Quando essa criatura realizar uma Salvaguarda de Fortitude ou Reflexo para sofrer todo o dano ou metade
+          dele, ela pode sofrer metade do dano se falhar e nenhum dano se obtiver sucesso.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 7
+  prerequisites:
+    items: []
+    level: 7
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/esquiva-rapida-e3954a3cc125e416.webp"
+_key: '!items!e3954a3cc125e416'

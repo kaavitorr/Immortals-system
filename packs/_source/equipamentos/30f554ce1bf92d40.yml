@@ -1,0 +1,188 @@
+{
+  "_id": "30f554ce1bf92d40",
+  "_key": "!items!30f554ce1bf92d40",
+  "name": "Dao",
+  "type": "weapon",
+  "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/dao.webp",
+  "folder": "iwChineseArms001",
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "chineseWeapon": "dao",
+      "weaponArtworkVersion": 1,
+      "weaponConfigurationPending": true,
+      "weaponCategoryVersion": 1
+    }
+  },
+  "system": {
+    "identifier": "dao",
+    "description": {
+      "value": "<p>Sabre de um gume com lâmina curva.</p><p><strong>Configuração pendente:</strong> dano, tipo de dano, alcance, peso e preço serão definidos pelo Narrador.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Immortals Legacy",
+      "rules": "2024",
+      "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "kg"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "rarities": [],
+    "container": null,
+    "properties": [],
+    "equipped": false,
+    "attunement": "",
+    "attuned": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "ammunition": {
+      "type": ""
+    },
+    "range": {
+      "units": "m",
+      "value": null,
+      "long": null,
+      "reach": null
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "types": [],
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "modifiers": [],
+        "scaling": {
+          "mode": "",
+          "number": 1,
+          "formula": ""
+        }
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "types": [],
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "modifiers": [],
+        "scaling": {
+          "mode": "",
+          "number": 1,
+          "formula": ""
+        }
+      }
+    },
+    "activities": {
+      "30f554ce1bf92d40": {
+        "_id": "30f554ce1bf92d40",
+        "type": "attack",
+        "name": "Ataque",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/dao.webp",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": 2,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2"
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "weapon"
+          },
+          "critical": {
+            "threshold": null
+          }
+        },
+        "damage": {
+          "includeBase": true,
+          "parts": [],
+          "critical": {
+            "bonus": ""
+          }
+        },
+        "description": {
+          "value": "",
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "m",
+          "value": null,
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "override": false,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "units": "m",
+            "contiguous": false,
+            "stationary": false
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      }
+    }
+  }
+}

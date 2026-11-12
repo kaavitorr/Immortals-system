@@ -1,0 +1,13 @@
+_id: 99c7c69753e2fb5c
+_key: '!folders!99c7c69753e2fb5c'
+name: Nível 3
+type: Item
+folder: 23310966e9c1ac2b
+sorting: a
+sort: 300000
+color: '#466b52'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: madeira
+      level: 3

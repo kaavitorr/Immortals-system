@@ -1,0 +1,302 @@
+{
+  "_id": "ac74c31c216f868a",
+  "name": "Tiro de Advertência",
+  "type": "spell",
+  "folder": "0e2549dbc7bb590b",
+  "sort": 100000,
+  "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/arco-longo.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-tiro-de-advertencia",
+    "level": 1,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 3,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "",
+      "units": "inst",
+      "expiry": null,
+      "special": "",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "units": "spec",
+      "special": "Alcance do arco utilizado.",
+      "value": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "",
+        "size": "",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Arco</td></tr><tr><th>Técnica</th><td>1º Grau</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Toque</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Arco</td></tr><tr><th>Requisito do quadro</th><td>Arco</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Ao realizar um disparo incrivelmente rápido e quase raspando no seu inimigo, com uma jogada de ataque à distância, você consegue assustá-lo e lhe causar dano psíquico.</p><p>A criatura alvo desta técnica deve fazer uma Salvaguarda de Intelecto, se falhar ela não pode utilizar a reação até o fim do próximo turno dela.</p><h3>Observações</h3><p>A descrição indica dano psíquico e disparo à distância, mas o quadro traz Cortante e Toque. Configurado como 2d8 psíquico, alcance do arco e Reflexo (Intelecto); confirme com o narrador.</p><p>Depois do acerto, resolva Reflexo (Intelecto) sem outro gasto da técnica. Na falha, o alvo não pode usar reações até o fim do próximo turno dele. Use o alcance do arco escolhido.</p>"
+    },
+    "activities": {
+      "b58a8b11368985ab": {
+        "_id": "b58a8b11368985ab",
+        "type": "attack",
+        "name": "Tiro de Advertência",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/arco-longo.webp",
+        "activation": {
+          "type": "action",
+          "value": 3,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Arco</td></tr><tr><th>Técnica</th><td>1º Grau</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Toque</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Arco</td></tr><tr><th>Requisito do quadro</th><td>Arco</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Ao realizar um disparo incrivelmente rápido e quase raspando no seu inimigo, com uma jogada de ataque à distância, você consegue assustá-lo e lhe causar dano psíquico.</p><p>A criatura alvo desta técnica deve fazer uma Salvaguarda de Intelecto, se falhar ela não pode utilizar a reação até o fim do próximo turno dela.</p><h3>Observações</h3><p>A descrição indica dano psíquico e disparo à distância, mas o quadro traz Cortante e Toque. Configurado como 2d8 psíquico, alcance do arco e Reflexo (Intelecto); confirme com o narrador.</p><p>Depois do acerto, resolva Reflexo (Intelecto) sem outro gasto da técnica. Na falha, o alvo não pode usar reações até o fim do próximo turno dele. Use o alcance do arco escolhido.</p>",
+          "chatFlavor": "Tiro de Advertência"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "units": "spec",
+          "special": "Alcance do arco utilizado.",
+          "value": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "tiro-de-advertencia",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "attack": {
+          "ability": "spellcasting",
+          "bonus": "",
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": "spell"
+          },
+          "critical": {
+            "threshold": 20
+          }
+        },
+        "damage": {
+          "includeBase": false,
+          "critical": {
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 2,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "psychic"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": []
+      },
+      "3f704b43cf4ae175": {
+        "_id": "3f704b43cf4ae175",
+        "type": "save",
+        "name": "Resistir à perda da reação após o acerto",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/arco-longo.webp",
+        "activation": {
+          "type": "action",
+          "value": 0,
+          "condition": "Somente após acertar a técnica; não é uma nova ativação.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Arco</td></tr><tr><th>Técnica</th><td>1º Grau</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Toque</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Arco</td></tr><tr><th>Requisito do quadro</th><td>Arco</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Ao realizar um disparo incrivelmente rápido e quase raspando no seu inimigo, com uma jogada de ataque à distância, você consegue assustá-lo e lhe causar dano psíquico.</p><p>A criatura alvo desta técnica deve fazer uma Salvaguarda de Intelecto, se falhar ela não pode utilizar a reação até o fim do próximo turno dela.</p><h3>Observações</h3><p>A descrição indica dano psíquico e disparo à distância, mas o quadro traz Cortante e Toque. Configurado como 2d8 psíquico, alcance do arco e Reflexo (Intelecto); confirme com o narrador.</p><p>Depois do acerto, resolva Reflexo (Intelecto) sem outro gasto da técnica. Na falha, o alvo não pode usar reações até o fim do próximo turno dele. Use o alcance do arco escolhido.</p>",
+          "chatFlavor": "Tiro de Advertência"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "units": "spec",
+          "special": "Alcance do arco utilizado.",
+          "value": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "tiro-de-advertencia",
+              "key": "reaction-save",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "save": {
+          "ability": [
+            "int"
+          ],
+          "bonus": "",
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          },
+          "visible": true
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        },
+        "conditions": []
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "tiro-de-advertencia",
+        "category": "arco",
+        "grade": 1,
+        "auxiliary": false,
+        "weapon": "Arco",
+        "qi": 2,
+        "actions": 3,
+        "reaction": false,
+        "combinedAttack": true,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Instantâneo",
+            "range": "Toque",
+            "requirements": "Arco",
+            "damage": "2d8 de dano Cortante",
+            "combinedAttack": true
+          }
+        },
+        "manualResolution": [
+          "Depois do acerto, resolva Reflexo (Intelecto) sem outro gasto da técnica. Na falha, o alvo não pode usar reações até o fim do próximo turno dele. Use o alcance do arco escolhido."
+        ],
+        "sourceCorrections": [
+          "A descrição indica dano psíquico e disparo à distância, mas o quadro traz Cortante e Toque. Configurado como 2d8 psíquico, alcance do arco e Reflexo (Intelecto); confirme com o narrador."
+        ]
+      }
+    }
+  },
+  "_key": "!items!ac74c31c216f868a"
+}

@@ -1,0 +1,53 @@
+_id: 87f140ec75988348
+_key: '!items!87f140ec75988348'
+name: Coração de Coruja das Torres Vazias
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/87f140ec75988348.webp
+system:
+  identifier: material-alquimia-87f140ec75988348
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Parte de animal</p><p>Esta coruja espiritual habita torres antigas atravessadas por correntes de Qi noturno e permanece imóvel entre batidas quase inaudíveis. Seu coração mantém uma cadência profunda após a coleta, utilizada para ordenar a circulação de essências escuras durante o refinamento.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 600
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d4840a148e9cd19b
+sort: 3500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 2
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Coração de Coruja das Torres
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

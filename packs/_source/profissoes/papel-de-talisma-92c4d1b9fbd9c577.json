@@ -1,0 +1,43 @@
+{
+  "_id": "92c4d1b9fbd9c577",
+  "name": "Papel de Talismã",
+  "type": "loot",
+  "folder": "34be9554e1bd424a",
+  "img": "systems/Immortals-system/assets/wuxia/ferramentas-pintadas-v1/papel-de-talisma.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-papel-de-talisma",
+    "type": {
+      "value": "material"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p>Ferramentas de Mestre de Inscrições: 20 papeis de talismã de 50 PO cada, 1 Pincel e Tinta de alta qualidade, 1 Livro sobre runas de inscrição.</p><p><strong>Resolução:</strong> Ferramenta ou suprimento da profissão; não concede talento, perícia, receita ou proficiência automaticamente. A fonte não define uma receita de fabricação para este objeto.</p>"
+    },
+    "price": {
+      "value": 50,
+      "denomination": "gp"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "papel-de-talisma",
+        "kind": "tool",
+        "profession": "inscriptions",
+        "level": null,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionProductsContentVersion": 2,
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Ferramenta ou suprimento da profissão; não concede talento, perícia, receita ou proficiência automaticamente. A fonte não define uma receita de fabricação para este objeto."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!92c4d1b9fbd9c577"
+}

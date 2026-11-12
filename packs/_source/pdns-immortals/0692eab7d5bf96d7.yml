@@ -1,0 +1,79 @@
+_id: 0692eab7d5bf96d7
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:148
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 0692eab7d5bf96d7
+name: Onda de Charme
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢⬢</strong></p><p>Ao gastar 10 PQ, a criatura libera uma onda psíquica ou de uma substância
+      leve o suficiente para ser levada pelo ar, como toxinas. Todas as criaturas em uma área de 5 metros + 1 metro por
+      ND devem realizar uma Salvaguarda de Vontade para não receberem a condição “Enfeitiçado” até o fim do próximo
+      turno delas.</p>
+    chat: ''
+  identifier: onda-de-charme
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    935520898a8c203f:
+      _id: 935520898a8c203f
+      type: utility
+      name: Onda de Charme
+      activation:
+        type: action
+        value: 4
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '10'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 10 PQ, a criatura libera uma onda psíquica ou de uma substância leve o suficiente para ser levada
+          pelo ar, como toxinas. Todas as criaturas em uma área de 5 metros + 1 metro por ND devem realizar uma
+          Salvaguarda de Vontade para não receberem a condição “Enfeitiçado” até o fim do próximo turno delas.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 10
+  prerequisites:
+    items: []
+    level: 10
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/onda-de-charme-0692eab7d5bf96d7.webp"
+_key: '!items!0692eab7d5bf96d7'

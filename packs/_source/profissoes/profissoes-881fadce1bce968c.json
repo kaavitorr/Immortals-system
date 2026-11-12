@@ -1,0 +1,15 @@
+{
+  "_id": "881fadce1bce968c",
+  "name": "Profissões",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "color": "#968262",
+  "flags": {
+    "Immortals-system": {
+      "professionProductsFolder": "root",
+      "professionProductsContentVersion": 2
+    }
+  },
+  "_key": "!folders!881fadce1bce968c"
+}

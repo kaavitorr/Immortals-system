@@ -1,0 +1,39 @@
+{
+  "_id": "ef62452722ebb5b7",
+  "name": "Enciclopédia de Ervas",
+  "type": "loot",
+  "folder": "34be9554e1bd424a",
+  "img": "systems/Immortals-system/assets/wuxia/ferramentas-pintadas-v1/enciclopedia-de-ervas.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-enciclopedia-de-ervas",
+    "type": {
+      "value": "gear"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p>Ferramentas de Alquimista: 1 Livro de Técnicas de Controle do Fogo, 1 Forno de Alquimia, 1 Conjunto de Reagentes, 1 Enciclopédia de Ervas.</p><p><strong>Resolução:</strong> Ferramenta ou suprimento da profissão; não concede talento, perícia, receita ou proficiência automaticamente. A fonte não define uma receita de fabricação para este objeto.</p>"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "enciclopedia-de-ervas",
+        "kind": "tool",
+        "profession": "alchemy",
+        "level": null,
+        "quality": null
+      },
+      "professionProductManaged": true,
+      "professionProductsContentVersion": 2,
+      "professionProductAutomation": {
+        "rules": [],
+        "manual": [
+          "Ferramenta ou suprimento da profissão; não concede talento, perícia, receita ou proficiência automaticamente. A fonte não define uma receita de fabricação para este objeto."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!ef62452722ebb5b7"
+}

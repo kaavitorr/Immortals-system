@@ -1,0 +1,13 @@
+_id: 85025b79f667906f
+_key: '!folders!85025b79f667906f'
+name: Nível 2
+type: Item
+folder: 1d29bf4920c1b673
+sorting: a
+sort: 200000
+color: '#85473f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: fogo
+      level: 2

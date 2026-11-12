@@ -1,0 +1,86 @@
+name: Corpo do Dragão Ancestral
+type: feat
+folder: b4cdf08eea2c07d5
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢⬢⬢⬢⬢⬢</p><p>A criatura concentra Qi no próprio corpo, ampliando temporariamente seu
+      porte e sua força física. Ao consumir 6 Pontos de Ação [⬢⬢⬢⬢⬢⬢] e; 10 PQ por rodada, o dragão transforma suas
+      defesas físicas em +20, enquanto sustentar a habilidade.</p>
+    chat: ''
+  identifier: corpo-do-dragao-ancestral
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    fb1c2e3b088411c9:
+      _id: fb1c2e3b088411c9
+      type: utility
+      name: Corpo do Dragão Ancestral
+      activation:
+        type: action
+        value: 6
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '10'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>A criatura concentra Qi no próprio corpo, ampliando temporariamente seu porte e sua força física. Ao
+          consumir 6 Pontos de Ação [⬢⬢⬢⬢⬢⬢] e; 10 PQ por rodada, o dragão transforma suas defesas físicas em +20,
+          enquanto sustentar a habilidade.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: spec
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+      constantCost:
+        enabled: true
+        value: '10'
+        pool: generated
+        concentration: false
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 12
+  prerequisites:
+    items: []
+    level: 12
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: 32a3ea72a41b8b14
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/corpo-robusto-6c3e03cf4f31410e.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:corpododragaoancestral
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Soberano Elemental
+_key: '!items!32a3ea72a41b8b14'

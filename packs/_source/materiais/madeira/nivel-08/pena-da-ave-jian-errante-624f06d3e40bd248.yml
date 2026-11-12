@@ -1,0 +1,53 @@
+_id: 624f06d3e40bd248
+_key: '!items!624f06d3e40bd248'
+name: Pena da Ave Jian Errante
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/624f06d3e40bd248.webp
+system:
+  identifier: material-alquimia-624f06d3e40bd248
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Parte de animal</p><p>Pena de meia asa, deixada pela ave de asa única que procura sua par. Costurada à túnica, guia viajantes perdidos de volta ao lar.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: fe10aa70afe7cf4c
+sort: 15900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 8
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Pena da Ave Jian Errante
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

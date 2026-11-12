@@ -1,0 +1,72 @@
+name: Tecelã de Teias
+type: feat
+folder: D8Yrqg8ddiUXg3Yv
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢</strong></p><p>A criatura pode usar 1 Ponto de Ação [⬢] para se içar 6 metros em qualquer
+      direção sem consumir o deslocamento dela. Uma vez por rodada, ela pode adicionar a palavra-chave Reação nesse
+      aspecto.</p>
+    chat: ''
+  identifier: tecela-de-teias
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    e0c1572450827500:
+      _id: e0c1572450827500
+      type: utility
+      name: Tecelã de Teias
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura pode usar 1 Ponto de Ação [⬢] para se içar 6 metros em qualquer direção sem consumir o
+          deslocamento dela. Uma vez por rodada, ela pode adicionar a palavra-chave Reação nesse aspecto.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: DifKT37Qpkb5ScFo
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/tecela-de-teias-DifKT37Qpkb5ScFo.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:teceladeteias:f1f4876911f9
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: DifKT37Qpkb5ScFo
+_key: '!items!DifKT37Qpkb5ScFo'

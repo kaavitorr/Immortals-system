@@ -1,0 +1,64 @@
+_id: enchantersToolki
+_key: '!items!enchantersToolki'
+name: Kit de Encantador
+type: tool
+img: icons/containers/bags/pack-engraved-leather-tan.webp
+system:
+  identifier: tool-kit-enchanting
+  description:
+    value: >-
+      <p>Bolsa de couro para madeira. Contém velas rituais, tigela de oferendas pequena, pacotes de incenso e reagentes
+      em pó, e um tapete de pano para usar como superfície de trabalho.</p><p><strong>Propriedades:</strong>
+      Empilhável.</p><p><strong>Profissões e conhecimentos:</strong> Encantamento.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 8
+    units: kg
+  price:
+    value: 1200
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: wis
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: zKA7bUzu7rPpL2lk
+sort: 1500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: enchantersToolki
+      sourceType: tool
+      category: crafting
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

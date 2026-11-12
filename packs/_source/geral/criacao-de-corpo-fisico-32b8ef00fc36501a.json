@@ -1,0 +1,126 @@
+{
+  "_id": "32b8ef00fc36501a",
+  "name": "Criação de Corpo Físico",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/criacao-de-corpo-fisico.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-criacao-de-corpo-fisico",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo da Alma.</p><h2>Criação de Corpo Físico</h2><p><strong>Requisito:</strong> 9º Revolução</p><p>Você se torna capaz de criar um corpo físico perfeito usando sua alma como molde. Ao gastar 30 dias, você pode sacrificar 1 Ponto de Constituição para formar um novo corpo físico. Você recupera o Ponto de Constituição sacrificado após 10 anos.</p><p><strong>Resolução:</strong> O narrador confirma os 30 dias e o sacrifício de 1 Constituição, recuperável em 10 anos. Nenhum atributo ou corpo é criado automaticamente.</p>"
+    },
+    "activities": {
+      "3c2161ed9f580833": {
+        "_id": "3c2161ed9f580833",
+        "type": "utility",
+        "name": "Criar Corpo Físico",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo da Alma.</p><h2>Criação de Corpo Físico</h2><p><strong>Requisito:</strong> 9º Revolução</p><p>Você se torna capaz de criar um corpo físico perfeito usando sua alma como molde. Ao gastar 30 dias, você pode sacrificar 1 Ponto de Constituição para formar um novo corpo físico. Você recupera o Ponto de Constituição sacrificado após 10 anos.</p><p><strong>Resolução:</strong> O narrador confirma os 30 dias e o sacrifício de 1 Constituição, recuperável em 10 anos. Nenhum atributo ou corpo é criado automaticamente.</p>",
+          "chatFlavor": "Criação de Corpo Físico — Criar Corpo Físico"
+        },
+        "duration": {
+          "value": "30",
+          "units": "day",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "criacao-de-corpo-fisico",
+              "key": "body",
+              "manualResolution": true,
+              "rule": "createPhysicalBody",
+              "manualSacrifice": {
+                "constitution": 1,
+                "recoveryYears": 10
+              }
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Criar Corpo Físico",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/criacao-de-corpo-fisico.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "criacao-de-corpo-fisico",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo da Alma",
+        "requisitos": [
+          "9º Revolução"
+        ],
+        "requirementRules": {
+          "type": "soul",
+          "min": 10
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "O narrador confirma os 30 dias e o sacrifício de 1 Constituição, recuperável em 10 anos. Nenhum atributo ou corpo é criado automaticamente."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!32b8ef00fc36501a"
+}

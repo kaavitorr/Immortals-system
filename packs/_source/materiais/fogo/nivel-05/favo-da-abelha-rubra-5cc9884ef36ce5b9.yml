@@ -1,0 +1,53 @@
+_id: 5cc9884ef36ce5b9
+_key: '!items!5cc9884ef36ce5b9'
+name: Favo da Abelha Rubra
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/5cc9884ef36ce5b9.webp
+system:
+  identifier: material-alquimia-5cc9884ef36ce5b9
+  description:
+    value: <p><strong>Elemento:</strong> Fogo · <strong>Nível:</strong> 5 · <strong>Categoria:</strong> Parte de animal</p><p>Abelhas de listras escarlates fabricam mel que mantém a colmeia inteira aquecida. Uma colher do favo derretido reanima viajantes enregelados antes que o frio os vença.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-earth
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: bfca41f95e6894ff
+sort: 9600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: fogo
+      elementLabel: Fogo
+      level: 5
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/fogo.json
+        originalName: Favo da Abelha Rubra
+        sha256: ba1a23c0b606945bb3806834a346654c7369238959758f3d2c8d2c74258f92bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 5
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

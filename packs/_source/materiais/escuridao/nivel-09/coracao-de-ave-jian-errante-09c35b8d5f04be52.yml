@@ -1,0 +1,53 @@
+_id: 09c35b8d5f04be52
+_key: '!items!09c35b8d5f04be52'
+name: Coração de Ave Jian Errante
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/09c35b8d5f04be52.webp
+system:
+  identifier: material-alquimia-09c35b8d5f04be52
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 9 · <strong>Categoria:</strong> Parte de animal</p><p>Coração que bate por dois desde que a ave perdeu a parceira com quem formava uma asa completa. Assentado num altar, permite aos mensageiros da seita voar noites inteiras sem pouso nem luz.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 67038bc3a72ed56a
+sort: 17700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 9
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Coração de Ave Jian Errante
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 9
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

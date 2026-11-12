@@ -1,0 +1,53 @@
+_id: 049fe7253f4bf7cd
+_key: '!items!049fe7253f4bf7cd'
+name: Castanha-d’Água do Charco Luminoso
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/049fe7253f4bf7cd.webp
+system:
+  identifier: material-alquimia-049fe7253f4bf7cd
+  description:
+    value: <p><strong>Elemento:</strong> Água · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>Sob a água de charcos alimentados por Qi lunar, esta castanha desenvolve espinhos translúcidos e uma polpa que pulsa suavemente no escuro. Sua fécula purificada sustenta a coesão de pílulas nutritivas e protege as essências mais delicadas durante a digestão alquímica.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 71f71570300be19d
+sort: 2900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: agua
+      elementLabel: Água
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/agua.json
+        originalName: Castanha-d'Água do Charco
+        sha256: 4e0ab61ab8b4f69e0e1dd88c53ff06dabfdca351a5290537230f83680b9c27bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

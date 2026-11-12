@@ -1,0 +1,41 @@
+_id: 060086db82d1cba2
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:59
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 060086db82d1cba2
+name: Temperamento Frio
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: <p>Essa criatura recebe imunidade às condições “Amedrontado”, “Enfeitiçado”, “Apaixonado” e “Alucinado”.</p>
+    chat: ''
+  identifier: temperamento-frio
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 8
+  prerequisites:
+    items: []
+    level: 8
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/temperamento-frio-060086db82d1cba2.webp"
+_key: '!items!060086db82d1cba2'

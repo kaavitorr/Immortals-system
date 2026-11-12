@@ -1,0 +1,78 @@
+_id: 636028a892a718b7
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:157
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 636028a892a718b7
+name: Rajada Ácida
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢</strong></p><p>Ao gastar 2 PQ, você libera uma rajada de ácido em um cone de 12 metros à sua
+      frente. Todas as criaturas na área devem realizar uma Salvaguarda de Reflexo, sofrendo seu ND em d6, arredondado
+      para cima, de dano Ácido se falharem ou metade se obtiverem sucesso.</p>
+    chat: ''
+  identifier: rajada-acida
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    5e8fb6d5ca9261dc:
+      _id: 5e8fb6d5ca9261dc
+      type: utility
+      name: Rajada Ácida
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 2 PQ, você libera uma rajada de ácido em um cone de 12 metros à sua frente. Todas as criaturas na
+          área devem realizar uma Salvaguarda de Reflexo, sofrendo seu ND em d6, arredondado para cima, de dano Ácido se
+          falharem ou metade se obtiverem sucesso.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 5
+  prerequisites:
+    items: []
+    level: 5
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/rajada-acida-636028a892a718b7.webp"
+_key: '!items!636028a892a718b7'

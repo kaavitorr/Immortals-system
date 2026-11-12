@@ -1,0 +1,53 @@
+_id: c4c374caccb794fe
+_key: '!items!c4c374caccb794fe'
+name: Espinho de Ouriço da Coroa Argêntea
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/c4c374caccb794fe.webp
+system:
+  identifier: material-alquimia-c4c374caccb794fe
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Parte de animal</p><p>O ouriço da Coroa Argêntea ergue espinhos luminosos em círculo ao concentrar o Qi metálico, formando uma defesa que se recompõe após cada choque. Seus espinhos depurados conservam afinidade com tecidos vivos e são preparados como agulhas de sutura ou componentes de matrizes regeneradoras.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 2000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 15ecec870b7da838
+sort: 5800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 3
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Espinho do Ouriço-Rei
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

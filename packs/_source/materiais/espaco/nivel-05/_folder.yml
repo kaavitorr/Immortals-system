@@ -1,0 +1,13 @@
+_id: e2712f8acf553829
+_key: '!folders!e2712f8acf553829'
+name: Nível 5
+type: Item
+folder: 57c7cfa4d7a2235f
+sorting: a
+sort: 500000
+color: '#445674'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: espaco
+      level: 5

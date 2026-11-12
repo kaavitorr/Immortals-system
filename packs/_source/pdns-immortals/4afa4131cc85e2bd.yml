@@ -1,0 +1,67 @@
+_id: 4afa4131cc85e2bd
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:114
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 4afa4131cc85e2bd
+name: Fuga Escorregadia
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: '<p><strong>Ações: ⬢</strong></p><p>Quando essa criatura for agarrada, ela pode se libertar.</p>'
+    chat: ''
+  identifier: fuga-escorregadia
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    3c5dc9424566f3e1:
+      _id: 3c5dc9424566f3e1
+      type: utility
+      name: Fuga Escorregadia
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: <p>Quando essa criatura for agarrada, ela pode se libertar.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 1
+  prerequisites:
+    items: []
+    level: 1
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/fuga-escorregadia-4afa4131cc85e2bd.webp"
+_key: '!items!4afa4131cc85e2bd'

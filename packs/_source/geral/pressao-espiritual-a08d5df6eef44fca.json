@@ -1,0 +1,174 @@
+{
+  "_id": "a08d5df6eef44fca",
+  "name": "Pressão Espiritual",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/pressao-espiritual.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-pressao-espiritual",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo da Alma.</p><h2>Pressão Espiritual</h2><p><strong>Requisito:</strong> 5º Revolução</p><p>Você aprendeu a canalizar sua Presença de forma a manifestar sua pressão espiritual de forma devastadora. Ao gastar 3 Pontos de Ação [3 ações] e 4 PA, você pode expandir sua energia da alma em uma área de 10 metros ao seu redor, emitindo uma pressão tão intensa que todas as criaturas na área devem realizar uma Salvaguarda de Presença.</p><p>Em caso de falha, elas sofrem 3d6 + seu Atributo de Presença em Pontos de Dano Psíquico e recebem a condição “Exposto” até o fim do próximo Turno delas.</p><p>O dano aumenta em 1d6 para cada Nível que você possua acima da criatura afetada.</p><p><strong>Resolução:</strong> O narrador ajusta os dados por diferença de nível para cada alvo e aplica Exposto até o fim do próximo turno dele.</p><p><strong>Pendente:</strong> O custo diz 3 Pontos de Ação e 4 PA; confirmar a sigla/unidade da segunda parcela antes de automatizar. Confirme se 4 PA espirituais significam Qi Refinado.</p>"
+    },
+    "activities": {
+      "a36e00b4053c3e42": {
+        "_id": "a36e00b4053c3e42",
+        "type": "save",
+        "name": "Pressão Espiritual",
+        "activation": {
+          "type": "action",
+          "value": 3,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo da Alma.</p><h2>Pressão Espiritual</h2><p><strong>Requisito:</strong> 5º Revolução</p><p>Você aprendeu a canalizar sua Presença de forma a manifestar sua pressão espiritual de forma devastadora. Ao gastar 3 Pontos de Ação [3 ações] e 4 PA, você pode expandir sua energia da alma em uma área de 10 metros ao seu redor, emitindo uma pressão tão intensa que todas as criaturas na área devem realizar uma Salvaguarda de Presença.</p><p>Em caso de falha, elas sofrem 3d6 + seu Atributo de Presença em Pontos de Dano Psíquico e recebem a condição “Exposto” até o fim do próximo Turno delas.</p><p>O dano aumenta em 1d6 para cada Nível que você possua acima da criatura afetada.</p><p><strong>Resolução:</strong> O narrador ajusta os dados por diferença de nível para cada alvo e aplica Exposto até o fim do próximo turno dele.</p><p><strong>Pendente:</strong> O custo diz 3 Pontos de Ação e 4 PA; confirmar a sigla/unidade da segunda parcela antes de automatizar. Confirme se 4 PA espirituais significam Qi Refinado.</p><p><strong>Custo pendente — uso bloqueado:</strong> O custo adicional de 4 PA espirituais precisa de reserva confirmada.</p>",
+          "chatFlavor": "Pressão Espiritual — Pressão Espiritual"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "10",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "radius",
+            "size": "10",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "pressao-espiritual",
+              "key": "pressure",
+              "manualResolution": false,
+              "rule": "spiritualPressure",
+              "pendingCost": "O custo adicional de 4 PA espirituais precisa de reserva confirmada.",
+              "additionalDicePerLevelAboveTarget": 1,
+              "condition": "exposto",
+              "conditionExpiry": "targetEnd"
+            }
+          }
+        },
+        "save": {
+          "ability": [
+            "cha"
+          ],
+          "bonus": "",
+          "dc": {
+            "calculation": "",
+            "formula": "@elemental.dc"
+          },
+          "visible": true
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": [
+            {
+              "number": 3,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "psychic"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            },
+            {
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "types": [
+                "psychic"
+              ],
+              "custom": {
+                "enabled": true,
+                "formula": "@abilities.cha.value"
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": [],
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/pressao-espiritual.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "pressao-espiritual",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo da Alma",
+        "requisitos": [
+          "5º Revolução"
+        ],
+        "requirementRules": {
+          "type": "soul",
+          "min": 6
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "O narrador ajusta os dados por diferença de nível para cada alvo e aplica Exposto até o fim do próximo turno dele."
+        ],
+        "pending": [
+          "O custo diz 3 Pontos de Ação e 4 PA; confirmar a sigla/unidade da segunda parcela antes de automatizar.",
+          "Confirme se 4 PA espirituais significam Qi Refinado."
+        ]
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!a08d5df6eef44fca"
+}

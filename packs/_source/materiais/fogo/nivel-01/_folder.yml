@@ -1,0 +1,13 @@
+_id: 00fb5377e2f8d2b2
+_key: '!folders!00fb5377e2f8d2b2'
+name: Nível 1
+type: Item
+folder: 1d29bf4920c1b673
+sorting: a
+sort: 100000
+color: '#85473f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: fogo
+      level: 1

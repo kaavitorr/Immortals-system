@@ -1,0 +1,53 @@
+_id: ed9528945f5431e2
+_key: '!items!ed9528945f5431e2'
+name: Couro de Lagarto da Fenda Estreita
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/ed9528945f5431e2.webp
+system:
+  identifier: material-alquimia-ed9528945f5431e2
+  description:
+    value: <p><strong>Elemento:</strong> Espaço · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Parte de animal</p><p>Este lagarto espiritual habita fissuras de Qi espacial e recolhe o corpo por aberturas menores que suas próprias escamas. O couro preserva pequenas pregas que não coincidem entre as faces, oferecendo flexibilidade a preparados destinados a acomodar tensões de espaço.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 200
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 75c9a20464353a4b
+sort: 1400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: espaco
+      elementLabel: Espaço
+      level: 1
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/espaco.json
+        originalName: Couro de Lagarto das Trilhas
+        sha256: e7d0006d3bc5b8eb4685c982cf4dd46c83df9af6d2f53fcd8b56c8b83060db26
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

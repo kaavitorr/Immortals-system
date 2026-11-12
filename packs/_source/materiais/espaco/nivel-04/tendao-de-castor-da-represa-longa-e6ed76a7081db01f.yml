@@ -1,0 +1,53 @@
+_id: e6ed76a7081db01f
+_key: '!items!e6ed76a7081db01f'
+name: Tendão de Castor das Represas Dobradas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/e6ed76a7081db01f.webp
+system:
+  identifier: material-alquimia-e6ed76a7081db01f
+  description:
+    value: <p><strong>Elemento:</strong> Espaço · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Parte de animal</p><p>Este castor espiritual une canais distantes através de veios de Qi espacial, construindo uma única represa cujas extremidades aparecem em rios diferentes. Seus tendões preservam essa continuidade sob tensão, oferecendo sustentação e flexibilidade aos preparados que reúnem componentes de espaço concentrado.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: ca8b955afd3c7c23
+sort: 7700000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: espaco
+      elementLabel: Espaço
+      level: 4
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/espaco.json
+        originalName: Tendão de Castor da Represa Longa
+        sha256: e7d0006d3bc5b8eb4685c982cf4dd46c83df9af6d2f53fcd8b56c8b83060db26
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

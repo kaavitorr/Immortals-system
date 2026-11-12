@@ -1,0 +1,85 @@
+{
+  "_id": "bacc100043230d60",
+  "name": "Cultivador Demoníaco",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/cultivador-demoniaco.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-cultivador-demoniaco",
+    "description": {
+      "value": "<p>Você é um cultivador demoníaco de uma seita destruída, onde o desastre que ocorreu em sua seita fez com que você tivesse que abandonar seu cultivo para sobreviver e fez com que você andasse pelo mundo descobrindo uma forma de cultivar sem ser morto. Você era do Rank Mar Divino ou abaixo, antes de abandonar seu cultivo.</p><h3>Equipamentos iniciais</h3><p>Vestes pretas e uma bugiganga de um membro da sua seita que você matou. <strong>100 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc200043230d60]{Recursos Roubados}</h3><p>Você possui um Manual de Cultivo de Rank Sagrado pertencente ao caminho demoníaco, que conseguiu roubar antes da destruição de sua seita. Entretanto, sua natureza maligna exige o sacrifício de uma vida inocente por semana para permanecer saciada.</p><p>Ao integrar esse manual ao seu Manual Divino, você libera uma poderosa onda de energia negativa que se espalha por centenas de quilômetros, alertando todos na região sobre sua localização e sua natureza como cultivador demoníaco.</p><p>Esse fenômeno se repete sempre que você deixar de realizar o sacrifício semanal exigido pelo manual, revelando novamente sua presença e localização.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc500043230d60",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 100,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc300043230d60": {
+        "_id": "bacc300043230d60",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc200043230d60",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc700043230d60": {
+        "_id": "bacc700043230d60",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc60005f89f41d",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000d0c67323",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000618b1563",
+              "quantity": 1,
+              "optional": false
+            }
+          ],
+          "currency": {
+            "gp": 100
+          },
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "cultivador-demoniaco",
+        "startingGold": 100,
+        "equipment": "Vestes pretas e uma bugiganga de um membro da sua seita que você matou."
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc100043230d60"
+}

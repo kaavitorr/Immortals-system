@@ -1,0 +1,71 @@
+_id: 4f437ab048addfe1
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:190
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 4f437ab048addfe1
+name: Contra-Aperto
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Quando uma criatura tentar se libertar do seu agarrão, você pode
+      aplicar -2 ao resultado da rolagem dela e causar o dano do seu ataque padrão se ela falhar.</p>
+    chat: ''
+  identifier: contra-aperto
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    31a62896351a26e7:
+      _id: 31a62896351a26e7
+      type: utility
+      name: Contra-Aperto
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Quando uma criatura tentar se libertar do seu agarrão, você pode aplicar -2 ao resultado da rolagem dela e
+          causar o dano do seu ataque padrão se ela falhar.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/contra-aperto-4f437ab048addfe1.webp"
+_key: '!items!4f437ab048addfe1'

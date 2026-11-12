@@ -1,0 +1,198 @@
+_id: poisonVial000000
+_key: '!items!poisonVial000000'
+name: Frasco de Veneno
+type: consumable
+img: icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp
+system:
+  identifier: poison-vial
+  description:
+    value: >-
+      <p>Este pequeno frasco contém um líquido turvo visivelmente mais espesso que a água. Exala um odor inquietante que
+      evoca uma sensação de algo errado.</p><p><strong>Propriedades:</strong> Empilhável.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 1
+    units: kg
+  price:
+    value: 250
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  activities:
+    2c941c4730603c6f:
+      _id: 2c941c4730603c6f
+      type: utility
+      name: Aplicar efeito do veneno
+      img: icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp
+      sort: 0
+      activation:
+        type: action
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        value: >-
+          <p>When this toxin is ingested or otherwise enters the bloodstream of a creature, it is initially
+          <strong>Harmless</strong>, but the target must defend an attack against its <strong>Fortitude</strong> or
+          become Envenenado.</p><p>The amount of poison damage and its duration is dependent on the quality of the
+          Frasco de Veneno:</p><ul><li><p><strong>Shoddy</strong> - 2 damage for 4
+          rounds</p></li><li><p><strong>Standard</strong> - 4 damage for 6 rounds</p></li><li><p><strong>Fine</strong> -
+          6 damage for 8 rounds</p></li><li><p><strong>Superior</strong> - 8 damage for 10
+          rounds</p></li><li><p><strong>Masterwork</strong> - 10 damage for 12 rounds</p></li></ul><p><em>This action
+          should be used when the poison is ingested rather than when it is first applied.</em></p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: m
+        value: null
+        special: ''
+      target:
+        override: true
+        prompt: true
+        template:
+          type: ''
+          size: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+          special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+    8c2d3b374a68fd50:
+      _id: 8c2d3b374a68fd50
+      type: utility
+      name: Aplicar veneno
+      img: icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp
+      sort: 0
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+          - type: itemUses
+            target: ''
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        value: >-
+          <p>The contents of this vial can be added to food, drink, smeared upon a bladed weapon, or combined with some
+          alternative delivery mechanism.</p><p><em>This action, which consumes the available usage of the poison,
+          should be used when it is first applied.</em></p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: m
+        value: 1
+        special: ''
+      target:
+        override: true
+        prompt: true
+        template:
+          type: ''
+          size: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: ''
+          count: '1'
+          choice: false
+          special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  type:
+    value: poison
+    subtype: ''
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    replace: false
+effects: []
+folder: jbap2z8839rf6CuO
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: poisonVial000000
+      sourceType: consumable
+      category: flask
+      quality: standard
+      enchantment: ''
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

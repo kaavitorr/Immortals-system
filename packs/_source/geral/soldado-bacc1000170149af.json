@@ -1,0 +1,85 @@
+{
+  "_id": "bacc1000170149af",
+  "name": "Soldado",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/soldado.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-soldado",
+    "description": {
+      "value": "<p>Um soldado é aquele que serve ou serviu seu país e nação, seja em guerra ou apenas trabalhando em zonas de segurança máxima, independentemente do local onde ele operou ele possui treinamentos com vários tipos de armas marciais e de guerra como a lança.</p><h3>Equipamentos iniciais</h3><p>Um kit de escalada, um kit de primeiros socorros e uma roupa camuflada. <strong>30 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc2000170149af]{Conhecimento da Guerra}</h3><p>Como um soldado, você aprendeu diversas táticas de batalha e sabe reconhecer os diversos estilos marciais dos soldados baseado apenas na forma como eles lutam. Você pode escolher realizar um Teste de Sorte CD 17. Em caso de sucesso, você reconhece todos os Manuais de Combate que a criatura utiliza até terceiro grau.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc5000170149af",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 30,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc3000170149af": {
+        "_id": "bacc3000170149af",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc2000170149af",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc7000170149af": {
+        "_id": "bacc7000170149af",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc60000d22c4b5",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.d9ef2569042724db",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc600099019527",
+              "quantity": 1,
+              "optional": false
+            }
+          ],
+          "currency": {
+            "gp": 30
+          },
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "soldado",
+        "startingGold": 30,
+        "equipment": "Um kit de escalada, um kit de primeiros socorros e uma roupa camuflada."
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc1000170149af"
+}

@@ -1,0 +1,71 @@
+_id: 51bdcc6197b7e070
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:58
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 51bdcc6197b7e070
+name: Tecelã de Teias
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢</strong></p><p>A criatura pode se içar 6 metros em qualquer direção sem consumir seu
+      deslocamento. Uma vez por rodada, ela pode adicionar a palavra-chave Reação a esse aspecto.</p>
+    chat: ''
+  identifier: tecela-de-teias
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    fcb6db5007884f79:
+      _id: fcb6db5007884f79
+      type: utility
+      name: Tecelã de Teias
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>A criatura pode se içar 6 metros em qualquer direção sem consumir seu deslocamento. Uma vez por rodada, ela
+          pode adicionar a palavra-chave Reação a esse aspecto.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/tecela-de-teias-51bdcc6197b7e070.webp"
+_key: '!items!51bdcc6197b7e070'

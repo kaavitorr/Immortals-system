@@ -1,0 +1,46 @@
+_id: 9f0e12304ebf88af
+name: Destilado da Primeira Aurora
+type: loot
+img: systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-10/9f0e12304ebf88af.webp
+folder: 6acf00f190e5adc7
+sort: 300000
+system:
+  identifier: reagente-9f0e12304ebf88af
+  type:
+    value: material
+    subtype: ''
+  description:
+    value: <p><strong>Nível:</strong> 10 · <strong>Categoria:</strong> Reagente · <strong>Função:</strong> Veículo</p><p>Líquido claro com um reflexo pêssego quase imperceptível, obtido em sucessivas destilações espirituais. É um veículo neutro para ingredientes do décimo nível. Permite preparar misturas e suspensões muito exigentes sem substituir os princípios ativos nem os requisitos de conhecimento e cultivo da receita.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  source:
+    custom: Immortals Legacy — Reagentes de Preparo
+effects: []
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    reagentMaterial:
+      level: 10
+      role: veiculo
+      category: reagente
+    materialEconomy:
+      version: 2
+      level: 10
+      category: reagente
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!9f0e12304ebf88af'

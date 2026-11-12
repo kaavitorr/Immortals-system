@@ -1,0 +1,53 @@
+_id: 37cb32b49f5d6a72
+_key: '!items!37cb32b49f5d6a72'
+name: Cauda do Castor-Martelo
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/37cb32b49f5d6a72.webp
+system:
+  identifier: material-alquimia-37cb32b49f5d6a72
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Parte de animal</p><p>A cauda achatada bate no ritmo das bigornas, e castores velhos achatam barras de estanho por diversão. Fatiada e cozida, restaura forças por dois dias.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 7de9db68c684280d
+sort: 8000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 4
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Cauda do Castor Martelo
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

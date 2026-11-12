@@ -1,0 +1,53 @@
+_id: 34289e3a8c19d90d
+_key: '!items!34289e3a8c19d90d'
+name: Semente de Aço Estelar
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/34289e3a8c19d90d.webp
+system:
+  identifier: material-alquimia-34289e3a8c19d90d
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Planta</p><p>Caiu, contam os anais, numa chuva de estrelas prateadas; é fria ao toque e não cede a martelo. Germina uma vez por era e alimenta pílulas que endurecem a pele como lâmina polida.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f38290d78ecbccdc
+sort: 12500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 7
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Semente de Aço Estelar
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

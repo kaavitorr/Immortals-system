@@ -1,0 +1,53 @@
+_id: 62b60ebd8c42870f
+_key: '!items!62b60ebd8c42870f'
+name: Salgueiro da Clepsidra
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/tempo/62b60ebd8c42870f.webp
+system:
+  identifier: material-alquimia-62b60ebd8c42870f
+  description:
+    value: <p><strong>Elemento:</strong> Tempo · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Planta</p><p>Este salgueiro cresce sobre a clepsidra quebrada de um palácio afundado e deixa cair uma gota a cada respiração. O chá de suas folhas prolonga os transes de meditação.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 46adc3260f55ed28
+sort: 10600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: tempo
+      elementLabel: Tempo
+      level: 6
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/tempo.json
+        originalName: Salgueiro da Clepsidra
+        sha256: 78c1decf6231b4f084096c5432683d625516dd37d65e516e424b199307cc5107
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

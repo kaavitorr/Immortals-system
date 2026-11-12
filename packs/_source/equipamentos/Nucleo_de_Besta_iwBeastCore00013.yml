@@ -1,0 +1,104 @@
+{
+  "name": "Núcleo de Besta — Espaço",
+  "type": "consumable",
+  "img": "systems/Immortals-system/assets/wuxia/nucleos-pintados-v1/espaco.webp",
+  "effects": [],
+  "system": {
+    "identifier": "nucleo-de-besta-espaco",
+    "type": {
+      "value": "beastCore",
+      "subtype": "espaco"
+    },
+    "beastCore": {
+      "rank": 1
+    },
+    "quantity": 1,
+    "equipped": false,
+    "description": {
+      "value": "<p>Um núcleo físico de besta: uma esfera de cristal perfeitamente redonda, da cor do elemento Espaço.</p><p>O núcleo é um material consumível, distinto da Essência de Besta que contém a alma da criatura. Consulte o elemento e o reino nos detalhes deste item para verificar os requisitos de treinamentos e receitas.</p><p>Use Consumir núcleo somente quando uma regra exigir seu consumo. Cada uso remove uma unidade; possuir o núcleo não concede afinidade, transformação ou PEQ automaticamente.</p>",
+      "chat": ""
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "activities": {
+      "iwCoreConsume001": {
+        "_id": "iwCoreConsume001",
+        "type": "utility",
+        "name": "Consumir núcleo",
+        "img": "systems/Immortals-system/assets/wuxia/nucleos-pintados-v1/espaco.webp",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "Somente quando uma regra exigir o consumo do núcleo.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p>Um núcleo físico de besta: uma esfera de cristal perfeitamente redonda, da cor do elemento Espaço.</p><p>O núcleo é um material consumível, distinto da Essência de Besta que contém a alma da criatura. Consulte o elemento e o reino nos detalhes deste item para verificar os requisitos de treinamentos e receitas.</p><p>Use Consumir núcleo somente quando uma regra exigir seu consumo. Cada uso remove uma unidade; possuir o núcleo não concede afinidade, transformação ou PEQ automaticamente.</p>",
+          "chatFlavor": "Núcleo de Besta — Espaço"
+        },
+        "effects": [],
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false
+          },
+          "template": {
+            "type": "",
+            "size": "",
+            "units": "m"
+          }
+        }
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "beastCore": {
+        "version": 1
+      }
+    }
+  },
+  "_id": "iwBeastCore00013",
+  "folder": "iwBeastCores0001",
+  "_key": "!items!iwBeastCore00013"
+}

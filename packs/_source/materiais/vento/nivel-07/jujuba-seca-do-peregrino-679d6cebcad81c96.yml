@@ -1,0 +1,53 @@
+_id: 679d6cebcad81c96
+_key: '!items!679d6cebcad81c96'
+name: Jujuba dos Peregrinos das Nuvens
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/vento/679d6cebcad81c96.webp
+system:
+  identifier: material-alquimia-679d6cebcad81c96
+  description:
+    value: <p><strong>Elemento:</strong> Vento · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Planta</p><p>Essa jujuba amadurece em árvores nutridas por Qi aéreo nas ilhas que atravessam lentamente as rotas superiores das montanhas espirituais. A polpa seca sem perder os fios luminosos do fruto, oferecendo uma reserva leve de vigor para preparações que sustentam longos recolhimentos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: cb9a5e9b06f1adc2
+sort: 13000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: vento
+      elementLabel: Vento
+      level: 7
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/vento.json
+        originalName: Jujuba Seca do Peregrino
+        sha256: f5db71d3cdec5cc798ab9829fe28f461a95ad76b46b89331433a614fa8d62814
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

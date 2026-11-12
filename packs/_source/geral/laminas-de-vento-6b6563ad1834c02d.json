@@ -1,0 +1,214 @@
+{
+  "_id": "6b6563ad1834c02d",
+  "name": "Lâminas de Vento",
+  "type": "spell",
+  "folder": "e1acf6123955f1a0",
+  "sort": 200000,
+  "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/leque-de-ferro.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-laminas-de-vento",
+    "level": 2,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 3,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "",
+      "units": "inst",
+      "expiry": null,
+      "special": "",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "18",
+      "units": "m",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "line",
+        "size": "18",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Leque</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>3 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Até 18 metros, Linha</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Leque</td></tr><tr><th>Requisito do quadro</th><td>Citara</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você carrega seu Qi em seu leque antes de balançar ele com força liberando lâminas de vento que avançam na direção do seu alvo.</p><h3>Observações</h3><p>O quadro traz Citara como requisito; foi corrigido para Leque, conforme a categoria e a descrição.</p>"
+    },
+    "activities": {
+      "cd06169ec3b2b3b0": {
+        "_id": "cd06169ec3b2b3b0",
+        "type": "attack",
+        "name": "Lâminas de Vento",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/leque-de-ferro.webp",
+        "activation": {
+          "type": "action",
+          "value": 3,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "3",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Leque</td></tr><tr><th>Técnica</th><td>2º Grau</td></tr><tr><th>Custo</th><td>3 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Até 18 metros, Linha</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Leque</td></tr><tr><th>Requisito do quadro</th><td>Citara</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você carrega seu Qi em seu leque antes de balançar ele com força liberando lâminas de vento que avançam na direção do seu alvo.</p><h3>Observações</h3><p>O quadro traz Citara como requisito; foi corrigido para Leque, conforme a categoria e a descrição.</p>",
+          "chatFlavor": "Lâminas de Vento"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "18",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "line",
+            "size": "18",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "laminas-de-vento",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": false
+            }
+          }
+        },
+        "attack": {
+          "ability": "spellcasting",
+          "bonus": "",
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": "spell"
+          },
+          "critical": {
+            "threshold": 20
+          }
+        },
+        "damage": {
+          "includeBase": false,
+          "critical": {
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "types": [
+                "slashing"
+              ],
+              "custom": {
+                "enabled": true,
+                "formula": "24"
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": []
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "laminas-de-vento",
+        "category": "leque",
+        "grade": 2,
+        "auxiliary": false,
+        "weapon": "Leque",
+        "qi": 3,
+        "actions": 3,
+        "reaction": false,
+        "combinedAttack": true,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Instantâneo",
+            "range": "Até 18 metros, Linha",
+            "requirements": "Citara",
+            "damage": "24 de dano Cortante",
+            "combinedAttack": true
+          }
+        },
+        "manualResolution": [],
+        "sourceCorrections": [
+          "O quadro traz Citara como requisito; foi corrigido para Leque, conforme a categoria e a descrição."
+        ]
+      }
+    }
+  },
+  "_key": "!items!6b6563ad1834c02d"
+}

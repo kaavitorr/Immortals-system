@@ -1,0 +1,222 @@
+{
+  "_id": "032200ac226bbfac",
+  "name": "Escudo de Qi",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/escudo-de-qi.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-escudo-de-qi",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Escudo de Qi</h2><p>Você aprendeu a liberar uma grande quantidade de Qi para se proteger de danos externos. Ao ativar essa característica e no início de cada um de seus turnos, você consome 1 Ponto de Ação [1 ação] e 2 PQ para aumentar sua Classe de Resistência em +2 de CR e +1 para cada Ponto de Ação e 1 PQ adicional que você escolher consumir.</p><p><strong>Resolução:</strong> Cada reforço acrescenta +1 CR e exige novamente 1 ação e 1 Qi em cada manutenção. Registre o bônus total e pague sua manutenção a cada turno.</p>"
+    },
+    "activities": {
+      "421af3fc92deeb76": {
+        "_id": "421af3fc92deeb76",
+        "type": "utility",
+        "name": "Escudo de Qi (+2 CR)",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Escudo de Qi</h2><p>Você aprendeu a liberar uma grande quantidade de Qi para se proteger de danos externos. Ao ativar essa característica e no início de cada um de seus turnos, você consome 1 Ponto de Ação [1 ação] e 2 PQ para aumentar sua Classe de Resistência em +2 de CR e +1 para cada Ponto de Ação e 1 PQ adicional que você escolher consumir.</p><p><strong>Resolução:</strong> Cada reforço acrescenta +1 CR e exige novamente 1 ação e 1 Qi em cada manutenção. Registre o bônus total e pague sua manutenção a cada turno.</p>",
+          "chatFlavor": "Escudo de Qi — Escudo de Qi (+2 CR)"
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "expiry": null,
+          "special": "Pague novamente no início de cada turno.",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "escudo-de-qi",
+              "key": "shield",
+              "manualResolution": true,
+              "rule": "qiShield",
+              "armorClass": 2,
+              "upkeep": {
+                "qi": 2,
+                "actions": 1
+              }
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Escudo de Qi (+2 CR)",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/escudo-de-qi.webp"
+      },
+      "6e37fcfe89e2568c": {
+        "_id": "6e37fcfe89e2568c",
+        "type": "utility",
+        "name": "Reforçar Escudo de Qi (+1 CR)",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "Além da ativação ou manutenção do Escudo de Qi.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Escudo de Qi</h2><p>Você aprendeu a liberar uma grande quantidade de Qi para se proteger de danos externos. Ao ativar essa característica e no início de cada um de seus turnos, você consome 1 Ponto de Ação [1 ação] e 2 PQ para aumentar sua Classe de Resistência em +2 de CR e +1 para cada Ponto de Ação e 1 PQ adicional que você escolher consumir.</p><p><strong>Resolução:</strong> Cada reforço acrescenta +1 CR e exige novamente 1 ação e 1 Qi em cada manutenção. Registre o bônus total e pague sua manutenção a cada turno.</p>",
+          "chatFlavor": "Escudo de Qi — Reforçar Escudo de Qi (+1 CR)"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "escudo-de-qi",
+              "key": "reinforce",
+              "manualResolution": true,
+              "rule": "qiShieldIncrement",
+              "armorClass": 1,
+              "upkeep": {
+                "qi": 1,
+                "actions": 1
+              }
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Reforçar Escudo de Qi (+1 CR)",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/escudo-de-qi.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "escudo-de-qi",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Controle de Qi",
+        "requisitos": [],
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "Cada reforço acrescenta +1 CR e exige novamente 1 ação e 1 Qi em cada manutenção. Registre o bônus total e pague sua manutenção a cada turno."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!032200ac226bbfac"
+}

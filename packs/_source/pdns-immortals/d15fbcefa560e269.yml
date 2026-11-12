@@ -1,0 +1,83 @@
+name: Olhar que Revela
+type: feat
+folder: b4cdf08eea2c07d5
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢⬢</p><p>A criatura examina distorções sensoriais e incoerências nas ilusões que
+      presencia. Ao usar 2 Pontos de Ação [⬢⬢] e 5 PQ, a criatura passa a poder enxergar ilusões dentro do alcance de 60
+      metros que você possa ver, podendo identificar falsidade de verdade.</p>
+    chat: ''
+  identifier: olhar-que-revela
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    471237f5546c5f8e:
+      _id: 471237f5546c5f8e
+      type: utility
+      name: Olhar que Revela
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '5'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>A criatura examina distorções sensoriais e incoerências nas ilusões que presencia. Ao usar 2 Pontos de Ação
+          [⬢⬢] e 5 PQ, a criatura passa a poder enxergar ilusões dentro do alcance de 60 metros que você possa ver,
+          podendo identificar falsidade de verdade.</p>
+        chatFlavor: ''
+      range:
+        value: 60
+        units: m
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: creature
+          count: '1'
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 10
+  prerequisites:
+    items: []
+    level: 10
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: d15fbcefa560e269
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/analisar-padroes-38a87b70e6f341bd.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:olharquerevela
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Tecelã de Miragens
+_key: '!items!d15fbcefa560e269'

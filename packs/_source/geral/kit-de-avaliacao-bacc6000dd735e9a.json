@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000dd735e9a",
+  "name": "Kit de Avaliação",
+  "type": "tool",
+  "img": "systems/Immortals-system/assets/wuxia/equipamentos-antecedentes-pintados-v1/avaliacao.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-avaliacao",
+    "description": {
+      "value": "<p>Instrumentos para examinar mercadorias e avaliar tesouros.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "art"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "avaliacao"
+    }
+  },
+  "_key": "!items!bacc6000dd735e9a"
+}

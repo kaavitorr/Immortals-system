@@ -1,0 +1,55 @@
+{
+  "_id": "1a2c10007ef25b8f",
+  "name": "Traços Animalescos — Aves de Rapina",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/birds/raptor-hawk-flying.webp",
+  "system": {
+    "identifier": "especie-33c8324f",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Aves de Rapina. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c1000e512a05e": {
+        "_id": "1a2c1000e512a05e",
+        "type": "ItemChoice",
+        "title": "Duas características — Aves de Rapina",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.s5YojiyZSTeHORzk"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.kyjX6hiZWIIKaPBt"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.HumR7e4pdpii4Gwn"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Aves de Rapina",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c10007ef25b8f"
+}

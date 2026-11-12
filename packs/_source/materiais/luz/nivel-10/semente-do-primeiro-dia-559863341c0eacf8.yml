@@ -1,0 +1,53 @@
+_id: 559863341c0eacf8
+_key: '!items!559863341c0eacf8'
+name: Semente do Primeiro Dia
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/559863341c0eacf8.webp
+system:
+  identifier: material-alquimia-559863341c0eacf8
+  description:
+    value: <p><strong>Elemento:</strong> Luz · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Planta</p><p>Semente remanescente do primeiro dia da criação, que germina apenas quando as Leis da luz tremem. É o ingrediente proibido das pílulas lendárias que abrem os olhos da alma para toda a verdade.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 9cd5b7565a551659
+sort: 18200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: luz
+      elementLabel: Luz
+      level: 10
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/luz.json
+        originalName: Semente do Primeiro Dia
+        sha256: a65d9c475ce3e69bcab79896f06bd1f00a0fcc1e5a6329d0e4735711f2236288
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

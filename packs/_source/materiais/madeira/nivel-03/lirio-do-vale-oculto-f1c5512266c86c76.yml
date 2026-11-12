@@ -1,0 +1,53 @@
+_id: f1c5512266c86c76
+_key: '!items!f1c5512266c86c76'
+name: Lírio do Vale Oculto
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/f1c5512266c86c76.webp
+system:
+  identifier: material-alquimia-f1c5512266c86c76
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Planta</p><p>Este lírio nasce em vales fechados por raízes antigas, onde o Qi da Madeira se acumula em gotas claras sobre as pétalas. Sua tintura fornece uma base fresca às pastas de fechamento de feridas e ajuda a preservar a circulação das essências durante a regeneração.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 1000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 99c7c69753e2fb5c
+sort: 4200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 3
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Lírio do Vale Oculto
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

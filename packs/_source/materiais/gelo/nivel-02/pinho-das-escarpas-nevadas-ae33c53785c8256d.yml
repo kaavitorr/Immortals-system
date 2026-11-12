@@ -1,0 +1,53 @@
+_id: ae33c53785c8256d
+_key: '!items!ae33c53785c8256d'
+name: Pinho das Agulhas de Geada
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/ae33c53785c8256d.webp
+system:
+  identifier: material-alquimia-ae33c53785c8256d
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>Aparece em escarpas onde o Qi frio sopra através da pedra antes de alcançar o ar. Suas agulhas contêm resina clara que endurece e amolece sem perder essência, valiosa para dar consistência a preparados de gelo submetidos a sucessivos refinamentos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 01a43186322c8bd2
+sort: 2900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Pinho das Escarpas Nevadas
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

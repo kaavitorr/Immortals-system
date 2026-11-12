@@ -1,0 +1,135 @@
+{
+  "_id": "a6d5e7322ef93796",
+  "name": "Destruidor de Exércitos",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/destruidor-de-exercitos.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-destruidor-de-exercitos",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo do Corpo.</p><h2>Destruidor de Exércitos</h2><p><strong>Requisito:</strong> 2º Portão</p><p>Sempre que realizar um Ataque Comum ou de Técnica, você pode gastar 2 Pontos de Ação [2 ações] adicionais e 2 PQ para transformar o ataque em uma poderosa pressão de ar, fazendo com que ele atinja todas as criaturas em um Cone de 25 metros.</p><p>Caso utilize esse efeito em uma Técnica, ela perde 1 passo de dano e causa 1 Dado de Dano a menos.</p><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. A técnica perde um passo de dano e um dado; o cone tem 25 metros.</p>"
+    },
+    "activities": {
+      "86dd1ad2a2b7bde4": {
+        "_id": "86dd1ad2a2b7bde4",
+        "type": "utility",
+        "name": "Destruidor de Exércitos",
+        "activation": {
+          "type": "action",
+          "value": 2,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo do Corpo.</p><h2>Destruidor de Exércitos</h2><p><strong>Requisito:</strong> 2º Portão</p><p>Sempre que realizar um Ataque Comum ou de Técnica, você pode gastar 2 Pontos de Ação [2 ações] adicionais e 2 PQ para transformar o ataque em uma poderosa pressão de ar, fazendo com que ele atinja todas as criaturas em um Cone de 25 metros.</p><p>Caso utilize esse efeito em uma Técnica, ela perde 1 passo de dano e causa 1 Dado de Dano a menos.</p><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. A técnica perde um passo de dano e um dado; o cone tem 25 metros.</p>",
+          "chatFlavor": "Destruidor de Exércitos — Destruidor de Exércitos"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "25",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "cone",
+            "size": "25",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "destruidor-de-exercitos",
+              "key": "army",
+              "manualResolution": true,
+              "rule": "armyDestroyer",
+              "modifiesExistingAttack": true,
+              "techniqueDieStepReduction": 1,
+              "techniqueDiceReduction": 1
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Destruidor de Exércitos",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/destruidor-de-exercitos.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "destruidor-de-exercitos",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo do Corpo",
+        "requisitos": [
+          "2º Portão"
+        ],
+        "requirementRules": {
+          "type": "body",
+          "min": 4
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado. A técnica perde um passo de dano e um dado; o cone tem 25 metros."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!a6d5e7322ef93796"
+}

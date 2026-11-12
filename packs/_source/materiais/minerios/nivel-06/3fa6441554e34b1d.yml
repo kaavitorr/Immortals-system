@@ -1,0 +1,50 @@
+_id: 3fa6441554e34b1d
+name: Diamante da Pressão Serena
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-06/3fa6441554e34b1d.webp
+system:
+  identifier: minerio-3fa6441554e34b1d
+  description:
+    value: <p><strong>Nível:</strong> 6 · <strong>Categoria:</strong> Minério</p><p>Cristal incolor de faces largas encerrado em uma matriz cinza-escura. Forma-se no interior de montanhas que permaneceram estáveis por eras. É usado em pontas de gravação e em suportes de trabalho para peças espirituais cujo acabamento exige cortes firmes e muito precisos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f3ef8d149cb8b8bd
+sort: 300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 6
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 6
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!3fa6441554e34b1d'

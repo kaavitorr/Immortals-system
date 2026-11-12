@@ -1,0 +1,53 @@
+_id: bcf806acd34637cd
+_key: '!items!bcf806acd34637cd'
+name: Escama de Pangolim das Placas Argênteas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/bcf806acd34637cd.webp
+system:
+  identifier: material-alquimia-bcf806acd34637cd
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Parte de animal</p><p>O pangolim das Placas Argênteas conduz Qi metálico por juntas luminosas e alinha suas escamas para repartir a força de ataques pelo corpo. As placas fornecem afinidade de Metal e dispersão de impacto a matrizes protetoras, barreiras e tesouros de defesa.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 2000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 15ecec870b7da838
+sort: 5300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 3
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Carapaça do Pangolim Desperto
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

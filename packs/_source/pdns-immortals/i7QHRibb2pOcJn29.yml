@@ -1,0 +1,139 @@
+name: Sáurios
+type: taxonomy
+folder: 129479b5cf6f39d6
+system:
+  description:
+    value: >-
+      <p>Reúne humanoides reptilianos, como homens-lagarto de pântanos, habitantes escamosos de ruínas e outras
+      criaturas de forma humana e traços de lagarto.</p><p><strong>Resistência:</strong> Veneno +5 | Perfurante
+      +3</p><p><strong>Vulnerabilidade:</strong> Frio −5 | Psíquico −3</p><p><strong>Deslocamento:</strong> Caminhada:
+      10 m | Natação: 10 m</p><p><strong>Armaduras:</strong> Escamas Pesadas (14 +
+      Con).</p><p><strong>Perícias:</strong> Proficiências: Sobrevivência, Percepção e
+      Atletismo.</p><p><strong>Salvaguardas:</strong> Proficiências: Vontade e
+      Fortitude.</p><p><strong>Aspectos:</strong> Escamas Reflexivas, Temperamento Frio.</p>
+    chat: ''
+  identifier: saurios
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 3
+    dex: 2
+    con: 3
+    int: 2
+    wis: 2
+    cha: 0
+  resistencias:
+    bludgeoning:
+      value: 0
+      immune: false
+    piercing:
+      value: 3
+      immune: false
+    slashing:
+      value: 0
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 5
+      immune: false
+    cold:
+      value: -5
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: -3
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.sur
+      - skills.prc
+      - skills.ath
+      - saves.con
+      - saves.cha
+      - saves.str
+      - saves.wis
+    alternative:
+      - skills.sur
+      - skills.prc
+      - skills.ath
+      - alternativeSaves.vontade
+      - alternativeSaves.fortitude
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.2xAyYTuanXlssP7y
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.we8Kh3bpSM6QbWVk
+      nd: 0
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000007
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000003
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000004
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000013
+  vidaEnergia: false
+  energiaBase: 10
+  movimento:
+    walk: 10
+    swim: 10
+    fly: 0
+    climb: 0
+    burrow: 0
+_id: i7QHRibb2pOcJn29
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/taxonomias/saurios.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:taxonomy:saurios
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: i7QHRibb2pOcJn29
+_key: '!items!i7QHRibb2pOcJn29'

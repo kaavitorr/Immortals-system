@@ -1,0 +1,35 @@
+{
+  "_id": "iwCrystal0000007",
+  "name": "Cristal de Essência — Céu Inferior",
+  "type": "consumable",
+  "folder": "iwEssenceCryst01",
+  "img": "systems/Immortals-system/assets/wuxia/cristais-essencia-pintados-v1/ceu-inferior.webp",
+  "effects": [],
+  "system": {
+    "identifier": "cristal-de-essencia-ceu-inferior",
+    "type": {
+      "value": "essenceCrystal",
+      "subtype": "ceu-inferior"
+    },
+    "quantity": 1,
+    "equipped": false,
+    "uses": {
+      "max": "200",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": false
+    },
+    "activities": {},
+    "description": {
+      "value": "<p>Pedra ou gema formada pela exposição prolongada a Qi denso, encontrada em veias espirituais.</p><p><strong>Céu · Inferior</strong> — reserva total de <strong>200 PEQ</strong>.</p><p>Recite seu mantra segurando este cristal equipado para dobrar a velocidade de cultivo até a reserva se esgotar. Sua capacidade deve atingir metade da absorção efetiva: o menor limite entre o mantra e a região. O calendário desconta somente a Essência extra concedida, permitindo um último dia parcial.</p><p>A reserva não se recupera em descansos. Cristais com saldos diferentes devem ficar em itens separados.</p>",
+      "chat": ""
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "essenceCrystal": {
+        "version": 2
+      }
+    }
+  }
+}

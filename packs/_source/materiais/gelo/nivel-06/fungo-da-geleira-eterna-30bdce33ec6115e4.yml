@@ -1,0 +1,53 @@
+_id: 30bdce33ec6115e4
+_key: '!items!30bdce33ec6115e4'
+name: Fungo da Geleira Eterna
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/30bdce33ec6115e4.webp
+system:
+  identifier: material-alquimia-30bdce33ec6115e4
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Planta</p><p>Cresce em espirais no coração das geleiras que jamais derretem. Seu pó, misturado a pílulas, abranda calores internos que consomem cultivadores por dentro.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 49cfc131fd248e74
+sort: 10200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 6
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Fungo da Geleira Eterna
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

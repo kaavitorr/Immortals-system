@@ -1,0 +1,75 @@
+_id: ec6220d9af22ee98
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:196
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: ec6220d9af22ee98
+name: Cuspe Reativo
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Quando uma criatura realizar uma ação contra essa criatura, ela pode
+      cuspir veneno no olho da criatura que realizou a ação. Em caso de acerto, o alvo recebe dano de Veneno igual à
+      resistência a veneno dessa criatura e deve realizar uma Salvaguarda de Vontade para não receber a condição “Cego”
+      até o fim do próximo turno dele.</p>
+    chat: ''
+  identifier: cuspe-reativo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    b061743313d1e879:
+      _id: b061743313d1e879
+      type: utility
+      name: Cuspe Reativo
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Quando uma criatura realizar uma ação contra essa criatura, ela pode cuspir veneno no olho da criatura que
+          realizou a ação. Em caso de acerto, o alvo recebe dano de Veneno igual à resistência a veneno dessa criatura e
+          deve realizar uma Salvaguarda de Vontade para não receber a condição “Cego” até o fim do próximo turno
+          dele.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 5
+  prerequisites:
+    items: []
+    level: 5
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/cuspe-reativo-ec6220d9af22ee98.webp"
+_key: '!items!ec6220d9af22ee98'

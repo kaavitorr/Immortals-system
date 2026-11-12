@@ -1,0 +1,182 @@
+{
+  "_id": "fffc399a7e0cd89c",
+  "name": "Monkey Sight",
+  "type": "spell",
+  "folder": "9ebbf2153d478de9",
+  "sort": 300000,
+  "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/bastao-longo.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-monkey-sight",
+    "level": 0,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "reaction",
+      "value": 1,
+      "condition": "Use somente quando ocorrer o gatilho descrito na técnica.",
+      "override": true
+    },
+    "duration": {
+      "value": "",
+      "units": "inst",
+      "expiry": null,
+      "special": "",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "",
+      "units": "self",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "",
+        "size": "",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "self",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Bastões</td></tr><tr><th>Técnica</th><td>Auxiliar</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>1 · Reação</td></tr><tr><th>Alcance</th><td>Pessoal</td></tr><tr><th>Duração</th><td>Instantâneo.</td></tr><tr><th>Arma</th><td>Bastão</td></tr><tr><th>Requisito do quadro</th><td>Reação, Bastão</td></tr></tbody></table><p>Quando você for alvo de uma jogada de acerto ou tiver que realizar uma Salvaguarda de Força ou Agilidade. Você pode desencadear um dos seguintes efeitos:</p><p>Ataque Comum: Você sobe no topo do bastão e faz o ataque te errar automaticamente;</p><p>Ataque em Área: Você sobe no bastão e recebe vantagem e +1 na Salvaguarda.</p><h3>Observações</h3><p>Escolha o efeito correspondente ao gatilho: faça o ataque comum errar automaticamente ou aplique vantagem e +1 à salvaguarda de Força/Agilidade contra o ataque em área. A proteção vale somente para esse gatilho.</p>"
+    },
+    "activities": {
+      "2b5a61ebc4f0c97d": {
+        "_id": "2b5a61ebc4f0c97d",
+        "type": "utility",
+        "name": "Monkey Sight",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/bastao-longo.webp",
+        "activation": {
+          "type": "reaction",
+          "value": 1,
+          "condition": "Use somente quando ocorrer o gatilho descrito na técnica.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Bastões</td></tr><tr><th>Técnica</th><td>Auxiliar</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>1 · Reação</td></tr><tr><th>Alcance</th><td>Pessoal</td></tr><tr><th>Duração</th><td>Instantâneo.</td></tr><tr><th>Arma</th><td>Bastão</td></tr><tr><th>Requisito do quadro</th><td>Reação, Bastão</td></tr></tbody></table><p>Quando você for alvo de uma jogada de acerto ou tiver que realizar uma Salvaguarda de Força ou Agilidade. Você pode desencadear um dos seguintes efeitos:</p><p>Ataque Comum: Você sobe no topo do bastão e faz o ataque te errar automaticamente;</p><p>Ataque em Área: Você sobe no bastão e recebe vantagem e +1 na Salvaguarda.</p><h3>Observações</h3><p>Escolha o efeito correspondente ao gatilho: faça o ataque comum errar automaticamente ou aplique vantagem e +1 à salvaguarda de Força/Agilidade contra o ataque em área. A proteção vale somente para esse gatilho.</p>",
+          "chatFlavor": "Monkey Sight"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "monkey-sight",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Monkey Sight",
+          "visible": false,
+          "prompt": false
+        }
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "monkey-sight",
+        "category": "bastoes",
+        "grade": null,
+        "auxiliary": true,
+        "weapon": "Bastão",
+        "qi": 2,
+        "actions": 1,
+        "reaction": true,
+        "combinedAttack": null,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Instantâneo.",
+            "range": "Pessoal",
+            "requirements": "Reação, Bastão",
+            "damage": "Nenhum",
+            "combinedAttack": null
+          }
+        },
+        "manualResolution": [
+          "Escolha o efeito correspondente ao gatilho: faça o ataque comum errar automaticamente ou aplique vantagem e +1 à salvaguarda de Força/Agilidade contra o ataque em área. A proteção vale somente para esse gatilho."
+        ],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!fffc399a7e0cd89c"
+}

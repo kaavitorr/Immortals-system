@@ -1,0 +1,53 @@
+_id: f968c4d35b1f9996
+_key: '!items!f968c4d35b1f9996'
+name: Glândula de Polvo-Camuflagem
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/f968c4d35b1f9996.webp
+system:
+  identifier: material-alquimia-f968c4d35b1f9996
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Parte de animal</p><p>Este polvo espiritual vive em recifes onde o Qi ilusório altera as cores entre as correntes, imitando também o brilho da aura ao redor. A glândula encerra pigmentos sensíveis à essência, utilizados para harmonizar camadas de aparência em preparados e inscrições de ilusão.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 450
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 91b9ed675b46d50c
+sort: 3200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 2
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Glândula de Polvo-Camuflagem
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

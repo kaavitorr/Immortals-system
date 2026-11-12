@@ -1,0 +1,78 @@
+_id: 4bfd8fb89c7efd6d
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:222
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 4bfd8fb89c7efd6d
+name: Grito de Agouro
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢ · Reação</strong></p><p>Quando essa criatura sofrer dano, ela pode gastar 5 PQ para emitir um
+      grito ensurdecedor que espalha Qi ao redor. Todas as criaturas dentro de uma área de 15 metros ao redor dessa
+      criatura sofrem dano Psíquico igual à metade do atributo de Presença dela a cada ação que realizarem.</p>
+    chat: ''
+  identifier: grito-de-agouro
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    facac59d36801ac1:
+      _id: facac59d36801ac1
+      type: utility
+      name: Grito de Agouro
+      activation:
+        type: reaction
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '5'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Quando essa criatura sofrer dano, ela pode gastar 5 PQ para emitir um grito ensurdecedor que espalha Qi ao
+          redor. Todas as criaturas dentro de uma área de 15 metros ao redor dessa criatura sofrem dano Psíquico igual à
+          metade do atributo de Presença dela a cada ação que realizarem.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/grito-de-agouro-4bfd8fb89c7efd6d.webp"
+_key: '!items!4bfd8fb89c7efd6d'

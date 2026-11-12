@@ -1,0 +1,53 @@
+_id: 5b56faf07053f73a
+_key: '!items!5b56faf07053f73a'
+name: Romã de Cem Sementes de Breu
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/5b56faf07053f73a.webp
+system:
+  identifier: material-alquimia-5b56faf07053f73a
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Planta</p><p>Fruto de casca negra que guarda cem sementes de breu vivo, colhidas uma por uma em noites sem nome. Cada semente, engolida com vinho escuro, acrescenta ao corpo do mestre as trevas de uma noite.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 67086d34314c15a2
+sort: 18900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 10
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Romã de Cem Sementes de Breu
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

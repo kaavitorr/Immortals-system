@@ -1,0 +1,16 @@
+{
+  "_id": "d15ebb74f3191760",
+  "name": "Cítara",
+  "type": "Item",
+  "folder": "c16983361c76c762",
+  "sort": 500000,
+  "sorting": "m",
+  "color": "#9bb0bf",
+  "flags": {
+    "Immortals-system": {
+      "combatManualFolder": "citara",
+      "combatManualContentVersion": 1
+    }
+  },
+  "_key": "!folders!d15ebb74f3191760"
+}

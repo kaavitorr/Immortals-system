@@ -1,0 +1,131 @@
+name: Mortos-vivos
+type: taxonomy
+folder: b9497f2183d7aec1
+system:
+  description:
+    value: >-
+      <p>Reúne cadáveres e restos mortais animados, como zumbis, esqueletos e carniçais, que persistem após a
+      morte.</p><p><strong>Resistência:</strong> Frio +3 | Ácido +6 | Alma +3 | Psíquico
+      ∞</p><p><strong>Vulnerabilidade:</strong> Fogo -20 | Cortante -6</p><p><strong>Deslocamento:</strong> Caminhada: 9
+      m</p><p><strong>Armaduras:</strong> Ossada (10 + Con) — imunidade a Perfurante; Vulnerabilidade 10 a
+      Contundente.</p><p><strong>Perícias:</strong> Proficiências: Nenhuma.</p><p><strong>Salvaguardas:</strong>
+      Proficiências: Fortitude e Vontade.</p><p><strong>Aspectos:</strong> Vontade de Morto-Vivo, Mente Inexistente.</p>
+    chat: ''
+  identifier: mortos-vivos
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 4
+    dex: 2
+    con: 4
+    int: 0
+    wis: 0
+    cha: 2
+  resistencias:
+    bludgeoning:
+      value: 0
+      immune: false
+    piercing:
+      value: 0
+      immune: false
+    slashing:
+      value: -6
+      immune: false
+    acid:
+      value: 6
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 3
+      immune: false
+    fire:
+      value: -20
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 0
+      immune: true
+    soul:
+      value: 3
+      immune: false
+  proficiencyOrder:
+    original:
+      - saves.str
+      - saves.wis
+      - saves.con
+      - saves.cha
+    alternative:
+      - alternativeSaves.fortitude
+      - alternativeSaves.vontade
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d1ab67656b90e70e
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.eranVzvtNks4fgNd
+      nd: 0
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000020
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000003
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000006
+  vidaEnergia: false
+  energiaBase: 10
+  movimento:
+    walk: 9
+    swim: 0
+    fly: 0
+    climb: 0
+    burrow: 0
+_id: g0KukGcYmQsHsjGT
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/taxonomias/mortos-vivos.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:taxonomy:mortosvivos
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: g0KukGcYmQsHsjGT
+_key: '!items!g0KukGcYmQsHsjGT'

@@ -1,0 +1,53 @@
+_id: f36b36cff8939a4b
+_key: '!items!f36b36cff8939a4b'
+name: Presa de Serpente do Atalho
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/f36b36cff8939a4b.webp
+system:
+  identifier: material-alquimia-f36b36cff8939a4b
+  description:
+    value: <p><strong>Elemento:</strong> Espaço · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Parte de animal</p><p>A serpente do atalho desliza por veios de Qi espacial e ataca através de fendas que não se abrem diante de sua cabeça. A presa conserva canais conectados em ângulos incomuns, usados para dirigir a essência de travessia com precisão durante o refinamento.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 4000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 46d03499f99dbd13
+sort: 5200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: espaco
+      elementLabel: Espaço
+      level: 3
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/espaco.json
+        originalName: Presa de Serpente do Atalho
+        sha256: e7d0006d3bc5b8eb4685c982cf4dd46c83df9af6d2f53fcd8b56c8b83060db26
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

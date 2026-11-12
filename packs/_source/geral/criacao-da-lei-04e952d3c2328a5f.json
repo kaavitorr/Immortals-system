@@ -1,0 +1,125 @@
+{
+  "_id": "04e952d3c2328a5f",
+  "name": "Criação da Lei",
+  "type": "feat",
+  "folder": "403ee9122963e764",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/criacao-da-lei.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-criacao-da-lei",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Imortalidade. <strong>Caminho:</strong> Reino da Imortalidade.</p><h2>Criação da Lei</h2><p><strong>Requisito:</strong> Empírico</p><p>Sua ultima habilidade permite que você crie uma lei própria. Ela pode ser algo totalmente novo ou baseado em um dos elementos que você já atingiu o 10º nível. Uma lei funciona como uma manifestação separada do seu manual, possui 35 Pontos de Qi para criação, recebendo as mesmas estatísticas de uma terceira manifestação.</p><p><strong>Resolução:</strong> 35 Qi são o orçamento de construção da lei, não um gasto de ativação confirmado. Crie a lei com o narrador, usando as estatísticas de uma terceira manifestação.</p>"
+    },
+    "activities": {
+      "6dc9b976265efe80": {
+        "_id": "6dc9b976265efe80",
+        "type": "utility",
+        "name": "Criação da Lei",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": []
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Imortalidade. <strong>Caminho:</strong> Reino da Imortalidade.</p><h2>Criação da Lei</h2><p><strong>Requisito:</strong> Empírico</p><p>Sua ultima habilidade permite que você crie uma lei própria. Ela pode ser algo totalmente novo ou baseado em um dos elementos que você já atingiu o 10º nível. Uma lei funciona como uma manifestação separada do seu manual, possui 35 Pontos de Qi para criação, recebendo as mesmas estatísticas de uma terceira manifestação.</p><p><strong>Resolução:</strong> 35 Qi são o orçamento de construção da lei, não um gasto de ativação confirmado. Crie a lei com o narrador, usando as estatísticas de uma terceira manifestação.</p>",
+          "chatFlavor": "Criação da Lei — Criação da Lei"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "criacao-da-lei",
+              "key": "law",
+              "manualResolution": true,
+              "rule": "createLaw",
+              "creationBudgetQi": 35,
+              "manifestation": 3,
+              "elementConceptMinimum": 10
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Criação da Lei",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/criacao-da-lei.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "criacao-da-lei",
+        "categoria": "Imortalidade",
+        "caminho": "Reino da Imortalidade",
+        "requisitos": [
+          "Empírico"
+        ],
+        "requirementRules": {
+          "type": "rank",
+          "min": 9
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "35 Qi são o orçamento de construção da lei, não um gasto de ativação confirmado. Crie a lei com o narrador, usando as estatísticas de uma terceira manifestação."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!04e952d3c2328a5f"
+}

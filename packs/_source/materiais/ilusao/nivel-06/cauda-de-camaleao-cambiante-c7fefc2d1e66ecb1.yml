@@ -1,0 +1,53 @@
+_id: c7fefc2d1e66ecb1
+_key: '!items!c7fefc2d1e66ecb1'
+name: Cauda de Camaleão Cambiante
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/c7fefc2d1e66ecb1.webp
+system:
+  identifier: material-alquimia-c7fefc2d1e66ecb1
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Parte de animal</p><p>Cauda de uma besta de alto grau, capaz de desenhar no ar figuras que duram um batimento. Seca em espiral, serve de talismã aos pintores que desejam fixar imagens vivas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: fe2618f2c84e8257
+sort: 11100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 6
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Cauda de Camaleão Cambiante
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,67 @@
+_id: smithsPortableFo
+_key: '!items!smithsPortableFo'
+name: Forja Portátil de Ferreiro
+type: tool
+img: icons/tools/smithing/furnace-fire-metal-orange.webp
+system:
+  identifier: workbench-smithing
+  description:
+    value: >-
+      <p>Panela de ferro selada com revestimento espesso de argila, com um furo para acoplar um fole manual e uma
+      pequena abertura para inserir o metal a ser aquecido. Acompanha fole e pequena bigorna. Este dispositivo pesado
+      permite que um ferreiro exerça seu ofício na estrada, embora exija costas fortes para transportá-lo. Adequado para
+      fabricar ferramentas e armas de metal comuns, mas insuficiente para trabalho de alta
+      qualidade.</p><p><strong>Propriedades:</strong> Empilhável.</p><p><strong>Profissões e conhecimentos:</strong>
+      Ferraria.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 50
+    units: kg
+  price:
+    value: 3600
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: wis
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: zKA7bUzu7rPpL2lk
+sort: 500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: smithsPortableFo
+      sourceType: tool
+      category: crafting
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

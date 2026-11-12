@@ -1,0 +1,53 @@
+_id: 57a773d29f7f0a7f
+_key: '!items!57a773d29f7f0a7f'
+name: Glândula de Salamandra das Veias Âmbar
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/57a773d29f7f0a7f.webp
+system:
+  identifier: material-alquimia-57a773d29f7f0a7f
+  description:
+    value: <p><strong>Elemento:</strong> Fogo · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Parte de animal</p><p>A salamandra das Veias Âmbar atravessa pedras aquecidas por Qi e torna a pele transparente ao recolher suas chamas internas. Sua glândula contém óleo que distribui o calor sem combustão, usado em revestimentos alquímicos e bases de proteção da pele durante práticas de refino.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 00fb5377e2f8d2b2
+sort: 1200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: fogo
+      elementLabel: Fogo
+      level: 1
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/fogo.json
+        originalName: Glândula de Salamandra Comum
+        sha256: ba1a23c0b606945bb3806834a346654c7369238959758f3d2c8d2c74258f92bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

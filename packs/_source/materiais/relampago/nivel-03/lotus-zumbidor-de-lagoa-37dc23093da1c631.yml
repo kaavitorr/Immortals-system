@@ -1,0 +1,53 @@
+_id: 37dc23093da1c631
+_key: '!items!37dc23093da1c631'
+name: Lótus de Filamentos Zumbidores
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/37dc23093da1c631.webp
+system:
+  identifier: material-alquimia-37dc23093da1c631
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Planta</p><p>Abre em lagoas alimentadas por veios de Qi fulmíneo e mantém seus estames vibrando mesmo sem vento. Os filamentos conduzem impulsos através da água sem dispersá-los, oferecendo o princípio de relâmpago que favorece a circulação de Qi por meridianos estreitos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 2000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 5a881dec6f2d2f9c
+sort: 4300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 3
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Lótus Zumbidor de Lagoa
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

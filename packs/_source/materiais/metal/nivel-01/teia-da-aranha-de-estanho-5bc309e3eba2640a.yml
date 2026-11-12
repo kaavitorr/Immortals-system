@@ -1,0 +1,53 @@
+_id: 5bc309e3eba2640a
+_key: '!items!5bc309e3eba2640a'
+name: Teia de Aranha dos Fios de Estanho
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/5bc309e3eba2640a.webp
+system:
+  identifier: material-alquimia-5bc309e3eba2640a
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Parte de animal</p><p>A aranha dos Fios de Estanho fia linhas de Qi metálico entre cristais subterrâneos e recolhe a teia em uma esfera quando ameaçada. Seus fios oferecem afinidade de Metal às matrizes elementais e formam malhas delicadas para prender bordas de pastas de fechamento.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 77a144bc11e1d2d8
+sort: 1600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 1
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Teia da Aranha de Estanho
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

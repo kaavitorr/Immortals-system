@@ -1,0 +1,198 @@
+{
+  "_id": "5d39efba6809be5c",
+  "name": "Palma Incapacitadora",
+  "type": "spell",
+  "folder": "98a8e079c5129985",
+  "sort": 300000,
+  "img": "systems/Immortals-system/assets/wuxia/proficiencies/unarmed.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-palma-incapacitadora",
+    "level": 0,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 2,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "",
+      "units": "inst",
+      "expiry": null,
+      "special": "",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "",
+      "units": "self",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "",
+        "size": "",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Palma</td></tr><tr><th>Técnica</th><td>Auxiliar</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>2</td></tr><tr><th>Alcance</th><td>Pessoal</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Desarmado (palma)</td></tr></tbody></table><p>Você avança na direção de uma criatura e desfere um golpe de palma contra seu corpo, enviando uma onda de choque que afeta seus movimentos. A criatura deve realizar uma Salvaguarda de Constituição para não receber a condição “Incapacitado” até o fim do próximo turno dela.</p><h3>Observações</h3><p>Avance e escolha a criatura atingida pela palma. Incapacitado termina no fim do próximo turno dela. O alcance Pessoal do quadro não move o token automaticamente.</p>"
+    },
+    "activities": {
+      "da5c88fb7238dbfd": {
+        "_id": "da5c88fb7238dbfd",
+        "type": "save",
+        "name": "Palma Incapacitadora",
+        "img": "systems/Immortals-system/assets/wuxia/proficiencies/unarmed.webp",
+        "activation": {
+          "type": "action",
+          "value": 2,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "4",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Palma</td></tr><tr><th>Técnica</th><td>Auxiliar</td></tr><tr><th>Custo</th><td>4 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>2</td></tr><tr><th>Alcance</th><td>Pessoal</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Desarmado (palma)</td></tr></tbody></table><p>Você avança na direção de uma criatura e desfere um golpe de palma contra seu corpo, enviando uma onda de choque que afeta seus movimentos. A criatura deve realizar uma Salvaguarda de Constituição para não receber a condição “Incapacitado” até o fim do próximo turno dela.</p><h3>Observações</h3><p>Avance e escolha a criatura atingida pela palma. Incapacitado termina no fim do próximo turno dela. O alcance Pessoal do quadro não move o token automaticamente.</p>",
+          "chatFlavor": "Palma Incapacitadora"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "palma-incapacitadora",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "bonus": "",
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          },
+          "visible": true
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        },
+        "conditions": [
+          {
+            "_id": "1be9e4f35a8771af",
+            "condition": "jj-incapacitado",
+            "save": "con"
+          }
+        ]
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "palma-incapacitadora",
+        "category": "palma",
+        "grade": null,
+        "auxiliary": true,
+        "weapon": "Desarmado (palma)",
+        "qi": 4,
+        "actions": 2,
+        "reaction": false,
+        "combinedAttack": null,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Instantâneo",
+            "range": "Pessoal",
+            "requirements": "-",
+            "damage": "Nenhum",
+            "combinedAttack": null
+          }
+        },
+        "manualResolution": [
+          "Avance e escolha a criatura atingida pela palma. Incapacitado termina no fim do próximo turno dela. O alcance Pessoal do quadro não move o token automaticamente."
+        ],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!5d39efba6809be5c"
+}

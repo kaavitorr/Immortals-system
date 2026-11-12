@@ -1,0 +1,65 @@
+_id: alchemistsToolki
+_key: '!items!alchemistsToolki'
+name: Kit de Alquimista
+type: tool
+img: icons/containers/bags/case-embossed-leather-tan.webp
+system:
+  identifier: tool-kit-alchemy
+  description:
+    value: >-
+      <p>Uma caixa de madeira embrulhada em couro, contendo pilão e almofariz de pedra, espaços para fixar diversas
+      ampolas com rolha, colher de pau, e uma pequena trempie de ferro dobrável com panela de latão para combinar
+      ingredientes sobre o fogo.</p><p><strong>Propriedades:</strong> Empilhável.</p><p><strong>Profissões e
+      conhecimentos:</strong> Alquimia.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 10
+    units: kg
+  price:
+    value: 1750
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: wis
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: zKA7bUzu7rPpL2lk
+sort: 2000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: alchemistsToolki
+      sourceType: tool
+      category: crafting
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

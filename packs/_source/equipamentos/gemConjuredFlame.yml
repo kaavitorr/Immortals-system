@@ -1,0 +1,141 @@
+_id: gemConjuredFlame
+_key: '!items!gemConjuredFlame'
+name: Gema de Chama Conjurada
+type: consumable
+img: icons/commodities/gems/gem-rough-cushion-orange-red.webp
+system:
+  identifier: gem-conjured-flame
+  description:
+    value: >-
+      <p>Uma gemma multifacetada de corte rústico imbuída de energias elementais. Quando arremessada, esta gemma se
+      estilhaça e conjura um espírito elemental sob o controle de quem a quebrou. Sua qualidade determina o nível do
+      elemental invocado.</p><p><strong>Propriedades:</strong> Empilhável, Arremesso.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 500
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  activities:
+    1efb391230020d3d:
+      _id: 1efb391230020d3d
+      type: utility
+      name: Conjurar elemental de fogo
+      img: icons/commodities/gems/gem-rough-cushion-orange-red.webp
+      sort: 0
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+          - type: itemUses
+            target: ''
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        value: >-
+          <p>The Gema de Chama Conjurada shatters in a burst of flame, leaving in its place a fiery elemental.
+          Elementals summoned by this gem remain for 6 Rounds (1 minute).</p><ul><li><p><strong>Shoddy - </strong>No
+          elemental is summoned</p></li><li><p><strong>Standard </strong>- Mote</p></li><li><p><strong>Fine</strong> -
+          Sprite</p></li><li><p><strong>Superior</strong> - Visitor</p></li><li><p><strong>Masterwork -
+          </strong>Wanderer</p></li></ul>
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: m
+        value: 20
+        special: ''
+      target:
+        override: true
+        prompt: true
+        template:
+          type: ''
+          size: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+          special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  type:
+    value: trinket
+    subtype: ''
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    replace: false
+effects: []
+folder: nUrfXeZBFqDNXgZr
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: gemConjuredFlame
+      sourceType: consumable
+      category: other
+      quality: standard
+      enchantment: ''
+      properties:
+        - stackable
+        - thrown
+      weaponDamagePending: false
+      manualEffects: []

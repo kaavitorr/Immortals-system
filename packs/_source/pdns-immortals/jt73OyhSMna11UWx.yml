@@ -1,0 +1,180 @@
+name: Hidra
+type: archetype
+folder: dcb7bdd3e7181c6f
+system:
+  description:
+    value: >-
+      <p>Ataca de perto com várias cabeças, combinando mordidas e golpes da cauda. Regenera partes feridas para manter a
+      pressão durante confrontos prolongados.</p><p><strong>Resistência por ND:</strong> Perfurante
+      +2</p><p><strong>Vulnerabilidade:</strong> Fogo −10 · Mov +1 | 5/ND</p><p><strong>Deslocamento:</strong> +1 até um
+      máximo de 25</p><p><strong>Armaduras:</strong> Nenhuma.</p><p><strong>Perícias:</strong> Proficiências: Atletismo,
+      Intimidação, Percepção e Sobrevivência.</p><p><strong>Salvaguardas:</strong> Proficiências: Vontade e
+      Fortitude.</p><p><strong>Aspectos:</strong> Regeneração Lenta, Corpo Inerte, Morte Falsa, Implacável, Mente
+      Inexistente, Vigoroso, Fanático, Corpo Robusto, Ferimento Enfurecedor,
+      Descuidado.</p><p><strong>Habilidades:</strong> Divisão, Regenerar Membro, Mordida Voraz, Golpe de Cauda, Golpe
+      Duplo, Ataque em Cadeia, Enrolar, Terremoto, Onda de Choque, Contra-Golpe.</p><p><strong>Reações:</strong> Cabeça
+      Reativa, Mordida Reativa, Regeneração Reativa.</p>
+    chat: ''
+  identifier: hidra
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 4
+    dex: 2
+    con: 4
+    int: 1
+    wis: 1
+    cha: 0
+  resistencias:
+    bludgeoning:
+      value: 0
+      immune: false
+    piercing:
+      value: 2
+      immune: false
+    slashing:
+      value: 0
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: -10
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 0
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.ath
+      - skills.itm
+      - skills.prc
+      - skills.sur
+      - saves.con
+      - saves.cha
+      - saves.str
+      - saves.wis
+    alternative:
+      - skills.ath
+      - skills.itm
+      - skills.prc
+      - skills.sur
+      - alternativeSaves.vontade
+      - alternativeSaves.fortitude
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8a0ca76215e75f50
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.69fce788d9d15b15
+      nd: 1
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5bcca07b63f166e2
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53d435a7250164af
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.58a51099f9439d17
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.df29c624c51c64cf
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6c3e03cf4f31410e
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6e9d3f1d8b93c1d2
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.31ff2d41e032f0eb
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bfd51c9ea7cf377
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.558252674af8eed3
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9f58c17ca809238a
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.0ed691df48afe037
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.840a1097e5a951d4
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53a3e58d6c265d67
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.00dd8b16be6cca04
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.a1113fe1c7ca7100
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.569c09e7a5aa4734
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d3b3052e04d15f8e
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5dcab7f3fdcd6d4f
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9cb70c1a39119c13
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4547dce6ef214cf3
+      nd: 11
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+  equipamentos:
+    armadura: null
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000003
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: jt73OyhSMna11UWx
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/hidra.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:hidra
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: jt73OyhSMna11UWx
+_key: '!items!jt73OyhSMna11UWx'

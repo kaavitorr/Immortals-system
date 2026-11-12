@@ -1,0 +1,11 @@
+_id: e917052d9ca05332
+name: Nível 7
+type: Item
+folder: 15c0438a058c3465
+sorting: a
+sort: 700000
+color: '#77614b'
+flags:
+  Immortals-system:
+    oreMaterialLevel: 7
+_key: '!folders!e917052d9ca05332'

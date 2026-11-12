@@ -1,0 +1,53 @@
+_id: 4654ca211d00cb40
+_key: '!items!4654ca211d00cb40'
+name: Cauda de Esquilo do Halo Dourado
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/luz/4654ca211d00cb40.webp
+system:
+  identifier: material-alquimia-4654ca211d00cb40
+  description:
+    value: <p><strong>Elemento:</strong> Luz · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Parte de animal</p><p>Este esquilo espiritual habita bosques de Qi luminoso, mantendo uma auréola em torno da cauda mesmo quando desaparece entre os ramos. Os pelos conservam canais finos de essência contínua, utilizados para ligar componentes e distribuir luz concentrada em tintas de cultivo.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 9114f97750cdb56e
+sort: 11900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: luz
+      elementLabel: Luz
+      level: 6
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/luz.json
+        originalName: Cauda de Esquilo Dourado
+        sha256: a65d9c475ce3e69bcab79896f06bd1f00a0fcc1e5a6329d0e4735711f2236288
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

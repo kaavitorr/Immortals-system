@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c100086e3cee8",
+  "name": "Traços Animalescos — Autômatos",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/magical/construct-golem-robot-blue.webp",
+  "system": {
+    "identifier": "especie-f60cd2a8",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Autômatos. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c1000063201b3": {
+        "_id": "1a2c1000063201b3",
+        "type": "ItemChoice",
+        "title": "Duas características — Autômatos",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.GkbU6r4twJIdjCpR"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.4ea37aee437f392c"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Autômatos",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c100086e3cee8"
+}

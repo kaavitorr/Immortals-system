@@ -1,0 +1,13 @@
+_id: dd35007db9aab0d8
+_key: '!folders!dd35007db9aab0d8'
+name: Nível 2
+type: Item
+folder: e1730b8d2dbc7697
+sorting: a
+sort: 200000
+color: '#806d3f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: luz
+      level: 2

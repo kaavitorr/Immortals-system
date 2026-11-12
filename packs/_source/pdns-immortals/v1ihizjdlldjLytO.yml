@@ -1,0 +1,71 @@
+name: Superfície Adesiva
+type: feat
+folder: 4858be5c4feed237
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢</strong></p><p>Rolagens de ataque corpo-a-corpo contra ela criatura fazem com que o membro ou
+      arma grudem em sua membrana, fazendo o ataque consumir 1 Ponto de Ação [⬢] adicional.</p>
+    chat: ''
+  identifier: superficie-adesiva
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    8eb5ff9a873f9931:
+      _id: 8eb5ff9a873f9931
+      type: utility
+      name: Superfície Adesiva
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Rolagens de ataque corpo-a-corpo contra ela criatura fazem com que o membro ou arma grudem em sua membrana,
+          fazendo o ataque consumir 1 Ponto de Ação [⬢] adicional.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: v1ihizjdlldjLytO
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/superficie-adesiva-v1ihizjdlldjLytO.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:superficieadesiva:b416d53b8606
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: v1ihizjdlldjLytO
+_key: '!items!v1ihizjdlldjLytO'

@@ -1,0 +1,53 @@
+_id: 975d7328ba0b0eb2
+_key: '!items!975d7328ba0b0eb2'
+name: Crisântemo de Brasa Miúda
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/975d7328ba0b0eb2.webp
+system:
+  identifier: material-alquimia-975d7328ba0b0eb2
+  description:
+    value: <p><strong>Elemento:</strong> Fogo · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Planta</p><p>As flores deste crisântemo aparecem onde incêndios espirituais deixaram brasas de Qi enterradas, e cada pétala termina em um ponto alaranjado persistente. Seu destilado produz calor delicado em elixires restauradores e modera ingredientes violentos antes da incorporação à matriz nutritiva.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 85025b79f667906f
+sort: 2200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: fogo
+      elementLabel: Fogo
+      level: 2
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/fogo.json
+        originalName: Crisântemo de Brasa Miúda
+        sha256: ba1a23c0b606945bb3806834a346654c7369238959758f3d2c8d2c74258f92bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

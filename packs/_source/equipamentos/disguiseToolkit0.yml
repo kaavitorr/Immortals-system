@@ -1,0 +1,65 @@
+_id: disguiseToolkit0
+_key: '!items!disguiseToolkit0'
+name: Kit de Disfarce
+type: tool
+img: icons/containers/bags/pack-leather-red.webp
+system:
+  identifier: tool-kit-disguise
+  description:
+    value: >-
+      <p>Bolsa de madeira com couro contendo espelho de mão, pedaços de pano cuidadosamente separados, cosméticos,
+      tinturas, perucas, barbas falsas, joias, adesivos seguros para pele e outros suprimentos de figurino projetados
+      para ajudar uma pessoa a mascarar sua aparência.</p><p><strong>Propriedades:</strong>
+      Empilhável.</p><p><strong>Profissões e conhecimentos:</strong> Furtividade, Enganação.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 15
+    units: kg
+  price:
+    value: 850
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: ''
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: zKA7bUzu7rPpL2lk
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: disguiseToolkit0
+      sourceType: tool
+      category: crafting
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

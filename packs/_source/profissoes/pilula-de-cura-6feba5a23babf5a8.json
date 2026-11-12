@@ -1,0 +1,204 @@
+{
+  "_id": "6feba5a23babf5a8",
+  "name": "Pílula de Cura",
+  "type": "consumable",
+  "folder": "3ec1f795631fd283",
+  "img": "systems/Immortals-system/assets/wuxia/pilulas-pintadas-v1/pilula-de-cura.webp",
+  "effects": [],
+  "system": {
+    "identifier": "profession-product-pilula-de-cura",
+    "type": {
+      "value": "potion"
+    },
+    "quantity": 1,
+    "description": {
+      "value": "<p><strong>Nível do produto:</strong> 1. <strong>Qualidade:</strong> Inferior.</p><h3>PÍLULA DE CURA</h3>\n<table><tbody><tr><td>Multiplicador de Toxina: x 0,5</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 14</td></tr></tbody></table>\n<p>Uma pílula que cura 1d4 + modificador Constituição a cada pílula ingerida e mais 1d4 a cada minuto por 10 minutos. A cada nível posterior, ela cura 1d4 adicional ao ser consumida e 1d4 adicional por minuto.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>15% do valor de criação / cada</td></tr><tr><td>Quantidade</td><td>A cada refinamento, você consegue criar até 3 dessas pílulas, aumentando em +2 para cada qualidade acima de Inferior.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar o efeito descrito no uso da pílula e conferir Rank, duração e restrições com o mestre. A posse da pílula não ativa seus efeitos. A qualidade da pílula é determinada somente pela margem do teste de Criação; os testes exigidos ainda precisam passar. A cura inicial usa o nível desta pílula. Role mais 1d4 a cada minuto, durante 10 minutos; acompanhe a recuperação recorrente com o narrador.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 600 PO. <strong>Venda por unidade:</strong> 90 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"pilula-de-cura:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/tempo/bbac32be40075f75.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"bbac32be40075f75\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.bbac32be40075f75\">Flor de Um Só Dia</a><small>princípio ativo de cicatrização e regeneração</small></div><span class=\"iw-recipe-price\" title=\"200 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/f3050400f58cfe6c.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"f3050400f58cfe6c\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.f3050400f58cfe6c\">Ovo de Pomba do Lótus Rubro</a><small>nutrição e refino do sangue</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/6d3bc0afa8558809.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"6d3bc0afa8558809\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.6d3bc0afa8558809\">Grama da Noite Silenciosa</a><small>estabilização e harmonização do Qi</small></div><span class=\"iw-recipe-price\" title=\"150 PO por unidade\">150 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/aada69663d799e39.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"aada69663d799e39\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.aada69663d799e39\">Orvalho da Veia Clara</a><small>Reagente · veículo de extração e mistura</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>600 PO</strong></footer></section>"
+    },
+    "activities": {
+      "ca3687d072f6d352": {
+        "_id": "ca3687d072f6d352",
+        "type": "heal",
+        "name": "Consumir e rolar cura inicial",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Nível do produto:</strong> 1. <strong>Qualidade:</strong> Inferior.</p><h3>PÍLULA DE CURA</h3>\n<table><tbody><tr><td>Multiplicador de Toxina: x 0,5</td><td>Nível: 1 a 10</td><td>Classe de Dificuldade: 14</td></tr></tbody></table>\n<p>Uma pílula que cura 1d4 + modificador Constituição a cada pílula ingerida e mais 1d4 a cada minuto por 10 minutos. A cada nível posterior, ela cura 1d4 adicional ao ser consumida e 1d4 adicional por minuto.</p>\n<table><tbody><tr><td>Custo de criação</td><td>Soma dos ingredientes desta receita.</td></tr><tr><td>Valor de Venda</td><td>15% do valor de criação / cada</td></tr><tr><td>Quantidade</td><td>A cada refinamento, você consegue criar até 3 dessas pílulas, aumentando em +2 para cada qualidade acima de Inferior.</td></tr></tbody></table><p><strong>Resolução:</strong> Aplicar o efeito descrito no uso da pílula e conferir Rank, duração e restrições com o mestre. A posse da pílula não ativa seus efeitos. A qualidade da pílula é determinada somente pela margem do teste de Criação; os testes exigidos ainda precisam passar. A cura inicial usa o nível desta pílula. Role mais 1d4 a cada minuto, durante 10 minutos; acompanhe a recuperação recorrente com o narrador.</p><p data-iw-recipe-pricing=\"2\"><strong>Custo de criação (ingredientes):</strong> 600 PO. <strong>Venda por unidade:</strong> 90 PO.</p><section data-iw-recipe=\"1\" data-iw-recipe-key=\"pilula-de-cura:1:\" class=\"iw-material-recipe\"><header><strong>Receita de preparo</strong><span>Nível 1</span></header><p class=\"iw-recipe-basis\">Por tentativa de criação. Quantidades em unidades de cada ingrediente.</p><ol><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/tempo/bbac32be40075f75.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"bbac32be40075f75\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.bbac32be40075f75\">Flor de Um Só Dia</a><small>princípio ativo de cicatrização e regeneração</small></div><span class=\"iw-recipe-price\" title=\"200 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/f3050400f58cfe6c.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">2</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"f3050400f58cfe6c\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.f3050400f58cfe6c\">Ovo de Pomba do Lótus Rubro</a><small>nutrição e refino do sangue</small></div><span class=\"iw-recipe-price\" title=\"100 PO por unidade\">200 PO</span></li><li class=\"\"><img src=\"systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/6d3bc0afa8558809.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"6d3bc0afa8558809\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.6d3bc0afa8558809\">Grama da Noite Silenciosa</a><small>estabilização e harmonização do Qi</small></div><span class=\"iw-recipe-price\" title=\"150 PO por unidade\">150 PO</span></li><li class=\"is-reagent\"><img src=\"systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-01/aada69663d799e39.webp\" alt=\"\"><span class=\"iw-recipe-quantity\" title=\"Unidades do ingrediente\">1</span><div class=\"iw-recipe-identity\"><a class=\"content-link\" data-iw-material=\"1\" data-link data-id=\"aada69663d799e39\" data-type=\"Item\" data-pack=\"Immortals-system.materiais\" data-uuid=\"Compendium.Immortals-system.materiais.Item.aada69663d799e39\">Orvalho da Veia Clara</a><small>Reagente · veículo de extração e mistura</small></div><span class=\"iw-recipe-price\" title=\"50 PO por unidade\">50 PO</span></li></ol><footer><span>Custo dos componentes</span><strong>600 PO</strong></footer></section>",
+          "chatFlavor": "Pílula de Cura — Consumir e rolar cura inicial"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "professionProductActivity": {
+              "productId": "pilula-de-cura",
+              "key": "consume",
+              "level": 1,
+              "quality": "inferior",
+              "manualResolution": false,
+              "consumeItem": true,
+              "rule": "pilula-de-cura",
+              "poison": 10,
+              "recurringHealing": {
+                "formula": "1d4",
+                "intervalSeconds": 60,
+                "repetitions": 10,
+                "manual": true
+              }
+            }
+          }
+        },
+        "healing": {
+          "number": null,
+          "denomination": null,
+          "bonus": "",
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "1d4 + @abilities.con.mod"
+          },
+          "scaling": {
+            "mode": "",
+            "number": 0,
+            "formula": ""
+          }
+        },
+        "img": "systems/Immortals-system/assets/wuxia/pilulas-pintadas-v1/pilula-de-cura.webp"
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "price": {
+      "value": 90,
+      "denomination": "gp"
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "professionProduct": {
+        "id": "pilula-de-cura",
+        "kind": "pill",
+        "profession": "alchemy",
+        "level": 1,
+        "quality": "inferior"
+      },
+      "professionProductManaged": true,
+      "professionRecipeVersion": 2,
+      "professionProductsContentVersion": 2,
+      "professionProductPricing": {
+        "level": 1,
+        "basis": "ingredients",
+        "catalog": {
+          "recipe": 3000,
+          "materials": 500,
+          "currency": "gp",
+          "rank": null
+        },
+        "creationPercent": 60,
+        "salePercent": 15,
+        "pending": false,
+        "reason": null,
+        "marketManual": false,
+        "creation": {
+          "amount": 600,
+          "currency": "gp",
+          "rank": null
+        },
+        "sale": {
+          "amount": 90,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceCreation": {
+          "amount": 300,
+          "currency": "gp",
+          "rank": null
+        },
+        "referenceSale": {
+          "amount": 45,
+          "currency": "gp",
+          "rank": null
+        }
+      },
+      "professionProductAutomation": {
+        "rules": [
+          {
+            "type": "pillToxins",
+            "quality": "inferior",
+            "base": 20,
+            "multiplier": 0.5,
+            "value": 10
+          }
+        ],
+        "manual": [
+          "Aplicar o efeito descrito no uso da pílula e conferir Rank, duração e restrições com o mestre. A posse da pílula não ativa seus efeitos.",
+          "A qualidade da pílula é determinada somente pela margem do teste de Criação; os testes exigidos ainda precisam passar.",
+          "A cura inicial usa o nível desta pílula. Role mais 1d4 a cada minuto, durante 10 minutos; acompanhe a recuperação recorrente com o narrador."
+        ],
+        "pending": []
+      }
+    }
+  },
+  "_key": "!items!6feba5a23babf5a8"
+}

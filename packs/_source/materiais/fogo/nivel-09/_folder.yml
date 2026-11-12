@@ -1,0 +1,13 @@
+_id: 1660d1c595db0d45
+_key: '!folders!1660d1c595db0d45'
+name: Nível 9
+type: Item
+folder: 1d29bf4920c1b673
+sorting: a
+sort: 900000
+color: '#85473f'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: fogo
+      level: 9

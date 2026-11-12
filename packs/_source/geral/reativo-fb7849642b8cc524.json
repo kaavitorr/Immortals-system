@@ -1,0 +1,55 @@
+{
+  "_id": "fb7849642b8cc524",
+  "name": "Reativo",
+  "type": "feat",
+  "folder": "d2652f7aa9b40d98",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/reativo.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-reativo",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Combate Veloz.</p><h2>Reativo</h2><p><strong>Requisito:</strong> Aceleração Súbita</p><p>Uma vez por rodada, você pode ativar uma habilidade, característica ou técnica com palavra-chave de “Reação” consumindo 1 Ponto de Ação [1 ação] a menos, mas apenas em reações contra ataques, condições e efeitos direcionados a você.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "reativo",
+        "categoria": "Adaptação Física",
+        "caminho": "Combate Veloz",
+        "requisitos": [
+          "Aceleração Súbita"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "aceleracao-subita"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "reactionActionReduction",
+            "value": 1,
+            "oncePerRound": true,
+            "onlyTargetingSelf": true,
+            "triggers": [
+              "attack",
+              "condition",
+              "effect"
+            ]
+          }
+        ],
+        "manual": [],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!fb7849642b8cc524"
+}

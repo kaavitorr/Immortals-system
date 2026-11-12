@@ -1,0 +1,53 @@
+_id: 060b5aebaf5f1792
+_key: '!items!060b5aebaf5f1792'
+name: Vesícula de Sapo dos Sinos de Estanho
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/060b5aebaf5f1792.webp
+system:
+  identifier: material-alquimia-060b5aebaf5f1792
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Parte de animal</p><p>O sapo dos Sinos de Estanho vive junto a nascentes de Qi mineral e faz suas manchas cinzentas vibrarem ao coaxar. A bile fracionada dispersa resíduos concentrados em pastas de recuperação da pele e permite retirar frações impuras sem romper a estrutura do preparado.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 7633a1c049da1357
+sort: 3400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 2
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Vesícula do Sapo de Estanho
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

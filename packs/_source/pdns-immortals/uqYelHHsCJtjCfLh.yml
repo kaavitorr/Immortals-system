@@ -1,0 +1,43 @@
+name: Temperamento Congelante
+type: feat
+folder: LVtN60nyQkd1jaKo
+system:
+  description:
+    value: >-
+      <p>Todas as criaturas que iniciarem o turno a 10 metros de distância dessa criatura devem realizar uma Salvaguarda
+      de Vontade para não sofrerem a condição “Congelando” até o fim do próximo turno delas.</p>
+    chat: ''
+  identifier: temperamento-congelante
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: uqYelHHsCJtjCfLh
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/temperamento-congelante-uqYelHHsCJtjCfLh.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:temperamentocongelante:330cab7bf6e9
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: uqYelHHsCJtjCfLh
+_key: '!items!uqYelHHsCJtjCfLh'

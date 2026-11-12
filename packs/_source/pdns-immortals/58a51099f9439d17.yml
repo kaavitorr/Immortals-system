@@ -1,0 +1,73 @@
+_id: 58a51099f9439d17
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:100
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 58a51099f9439d17
+name: Divisão
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢</strong></p><p>Essa criatura pode se separar de partes destruídas ou danificadas de seu corpo,
+      recuperando Pontos de Vida em quantidade igual ao seu atributo de Constituição. Após isso, seu novo valor de PV se
+      torna o máximo até um descanso longo, mas não pode ser superior ao seu máximo original.</p>
+    chat: ''
+  identifier: divisao
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    cc7057a12d737740:
+      _id: cc7057a12d737740
+      type: utility
+      name: Divisão
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Essa criatura pode se separar de partes destruídas ou danificadas de seu corpo, recuperando Pontos de Vida
+          em quantidade igual ao seu atributo de Constituição. Após isso, seu novo valor de PV se torna o máximo até um
+          descanso longo, mas não pode ser superior ao seu máximo original.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/divisao-58a51099f9439d17.webp"
+_key: '!items!58a51099f9439d17'

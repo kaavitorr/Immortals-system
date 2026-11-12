@@ -1,0 +1,72 @@
+name: Um com o Mundo
+type: feat
+folder: LVtN60nyQkd1jaKo
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢</strong></p><p>Essa criatura pode gastar 2 Pontos de Ação [⬢⬢] e 5 PQ para entrar na terra ou
+      em uma arvore e se mover 20 metros em qualquer direção ou ficar escondida, recebendo 3 vantagens no Teste de
+      Atributo de Furtividade.</p>
+    chat: ''
+  identifier: um-com-o-mundo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    37666d50cbb0c1f0:
+      _id: 37666d50cbb0c1f0
+      type: utility
+      name: Um com o Mundo
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Essa criatura pode gastar 2 Pontos de Ação [⬢⬢] e 5 PQ para entrar na terra ou em uma arvore e se mover 20
+          metros em qualquer direção ou ficar escondida, recebendo 3 vantagens no Teste de Atributo de Furtividade.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 0
+  prerequisites:
+    items: []
+    level: 0
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: l18AcRPjCqLX7vpn
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/um-com-o-mundo-l18AcRPjCqLX7vpn.webp"
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: natural:umcomomundo:d8e429903b13
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: l18AcRPjCqLX7vpn
+_key: '!items!l18AcRPjCqLX7vpn'

@@ -1,0 +1,43 @@
+_id: 7b29cdec7754e73a
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:8
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 7b29cdec7754e73a
+name: Ataque Surpresa
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: >-
+      <p>O primeiro ataque realizado após a criatura sair da Furtividade impõe a condição “Incapacitado” ao alvo se ele
+      falhar em uma Salvaguarda de Vontade.</p>
+    chat: ''
+  identifier: ataque-surpresa
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/ataque-surpresa-7b29cdec7754e73a.webp"
+_key: '!items!7b29cdec7754e73a'

@@ -1,0 +1,13 @@
+_id: 3de7dcdc34909238
+_key: '!folders!3de7dcdc34909238'
+name: Nível 10
+type: Item
+folder: 1854b698d40f63ca
+sorting: a
+sort: 1000000
+color: '#51766d'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: vento
+      level: 10

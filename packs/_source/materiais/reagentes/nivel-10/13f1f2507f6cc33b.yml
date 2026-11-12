@@ -1,0 +1,46 @@
+_id: 13f1f2507f6cc33b
+name: Resina do Nó Eterno
+type: loot
+img: systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-10/13f1f2507f6cc33b.webp
+folder: 6acf00f190e5adc7
+sort: 200000
+system:
+  identifier: reagente-13f1f2507f6cc33b
+  type:
+    value: material
+    subtype: ''
+  description:
+    value: <p><strong>Nível:</strong> 10 · <strong>Categoria:</strong> Reagente · <strong>Função:</strong> Estabilizante</p><p>Resina perolada de reflexos dourados, purificada até formar uma massa estável e uniforme. É o ligante dos preparos do décimo nível, mantendo os componentes em contato enquanto o artesão fixa a circulação de Qi. Seu uso exige a receita apropriada; a resina sozinha não torna uma criação indestrutível.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  source:
+    custom: Immortals Legacy — Reagentes de Preparo
+effects: []
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    reagentMaterial:
+      level: 10
+      role: estabilizante
+      category: reagente
+    materialEconomy:
+      version: 2
+      level: 10
+      category: reagente
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!13f1f2507f6cc33b'

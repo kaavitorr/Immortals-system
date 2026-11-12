@@ -1,0 +1,67 @@
+_id: roundShield00000
+_key: '!items!roundShield00000'
+name: Escudo Redondo
+type: equipment
+img: icons/equipment/shield/round-wooden-pointed-boss-steel-brown.webp
+system:
+  identifier: round-shield
+  description:
+    value: >-
+      <p>Escudo redondo de metal com quase dois palmos e meio de diâmetro: o armamento defensivo básico de soldados de
+      infantaria sem treinamento especializado em combate com escudo.</p><p><strong>Propriedades:</strong>
+      Intuitiva.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 4
+    units: kg
+  price:
+    value: 240
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: shield
+    baseItem: ''
+  armor:
+    value: 2
+    dex: null
+    ability: ''
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: pibeFfUJ9FFbWkoY
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: roundShield00000
+      sourceType: weapon
+      category: shieldLight
+      quality: despertado
+      enchantment: mundane
+      properties:
+        - intuitive
+      weaponDamagePending: false
+      manualEffects: []

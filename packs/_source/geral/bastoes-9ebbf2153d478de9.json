@@ -1,0 +1,16 @@
+{
+  "_id": "9ebbf2153d478de9",
+  "name": "Bastões",
+  "type": "Item",
+  "folder": "c16983361c76c762",
+  "sort": 900000,
+  "sorting": "m",
+  "color": "#9bb0bf",
+  "flags": {
+    "Immortals-system": {
+      "combatManualFolder": "bastoes",
+      "combatManualContentVersion": 1
+    }
+  },
+  "_key": "!folders!9ebbf2153d478de9"
+}

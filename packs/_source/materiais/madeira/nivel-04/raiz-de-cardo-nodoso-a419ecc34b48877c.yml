@@ -1,0 +1,53 @@
+_id: a419ecc34b48877c
+_key: '!items!a419ecc34b48877c'
+name: Raiz de Cardo Nodoso
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/a419ecc34b48877c.webp
+system:
+  identifier: material-alquimia-a419ecc34b48877c
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Planta</p><p>Raiz coberta de nós que se entranha fundo na terra espiritual. Suas fibras moídas regeneram pele queimada e expulsam o frio acumulado nos ossos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 8f0fefc34f5b57fe
+sort: 6400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 4
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Raiz de Cardo Nodoso
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,53 @@
+_id: 448b50974aed4912
+_key: '!items!448b50974aed4912'
+name: Sangue de Morcego das Veias Negras
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/escuridao/448b50974aed4912.webp
+system:
+  identifier: material-alquimia-448b50974aed4912
+  description:
+    value: <p><strong>Elemento:</strong> Escuridão · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Parte de animal</p><p>Este morcego espiritual bebe o orvalho de cavernas onde o Qi noturno forma veias visíveis na pedra. Seu sangue conserva um brilho violeta sob a superfície negra, fornecendo uma essência fluida que distribui ingredientes de escuridão por toda a mistura.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 600
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: d4840a148e9cd19b
+sort: 3100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: escuridao
+      elementLabel: Escuridão
+      level: 2
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/escuridao.json
+        originalName: Sangue de Morcego das Grutas
+        sha256: 587dbfbabd37fd25a9be7c275f708bc14018e9a195d5901511119528b4af028b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,69 @@
+{
+  "_id": "e3aabe9e22848708",
+  "name": "Foco Múltiplo",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/foco-multiplo.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-foco-multiplo",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Foco Múltiplo</h2><p><strong>Requisito:</strong> Escudo de Qi, Manipulação Eficiente</p><p>Seu controle sobre a Qi cresce de forma exponencial, aumentando sua capacidade de causar ou resistir a danos.</p><ul><li>Foco Ofensivo: Suas jogadas de ataque (Comuns) recebem 1d4 de dano adicional;</li><li>Foco Defensivo: Você envolve seu corpo com uma camada extra de Qi, criando 20 Pontos de Armadura. Esses pontos funcionam da mesma forma que os Pontos de Vida Temporários, com as seguintes diferenças:</li><li>Podem coexistir com PV temporários;</li><li>Sempre são consumidos antes dos PV temporários;</li><li>Duram apenas até o fim do encontro.</li></ul><p>Enquanto esses Pontos de Energia existirem, você reduz todo dano sofrido pela metade (mínimo 1). Essa redução é sempre aplicada por último.</p><p><strong>Resolução:</strong> Registre os 20 Pontos de Armadura do encontro separadamente de PV temporários. Esta característica não cria uma atividade que reponha a armadura sem limite.</p><p><strong>Pendente:</strong> O texto chama os Pontos de Armadura de Pontos de Energia na última frase; não criar um recurso adicional.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "foco-multiplo",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Controle de Qi",
+        "requisitos": [
+          "Escudo de Qi",
+          "Manipulação Eficiente"
+        ],
+        "requirementRules": {
+          "type": "and",
+          "rules": [
+            {
+              "type": "node",
+              "id": "escudo-de-qi"
+            },
+            {
+              "type": "node",
+              "id": "manipulacao-eficiente"
+            }
+          ]
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "commonAttackDamage",
+            "formula": "1d4"
+          },
+          {
+            "type": "encounterArmor",
+            "value": 20,
+            "damageMultiplier": 0.5,
+            "minimumDamage": 1,
+            "appliedLast": true
+          }
+        ],
+        "manual": [
+          "Registre os 20 Pontos de Armadura do encontro separadamente de PV temporários. Esta característica não cria uma atividade que reponha a armadura sem limite."
+        ],
+        "pending": [
+          "O texto chama os Pontos de Armadura de Pontos de Energia na última frase; não criar um recurso adicional."
+        ]
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!e3aabe9e22848708"
+}

@@ -1,0 +1,208 @@
+{
+  "_id": "a617cc48d07b685e",
+  "name": "Killing Circle",
+  "type": "spell",
+  "folder": "c0d481d1026ee51d",
+  "sort": 100000,
+  "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/qiang.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-killing-circle",
+    "level": 1,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 3,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "",
+      "units": "inst",
+      "expiry": null,
+      "special": "",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "6",
+      "units": "m",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "cone",
+        "size": "6",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "creature",
+        "count": "",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Lança</td></tr><tr><th>Técnica</th><td>1º Grau</td></tr><tr><th>Custo</th><td>1 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Até 6 metros, Cone</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Lança</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você balança sua lança na horizontal cortando todas as criaturas na área a sua frente enquanto avança. Todas as criaturas dentro da área da técnica devem realizar uma Salvaguarda de Agilidade. Sofrendo todo dano se falharem ou metade se obtiverem sucesso.</p>"
+    },
+    "activities": {
+      "f6eab0c9a65c4507": {
+        "_id": "f6eab0c9a65c4507",
+        "type": "save",
+        "name": "Killing Circle",
+        "img": "systems/Immortals-system/assets/wuxia/armas-pintadas-v1/qiang.webp",
+        "activation": {
+          "type": "action",
+          "value": 3,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Lança</td></tr><tr><th>Técnica</th><td>1º Grau</td></tr><tr><th>Custo</th><td>1 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>3</td></tr><tr><th>Alcance</th><td>Até 6 metros, Cone</td></tr><tr><th>Duração</th><td>Instantâneo</td></tr><tr><th>Arma</th><td>Lança</td></tr><tr><th>Ataque Combinado</th><td>Possível</td></tr></tbody></table><p>Você balança sua lança na horizontal cortando todas as criaturas na área a sua frente enquanto avança. Todas as criaturas dentro da área da técnica devem realizar uma Salvaguarda de Agilidade. Sofrendo todo dano se falharem ou metade se obtiverem sucesso.</p>",
+          "chatFlavor": "Killing Circle"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "6",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "cone",
+            "size": "6",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "killing-circle",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": false
+            }
+          }
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "bonus": "",
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          },
+          "visible": true
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 1,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "slashing"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": 0,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "conditions": []
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "killing-circle",
+        "category": "lanca",
+        "grade": 1,
+        "auxiliary": false,
+        "weapon": "Lança",
+        "qi": 1,
+        "actions": 3,
+        "reaction": false,
+        "combinedAttack": true,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Instantâneo",
+            "range": "Até 6 metros, Cone",
+            "requirements": "-",
+            "damage": "1d8 de dano Cortante",
+            "combinedAttack": true
+          }
+        },
+        "manualResolution": [],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!a617cc48d07b685e"
+}

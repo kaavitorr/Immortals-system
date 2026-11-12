@@ -1,0 +1,52 @@
+{
+  "_id": "06e4e700b12ffd48",
+  "name": "Devorador Demoníaco",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/devorador-demoniaco.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-devorador-demoniaco",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Cultivo Demoníaco.</p><h2>Devorador Demoníaco</h2><p><strong>Requisito:</strong> Estimulo de Sangue</p><p>O caminho demoníaco é marcado pela carnificina, instigando você a consumir os ossos de seus inimigos para avançar nas artes demoníacas.</p><ul><li>Você pode utilizar Núcleos Demoníacos como Pedras de Essência, mas a essência contida neles é consumida 10 vezes mais rápido do que a de uma Pedra de Essência comum.</li><li>Cada Núcleo Demoníaco possui uma quantidade de essência equivalente àquela que o demônio havia acumulado até o momento de sua morte.</li><li>Caso o núcleo pertença a um demônio de Reino de Cultivo igual ao seu, você deve consumir 2 PEQ para obter 1 unidade de essência. Essa proporção dobra para cada Rank de diferença abaixo do seu, seguindo a progressão de 4:1, 8:1, 16:1 e assim sucessivamente.</li></ul><p><strong>Resolução:</strong> O narrador acompanha a essência do núcleo e sua proporção de conversão; nenhuma criatura ou tesouro é consumido automaticamente.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "devorador-demoniaco",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Cultivo Demoníaco",
+        "requisitos": [
+          "Estímulo de Sangue"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "estimulo-de-sangue"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "demonicCoreEssence",
+            "consumptionRateMultiplier": 10,
+            "sameRankEssenceCost": 2,
+            "doublesPerRankBelow": true
+          }
+        ],
+        "manual": [
+          "O narrador acompanha a essência do núcleo e sua proporção de conversão; nenhuma criatura ou tesouro é consumido automaticamente."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!06e4e700b12ffd48"
+}

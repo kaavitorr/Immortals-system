@@ -1,0 +1,13 @@
+_id: e88bffae4a9c3ff9
+_key: '!folders!e88bffae4a9c3ff9'
+name: Nível 1
+type: Item
+folder: 8e61a385d86bbe51
+sorting: a
+sort: 100000
+color: '#8b6c36'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: relampago
+      level: 1

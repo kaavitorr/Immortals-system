@@ -1,0 +1,53 @@
+_id: a23d0d4a63e7e33b
+_key: '!items!a23d0d4a63e7e33b'
+name: Presa de Serpente-Véu
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/a23d0d4a63e7e33b.webp
+system:
+  identifier: material-alquimia-a23d0d4a63e7e33b
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Parte de animal</p><p>Presa da serpente despertada que ergue uma bruma própria quando ameaçada e desaparece dentro dela. Ralada, neutraliza venenos que turvam os olhos e a mente.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: e3d2cfec08742040
+sort: 7500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 4
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Presa de Serpente-Véu
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

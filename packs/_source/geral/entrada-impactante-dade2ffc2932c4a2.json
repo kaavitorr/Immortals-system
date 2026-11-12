@@ -1,0 +1,145 @@
+{
+  "_id": "dade2ffc2932c4a2",
+  "name": "Entrada Impactante",
+  "type": "feat",
+  "folder": "d2652f7aa9b40d98",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/entrada-impactante.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-entrada-impactante",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Corpo de Guerreiro.</p><h2>Entrada Impactante</h2><p><strong>Requisito:</strong> Punho Devastador</p><p>No início de cada encontro, ao chegar ao seu turno, você pode escolher uma criatura posicionada abaixo de você na ordem de Iniciativa e se mover em sua direção, desferindo um golpe devastador que aplica automaticamente a condição Atordoado ao alvo.</p><p>Além disso, você sempre possui 1 Vantagem contra criaturas posicionadas abaixo de você na Iniciativa Dinâmica.</p><p><strong>Resolução:</strong> Resolva o deslocamento e o golpe com o narrador; a condição Atordoado pertence ao golpe inicial, sem dano ou alcance inventados.</p>"
+    },
+    "activities": {
+      "f67751c781e4fa83": {
+        "_id": "f67751c781e4fa83",
+        "type": "utility",
+        "name": "Entrada Impactante",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "No início do encontro, ao chegar ao seu turno, contra criatura abaixo na iniciativa.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "activityUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Corpo de Guerreiro.</p><h2>Entrada Impactante</h2><p><strong>Requisito:</strong> Punho Devastador</p><p>No início de cada encontro, ao chegar ao seu turno, você pode escolher uma criatura posicionada abaixo de você na ordem de Iniciativa e se mover em sua direção, desferindo um golpe devastador que aplica automaticamente a condição Atordoado ao alvo.</p><p>Além disso, você sempre possui 1 Vantagem contra criaturas posicionadas abaixo de você na Iniciativa Dinâmica.</p><p><strong>Resolução:</strong> Resolva o deslocamento e o golpe com o narrador; a condição Atordoado pertence ao golpe inicial, sem dano ou alcance inventados.</p>",
+          "chatFlavor": "Entrada Impactante — Entrada Impactante"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "spec",
+          "special": "O texto não especifica alcance.",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "initiative",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "entrada-impactante",
+              "key": "opening",
+              "manualResolution": true,
+              "rule": "impactEntry",
+              "condition": "atordoado",
+              "requiresLowerInitiative": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Entrada Impactante",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/entrada-impactante.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "entrada-impactante",
+        "categoria": "Adaptação Física",
+        "caminho": "Corpo de Guerreiro",
+        "requisitos": [
+          "Punho Devastador"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "punho-devastador"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "initiativeAdvantages",
+            "value": 1,
+            "againstLowerInitiative": true
+          }
+        ],
+        "manual": [
+          "Resolva o deslocamento e o golpe com o narrador; a condição Atordoado pertence ao golpe inicial, sem dano ou alcance inventados."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!dade2ffc2932c4a2"
+}

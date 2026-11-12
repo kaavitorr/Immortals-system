@@ -1,0 +1,38 @@
+{
+  "method": "Built-in image_gen",
+  "images": [
+    {
+      "id": "tesouro-armadura",
+      "prompt": "Use case: stylized-concept. Asset type: one original small treasure item icon for Immortals Legacy, an ancient Chinese Wuxia cultivation RPG. Style: simple hand-painted gouache with a little ink linework, broad visible brushstrokes, strong readable silhouette, few large shapes and restrained details; prioritize recognizable form at 48 pixels. Cohesive subdued palette: aged bronze, warm ivory, charcoal and desaturated slate blue. Square composition, centered isolated object occupying about 80% of the image, comfortable transparent margins on all sides. True transparent alpha background. No person, hands, scene, landscape, pedestal, circular badge, text, writing, runes, numbers or watermark. No neon, heavy glow, particles, photorealistic rendering or glossy 3D. Subject: a heroic ancient Chinese lamellar cuirass with a high folded collar, two broad shoulder plates and a short split armored skirt. Dark slate-blue cloth under aged-bronze armor with a few ivory edge accents, one simple central chest ornament. Empty armor displayed as an object without a wearer, mostly frontal with slight three-quarter perspective. This must unmistakably read as body armor, not a helmet or shield.",
+      "sourcePath": "C:\\Users\\kaa_v\\.codex\\generated_images\\01a1854d-b4df-7103-a0d4-8d40225aaaf1\\exec-6402451f-4d35-4b48-87aa-4e5b5b71a9ad.png",
+      "outputPath": "C:/Users/kaa_v/Documents/FoundryVTT/Data/systems/Immortals-system/assets/wuxia/tesouros-pintados-v1/tesouro-armadura.webp"
+    },
+    {
+      "id": "tesouro-arma",
+      "prompt": "Use case: stylized-concept. Asset type: one original small treasure item icon for Immortals Legacy, an ancient Chinese Wuxia cultivation RPG. Style: simple hand-painted gouache with a little ink linework, broad visible brushstrokes, strong readable silhouette, few large shapes and restrained details; prioritize recognizable form at 48 pixels. Cohesive subdued palette: aged bronze, warm ivory, charcoal and desaturated slate blue. Square composition, centered isolated object occupying about 80% of the image, comfortable transparent margins on all sides. True transparent alpha background. No person, hands, scene, landscape, pedestal, circular badge, text, writing, runes, numbers or watermark. No neon, heavy glow, particles, photorealistic rendering or glossy 3D. Subject: a treasured Chinese jian straight sword displayed diagonally from lower left to upper right. Broad readable ivory-steel double-edged blade, short antique-bronze crossguard, dark blue grip and a single short cloth tassel. One elegant weapon only, no scabbard, no crossed weapons, no other objects; simple powerful silhouette.",
+      "sourcePath": "C:\\Users\\kaa_v\\.codex\\generated_images\\01a1854d-b4df-7103-a0d4-8d40225aaaf1\\exec-74b2b0b4-3663-4092-b71e-8df3e07463b9.png",
+      "outputPath": "C:/Users/kaa_v/Documents/FoundryVTT/Data/systems/Immortals-system/assets/wuxia/tesouros-pintados-v1/tesouro-arma.webp"
+    },
+    {
+      "id": "tesouro-acessorio",
+      "prompt": "Use case: stylized-concept. Asset type: one original small treasure item icon for Immortals Legacy, an ancient Chinese Wuxia cultivation RPG. Style: simple hand-painted gouache with a little ink linework, broad visible brushstrokes, strong readable silhouette, few large shapes and restrained details; prioritize recognizable form at 48 pixels. Cohesive subdued palette: aged bronze, warm ivory, charcoal and desaturated slate blue. Square composition, centered isolated object occupying about 80% of the image, comfortable transparent margins on all sides. True transparent alpha background. No person, hands, scene, landscape, pedestal, circular badge, text, writing, runes, numbers or watermark. No neon, heavy glow, particles, photorealistic rendering or glossy 3D. Subject: a precious circular blue-jade pendant with a large central hole, an aged-bronze rim and a short loop of ivory silk cord with one compact tassel. One simple curved cloud motif carved into the jade, broad shapes instead of tiny filigree. It should read clearly as a wearable magical accessory, neither a coin nor a weapon. The object is the pendant itself; no surrounding badge or background disk.",
+      "sourcePath": "C:\\Users\\kaa_v\\.codex\\generated_images\\01a1854d-b4df-7103-a0d4-8d40225aaaf1\\exec-a21b4ff0-5980-4ec6-ad7b-1e6da18570fc.png",
+      "outputPath": "C:/Users/kaa_v/Documents/FoundryVTT/Data/systems/Immortals-system/assets/wuxia/tesouros-pintados-v1/tesouro-acessorio.webp"
+    },
+    {
+      "id": "tesouro-voador",
+      "prompt": "Use case: stylized-concept. Asset type: one original small treasure item icon for Immortals Legacy, an ancient Chinese Wuxia cultivation RPG. Style: simple hand-painted gouache with a little ink linework, broad visible brushstrokes, strong readable silhouette, few large shapes and restrained details; prioritize recognizable form at 48 pixels. Cohesive subdued palette: aged bronze, warm ivory, charcoal and desaturated slate blue. Square composition, centered isolated object occupying about 80% of the image, comfortable transparent margins on all sides. True transparent alpha background. No person, hands, scene, landscape, pedestal, circular badge, text, writing, runes, numbers or watermark. No neon, heavy glow, particles, photorealistic rendering or glossy 3D. Subject: a small ancient Chinese spiritual flying boat seen in three-quarter profile, with a curved bronze prow, slate-blue hull, one simple ivory sail and a short curling ivory cloud beneath its keel suggesting levitation. One compact magical transport vessel, entire silhouette in frame, no passengers, no water, no sky or landscape. Broad painterly shapes with only essential nautical details.",
+      "sourcePath": "C:\\Users\\kaa_v\\.codex\\generated_images\\01a1854d-b4df-7103-a0d4-8d40225aaaf1\\exec-454015d1-78d6-4206-a9fb-a146fef001a9.png",
+      "outputPath": "C:/Users/kaa_v/Documents/FoundryVTT/Data/systems/Immortals-system/assets/wuxia/tesouros-pintados-v1/tesouro-voador.webp"
+    }
+  ],
+  "imageProcessing": {
+    "date": "2026-11-01",
+    "operation": "resize",
+    "maximumWidth": 256,
+    "maximumHeight": 256,
+    "fit": "inside",
+    "withoutEnlargement": true,
+    "originalPromptsPreserved": true
+  }
+}

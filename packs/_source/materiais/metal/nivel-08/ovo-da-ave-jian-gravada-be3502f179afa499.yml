@@ -1,0 +1,53 @@
+_id: be3502f179afa499
+_key: '!items!be3502f179afa499'
+name: Ovo da Ave Jian Gravada
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/be3502f179afa499.webp
+system:
+  identifier: material-alquimia-be3502f179afa499
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 8 · <strong>Categoria:</strong> Parte de animal</p><p>Cada ave jian tem um olho e uma asa, voa sempre acompanhada de seu par e põe um único ovo de prata a cada era. A casca entra no preparo de pílulas que unem os destinos de dois cultivadores.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 86cc70826d40dc34
+sort: 15600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 8
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Ovo da Ave Jian Gravada
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 8
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

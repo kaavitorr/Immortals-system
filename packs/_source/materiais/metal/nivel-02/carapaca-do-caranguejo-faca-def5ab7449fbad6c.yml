@@ -1,0 +1,53 @@
+_id: def5ab7449fbad6c
+_key: '!items!def5ab7449fbad6c'
+name: Carapaça de Caranguejo-Faca
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/def5ab7449fbad6c.webp
+system:
+  identifier: material-alquimia-def5ab7449fbad6c
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Parte de animal</p><p>O caranguejo-Faca vive em rios subterrâneos de Qi metálico e desvia correntes com bordas de carapaça que se mantêm afiadas após a muda. Seus fragmentos concentram afinidade de corte, empregada em ligas de armas, tintas ofensivas e matrizes que conduzem estímulos precisos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 7633a1c049da1357
+sort: 3500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 2
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Carapaça do Caranguejo-Faca
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

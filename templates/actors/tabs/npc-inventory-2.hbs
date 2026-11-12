@@ -1,0 +1,7 @@
+<section class="tab {{tab.cssClass}} iw-inventory-page" data-tab="{{tab.id}}" data-group="{{tab.group}}">
+  <header class="jj2-page-heading iw-tab-heading iw-inventory-heading">
+    <h2>{{#with jj2.tabImages.inventory as |image|}}<img class="iw-tab-heading-art" src="{{image}}" alt="" aria-hidden="true" width="28" height="28" draggable="false">{{else}}{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="inventory"}}{{/with}}Inventário</h2>
+    {{#if owner}}<button type="button" class="iw-inventory-add always-interactive" data-action="addDocument" aria-label="Adicionar item">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="add"}}Adicionar item</button>{{/if}}
+  </header>
+  {{> "systems/Immortals-system/templates/inventory/inventory.hbs"}}
+</section>

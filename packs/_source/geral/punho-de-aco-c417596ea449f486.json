@@ -1,0 +1,51 @@
+{
+  "_id": "c417596ea449f486",
+  "name": "Punho de Aço",
+  "type": "feat",
+  "folder": "d2652f7aa9b40d98",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/punho-de-aco.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-punho-de-aco",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Corpo de Guerreiro.</p><h2>Punho de Aço</h2><p><strong>Requisito:</strong> Entrada Impactante</p><p>Você treinou seus golpes a ponto de extrair o máximo potencial de cada ataque. O dano base de seus ataques desarmados passa a ser d8. Caso seu dano natural já seja d8 ou superior, ele aumenta em um passo de dano, até o máximo de d12.</p><p>Se seu dano natural já for d12, você recebe +1 de dano em vez de aumentar o dado.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "punho-de-aco",
+        "categoria": "Adaptação Física",
+        "caminho": "Corpo de Guerreiro",
+        "requisitos": [
+          "Entrada Impactante"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "entrada-impactante"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "unarmedDamageStep",
+            "minimumDie": 8,
+            "increaseIfAlreadyAtLeast": 8,
+            "maximumDie": 12,
+            "bonusAtCap": 1
+          }
+        ],
+        "manual": [],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!c417596ea449f486"
+}

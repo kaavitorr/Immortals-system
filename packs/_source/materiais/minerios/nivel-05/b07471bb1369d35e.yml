@@ -1,0 +1,53 @@
+_id: b07471bb1369d35e
+name: Ferro das Profundezas Marinhas
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-05/b07471bb1369d35e.webp
+system:
+  identifier: minerio-b07471bb1369d35e
+  description:
+    value: <p><strong>Nível:</strong> 5 · <strong>Categoria:</strong> Minério</p><p>Rocha azul-negra com nervuras metálicas largas, extraída abaixo de mares espirituais. A pressão prolongada torna seus veios difíceis de separar da matriz. O metal é disputado para a estrutura de armas e proteções que precisam conservar a forma durante forjas exigentes.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-earth
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 258aedcff99f53f1
+sort: 200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 5
+      category: minerio
+      reviewed: true
+      source:
+        kind: inspirado-e-adaptado
+        references:
+          - title: The Reticent Blade — capítulo 88
+            url: https://spa-prod.wuxiaworld.com/novel/the-reticent-blade/trb-chapter-88
+            motif: Deep Sea Profound Iron empregado para forjar uma lâmina.
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 5
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!b07471bb1369d35e'

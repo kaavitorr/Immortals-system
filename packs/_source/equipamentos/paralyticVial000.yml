@@ -1,0 +1,197 @@
+_id: paralyticVial000
+_key: '!items!paralyticVial000'
+name: Frasco Paralisante
+type: consumable
+img: icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp
+system:
+  identifier: paralytic-toxin-vial
+  description:
+    value: >-
+      <p>Este pequeno frasco contém um líquido oleoso visivelmente mais espesso que a água. Exala um odor acre que evoca
+      uma sensação de algo errado.</p><p><strong>Propriedades:</strong> Empilhável.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 650
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  activities:
+    e873544dc96a0412:
+      _id: e873544dc96a0412
+      type: utility
+      name: Aplicar efeito paralisante
+      img: icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp
+      sort: 0
+      activation:
+        type: action
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        value: >-
+          <p>When this toxin is ingested or otherwise enters the bloodstream of a creature, it is initially
+          <strong>Harmless</strong>, but the target must defend an attack against its <strong>Fortitude</strong> or
+          become Paralisado.</p><p>The duration is dependent on the quality of the Frasco
+          Paralisante:</p><ul><li><p><strong>Shoddy</strong> - 1 rounds</p></li><li><p><strong>Standard</strong> - 2
+          rounds</p></li><li><p><strong>Fine</strong> - 4 rounds</p></li><li><p><strong>Superior</strong> - 8
+          rounds</p></li><li><p><strong>Masterwork</strong> - Indefinite</p></li></ul><p><em>This action should be used
+          when the poison is ingested rather than when it is first applied.</em></p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: m
+        value: null
+        special: ''
+      target:
+        override: true
+        prompt: true
+        template:
+          type: ''
+          size: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+          special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+    4268da00ffd11174:
+      _id: 4268da00ffd11174
+      type: utility
+      name: Aplicar paralisante
+      img: icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp
+      sort: 0
+      activation:
+        type: action
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+          - type: itemUses
+            target: ''
+            value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        value: >-
+          <p>The contents of this vial can be added to food, drink, smeared upon a bladed weapon, or combined with some
+          alternative delivery mechanism.</p><p><em>This action, which consumes the available usage of the poison,
+          should be used when it is first applied.</em></p>
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: true
+        units: m
+        value: 1
+        special: ''
+      target:
+        override: true
+        prompt: true
+        template:
+          type: ''
+          size: ''
+          units: m
+          contiguous: false
+          stationary: false
+        affects:
+          type: ''
+          count: '1'
+          choice: false
+          special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  type:
+    value: poison
+    subtype: ''
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    replace: false
+effects: []
+folder: jbap2z8839rf6CuO
+sort: 100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: paralyticVial000
+      sourceType: consumable
+      category: flask
+      quality: standard
+      enchantment: ''
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

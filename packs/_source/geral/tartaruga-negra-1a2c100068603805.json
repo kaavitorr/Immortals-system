@@ -1,0 +1,27 @@
+{
+  "_id": "1a2c100068603805",
+  "name": "Tartaruga Negra",
+  "type": "feat",
+  "folder": "1a2c000000000003",
+  "img": "systems/Immortals-system/assets/wuxia/ancestralidades-variantes-pintadas-v1/tartaruga-negra.webp",
+  "system": {
+    "identifier": "especie-574e7445",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Criaturas que podem atingir proporções imensas, possuindo uma quantidade absurda de defesa e vitalidade.</p><p>Raridade: Muito Raro.</p><p>Afinidade: Água</p><p>Característica Única: Uma vez no turno de cada criatura, ao receber um dano qualquer, você pode reduzi-lo pela metade. Além disso, você aumenta sua velocidade de cultivo em um local com muito Qi de Água em 50%.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Tartaruga Negra",
+      "speciesLineage": true,
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c100068603805"
+}

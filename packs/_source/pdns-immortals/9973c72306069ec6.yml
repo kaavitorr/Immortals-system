@@ -1,0 +1,76 @@
+name: Ecos da Voz
+type: feat
+folder: b4cdf08eea2c07d5
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢</p><p>A criatura imita vozes que conhece e faz suas palavras parecerem vir de outra
+      direção. Ao usar 1 Ponto de Ação [⬢], a criatura pode realizar um Teste de Atributo de Presença (Enganação) contra
+      o valor de vontade do alvo. Em caso de sucesso, a criatura é enganada pela voz falsa.</p>
+    chat: ''
+  identifier: ecos-da-voz
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    c69dbbebc2d6d0d2:
+      _id: c69dbbebc2d6d0d2
+      type: utility
+      name: Ecos da Voz
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets: []
+      description:
+        value: >-
+          <p>A criatura imita vozes que conhece e faz suas palavras parecerem vir de outra direção. Ao usar 1 Ponto de
+          Ação [⬢], a criatura pode realizar um Teste de Atributo de Presença (Enganação) contra o valor de vontade do
+          alvo. Em caso de sucesso, a criatura é enganada pela voz falsa.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: 9973c72306069ec6
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/imitar-voz-cd071c8deb66d86d.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:ecosdavoz
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Tecelã de Miragens
+_key: '!items!9973c72306069ec6'

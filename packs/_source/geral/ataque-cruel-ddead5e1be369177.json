@@ -1,0 +1,50 @@
+{
+  "_id": "ddead5e1be369177",
+  "name": "Ataque Cruel",
+  "type": "feat",
+  "folder": "d2652f7aa9b40d98",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/ataque-cruel.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-ataque-cruel",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Corpo de Guerreiro.</p><h2>Ataque Cruel</h2><p><strong>Requisito:</strong> Ira do Berserker</p><p>Você reduz em 2 a margem necessária para obter um Acerto Crítico excedente com seus Ataques Comuns, passando de 10 para 8.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "ataque-cruel",
+        "categoria": "Adaptação Física",
+        "caminho": "Corpo de Guerreiro",
+        "requisitos": [
+          "Ira do Berserker"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "ira-do-berserker"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "exceedingCriticalThreshold",
+            "commonAttacksOnly": true,
+            "reduction": 2,
+            "threshold": 8
+          }
+        ],
+        "manual": [],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!ddead5e1be369177"
+}

@@ -1,0 +1,78 @@
+_id: f0d3c647f89cbdab
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:220
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: f0d3c647f89cbdab
+name: Fúria Reativa
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Quando essa criatura sofrer dano, ela pode gastar 2 PQ para liberar um
+      grito de fúria que emite uma onda de Qi. Ela reduz o dano pelo valor do seu Atributo de Força, causa esse mesmo
+      valor como dano à criatura atacante e a empurra 2 metros caso ela falhe em uma Salvaguarda de Fortitude.</p>
+    chat: ''
+  identifier: furia-reativa
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    bafe97195dcda073:
+      _id: bafe97195dcda073
+      type: utility
+      name: Fúria Reativa
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Quando essa criatura sofrer dano, ela pode gastar 2 PQ para liberar um grito de fúria que emite uma onda de
+          Qi. Ela reduz o dano pelo valor do seu Atributo de Força, causa esse mesmo valor como dano à criatura atacante
+          e a empurra 2 metros caso ela falhe em uma Salvaguarda de Fortitude.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/furia-reativa-f0d3c647f89cbdab.webp"
+_key: '!items!f0d3c647f89cbdab'

@@ -1,0 +1,78 @@
+_id: messengerCoin000
+_key: '!items!messengerCoin000'
+name: Moeda Mensageira
+type: consumable
+img: icons/commodities/currency/coin-engraved-sun-smile-copper.webp
+system:
+  identifier: messenger-coin
+  description:
+    value: >-
+      <p>Uma pequena moeda de latão com um rosto largo e sorridente e pequenos olhos de granada vermelha. A moeda é
+      carimbada com uma sequência específica de sigilos que a vinculam a uma moeda irmã, permitindo que os dois
+      portadores se comuniquem a grandes distâncias.</p><p>Se você segurar a moeda e falar com ela, ela conecta
+      imediatamente sua irmã e começa a falar alto, transmitindo o que você diz e o que é respondido. A conexão dura até
+      1 minuto antes de ser interrompida. Cada moeda pode ser usada uma vez por descanso longo.</p><p>A moeda pode ser
+      usada 5 vezes, após as quais sua mágica se desvanece, tornando-a quase sem valor.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 1
+    units: kg
+  price:
+    value: 10
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: '5'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  activities: {}
+  type:
+    value: trinket
+    subtype: ''
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    replace: false
+effects: []
+folder: B6n3Q73Jl36TvWlr
+sort: 100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: messengerCoin000
+      sourceType: consumable
+      category: other
+      quality: fine
+      enchantment: ''
+      properties: []
+      weaponDamagePending: false
+      manualEffects: []

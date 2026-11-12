@@ -1,0 +1,222 @@
+{
+  "_id": "50ac1cef6f7bde4f",
+  "name": "Manipulação Eficiente",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/manipulacao-eficiente.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-manipulacao-eficiente",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Manipulação Eficiente</h2><p><strong>Requisito:</strong> Gestos: Flecha e Linha</p><p>Ao executar uma técnica, você gastar um Ponto de Ação [1 ação] adicional e 2 PQ para ativar um dos seguintes efeitos:</p><ul><li>Você pode impor duas desvantagens em uma Salvaguarda contra a técnica;</li><li>Você pode receber duas vantagens na rolagem de acerto da técnica.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado.</p>"
+    },
+    "activities": {
+      "36b4aa8313c41c1f": {
+        "_id": "36b4aa8313c41c1f",
+        "type": "utility",
+        "name": "Impor duas desvantagens na salvaguarda",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Manipulação Eficiente</h2><p><strong>Requisito:</strong> Gestos: Flecha e Linha</p><p>Ao executar uma técnica, você gastar um Ponto de Ação [1 ação] adicional e 2 PQ para ativar um dos seguintes efeitos:</p><ul><li>Você pode impor duas desvantagens em uma Salvaguarda contra a técnica;</li><li>Você pode receber duas vantagens na rolagem de acerto da técnica.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado.</p>",
+          "chatFlavor": "Manipulação Eficiente — Impor duas desvantagens na salvaguarda"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "manipulacao-eficiente",
+              "key": "save",
+              "manualResolution": true,
+              "rule": "efficientManipulation",
+              "modifiesExistingTechnique": true,
+              "saveDisadvantages": 2
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Impor duas desvantagens na salvaguarda",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/manipulacao-eficiente.webp"
+      },
+      "27d556726eb1f73e": {
+        "_id": "27d556726eb1f73e",
+        "type": "utility",
+        "name": "Receber duas vantagens no acerto",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Controle de Qi.</p><h2>Manipulação Eficiente</h2><p><strong>Requisito:</strong> Gestos: Flecha e Linha</p><p>Ao executar uma técnica, você gastar um Ponto de Ação [1 ação] adicional e 2 PQ para ativar um dos seguintes efeitos:</p><ul><li>Você pode impor duas desvantagens em uma Salvaguarda contra a técnica;</li><li>Você pode receber duas vantagens na rolagem de acerto da técnica.</li></ul><p><strong>Resolução:</strong> Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado.</p>",
+          "chatFlavor": "Manipulação Eficiente — Receber duas vantagens no acerto"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "manipulacao-eficiente",
+              "key": "attack",
+              "manualResolution": true,
+              "rule": "efficientManipulation",
+              "modifiesExistingTechnique": true,
+              "attackAdvantages": 2
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Receber duas vantagens no acerto",
+          "visible": false,
+          "prompt": false
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/manipulacao-eficiente.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "manipulacao-eficiente",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Controle de Qi",
+        "requisitos": [
+          "Gestos: Flecha e Linha"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "gestos-flecha-e-linha"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [
+          "Esta atividade paga apenas o acréscimo do talento. Aplique a alteração à técnica ou ataque escolhido e pague normalmente sua ativação; nenhuma cópia ou segundo dano é criado."
+        ],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!50ac1cef6f7bde4f"
+}

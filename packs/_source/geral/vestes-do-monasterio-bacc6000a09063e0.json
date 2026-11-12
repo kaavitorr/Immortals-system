@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000a09063e0",
+  "name": "Vestes do Monastério",
+  "type": "equipment",
+  "img": "icons/equipment/chest/robe-layered-red.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-vestes-mosteiro",
+    "description": {
+      "value": "<p>Vestes do monastério do personagem.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "clothing"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "vestes-mosteiro"
+    }
+  },
+  "_key": "!items!bacc6000a09063e0"
+}

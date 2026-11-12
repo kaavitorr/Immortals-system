@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 38" fill="none">
+  <!-- Geometry only: lacquer and bronze colors are painted by the central CSS palette. -->
+  <path d="M8.5 1h31L47 8.5v21L39.5 37h-31L1 29.5v-21Z" stroke="white"/>
+  <path d="M9.5 4h29L44 9.5v19L38.5 34h-29L4 28.5v-19Z" stroke="white" stroke-opacity=".32" stroke-width=".65"/>
+  <path d="M4 12V9.5L9.5 4H13M35 34h3.5l5.5-5.5V26" stroke="white" stroke-opacity=".58" stroke-width=".8"/>
+  <path d="m24 1 1.8 1.8L24 4.6l-1.8-1.8ZM24 33.4l1.8 1.8L24 37l-1.8-1.8Z" fill="white" opacity=".9"/>
+</svg>

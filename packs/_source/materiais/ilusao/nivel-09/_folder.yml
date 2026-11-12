@@ -1,0 +1,13 @@
+_id: bacf80ff59393d53
+_key: '!folders!bacf80ff59393d53'
+name: Nível 9
+type: Item
+folder: 25264a5c1c2a6166
+sorting: a
+sort: 900000
+color: '#795d67'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: ilusao
+      level: 9

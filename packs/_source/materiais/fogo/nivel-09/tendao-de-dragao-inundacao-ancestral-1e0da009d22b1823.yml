@@ -1,0 +1,53 @@
+_id: 1e0da009d22b1823
+_key: '!items!1e0da009d22b1823'
+name: Tendão de Dragão-Inundação Ancestral
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/1e0da009d22b1823.webp
+system:
+  identifier: material-alquimia-1e0da009d22b1823
+  description:
+    value: <p><strong>Elemento:</strong> Fogo · <strong>Nível:</strong> 9 · <strong>Categoria:</strong> Parte de animal</p><p>Tendão do jiao ancestral, longo como um rio e eternamente quente. Tecido em cinto de batalha, sustenta a força de quem ergue pedras de magma.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 1660d1c595db0d45
+sort: 17300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: fogo
+      elementLabel: Fogo
+      level: 9
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/fogo.json
+        originalName: Tendão de Dragão-Inundação Ancestral
+        sha256: ba1a23c0b606945bb3806834a346654c7369238959758f3d2c8d2c74258f92bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 9
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

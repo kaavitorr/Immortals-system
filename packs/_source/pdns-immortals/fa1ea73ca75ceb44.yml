@@ -1,0 +1,81 @@
+name: Manto Incandescente
+type: feat
+folder: 38877a6e275e7204
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢⬢ · Reação</p><p>Ao ser atingida de perto, a criatura concentra suas chamas no ponto
+      de contato. Ao consumir 2 Pontos de Ação [⬢⬢] e 4 PQ, a criatura reduz 4d8 de dano e devolve o mesmo valor
+      reduzido como dano de Fogo a criatura atacante.</p>
+    chat: ''
+  identifier: manto-incandescente
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    bc0d1eb22048015d:
+      _id: bc0d1eb22048015d
+      type: utility
+      name: Manto Incandescente
+      activation:
+        type: reaction
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '4'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao ser atingida de perto, a criatura concentra suas chamas no ponto de contato. Ao consumir 2 Pontos de
+          Ação [⬢⬢] e 4 PQ, a criatura reduz 4d8 de dano e devolve o mesmo valor reduzido como dano de Fogo a criatura
+          atacante.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 5
+  prerequisites:
+    items: []
+    level: 5
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: fa1ea73ca75ceb44
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/endurecer-255cd26bc92d3768.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:mantoincandescente
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Chama da Renovação
+_key: '!items!fa1ea73ca75ceb44'

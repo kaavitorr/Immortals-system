@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000cfbece74",
+  "name": "Traços Animalescos — Mortos-vivos",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/magic/death/undead-zombie-grave-green.webp",
+  "system": {
+    "identifier": "especie-f39340b4",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Mortos-vivos. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c1000fae256e9": {
+        "_id": "1a2c1000fae256e9",
+        "type": "ItemChoice",
+        "title": "Duas características — Mortos-vivos",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.d1ab67656b90e70e"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.eranVzvtNks4fgNd"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Mortos-vivos",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000cfbece74"
+}

@@ -1,0 +1,79 @@
+_id: 2652f4d9a0599060
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:75
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 2652f4d9a0599060
+name: Beijo Tenebroso
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢</strong></p><p>Ao gastar 8 PQ, a criatura avança contra um inimigo e golpeia seu corpo
+      enquanto espalha sua influência, paralisando-o por um segundo. Em seguida, dá um beijo que contém seu poder
+      insidioso. O alvo deve realizar uma Salvaguarda de Vontade. Em caso de falha, o próximo turno dele é controlado
+      pelo usuário do beijo.</p>
+    chat: ''
+  identifier: beijo-tenebroso
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    2d03696e0ead27bd:
+      _id: 2d03696e0ead27bd
+      type: utility
+      name: Beijo Tenebroso
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '8'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 8 PQ, a criatura avança contra um inimigo e golpeia seu corpo enquanto espalha sua influência,
+          paralisando-o por um segundo. Em seguida, dá um beijo que contém seu poder insidioso. O alvo deve realizar uma
+          Salvaguarda de Vontade. Em caso de falha, o próximo turno dele é controlado pelo usuário do beijo.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 10
+  prerequisites:
+    items: []
+    level: 10
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/beijo-tenebroso-2652f4d9a0599060.webp"
+_key: '!items!2652f4d9a0599060'

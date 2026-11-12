@@ -1,0 +1,53 @@
+_id: 37d41bc9f85b3bda
+_key: '!items!37d41bc9f85b3bda'
+name: Taboa que Semeia Vultos
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/37d41bc9f85b3bda.webp
+system:
+  identifier: material-alquimia-37d41bc9f85b3bda
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Planta</p><p>Cresce onde o Qi ilusório se prende à neblina sobre a água, soltando penugens que lembram pequenas silhuetas distantes. As fibras da espiga conservam a tendência de formar contornos, úteis para dar corpo a pigmentos e pastas de projeção ilusória.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f96f1bba64ad37ff
+sort: 900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 1
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Taboa que Semeia Vultos
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

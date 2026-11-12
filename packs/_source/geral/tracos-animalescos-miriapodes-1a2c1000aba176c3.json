@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000aba176c3",
+  "name": "Traços Animalescos — Miriápodes",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/invertebrates/centipede-brown.webp",
+  "system": {
+    "identifier": "especie-d8c6f483",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Miriápodes. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c1000152bafa9": {
+        "_id": "1a2c1000152bafa9",
+        "type": "ItemChoice",
+        "title": "Duas características — Miriápodes",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.vBfeWJXVyhQZsXE0"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.wTC19pklOAER1im0"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Miriápodes",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000aba176c3"
+}

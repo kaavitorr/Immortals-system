@@ -1,0 +1,11 @@
+_id: 30627f8e0aec5a76
+name: Nível 2
+type: Item
+folder: 15c0438a058c3465
+sorting: a
+sort: 200000
+color: '#77614b'
+flags:
+  Immortals-system:
+    oreMaterialLevel: 2
+_key: '!folders!30627f8e0aec5a76'

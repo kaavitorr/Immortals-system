@@ -1,0 +1,13 @@
+_id: 814266407798d73b
+_key: '!folders!814266407798d73b'
+name: Nível 1
+type: Item
+folder: e13aab1d64a4c089
+sorting: a
+sort: 100000
+color: '#4e7c89'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: gelo
+      level: 1

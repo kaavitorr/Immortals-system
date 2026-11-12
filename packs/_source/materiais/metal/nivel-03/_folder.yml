@@ -1,0 +1,13 @@
+_id: 15ecec870b7da838
+_key: '!folders!15ecec870b7da838'
+name: Nível 3
+type: Item
+folder: 1e7500f1620000ec
+sorting: a
+sort: 300000
+color: '#5f6d78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: metal
+      level: 3

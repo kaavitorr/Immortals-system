@@ -1,0 +1,11 @@
+_id: 66f01b1432a186ba
+name: Nível 10
+type: Item
+folder: 15c0438a058c3465
+sorting: a
+sort: 1000000
+color: '#77614b'
+flags:
+  Immortals-system:
+    oreMaterialLevel: 10
+_key: '!folders!66f01b1432a186ba'

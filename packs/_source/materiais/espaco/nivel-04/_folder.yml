@@ -1,0 +1,13 @@
+_id: ca8b955afd3c7c23
+_key: '!folders!ca8b955afd3c7c23'
+name: Nível 4
+type: Item
+folder: 57c7cfa4d7a2235f
+sorting: a
+sort: 400000
+color: '#445674'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: espaco
+      level: 4

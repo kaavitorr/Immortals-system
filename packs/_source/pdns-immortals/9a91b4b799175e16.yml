@@ -1,0 +1,73 @@
+_id: 9a91b4b799175e16
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:183
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 9a91b4b799175e16
+name: Ataque de Mergulho
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Essa criatura pode avançar em direção a uma criatura inimiga que
+      realizar uma jogada de ataque. Se percorrer 5 metros antes do ataque, o alvo deve realizar uma Salvaguarda de
+      Fortitude para não receber a condição “Caído”. Após isso, ela se move 5 metros em qualquer direção.</p>
+    chat: ''
+  identifier: ataque-de-mergulho
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    b023e184e08a7878:
+      _id: b023e184e08a7878
+      type: utility
+      name: Ataque de Mergulho
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Essa criatura pode avançar em direção a uma criatura inimiga que realizar uma jogada de ataque. Se
+          percorrer 5 metros antes do ataque, o alvo deve realizar uma Salvaguarda de Fortitude para não receber a
+          condição “Caído”. Após isso, ela se move 5 metros em qualquer direção.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 2
+  prerequisites:
+    items: []
+    level: 2
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/ataque-de-mergulho-9a91b4b799175e16.webp"
+_key: '!items!9a91b4b799175e16'

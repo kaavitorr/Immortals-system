@@ -1,0 +1,61 @@
+{
+  "researchedAt": "2026-11-04",
+  "method": "Pesquisa em traduções oficiais Wuxiaworld; descrições inéditas em português. Níveis e propriedades são adaptação original para Immortals Legacy, não uma tabela universal das obras.",
+  "general": [
+    {
+      "url": "https://www.wuxiaworld.com/page/general-glossary-of-terms/",
+      "title": "Glossário Wuxiaworld",
+      "motif": "Qi, tesouros e materiais espirituais em Wuxia, Xianxia e Xuanhuan."
+    }
+  ],
+  "references": [
+    {
+      "id": "cold-iron",
+      "url": "https://www.wuxiaworld.com/novel/first-immortal-of-the-sword/fiots-chapter-36",
+      "title": "First Immortal of the Sword — capítulo 36",
+      "motif": "Bluelight Cold Iron; ferro frio azulado usado em forja."
+    },
+    {
+      "id": "blazing-copper",
+      "url": "https://www.wuxiaworld.com/novel/first-immortal-of-the-sword/fiots-chapter-36",
+      "title": "First Immortal of the Sword — capítulo 36",
+      "motif": "Blazing Red Copper Powder; motivo de cobre rubro e calor."
+    },
+    {
+      "id": "black-iron",
+      "url": "https://spa-prod.wuxiaworld.com/novel/alchemists-path-to-eternity/apte-chapter-33",
+      "title": "An Alchemist’s Path to Eternity — capítulo 33",
+      "motif": "Black iron adicionado a utensílios para reter energia espiritual."
+    },
+    {
+      "id": "purple-cloud-copper",
+      "url": "https://spa-prod.wuxiaworld.com/novel/alchemists-path-to-eternity/apte-chapter-33",
+      "title": "An Alchemist’s Path to Eternity — capítulo 33",
+      "motif": "Purple Cloud Copper Furnace; motivo de cobre e nuvem púrpura."
+    },
+    {
+      "id": "starsilver",
+      "url": "https://spa-prod.wuxiaworld.com/novel/divine-throne-of-primordial-blood/dtpb-chapter-1-05",
+      "title": "Divine Throne of Primordial Blood — capítulo 50",
+      "motif": "Starsilver em veios montanheses e fragmentos levados pelo rio."
+    },
+    {
+      "id": "deep-sea-iron",
+      "url": "https://spa-prod.wuxiaworld.com/novel/the-reticent-blade/trb-chapter-88",
+      "title": "The Reticent Blade — capítulo 88",
+      "motif": "Deep Sea Profound Iron empregado para forjar uma lâmina."
+    },
+    {
+      "id": "geng-metal",
+      "url": "https://www.wuxiaworld.com/novel/destiny-in-cinders/dic-chapter-24",
+      "title": "Destiny in Cinders — capítulo 24, nota da tradução",
+      "motif": "Metal Geng (庚金), associado a Vênus e à fase Metal."
+    },
+    {
+      "id": "gold-essence",
+      "url": "https://www.wuxiaworld.com/novel/unsheathed/un-chapter-17",
+      "title": "Unsheathed — capítulo 17",
+      "motif": "Gold essence como material espiritual mais precioso que ouro comum."
+    }
+  ]
+}

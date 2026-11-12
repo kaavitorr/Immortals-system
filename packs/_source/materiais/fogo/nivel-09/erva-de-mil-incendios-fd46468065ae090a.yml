@@ -1,0 +1,53 @@
+_id: fd46468065ae090a
+_key: '!items!fd46468065ae090a'
+name: Erva de Mil Incêndios
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/fd46468065ae090a.webp
+system:
+  identifier: material-alquimia-fd46468065ae090a
+  description:
+    value: <p><strong>Elemento:</strong> Fogo · <strong>Nível:</strong> 9 · <strong>Categoria:</strong> Planta</p><p>Renasceu de mil incêndios, fina como pavio e eternamente morna ao toque. Uma folha, queimada em ritual, rende cinza quente que apura qualquer elixir flamejante.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 1660d1c595db0d45
+sort: 16200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: fogo
+      elementLabel: Fogo
+      level: 9
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/fogo.json
+        originalName: Erva de Mil Incêndios
+        sha256: ba1a23c0b606945bb3806834a346654c7369238959758f3d2c8d2c74258f92bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 9
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

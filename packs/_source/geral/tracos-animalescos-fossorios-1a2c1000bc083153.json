@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000bc083153",
+  "name": "Traços Animalescos — Fossórios",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/environment/creatures/bug-earthworm.webp",
+  "system": {
+    "identifier": "especie-f6570013",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Fossórios. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c10002d8cc9c2": {
+        "_id": "1a2c10002d8cc9c2",
+        "type": "ItemChoice",
+        "title": "Duas características — Fossórios",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.ZIVVcLJbo4o0gXBa"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.RmElvfZbwnmiumF5"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Fossórios",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000bc083153"
+}

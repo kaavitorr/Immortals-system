@@ -1,0 +1,55 @@
+{
+  "_id": "1a2c10007da62308",
+  "name": "Traços Animalescos — Parasitas",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/invertebrates/leech-attack-green.webp",
+  "system": {
+    "identifier": "especie-32b7c8c8",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Parasitas. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c1000cb5986fe": {
+        "_id": "1a2c1000cb5986fe",
+        "type": "ItemChoice",
+        "title": "Duas características — Parasitas",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.tMaZ3DvsZGR0OmvG"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.yZIydeXKtdshDxe9"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.FcjCzLhHSeozdaqf"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Parasitas",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c10007da62308"
+}

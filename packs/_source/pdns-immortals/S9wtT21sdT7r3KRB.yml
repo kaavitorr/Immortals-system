@@ -1,0 +1,178 @@
+name: Ceifador
+type: archetype
+folder: 26a0e683ac977c63
+system:
+  description:
+    value: >-
+      <p>Pressiona o inimigo com golpes pesados e decisivos. Usa intimidação, empurrões e ataques devastadores para
+      quebrar a resistência de alvos vulneráveis.</p><p><strong>Resistência por ND:</strong> Físicos
+      +2</p><p><strong>Vulnerabilidade:</strong> Psíquico −8</p><p><strong>Deslocamento:</strong> +1 até um máximo de
+      25</p><p><strong>Armaduras:</strong> Musculatura Densa (10 + Con).</p><p><strong>Perícias:</strong> Proficiências:
+      Intimidação, Atletismo, Percepção e Sobrevivência.</p><p><strong>Salvaguardas:</strong> Proficiências: Fortitude e
+      Vontade.</p><p><strong>Aspectos:</strong> Presença Aterradora, Força Descomunal, Implacável, Corpo Robusto,
+      Descuidado, Fanático, Intimidadora, Golpe Preciso, Corpo Inerte, Aura do Medo.</p><p><strong>Habilidades:</strong>
+      Golpe Letal, Golpe Esmagador, Execução Guardiã, Investida Derrubadora, Onda de Choque, Golpe Aterrador, Rugido
+      Terrível, Desarme, Manter Firme, Terremoto.</p><p><strong>Reações:</strong> Ataque Reativo, Contra-Golpe,
+      Enrijecer Músculos.</p>
+    chat: ''
+  identifier: ceifador
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 5
+    dex: 1
+    con: 4
+    int: 0
+    wis: 1
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: 2
+      immune: false
+    piercing:
+      value: 2
+      immune: false
+    slashing:
+      value: 2
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: 0
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: -8
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.itm
+      - skills.ath
+      - skills.prc
+      - skills.sur
+      - saves.str
+      - saves.wis
+      - saves.con
+      - saves.cha
+    alternative:
+      - skills.itm
+      - skills.ath
+      - skills.prc
+      - skills.sur
+      - alternativeSaves.fortitude
+      - alternativeSaves.vontade
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5bcca07b63f166e2
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.53d435a7250164af
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.325e12eb1ac5a88d
+      nd: 2
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7b0bc0a12fe44448
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.05d16addb258c9b6
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.b195472bb5bb8055
+      nd: 3
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.6c3e03cf4f31410e
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5f6cf4c720a404dc
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.1a2c7d04572fb42e
+      nd: 4
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7bfd51c9ea7cf377
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.51ef0393adc7e89f
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7603853cf6050958
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4af56efce85f33bc
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d3b3052e04d15f8e
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.993367be87b6d592
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.b3f1cb5e6320a231
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4054b676984235b9
+      nd: 9
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5efee2aef46af820
+      nd: 10
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4547dce6ef214cf3
+      nd: 11
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.3208499bb19a4bf2
+      nd: 12
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.7c4887f815cc4103
+      nd: 13
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000021
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000004
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+_id: S9wtT21sdT7r3KRB
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/ceifador.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:ceifador
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: S9wtT21sdT7r3KRB
+_key: '!items!S9wtT21sdT7r3KRB'

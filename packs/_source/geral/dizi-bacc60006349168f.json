@@ -1,0 +1,28 @@
+{
+  "_id": "bacc60006349168f",
+  "name": "Dizi",
+  "type": "tool",
+  "img": "icons/tools/instruments/flute-simple-wood.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-dizi",
+    "description": {
+      "value": "<p>Flauta chinesa de bambu.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "art"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "dizi"
+    }
+  },
+  "_key": "!items!bacc60006349168f"
+}

@@ -1,0 +1,78 @@
+_id: bd4cdba7d49e7abe
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:235
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: bd4cdba7d49e7abe
+name: Pólen Reativo
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Ao sofrer qualquer quantidade de dano, essa criatura pode gastar 4 PQ
+      para liberar uma nuvem de pólen em uma área de 5 metros de raio ao seu redor. Todas as criaturas dentro da área
+      devem realizar uma Salvaguarda de Vontade para não caírem adormecidas.</p>
+    chat: ''
+  identifier: polen-reativo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    d9ba4b18df8c4922:
+      _id: d9ba4b18df8c4922
+      type: utility
+      name: Pólen Reativo
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '4'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao sofrer qualquer quantidade de dano, essa criatura pode gastar 4 PQ para liberar uma nuvem de pólen em
+          uma área de 5 metros de raio ao seu redor. Todas as criaturas dentro da área devem realizar uma Salvaguarda de
+          Vontade para não caírem adormecidas.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 3
+  prerequisites:
+    items: []
+    level: 3
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/polen-reativo-bd4cdba7d49e7abe.webp"
+_key: '!items!bd4cdba7d49e7abe'

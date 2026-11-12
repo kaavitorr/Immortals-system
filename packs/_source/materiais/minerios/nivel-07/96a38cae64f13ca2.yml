@@ -1,0 +1,50 @@
+_id: 96a38cae64f13ca2
+name: Ouro Púrpura da Coroa Vazia
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-07/96a38cae64f13ca2.webp
+system:
+  identifier: minerio-96a38cae64f13ca2
+  description:
+    value: <p><strong>Nível:</strong> 7 · <strong>Categoria:</strong> Minério</p><p>Veios de ouro cobertos por uma pátina púrpura formam pontas ao redor de uma cavidade rochosa. O depósito cresce em cavernas onde o Qi circula sem alcançar o centro. O metal é usado em bordas de tesouros e em armações destinadas a conter outros materiais sem cobrir suas faces de trabalho.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: e917052d9ca05332
+sort: 300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 7
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 7
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!96a38cae64f13ca2'

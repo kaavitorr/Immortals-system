@@ -1,0 +1,53 @@
+_id: f72ea9f97851ef4b
+_key: '!items!f72ea9f97851ef4b'
+name: Língua de Texugo das Correntes Ocultas
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/f72ea9f97851ef4b.webp
+system:
+  identifier: material-alquimia-f72ea9f97851ef4b
+  description:
+    value: <p><strong>Elemento:</strong> Água · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Parte de animal</p><p>Este texugo espiritual localiza peixes pela pulsação de Qi sob as pedras e possui uma língua marcada por linhas azuis sensíveis a essências dissolvidas. Macerada, ela auxilia a identificação de impurezas e integra preparados destinados a restaurar a receptividade do corpo aos nutrientes.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: ed3919c745cf1398
+sort: 1900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: agua
+      elementLabel: Água
+      level: 1
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/agua.json
+        originalName: Língua de Texugo Pesqueiro
+        sha256: 4e0ab61ab8b4f69e0e1dd88c53ff06dabfdca351a5290537230f83680b9c27bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,78 @@
+name: Ninho da Renovação
+type: feat
+folder: b4cdf08eea2c07d5
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> Sem custo de ação definido</p><p>A criatura prepara uma área de repouso com cinzas
+      espirituais e calor estável. A criatura pode sacrificar 1 Ponto de Constituição para formar um ninho usando suas
+      chamas milagrosas. Todas as criaturas que fizerem um descanso dentro do ninho, recuperam todos os recursos e
+      feridas. Elas podem remover qualquer ferida persistente por Qi maligno após realizarem 3 descansos no local.</p>
+    chat: ''
+  identifier: ninho-da-renovacao
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    ea2eb114e828b8cb:
+      _id: ea2eb114e828b8cb
+      type: utility
+      name: Ninho da Renovação
+      activation:
+        type: action
+        value: 0
+        condition: Sacrificar 1 Ponto de Constituição para formar o ninho.
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets: []
+      description:
+        value: >-
+          <p>A criatura prepara uma área de repouso com cinzas espirituais e calor estável. A criatura pode sacrificar 1
+          Ponto de Constituição para formar um ninho usando suas chamas milagrosas. Todas as criaturas que fizerem um
+          descanso dentro do ninho, recuperam todos os recursos e feridas. Elas podem remover qualquer ferida
+          persistente por Qi maligno após realizarem 3 descansos no local.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 10
+  prerequisites:
+    items: []
+    level: 10
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: f5be64af8e8381b1
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/regeneracao-lenta-558252674af8eed3.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:ninhodarenovacao
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Chama da Renovação
+_key: '!items!f5be64af8e8381b1'

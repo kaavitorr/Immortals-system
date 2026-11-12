@@ -1,0 +1,43 @@
+_id: 5b985b137ebe3303
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:57
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 5b985b137ebe3303
+name: Tática de Bando
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: >-
+      <p>Cada aliado a 1 metro da criatura com a qual você está engajado conta como 2 engajamentos. Essa característica
+      não afeta Shikigamis.</p>
+    chat: ''
+  identifier: tatica-de-bando
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 2
+  prerequisites:
+    items: []
+    level: 2
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/tatica-de-bando-5b985b137ebe3303.webp"
+_key: '!items!5b985b137ebe3303'

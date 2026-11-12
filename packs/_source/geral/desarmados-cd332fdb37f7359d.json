@@ -1,0 +1,16 @@
+{
+  "_id": "cd332fdb37f7359d",
+  "name": "Desarmados",
+  "type": "Item",
+  "folder": "c16983361c76c762",
+  "sort": 400000,
+  "sorting": "m",
+  "color": "#9bb0bf",
+  "flags": {
+    "Immortals-system": {
+      "combatManualFolder": "desarmados",
+      "combatManualContentVersion": 1
+    }
+  },
+  "_key": "!folders!cd332fdb37f7359d"
+}

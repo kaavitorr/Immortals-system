@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000692a1963",
+  "name": "Símbolo da Seita",
+  "type": "loot",
+  "img": "icons/equipment/neck/amulet-carved-stone-hammer.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-simbolo-seita",
+    "description": {
+      "value": "<p>Identificação da seita; personalize com o Narrador.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "gear"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "simbolo-seita"
+    }
+  },
+  "_key": "!items!bacc6000692a1963"
+}

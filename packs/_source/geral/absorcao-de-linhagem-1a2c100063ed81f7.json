@@ -1,0 +1,26 @@
+{
+  "_id": "1a2c100063ed81f7",
+  "name": "Absorção de Linhagem",
+  "type": "feat",
+  "folder": "1a2c000000000002",
+  "img": "systems/Immortals-system/assets/wuxia/caracteristicas-especie-pintadas-v1/absorcao-de-linhagem.webp",
+  "system": {
+    "identifier": "especie-701190b7",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Absorção de Linhagem: Ao encontrar o corpo de uma besta divina da mesma linha que a sua, você pode gastar 1d100 dias para absorver seu sangue, essência sanguínea, medula e similares para aprimorar a qualidade da própria linhagem. </p><p>Quando você chegar ao mesmo Rank que a besta tinha antes de morrer, você pode usar sua transformação Divina para tomar a forma completa dela, podendo usar a ficha da criatura no lugar da sua, mas você perde 10 Pontos de Qi por rodada que é retirado do seu Qi total para manter a transformação.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Absorção de Linhagem",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c100063ed81f7"
+}

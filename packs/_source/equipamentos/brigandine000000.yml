@@ -1,0 +1,67 @@
+_id: brigandine000000
+_key: '!items!brigandine000000'
+name: Armadura Flexível Média
+type: equipment
+img: systems/Immortals-system/assets/wuxia/armaduras-heroicas-pintadas-v2/armadura-flexivel-media.webp
+system:
+  identifier: brigandine
+  description:
+    value: >-
+      <p>Lâminas de couro sobrepostas a uma base de tecido equilibram proteção e mobilidade.</p><p><strong>Classe de
+      Resistência:</strong> 6 + Agilidade (máximo +8).</p><p>Usa o valor de Agilidade, até +8, substituindo a defesa sem
+      armadura.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 25
+    units: kg
+  price:
+    value: 2000
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: medium
+    baseItem: ''
+  armor:
+    value: 6
+    dex: 8
+    ability: dex
+    magicalBonus: ''
+  strength: null
+  proficient: null
+effects: []
+folder: gQTZ7J9hqDpVTtPb
+sort: 400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: brigandine000000
+      sourceType: armor
+      category: medium
+      quality: standard
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: false
+      manualEffects: []
+    flexibleArmorVersion: 1

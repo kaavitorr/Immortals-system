@@ -1,0 +1,53 @@
+_id: 26bcf3ba73eff7d0
+_key: '!items!26bcf3ba73eff7d0'
+name: Ninfeia Azul-Pérola
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/26bcf3ba73eff7d0.webp
+system:
+  identifier: material-alquimia-26bcf3ba73eff7d0
+  description:
+    value: <p><strong>Elemento:</strong> Água · <strong>Nível:</strong> 5 · <strong>Categoria:</strong> Planta</p><p>Pétalas nacaradas abrem-se apenas sob a lua cheia das águas serenas. Uma gota de seu néctar desobstrui por inteiro um meridiano bloqueado.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-earth
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 3a9741da2b2fe879
+sort: 8400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: agua
+      elementLabel: Água
+      level: 5
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/agua.json
+        originalName: Ninfeia Azul-Pérola
+        sha256: 4e0ab61ab8b4f69e0e1dd88c53ff06dabfdca351a5290537230f83680b9c27bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 5
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

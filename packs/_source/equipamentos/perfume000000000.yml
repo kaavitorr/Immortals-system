@@ -1,0 +1,76 @@
+_id: perfume000000000
+_key: '!items!perfume000000000'
+name: Perfume
+type: consumable
+img: icons/consumables/potions/flask-decorated-label-pink.webp
+system:
+  identifier: perfume
+  description:
+    value: >-
+      <p>Um adorno gentil na forma de óleos perfumados florais, projetado para mascarar o odor natural com uma
+      experiência olfativa mais agradável. Cada frasco pequeno contém 20
+      aplicações.</p><p><strong>Propriedades:</strong> Empilhável.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: '20'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  activities: {}
+  type:
+    value: trinket
+    subtype: ''
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      modifiers: []
+      scaling:
+        mode: ''
+        number: 1
+        formula: ''
+    replace: false
+effects: []
+folder: B6n3Q73Jl36TvWlr
+sort: 300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: perfume000000000
+      sourceType: consumable
+      category: other
+      quality: standard
+      enchantment: ''
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

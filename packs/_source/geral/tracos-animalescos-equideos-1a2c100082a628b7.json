@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c100082a628b7",
+  "name": "Traços Animalescos — Equídeos",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/environment/creatures/horse-white.webp",
+  "system": {
+    "identifier": "especie-a7a68f77",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Equídeos. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c1000eee8a8b7": {
+        "_id": "1a2c1000eee8a8b7",
+        "type": "ItemChoice",
+        "title": "Duas características — Equídeos",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.dPscOGGStS2FBPI2"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.8jEDxqcuagoAUO20"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Equídeos",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c100082a628b7"
+}

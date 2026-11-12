@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000c180b3ad",
+  "name": "Kit para Arrombar Fechaduras",
+  "type": "tool",
+  "img": "icons/tools/hand/lockpicks-steel-grey.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-arrombar",
+    "description": {
+      "value": "<p>Ferramentas para abrir fechaduras.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "art"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "arrombar"
+    }
+  },
+  "_key": "!items!bacc6000c180b3ad"
+}

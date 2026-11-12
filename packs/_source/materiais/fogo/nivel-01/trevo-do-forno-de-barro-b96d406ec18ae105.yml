@@ -1,0 +1,53 @@
+_id: b96d406ec18ae105
+_key: '!items!b96d406ec18ae105'
+name: Trevo do Crisol Velado
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/b96d406ec18ae105.webp
+system:
+  identifier: material-alquimia-b96d406ec18ae105
+  description:
+    value: <p><strong>Elemento:</strong> Fogo · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Planta</p><p>As pequenas folhas deste trevo surgem em argila marcada por antigas condensações de Qi ígneo e se fecham quando o calor espiritual diminui. Seu sumo reaviva misturas quase extintas no caldeirão e fornece calor sutil a preparados de atenção e circulação interna.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 50
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 00fb5377e2f8d2b2
+sort: 600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: fogo
+      elementLabel: Fogo
+      level: 1
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/fogo.json
+        originalName: Trevo do Forno de Barro
+        sha256: ba1a23c0b606945bb3806834a346654c7369238959758f3d2c8d2c74258f92bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,304 @@
+{
+  "_id": "1a2c10003a624f73",
+  "name": "Humano",
+  "type": "race",
+  "img": "systems/Immortals-system/assets/wuxia/especies-pintadas-v1/humano.webp",
+  "folder": "1a2c000000000001",
+  "system": {
+    "identifier": "especie-humano",
+    "type": {
+      "value": "humanoid"
+    },
+    "description": {
+      "value": "<p>Espécie de Immortals Legacy. 4 Pontos de Vida adicionais; caminhada 10 m e nado 5 m.</p><p>Características e escolhas são concedidas pela Progressão. Apenas uma espécie e uma variante/ancestralidade por personagem.</p>"
+    },
+    "movement": {
+      "units": "m",
+      "speeds": {
+        "walk": 10,
+        "swim": 5
+      }
+    },
+    "advancement": {
+      "1a2c1000a4d07b64": {
+        "_id": "1a2c1000a4d07b64",
+        "type": "Size",
+        "level": 0,
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "value": {}
+      },
+      "1a2c1000da85c3df": {
+        "_id": "1a2c1000da85c3df",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Características de Humano",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000bfa9373d",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000d29f62f9",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "1a2c1000716f4e8a": {
+        "_id": "1a2c1000716f4e8a",
+        "type": "ItemGrant",
+        "level": 4,
+        "title": "Talento de Espécie",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1a2c1000808dfb2d",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "1a2c100096cdcf47": {
+        "_id": "1a2c100096cdcf47",
+        "type": "ItemChoice",
+        "title": "Talento de Espécie — Formação de Núcleo",
+        "configuration": {
+          "choices": {
+            "4": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.ebb5a0b2808c403a"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.9a68c65bb099a117"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.c7f9a21ddd304c41"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1d130fde4059e08a"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.fe21f3a29603a088"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.14ca201336b2e1bd"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.183bd43a11aa877e"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.dfb2d168e7afcda8"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.59086a387e603226"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.1654ed3318afce85"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.f7ccd44a4dd736c4"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.032200ac226bbfac"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.50ac1cef6f7bde4f"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.e3aabe9e22848708"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.c796d528d549d680"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.925c5ad745a31665"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.9d71400507c116a5"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.3358af066cf134ba"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.7010685cbac8d016"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.e29df0ecac46a136"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.c711e2f29971e3e8"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.06e4e700b12ffd48"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.58cb0d5548b0bd73"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.6b5609b478a5104e"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.d267fe013af703bb"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.9d84669cd3538c2a"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.dade2ffc2932c4a2"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.c417596ea449f486"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.89c822e8013aa7e8"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.90c957f4c323af56"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.23397013f035f2dd"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.ff96290c2ce6988a"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.ddead5e1be369177"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.5c3b42fd2142bbbd"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.a619b28158c738f3"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.918ade8567437467"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.030153e5e74eca5d"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.40ca1233b8642c8b"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.82d46a40de4132c0"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.3dd337c6b3a0a244"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.7a69f64ef542c6c8"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.2fd2b05f430da883"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.fb7849642b8cc524"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.a523633929cc47fb"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.41720d52c66ab0f2"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.3e3d1b74e9946fc2"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.a6d5e7322ef93796"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.6301cbc0388f0948"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.3cdab370d78417c8"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.97a48b2ca13010e0"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.18f84ebcfb9ba89c"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.5f7bdcb11d9faf57"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.87afa170bccd15bc"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.87a9cfb1eb5eca77"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.d32743c5401c8e3d"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.a72d23c1becd5681"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.45c4b6c5bff9c9e7"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.9028fb6f40cda049"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.a08d5df6eef44fca"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.e885ab274fa8e6e1"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.87d6ad0a0d9daff4"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.a9b822c8eb0acf76"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.32b8ef00fc36501a"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.9ae1df8c56dde13a"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.a646d17cab45dd38"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.0f56d87a94bf9fbe"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.04e952d3c2328a5f"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {},
+          "speciesTalents": true
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "species": {
+        "key": "humano"
+      },
+      "pvAdicional": 4,
+      "speciesContentVersion": 1
+    }
+  },
+  "_key": "!items!1a2c10003a624f73"
+}

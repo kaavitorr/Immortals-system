@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c1000eb61fbec",
+  "name": "Traços Animalescos — Gárgulas",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/magical/construct-gargoyle-stone-gray.webp",
+  "system": {
+    "identifier": "especie-5373bfac",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Gárgulas. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c10005a9e06e2": {
+        "_id": "1a2c10005a9e06e2",
+        "type": "ItemChoice",
+        "title": "Duas características — Gárgulas",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.8c0b2969c7ec4473"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.CWcLbF1ejFjQp4dg"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Gárgulas",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c1000eb61fbec"
+}

@@ -1,0 +1,43 @@
+_id: 81d26286db9ef258
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:50
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 81d26286db9ef258
+name: Salto Parado
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: >-
+      <p>O salto em distância da criatura é de até 10 metros e seu salto em altura é de até 6 metros, com ou sem uma
+      corrida inicial.</p>
+    chat: ''
+  identifier: salto-parado
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 1
+  prerequisites:
+    items: []
+    level: 1
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/salto-parado-81d26286db9ef258.webp"
+_key: '!items!81d26286db9ef258'

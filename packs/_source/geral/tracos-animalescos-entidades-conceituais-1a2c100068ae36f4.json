@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c100068ae36f4",
+  "name": "Traços Animalescos — Entidades Conceituais",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+  "system": {
+    "identifier": "especie-cd033c34",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Entidades Conceituais. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c10003c775735": {
+        "_id": "1a2c10003c775735",
+        "type": "ItemChoice",
+        "title": "Duas características — Entidades Conceituais",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.QpM3Ctotwa61YGHQ"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.uxPgQFGbcmBtidbo"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Entidades Conceituais",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c100068ae36f4"
+}

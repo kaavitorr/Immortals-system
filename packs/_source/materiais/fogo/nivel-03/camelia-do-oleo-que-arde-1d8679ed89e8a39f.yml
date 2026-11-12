@@ -1,0 +1,53 @@
+_id: 1d8679ed89e8a39f
+_key: '!items!1d8679ed89e8a39f'
+name: Camélia do Óleo Incandescente
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/1d8679ed89e8a39f.webp
+system:
+  identifier: material-alquimia-1d8679ed89e8a39f
+  description:
+    value: <p><strong>Elemento:</strong> Fogo · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Planta</p><p>As sementes desta camélia amadurecem sobre veios de Qi ígneo, guardando óleo vermelho que brilha sem irradiar calor até ser ativado. O óleo purificado alimenta chamas limpas e integra bases alquímicas capazes de distribuir calor pela superfície da pele sem abrasão.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 1000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: e94d1872852c0748
+sort: 4600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: fogo
+      elementLabel: Fogo
+      level: 3
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/fogo.json
+        originalName: Camélia do Óleo que Arde
+        sha256: ba1a23c0b606945bb3806834a346654c7369238959758f3d2c8d2c74258f92bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

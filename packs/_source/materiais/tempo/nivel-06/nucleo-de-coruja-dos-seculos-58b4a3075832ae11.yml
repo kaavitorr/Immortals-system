@@ -1,0 +1,53 @@
+_id: 58b4a3075832ae11
+_key: '!items!58b4a3075832ae11'
+name: Núcleo de Coruja dos Séculos
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/tempo/58b4a3075832ae11.webp
+system:
+  identifier: material-alquimia-58b4a3075832ae11
+  description:
+    value: <p><strong>Elemento:</strong> Tempo · <strong>Nível:</strong> 6 · <strong>Categoria:</strong> Parte de animal</p><p>Núcleo âmbar que pulsa devagar no peito da coruja das eras. Encapsulado em pílulas, prolonga por anos a lucidez serena dos anciãos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 46adc3260f55ed28
+sort: 11100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: tempo
+      elementLabel: Tempo
+      level: 6
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/tempo.json
+        originalName: Núcleo de Coruja dos Séculos
+        sha256: 78c1decf6231b4f084096c5432683d625516dd37d65e516e424b199307cc5107
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 6
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

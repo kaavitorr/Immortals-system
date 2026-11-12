@@ -1,0 +1,50 @@
+_id: 83a4dd94303e0d5c
+name: Sangue Mineral do Qilin
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-08/83a4dd94303e0d5c.webp
+system:
+  identifier: minerio-83a4dd94303e0d5c
+  description:
+    value: '<p><strong>Nível:</strong> 8 · <strong>Categoria:</strong> Minério</p><p>Nódulos vermelho-acastanhados de brilho úmido crescem dentro de uma crosta dourada. Apesar do nome, não contêm sangue de besta: são depósitos formados em terras protegidas por Qilin. É preparado para selos cerimoniais e para placas de tesouros associados à estabilidade do Qi.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>'
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 150
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: c68bd2db09650a50
+sort: 900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 8
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 8
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!83a4dd94303e0d5c'

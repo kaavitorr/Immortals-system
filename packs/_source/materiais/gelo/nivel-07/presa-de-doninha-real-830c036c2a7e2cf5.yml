@@ -1,0 +1,53 @@
+_id: 830c036c2a7e2cf5
+_key: '!items!830c036c2a7e2cf5'
+name: Presa de Doninha Real
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/gelo/830c036c2a7e2cf5.webp
+system:
+  identifier: material-alquimia-830c036c2a7e2cf5
+  description:
+    value: <p><strong>Elemento:</strong> Gelo · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Parte de animal</p><p>Presas finíssimas da doninha que caça sob a crosta da neve. Raladas em pílulas, fazem os golpes encontrarem toda fenda de armadura.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 10c58c70a596794f
+sort: 14000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: gelo
+      elementLabel: Gelo
+      level: 7
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/gelo.json
+        originalName: Presa de Doninha Real
+        sha256: 88af0eeaa035d28281a04ee456c8673979fe0cddaf2f919f048eb2f9942eddc7
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

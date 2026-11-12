@@ -1,0 +1,77 @@
+name: Última Labareda
+type: feat
+folder: 38877a6e275e7204
+system:
+  description:
+    value: >-
+      <p><strong>Ações:</strong> ⬢ · Reação</p><p>Ao sofrer um golpe que destruiria seu corpo, a criatura libera as
+      chamas restantes para afastar seus agressores e deslocar sua brasa vital para um ponto próximo. Ao usar 1 Ponto de
+      Ação [⬢] ao morrer, essa criatura empurra todas as criaturas a 30 metros por 3.000 metros de distância, sem chance
+      de falha.</p>
+    chat: ''
+  identifier: ultima-labareda
+  source:
+    rules: '2024'
+    revision: 1
+    custom: Immortals Legacy - Enciclopédia das Criaturas - Bestas Divinas
+  activities:
+    2292a3e28c45cc49:
+      _id: 2292a3e28c45cc49
+      type: utility
+      name: Última Labareda
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        scaling:
+          allowed: false
+          max: ''
+        targets: []
+      description:
+        value: >-
+          <p>Ao sofrer um golpe que destruiria seu corpo, a criatura libera as chamas restantes para afastar seus
+          agressores e deslocar sua brasa vital para um ponto próximo. Ao usar 1 Ponto de Ação [⬢] ao morrer, essa
+          criatura empurra todas as criaturas a 30 metros por 3.000 metros de distância, sem chance de falha.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 14
+  prerequisites:
+    items: []
+    level: 14
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+_id: 1bc532ceffc52d0c
+img: systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/onda-de-choque-51e39c28d12d4895.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.1'
+      key: divinefeature:ultimalabareda
+      sourceSha256: 37ef2dd2480280c43aec250b82648c1310667a7e0b32633b7bf7851cf1f09885
+    divineBeasts:
+      version: 1
+      source: bestas-divinas-taxonomias-arquetipos.md
+      profile: Chama da Renovação
+_key: '!items!1bc532ceffc52d0c'

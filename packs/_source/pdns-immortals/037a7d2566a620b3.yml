@@ -1,0 +1,78 @@
+_id: 037a7d2566a620b3
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:98
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 037a7d2566a620b3
+name: Digestão Rápida
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p>Ao engolir uma criatura, você causa 6d4 de dano Ácido a ela no início de cada um de seus turnos e recupera
+      metade do dano causado.</p>
+    chat: ''
+  identifier: digestao-rapida
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    042bee429c42190d:
+      _id: 042bee429c42190d
+      type: damage
+      name: Digestão Rápida
+      activation:
+        type: action
+        value: 0
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Ao engolir uma criatura, você causa 6d4 de dano Ácido a ela no início de cada um de seus turnos e recupera
+          metade do dano causado.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: 6d4
+            types:
+              - acid
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 9
+  prerequisites:
+    items: []
+    level: 9
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/digestao-rapida-037a7d2566a620b3.webp"
+_key: '!items!037a7d2566a620b3'

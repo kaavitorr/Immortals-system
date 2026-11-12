@@ -1,0 +1,55 @@
+_id: book000000000000
+_key: '!items!book000000000000'
+name: Livro
+type: loot
+img: icons/sundries/books/book-embossed-steel-brown.webp
+system:
+  identifier: book
+  description:
+    value: <p>Um livro de capa de madeira encadernado em tecido ou couro.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 1
+    units: kg
+  price:
+    value: 40
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: gear
+effects: []
+folder: 7LUkTLEZvS60KVBp
+sort: 0
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: book000000000000
+      sourceType: loot
+      category: other
+      quality: standard
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: false
+      manualEffects: []

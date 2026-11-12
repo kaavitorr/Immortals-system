@@ -1,0 +1,66 @@
+_id: poisonersToolkit
+_key: '!items!poisonersToolkit'
+name: Kit de Envenenador
+type: tool
+img: icons/containers/bags/pouch-silver-purple.webp
+system:
+  identifier: tool-kit-poison
+  description:
+    value: >-
+      <p>Caixa de madeira embrulhada em couro com pesponto decorativo gravado para deixar claro que contém mercadorias
+      perigosas. Contém pilão e almofariz de pedra, espaços para fixar várias ampolas com rolha de ingredientes
+      venenosos, colher de prata e pequena trempie de ferro dobrável com panela de latão para combinar ingredientes
+      sobre o fogo.</p><p><strong>Propriedades:</strong> Empilhável.</p><p><strong>Profissões e conhecimentos:</strong>
+      Alquimia.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 10
+    units: kg
+  price:
+    value: 1750
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: wis
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: zKA7bUzu7rPpL2lk
+sort: 800000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: poisonersToolkit
+      sourceType: tool
+      category: crafting
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

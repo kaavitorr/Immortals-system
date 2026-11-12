@@ -1,0 +1,23 @@
+<section class="jj2-generation-content">
+  <header class="jj2-generation-heading">
+    <span class="jj2-generation-emblem" aria-hidden="true"><img src="systems/Immortals-system/assets/wuxia/refinement-lotus-v4.webp" alt="" width="44" height="44"></span>
+    <div><h2>Refinamento de Qi</h2><p>Refine seu Qi para este turno.</p></div>
+  </header>
+
+  <dl class="jj2-generation-metrics" aria-label="Reservas de Qi">
+    <div><dt>Limite</dt><dd>{{ limite }}<small>PQ</small></dd></div>
+    <div class="is-refined"><dt>Qi refinado</dt><dd>{{ geradaAtual }}<small>PQ</small></dd></div>
+    <div><dt>Reserva</dt><dd>{{ totalAtual }}<small>PQ</small></dd></div>
+  </dl>
+
+  <fieldset class="jj2-generation-bonus">
+    <legend>{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="add" }}Bônus de refinamento</legend>
+    <div class="form-group">
+      <label for="{{ rootId }}-generation-bonus">Qi adicional</label>
+      <div class="form-fields"><input id="{{ rootId }}-generation-bonus" type="number" name="flatBonus" value="0" min="0" step="1" aria-describedby="{{ rootId }}-generation-hint"><span class="jj2-generation-unit">PQ</span></div>
+    </div>
+    <p id="{{ rootId }}-generation-hint">Use o bônus de uma técnica ou habilidade. Ele é somado além do limite normal.</p>
+  </fieldset>
+
+  <p class="jj2-generation-note">{{> "systems/Immortals-system/templates/actors/parts/jj2-icon.hbs" key="energy" }}O Qi é transferido da sua reserva.</p>
+</section>

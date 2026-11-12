@@ -1,0 +1,50 @@
+_id: 355f2f273c91273b
+name: Zircão da Memória Ígnea
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-06/355f2f273c91273b.webp
+system:
+  identifier: minerio-355f2f273c91273b
+  description:
+    value: <p><strong>Nível:</strong> 6 · <strong>Categoria:</strong> Minério</p><p>Cristais castanhos de reflexo alaranjado guardam inclusões parecidas com pequenas brasas. Crescem em rochas de vulcões extintos que ainda respondem ao Qi de Fogo. São preparados para marcadores de temperatura e para instrumentos que registram a sequência de aquecimentos de uma forja.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f3ef8d149cb8b8bd
+sort: 900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 6
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 6
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!355f2f273c91273b'

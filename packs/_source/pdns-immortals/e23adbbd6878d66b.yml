@@ -1,0 +1,44 @@
+_id: e23adbbd6878d66b
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:43
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: e23adbbd6878d66b
+name: Mordida Infectada
+folder: ddd1e175917e5a20
+system:
+  description:
+    value: >-
+      <p>Ao sofrer um acerto crítico, o alvo deve realizar uma Salvaguarda de Vontade com CD igual a 10 + o atributo
+      principal da criatura que o atacou.</p><p>Em caso de falha, após 1 hora, a criatura recebe a condição “Doente”
+      como uma maldição. Para remover essa condição, é necessário realizar um Teste de Feitiçaria com CD 25.</p>
+    chat: ''
+  identifier: mordida-infectada
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities: {}
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 2
+  prerequisites:
+    items: []
+    level: 2
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/aspectos/mordida-infectada-e23adbbd6878d66b.webp"
+_key: '!items!e23adbbd6878d66b'

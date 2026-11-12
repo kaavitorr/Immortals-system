@@ -1,0 +1,53 @@
+_id: 34481dc189fe0f9b
+_key: '!items!34481dc189fe0f9b'
+name: Tendão de Lobo da Encosta Ardente
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/fogo/34481dc189fe0f9b.webp
+system:
+  identifier: material-alquimia-34481dc189fe0f9b
+  description:
+    value: <p><strong>Elemento:</strong> Fogo · <strong>Nível:</strong> 3 · <strong>Categoria:</strong> Parte de animal</p><p>Este lobo espiritual corre sobre veios de Qi ígneo e apresenta linhas vermelhas que se acendem sob a pele durante a perseguição. Seus tendões distribuem tensão e calor por igual, integrando pastas de reparação dos ossos e ligas flexíveis para costuras alquímicas.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 2000
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: e94d1872852c0748
+sort: 5100000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: fogo
+      elementLabel: Fogo
+      level: 3
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/fogo.json
+        originalName: Tendão de Lobo da Encosta Ardente
+        sha256: ba1a23c0b606945bb3806834a346654c7369238959758f3d2c8d2c74258f92bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 3
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

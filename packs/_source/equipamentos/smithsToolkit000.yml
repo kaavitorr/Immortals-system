@@ -1,0 +1,64 @@
+_id: smithsToolkit000
+_key: '!items!smithsToolkit000'
+name: Kit de Ferreiro
+type: tool
+img: icons/containers/bags/pack-engraved-leather-blue.webp
+system:
+  identifier: tool-kit-smithing
+  description:
+    value: >-
+      <p>Bolsa de couro para madeira. Contém furadores, pinças, sucata de metal e uma pequena bigorna, além de espaço
+      para guardar pedaços de sucata.</p><p><strong>Propriedades:</strong> Empilhável.</p><p><strong>Profissões e
+      conhecimentos:</strong> Ferraria.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 12
+    units: kg
+  price:
+    value: 1200
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: wis
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: zKA7bUzu7rPpL2lk
+sort: 600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: smithsToolkit000
+      sourceType: tool
+      category: crafting
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

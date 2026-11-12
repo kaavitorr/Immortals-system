@@ -1,0 +1,28 @@
+{
+  "_id": "bacc6000225ee624",
+  "name": "Manual de Cultivo — Terra",
+  "type": "loot",
+  "img": "systems/Immortals-system/assets/wuxia/equipamentos-antecedentes-pintados-v1/manual-terra.webp",
+  "folder": "bacc000000000003",
+  "system": {
+    "identifier": "antecedente-equipamento-manual-terra",
+    "description": {
+      "value": "<p>Manual recebido da seita; propriedades são definidas pelo Narrador.</p>"
+    },
+    "quantity": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "type": {
+      "value": "gear"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "backgroundEquipment": "manual-terra"
+    }
+  },
+  "_key": "!items!bacc6000225ee624"
+}

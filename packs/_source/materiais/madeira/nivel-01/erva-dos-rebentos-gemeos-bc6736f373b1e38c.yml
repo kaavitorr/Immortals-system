@@ -1,0 +1,53 @@
+_id: bc6736f373b1e38c
+_key: '!items!bc6736f373b1e38c'
+name: Erva dos Rebentos Gêmeos
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/madeira/bc6736f373b1e38c.webp
+system:
+  identifier: material-alquimia-bc6736f373b1e38c
+  description:
+    value: <p><strong>Elemento:</strong> Madeira · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Planta</p><p>As duas folhas de cada haste se alternam entre repouso e crescimento em clareiras onde o Qi da Madeira nunca se interrompe. O extrato reúne reserva e renovação numa mesma matriz, sendo usado em preparados para recuperar tecidos e dispersar a estagnação ao redor de lesões.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 50
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 94a0d53897fd5754
+sort: 200000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: madeira
+      elementLabel: Madeira
+      level: 1
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/madeira.json
+        originalName: Erva dos Rebentos Gêmeos
+        sha256: 78e534d57a11ed0632c3563db647e20db316c78e9e650cf8a2ef07149017611b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

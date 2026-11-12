@@ -1,0 +1,90 @@
+{
+  "_id": "bacc10005a536263",
+  "name": "Matador de Aluguel",
+  "type": "background",
+  "img": "systems/Immortals-system/assets/wuxia/antecedentes-pintados-v2/matador-de-aluguel.webp",
+  "folder": "bacc000000000001",
+  "system": {
+    "identifier": "antecedente-matador-de-aluguel",
+    "description": {
+      "value": "<p>O antecedente de matador de aluguel é geralmente associado a indivíduos que são contratados para eliminar alvos específicos. Eles são treinados em uma variedade de habilidades, incluindo técnicas de combate corpo-a-corpo, uso de armas, estratégia e disfarce. Esses indivíduos geralmente trabalham de forma independente e usam suas habilidades para obter dinheiro ou outros benefícios.</p><h3>Equipamentos iniciais</h3><p>Um kit de disfarce, um conjunto de roupas escuras, uma bugiganga de seu último trabalho e cinco adagas. <strong>50 PO.</strong></p><h3>@UUID[Compendium.Immortals-system.geral.Item.bacc20005a536263]{Análise Profissional}</h3><p>Seu trabalho como matador de aluguel fez com que você criasse hábitos muito bons quando se trata de encontrar pessoas. Permitindo que você consiga analisar o perfil de uma criatura desde que você consiga informação suficiente sobre ela. Você pode realizar um Teste de Sorte CD 15. Em caso de sucesso, você descobre o local mais frequentado pela criatura nos últimos 6 meses até 1 mês atrás.</p>"
+    },
+    "wealth": "",
+    "startingEquipment": [
+      {
+        "_id": "bacc50005a536263",
+        "group": null,
+        "sort": 0,
+        "type": "currency",
+        "key": "gp",
+        "count": 50,
+        "requiresProficiency": false
+      }
+    ],
+    "advancement": {
+      "bacc30005a536263": {
+        "_id": "bacc30005a536263",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Característica de Antecedente",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc20005a536263",
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "bacc70005a536263": {
+        "_id": "bacc70005a536263",
+        "type": "ItemGrant",
+        "level": 0,
+        "title": "Equipamentos e moedas",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.disguiseToolkit0",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc60005f89f41d",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.geral.Item.bacc6000a3b4d1cc",
+              "quantity": 1,
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.Immortals-system.equipamentos.Item.dagger0000000000",
+              "quantity": 5,
+              "optional": false
+            }
+          ],
+          "currency": {
+            "gp": 50
+          },
+          "optional": false
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "background": {
+        "key": "matador-de-aluguel",
+        "startingGold": 50,
+        "equipment": "Um kit de disfarce, um conjunto de roupas escuras, uma bugiganga de seu último trabalho e cinco adagas."
+      },
+      "backgroundRuleVersion": 2
+    }
+  },
+  "_key": "!items!bacc10005a536263"
+}

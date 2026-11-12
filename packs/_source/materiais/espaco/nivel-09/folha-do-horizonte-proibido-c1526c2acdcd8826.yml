@@ -1,0 +1,53 @@
+_id: c1526c2acdcd8826
+_key: '!items!c1526c2acdcd8826'
+name: Folha do Horizonte Proibido
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/c1526c2acdcd8826.webp
+system:
+  identifier: material-alquimia-c1526c2acdcd8826
+  description:
+    value: <p><strong>Elemento:</strong> Espaço · <strong>Nível:</strong> 9 · <strong>Categoria:</strong> Planta</p><p>Folha negra colhida além do último horizonte que os mapas das seitas ousam marcar. Infusa em óleo de lótus, leva o olhar ao fim do mundo conhecido.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 0103596f6ed072f2
+sort: 16400000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: espaco
+      elementLabel: Espaço
+      level: 9
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/espaco.json
+        originalName: Folha do Horizonte Proibido
+        sha256: e7d0006d3bc5b8eb4685c982cf4dd46c83df9af6d2f53fcd8b56c8b83060db26
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 9
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

@@ -1,0 +1,27 @@
+{
+  "_id": "1a2c10001d5480fb",
+  "name": "Jiuweihu (Raposa de 9 Caudas)",
+  "type": "feat",
+  "folder": "1a2c000000000003",
+  "img": "systems/Immortals-system/assets/wuxia/ancestralidades-variantes-pintadas-v1/jiuweihu-raposa-de-9-caudas.webp",
+  "system": {
+    "identifier": "especie-883a673b",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>São criaturas extremamente belas que tem um tempo de vida extremamente longo. Elas nascem com apenas uma cauda e recebem uma cauda adicional a cada 1.000 anos. Um meio monstro de raposa automaticamente tem expectativa de vida de 10.000 anos.</p><p>Raridade: Extremamente Raro.</p><p>Afinidade: Ilusão (Intermediário).</p><p>Característica Única: Recebe 2 níveis de Ilusão e recebe uma cauda adicional a cada rank de cultivo que receber. Suas caudas podem se separar de seu corpo para criar avatares com um Rank abaixo do seu, mas que dividem o mesmo Dantian, consumindo da mesma poça de Qi.</p><p>Fraquezas: Você só consegue treinar seu corpo até o 4º portão e consome o dobro de recursos. Além disso, a cada vez que você perde uma cauda, você perde 1 Rank de Cultivo.</p>"
+    },
+    "advancement": {}
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Jiuweihu (Raposa de 9 Caudas)",
+      "speciesLineage": true,
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c10001d5480fb"
+}

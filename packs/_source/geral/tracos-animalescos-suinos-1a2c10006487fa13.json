@@ -1,0 +1,52 @@
+{
+  "_id": "1a2c10006487fa13",
+  "name": "Traços Animalescos — Suínos",
+  "type": "feat",
+  "folder": "1a2c000000000004",
+  "img": "icons/creatures/mammals/livestock-pig-green.webp",
+  "system": {
+    "identifier": "especie-a759c5d3",
+    "type": {
+      "value": "race"
+    },
+    "description": {
+      "value": "<p>Taxonomia da linhagem: Suínos. Receba duas características desta taxonomia.</p>"
+    },
+    "advancement": {
+      "1a2c100076e812da": {
+        "_id": "1a2c100076e812da",
+        "type": "ItemChoice",
+        "title": "Duas características — Suínos",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.XB7WxHIls7svWhT6"
+            },
+            {
+              "uuid": "Compendium.Immortals-system.pdns-immortals.Item.8jEDxqcuagoAUO20"
+            }
+          ],
+          "allowDrops": false,
+          "type": "feat",
+          "restriction": {}
+        },
+        "value": {}
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "Immortals-system": {
+      "speciesFeature": "Traços Animalescos — Suínos",
+      "speciesContentVersion": 1,
+      "featureSection": "species"
+    }
+  },
+  "_key": "!items!1a2c10006487fa13"
+}

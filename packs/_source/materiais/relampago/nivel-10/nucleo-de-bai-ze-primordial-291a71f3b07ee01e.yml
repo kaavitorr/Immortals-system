@@ -1,0 +1,53 @@
+_id: 291a71f3b07ee01e
+_key: '!items!291a71f3b07ee01e'
+name: Núcleo de Bai Ze Primordial
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/291a71f3b07ee01e.webp
+system:
+  identifier: material-alquimia-291a71f3b07ee01e
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Parte de animal</p><p>Bai ze que dialogou com o primeiro trovão da criação, cuja voz seu núcleo repete. O núcleo entra em pílulas que revelam os segredos do céu.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 915b74bf3408615e
+sort: 19600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 10
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Núcleo de Bai Ze Primordial
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

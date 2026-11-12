@@ -1,0 +1,53 @@
+_id: 31f442e36d15625f
+_key: '!items!31f442e36d15625f'
+name: Língua de Doninha Encantadora
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/31f442e36d15625f.webp
+system:
+  identifier: material-alquimia-31f442e36d15625f
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Parte de animal</p><p>As doninhas encantadoras anciãs vivem nas nascentes de Qi ilusório, emitindo vozes cuja ressonância permanece em torno das presas depois do silêncio. A língua guarda essa essência de estímulo persistente, refinada como princípio ativo de ilusão em pílulas de afinidade elemental.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 30
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f8640645ab59d7b9
+sort: 14000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 7
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Língua de Doninha Encantadora
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 3
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

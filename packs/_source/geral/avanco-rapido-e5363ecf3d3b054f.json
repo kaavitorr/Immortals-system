@@ -1,0 +1,182 @@
+{
+  "_id": "e5363ecf3d3b054f",
+  "name": "Avanço Rápido",
+  "type": "spell",
+  "folder": "5305a0e07fd8bbec",
+  "sort": 100000,
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v1/passo-esguio.webp",
+  "effects": [],
+  "system": {
+    "identifier": "combat-manual-avanco-rapido",
+    "level": 0,
+    "ability": "",
+    "school": "",
+    "method": "innate",
+    "prepared": 1,
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "activation": {
+      "type": "action",
+      "value": 2,
+      "condition": "",
+      "override": true
+    },
+    "duration": {
+      "value": "1",
+      "units": "turn",
+      "expiry": "turnStart",
+      "special": "Até o início do seu próximo turno.",
+      "concentration": false,
+      "override": true
+    },
+    "range": {
+      "value": "",
+      "units": "self",
+      "special": "",
+      "override": true
+    },
+    "target": {
+      "template": {
+        "type": "",
+        "size": "",
+        "width": "",
+        "units": "m"
+      },
+      "affects": {
+        "type": "self",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "description": {
+      "value": "<table><tbody><tr><th>Categoria</th><td>Movimento</td></tr><tr><th>Técnica</th><td>Auxiliar</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>2</td></tr><tr><th>Alcance</th><td>Pessoal</td></tr><tr><th>Duração</th><td>Até o início do seu próximo turno.</td></tr><tr><th>Arma</th><td>Nenhum</td></tr></tbody></table><p>Ao ativar essa técnica, você recebe +5 metros de deslocamento e recebe duas vantagens na sua próxima rolagem de acerto.</p><h3>Observações</h3><p>Depois de ativar, acrescente 5 metros ao deslocamento até o início do próximo turno e aplique duas vantagens somente à próxima rolagem de acerto. Acompanhe o movimento e o consumo das vantagens na mesa.</p>"
+    },
+    "activities": {
+      "188ec38c9868f5da": {
+        "_id": "188ec38c9868f5da",
+        "type": "utility",
+        "name": "Avanço Rápido",
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v1/passo-esguio.webp",
+        "activation": {
+          "type": "action",
+          "value": 2,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<table><tbody><tr><th>Categoria</th><td>Movimento</td></tr><tr><th>Técnica</th><td>Auxiliar</td></tr><tr><th>Custo</th><td>2 PQ de Qi Refinado</td></tr><tr><th>Ações</th><td>2</td></tr><tr><th>Alcance</th><td>Pessoal</td></tr><tr><th>Duração</th><td>Até o início do seu próximo turno.</td></tr><tr><th>Arma</th><td>Nenhum</td></tr></tbody></table><p>Ao ativar essa técnica, você recebe +5 metros de deslocamento e recebe duas vantagens na sua próxima rolagem de acerto.</p><h3>Observações</h3><p>Depois de ativar, acrescente 5 metros ao deslocamento até o início do próximo turno e aplique duas vantagens somente à próxima rolagem de acerto. Acompanhe o movimento e o consumo das vantagens na mesa.</p>",
+          "chatFlavor": "Avanço Rápido"
+        },
+        "duration": {
+          "value": "1",
+          "units": "turn",
+          "expiry": "turnStart",
+          "special": "Até o início do seu próximo turno.",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": true,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "combatManualActivity": {
+              "techniqueId": "avanco-rapido",
+              "key": "main",
+              "rangeLocked": false,
+              "manualResolution": true
+            }
+          }
+        },
+        "roll": {
+          "formula": "",
+          "name": "Avanço Rápido",
+          "visible": false,
+          "prompt": false
+        }
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "combatManualContentVersion": 1,
+      "combatManualTechnique": {
+        "id": "avanco-rapido",
+        "category": "movimento",
+        "grade": null,
+        "auxiliary": true,
+        "weapon": "Nenhum",
+        "qi": 2,
+        "actions": 2,
+        "reaction": false,
+        "combinedAttack": null,
+        "source": {
+          "book": "Immortals Legacy — Livro do Jogador v2.1",
+          "pages": "46–51",
+          "section": "4.2 Manuais de Combate e Ranks",
+          "card": {
+            "duration": "Até o início do seu próximo turno.",
+            "range": "Pessoal",
+            "requirements": "Nenhum",
+            "damage": "Nenhum",
+            "combinedAttack": null
+          }
+        },
+        "manualResolution": [
+          "Depois de ativar, acrescente 5 metros ao deslocamento até o início do próximo turno e aplique duas vantagens somente à próxima rolagem de acerto. Acompanhe o movimento e o consumo das vantagens na mesa."
+        ],
+        "sourceCorrections": []
+      }
+    }
+  },
+  "_key": "!items!e5363ecf3d3b054f"
+}

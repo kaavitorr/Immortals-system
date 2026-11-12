@@ -1,0 +1,13 @@
+_id: 4e144b90025c6567
+_key: '!folders!4e144b90025c6567'
+name: Nível 1
+type: Item
+folder: b1a27ea1b8406500
+sorting: a
+sort: 100000
+color: '#3c414c'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: escuridao
+      level: 1

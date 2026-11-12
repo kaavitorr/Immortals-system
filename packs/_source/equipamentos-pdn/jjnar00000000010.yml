@@ -1,0 +1,109 @@
+_id: jjnar00000000010
+name: Pele de Pedra
+type: equipment
+img: systems/Immortals-system/assets/wuxia/equipamentos-pdn-pintados-v1/jjnar00000000010-pele-de-pedra.webp
+system:
+  type:
+    value: natural
+    baseItem: ''
+  identified: true
+  description:
+    value: >-
+      <p>Armadura natural. <strong>Classe de Resistência:</strong> 14 + Constituição, usando o valor inteiro do
+      atributo.</p><p>Ao equipar, substitui o cálculo padrão de CR; não é somada a ele.</p>
+    chat: ''
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  equipped: false
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+  identifier: pele-de-pedra
+  source:
+    revision: 1
+    rules: '2024'
+  unidentified:
+    description: ''
+  container: null
+  price:
+    value: 0
+    denomination: yen
+  rarities: []
+  attunement: ''
+  attuned: false
+  crew:
+    value: []
+  armor:
+    value: 14
+    dex: null
+    ability: con
+  proficient: null
+  properties: []
+  strength: null
+flags:
+  Immortals-system:
+    armaduraNatural: true
+    cr:
+      base: 14
+      atributo: con
+    equipmentPdn:
+      version: 1
+      source: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000010
+      previousImg: systems/Immortals-system/icons/svg/items/equipment.svg
+      descriptionHashesBefore:
+        - '56083862'
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: equipamento-pdn
+      documentId: jjnar00000000010
+effects:
+  - _id: jjnarfx000000010
+    name: Pele de Pedra — Classe de Resistência
+    img: systems/Immortals-system/icons/svg/items/equipment.svg
+    origin: null
+    transfer: false
+    disabled: true
+    statuses: []
+    flags:
+      Immortals-system:
+        armaduraNaturalCR:
+          base: 14
+          atributo: con
+    system:
+      changes:
+        - key: system.attributes.ac.bonus
+          value: 14 + @abilities.con.mod
+          type: add
+          phase: initial
+          _id: RbKkWGrAdZEZpbss
+          conditions: '{}'
+          replacement: ''
+      origin:
+        actor: null
+        behavior: null
+        effect: null
+        item: null
+        message: null
+      conditions: '{}'
+      magical: false
+      rider:
+        statuses: []
+    type: base
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    showIcon: 1
+    folder: null
+    sort: 0
+    _key: '!items.effects!jjnar00000000010.jjnarfx000000010'
+folder: IMEsHfstlHxfmBqg
+sort: 0
+_key: '!items!jjnar00000000010'

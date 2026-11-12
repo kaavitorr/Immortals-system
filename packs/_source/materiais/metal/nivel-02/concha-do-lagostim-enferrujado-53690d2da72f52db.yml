@@ -1,0 +1,53 @@
+_id: 53690d2da72f52db
+_key: '!items!53690d2da72f52db'
+name: Carapaça de Lagostim da Pátina Rubra
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/53690d2da72f52db.webp
+system:
+  identifier: material-alquimia-53690d2da72f52db
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 2 · <strong>Categoria:</strong> Parte de animal</p><p>O lagostim da Pátina Rubra filtra Qi metálico nos córregos profundos e abandona mudas cujas rachaduras se fecham ao contato com água espiritual. O pó lavado fornece uma estrutura coesa às pastas regeneradoras, ajudando a recompor bordas de tecidos sem criar rigidez excessiva.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 300
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 7633a1c049da1357
+sort: 4000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 2
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Concha do Lagostim Enferrujado
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 2
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

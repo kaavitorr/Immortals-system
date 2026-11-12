@@ -1,0 +1,53 @@
+_id: 141ee736fdf1c5ad
+_key: '!items!141ee736fdf1c5ad'
+name: Presa de Xiezhi Infalível
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/agua/141ee736fdf1c5ad.webp
+system:
+  identifier: material-alquimia-141ee736fdf1c5ad
+  description:
+    value: <p><strong>Elemento:</strong> Água · <strong>Nível:</strong> 10 · <strong>Categoria:</strong> Parte de animal</p><p>O xiezhi que julgará todas as águas no fim da era guarda esta presa. Um fragmento, moído, aponta o erro escondido em qualquer fórmula alquímica.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-supreme
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f433b84f9652e889
+sort: 20000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: agua
+      elementLabel: Água
+      level: 10
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/agua.json
+        originalName: Presa de Xiezhi Infalível
+        sha256: 4e0ab61ab8b4f69e0e1dd88c53ff06dabfdca351a5290537230f83680b9c27bf
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 10
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

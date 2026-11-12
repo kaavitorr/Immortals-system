@@ -1,0 +1,53 @@
+_id: 6741e30848e2d3d1
+_key: '!items!6741e30848e2d3d1'
+name: Trevo das Brisas Convergentes
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/vento/6741e30848e2d3d1.webp
+system:
+  identifier: material-alquimia-6741e30848e2d3d1
+  description:
+    value: <p><strong>Elemento:</strong> Vento · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Planta</p><p>Nasce entre pedras onde correntes de Qi vindas de direções diferentes se encontram sem turbulência. Seus folíolos mantêm um espaço de ar no centro, fornecendo uma essência que reúne fluxos dispersos e ajuda a preservar a unidade de preparados de vento.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 35edbb87ec748f73
+sort: 600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: vento
+      elementLabel: Vento
+      level: 1
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/vento.json
+        originalName: Trevo dos Ventos Bons
+        sha256: f5db71d3cdec5cc798ab9829fe28f461a95ad76b46b89331433a614fa8d62814
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

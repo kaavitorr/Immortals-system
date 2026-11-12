@@ -1,0 +1,48 @@
+{
+  "_id": "a523633929cc47fb",
+  "name": "Velocidade Anormal",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/velocidade-anormal.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-velocidade-anormal",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo do Corpo.</p><h2>Velocidade Anormal</h2><p><strong>Requisito:</strong> Forjando do Corpo</p><p>Ao adquirir essa habilidade, seu deslocamento base se torna 15 metros.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "velocidade-anormal",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo do Corpo",
+        "requisitos": [
+          "Forjando do Corpo"
+        ],
+        "requirementRules": {
+          "type": "body",
+          "min": 1
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "baseMovement",
+            "meters": 15
+          }
+        ],
+        "manual": [],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!a523633929cc47fb"
+}

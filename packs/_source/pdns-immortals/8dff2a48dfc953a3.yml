@@ -1,0 +1,72 @@
+_id: 8dff2a48dfc953a3
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:143
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 8dff2a48dfc953a3
+name: Mordida Infecciosa
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ [adicional]</strong></p><p>Durante um ataque de mordida ou presas, a criatura pode injetar
+      toxina em seu alvo. Ele deve, então, realizar uma Salvaguarda de Vontade para não receber a condição
+      “Envenenado”.</p>
+    chat: ''
+  identifier: mordida-infecciosa
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    1bb5345aff38e75a:
+      _id: 1bb5345aff38e75a
+      type: utility
+      name: Mordida Infecciosa
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Durante um ataque de mordida ou presas, a criatura pode injetar toxina em seu alvo. Ele deve, então,
+          realizar uma Salvaguarda de Vontade para não receber a condição “Envenenado”.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/mordida-infecciosa-8dff2a48dfc953a3.webp"
+_key: '!items!8dff2a48dfc953a3'

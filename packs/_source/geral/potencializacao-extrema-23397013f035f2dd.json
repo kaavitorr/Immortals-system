@@ -1,0 +1,51 @@
+{
+  "_id": "23397013f035f2dd",
+  "name": "Potencialização Extrema",
+  "type": "feat",
+  "folder": "d2652f7aa9b40d98",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/potencializacao-extrema.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-potencializacao-extrema",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Adaptação Física. <strong>Caminho:</strong> Corpo de Guerreiro.</p><h2>Potencialização Extrema</h2><p><strong>Requisito:</strong> Ira do Berserker</p><p>Suas Rolagens de Ataque Comuns que obtenham um resultado natural entre 15 e 19 e não sejam consideradas um Acerto Crítico causam o valor máximo possível em todas as rolagens de dano.</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "potencializacao-extrema",
+        "categoria": "Adaptação Física",
+        "caminho": "Corpo de Guerreiro",
+        "requisitos": [
+          "Ira do Berserker"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "ira-do-berserker"
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "maximizeCommonAttackDamage",
+            "naturalMinimum": 15,
+            "naturalMaximum": 19,
+            "excludeCritical": true,
+            "excludeBlackFlash": true
+          }
+        ],
+        "manual": [],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!23397013f035f2dd"
+}

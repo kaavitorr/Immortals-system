@@ -1,0 +1,65 @@
+_id: jewelersToolkit0
+_key: '!items!jewelersToolkit0'
+name: Kit de Joalheiro
+type: tool
+img: icons/containers/bags/pack-leather-gold-pink.webp
+system:
+  identifier: tool-kit-jewelcraft
+  description:
+    value: >-
+      <p>Bolsa de couro para madeira. Contém limas, paquímetros, pequena pedra de amolar, compostos de polimento e
+      panos, e uma variedade de engastes baratos. O estojo pode desdobrar-se completamente para fornecer uma superfície
+      lisa de trabalho.</p><p><strong>Propriedades:</strong> Empilhável.</p><p><strong>Profissões e
+      conhecimentos:</strong> Joalheria.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 6
+    units: kg
+  price:
+    value: 940
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: art
+    baseItem: ''
+  ability: wis
+  bonus: ''
+  proficient: null
+  chatFlavor: ''
+effects: []
+folder: zKA7bUzu7rPpL2lk
+sort: 350000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: jewelersToolkit0
+      sourceType: tool
+      category: crafting
+      quality: standard
+      enchantment: mundane
+      properties:
+        - stackable
+      weaponDamagePending: false
+      manualEffects: []

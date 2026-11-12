@@ -1,0 +1,50 @@
+_id: a458135f12e32a30
+name: Cassiterita do Rio Adormecido
+type: loot
+img: systems/Immortals-system/assets/wuxia/minerios-pintados-v1/nivel-01/a458135f12e32a30.webp
+system:
+  identifier: minerio-a458135f12e32a30
+  description:
+    value: <p><strong>Nível:</strong> 1 · <strong>Categoria:</strong> Minério</p><p>Seus grãos escuros são encontrados em leitos que secaram após a mudança de uma veia espiritual subterrânea. Ainda guardam o ritmo lento da corrente de Qi que os concentrou. O estanho beneficiado une outros metais em ligas de bronze usadas em sinos de cultivo, ferragens e suportes inscritos.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Minérios
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: cfba75a524e8918d
+sort: 300000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    oreMaterial:
+      level: 1
+      category: minerio
+      reviewed: true
+      source:
+        kind: original
+        references: []
+        note: Nomenclatura, descrição e nível adaptados ou criados para Immortals Legacy; propriedades narrativas de matéria-prima.
+    materialEconomy:
+      version: 2
+      level: 1
+      category: minerio
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!a458135f12e32a30'

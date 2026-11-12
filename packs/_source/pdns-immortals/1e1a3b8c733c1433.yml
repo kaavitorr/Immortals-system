@@ -1,0 +1,76 @@
+_id: 1e1a3b8c733c1433
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:226
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 1e1a3b8c733c1433
+name: Interceptação
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢ · Reação</strong></p><p>Ao gastar 2 PQ, essa criatura pode se mover uma distância igual ao seu
+      deslocamento disponível mais 5 metros para interceptar uma jogada de acerto, mudando o alvo para si mesma.</p>
+    chat: ''
+  identifier: interceptacao
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    2a181de6366b3e22:
+      _id: 2a181de6366b3e22
+      type: utility
+      name: Interceptação
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '2'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 2 PQ, essa criatura pode se mover uma distância igual ao seu deslocamento disponível mais 5
+          metros para interceptar uma jogada de acerto, mudando o alvo para si mesma.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 2
+  prerequisites:
+    items: []
+    level: 2
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/interceptacao-1e1a3b8c733c1433.webp"
+_key: '!items!1e1a3b8c733c1433'

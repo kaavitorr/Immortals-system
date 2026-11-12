@@ -1,0 +1,157 @@
+{
+  "_id": "87a9cfb1eb5eca77",
+  "name": "Proteção da Alma",
+  "type": "feat",
+  "folder": "6ee7893fafdbf9cf",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/protecao-da-alma.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-protecao-da-alma",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo da Alma.</p><h2>Proteção da Alma</h2><p><strong>Requisito:</strong> Avatar da Alma</p><p>No início de cada dia, você pode criar uma ressonância perfeita entre seu corpo e alma, protegendo os dois de forma simultânea. Você pode gastar 2 PQ para receber 5 Pontos de Vida temporários, até um máximo igual a 5 vezes o seu nível de cultivo.</p>"
+    },
+    "activities": {
+      "50f3d6cb0144df55": {
+        "_id": "50f3d6cb0144df55",
+        "type": "heal",
+        "name": "Proteção da Alma",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "No início do dia.",
+          "override": true
+        },
+        "consumption": {
+          "spellSlot": false,
+          "scaling": {
+            "allowed": true,
+            "max": "@nivelCultivo"
+          },
+          "targets": [
+            {
+              "type": "attribute",
+              "target": "energy.generated",
+              "value": "2",
+              "scaling": {
+                "mode": "amount",
+                "formula": "2"
+              }
+            },
+            {
+              "type": "activityUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Categoria:</strong> Habilidades Especiais. <strong>Caminho:</strong> Cultivo da Alma.</p><h2>Proteção da Alma</h2><p><strong>Requisito:</strong> Avatar da Alma</p><p>No início de cada dia, você pode criar uma ressonância perfeita entre seu corpo e alma, protegendo os dois de forma simultânea. Você pode gastar 2 PQ para receber 5 Pontos de Vida temporários, até um máximo igual a 5 vezes o seu nível de cultivo.</p>",
+          "chatFlavor": "Proteção da Alma — Proteção da Alma"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "override": true,
+          "prompt": false,
+          "template": {
+            "type": "",
+            "size": "",
+            "width": "",
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "effects": [],
+        "flags": {
+          "Immortals-system": {
+            "qiTalentActivity": {
+              "talentId": "protecao-da-alma",
+              "key": "protect",
+              "manualResolution": false,
+              "rule": "soulProtection",
+              "maximumTemporaryHitPointsFormula": "5 * @nivelCultivo",
+              "at": "dayStart"
+            }
+          }
+        },
+        "healing": {
+          "number": null,
+          "denomination": null,
+          "bonus": "",
+          "types": [
+            "temphp"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "5 * @scaling"
+          },
+          "scaling": {
+            "mode": "",
+            "number": 0,
+            "formula": ""
+          }
+        },
+        "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/protecao-da-alma.webp"
+      }
+    }
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "protecao-da-alma",
+        "categoria": "Habilidades Especiais",
+        "caminho": "Cultivo da Alma",
+        "requisitos": [
+          "Avatar da Alma"
+        ],
+        "requirementRules": {
+          "type": "soul",
+          "min": 1
+        },
+        "basic": false
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [],
+        "manual": [],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!87a9cfb1eb5eca77"
+}

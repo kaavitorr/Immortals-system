@@ -1,0 +1,13 @@
+_id: f38290d78ecbccdc
+_key: '!folders!f38290d78ecbccdc'
+name: Nível 7
+type: Item
+folder: 1e7500f1620000ec
+sorting: a
+sort: 700000
+color: '#5f6d78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: metal
+      level: 7

@@ -1,0 +1,11 @@
+_id: 258aedcff99f53f1
+name: Nível 5
+type: Item
+folder: 15c0438a058c3465
+sorting: a
+sort: 500000
+color: '#77614b'
+flags:
+  Immortals-system:
+    oreMaterialLevel: 5
+_key: '!folders!258aedcff99f53f1'

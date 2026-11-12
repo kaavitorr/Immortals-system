@@ -1,0 +1,174 @@
+_id: 0be19be04127a415
+type: archetype
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:archetype:artilheiroselvagem
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 0be19be04127a415
+name: Artilheiro Selvagem
+folder: 26a0e683ac977c63
+system:
+  description:
+    value: >-
+      <p>Mantém distância e usa Qi para lançar ataques elementais e controlar o terreno. Recorre a barreiras e
+      contrafeitiços para se proteger.</p><p><strong>Resistência por ND:</strong> Alma +1 | Energia
+      +1</p><p><strong>Vulnerabilidade:</strong> Físicos −8 | Veneno −6</p><p><strong>Deslocamento:</strong> +1 até um
+      máximo de 25</p><p><strong>Armaduras:</strong> Armadura Elemental (10 + Int).</p><p><strong>Perícias:</strong>
+      Proficiências: Feitiçaria, Sobrenatural, Sobrevivência e Intimidação.</p><p><strong>Salvaguardas:</strong>
+      Proficiências: Reflexo e Fortitude.</p><p><strong>Aspectos:</strong> Afinidade Total, Corpo de Catástrofe, Um Com
+      o Mundo, Analisar Padrões, Mente Singular, Fanático, Temperamento Frio, Criatura sem Alma, Autossuficiente,
+      Presença Aterradora.</p><p><strong>Habilidades:</strong> Baforada Elemental, Canalização da Tempestade,
+      Canalização de Terra, Chuva de Raios, Controle Natural, Controle do Tempo, Liberação Elétrica, Pilar de Chamas,
+      Prisão de Gelo, Floresta de Pedra.</p><p><strong>Reações:</strong> Contra-Feitiço, Barreira Elemental, Ataque
+      Reativo.</p>
+    chat: ''
+  identifier: artilheiro-selvagem
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 1
+    dex: 2
+    con: 2
+    int: 4
+    wis: 2
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: -8
+      immune: false
+    piercing:
+      value: -8
+      immune: false
+    slashing:
+      value: -8
+      immune: false
+    acid:
+      value: 0
+      immune: false
+    poison:
+      value: -6
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: 0
+      immune: false
+    lightning:
+      value: 0
+      immune: false
+    radiant:
+      value: 1
+      immune: false
+    psychic:
+      value: 0
+      immune: false
+    soul:
+      value: 1
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.arc
+      - skills.ani
+      - skills.sur
+      - skills.itm
+      - saves.dex
+      - saves.int
+      - saves.str
+      - saves.wis
+    alternative:
+      - skills.arc
+      - skills.ani
+      - skills.sur
+      - skills.itm
+      - alternativeSaves.reflexo
+      - alternativeSaves.fortitude
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d9d85d54b27f9468
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.9dc4b92fa53b88fc
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.a41ef5806cd37813
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.2603da2054ea95bd
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.126932eed3e627d3
+      nd: 5
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.38a87b70e6f341bd
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.05c0e55ac922a141
+      nd: 6
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.71230edba4683c05
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.2dca33a3b776bc32
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.12adfd8dc000b361
+      nd: 7
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.d6875abd4dbea75d
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.060086db82d1cba2
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.ab92f5684406bec2
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5827ad027e14d0ad
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.968f3c93e74d547e
+      nd: 8
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.5efee2aef46af820
+      nd: 10
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.4a2d0142f7c39985
+      nd: 10
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8727b2b7070ef7d5
+      nd: 11
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.8aa8b71123ce5e89
+      nd: 12
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.c21840f39dd9591c
+      nd: 12
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000001
+    armas: []
+  movimento:
+    ganho: 1
+    intervalo: 1
+    maximo: 25
+sort: 0
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/arquetipos/artilheiro-selvagem.webp
+_key: '!items!0be19be04127a415'

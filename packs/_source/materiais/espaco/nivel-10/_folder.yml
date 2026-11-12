@@ -1,0 +1,13 @@
+_id: e2242675afff5858
+_key: '!folders!e2242675afff5858'
+name: Nível 10
+type: Item
+folder: 57c7cfa4d7a2235f
+sorting: a
+sort: 1000000
+color: '#445674'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: espaco
+      level: 10

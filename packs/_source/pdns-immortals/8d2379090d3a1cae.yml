@@ -1,0 +1,99 @@
+_id: 8d2379090d3a1cae
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:85
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 8d2379090d3a1cae
+name: Conflagração
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢</strong></p><p>Ao gastar 6 PQ, a criatura pode liberar diversos projéteis para o alto, que
+      caem em um local a até 25 metros de distância e explodem em chamas em uma área de 5 metros de raio. Todas as
+      criaturas dentro da área devem realizar uma Salvaguarda de Reflexo, sofrendo 8d6 de dano de Fogo se falharem ou
+      metade se obtiverem sucesso.</p>
+    chat: ''
+  identifier: conflagracao
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    64409f7f515d5013:
+      _id: 64409f7f515d5013
+      type: save
+      name: Conflagração
+      activation:
+        type: action
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '6'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 6 PQ, a criatura pode liberar diversos projéteis para o alto, que caem em um local a até 25
+          metros de distância e explodem em chamas em uma área de 5 metros de raio. Todas as criaturas dentro da área
+          devem realizar uma Salvaguarda de Reflexo, sofrendo 8d6 de dano de Fogo se falharem ou metade se obtiverem
+          sucesso.</p>
+        chatFlavor: ''
+      range:
+        value: '25'
+        units: m
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: creature
+        prompt: true
+        override: true
+        template:
+          type: sphere
+          size: '5'
+          units: m
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: ''
+          formula: 10 + @npcPrincipal
+      damage:
+        onSave: half
+        parts:
+          - custom:
+              enabled: true
+              formula: 8d6
+            types:
+              - fire
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 10
+  prerequisites:
+    items: []
+    level: 10
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/conflagracao-8d2379090d3a1cae.webp"
+_key: '!items!8d2379090d3a1cae'

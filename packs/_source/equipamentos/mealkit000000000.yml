@@ -1,0 +1,55 @@
+_id: mealkit000000000
+_key: '!items!mealkit000000000'
+name: Kit de Refeição
+type: loot
+img: icons/containers/bags/pouch-leather-silver-brown.webp
+system:
+  identifier: meal-kit
+  description:
+    value: <p>Bolsa de couro contendo caneca e prato de metal, garfo, e um pedaço de pano para limpá-los.</p>
+    chat: ''
+  source:
+    custom: Ascension Legacy
+    rules: '2024'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 1
+    units: kg
+  price:
+    value: 6
+    denomination: yen
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  equipped: false
+  attunement: ''
+  attuned: false
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  type:
+    value: gear
+effects: []
+folder: eiHFNJQiIGesLyuw
+sort: 500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    ascensionImport:
+      system: ascension-system
+      pack: equipment
+      documentId: mealkit000000000
+      sourceType: loot
+      category: other
+      quality: standard
+      enchantment: mundane
+      properties: []
+      weaponDamagePending: false
+      manualEffects: []

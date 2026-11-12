@@ -1,0 +1,140 @@
+name: Parasitas
+type: taxonomy
+folder: bd22b49b1ea28d76
+system:
+  description:
+    value: >-
+      <p>Reúne organismos que vivem às custas de hospedeiros, como vermes parasitas, larvas parasíticas e carrapatos,
+      além de variantes amaldiçoadas.</p><p><strong>Resistência:</strong> Veneno +6 | Ácido
+      +3</p><p><strong>Vulnerabilidade:</strong> Fogo – 6 | Elétrico -3</p><p><strong>Deslocamento:</strong> Rastejar: 5
+      metros</p><p><strong>Armaduras:</strong> Pele Fina (6 + Agi); tanque: Pele Grossa (10 +
+      Agi).</p><p><strong>Perícias:</strong> Proficiências: Medicina, Furtividade e
+      Sobrevivência.</p><p><strong>Salvaguardas:</strong> Proficiências: Vontade e
+      Fortitude.</p><p><strong>Aspectos:</strong> Controle Silencioso, Divisão de Dano, Absorção Rápida</p>
+    chat: ''
+  identifier: parasitas
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  pesos:
+    str: 1
+    dex: 2
+    con: 4
+    int: 1
+    wis: 3
+    cha: 1
+  resistencias:
+    bludgeoning:
+      value: 0
+      immune: false
+    piercing:
+      value: 0
+      immune: false
+    slashing:
+      value: 0
+      immune: false
+    acid:
+      value: 3
+      immune: false
+    poison:
+      value: 6
+      immune: false
+    cold:
+      value: 0
+      immune: false
+    fire:
+      value: -6
+      immune: false
+    lightning:
+      value: -3
+      immune: false
+    radiant:
+      value: 0
+      immune: false
+    psychic:
+      value: 0
+      immune: false
+    soul:
+      value: 0
+      immune: false
+  proficiencyOrder:
+    original:
+      - skills.rel
+      - skills.ste
+      - skills.sur
+      - saves.con
+      - saves.cha
+      - saves.str
+      - saves.wis
+    alternative:
+      - skills.rel
+      - skills.ste
+      - skills.sur
+      - alternativeSaves.vontade
+      - alternativeSaves.fortitude
+  proficiencias:
+    skills:
+      rel: 0
+      acr: 0
+      prf: 0
+      ath: 0
+      ani: 0
+      itm: 0
+      arc: 0
+      luc: 0
+      his: 0
+      ste: 0
+      per: 0
+      inv: 0
+      dec: 0
+      prc: 0
+      sur: 0
+    saves:
+      str: 0
+      dex: 0
+      con: 0
+      int: 0
+      wis: 0
+      cha: 0
+    alternativeSaves:
+      fortitude: 0
+      vontade: 0
+      reflexo: 0
+  habilidades:
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.tMaZ3DvsZGR0OmvG
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.yZIydeXKtdshDxe9
+      nd: 0
+    - uuid: Compendium.Immortals-system.pdns-immortals.Item.FcjCzLhHSeozdaqf
+      nd: 0
+  equipamentos:
+    armadura: Compendium.Immortals-system.equipamentos-pdn.Item.jjnar00000000011
+    armas:
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000003
+      - Compendium.Immortals-system.equipamentos-pdn.Item.jjnat00000000012
+  vidaEnergia: false
+  energiaBase: 10
+  movimento:
+    walk: 5
+    swim: 0
+    fly: 0
+    climb: 0
+    burrow: 0
+_id: NvN9C7h1FDFvxRLo
+img: systems/Immortals-system/assets/wuxia/perfis-pdn-pintados-v1/taxonomias/parasitas.webp
+effects: []
+sort: 0
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: profile:taxonomy:parasitas
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    equipmentPdn:
+      version: 1
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: NvN9C7h1FDFvxRLo
+_key: '!items!NvN9C7h1FDFvxRLo'

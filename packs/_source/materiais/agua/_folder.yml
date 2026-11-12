@@ -1,0 +1,12 @@
+_id: c850a5148710bf94
+_key: '!folders!c850a5148710bf94'
+name: Água
+type: Item
+folder: null
+sorting: m
+sort: 400000
+color: '#365f78'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: agua

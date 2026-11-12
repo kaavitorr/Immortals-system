@@ -1,0 +1,13 @@
+_id: 52aa7e1c5a172ae1
+_key: '!folders!52aa7e1c5a172ae1'
+name: Nível 10
+type: Item
+folder: 25264a5c1c2a6166
+sorting: a
+sort: 1000000
+color: '#795d67'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: ilusao
+      level: 10

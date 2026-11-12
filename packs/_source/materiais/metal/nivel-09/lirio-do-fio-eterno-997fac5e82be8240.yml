@@ -1,0 +1,53 @@
+_id: 997fac5e82be8240
+_key: '!items!997fac5e82be8240'
+name: Lírio do Fio Eterno
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/metal/997fac5e82be8240.webp
+system:
+  identifier: material-alquimia-997fac5e82be8240
+  description:
+    value: <p><strong>Elemento:</strong> Metal · <strong>Nível:</strong> 9 · <strong>Categoria:</strong> Planta</p><p>Lírio de pétala única, esticada como um fio que se perde no céu, impossível de colher inteiro. Mesmo um fragmento revigora pílulas antigas que perderam a força.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-divine
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: 70f6a58e639a255c
+sort: 16500000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: metal
+      elementLabel: Metal
+      level: 9
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/metal.json
+        originalName: Lírio do Fio Eterno
+        sha256: 4d03c81484b05c7a4386295a917139f777fefae92e1d1a5538b23ef202f9814b
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 9
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

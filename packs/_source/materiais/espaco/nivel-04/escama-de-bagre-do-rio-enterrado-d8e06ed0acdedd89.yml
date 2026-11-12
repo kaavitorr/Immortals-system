@@ -1,0 +1,53 @@
+_id: d8e06ed0acdedd89
+_key: '!items!d8e06ed0acdedd89'
+name: Espinho de Bagre do Rio Enterrado
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/espaco/d8e06ed0acdedd89.webp
+system:
+  identifier: material-alquimia-d8e06ed0acdedd89
+  description:
+    value: <p><strong>Elemento:</strong> Espaço · <strong>Nível:</strong> 4 · <strong>Categoria:</strong> Parte de animal</p><p>O bagre do rio enterrado atravessa veios de Qi espacial sob a areia, surgindo em nascentes sem ligação visível com seu curso. O espinho dorsal guarda um canal de essência bem definido, aproveitado para orientar e ligar componentes de preparados de travessia.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 40
+    denomination: essence-human
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: ca8b955afd3c7c23
+sort: 8000000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: espaco
+      elementLabel: Espaço
+      level: 4
+      category: parte-animal
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/espaco.json
+        originalName: Escama de Bagre do Rio Enterrado
+        sha256: e7d0006d3bc5b8eb4685c982cf4dd46c83df9af6d2f53fcd8b56c8b83060db26
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 4
+      category: parte-animal
+      unit: unidade aproveitável
+      priceUnits: 4
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

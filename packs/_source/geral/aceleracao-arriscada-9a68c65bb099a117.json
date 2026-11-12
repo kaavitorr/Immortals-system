@@ -1,0 +1,49 @@
+{
+  "_id": "9a68c65bb099a117",
+  "name": "Aceleração Arriscada",
+  "type": "feat",
+  "folder": "1f781d9a057206a8",
+  "img": "systems/Immortals-system/assets/wuxia/talentos-qi-pintados-v2/aceleracao-arriscada.webp",
+  "effects": [],
+  "system": {
+    "identifier": "qi-talent-aceleracao-arriscada",
+    "type": {
+      "value": "feat"
+    },
+    "description": {
+      "value": "<p><strong>Categoria:</strong> Habilidades de Qi. <strong>Caminho:</strong> Habilidades Básicas.</p><h2>Aceleração Arriscada</h2><p><strong>Requisito:</strong> Aceleração Marcial</p><p>Você se torna capaz de força ainda mais o uso de suas técnicas em troca de deixar seu Qi caótico. Você pode gastar até 2 Pontos de Aceleração por rodada, podendo utiliza-los na ativação da mesma técnica para reduzir até 2 Pontos de Ação [2 ações].</p>"
+    },
+    "activities": {}
+  },
+  "flags": {
+    "Immortals-system": {
+      "talentoQi": {
+        "id": "aceleracao-arriscada",
+        "categoria": "Habilidades de Qi",
+        "caminho": "Habilidades Básicas",
+        "requisitos": [
+          "Aceleração Marcial"
+        ],
+        "requirementRules": {
+          "type": "node",
+          "id": "aceleracao-marcial"
+        },
+        "basic": true
+      },
+      "qiTalentsContentVersion": 1,
+      "qiTalentAutomation": {
+        "rules": [
+          {
+            "type": "accelerationUpgrade",
+            "maxPerRound": 2,
+            "maxSameTechnique": 2
+          }
+        ],
+        "manual": [],
+        "pending": []
+      },
+      "featureSection": "jj-basic"
+    }
+  },
+  "_key": "!items!9a68c65bb099a117"
+}

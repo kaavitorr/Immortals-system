@@ -1,0 +1,46 @@
+_id: b8adaad2952a957f
+name: Geleia da Lótus Nebulosa
+type: loot
+img: systems/Immortals-system/assets/wuxia/reagentes-pintados-v1/nivel-06/b8adaad2952a957f.webp
+folder: 39cb672eadd6fa61
+sort: 200000
+system:
+  identifier: reagente-b8adaad2952a957f
+  type:
+    value: material
+    subtype: ''
+  description:
+    value: <p><strong>Nível:</strong> 6 · <strong>Categoria:</strong> Reagente · <strong>Função:</strong> Estabilizante</p><p>Gel translúcido de cor cinza-lilás, preparado de seivas espirituais depuradas. É um estabilizante que mantém partículas e extratos suspensos enquanto o Qi se distribui pelo preparo. Serve a produtos do sexto nível, sem acrescentar uma habilidade ou afinidade elemental por conta própria.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 10
+    denomination: essence-heaven
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  source:
+    custom: Immortals Legacy — Reagentes de Preparo
+effects: []
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    reagentMaterial:
+      level: 6
+      role: estabilizante
+      category: reagente
+    materialEconomy:
+      version: 2
+      level: 6
+      category: reagente
+      unit: unidade aproveitável
+      priceUnits: 1
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)
+_key: '!items!b8adaad2952a957f'

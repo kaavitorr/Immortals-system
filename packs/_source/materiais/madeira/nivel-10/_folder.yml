@@ -1,0 +1,13 @@
+_id: f986b8b9caa25536
+_key: '!folders!f986b8b9caa25536'
+name: Nível 10
+type: Item
+folder: 23310966e9c1ac2b
+sorting: a
+sort: 1000000
+color: '#466b52'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: madeira
+      level: 10

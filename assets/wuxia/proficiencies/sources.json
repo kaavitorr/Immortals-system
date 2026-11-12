@@ -1,0 +1,40 @@
+{
+  "note": "Original artwork used by the Crucible weapon proficiencies, copied locally without color changes.",
+  "icons": [
+    {
+      "key": "martialM",
+      "type": "heavy",
+      "source": "icons/skills/melee/weapons-crossed-poleaxes-white.webp",
+      "file": "heavy.webp",
+      "sha256": "1a7a8cff20d8c8be7b17037cca046ce948f5d49ddf6b9656265c047bb25e8332"
+    },
+    {
+      "key": "simpleM",
+      "type": "light",
+      "source": "icons/weapons/swords/sword-simple-white.webp",
+      "file": "light.webp",
+      "sha256": "71b625edbc0d85a7a6013e3daba44c966e248886d5222015211e634694a8e0ae"
+    },
+    {
+      "key": "simpleR",
+      "type": "projectile",
+      "source": "icons/weapons/bows/shortbow-white.webp",
+      "file": "projectile.webp",
+      "sha256": "68d5176eb062f63b0102de3eac9baa033c26c156bed083fc1b018ca419841318"
+    },
+    {
+      "key": "improv",
+      "type": "unarmed",
+      "source": "icons/skills/melee/unarmed-punch-fist-white.webp",
+      "file": "unarmed.webp",
+      "sha256": "e235ae34cfd51d8d38bb0e43ae00ff6483c693732d145590b5d56d8382b2b51f"
+    },
+    {
+      "key": "natural",
+      "type": "natural",
+      "source": "systems/crucible/icons/proficiencies/natural-weapon.webp",
+      "file": "natural.webp",
+      "sha256": "aac303d36c316ffea8a252bcad7c10854318cb3117566d6aa176cecddb2c9475"
+    }
+  ]
+}

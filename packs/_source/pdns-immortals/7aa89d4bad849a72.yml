@@ -1,0 +1,74 @@
+_id: 7aa89d4bad849a72
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:203
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 7aa89d4bad849a72
+name: Dreno Reativo
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢ · Reação</strong></p><p>Quando uma criatura realizar qualquer ação perto dessa criatura, ela
+      pode agarrar uma criatura aliada no alcance de toque e drenar seu corpo, reduzindo os Pontos de Vida dela a 0 e
+      recuperando 1/4 dos Pontos de Vida que a aliada possuía. Essa característica só pode ser usada uma vez por
+      rodada.</p>
+    chat: ''
+  identifier: dreno-reativo
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    0343c35728db0739:
+      _id: 0343c35728db0739
+      type: utility
+      name: Dreno Reativo
+      activation:
+        type: reaction
+        value: 2
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Quando uma criatura realizar qualquer ação perto dessa criatura, ela pode agarrar uma criatura aliada no
+          alcance de toque e drenar seu corpo, reduzindo os Pontos de Vida dela a 0 e recuperando 1/4 dos Pontos de Vida
+          que a aliada possuía. Essa característica só pode ser usada uma vez por rodada.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 6
+  prerequisites:
+    items: []
+    level: 6
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/dreno-reativo-7aa89d4bad849a72.webp"
+_key: '!items!7aa89d4bad849a72'

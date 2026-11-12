@@ -1,0 +1,53 @@
+_id: e6bb656de23c9d79
+_key: '!items!e6bb656de23c9d79'
+name: Gengibre do Veio Fulgurante
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/relampago/e6bb656de23c9d79.webp
+system:
+  identifier: material-alquimia-e6bb656de23c9d79
+  description:
+    value: <p><strong>Elemento:</strong> Relâmpago · <strong>Nível:</strong> 1 · <strong>Categoria:</strong> Planta</p><p>Suas raízes procuram areia vitrificada por raios espirituais, absorvendo o Qi retido entre os grãos. O rizoma forma nós luminosos de calor picante que despertam a atividade de essências lentas, ajudando a integrá-las a preparações de natureza fulmínea.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 100
+    denomination: gp
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: e88bffae4a9c3ff9
+sort: 900000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: relampago
+      elementLabel: Relâmpago
+      level: 1
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/relampago.json
+        originalName: Gengibre do Solar Fulminado
+        sha256: b009d05a067bcc58168baf9e1556773ae8871a82b935161f5a22affef994c2b0
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 1
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

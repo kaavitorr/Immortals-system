@@ -1,0 +1,13 @@
+_id: 6d3d81d8f7f845fe
+_key: '!folders!6d3d81d8f7f845fe'
+name: Nível 7
+type: Item
+folder: b1a27ea1b8406500
+sorting: a
+sort: 700000
+color: '#3c414c'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: escuridao
+      level: 7

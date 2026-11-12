@@ -1,0 +1,20 @@
+type: Item
+folder: efd72b24847c03c6
+name: Bestas Divinas
+color: '#a2542a'
+sorting: a
+_id: DRQX6MB3WXaJwNh0
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: Immortals-system
+  systemVersion: 1.2.3
+  createdTime: 1793288969042
+  modifiedTime: 1793288969042
+  lastModifiedBy: DP9fX3NAvef4tbpL
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!DRQX6MB3WXaJwNh0'

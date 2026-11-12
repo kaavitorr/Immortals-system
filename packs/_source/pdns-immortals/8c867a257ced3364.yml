@@ -1,0 +1,71 @@
+_id: 8c867a257ced3364
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:197
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: 8c867a257ced3364
+name: Defesa de Colmeia
+folder: 326e539ab1223fd5
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢ · Reação</strong></p><p>Essa criatura pode se mover rapidamente para perto de sua líder ou
+      rainha, sofrendo todos os ataques e técnicas no lugar dela.</p>
+    chat: ''
+  identifier: defesa-de-colmeia
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    34bdbab8ea98809d:
+      _id: 34bdbab8ea98809d
+      type: utility
+      name: Defesa de Colmeia
+      activation:
+        type: reaction
+        value: 3
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets: []
+      description:
+        value: >-
+          <p>Essa criatura pode se mover rapidamente para perto de sua líder ou rainha, sofrendo todos os ataques e
+          técnicas no lugar dela.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: self
+        prompt: false
+        override: true
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 4
+  prerequisites:
+    items: []
+    level: 4
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/reacoes/defesa-de-colmeia-8c867a257ced3364.webp"
+_key: '!items!8c867a257ced3364'

@@ -1,0 +1,97 @@
+_id: c21840f39dd9591c
+type: feat
+effects: []
+flags:
+  Immortals-system:
+    encyclopedia:
+      edition: '2.0'
+      key: feature:84
+      sourceSha256: 246d35d3bcea0aa96b7987c9143b99468be8d0769a1dae8e9d667222d356e5d6
+    jujutsuImport:
+      module: jujutsu-compendium
+      pack: arquetipos-e-taxonomias
+      documentId: c21840f39dd9591c
+name: Chuva de Raios
+folder: b6b3cd6d6b25df42
+system:
+  description:
+    value: >-
+      <p><strong>Ações: ⬢⬢⬢⬢ / rodada</strong></p><p>Ao gastar 10 PQ por rodada, a criatura carrega o ar com
+      eletricidade, formando uma nuvem que libera uma chuva de raios de forma constante no campo de batalha. No início
+      de cada um dos turnos dela, pode escolher um local a até 30 metros das nuvens para liberar a eletricidade, que
+      atinge uma área de 5 metros de raio. Todas as criaturas dentro da área devem realizar uma Salvaguarda de Reflexo,
+      sofrendo 8d6 de dano Elétrico se falharem ou metade se obtiverem sucesso. O dano aumenta em +1 dado para cada 4
+      NDs da criatura.</p>
+    chat: ''
+  identifier: chuva-de-raios
+  source:
+    rules: '2024'
+    revision: 2
+    custom: Immortals Legacy - Enciclopédia das Bestas v2.1
+  activities:
+    2ba7095980da1b33:
+      _id: 2ba7095980da1b33
+      type: save
+      name: Chuva de Raios
+      activation:
+        type: action
+        value: 4
+        condition: ''
+        override: true
+      consumption:
+        spellSlot: false
+        targets:
+          - type: attribute
+            target: energy.generated
+            value: '10'
+            scaling:
+              mode: ''
+      description:
+        value: >-
+          <p>Ao gastar 10 PQ por rodada, a criatura carrega o ar com eletricidade, formando uma nuvem que libera uma
+          chuva de raios de forma constante no campo de batalha. No início de cada um dos turnos dela, pode escolher um
+          local a até 30 metros das nuvens para liberar a eletricidade, que atinge uma área de 5 metros de raio. Todas
+          as criaturas dentro da área devem realizar uma Salvaguarda de Reflexo, sofrendo 8d6 de dano Elétrico se
+          falharem ou metade se obtiverem sucesso. O dano aumenta em +1 dado para cada 4 NDs da criatura.</p>
+        chatFlavor: ''
+      range:
+        units: self
+        override: true
+      duration:
+        units: inst
+        override: true
+      target:
+        affects:
+          type: creature
+        prompt: true
+        override: true
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: ''
+          formula: 10 + @npcPrincipal
+      damage:
+        onSave: half
+        parts:
+          - custom:
+              enabled: true
+              formula: (8 + floor(@legacy2.nd / 4))d6
+            types:
+              - lightning
+  type:
+    value: monster
+    subtype: ''
+  requirements: ND 12
+  prerequisites:
+    items: []
+    level: 12
+    repeatable: false
+  properties: []
+  uses:
+    spent: 0
+    recovery: []
+  advancement: {}
+sort: 0
+img: "systems/Immortals-system/assets/wuxia/caracteristicas-pdn-pintadas-v2/habilidades/chuva-de-raios-c21840f39dd9591c.webp"
+_key: '!items!c21840f39dd9591c'

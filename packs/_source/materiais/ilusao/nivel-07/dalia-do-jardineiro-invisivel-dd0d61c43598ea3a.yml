@@ -1,0 +1,53 @@
+_id: dd0d61c43598ea3a
+_key: '!items!dd0d61c43598ea3a'
+name: Dália do Jardineiro Invisível
+type: loot
+img: systems/Immortals-system/assets/wuxia/materiais-pintados-v1/ilusao/dd0d61c43598ea3a.webp
+system:
+  identifier: material-alquimia-dd0d61c43598ea3a
+  description:
+    value: <p><strong>Elemento:</strong> Ilusão · <strong>Nível:</strong> 7 · <strong>Categoria:</strong> Planta</p><p>Floresce onde o Qi ilusório de antigos jardins mantém imagens de ramos inteiros sobre caules já partidos, formando corolas de aparência sempre intacta. O néctar conserva a continuidade dessas figuras, empregado para integrar lacunas e sustentar contornos em preparados de ilusão concentrada.</p><p data-iw-material-unit="2"><strong>Unidade comercial:</strong> um exemplar ou uma amostra de qualidade, com Qi preservado, pronta para uso na receita. O preço corresponde a uma unidade aproveitável do ingrediente.</p>
+    chat: ''
+  source:
+    custom: Immortals Legacy — Materiais de Alquimia
+  quantity: 1
+  weight:
+    value: 0
+    units: kg
+  price:
+    value: 20
+    denomination: essence-sacred
+  identified: true
+  unidentified:
+    description: ''
+  rarities: []
+  container: null
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+folder: f8640645ab59d7b9
+sort: 12600000
+ownership:
+  default: 0
+flags:
+  Immortals-system:
+    alchemyMaterial:
+      element: ilusao
+      elementLabel: Ilusão
+      level: 7
+      category: planta
+      source:
+        system: wuxia-system
+        file: docs/materiais-alquimia/por-elemento/ilusao.json
+        originalName: Dália do Jardineiro Invisível
+        sha256: 0005f3ecdb8dd8fe2e7c937a950164bc80c5af1482898f37ffec631d63dd30f9
+      reviewed: true
+    materialEconomy:
+      version: 2
+      level: 7
+      category: planta
+      unit: unidade aproveitável
+      priceUnits: 2
+      priceBasis: Immortals Legacy — ingredientes raros, receitas de 1 a 3 unidades (2026-11-04)

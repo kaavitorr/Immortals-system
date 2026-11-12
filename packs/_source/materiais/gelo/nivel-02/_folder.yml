@@ -1,0 +1,13 @@
+_id: 01a43186322c8bd2
+_key: '!folders!01a43186322c8bd2'
+name: Nível 2
+type: Item
+folder: e13aab1d64a4c089
+sorting: a
+sort: 200000
+color: '#4e7c89'
+flags:
+  Immortals-system:
+    alchemyMaterialsFolder:
+      element: gelo
+      level: 2
