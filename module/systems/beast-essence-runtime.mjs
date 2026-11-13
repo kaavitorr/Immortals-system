@@ -1,3 +1,5 @@
+import {ESSENCE_SELECTION_FIELDS, withBeastEssenceSelections, parseBeastEssenceSelections, beastEssenceArchetypeFeatures} from "./beast-essence-selections.mjs";
+import {withBeastEssenceGrowth, beastEssenceGrowthItemUpdate} from "./beast-essence-growth.mjs";
 import {dispatchBeastEssenceAction, registerBeastEssenceAuthority, mayExecuteBeastEssence} from "./beast-essence-authority.mjs";
 import {beastEssenceFlags, beastEssenceDefinition, essenceState, essenceIntegrationAttempt, essenceIntegrationDC} from "./beast-essence-rules.mjs";
 import {buildBeastEssenceGrants} from "./beast-essence-grants.mjs";
@@ -157,6 +159,21 @@ export function createBeastEssenceRuntime({
    * @param root0.clamp
    */
   async function apply(actor, updates, {clamp=false}={}) {allowed(actor); if (clamp)clampAfterForm(actor, updates); await commit(actor, updates); return updates;}
+  async function updateIntegratedDefinition(actor,definition,authorize) {
+    const flags=beastEssenceFlags(actor);
+      const updates={actor:{[PREFIX+"integrated"]:definition}};
+      const virtual=virtualActor(actor,{...flags,integrated:definition}),state=essenceState(virtual),form=flags.transformation;
+      if(form?.active||itemsOf(actor).some(grantOf)) {
+        if(!state.active) {
+          const stop=await stopPlan(actor);Object.assign(updates,stop);updates.actor[PREFIX+"integrated"]=definition;
+        }else {
+          const uses=saveUses(actor),grants=restoreUses(await buildGrants(virtual,{idFactory}),uses);
+          updates.actor[PREFIX+"transformation"]={...copy(form),mode:state.mode,grantedItemIds:grants.map(item=>item._id),signature:signature(virtual,state)};
+          updates.actor[PREFIX+"uses"]=uses;updates.create=grants;updates.delete=itemsOf(actor).filter(grantOf).map(item=>item.id??item._id);
+        }
+      }
+      authorize();await apply(actor,updates,{clamp:true});return true;
+  }
   return {
     queueBeastEssenceIntegration(actor, itemId) {return locked(actor, "queue", async () => {const item=ownItem(actor, itemId); const definition=beastEssenceDefinition(item);
       if (!definition||integer(item?.system?.quantity)<1) throw Error("Escolha uma essência disponível no inventário desta ficha.");
@@ -199,6 +216,30 @@ export function createBeastEssenceRuntime({
     });},
     deactivateBeastEssence(actor) {return locked(actor, "deactivate", async () => {const flags=beastEssenceFlags(actor); if (!flags.transformation?.active&&!itemsOf(actor).some(grantOf)) return false; await apply(actor, await stopPlan(actor), {clamp: true}); return true;});},
     removeBeastEssence(actor) {return locked(actor, "remove", async () => {await apply(actor, await stopPlan(actor, {clear: true}), {clamp: true}); return true;});},
+    setBeastEssenceGrowth(actor,growth,itemId="",expectedId=null,{authorize}={}) {return locked(actor,"growth",async()=>{
+      const requireNarrator=authorize??(()=>{if(user()?.isGM!==true)throw Error("Somente o Narrador pode alterar o Rank de uma essência.");});
+      requireNarrator();
+      const flags=beastEssenceFlags(actor),item=itemId?ownItem(actor,itemId):null;
+      const current=itemId?beastEssenceDefinition(item):flags.integrated;
+      if(!current)throw Error("Esta essência não está mais disponível.");
+      if(expectedId!==null&&current.id!==expectedId)throw Error("A essência mudou; reabra a edição do Rank.");
+      const definition=withBeastEssenceGrowth(current,growth);
+      if(current.growth===growth)return false;
+      if(itemId) {
+        requireNarrator();await apply(actor,{actor:{},item:[{_id:itemId,...beastEssenceGrowthItemUpdate(item,growth)}]});return true;
+      }
+      return updateIntegratedDefinition(actor,definition,requireNarrator);
+    });},
+    setBeastEssenceSelections(actor,selection,itemId="",expectedId=null,{authorize}={}) {return locked(actor,"selections",async()=>{
+      const requireNarrator=authorize??(()=>{if(user()?.isGM!==true)throw Error("Somente o Narrador pode escolher as habilidades da essência.");});requireNarrator();
+      const current=itemId?beastEssenceDefinition(ownItem(actor,itemId)):beastEssenceFlags(actor).integrated;
+      if(!current)throw Error("Esta essência não está mais disponível.");
+      if(expectedId!==null&&current.id!==expectedId)throw Error("A essência mudou; reabra a seleção de habilidades.");
+      const definition=withBeastEssenceSelections(current,typeof selection==="string"?parseBeastEssenceSelections(selection):selection);
+      if(Object.keys(ESSENCE_SELECTION_FIELDS).every(name=>JSON.stringify(current[name])===JSON.stringify(definition[name])))return false;
+      if(itemId){requireNarrator();await apply(actor,{actor:{},item:[{_id:itemId,["flags."+SCOPE+".beastEssenceItem.definition"]:definition}]});return true;}
+      return updateIntegratedDefinition(actor,definition,requireNarrator);
+    });},
     setBeastEssenceToken(actor, src) {return locked(actor, "token", async () => {
       src=String(src??"").trim(); if (src&&!/^(?:(?:https?:|data:image\/)|[^:]+$)/i.test(src)) throw Error("Escolha um arquivo de imagem válido para o token.");
       const flags=beastEssenceFlags(actor); const state=essenceState(actor); const form=copy(flags.transformation??inactive()); const actorUpdates={[`${PREFIX}tokenTexture`]: src}; const operations=[];
@@ -234,7 +275,9 @@ export function createBeastEssenceRuntime({
     synchronizeBeastEssence(actor) {return locked(actor, "synchronize", async () => {
       const flags=beastEssenceFlags(actor); const form=flags.transformation; const state=essenceState(actor); const existing=itemsOf(actor).filter(grantOf);
       if (!state.active) {if (form?.active||existing.length) await apply(actor, await stopPlan(actor), {clamp: true}); return false;}
-      const wanted=signature(actor, state); if (form.signature===wanted&&form.grantedItemIds?.length===existing.length&&form.grantedItemIds.every(id => ownItem(actor, id)&&grantOf(ownItem(actor, id))?.integrationId===state.essence.id)) return false;
+      const selectedArchetype=new Set(beastEssenceArchetypeFeatures(state.essence,state.mode,state.effectiveLevel).map(record=>record.key));
+      const validArchetype=existing.every(item=>grantOf(item).kind!=="archetype"||selectedArchetype.has(grantOf(item).key));
+      const wanted=signature(actor, state); if (validArchetype&&form.signature===wanted&&form.grantedItemIds?.length===existing.length&&form.grantedItemIds.every(id => ownItem(actor, id)&&grantOf(ownItem(actor, id))?.integrationId===state.essence.id)) return false;
       const grants=restoreUses(await buildGrants(actor, {idFactory}), saveUses(actor));
       await apply(actor, {actor: {[`${PREFIX}transformation`]: {...copy(form), mode: state.mode, grantedItemIds: grants.map(item => item._id), signature: wanted}, [`${PREFIX}uses`]: saveUses(actor)}, create: grants, delete: existing.map(item => item.id)}, {clamp: true}); return true;
     });}
@@ -246,6 +289,14 @@ export const completeBeastEssenceIntegration=(actor, receipt) => dispatchBeastEs
 export const activateBeastEssence=actor => dispatchBeastEssenceAction(actor, "activate");
 export const deactivateBeastEssence=actor => dispatchBeastEssenceAction(actor, "deactivate");
 export const setBeastEssenceToken=(actor, src) => dispatchBeastEssenceAction(actor, "setToken", [src]);
+export const setBeastEssenceGrowth=(actor,growth,itemId="",expectedId=null)=>{
+  const definition=itemId?beastEssenceDefinition(ownItem(actor,itemId)):beastEssenceFlags(actor).integrated;
+  return dispatchBeastEssenceAction(actor,"setGrowth",[growth,itemId,expectedId??definition?.id??""]);
+};
+export const setBeastEssenceSelections=(actor,selection,itemId="",expectedId=null)=>{
+  const definition=itemId?beastEssenceDefinition(ownItem(actor,itemId)):beastEssenceFlags(actor).integrated;
+  return dispatchBeastEssenceAction(actor,"setSelections",[JSON.stringify(selection),itemId,expectedId??definition?.id??""]);
+};
 export const removeBeastEssence=actor => dispatchBeastEssenceAction(actor, "remove");
 export const processBeastEssenceTurn=(actor, combat, {combatant, phase="start"}={}) => {
   if (phase!=="start"||!combat?.started||actor?.isOwner!==true||!beastEssenceFlags(actor).transformation?.active) return Promise.resolve(false);
@@ -264,7 +315,7 @@ export function registerBeastEssenceRuntimeHooks(hooks=globalThis.Hooks) {
   const warn=error => {console.error("Immortals: Essência de Besta", error); globalThis.ui?.notifications?.warn?.(error.message);};
   const reconcile=actor => {if (actor?.type!=="character"||!mayExecuteBeastEssence(actor)||!beastEssenceFlags(actor).integrated&&!beastEssenceFlags(actor).transformation?.active&&!itemsOf(actor).some(grantOf)) return; return native.synchronizeBeastEssence(actor).catch(warn);};
   hooks.on("ready", async () => {
-    registerBeastEssenceAuthority({queue: native.queueBeastEssenceIntegration, activate: native.activateBeastEssence, deactivate: native.deactivateBeastEssence, setToken: native.setBeastEssenceToken, remove: native.removeBeastEssence, completeRest: native.completeBeastEssenceIntegration, sync: native.synchronizeBeastEssence,
+    registerBeastEssenceAuthority({queue: native.queueBeastEssenceIntegration, activate: native.activateBeastEssence, deactivate: native.deactivateBeastEssence, setToken: native.setBeastEssenceToken, setGrowth: native.setBeastEssenceGrowth, setSelections: native.setBeastEssenceSelections, remove: native.removeBeastEssence, completeRest: native.completeBeastEssenceIntegration, sync: native.synchronizeBeastEssence,
       turn: async (actor, uuid, combatantId, round) => {const combat=await globalThis.fromUuid(uuid); const combatant=combat?.combatants?.get?.(combatantId)??combat?.combatant; if (!combat?.started||Number(combat.round)!==Number(round)||combat.combatant?.id!==combatantId||combatant?.actor?.uuid!==actor.uuid) return false; return native.processBeastEssenceTurn(actor, combat, {combatant});}});
     for (const actor of globalThis.game?.actors??[]) if (beastEssenceFlags(actor).integrated||beastEssenceFlags(actor).transformation?.active) await reconcile(actor);
   });

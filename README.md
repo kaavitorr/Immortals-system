@@ -22,7 +22,7 @@ Também é possível baixar `immortals-system.zip` na [página de releases](http
 ## Compatibilidade
 
 - Foundry VTT 14.367 ou posterior, verificado na versão 14.
-- Versão atual: **1.2.3**.
+- Versão atual: **1.2.4**.
 
 ## Desenvolvimento
 
@@ -39,7 +39,7 @@ O código fica em `module/`, os templates em `templates/` e os estilos em `less/
 
 ## Publicação
 
-Atualize a versão e o link `download` em `system.json`, faça o commit e envie uma tag correspondente, como `v1.2.3`. O GitHub Actions testa o projeto e publica `system.json` e `immortals-system.zip` na release.
+Atualize a versão e o link `download` em `system.json`, faça o commit e envie uma tag correspondente, como `v1.2.4`. O GitHub Actions testa o projeto e publica `system.json` e `immortals-system.zip` na release.
 
 ## Licença e créditos
 

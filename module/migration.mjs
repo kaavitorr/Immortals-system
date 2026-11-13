@@ -214,7 +214,7 @@ export async function migrateWorld({ bypassVersionCheck=false }={}) {
   if ( legacyFolder ) legacyFolder.update({ name: "D&D Legacy Content" });
 
   // Set the migration as complete
-  game.settings.set("Immortals-system", "systemMigrationVersion", game.system.version);
+  await game.settings.set("Immortals-system", "systemMigrationVersion", game.system.version);
   progress.element?.classList.add(hasErrors ? "warning" : "success");
   progress.update({ message: "MIGRATION.DND5E.World.Complete", format: { version }, pct: 1 });
 }

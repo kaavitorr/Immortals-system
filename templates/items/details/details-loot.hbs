@@ -20,3 +20,11 @@
                  input=inputs.createMultiCheckboxInput stacked=true classes="checkbox-grid" }}
 
 </fieldset>
+
+{{#if beastEssenceGrowth}}
+<fieldset>
+    <legend>Essência de Besta</legend>
+    <div class="form-group"><label>Rank de crescimento</label><div class="form-fields"><span>{{beastEssenceGrowth.label}}</span>{{#if beastEssenceGrowth.canEdit}}<button type="button" data-action="beastEssenceEditGrowth">Alterar Rank</button><button type="button" data-action="beastEssenceEditSelections">Escolher habilidades</button>{{/if}}</div></div>
+    <div class="form-group"><label>Limite de crescimento</label><div class="form-fields"><span>{{beastEssenceGrowth.limit}}</span></div></div>
+</fieldset>
+{{/if}}

@@ -1,3 +1,6 @@
+import {editBeastEssenceItemSelections} from "../shared/beast-essence-selection-editor.mjs";
+import {beastEssenceGrowthItemContext} from "../../systems/beast-essence-growth.mjs";
+import {editBeastEssenceItemGrowth} from "../shared/beast-essence-growth-editor.mjs";
 import {essenceCrystalConfiguration} from "../../systems/essence-crystals.mjs";
 import Ruleset from "../../systems/ruleset.mjs";
 import { WEAPON_GROUPS } from "../../systems/legacy2-proficiencies.mjs";
@@ -26,6 +29,14 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
   /** @override */
   static DEFAULT_OPTIONS = {
     actions: {
+      beastEssenceEditSelections: async function() {
+        try { return await editBeastEssenceItemSelections(this.item,{sheet:this}); }
+        catch(error) { ui.notifications.warn(error.message); }
+      },
+      beastEssenceEditGrowth: async function() {
+        try { return await editBeastEssenceItemGrowth(this.item,{sheet:this}); }
+        catch(error) { ui.notifications.warn(error.message); }
+      },
       addRecovery: ItemSheet5e.#addRecovery,
       deleteCraft: ItemSheet5e.#deleteCraft,
       deleteDocument: ItemSheet5e.#deleteDocument,
@@ -216,6 +227,7 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
       system: this.item.system,
       user: game.user
     };
+    context.beastEssenceGrowth=Ruleset.isV2()?beastEssenceGrowthItemContext(this.item,{editable:context.editable,user:game.user}):null;
     context.source = context.editable ? this.item.system._source : this.item.system;
 
     context.properties = {

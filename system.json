@@ -2,7 +2,7 @@
   "id": "Immortals-system",
   "title": "Immortals Legacy",
   "description": "Sistema de RPG de cultivo e artes marciais, com Qi, Corpo, Alma e calendário de campanha.",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "compatibility": {
     "minimum": "14.367",
     "verified": "14"
@@ -540,7 +540,7 @@
         "SRD 5.2": "SOURCE.BOOK.SRD52"
       }
     },
-    "needsMigrationVersion": "6.0.0",
+    "needsMigrationVersion": "1.2.3",
     "compatibleMigrationVersion": "0.8",
     "hotReload": {
       "extensions": [
@@ -557,7 +557,7 @@
   },
   "url": "https://github.com/kaavitorr/Immortals-system",
   "manifest": "https://github.com/kaavitorr/Immortals-system/releases/latest/download/system.json",
-  "download": "https://github.com/kaavitorr/Immortals-system/releases/download/v1.2.3/immortals-system.zip",
+  "download": "https://github.com/kaavitorr/Immortals-system/releases/download/v1.2.4/immortals-system.zip",
   "bugs": "https://github.com/kaavitorr/Immortals-system/issues",
   "changelog": "https://github.com/kaavitorr/Immortals-system/releases"
 }

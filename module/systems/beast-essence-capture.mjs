@@ -1,3 +1,4 @@
+import {validateBeastEssenceSelections} from "./beast-essence-selections.mjs";
 import {lineageDefinition} from './cultivation-destiny.mjs';
 import {npcCultivationRank,npcCultivationLevel} from './npc-cultivation.mjs';
 import { NPC_ABILITIES, npcProfile } from "./legacy2-npc-profiles.mjs";
@@ -291,21 +292,6 @@ export async function buildBeastEssenceSnapshot(actor, {
     attacks: [...attackItems].flatMap(([uuid, item]) => specialAttacks(item, uuid, warnings)), warnings };
 }
 
-/**
- * Validate a mode selection against the captured candidates and its grant budget.
- * @param {object} selection
- * @param {string} name
- * @param {object[]} candidates
- * @param {number} maximum
- * @param {Function} predicate
- * @returns {string[]}
- */
-function selectedKeys(selection, name, candidates, maximum, predicate = () => true) {
-  const keys = selection[name] ?? [];
-  if (!Array.isArray(keys) || keys.length > maximum || new Set(keys).size !== keys.length
-    || keys.some(key => typeof key !== "string" || !candidates.some(entry => entry.key === key && predicate(entry)))) throw new RangeError(`Seleção inválida de ${name}.`);
-  return [...keys];
-}
 const nonnegativeInteger = (value, name) => {
   if (value === null || value === "" || typeof value === "boolean" || !Number.isInteger(Number(value)) || Number(value) < 0) throw new RangeError(`Custo inválido: ${name}.`);
   return Number(value);
@@ -333,10 +319,7 @@ export function createBeastEssenceItemData(snapshot, selection = {}) {
     || elements.some(id => !CONCEITO_POR_ID[id] || !snapshot.elements?.includes(id))) throw new RangeError("Escolha até dois elementos disponíveis da criatura.");
   const features = snapshot.features ?? [];
   const attacks = snapshot.attacks ?? [];
-  const normalFeatures = selectedKeys(selection, "normalFeatures", features, 2);
-  const weakenedFeatures = selectedKeys(selection, "weakenedFeatures", features, 1);
-  const normalAttacks = selectedKeys(selection, "normalAttacks", attacks, 2, entry => entry.actions >= 1 && entry.actions <= 3);
-  const weakenedAttacks = selectedKeys(selection, "weakenedAttacks", attacks, 1, entry => entry.actions >= 1 && entry.actions <= 6);
+  const {normalArchetypeFeatures,weakenedArchetypeFeatures,normalFeatures,weakenedFeatures,normalAttacks,weakenedAttacks}=validateBeastEssenceSelections(snapshot,selection);
   const featureKeys = new Set([...normalFeatures, ...weakenedFeatures]);
   const attackKeys = new Set([...normalAttacks, ...weakenedAttacks]);
   const chosenAttacks = attacks.filter(entry => attackKeys.has(entry.key)).map(entry => {
@@ -355,7 +338,7 @@ export function createBeastEssenceItemData(snapshot, selection = {}) {
     tokenTexture: String(selection.tokenTexture ?? snapshot.tokenTexture ?? ""), taxonomy: clean(snapshot.taxonomy), archetype: clean(snapshot.archetype),
     naturalWeapons: clean(snapshot.naturalWeapons ?? []),
     features: features.filter(entry => featureKeys.has(entry.key)).map(entry => clean(entry)),
-    attacks: chosenAttacks, normalFeatures, weakenedFeatures, normalAttacks, weakenedAttacks };
+    attacks: chosenAttacks, normalArchetypeFeatures, weakenedArchetypeFeatures, normalFeatures, weakenedFeatures, normalAttacks, weakenedAttacks };
   const growthRule=ESSENCE_GROWTH[growth];
   const rankName=rank=>CULTIVATION_RANKS.find(entry=>entry.rank===rank)?.name;
   const growthDescription=`<p><strong>Origem do crescimento:</strong> ${growthOrigin==="rolled"?`1d100: ${growthRoll}`:growthOrigin==="divine"?"Besta Divina — crescimento Supremo":"Definido pelo Narrador"}.</p>

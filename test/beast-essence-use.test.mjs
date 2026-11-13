@@ -8,3 +8,10 @@ test("natural attacks charge native actions only while the actual granted Item i
 test("copied metadata outside the managed grant list cannot authorize a use", () => {const f=fixture(); f.a.flags[s].beastEssence.transformation.grantedItemIds=[]; assert.throws(() => prepare(f.activity, {consume: true}), /concessão|essência|pertenc/i);});
 test("weakened form cannot retain a normal special attack or archetype activity", () => {const f=fixture("attack"); f.a.system.cultivation.rank=3; assert.throws(() => prepare(f.activity, {consume: true}), /forma|ataque/i);});
 test("mandatory native resources cannot be disabled and pending special cost is explicit", () => {const f=fixture(); f.activity.consumption.targets=[{type: "attribute", target: "energy.generated", value: "2"}]; assert.throws(() => prepare(f.activity, {consume: false}), /consumo|recursos/); const attack=fixture("attack"); assert.throws(() => prepare(attack.activity, {consume: true}), /custo|definição|regra/);});
+
+
+test("the single archetype skill chosen for weakened form can be used and unselected skills cannot",()=>{
+ const f=fixture("archetype"),e=f.a.flags[s].beastEssence.integrated;e.archetype={features:[{key:"claw",level:1}]};e.normalArchetypeFeatures=[];e.weakenedArchetypeFeatures=["claw"];f.a.system.cultivation.rank=3;
+ assert.equal(prepare(f.activity,{consume:true}).actor["system.legacy2.actions.value"],2);
+ e.weakenedArchetypeFeatures=[];assert.throws(()=>prepare(f.activity,{consume:true}),/forma|disponível/);
+});

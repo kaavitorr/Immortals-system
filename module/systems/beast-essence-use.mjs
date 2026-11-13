@@ -1,3 +1,4 @@
+import {beastEssenceArchetypeFeatures} from "./beast-essence-selections.mjs";
 import {beastEssenceFlags, essenceState, BEAST_ESSENCE_POLICY} from "./beast-essence-rules.mjs";
 import {elementalActionSpendUpdates, withElementalActorLock} from "./elemental-runtime.mjs";
 const SCOPE="Immortals-system";
@@ -25,7 +26,7 @@ function permitted(state, grant) {
   if (grant.kind==="attack") return (state.mode==="normal"?e.normalAttacks:e.weakenedAttacks)?.includes(key);
   if (grant.kind==="naturalWeapon") return e.naturalWeapons?.some(entry => entry.key===key);
   if (grant.kind==="taxonomy") return e.taxonomy?.features?.some(entry => entry.key===key&&entry.level<=state.effectiveLevel);
-  if (grant.kind==="archetype") return state.mode==="normal"&&e.archetype?.features?.some(entry => entry.key===key&&entry.level<=state.effectiveLevel);
+  if (grant.kind==="archetype") return beastEssenceArchetypeFeatures(e,state.mode,state.effectiveLevel).some(entry=>entry.key===key);
   return (state.mode==="normal"?e.normalFeatures:e.weakenedFeatures)?.includes(key);
 }
 /**

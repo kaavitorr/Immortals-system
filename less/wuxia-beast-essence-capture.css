@@ -78,3 +78,5 @@
 
 .application.iw-beast-essence-capture-dialog .iw-capture-delivery > label { display:flex; flex-direction:column; gap:6px; min-width:0; }
 .application.iw-beast-essence-capture-dialog .iw-capture-delivery select { width:100%; min-width:0; }
+
+.application.iw-beast-essence-capture-dialog .iw-capture-profile-archetype { grid-column:1 / -1; }

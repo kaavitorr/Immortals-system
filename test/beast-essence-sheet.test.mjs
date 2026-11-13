@@ -11,13 +11,13 @@ let pickerConfig;
 globalThis.__beastEssenceSheetTest = {
   essenceState: actor => actor.__essenceState,
   ESSENCE_GROWTH: (await import("../module/systems/beast-essence-rules.mjs")).ESSENCE_GROWTH,
-  ...Object.fromEntries(["queueBeastEssenceIntegration", "activateBeastEssence", "deactivateBeastEssence", "setBeastEssenceToken", "removeBeastEssence"].map(name => [name, async (...args) => { calls.push([name, ...args]); }]))
+  ...Object.fromEntries(["queueBeastEssenceIntegration", "activateBeastEssence", "deactivateBeastEssence", "setBeastEssenceToken", "removeBeastEssence", "setBeastEssenceGrowth", "setBeastEssenceSelections"].map(name => [name, async (...args) => { calls.push([name, ...args]); }]))
 };
 const moduleUrl = new URL("../module/applications/actor/jj/beast-essence-sheet.mjs", import.meta.url);
 let source = await readFile(moduleUrl, "utf8");
 source = source.replace(/^import .+from "\.\.\/\.\.\/\.\.\/systems\/beast-essence-(?:rules|runtime)\.mjs";\r?\n/gm, "");
 source = source.replace(/from "(\.\.\/[^\"]+)"/g, (_match, relative) => `from ${JSON.stringify(new URL(relative, moduleUrl).href)}`);
-source = `const {essenceState, ESSENCE_GROWTH, queueBeastEssenceIntegration, activateBeastEssence, deactivateBeastEssence, setBeastEssenceToken, removeBeastEssence} = globalThis.__beastEssenceSheetTest;\n${source}`;
+source = `const {essenceState, ESSENCE_GROWTH, queueBeastEssenceIntegration, activateBeastEssence, deactivateBeastEssence, setBeastEssenceToken, removeBeastEssence, setBeastEssenceGrowth, setBeastEssenceSelections} = globalThis.__beastEssenceSheetTest;\n${source}`;
 const sheetModule = await import(`data:text/javascript;base64,${Buffer.from(source).toString("base64")}`);
 const {prepareBeastEssenceContext: prepare, beastEssenceActions: actions, bindBeastEssenceSheet: bind} = sheetModule;
 const scope = "Immortals-system";
@@ -27,7 +27,7 @@ const scope = "Immortals-system";
 function definition() {
   return {version: 1, id: "essence-a", name: "Qilin de bronze", img: "beasts/qilin.webp", sourceRealm: 4, growth: "earth", ability: "con", elements: ["metal", "terra"], tokenTexture: "beasts/token.webp",
     taxonomy: {name: "Besta espiritual", resistances: {fire: 3}, features: [{key: "tax", data: {name: "Sentidos de besta"}}]},
-    archetype: {name: "Guardião", features: [{key: "arch", data: {name: "Defesa de guardião"}}]},
+    normalArchetypeFeatures:["arch"],weakenedArchetypeFeatures:[],archetype: {name: "Guardião", features: [{key: "arch", level:1, data: {name: "Defesa de guardião"}}]},
     naturalWeapons: [{key: "claw", data: {name: "Garras", img: "claw.webp"}}],
     features: [{key: "a", data: {name: "Couraça"}}, {key: "b", data: {name: "Passo leve"}}, {key: "private", data: {name: "Não selecionada"}}],
     attacks: [{key: "one", data: {name: "Rugido"}, actions: 2, area: true, damageInstances: 1, effectQi: 0}, {key: "two", data: {name: "Investida"}, actions: 3, area: false, damageInstances: 2, effectQi: 1}],
@@ -37,6 +37,7 @@ function definition() {
  *
  */
 function owner() {
+  globalThis.game={user:{isGM:false}};
   calls.length = 0; confirmResult = true; confirmConfig = undefined; pickerConfig = undefined;
   globalThis.ui = {notifications: {warn: message => calls.push(["warning", message])}};
   globalThis.foundry = {applications: {api: {DialogV2: {confirm: async config => {confirmConfig=config; return typeof confirmResult === "function" ? confirmResult() : confirmResult;}}}, apps: {FilePicker: {implementation: class {constructor(config) {pickerConfig=config;}
@@ -235,4 +236,37 @@ test("dormant previews preserve recorded elements and describe a mortal separate
  assert.match(context.dormantDescription,/dois reinos/);
  sheet.actor.__essenceState.rank=0;context=prepare.call(sheet,{}).beastEssence;
  assert.match(context.dormantDescription,/Condensação de Qi/);assert.equal(context.growthStages.some(s=>s.current),false);
+});
+
+
+test("only Narrator sheets expose Rank editing on integrated and inventory essences",async()=>{
+ const sheet=owner(),render=handlebars.compile(await readFile(new URL("../templates/actors/tabs/character-beast-essence.hbs",import.meta.url),"utf8"));
+ const player=prepare.call(sheet,{}).beastEssence;assert.equal(player.canEditGrowth,false);assert(!render({beastEssence:player}).includes('data-action="beastEssenceEditGrowth"'));
+ game.user.isGM=true;const gm=prepare.call(sheet,{}).beastEssence;assert.equal(gm.canEditGrowth,true);
+ const html=render({beastEssence:gm});assert.equal((html.match(/data-action="beastEssenceEditGrowth"/g)??[]).length,2);
+ sheet.isEditable=false;assert.equal(prepare.call(sheet,{}).beastEssence.canEditGrowth,false);
+});
+test("Rank dialog edits the selected essence without submitting the actor form and honours cancellation",async()=>{
+ const sheet=owner();game.user.isGM=true;let dialog;
+ foundry.applications.api.DialogV2.wait=async config=>{dialog=config;return "heaven";};
+ await actions.beastEssenceEditGrowth.call(sheet,{},target("loot-a"));
+ assert.match(dialog.content,/Rank de crescimento/);assert.equal((dialog.content.match(/<option /g)??[]).length,6);
+ assert.deepEqual(calls[0].slice(0,1),["setBeastEssenceGrowth"]);assert.deepEqual(calls[0].slice(2),["heaven","loot-a","essence-a"]);
+ foundry.applications.api.DialogV2.wait=async()=>null;await actions.beastEssenceEditGrowth.call(sheet,{},target());assert.equal(calls.length,1);
+ game.user.isGM=false;await actions.beastEssenceEditGrowth.call(sheet,{},target());assert.equal(calls.length,1);
+});
+
+
+test("form previews and legacy notices reflect the independently chosen archetype abilities",()=>{
+ const sheet=owner(),e=sheet.actor.__essenceState.essence;e.weakenedArchetypeFeatures=["arch"];e.normalArchetypeFeatures=[];
+ const view=prepare.call(sheet,{}).beastEssence;assert(!view.forms[0].traits.some(t=>t.name==="Defesa de guardião"));assert(view.forms[1].traits.some(t=>t.name==="Defesa de guardião"));
+ delete e.normalArchetypeFeatures;delete e.weakenedArchetypeFeatures;assert.equal(prepare.call(sheet,{}).beastEssence.archetypeSelectionPending,true);
+});
+test("Narrator can choose abilities on an integrated essence while player sheets cannot open the editor",async()=>{
+ const sheet=owner();game.user.isGM=true;
+ foundry.applications.handlebars={renderTemplate:async()=>"choices"};
+ foundry.applications.api.DialogV2.wait=async()=>({normalArchetypeFeatures:["arch"],weakenedArchetypeFeatures:["arch"]});
+ await actions.beastEssenceEditSelections.call(sheet,{},target());
+ const call=calls.find(c=>c[0]==="setBeastEssenceSelections");assert(call);assert.deepEqual(call[2].normalArchetypeFeatures,["arch"]);assert.deepEqual(call.slice(3),["","essence-a"]);
+ calls.length=0;game.user.isGM=false;await actions.beastEssenceEditSelections.call(sheet,{},target());assert.equal(calls.length,0);
 });

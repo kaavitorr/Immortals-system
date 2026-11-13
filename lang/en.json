@@ -6996,11 +6996,11 @@
       "Refresh": "Refreshing compendium {compendium}."
     },
     "World": {
-      "Begin": "Applying D&D 5e System Migration for version {version}. Please be patient and do not close your game or shut down your server.",
-      "Complete": "D&D 5e System Migration to version {version} completed!"
+      "Begin": "Aplicando migração do Immortals Legacy para a versão {version}. Aguarde e mantenha o mundo e o servidor abertos até a conclusão.",
+      "Complete": "Migração do Immortals Legacy para a versão {version} concluída!"
     },
     "Warning": {
-      "VersionTooOld": "Your D&D 5e system data is from too old a Foundry version and cannot be reliably migrated to the latest version. The process will be attempted, but errors may occur."
+      "VersionTooOld": "Os dados deste mundo são de uma versão muito antiga para garantir a migração para o Immortals Legacy atual. O processo será tentado, mas podem ocorrer erros."
     }
   },
   "SETTINGS.5eAutoCollapseCardL": "Colapsar automaticamente descrições de Cartas de Item no Chat",

@@ -62,10 +62,19 @@
   </fieldset>
   <div class="iw-capture-lineages">
     {{#each profiles}}
-    <section class="iw-capture-profile">
+    <section class="iw-capture-profile {{#if isArchetype}}iw-capture-profile-archetype{{/if}}">
       <h3>{{#if img}}<img src="{{img}}" alt="" width="28" height="28">{{/if}}{{name}}</h3>
       {{#if summary}}<p>{{summary}}</p>{{/if}}
+      {{#if isArchetype}}
+      <p class="iw-capture-hint">Normal: até 5 habilidades · Enfraquecida: até 1 habilidade. Cada escolha será liberada conforme o cultivo da essência.</p>
+      <div class="iw-capture-choice-table" role="group" aria-label="Habilidades do Arquétipo">
+        <div class="iw-capture-choice-head"><span>Habilidade</span><span>Normal</span><span>Enfraquecida</span></div>
+        {{#each features}}<div class="iw-capture-choice-row"><span>{{name}} · Nível {{level}}</span><label><input type="checkbox" name="normalArchetypeFeatures" value="{{key}}" aria-label="{{name}} na forma normal" {{#if normal}}checked{{/if}}></label><label><input type="checkbox" name="weakenedArchetypeFeatures" value="{{key}}" aria-label="{{name}} na forma enfraquecida" {{#if weakened}}checked{{/if}}></label></div>{{else}}<p class="iw-capture-empty">Sem habilidades do Arquétipo disponíveis.</p>{{/each}}
+      </div>
+      {{else}}
+      <p class="iw-capture-hint">As características da Taxonomia são recebidas automaticamente conforme o cultivo da essência.</p>
       <ul>{{#each features}}<li>{{name}} <span>a partir do nível de cultivo {{level}}</span></li>{{else}}<li class="iw-capture-empty">Sem características passivas vinculadas.</li>{{/each}}</ul>
+      {{/if}}
     </section>
     {{/each}}
   </div>

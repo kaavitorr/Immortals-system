@@ -49,8 +49,9 @@ function harness({ownerIds=["owner"], resolveDelay=null, handlerDelay=null, time
     }};
     const game={user, users: collection, socket};
     const handlers={};
-    for (const action of ["queue", "activate", "deactivate", "setToken", "remove", "completeRest", "sync", "turn"])handlers[action]=async (target, ...args) => {
+    for (const action of ["queue", "activate", "deactivate", "setToken", "remove", "completeRest", "sync", "turn", "setGrowth", "setSelections"])handlers[action]=async (target, ...args) => {
       if (handlerDelay) await handlerDelay;
+      if(["setGrowth","setSelections"].includes(action))args.pop().authorize();
       if (throwAction) throw new Error("Qi insuficiente");
       target.system.writes++;
       target.system.lastActor=user.id;
@@ -290,4 +291,31 @@ test("turn requests reject malformed combats, foreign operations, nested data an
     assert.equal(h.messages.length, 0);
     assert.equal(h.actor.system.writes, 0);
   } finally {h.close();}
+});
+
+
+test("only Narrators can request Rank edits even when an online player executes the document update",async()=>{
+ const h=harness();try{
+  await h.clients.gm.authority.dispatch(h.actor,"setGrowth",["earth","","essence"]);
+  assert.equal(h.actor.system.lastActor,"owner");assert.equal(h.actor.system.lastAction,"setGrowth");assert.deepEqual(h.actor.system.args,["earth","","essence"]);
+  const before=h.actor.system.writes;await assert.rejects(()=>h.clients.owner.authority.dispatch(h.actor,"setGrowth",["divine","","essence"]),/Narrador/);assert.equal(h.actor.system.writes,before);
+  await assert.rejects(()=>h.clients.gm.authority.dispatch(h.actor,"setGrowth",["constructor","","essence"]),/Rank|crescimento/);
+ }finally{h.close();}
+});
+test("a Narrator losing permission during a queued Rank edit cannot commit it",async()=>{
+ let resume;const gate=new Promise(resolve=>resume=resolve),h=harness({handlerDelay:gate});try{
+  const request=h.clients.gm.authority.dispatch(h.actor,"setGrowth",["earth","","essence"]);
+  await flush();h.users.find(u=>u.id==="gm").isGM=false;resume();
+  await assert.rejects(()=>request,/Narrador|permissão/);assert.equal(h.actor.system.writes,0);
+ }finally{resume();h.close();}
+});
+
+
+test("Narrator skill choice commands route only bounded choice keys and cannot be requested by players",async()=>{
+ const h=harness(),payload=JSON.stringify({normalArchetypeFeatures:["Item.pick"],weakenedArchetypeFeatures:[]});try{
+  await h.clients.gm.authority.dispatch(h.actor,"setSelections",[payload,"","essence"]);assert.equal(h.actor.system.lastActor,"owner");
+  await assert.rejects(()=>h.clients.owner.authority.dispatch(h.actor,"setSelections",[payload,"","essence"]),/Narrador/);
+  for(const invalid of ['{"actor":{"system":{}}}','{"normalArchetypeFeatures":[1]}',"not json"])await assert.rejects(()=>h.clients.gm.authority.dispatch(h.actor,"setSelections",[invalid,"","essence"]),/Seleção|habilidades/);
+  assert.equal(h.actor.system.writes,1);
+ }finally{h.close();}
 });

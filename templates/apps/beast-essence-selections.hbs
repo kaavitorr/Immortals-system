@@ -1,0 +1,21 @@
+<div class="iw-essence-capture">
+  <header class="iw-capture-heading"><div><h2>{{name}}</h2><p>Escolha separadamente as habilidades de cada transformação. As características da Taxonomia e as armas naturais continuam automáticas.</p></div></header>
+  {{#if error}}<p class="iw-capture-error" role="alert">{{error}}</p>{{/if}}
+  {{#each groups}}
+  <section>
+    <h3>{{label}}</h3>
+    <p class="iw-capture-hint">Normal: até {{normalLimit}} · Enfraquecida: até {{weakenedLimit}}</p>
+    <div class="iw-capture-choice-table" role="group" aria-label="{{label}}">
+      <div class="iw-capture-choice-head"><span>Habilidade</span><span>Normal</span><span>Enfraquecida</span></div>
+      {{#each records}}
+      <div class="iw-capture-choice-row">
+        <span>{{#if img}}<img src="{{img}}" alt="" width="26" height="26">{{/if}}<span>{{name}}{{#if level}} · Nível {{level}}{{/if}}</span></span>
+        <label><input type="checkbox" name="{{../normalName}}" value="{{key}}" aria-label="{{name}} na forma normal" {{#if normal}}checked{{/if}} {{#unless normalEligible}}disabled{{/unless}}></label>
+        <label><input type="checkbox" name="{{../weakenedName}}" value="{{key}}" aria-label="{{name}} na forma enfraquecida" {{#if weakened}}checked{{/if}} {{#unless weakenedEligible}}disabled{{/unless}}></label>
+      </div>
+      {{else}}<p class="iw-capture-empty">Nenhuma opção registrada nesta essência.</p>{{/each}}
+    </div>
+  </section>
+  {{/each}}
+  <p class="iw-capture-footer">As habilidades do Arquétipo são liberadas conforme o cultivo da essência. Ataques especiais: normal de 1 a 3 ações; enfraquecida de 1 a 6 ações.</p>
+</div>

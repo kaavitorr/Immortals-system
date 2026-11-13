@@ -15,7 +15,7 @@ const set=(object, key, value) => {const parts=key.split("."); let target=object
  * @param root0.rank
  * @param root0.nativeGrants
  */
-function fixture({active=false, points=10, qi=10, actions=3, rank=1, nativeGrants=false}={}) {
+function fixture({active=false, points=10, qi=10, actions=3, rank=1, nativeGrants=false, isGM=true}={}) {
   assert.equal(typeof create, "function", "runtime factory must exist");
   const essence=def(); const token={id: "t", uuid: "Scene.s.Token.t", texture: {src: active?"wolf.webp":"hero.webp"}, parent: {id: "s"}, canUserModify: () => true};
   const a={id: "a", uuid: "Actor.a", type: "character", isOwner: true, flags: {[scope]: {beastEssence: {version: 1, integrated: essence, pendingItemId: null, transformation: {active, integrationId: essence.id, mode: "normal", grantedItemIds: active?["grant"]:[], tokens: active?[{uuid: token.uuid, src: "hero.webp", applied: "wolf.webp"}]:[], prototype: active?{src: "hero.webp", applied: "wolf.webp"}:null, tokenTexture: "wolf.webp", lastPaidTurn: null}}}}, prototypeToken: {texture: {src: active?"wolf.webp":"hero.webp"}}, system: {cultivation: {rank, stage: 1, points}, energy: {generated: qi}, legacy2: {actions: {value: actions}}, abilities: {str: {value: 4}}, attributes: {hp: {value: 20, max: 20, effectiveMax: 20}}}, items: new Map()};
@@ -23,7 +23,7 @@ function fixture({active=false, points=10, qi=10, actions=3, rank=1, nativeGrant
   if (active)a.items.set("grant", {id: "grant", type: "feat", flags: {[scope]: {beastEssenceGrant: {integrationId: "old", key: "x"}}}});
   a.items.set("manual", {id: "manual", name: "Preservar", type: "feat", flags: {}});
   let count=0; let roll=30; let commits=0; let fail=false; let nextCommitGate=null; const updates=[];
-  const runtime=create({user: () => ({id: "u", isGM: true}), mayProcess: () => true, tokenDocuments: () => [token], context: () => ({turn: "Combat.c:1:t"}), idFactory: () => `id${++count}`, buildGrants: nativeGrants?buildBeastEssenceGrants:() => [{_id: "grant-new", name: "Garras", type: "weapon", flags: {[scope]: {beastEssenceGrant: {integrationId: essence.id, key: "claw"}}}}], rollIntegration: async () => roll,
+  const runtime=create({user: () => ({id: "u", isGM}), mayProcess: () => true, tokenDocuments: () => [token], context: () => ({turn: "Combat.c:1:t"}), idFactory: () => `id${++count}`, buildGrants: nativeGrants?buildBeastEssenceGrants:() => [{_id: "grant-new", name: "Garras", type: "weapon", flags: {[scope]: {beastEssenceGrant: {integrationId: essence.id, key: "claw"}}}}], rollIntegration: async () => roll,
     commit: async (subject, data) => {if (nextCommitGate) {const gate=nextCommitGate; nextCommitGate=null; await gate;} if (fail) throw Error("write failed"); commits++; updates.push(structuredClone({...data, operations: []})); for (const [k, v] of Object.entries(data.actor??{}))set(subject, k, v); for (const id of data.delete??[])subject.items.delete(id); for (const i of data.create??[])subject.items.set(i._id, {...i, id: i._id}); for (const patch of data.item??[]) {const item=subject.items.get(patch._id); for (const [k, v] of Object.entries(patch)) if (k!=="_id")set(item, k, v);} for (const op of data.operations??[]) for (const patch of op.updates??[]) if (patch._id===token.id) for (const [k, v] of Object.entries(patch)) if (k!=="_id")set(token, k, v); return true;}});
   return {a, token, runtime, updates, rest(receipt) {a.flags[scope].beastEssence.completedRest={id: receipt, itemId: a.flags[scope].beastEssence.pendingItemId}; return runtime.completeBeastEssenceIntegration(a, receipt);}, get commits() {return commits;}, setRoll(value) {roll=value;}, holdNextCommit() {let release; nextCommitGate=new Promise(resolve => {release=resolve;}); return release;}, failWrite() {fail=true;}};
 }
@@ -52,7 +52,7 @@ test("growth unlocks native lineage traits, weakens at the next realm and remove
  const f=fixture({nativeGrants:true}),e=f.a.flags[scope].beastEssence.integrated;
  const feature=(key,level)=>({key,uuid:"Item."+key,level,data:{name:key,type:"feat",system:{activities:{}}}});
  e.taxonomy={features:[feature("early",1),feature("later",4),feature("above-cap",7)]};
- e.archetype={features:[feature("archetype",1)]};e.features=[feature("full",0),feature("weak",0)];
+ e.archetype={features:[feature("archetype",1)]};e.normalArchetypeFeatures=["archetype"];e.weakenedArchetypeFeatures=[];e.features=[feature("full",0),feature("weak",0)];
  e.normalFeatures=["full"];e.weakenedFeatures=["weak"];
  const grants=()=>[...f.a.items.values()].filter(i=>i.flags?.[scope]?.beastEssenceGrant).map(i=>i.flags[scope].beastEssenceGrant.key).sort();
  await f.runtime.activateBeastEssence(f.a);assert.deepEqual(grants(),["archetype","early","full"]);
@@ -64,4 +64,87 @@ test("growth unlocks native lineage traits, weakens at the next realm and remove
  f.a.system.cultivation.rank=4;await f.runtime.synchronizeBeastEssence(f.a);
  assert.deepEqual(grants(),[]);assert.equal(f.a.flags[scope].beastEssence.transformation.active,false);
  assert.equal(f.token.texture.src,"hero.webp");assert.equal(f.a.items.has("manual"),true);assert.equal(f.a.system.energy.generated,8);
+});
+
+
+test("Narrator growth edits awaken an existing essence without reintegration or resource spending",async()=>{
+ const f=fixture({rank:4}),before=structuredClone(f.a.flags[scope].beastEssence.integrated);
+ before.growthOrigin="rolled";before.growthRoll=9;f.a.flags[scope].beastEssence.integrated=before;
+ await f.runtime.setBeastEssenceGrowth(f.a,"heaven","",before.id);
+ const current=f.a.flags[scope].beastEssence.integrated;
+ assert.equal(current.growth,"heaven");assert.equal(current.growthOverride,true);
+ assert.deepEqual({...current,growth:before.growth,growthOverride:undefined},{...before,growthOverride:undefined});
+ const {essenceState}=await import("../module/systems/beast-essence-rules.mjs");
+ assert.equal(essenceState(f.a).mode,"normal");assert.equal(essenceState(f.a).limitRank,6);
+ assert.equal(f.a.flags[scope].beastEssence.transformation.active,false);
+ assert.equal(f.a.system.cultivation.points,10);assert.equal(f.a.system.energy.generated,10);assert.equal(f.a.system.legacy2.actions.value,3);
+ assert.equal(f.a.items.get("loot").system.quantity,2);
+});
+test("Narrator growth edits rebuild an active weakened form and retain spent native uses",async()=>{
+ const f=fixture({active:true,rank:3,nativeGrants:true}),e=f.a.flags[scope].beastEssence.integrated;
+ e.taxonomy={features:[{key:"new-trait",level:7,data:{name:"New trait",type:"feat",system:{activities:{}}}}]};
+ e.archetype={features:[{key:"archetype",level:1,data:{name:"Archetype",type:"feat",system:{activities:{}}}}]};e.normalArchetypeFeatures=["archetype"];e.weakenedArchetypeFeatures=[];
+ e.naturalWeapons=[{key:"claw",data:{name:"Garras",type:"weapon",system:{uses:{spent:0,max:5},activities:{}}}}];
+ await f.runtime.synchronizeBeastEssence(f.a);
+ const weapon=[...f.a.items.values()].find(i=>i.type==="weapon");weapon.system.uses.spent=3;
+ await f.runtime.setBeastEssenceGrowth(f.a,"earth","",e.id);
+ const form=f.a.flags[scope].beastEssence.transformation;
+ assert.equal(form.active,true);assert.equal(form.mode,"normal");
+ assert.equal([...f.a.items.values()].find(i=>i.type==="weapon").system.uses.spent,3);
+ const keys=[...f.a.items.values()].map(i=>i.flags?.[scope]?.beastEssenceGrant?.key);
+ assert(keys.includes("new-trait"));assert(keys.includes("archetype"));assert(f.a.items.has("manual"));
+ assert.equal(f.a.system.energy.generated,10);assert.equal(f.a.system.legacy2.actions.value,3);assert.equal(f.token.texture.src,"wolf.webp");
+ const count=f.commits;await f.runtime.synchronizeBeastEssence(f.a);assert.equal(f.commits,count);
+});
+test("lowering an active essence Rank ends unavailable forms and restores the token",async()=>{
+ const f=fixture({active:true,rank:4});f.a.flags[scope].beastEssence.integrated.growth="heaven";
+ await f.runtime.setBeastEssenceGrowth(f.a,"human","","old");
+ assert.equal(f.a.flags[scope].beastEssence.integrated.growth,"human");assert.equal(f.a.flags[scope].beastEssence.transformation.active,false);
+ assert.equal(f.token.texture.src,"hero.webp");assert.equal(f.a.items.has("grant"),false);assert(f.a.items.has("manual"));assert.equal(f.a.system.energy.generated,10);
+});
+test("editing inventory essence Rank changes future integration rather than a separately integrated essence",async()=>{
+ const f=fixture();await f.runtime.queueBeastEssenceIntegration(f.a,"loot");
+ await f.runtime.setBeastEssenceGrowth(f.a,"divine","loot","new");
+ assert.equal(f.a.items.get("loot").flags[scope].beastEssenceItem.definition.growth,"divine");
+ assert.equal(f.a.items.get("loot").system.quantity,2);assert.equal(f.a.flags[scope].beastEssence.integrated.growth,"human");
+ const result=await f.rest("changed-growth");assert.equal(result.dc,18);assert.equal(result.success,true);assert.equal(f.a.flags[scope].beastEssence.integrated.growth,"divine");
+});
+test("essence Rank edits reject players, invalid growth, missing targets and replaced integration",async()=>{
+ const player=fixture({isGM:false});await assert.rejects(()=>player.runtime.setBeastEssenceGrowth(player.a,"earth","","old"),/Narrador/);assert.equal(player.commits,0);
+ const f=fixture();for(const growth of ["",null,"invalid","constructor",1])await assert.rejects(()=>f.runtime.setBeastEssenceGrowth(f.a,growth,"","old"),/crescimento|Rank/);
+ await assert.rejects(()=>f.runtime.setBeastEssenceGrowth(f.a,"earth","manual","old"),/essência/);
+ await assert.rejects(()=>f.runtime.setBeastEssenceGrowth(f.a,"earth","","replaced"),/mudou|substituída/);
+ assert.equal(f.commits,0);
+});
+test("failed essence Rank edits cannot partially change form grants or growth",async()=>{
+ const f=fixture({active:true}),before=structuredClone({flags:f.a.flags,items:[...f.a.items],token:f.token.texture});f.failWrite();
+ await assert.rejects(()=>f.runtime.setBeastEssenceGrowth(f.a,"earth","","old"),/write failed/);
+ assert.deepEqual({flags:f.a.flags,items:[...f.a.items],token:f.token.texture},before);
+});
+
+
+test("editing integrated skill selections reconciles active grants without refilling uses or spending resources",async()=>{
+ const f=fixture({nativeGrants:true}),e=f.a.flags[scope].beastEssence.integrated;
+ const skill=key=>({key,level:1,data:{name:key,type:"feat",system:{uses:{spent:0,max:5},activities:{}}}});
+ e.archetype={features:[skill("a"),skill("b"),skill("c")]};e.normalArchetypeFeatures=["a","b"];e.weakenedArchetypeFeatures=["b"];
+ await f.runtime.activateBeastEssence(f.a);const first=[...f.a.items.values()].find(i=>i.name==="a");first.system.uses.spent=3;
+ const before={qi:f.a.system.energy.generated,actions:f.a.system.legacy2.actions.value,points:f.a.system.cultivation.points};
+ await f.runtime.setBeastEssenceSelections(f.a,{normalArchetypeFeatures:["a","c"],weakenedArchetypeFeatures:["c"]},"",e.id);
+ assert.deepEqual([...f.a.items.values()].filter(i=>i.flags?.[scope]?.beastEssenceGrant?.kind==="archetype").map(i=>i.name),["a","c"]);
+ assert.equal([...f.a.items.values()].find(i=>i.name==="a").system.uses.spent,3);assert.deepEqual({qi:f.a.system.energy.generated,actions:f.a.system.legacy2.actions.value,points:f.a.system.cultivation.points},before);
+ assert.equal(f.a.flags[scope].beastEssence.transformation.active,true);assert.equal(f.token.texture.src,"wolf.webp");assert(f.a.items.has("manual"));
+});
+test("inventory skill choices persist without integrating and invalid choices cannot mutate an essence",async()=>{
+ const f=fixture(),e=f.a.items.get("loot").flags[scope].beastEssenceItem.definition;
+ e.archetype={features:[{key:"pick",level:1,data:{name:"pick",type:"feat",system:{activities:{}}}}]};
+ await f.runtime.setBeastEssenceSelections(f.a,{normalArchetypeFeatures:["pick"],weakenedArchetypeFeatures:["pick"]},"loot",e.id);
+ assert.deepEqual(f.a.items.get("loot").flags[scope].beastEssenceItem.definition.normalArchetypeFeatures,["pick"]);assert.equal(f.a.items.get("loot").system.quantity,2);assert.equal(f.a.flags[scope].beastEssence.integrated.id,"old");
+ const before=f.commits;await assert.rejects(()=>f.runtime.setBeastEssenceSelections(f.a,{normalArchetypeFeatures:["foreign"]},"loot",e.id),/Seleção/);assert.equal(f.commits,before);
+ const player=fixture({isGM:false});await assert.rejects(()=>player.runtime.setBeastEssenceSelections(player.a,{},"","old"),/Narrador/);
+});
+test("reconciliation removes stale automatic archetype grants even when the old signature is still current",async()=>{
+ const f=fixture({nativeGrants:true});await f.runtime.activateBeastEssence(f.a);const form=f.a.flags[scope].beastEssence.transformation;
+ const old={id:"stale",type:"feat",name:"old",flags:{[scope]:{beastEssenceGrant:{integrationId:"old",key:"old-skill",kind:"archetype"}}}};
+ f.a.items.set(old.id,old);form.grantedItemIds.push(old.id);
+ await f.runtime.synchronizeBeastEssence(f.a);assert.equal(f.a.items.has(old.id),false);assert(f.a.items.has("manual"));
 });

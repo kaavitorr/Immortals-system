@@ -1,3 +1,4 @@
+import {beastEssenceArchetypeFeatures} from "./beast-essence-selections.mjs";
 import {essenceState} from "./beast-essence-rules.mjs";
 import {npcFeatureRollData} from "./legacy2-npc-features.mjs";
 
@@ -133,9 +134,7 @@ export function buildBeastEssenceGrants(actor, {idFactory = globalThis.foundry?.
   for (const record of list(essence.taxonomy?.features)) {
     if (Number.isFinite(Number(record.level)) && Number(record.level) >= 0 && Number(record.level) <= state.effectiveLevel) add(record, "taxonomy");
   }
-  if (normal) for (const record of list(essence.archetype?.features)) {
-    if (Number.isFinite(Number(record.level)) && Number(record.level) <= state.effectiveLevel) add(record, "archetype");
-  }
+  for (const record of beastEssenceArchetypeFeatures(essence,state.mode,state.effectiveLevel)) add(record,"archetype");
   const features = new Set(list(normal ? essence.normalFeatures : essence.weakenedFeatures));
   for (const record of list(essence.features)) if (features.has(record.key)) add(record, "feature");
   for (const record of list(essence.naturalWeapons)) add(record, "naturalWeapon");

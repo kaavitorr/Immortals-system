@@ -330,8 +330,8 @@ export function createBeastEssenceDeathController(dependencies = {}) {
  */
 export function prepareBeastEssenceCaptureContext(snapshot, session, form = {}, error = "") {
   const record=session.record(); const selected=(name, key) => (form.selection?.[name]??[]).includes(key);
-  const profileView=profile => ({name: profile.name, img: profile.img,
-    features: (profile.features??[]).map(entry => ({name: entry.data.name, img: entry.data.img, level: entry.level})),
+  const profileView=(profile,isArchetype=false) => ({name: profile.name, img: profile.img,isArchetype,
+    features: (profile.features??[]).map(entry => ({key:entry.key,name: entry.data.name, img: entry.data.img, level: entry.level,normal:selected("normalArchetypeFeatures",entry.key),weakened:selected("weakenedArchetypeFeatures",entry.key)})),
     summary: [...Object.entries(profile.resistances??{}).flatMap(([key, value]) => {
       const points=typeof value==="number"?value:value?.value;
       return value?.immune?[`Imunidade a ${DAMAGES[key]??key}`]:points?[`${DAMAGES[key]??key}: ${points}`]:[];
@@ -363,7 +363,7 @@ export function prepareBeastEssenceCaptureContext(snapshot, session, form = {}, 
       selected: value===(form.selection?.ability??snapshot.highestAbilities[0])})),
     elements: snapshot.elements.map(value => ({value, label: CONCEITO_POR_ID[value]?.label??value,
       selected: (form.selection?.elements??[]).includes(value)})),
-    profiles: [snapshot.taxonomy, snapshot.archetype].filter(Boolean).map(profileView),
+    profiles: [snapshot.taxonomy?profileView(snapshot.taxonomy):null,snapshot.archetype?profileView(snapshot.archetype,true):null].filter(Boolean),
     naturalWeapons: snapshot.naturalWeapons.map(entry => ({name: entry.data.name, img: entry.data.img})),
     features: snapshot.features.map(entry => ({key: entry.key, name: entry.data.name, img: entry.data.img, normal: selected("normalFeatures", entry.key), weakened: selected("weakenedFeatures", entry.key)})),
     attacks: snapshot.attacks.map((entry, index) => ({key: entry.key, index, name: `${entry.itemName} — ${entry.data.system.activities[entry.activityId]?.name??entry.activityId}`, img: entry.data.img,
@@ -391,7 +391,7 @@ function readCaptureForm(element, snapshot) {
   const attackCosts={};
   snapshot.attacks.forEach((entry, index) => {const damage=get(`damage-${index}`); const effect=get(`effect-${index}`); attackCosts[entry.key]={}; if (damage!=="")attackCosts[entry.key].damageInstances=Number(damage); if (effect!=="")attackCosts[entry.key].effectQi=Number(effect);});
   return {recipient:String(get("recipient")??"world"),core:{elementId:String(get("coreElement")??"neutro"),rank:Number(get("coreRank"))},mode: String(get("mode")), sourceRealm: knownRank(get("sourceRealm")), referenceId: String(get("referenceId")??""), divineBeast: get("divineBeast")==="on",
-    selection: {lineageId:String(get("lineageId")??"")||undefined,growth: String(get("growth")), ability: String(get("ability")), elements: list("elements"), normalFeatures: list("normalFeatures"), weakenedFeatures: list("weakenedFeatures"), normalAttacks: list("normalAttacks"), weakenedAttacks: list("weakenedAttacks"), attackCosts, tokenTexture: String(get("tokenTexture")??"")}};
+    selection: {lineageId:String(get("lineageId")??"")||undefined,growth: String(get("growth")), ability: String(get("ability")), elements: list("elements"), normalArchetypeFeatures:list("normalArchetypeFeatures"),weakenedArchetypeFeatures:list("weakenedArchetypeFeatures"),normalFeatures: list("normalFeatures"), weakenedFeatures: list("weakenedFeatures"), normalAttacks: list("normalAttacks"), weakenedAttacks: list("weakenedAttacks"), attackCosts, tokenTexture: String(get("tokenTexture")??"")}};
 }
 
 /**

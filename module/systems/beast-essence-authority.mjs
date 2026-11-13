@@ -1,6 +1,8 @@
+import {parseBeastEssenceSelections} from "./beast-essence-selections.mjs";
+import {ESSENCE_GROWTH} from "./beast-essence-rules.mjs";
 /** One elected document owner executes every native Beast Essence mutation. */
 const CHANNEL = "system.Immortals-system";
-const ACTIONS = new Set(["queue", "activate", "deactivate", "setToken", "remove", "completeRest", "sync", "turn", "cultivationDestiny"]);
+const ACTIONS = new Set(["queue", "activate", "deactivate", "setToken", "remove", "completeRest", "sync", "turn", "cultivationDestiny", "setGrowth", "setSelections"]);
 const registrations = new WeakMap();
 const REQUEST_KEYS = new Set(["type", "version", "requestId", "requesterId", "executorId", "actorUuid", "action", "args"]);
 const RESPONSE_KEYS = new Set(["type", "version", "requestId", "requesterId", "executorId", "actorUuid", "action", "ok", "result", "error"]);
@@ -62,12 +64,17 @@ function validateActor(actor, uuid=actor?.uuid) {
  */
 function validateAction(action, args) {
   if (!ACTIONS.has(action) || !Array.isArray(args)) throw new Error("Ação de Essência de Besta inválida.");
-  const count=action==="turn"?3:["queue", "setToken", "completeRest", "cultivationDestiny"].includes(action)?1:0;
+  const count=["turn","setGrowth","setSelections"].includes(action)?3:["queue", "setToken", "completeRest", "cultivationDestiny"].includes(action)?1:0;
   if (args.length!==count || args.some(arg => typeof arg!=="string")) throw new Error("Argumentos inválidos para a ação da essência.");
   if (action==="cultivationDestiny" && (args[0].length>200000||!args[0].trim())) throw new Error("Comando de herança inválido.");
   if (action==="turn" && (!/^Combat\.[A-Za-z0-9_-]{1,64}$/.test(args[0])
     || !/^[A-Za-z0-9_-]{1,64}$/.test(args[1]) || !/^[1-9][0-9]{0,6}$/.test(args[2])
     || Number(args[2])>1000000)) throw new Error("Identidade ou rodada de combate inválida para a essência.");
+  if(action==="setGrowth"&&(!Object.hasOwn(ESSENCE_GROWTH,args[0])||(args[1]&&!/^[A-Za-z0-9_-]{1,64}$/.test(args[1]))||!args[2].trim()||args[2].length>512||/[\u0000-\u001f]/.test(args[2])))throw new Error("Rank de crescimento ou essência inválida.");
+  if(action==="setSelections") {
+    parseBeastEssenceSelections(args[0]);
+    if((args[1]&&!/^[A-Za-z0-9_-]{1,64}$/.test(args[1]))||!args[2].trim()||args[2].length>512||/[\u0000-\u001f]/.test(args[2]))throw Error("Seleção de habilidades ou essência inválida.");
+  }
   if (action==="queue" && !/^[A-Za-z0-9_-]{1,64}$/.test(args[0])) throw new Error("Identificador de essência inválido.");
   if (action==="completeRest" && (!args[0].trim() || args[0].length>512 || /[\u0000-\u001f]/.test(args[0]))) throw new Error("Comprovante de descanso inválido.");
   if (action==="setToken" && (args[0].length>4096 || /[\u0000-\u001f]/.test(args[0])
@@ -133,12 +140,17 @@ export function registerBeastEssenceAuthority(handlers, options={}) {
   const requireExecutor=(actor, id) => {
     if (game.user?.id!==id || !game.user?.active || beastEssenceExecutor(actor, game)?.id!==id) throw new Error("O executor responsável pela essência mudou. Tente novamente após a sincronização.");
   };
+  const requireRequester=(actor,id,action)=>{
+    const user=requireOwner(actor,id);
+    if(["setGrowth","setSelections"].includes(action)&&user.isGM!==true)throw new Error("Somente o Narrador pode alterar o Rank ou as habilidades de uma essência.");
+    return user;
+  };
   const invoke=async (actor, action, args, requesterId, executorId) => {
-    validateAction(action, args); requireOwner(actor, requesterId); requireExecutor(actor, executorId);
+    validateAction(action, args); requireRequester(actor, requesterId, action); requireExecutor(actor, executorId);
     const handler=Object.hasOwn(handlers, action)?handlers[action]:null;
     if (!handler) throw new Error("Esta ação de essência não está disponível no executor.");
-    const authorize=()=>{requireOwner(actor,requesterId);requireExecutor(actor,executorId);};
-    const result=action==="cultivationDestiny"?await handler(actor,...args,{authorize}):await handler(actor, ...args);
+    const authorize=()=>{requireRequester(actor,requesterId,action);requireExecutor(actor,executorId);};
+    const result=["cultivationDestiny","setGrowth","setSelections"].includes(action)?await handler(actor,...args,{authorize}):await handler(actor, ...args);
     requireOwner(actor, requesterId); requireExecutor(actor, executorId);
     return resultReceipt(result);
   };
@@ -172,7 +184,7 @@ export function registerBeastEssenceAuthority(handlers, options={}) {
     try {
       actor=await resolve?.(request.actorUuid);
       validateActor(actor, request.actorUuid);
-      requireOwner(actor, senderId);
+      requireRequester(actor, senderId, request.action);
       requireExecutor(actor, request.executorId);
     } catch (error) {respond(request, {ok: false, error: safeError(error)}); return;}
     // Even cached results require fresh ownership and executor checks; UUID resolution also yields.
@@ -200,7 +212,7 @@ export function registerBeastEssenceAuthority(handlers, options={}) {
     if (!waiting || senderId!==waiting.executorId || response.executorId!==senderId
       || response.actorUuid!==waiting.actor.uuid || response.action!==waiting.action || typeof response.ok!=="boolean") return;
     try {
-      requireOwner(waiting.actor, game.user.id);
+      requireRequester(waiting.actor, game.user.id, waiting.action);
       if (beastEssenceExecutor(waiting.actor, game)?.id!==waiting.executorId) throw new Error("O executor responsável pela essência mudou. Tente novamente após a sincronização.");
       if (!response.ok) throw new Error(typeof response.error==="string"?response.error.slice(0, 512):"A ação de essência não pôde ser concluída.");
       settle(response.requestId, null, resultReceipt(response.result));
@@ -217,7 +229,7 @@ export function registerBeastEssenceAuthority(handlers, options={}) {
     addHandlers(next){if(!plain(next)||Object.keys(next).some(action=>!ACTIONS.has(action)||typeof next[action]!=="function"))throw new Error("Ações nativas inválidas.");for(const[action,fn]of Object.entries(next))if(!Object.hasOwn(handlers,action))handlers[action]=fn;},
     async dispatch(actor, action, args=[]) {
       if (closed) throw new Error("A autoridade de essência foi encerrada.");
-      validateActor(actor); validateAction(action, args); requireOwner(actor, game.user?.id);
+      validateActor(actor); validateAction(action, args); requireRequester(actor, game.user?.id, action);
       const executor=beastEssenceExecutor(actor, game);
       if (!executor) throw new Error("Nenhum proprietário ou Narrador ativo está disponível para executar esta ação.");
       if (executor.id===game.user.id) return invoke(actor, action, [...args], game.user.id, executor.id);

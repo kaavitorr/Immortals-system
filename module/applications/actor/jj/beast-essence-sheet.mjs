@@ -1,12 +1,15 @@
+import {requestBeastEssenceSelections} from "../../shared/beast-essence-selection-editor.mjs";
+import {beastEssenceArchetypeFeatures,beastEssenceSelectionPending} from "../../../systems/beast-essence-selections.mjs";
+import {requestBeastEssenceGrowth} from "../../shared/beast-essence-growth-editor.mjs";
 import {essenceState, ESSENCE_GROWTH} from "../../../systems/beast-essence-rules.mjs";
-import {queueBeastEssenceIntegration, activateBeastEssence, deactivateBeastEssence, setBeastEssenceToken, removeBeastEssence} from "../../../systems/beast-essence-runtime.mjs";
+import {queueBeastEssenceIntegration, activateBeastEssence, deactivateBeastEssence, setBeastEssenceToken, removeBeastEssence, setBeastEssenceGrowth, setBeastEssenceSelections} from "../../../systems/beast-essence-runtime.mjs";
 import {CULTIVATION_RANKS} from "../../../systems/cultivation-data.mjs";
 import {CONCEITO_POR_ID} from "../../../systems/elemental-concepts-data.mjs";
 
 const SCOPE = "Immortals-system";
 const FALLBACK_ART = "systems/Immortals-system/assets/wuxia/essencias-pintadas-v1/essencia-de-besta.webp";
 const GROWTH_LABELS = Object.fromEntries(Object.entries(ESSENCE_GROWTH).map(([id,value])=>[id,value.label]));
-const growthReceiptLabel = definition => definition?.growthOrigin==="divine" ? "Besta Divina"
+const growthReceiptLabel = definition => definition?.growthOverride ? "Alterado pelo Narrador" : definition?.growthOrigin==="divine" ? "Besta Divina"
   : Number.isInteger(definition?.growthRoll) ? `1d100 · ${definition.growthRoll}` : "Definido pelo Narrador";
 const ABILITY_LABELS = {str: "Força", dex: "Agilidade", con: "Constituição", int: "Intelecto", wis: "Sabedoria", cha: "Presença"};
 const busy = new Set();
@@ -55,12 +58,14 @@ function formView(essence, mode, currentMode, effectiveLevel, costsPending) {
   const normal = mode === "normal";
   const featureKeys = new Set(list(normal ? essence.normalFeatures : essence.weakenedFeatures));
   const attackKeys = new Set(list(normal ? essence.normalAttacks : essence.weakenedAttacks));
-  const taxonomies = [essence.taxonomy, ...(normal ? [essence.archetype] : [])].filter(Boolean);
-  const traits = taxonomies.flatMap(taxonomy => list(taxonomy.features).map(record => ({...recordView(record), level:record.level, locked:Number(record.level)>effectiveLevel})));
+  const taxonomies = [essence.taxonomy, essence.archetype].filter(Boolean);
+  const archetypeFeatures=beastEssenceArchetypeFeatures(essence,mode);
+  const traits = [...list(essence.taxonomy?.features),...archetypeFeatures].map(record => ({...recordView(record), level:record.level, locked:Number(record.level)>effectiveLevel}));
   traits.push(...list(essence.features).filter(record => featureKeys.has(record.key)).map(recordView));
   return {
     mode, label: normal ? "Forma normal" : "Forma enfraquecida", current: currentMode === mode,
-    lineages: taxonomies.map(taxonomy => ({name: taxonomy.name, summary: nativeSummary(taxonomy)})),
+    archetypeCount:archetypeFeatures.length,archetypeLimit:normal?5:1,
+    lineages: taxonomies.map(taxonomy => ({name: taxonomy.name, summary:!normal&&taxonomy===essence.archetype?"":nativeSummary(taxonomy)})),
     traits,
     attacks: list(essence.attacks).filter(record => attackKeys.has(record.key)).map(record => ({
       ...recordView(record), costPending:costsPending || record.effectQi==null, actionsLabel: numberLabel(record.actions), actionsNoun: Number(record.actions) === 1 ? "ação" : "ações", areaLabel: record.area ? "Área" : "Alvo único",
@@ -98,7 +103,7 @@ export function prepareBeastEssenceContext(context, _options) {
     ? nativeLabel(globalThis.CONFIG.JUJUTSU.abilities, state.ability)
     : ABILITY_LABELS[state.ability] ?? "Atributo não informado";
   context.beastEssence = {
-    ...state, hidden: false, editable: editable(this), hasEssence: !!essence, modeLabel,
+    ...state, hidden: false, editable: editable(this), canEditGrowth: editable(this) && globalThis.game?.user?.isGM===true, canEditSelections:editable(this)&&globalThis.game?.user?.isGM===true, archetypeSelectionPending:beastEssenceSelectionPending(essence), hasEssence: !!essence, modeLabel,
     dormantDescription: state.rank<1 ? "Alcance Condensação de Qi para despertar os benefícios desta essência." : "Seu cultivo está dois reinos acima do limite desta essência. A transformação e todos os benefícios estão suspensos.",
     activeLabel: state.mode==="dormant" ? "Essência inativa" : state.active ? "Transformação ativa" : "Transformação encerrada", dormant: state.mode === "dormant",
     canActivate: editable(this) && !!essence && !state.active && ["normal", "weakened"].includes(state.mode),
@@ -188,7 +193,32 @@ async function remove(sheet) {
   });
 }
 
+async function editGrowth(sheet,target) {
+  if(globalThis.game?.user?.isGM!==true)return;
+  return write(sheet,async()=>{
+    const itemId=target?.dataset?.itemId??"";
+    const definition=itemId?ownedItem(sheet,itemId)?.flags?.[SCOPE]?.beastEssenceItem?.definition:flags(sheet.actor).integrated;
+    if(!definition)return;
+    const expectedId=definition.id,growth=await requestBeastEssenceGrowth(definition);
+    if(growth===null||growth===undefined||growth===false||!editable(sheet)||globalThis.game?.user?.isGM!==true)return;
+    return setBeastEssenceGrowth(sheet.actor,growth,itemId,expectedId);
+  });
+}
+
+async function editSelections(sheet,target) {
+  if(globalThis.game?.user?.isGM!==true)return;
+  return write(sheet,async()=>{
+    const itemId=target?.dataset?.itemId??"",definition=itemId?ownedItem(sheet,itemId)?.flags?.[SCOPE]?.beastEssenceItem?.definition:flags(sheet.actor).integrated;
+    if(!definition)return;
+    const expectedId=definition.id,selection=await requestBeastEssenceSelections(definition);
+    if(!selection||!editable(sheet)||globalThis.game?.user?.isGM!==true)return;
+    return setBeastEssenceSelections(sheet.actor,selection,itemId,expectedId);
+  });
+}
+
 export const beastEssenceActions = {
+  beastEssenceEditSelections: function(_event,target) {return editSelections(this,target);},
+  beastEssenceEditGrowth: function(_event,target) { return editGrowth(this,target); },
   beastEssencePrepareIntegration: function(_event, target) { return prepareIntegration(this, target); },
   beastEssenceActivate: function() { return write(this, () => activateBeastEssence(this.actor)); },
   beastEssenceDeactivate: function() { return write(this, () => deactivateBeastEssence(this.actor)); },

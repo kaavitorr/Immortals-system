@@ -25,7 +25,7 @@ function actor() {
   const entry=(key, level=0, type="feat") => ({key, uuid: `Compendium.beast.Item.${key}`, level, data: native(key, type)});
   const taxonomy=entry("taxonomy", 1); const overLevel=entry("future", 9); const archetype=entry("archetype", 2); const extra=entry("extra"); const claws=entry("claws", 0, "weapon"); const attack=entry("attack");
   const essence={version: 1, id: "integrated-a", growth: "earth", ability: "con", elements: ["terra"],
-    taxonomy: {features: [taxonomy, overLevel]}, archetype: {features: [archetype, {...taxonomy, key: "duplicate-key"}]},
+    taxonomy: {features: [taxonomy, overLevel]}, archetype: {features: [archetype, {...taxonomy, key: "duplicate-key"}]}, normalArchetypeFeatures: ["archetype","duplicate-key"], weakenedArchetypeFeatures: ["archetype"],
     naturalWeapons: [claws], features: [extra, {...taxonomy, key: "duplicate-extra"}], normalFeatures: ["extra", "duplicate-extra"], weakenedFeatures: ["extra"],
     attacks: [{...attack, key: "attack:first", actions: 2, damageInstances: 2, effectQi: 1, area: true},
       {...attack, key: "attack:second", actions: 3, damageInstances: 1, effectQi: 0, area: false}], normalAttacks: ["attack:first", "attack:second"], weakenedAttacks: ["attack:first"]};
@@ -44,10 +44,10 @@ test("normal form grants native taxonomy, archetype, chosen features, all natura
   assert.deepEqual(a, before);
 });
 
-test("weakened form drops archetype, honors feature selections and uses the growth ceiling", () => {
+test("weakened form grants one selected archetype ability and uses the growth ceiling", () => {
   const a=actor(); a.system.cultivation.rank=5;
   const sources=buildBeastEssenceGrants(a, {idFactory: ids()});
-  assert.deepEqual(sources.map(source => grant(source).kind), ["taxonomy", "taxonomy", "feature", "naturalWeapon", "attack"]);
+  assert.deepEqual(sources.map(source => grant(source).kind), ["taxonomy", "taxonomy", "archetype", "feature", "naturalWeapon", "attack"]);
   assert(sources.every(source => grant(source).mode==="weakened"&&grant(source).level===12));
   assert.equal(sources.filter(source => grant(source).kind==="attack").length, 1);
 });
